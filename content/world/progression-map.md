@@ -6,34 +6,43 @@ status: in-progress
 ---
 ```mermaid
 graph TD
-
     %% =====================================================
     %% ACT 1 — LINEAR INTRODUCTION
     %% =====================================================
 
     START([New Game])
 
-    M01["M01<br/>Awakening"]
-    M02["M02<br/>First Contact"]
-    M03["M03<br/>Into the Ruins"]
-    M04["M04<br/>System Breach"]
-    M05["M05<br/>The First Imprint"]
+    subgraph B01["B01 - Freight Terminal"]
+      M01["M01<br/>Restore the Cargo Line"]
+      HUB0.1["HUB0<br/>Meet VECTOR"]
+      M02["M02<br/>Open the Floodgates"]
+      HUB0.2["HUB0"]
+      M03["M03<br/>Restart the Deep Pumps"]
+    end
+    HUB0.3["HUB0<br/>Meet RAM"]
+    subgraph B02["B02 - Fabrication Plant"]
+      M04["M04<br/>Breach the Lockdown"]
+      HUB0.4["HUB0"]
+      M05["M05<br/>Lift the Governor"]
+    end
+    HUB1["HUB1<br/>Campaign Hub<br/>Choose Biome"]
 
     START --> M01
-    M01 --> M02
-    M02 --> M03
-    M03 --> M04
-    M04 --> M05
+    M01 --> HUB0.1
+    HUB0.1 --> M02
+    M02 --> HUB0.2
+    HUB0.2 --> M03
+    M03 --> HUB0.3
+    HUB0.3 --> M04
+    M04 --> HUB0.4
+    HUB0.4 --> M05
     M05 --> HUB1
-
-    HUB1["HUB-01<br/>Campaign Hub<br/>Choose Biome"]
-
 
     %% =====================================================
     %% ACT 2 — OPEN BIOME CAMPAIGN
     %% =====================================================
 
-    subgraph BIO_A["Biome A — Industrial Wastes"]
+    subgraph B03["B03 — Industrial Wastes"]
         MA01["MA01<br/>Factory Outskirts"]
         MA02["MA02<br/>Assembly Core"]
         MA03["MA03<br/>Biome Guardian"]
@@ -42,7 +51,7 @@ graph TD
         MA02 --> MA03
     end
 
-    subgraph BIO_B["Biome B — Flooded Depths"]
+    subgraph B04["B04 — Flooded Depths"]
         MB01["MB01<br/>Sunken District"]
         MB02["MB02<br/>Pressure Complex"]
         MB03["MB03<br/>Biome Guardian"]
@@ -51,7 +60,7 @@ graph TD
         MB02 --> MB03
     end
 
-    subgraph BIO_C["Biome C — Overgrown Expanse"]
+    subgraph B05["B05 — Overgrown Expanse"]
         MC01["MC01<br/>Living Frontier"]
         MC02["MC02<br/>Spore Network"]
         MC03["MC03<br/>Biome Guardian"]
@@ -60,7 +69,7 @@ graph TD
         MC02 --> MC03
     end
 
-    subgraph BIO_D["Biome D — Frozen Relay"]
+    subgraph B06["B06 — Frozen Relay"]
         MD01["MD01<br/>Icebound Station"]
         MD02["MD02<br/>Signal Vault"]
         MD03["MD03<br/>Biome Guardian"]
@@ -100,15 +109,21 @@ graph TD
     %% =====================================================
 
     MA01 -.->|Hidden entrance| MS01
-    MS01["MS01<br/>Abandoned Transit Line"]
+    subgraph B05
+      MS01["MS01<br/>Abandoned Transit Line"]
+    end
     MS01 -.->|Shortcut to Biome C| MC02
 
     MB02 -.->|Encrypted key found| MS02
-    MS02["MS02<br/>Null Laboratory"]
+    subgraph B06
+      MS02["MS02<br/>Null Laboratory"]
+    end
     MS02 -.->|Alternate guardian access| MD03
 
     MD01 -.->|Concealed wall| MS03
-    MS03["MS03<br/>Forgotten Archive"]
+    subgraph B04
+      MS03["MS03<br/>Forgotten Archive"]
+    end
     MS03 -.->|Shortcut to Biome B| MB02
 
 
@@ -116,46 +131,55 @@ graph TD
     %% OPTIONAL EARLY SECRET ENDING
     %% =====================================================
 
-    MC02 -.->|Accept the network| SE01
-
-    SE01["SE01<br/>Symbiotic Ascension"]
-    SE01 --> SECRET_ENDING
-
+    CHECK_SE01{"Was in MS01"}
+    MC02 -.->|Accept the network| CHECK_SE01
+    CHECK_SE01 -.->|YES| SE01
+    CHECK_SE01 -.->|NO| MC03
     SECRET_ENDING([Secret Ending<br/>The Bloom])
+
+    subgraph B99["B99 - secret area"]
+      SE01["SE01<br/>Symbiotic Ascension"]
+    end
+      SE01 --> SECRET_ENDING
+
 
 
     %% =====================================================
     %% ACT 3 — SECOND HUB
     %% =====================================================
 
-    HUB2["HUB-02<br/>Guardian Nexus<br/>Final Assault Hub"]
-
-    M06["M06<br/>Enemy Stronghold"]
-    M07["M07<br/>Defense Network"]
-    M08["M08<br/>Core Descent"]
-    M09["M09<br/>Final Boss"]
+    HUB2["HUB2<br/>Guardian Nexus<br/>Final Assault Hub"]
+    subgraph B07["B07 - UNNAMED"]
+      M06["M06<br/>Enemy Stronghold"]
+      M07["M07<br/>Defense Network"]
+    end
+    subgraph B08["B08 - UNNAMED"]
+      M08["M08<br/>Core Descent"]
+      M09["M09<br/>Final Boss"]
+    end
+    STANDARD_ENDING([Standard Ending<br/>Cycle Broken])
 
     HUB2 --> M06
     M06 --> M07
     M07 --> M08
     M08 --> M09
-
     M09 --> STANDARD_ENDING
-
-    STANDARD_ENDING([Standard Ending<br/>Cycle Broken])
 
 
     %% =====================================================
     %% SECRET ENDGAME ROUTE
     %% Branches from M07 and leads to a separate ending
     %% =====================================================
+    HS01["HS01<br/>Sealed Transit Core"]
+    SECRET_SPLIT{"Choose Hidden Route"}
 
     M07 -.->|Discover hidden access| HS01
 
-    HS01["HS01<br/>Sealed Transit Core"]
-    HS01 --> SECRET_SPLIT
+    subgraph B09["B09 - UNNAMED"]
+      HS01 --> SECRET_SPLIT
+    end
 
-    SECRET_SPLIT{"Choose Hidden Route"}
+
 
 
     %% =====================================================
@@ -164,9 +188,11 @@ graph TD
 
     SECRET_SPLIT -->|Enter the archive| HA01
 
-    HA01["HA01<br/>Memory Archive"]
-    HA02["HA02<br/>Lost Prototype"]
-    HA03["HA03<br/>Zero Protocol"]
+    subgraph B10["B10 - UNNAMED"]
+      HA01["HA01<br/>Memory Archive"]
+      HA02["HA02<br/>Lost Prototype"]
+      HA03["HA03<br/>Zero Protocol"]
+    end
 
     HA01 --> HA02
     HA02 --> HA03
@@ -179,10 +205,14 @@ graph TD
 
     SECRET_SPLIT -->|Enter the source network| HB01
 
-    HB01["HB01<br/>Source Network"]
-    HB02["HB02<br/>Fractured Consciousness"]
-    HB03["HB03<br/>Inner Architect"]
-    HB04["HB04<br/>Original Imprint"]
+    subgraph B09
+      HB01["HB01<br/>Source Network"]
+    end
+    subgraph B11["B11 - UNNAMED"]
+      HB02["HB02<br/>Fractured Consciousness"]
+      HB03["HB03<br/>Inner Architect"]
+      HB04["HB04<br/>Original Imprint"]
+    end
 
     HB01 --> HB02
     HB02 --> HB03
@@ -194,15 +224,17 @@ graph TD
     %% SECRET BRANCHES REJOIN
     %% =====================================================
 
-    SECRET_JOIN["HS02<br/>Origin Convergence"]
+    subgraph B12["B12 - UNNAMED"]
+      SECRET_JOIN["HS02<br/>Origin Convergence"]
+      SECRET_BOSS["HS03<br/>True Final Boss"]
+    end
+    TRUE_ENDING([True Ending<br/>Imprint Zero])
 
     SECRET_JOIN --> SECRET_BOSS
 
-    SECRET_BOSS["HS03<br/>True Final Boss"]
 
     SECRET_BOSS --> TRUE_ENDING
 
-    TRUE_ENDING([True Ending<br/>Imprint Zero])
 
 
     %% =====================================================
@@ -234,7 +266,7 @@ graph TD
 
     class M01,M02,M03,M04,M05 intro;
 
-    class HUB1,HUB2,CHECK hub;
+    class HUB1,HUB0.1,HUB0.2,HUB0.3,HUB0.4,HUB2,CHECK,CHECK_SE01 hub;
 
     class MA01,MA02,MB01,MB02,MC01,MC02,MD01,MD02 biome;
 
