@@ -1,3 +1,6 @@
+## Ideas to compile
+- [[ideas1|Campaign Shape]]
+- [[ideas2|Story]]
 ## Start here
 
 - [[Home|Imprint Zero — One Pager]]
@@ -14,24 +17,64 @@
   - [[World/Flood Control Works|Flood-Control Works]]
   - [[World/Automated Fabrication Plant|Automated Fabrication Plant]]
 - [[Biomes/Overview|Biomes]]
-  - [[Biomes/BIO 00|B00 — Template]]
-  - [[Biomes/BIO 01|B01 — Untitled]]
-  - [[Biomes/BIO 02|B02 — Untitled]]
-  - [[Biomes/BIO 03|B03 — Untitled]]
-  - [[Biomes/BIO 04|B04 — Untitled]]
-  - [[Biomes/BIO 05|B05 — Untitled]]
+  - [[Biomes/B01|B01 — Freight Terminal]]
+  - [[Biomes/B02|B02 — Fabrication Plant]]
+  - [[Biomes/B03|B03 — Untitled]]
+  - [[Biomes/B04|B04 — Untitled]]
+  - [[Biomes/B05|B05 — Untitled]]
+  - [[Biomes/B06|B06 — Untitled]]
+  - [[Biomes/B07|B07 — Untitled]]
+  - [[Biomes/B08|B08 — Untitled]]
+  - [[Biomes/B09|B09 — Untitled]]
+  - [[Biomes/B10|B10 — Untitled]]
+  - [[Biomes/B11|B11 — Untitled]]
+  - [[Biomes/B12|B12 — Untitled]]
 - [[Missions/Overview|Missions]]
+  - **[[Missions/A02| Act 1]]**
   - [[Missions/M00|M00 — Template]]
-  - [[Missions/M01|M01 — Tutorial]]
-  - [[Missions/M02|M02 — Untitled]]
-  - [[Missions/M03|M03 — Untitled]]
-  - [[Missions/M04|M04 — Untitled]]
-  - [[Missions/M05|M05 — Untitled]]
+  - [[Missions/M01|M01 — Restore the Cargo Line]]
+  - [[Missions/M02|M02 — Open the Floodgates]]
+  - [[Missions/M03|M03 — Restart the Deep Pumps]]
+  - [[Missions/M04|M04 — Breach the Lockdown]]
+  - [[Missions/M05|M05 — Lift the Governor]]
+  - **[[Missions/A02| Act 2]]**
+  - [[Missions/MA01|MA01 — Untitled]]
+  - [[Missions/MA02|MA02 — Untitled]]
+  - [[Missions/MA03|MA03 — Untitled]]
+  - *[[Missions/MS01|MS01 — Untitled]]*
+  - [[Missions/MB01|MB01 — Untitled]]
+  - [[Missions/MB02|MB02 — Untitled]]
+  - [[Missions/MB03|MB03 — Untitled]]
+  - *[[Missions/MS02|MS02 — Untitled]]*
+  - [[Missions/MC01|MC01 — Untitled]]
+  - [[Missions/MC02|MC02 — Untitled]]
+  - [[Missions/MC03|MC03 — Untitled]]
+  - *[[Missions/MS03|MS03 — Untitled]]*
+  - [[Missions/MD01|MD01 — Untitled]]
+  - [[Missions/MD02|MD02 — Untitled]]
+  - [[Missions/MD03|MD03 — Untitled]]
+  - **[[Missions/Secret Ending|Secret Ending]]**
+  - *[[Missions/SE01|SE01 — Symbiotic Ascension]]*
+  - **[[Missions/A03| Act 3]]**
   - [[Missions/M06|M06 — Untitled]]
   - [[Missions/M07|M07 — Untitled]]
   - [[Missions/M08|M08 — Untitled]]
-  - [[Missions/M09|M09 — Untitled]]
-  - [[Missions/M10|M10 — Finale]]
+  - [[Missions/M09|M09 — finale]]
+  - **[[Missions/True Ending|True Ending]]**
+  - [[Missions/HS01|HS01 — Untitled]]
+  - **[[Missions/HA00|Path A]]**
+  - [[Missions/HA01|HA01 — Untitled]]
+  - [[Missions/HA02|HA02 — Untitled]]
+  - [[Missions/HA03|HA03 — Untitled]]
+  - **[[Missions/HB00|Path B]]**
+  - [[Missions/HB01|HB01 — Untitled]]
+  - [[Missions/HB02|HB02 — Untitled]]
+  - [[Missions/HB03|HB03 — Untitled]]
+  - [[Missions/HB04|HB04 — Untitled]]
+  - **[[Missions/HS00|Finale]]**
+  - [[Missions/HS02|HS02 — Untitled]]
+  - [[Missions/HS03|HS03 — True Final Boss]]
+  - **[[Missions/DELME|REFERENCES]]**
   - [[Missions/Restore the Cargo Line|Restore the Cargo Line]]
   - [[Missions/Open the Floodgates|Open the Floodgates]]
   - [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]]

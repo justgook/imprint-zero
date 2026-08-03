@@ -108,23 +108,23 @@ graph TD
     %% OPTIONAL SECRET CROSS-BIOME PATHS
     %% =====================================================
 
-    MA01 -.->|Hidden entrance| MS01
+    MA01 -.->|Hidden entrance| MS02
     subgraph B05
-      MS01["MS01<br/>Abandoned Transit Line"]
+      MS02["MS02<br/>Abandoned Transit Line"]
     end
-    MS01 -.->|Shortcut to Biome C| MC02
+    MS02 -.->|Shortcut to Biome C| MC02
 
-    MB02 -.->|Encrypted key found| MS02
+    MB02 -.->|Encrypted key found| MS03
     subgraph B06
-      MS02["MS02<br/>Null Laboratory"]
+      MS03["MS03<br/>Null Laboratory"]
     end
-    MS02 -.->|Alternate guardian access| MD03
+    MS03 -.->|Alternate guardian access| MD03
 
-    MD01 -.->|Concealed wall| MS03
+    MD01 -.->|Concealed wall| MS01
     subgraph B04
-      MS03["MS03<br/>Forgotten Archive"]
+      MS01["MS01<br/>Forgotten Archive"]
     end
-    MS03 -.->|Shortcut to Biome B| MB02
+    MS01 -.->|Shortcut to Biome B| MB02
 
 
     %% =====================================================
