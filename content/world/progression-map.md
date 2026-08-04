@@ -131,7 +131,7 @@ graph TD
     %% OPTIONAL EARLY SECRET ENDING
     %% =====================================================
 
-    CHECK_SE01{"Was in MS01"}
+    CHECK_SE01{"Was in MS02"}
     MC02 -.->|Accept the network| CHECK_SE01
     CHECK_SE01 -.->|YES| SE01
     CHECK_SE01 -.->|NO| MC03

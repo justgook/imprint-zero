@@ -30,14 +30,14 @@
   - [[Biomes/B11|B11 — Untitled]]
   - [[Biomes/B12|B12 — Untitled]]
 - [[Missions/Overview|Missions]]
-  - **[[Missions/A02| Act 1]]**
+  - **[[Missions/A01|Act I - Crew Assembly]]**
   - [[Missions/M00|M00 — Template]]
   - [[Missions/M01|M01 — Restore the Cargo Line]]
   - [[Missions/M02|M02 — Open the Floodgates]]
   - [[Missions/M03|M03 — Restart the Deep Pumps]]
   - [[Missions/M04|M04 — Breach the Lockdown]]
   - [[Missions/M05|M05 — Lift the Governor]]
-  - **[[Missions/A02| Act 2]]**
+  - **[[Missions/A02|ACT II - Fractured Identities]]**
   - [[Missions/MA01|MA01 — Untitled]]
   - [[Missions/MA02|MA02 — Untitled]]
   - [[Missions/MA03|MA03 — Untitled]]
@@ -55,12 +55,12 @@
   - [[Missions/MD03|MD03 — Untitled]]
   - **[[Missions/Secret Ending|Secret Ending]]**
   - *[[Missions/SE01|SE01 — Symbiotic Ascension]]*
-  - **[[Missions/A03| Act 3]]**
+  - **[[Missions/A03|ACT III — The Manufactured War]]**
   - [[Missions/M06|M06 — Untitled]]
   - [[Missions/M07|M07 — Untitled]]
   - [[Missions/M08|M08 — Untitled]]
   - [[Missions/M09|M09 — finale]]
-  - **[[Missions/True Ending|True Ending]]**
+  - **[[Missions/A04|ACT IV — No Original]]**
   - [[Missions/HS01|HS01 — Untitled]]
   - **[[Missions/HA00|Path A]]**
   - [[Missions/HA01|HA01 — Untitled]]
