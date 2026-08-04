@@ -9,8 +9,8 @@ status: in-progress
 
 > **Accepted** — The Automated Fabrication Plant is the third campaign Zone and supports two sequential Special Missions:
 >
-> 1. [[Missions/Breach the Lockdown|Breach the Lockdown]] requires [[Characters/Ram|RAM]] and unlocks [[Characters/Relay|RELAY]].
-> 2. [[Missions/Lift the Governor|Lift the Governor]] deploys primarily as RELAY and unlocks [[Gameplay/Overdrive|Overdrive]] for the entire crew.
+> 1. [[Missions/M04|Production Halt]] requires [[Characters/Ram|RAM]] and unlocks [[Characters/Relay|RELAY]].
+> 2. [[Missions/M05|The Four Trials]] deploys primarily as RELAY and unlocks [[Gameplay/Overdrive|Overdrive]] for the entire crew.
 
 These are explicit exceptions to the ordinary rule that main Missions remain completable by every Character and Specialization.
 
@@ -23,16 +23,16 @@ The Zone should support:
 - reinforced walls, pressure doors, and heavy moving objects for RAM;
 - conveyors, cranes, fabrication arms, and security systems for RELAY;
 - visible machinery state changes after RELAY is recovered;
-- a deeper activation wing used by Lift the Governor;
+- a deeper activation wing used by The Four Trials;
 - persistent shortcuts connecting the extraction route to the later activation route.
 
 ## Mission-state transformation
 
-### During Breach the Lockdown
+### During Production Halt
 
 The Plant is hostile, physically sealed, and resistant to remote access. RAM must force an authored route through barriers, incoming industrial hazards, and projectile pressure. Completing the Mission opens the bunker and adds RELAY to the crew.
 
-### During Lift the Governor
+### During The Four Trials
 
 RELAY returns with enough access to enter the deeper activation wing. The facility branches into four character-specific trial rooms that can be completed in any order. Each room temporarily transfers player control while RELAY operates its system.
 

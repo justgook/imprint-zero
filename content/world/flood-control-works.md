@@ -9,8 +9,8 @@ status: in-progress
 
 > **Accepted** — The Flood-Control Works is the second campaign Zone and supports two sequential Missions:
 >
-> 1. [[Missions/Open the Floodgates|Open the Floodgates]] ends with the first boss.
-> 2. [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]] advances deeper, ends with the second boss, and introduces [[Characters/Ram|RAM]].
+> 1. [[Missions/M02|Containment Doctrine]] ends with the first boss.
+> 2. [[Missions/M03|No Survivors Logged]] advances deeper, ends with the second boss, and introduces [[Characters/Ram|RAM]].
 
 Both Missions are ordinary deployments completable by either [[Characters/Rook|ROOK]] or [[Characters/Vector|VECTOR]] and, on later revisits, by every unlocked Character and Specialization.
 
@@ -55,7 +55,7 @@ The stated repairs create a genuine local benefit. The institution behind the Mi
 
 ## Required content
 
-- First boss for Open the Floodgates
+- First boss for Containment Doctrine
 - Second boss with a readable repair/stabilization state
 - Scripted RAM intervention that exposes rather than replaces the player's victory
 - ROOK/VECTOR route contrast

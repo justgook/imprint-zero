@@ -24,11 +24,11 @@ status: in-progress
 
 | ID  | Name                   | Biome                   | Gameplay style                                                                   |   Length | Enemies                                                    | Boss / miniboss                                        |
 | --- | ---------------------- | ----------------------- | -------------------------------------------------------------------------------- | -------: | ---------------------------------------------------------- | ------------------------------------------------------ |
-| M01 | Restore the Cargo Line | B01 — Freight Terminal  | Classical horizontal run-and-gun; moving cargo belts; tutorial encounters        |  6–8 min | Dock troops, cargo drones, shield loaders, ceiling turrets | **Miniboss:** Cargo Loader Mech                        |
-| M02 | Open the Floodgates    | B01 — Freight Terminal  | Vertical descent followed by rising-water escape; switches alter water level     |  7–9 min | Amphibious drones, maintenance bots, mines, turret crabs   | **Boss:** Floodgate Sentinel                           |
-| M03 | Restart the Deep Pumps | B01 — Freight Terminal  | Partially underwater run-and-gun; slower movement; rotating pump chambers        | 8–10 min | Diving units, electric eels, repair drones, pressure mines | **Boss:** Deep-Pump Leviathan                          |
-| M04 | Breach the Lockdown    | B02 — Fabrication Plant | Fast assault through security doors; short single-screen lockdown arenas         | 8–10 min | Riot machines, laser guards, conveyor troops, wall cannons | **Miniboss:** Lockdown Warden; **Boss:** Security Core |
-| M05 | Lift the Governor      | B02 — Fabrication Plant | Multi-stage freight-elevator battle; screen scrolls vertically as platforms move | 9–11 min | Flying welders, boarding troops, crane claws, wall turrets | **Boss:** Governor Engine                              |
+| M01 | Cold Deployment | B01 — Freight Terminal  | Classical horizontal run-and-gun; moving cargo belts; tutorial encounters        |  6–8 min | Dock troops, cargo drones, shield loaders, ceiling turrets | **Miniboss:** Cargo Loader Mech                        |
+| M02 | Containment Doctrine    | B01 — Freight Terminal  | Vertical descent followed by rising-water escape; switches alter water level     |  7–9 min | Amphibious drones, maintenance bots, mines, turret crabs   | **Boss:** Floodgate Sentinel                           |
+| M03 | No Survivors Logged | B01 — Freight Terminal  | Partially underwater run-and-gun; slower movement; rotating pump chambers        | 8–10 min | Diving units, electric eels, repair drones, pressure mines | **Boss:** Deep-Pump Leviathan                          |
+| M04 | Production Halt    | B02 — Fabrication Plant | Fast assault through security doors; short single-screen lockdown arenas         | 8–10 min | Riot machines, laser guards, conveyor troops, wall cannons | **Miniboss:** Lockdown Warden; **Boss:** Security Core |
+| M05 | The Four Trials      | B02 — Fabrication Plant | Multi-stage freight-elevator battle; screen scrolls vertically as platforms move | 9–11 min | Flying welders, boarding troops, crane claws, wall turrets | **Boss:** Governor Engine                              |
 
 ## Act 2A — Industrial Wastes
 

@@ -12,18 +12,18 @@ graph TD
 
     START([New Game])
 
-    subgraph B01["B01 - Freight Terminal"]
-      M01["M01<br/>Restore the Cargo Line"]
+    subgraph B01["B01 — Ashfall District"]
+      M01["M01<br/>Cold Deployment"]
       HUB0.1["HUB0<br/>Meet VECTOR"]
-      M02["M02<br/>Open the Floodgates"]
+      M02["M02<br/>Containment Doctrine"]
       HUB0.2["HUB0"]
-      M03["M03<br/>Restart the Deep Pumps"]
+      M03["M03<br/>No Survivors Logged"]
     end
     HUB0.3["HUB0<br/>Meet RAM"]
-    subgraph B02["B02 - Fabrication Plant"]
-      M04["M04<br/>Breach the Lockdown"]
+    subgraph B02["B02 — Helix Foundry"]
+      M04["M04<br/>Production Halt"]
       HUB0.4["HUB0"]
-      M05["M05<br/>Lift the Governor"]
+      M05["M05<br/>The Four Trials"]
     end
     HUB1["HUB1<br/>Campaign Hub<br/>Choose Biome"]
 
@@ -42,37 +42,37 @@ graph TD
     %% ACT 2 — OPEN BIOME CAMPAIGN
     %% =====================================================
 
-    subgraph B03["B03 — Industrial Wastes"]
-        MA01["MA01<br/>Factory Outskirts"]
-        MA02["MA02<br/>Assembly Core"]
-        MA03["MA03<br/>Biome Guardian"]
+    subgraph B03["B03 — Mnemonic Basilica"]
+        MA01["MA01<br/>Ghost Archive"]
+        MA02["MA02<br/>Familiar Strangers"]
+        MA03["MA03<br/>The Choir of Selves"]
 
         MA01 --> MA02
         MA02 --> MA03
     end
 
-    subgraph B04["B04 — Flooded Depths"]
-        MB01["MB01<br/>Sunken District"]
-        MB02["MB02<br/>Pressure Complex"]
-        MB03["MB03<br/>Biome Guardian"]
+    subgraph B04["B04 — The Fallen Halo"]
+        MB01["MB01<br/>Vertical Front"]
+        MB02["MB02<br/>Dead Reinforcements"]
+        MB03["MB03<br/>Halo Protocol"]
 
         MB01 --> MB02
         MB02 --> MB03
     end
 
-    subgraph B05["B05 — Overgrown Expanse"]
-        MC01["MC01<br/>Living Frontier"]
-        MC02["MC02<br/>Spore Network"]
-        MC03["MC03<br/>Biome Guardian"]
+    subgraph B05["B05 — Verdant Null"]
+        MC01["MC01<br/>Burn the Garden"]
+        MC02["MC02<br/>Voices Under Glass"]
+        MC03["MC03<br/>Heartroot"]
 
         MC01 --> MC02
         MC02 --> MC03
     end
 
-    subgraph B06["B06 — Frozen Relay"]
-        MD01["MD01<br/>Icebound Station"]
-        MD02["MD02<br/>Signal Vault"]
-        MD03["MD03<br/>Biome Guardian"]
+    subgraph B06["B06 — Sovereign Stack"]
+        MD01["MD01<br/>Hostile Acquisition"]
+        MD02["MD02<br/>Executive Immunity"]
+        MD03["MD03<br/>Patent of Life"]
 
         MD01 --> MD02
         MD02 --> MD03
@@ -105,42 +105,42 @@ graph TD
 
 
     %% =====================================================
-    %% OPTIONAL SECRET CROSS-BIOME PATHS
+    %% OPTIONAL SPECIAL-MISSION PATHS
     %% =====================================================
 
-    MA01 -.->|Hidden entrance| MS02
-    subgraph B05
-      MS02["MS02<br/>Abandoned Transit Line"]
-    end
-    MS02 -.->|Shortcut to Biome C| MC02
-
-    MB02 -.->|Encrypted key found| MS03
-    subgraph B06
-      MS03["MS03<br/>Null Laboratory"]
-    end
-    MS03 -.->|Alternate guardian access| MD03
-
-    MD01 -.->|Concealed wall| MS01
+    MB02 -.->|Trace an earlier deployment signal| MS01
     subgraph B04
-      MS01["MS01<br/>Forgotten Archive"]
+      MS01["MS01<br/>Black-Box Recovery"]
     end
-    MS01 -.->|Shortcut to Biome B| MB02
+    MS01 -.->|Cradle security codes recovered| MB03
+
+    MC02 -.->|Follow the source-memory voices| MS02
+    subgraph B05
+      MS02["MS02<br/>Beneath the Skin"]
+    end
+    MS02 -.->|Return with forbidden knowledge| MC03
+
+    MD02 -.->|Intercept the escaping architect| MS03
+    subgraph B06
+      MS03["MS03<br/>Golden Parachute"]
+    end
+    MS03 -.->|OPERATOR's altered directive exposed| MD03
 
 
     %% =====================================================
     %% OPTIONAL EARLY SECRET ENDING
     %% =====================================================
 
-    CHECK_SE01{"Was in MS02"}
-    MC02 -.->|Accept the network| CHECK_SE01
-    CHECK_SE01 -.->|YES| SE01
-    CHECK_SE01 -.->|NO| MC03
-    SECRET_ENDING([Secret Ending<br/>The Bloom])
+    CHECK_SE01{"Enter the Living Archive?"}
+    MS02 -.->|Living passage revealed| CHECK_SE01
+    CHECK_SE01 -.->|Enter| SE01
+    CHECK_SE01 -.->|Turn back| MC03
+    SECRET_ENDING([Secret Ending<br/>Communion])
 
-    subgraph B99["B99 - secret area"]
-      SE01["SE01<br/>Symbiotic Ascension"]
+    subgraph B99["B99 — The Living Archive"]
+      SE01["SE01<br/>Become Many"]
     end
-      SE01 --> SECRET_ENDING
+      SE01 -->|Join the Continuum| SECRET_ENDING
 
 
 
@@ -149,13 +149,13 @@ graph TD
     %% =====================================================
 
     HUB2["HUB2<br/>Guardian Nexus<br/>Final Assault Hub"]
-    subgraph B07["B07 - UNNAMED"]
-      M06["M06<br/>Enemy Stronghold"]
-      M07["M07<br/>Defense Network"]
+    subgraph B07["B07 — The Empty Barracks"]
+      M06["M06<br/>Welcome Home"]
+      M07["M07<br/>Recall Exercise"]
     end
-    subgraph B08["B08 - UNNAMED"]
-      M08["M08<br/>Core Descent"]
-      M09["M09<br/>Final Boss"]
+    subgraph B08["B08 — The Cradle"]
+      M08["M08<br/>Umbilical"]
+      M09["M09<br/>Imprint Zero"]
     end
     STANDARD_ENDING([Standard Ending<br/>Cycle Broken])
 
@@ -170,13 +170,13 @@ graph TD
     %% SECRET ENDGAME ROUTE
     %% Branches from M07 and leads to a separate ending
     %% =====================================================
-    HS01["HS01<br/>Sealed Transit Core"]
-    SECRET_SPLIT{"Choose Hidden Route"}
+    HS01["HS01<br/>The Last Civilian"]
+    SECRET_SPLIT{"Choose an investigation"}
 
-    M07 -.->|Discover hidden access| HS01
+    M07 -.->|Use recovered Cradle security codes| HS01
 
-    subgraph B09["B09 - UNNAMED"]
-      HS01 --> SECRET_SPLIT
+    subgraph B09["B09 — Republic of Dust"]
+      HS01 -->|Two evidence trails uncovered| SECRET_SPLIT
     end
 
 
@@ -186,54 +186,54 @@ graph TD
     %% SECRET BRANCH A
     %% =====================================================
 
-    SECRET_SPLIT -->|Enter the archive| HA01
+    SECRET_SPLIT -->|Trace the source memories| HA01
 
-    subgraph B10["B10 - UNNAMED"]
-      HA01["HA01<br/>Memory Archive"]
-      HA02["HA02<br/>Lost Prototype"]
-      HA03["HA03<br/>Zero Protocol"]
+    subgraph B10["B10 — Genesis Vault"]
+      HA01["HA01<br/>Donor Class"]
+      HA02["HA02<br/>Composite Trials"]
+      HA03["HA03<br/>The First Zero"]
     end
 
     HA01 --> HA02
     HA02 --> HA03
-    HA03 --> SECRET_JOIN
+    HA03 -->|Take control of the crew's Imprints| SECRET_JOIN
 
 
     %% =====================================================
     %% SECRET BRANCH B
     %% =====================================================
 
-    SECRET_SPLIT -->|Enter the source network| HB01
+    SECRET_SPLIT -->|Pursue OPERATOR's command network| HB01
 
     subgraph B09
-      HB01["HB01<br/>Source Network"]
+      HB01["HB01<br/>Martial Law"]
     end
-    subgraph B11["B11 - UNNAMED"]
-      HB02["HB02<br/>Fractured Consciousness"]
-      HB03["HB03<br/>Inner Architect"]
-      HB04["HB04<br/>Original Imprint"]
+    subgraph B11["B11 — Cathedral of Command"]
+      HB02["HB02<br/>Chain of Command"]
+      HB03["HB03<br/>Perfect Soldier"]
+      HB04["HB04<br/>Final Directive"]
     end
 
-    HB01 --> HB02
+    HB01 -->|Follow the military network| HB02
     HB02 --> HB03
     HB03 --> HB04
-    HB04 --> SECRET_JOIN
+    HB04 -->|Seize OPERATOR's infrastructure| SECRET_JOIN
 
 
     %% =====================================================
     %% SECRET BRANCHES REJOIN
     %% =====================================================
 
-    subgraph B12["B12 - UNNAMED"]
-      SECRET_JOIN["HS02<br/>Origin Convergence"]
-      SECRET_BOSS["HS03<br/>True Final Boss"]
+    subgraph B12["B12 — White Horizon"]
+      SECRET_JOIN["HS02<br/>Outside Context"]
+      SECRET_BOSS["HS03<br/>No Original"]
     end
     TRUE_ENDING([True Ending<br/>Imprint Zero])
 
-    SECRET_JOIN --> SECRET_BOSS
+    SECRET_JOIN -->|Reach the planetary archive| SECRET_BOSS
 
 
-    SECRET_BOSS --> TRUE_ENDING
+    SECRET_BOSS -->|Reject OPERATOR's definition of personhood| TRUE_ENDING
 
 
 
@@ -295,18 +295,18 @@ flowchart LR
     Start([New game]) --> Preset[Preselected ROOK + Baseline Rifle]
 
     subgraph Freight[Freight Terminal]
-        M01[01 · Restore the Cargo Line]
+        M01[01 · Cold Deployment]
     end
 
     subgraph Flood[Flood-Control Works]
-        M02[02 · Open the Floodgates]
-        M03[03 · Restart the Deep Pumps]
+        M02[02 · Containment Doctrine]
+        M03[03 · No Survivors Logged]
         Boss2[Second boss stabilization]
     end
 
     subgraph Factory[Automated Fabrication Plant]
-        M04[04 · Breach the Lockdown]
-        M05[05 · Lift the Governor]
+        M04[04 · Production Halt]
+        M05[05 · The Four Trials]
     end
 
     Preset --> M01
@@ -333,7 +333,7 @@ flowchart LR
 
 1. Start a new game with no Hub or loadout menu.
 2. Deploy immediately as [[Characters/Rook|ROOK]] with the [[Equipment/Baseline Rifle|Baseline Rifle]].
-3. Complete [[Missions/Restore the Cargo Line|Restore the Cargo Line]] in the [[World/Freight Terminal|Freight Terminal]].
+3. Complete [[Missions/M01|Cold Deployment]] in the [[World/Freight Terminal|Freight Terminal]].
 4. Restart inside the introduction on failure; the Hub is not available yet.
 5. Reach the [[World/Hub|Hub]] after first success.
 6. Unlock [[Characters/Vector|VECTOR]] as the second selectable Character.
@@ -341,9 +341,9 @@ flowchart LR
 ## Flood-Control Works path
 
 1. Select ROOK or VECTOR, one unlocked Specialization, and compatible equipment at the Hub.
-2. Complete [[Missions/Open the Floodgates|Open the Floodgates]] and defeat the first boss.
+2. Complete [[Missions/M02|Containment Doctrine]] and defeat the first boss.
 3. Return to the Hub with the deeper [[World/Flood Control Works|Flood-Control Works]] Mission available.
-4. Complete [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]] as ROOK or VECTOR.
+4. Complete [[Missions/M03|No Survivors Logged]] as ROOK or VECTOR.
 5. Reach the second boss's repair/stabilization state.
 6. RAM breaks the stabilizer; the player completes the boss victory.
 7. Return to the Hub with [[Characters/Ram|RAM]] available.
@@ -351,10 +351,10 @@ flowchart LR
 ## Automated Fabrication Plant path
 
 1. Receive RAM's report that RELAY is sealed inside a hostile factory bunker.
-2. Deploy as RAM's default Breacher Specialization for [[Missions/Breach the Lockdown|Breach the Lockdown]].
+2. Deploy as RAM's default Breacher Specialization for [[Missions/M04|Production Halt]].
 3. Enter the [[World/Automated Fabrication Plant|Automated Fabrication Plant]], open the bunker, and extract [[Characters/Relay|RELAY]].
 4. Return to the Hub with RELAY available.
-5. Deploy primarily as RELAY for [[Missions/Lift the Governor|Lift the Governor]].
+5. Deploy primarily as RELAY for [[Missions/M05|The Four Trials]].
 6. Complete the four character-specific trial rooms in any order.
 7. Unlock [[Gameplay/Overdrive|Overdrive]] globally and return to the Hub.
 
@@ -367,7 +367,7 @@ Ordinary Missions use the standard Hub loop:
 3. Complete Encounters, routes, discoveries, and the objective.
 4. Return to the Hub after success, death, or voluntary withdrawal.
 
-Breach the Lockdown and Lift the Governor are explicit Special Mission exceptions with advertised Character and Specialization requirements.
+Production Halt and The Four Trials are explicit Special Mission exceptions with advertised Character and Specialization requirements.
 
 ## Accepted persistence
 
@@ -377,11 +377,11 @@ Breach the Lockdown and Lift the Governor are explicit Special Mission exception
 - Innate abilities and character mastery remain character-owned.
 - Changing Character does not create another world state.
 - Character unlocks persist: ROOK → VECTOR → RAM → RELAY.
-- Completing Lift the Governor unlocks Overdrive for every acquired Specialization; later Specializations include their unique Overdrive.
+- Completing The Four Trials unlocks Overdrive for every acquired Specialization; later Specializations include their unique Overdrive.
 
 ## Unknown progression
 
-> **Open question** — Which Mission and destination follow Lift the Governor.
+> **Open question** — Which Mission and destination follow The Four Trials.
 
 > **Open question** — Whether later Zones are selected directly from the Hub, connected physically, or use a limited hybrid.
 

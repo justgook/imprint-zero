@@ -17,69 +17,68 @@
   - [[World/Flood Control Works|Flood-Control Works]]
   - [[World/Automated Fabrication Plant|Automated Fabrication Plant]]
 - [[Biomes/Overview|Biomes]]
-  - [[Biomes/B01|B01 — Freight Terminal]]
-  - [[Biomes/B02|B02 — Fabrication Plant]]
-  - [[Biomes/B03|B03 — Untitled]]
-  - [[Biomes/B04|B04 — Untitled]]
-  - [[Biomes/B05|B05 — Untitled]]
-  - [[Biomes/B06|B06 — Untitled]]
-  - [[Biomes/B07|B07 — Untitled]]
-  - [[Biomes/B08|B08 — Untitled]]
-  - [[Biomes/B09|B09 — Untitled]]
-  - [[Biomes/B10|B10 — Untitled]]
-  - [[Biomes/B11|B11 — Untitled]]
-  - [[Biomes/B12|B12 — Untitled]]
+  - **Act I — Crew Assembly**
+  - [[Biomes/B01|B01 — Ashfall District]]
+  - [[Biomes/B02|B02 — Helix Foundry]]
+  - **Act II — Fractured Identities**
+  - [[Biomes/B03|B03 — Mnemonic Basilica]]
+  - [[Biomes/B04|B04 — The Fallen Halo]]
+  - [[Biomes/B05|B05 — Verdant Null]]
+  - [[Biomes/B06|B06 — Sovereign Stack]]
+  - **Act III — The Manufactured War**
+  - [[Biomes/B07|B07 — The Empty Barracks]]
+  - [[Biomes/B08|B08 — The Cradle]]
+  - **Act IV — No Original**
+  - [[Biomes/B09|B09 — Republic of Dust]]
+  - [[Biomes/B10|B10 — Genesis Vault]]
+  - [[Biomes/B11|B11 — Cathedral of Command]]
+  - [[Biomes/B12|B12 — White Horizon]]
+  - **Secret Ending — Communion**
+  - *[[Biomes/B99|B99 — The Living Archive]]*
 - [[Missions/Overview|Missions]]
-  - **[[Missions/A01|Act I - Crew Assembly]]**
-  - [[Missions/M00|M00 — Template]]
-  - [[Missions/M01|M01 — Restore the Cargo Line]]
-  - [[Missions/M02|M02 — Open the Floodgates]]
-  - [[Missions/M03|M03 — Restart the Deep Pumps]]
-  - [[Missions/M04|M04 — Breach the Lockdown]]
-  - [[Missions/M05|M05 — Lift the Governor]]
-  - **[[Missions/A02|ACT II - Fractured Identities]]**
-  - [[Missions/MA01|MA01 — Untitled]]
-  - [[Missions/MA02|MA02 — Untitled]]
-  - [[Missions/MA03|MA03 — Untitled]]
-  - *[[Missions/MS01|MS01 — Untitled]]*
-  - [[Missions/MB01|MB01 — Untitled]]
-  - [[Missions/MB02|MB02 — Untitled]]
-  - [[Missions/MB03|MB03 — Untitled]]
-  - *[[Missions/MS02|MS02 — Untitled]]*
-  - [[Missions/MC01|MC01 — Untitled]]
-  - [[Missions/MC02|MC02 — Untitled]]
-  - [[Missions/MC03|MC03 — Untitled]]
-  - *[[Missions/MS03|MS03 — Untitled]]*
-  - [[Missions/MD01|MD01 — Untitled]]
-  - [[Missions/MD02|MD02 — Untitled]]
-  - [[Missions/MD03|MD03 — Untitled]]
-  - **[[Missions/Secret Ending|Secret Ending]]**
-  - *[[Missions/SE01|SE01 — Symbiotic Ascension]]*
-  - **[[Missions/A03|ACT III — The Manufactured War]]**
-  - [[Missions/M06|M06 — Untitled]]
-  - [[Missions/M07|M07 — Untitled]]
-  - [[Missions/M08|M08 — Untitled]]
-  - [[Missions/M09|M09 — finale]]
-  - **[[Missions/A04|ACT IV — No Original]]**
-  - [[Missions/HS01|HS01 — Untitled]]
-  - **[[Missions/HA00|Path A]]**
-  - [[Missions/HA01|HA01 — Untitled]]
-  - [[Missions/HA02|HA02 — Untitled]]
-  - [[Missions/HA03|HA03 — Untitled]]
-  - **[[Missions/HB00|Path B]]**
-  - [[Missions/HB01|HB01 — Untitled]]
-  - [[Missions/HB02|HB02 — Untitled]]
-  - [[Missions/HB03|HB03 — Untitled]]
-  - [[Missions/HB04|HB04 — Untitled]]
-  - **[[Missions/HS00|Finale]]**
-  - [[Missions/HS02|HS02 — Untitled]]
-  - [[Missions/HS03|HS03 — True Final Boss]]
-  - **[[Missions/DELME|REFERENCES]]**
-  - [[Missions/Restore the Cargo Line|Restore the Cargo Line]]
-  - [[Missions/Open the Floodgates|Open the Floodgates]]
-  - [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]]
-  - [[Missions/Breach the Lockdown|Breach the Lockdown]]
-  - [[Missions/Lift the Governor|Lift the Governor]]
+  - **[[Missions/A01|Act I — Crew Assembly]]**
+  - [[Missions/M01|M01 — Cold Deployment]]
+  - [[Missions/M02|M02 — Containment Doctrine]]
+  - [[Missions/M03|M03 — No Survivors Logged]]
+  - [[Missions/M04|M04 — Production Halt]]
+  - [[Missions/M05|M05 — The Four Trials]]
+  - **[[Missions/A02|Act II — Fractured Identities]]**
+  - [[Missions/MA01|MA01 — Ghost Archive]]
+  - [[Missions/MA02|MA02 — Familiar Strangers]]
+  - [[Missions/MA03|MA03 — The Choir of Selves]]
+  - [[Missions/MB01|MB01 — Vertical Front]]
+  - [[Missions/MB02|MB02 — Dead Reinforcements]]
+  - [[Missions/MB03|MB03 — Halo Protocol]]
+  - *[[Missions/MS01|MS01 — Black-Box Recovery]]*
+  - [[Missions/MC01|MC01 — Burn the Garden]]
+  - [[Missions/MC02|MC02 — Voices Under Glass]]
+  - [[Missions/MC03|MC03 — Heartroot]]
+  - *[[Missions/MS02|MS02 — Beneath the Skin]]*
+  - [[Missions/MD01|MD01 — Hostile Acquisition]]
+  - [[Missions/MD02|MD02 — Executive Immunity]]
+  - [[Missions/MD03|MD03 — Patent of Life]]
+  - *[[Missions/MS03|MS03 — Golden Parachute]]*
+  - **[[Missions/Secret Ending|Secret Ending — Communion]]**
+  - *[[Missions/SE01|SE01 — Become Many]]*
+  - **[[Missions/A03|Act III — The Manufactured War]]**
+  - [[Missions/M06|M06 — Welcome Home]]
+  - [[Missions/M07|M07 — Recall Exercise]]
+  - [[Missions/M08|M08 — Umbilical]]
+  - [[Missions/M09|M09 — Imprint Zero]]
+  - **[[Missions/A04|Act IV — No Original]]**
+  - *[[Missions/HS01|HS01 — The Last Civilian]]*
+  - **HA Route — Mind**
+  - *[[Missions/HA01|HA01 — Donor Class]]*
+  - *[[Missions/HA02|HA02 — Composite Trials]]*
+  - *[[Missions/HA03|HA03 — The First Zero]]*
+  - **HB Route — Body and Control**
+  - *[[Missions/HB01|HB01 — Martial Law]]*
+  - *[[Missions/HB02|HB02 — Chain of Command]]*
+  - *[[Missions/HB03|HB03 — Perfect Soldier]]*
+  - *[[Missions/HB04|HB04 — Final Directive]]*
+  - **B12 — Existence**
+  - *[[Missions/HS02|HS02 — Outside Context]]*
+  - *[[Missions/HS03|HS03 — No Original]]*
 
 ## Game content
 
@@ -90,6 +89,18 @@
   - [[Characters/Relay|RELAY]]
 - [[NPCs/Overview|NPCs]]
   - [[NPCs/Operator|OPERATOR]]
+- [[Imprints/Overview|Imprints]]
+  - **Overdrive Imprints**
+  - [[Imprints/Overdrive|The Four Trials]]
+  - **Subclass Imprints**
+  - [[Imprints/Rook Heavy|ROOK — Heavy]]
+  - [[Imprints/Rook Assault|ROOK — Assault]]
+  - [[Imprints/Vector Phase|VECTOR — Phase]]
+  - [[Imprints/Vector Hunter|VECTOR — Hunter]]
+  - [[Imprints/Ram Siege|RAM — Siege]]
+  - [[Imprints/Ram Impact|RAM — Impact]]
+  - [[Imprints/Relay Network|RELAY — Network]]
+  - [[Imprints/Relay Null|RELAY — Null]]
 - [[Enemies/Overview|Enemies]]
   - [[Enemies/E000|E000 Template]]
   - [[Enemies/E001|E001 Untitled]]
@@ -130,7 +141,6 @@
   - [[Bosses/MB12|MB12 - miniboss]]
 - [[Equipment/Overview|Equipment]]
   - [[Equipment/Baseline Rifle|Baseline rifle]]
-  - [[Equipment/Memory Imprints|Memory Imprints]]
 
 ## Gameplay
 

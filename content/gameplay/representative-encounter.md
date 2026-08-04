@@ -1,6 +1,6 @@
 ---
 title: Representative Encounter — Freight Terminal
-summary: Validation plan for the first compact action slice inside Restore the Cargo Line.
+summary: Validation plan for the first compact action slice inside Cold Deployment.
 eyebrow: Gameplay validation
 status: in-progress
 ---
@@ -8,7 +8,7 @@ status: in-progress
 ## Context
 
 - **Zone:** [[World/Freight Terminal|Freight Terminal]]
-- **Mission:** [[Missions/Restore the Cargo Line|Restore the Cargo Line]]
+- **Mission:** [[Missions/M01|Cold Deployment]]
 - **Character:** [[Characters/Rook|ROOK]]
 - **Weapon:** [[Equipment/Baseline Rifle|Baseline Rifle]]
 - **Enemies:** [[Enemies/Horizontal Sentry|Horizontal Sentry]] and [[Enemies/Shield Enforcer|Shield Enforcer]]
@@ -25,7 +25,7 @@ The flat pass should take approximately three to five minutes on a successful fi
 
 1. **Flat baseline:** one streamlined route and accepted threats.
 2. **Route pass:** one compact upper/lower fork that rejoins before the objective.
-3. **Memory pass:** a relevant [[Equipment/Memory Imprints|Memory Imprint]] opens a maintenance route into the sealed archive.
+3. **Memory pass:** a relevant [[Imprints/Overview|Memory Imprint]] opens a maintenance route into the sealed archive.
 
 Do not build a later pass before the previous pass is satisfying.
 

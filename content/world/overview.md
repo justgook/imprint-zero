@@ -45,4 +45,4 @@ See the [[World/Progression Map|Progression Map]] for accepted unlock and travel
 
 > **Needs image** — Create a visual-direction board without providing licensed CraftPix assets to AI tools.
 
-> **Needs diagram** — Extend the [[World/Progression Map|Progression Map]] only when the Mission following Lift the Governor is accepted.
+> **Needs diagram** — Extend the [[World/Progression Map|Progression Map]] only when the Mission following The Four Trials is accepted.

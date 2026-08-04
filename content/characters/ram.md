@@ -21,9 +21,9 @@ status: in-progress
   </div>
 </section>
 
-RAM is an institution-assigned operational codename, not a known personal name. RAM enters the campaign during the second boss Encounter in [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]], interrupting a stabilization state that ROOK or VECTOR cannot break. RAM joins the crew after helping the player finish the fight.
+RAM is an institution-assigned operational codename, not a known personal name. RAM enters the campaign during the second boss Encounter in [[Missions/M03|No Survivors Logged]], interrupting a stabilization state that ROOK or VECTOR cannot break. RAM joins the crew after helping the player finish the fight.
 
-RAM then reports that RELAY has sealed themself inside a hostile factory bunker. Reaching the Systems Specialist requires [[Missions/Breach the Lockdown|Breach the Lockdown]], a Special Mission built to introduce RAM's destructive route language.
+RAM then reports that RELAY has sealed themself inside a hostile factory bunker. Reaching the Systems Specialist requires [[Missions/M04|Production Halt]], a Special Mission built to introduce RAM's destructive route language.
 
 ## Gameplay role
 

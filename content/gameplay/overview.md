@@ -47,5 +47,6 @@ Procedural level generation and a complete randomized run reset are outside the 
 - [[Characters/Overview|Playable Crew]] — roster and character ownership.
 - [[NPCs/Overview|NPC Catalogue]] — recurring non-playable people and perceived operational entities.
 - [[Enemies/Overview|Enemy Catalogue]] — enemy roles and tactical rules.
-- [[Equipment/Overview|Equipment Catalogue]] — weapons, items, and Memory Imprints.
+- [[Equipment/Overview|Equipment Catalogue]] — weapons, armour, items, and currencies.
+- [[Imprints/Overview|Imprints]] — identity evidence that also unlocks character capabilities.
 - [[Missions/Overview|Mission Catalogue]] — objective-driven Zone deployments.

@@ -12,7 +12,7 @@ status: in-progress
 Replay value should come from:
 
 - materially different [[Characters/Overview|playable characters]] and [[Gameplay/Overdrive|Specializations]];
-- [[Equipment/Memory Imprints|Memory Imprints]] that change both knowledge and capability;
+- [[Imprints/Overview|Memory Imprints]] that change both knowledge and capability;
 - alternate routes and persistent shortcuts;
 - discoveries that change later attempts;
 - equipment, weapon, or skill choices;
@@ -29,13 +29,13 @@ The canonical Imprint page owns unresolved assignment, transfer, compatibility, 
 
 > **Accepted** — Each of four Characters has three Hub-selected Specializations. A Character becomes available with a default Specialization; two additional Specializations unlock through later campaign play. Selecting a Specialization changes normal stats, skills, weapon and armour compatibility, and play style for the entire Mission.
 
-> **Accepted** — Overdrive remains concealed at the start of the campaign. [[Missions/Lift the Governor|Lift the Governor]] later reveals and unlocks it once for the entire crew through four character-specific trials. After that global reveal, every unlocked Specialization has its unique Overdrive, and newly acquired Specializations include theirs without another Overdrive-specific unlock.
+> **Accepted** — Overdrive remains concealed at the start of the campaign. [[Missions/M05|The Four Trials]] later reveals and unlocks it once for the entire crew through four character-specific trials. After that global reveal, every unlocked Specialization has its unique Overdrive, and newly acquired Specializations include theirs without another Overdrive-specific unlock.
 
-The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]], and RELAY after [[Missions/Breach the Lockdown|Breach the Lockdown]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
+The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
 
 ## Introduction exception
 
-> **Accepted** — The new game begins directly in [[Missions/Restore the Cargo Line|Restore the Cargo Line]] with preselected character and equipment. Failure restarts inside the introduction; the Hub and standard death cycle unlock only after first success. The player is not told that Overdrive exists during the introduction.
+> **Accepted** — The new game begins directly in [[Missions/M01|Cold Deployment]] with preselected character and equipment. Failure restarts inside the introduction; the Hub and standard death cycle unlock only after first success. The player is not told that Overdrive exists during the introduction.
 
 ## Death cycle
 

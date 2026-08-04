@@ -19,7 +19,7 @@ The introduction Mission's local benefit is genuine: restoring the line delivers
 
 ## Known content
 
-- [[Missions/Restore the Cargo Line|Introduction Mission: Restore the Cargo Line]]
+- [[Missions/M01|Introduction Mission: Cold Deployment]]
 - [[Gameplay/Representative Encounter|Flat Baseline Encounter]]
 - [[Enemies/Horizontal Sentry|Horizontal Sentry]]
 - [[Enemies/Shield Enforcer|Shield Enforcer]]

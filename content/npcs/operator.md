@@ -51,7 +51,7 @@ The late-20th-century mission-control tone should create familiarity without dir
 
 ## Introduction role
 
-During [[Missions/Restore the Cargo Line|Restore the Cargo Line]], OPERATOR provides the objective while [[Characters/Rook|ROOK]] is already moving. When the rail-control archive identifies ROOK under a designation marked killed in action, [[Characters/Vector|VECTOR]] questions the match.
+During [[Missions/M01|Cold Deployment]], OPERATOR provides the objective while [[Characters/Rook|ROOK]] is already moving. When the rail-control archive identifies ROOK under a designation marked killed in action, [[Characters/Vector|VECTOR]] questions the match.
 
 > **Accepted** — OPERATOR dismisses the record as legacy corruption—an “archive ghost”—and redirects the crew toward successful extraction.
 

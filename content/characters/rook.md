@@ -176,7 +176,7 @@ This is the campaign's first contradiction between an institutional role and pos
 
 In the [[Gameplay/Representative Encounter|Freight Terminal Encounter]], the default Specialization takes the central general-purpose approach: slide under high fire, jump low fire, reposition around the Shield Enforcer, and use the crane as temporary cover.
 
-> **Needs evidence** — Complete [[Missions/Restore the Cargo Line|Restore the Cargo Line]] and prove running, jumping, eight-direction firing, aim-lock, combat sliding, enemy reading, and camera behavior.
+> **Needs evidence** — Complete [[Missions/M01|Cold Deployment]] and prove running, jumping, eight-direction firing, aim-lock, combat sliding, enemy reading, and camera behavior.
 
 ## Presentation requirements
 

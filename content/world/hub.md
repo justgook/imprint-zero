@@ -23,7 +23,7 @@ At the Hub, the player can:
 - choose equipment from the shared [[Equipment/Overview|crew stash]];
 - inspect available Missions and destinations;
 - reconsider route or upgrade decisions;
-- review recovered evidence and [[Equipment/Memory Imprints|Memory Imprints]].
+- review recovered evidence and [[Imprints/Overview|Memory Imprints]].
 
 Character switching occurs only here. There is no real-time character swap during a deployment.
 
@@ -35,7 +35,7 @@ The Hub should not contain traversal friction, combat, or mandatory repeated jou
 
 ## Campaign connection
 
-The player first reaches the Hub after [[Missions/Restore the Cargo Line|Restore the Cargo Line]]. See [[World/Progression Map|Progression Map]].
+The player first reaches the Hub after [[Missions/M01|Cold Deployment]]. See [[World/Progression Map|Progression Map]].
 
 ## Fiction
 

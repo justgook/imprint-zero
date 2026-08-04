@@ -1,6 +1,6 @@
 ---
 title: Equipment Catalogue
-summary: Canonical index and ownership rules for weapons, armour, items, currencies, and Memory Imprints.
+summary: Canonical index and ownership rules for weapons, armour, items, and currencies.
 eyebrow: Equipment
 status: in-progress
 ---
@@ -20,10 +20,6 @@ status: in-progress
 ### Weapons
 
 - [[Equipment/Baseline Rifle|Baseline Rifle]] — always-available control weapon for ROOK.
-
-### Memory Imprints
-
-- [[Equipment/Memory Imprints|Memory Imprints]] — recovered evidence that also grants capability.
 
 ## Unknown categories
 

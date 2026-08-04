@@ -21,7 +21,7 @@ See [[Characters/Rook|ROOK]] for the accepted baseline implementation.
 
 > **Accepted** — At the [[World/Hub|Hub]], the player selects one [[Characters/Overview|crew member]], one of that character's unlocked [[Gameplay/Overdrive|Specializations]], and compatible equipment for the deployment. Character and Specialization switching ordinarily occurs only at the Hub after death or voluntary return.
 
-The scripted activation trials inside [[Missions/Lift the Governor|Lift the Governor]] are the sole accepted exception: control temporarily passes from the Systems Specialist to another crew member inside each trial room. This does not permit general mid-Mission switching.
+The scripted activation trials inside [[Missions/M05|The Four Trials]] are the sole accepted exception: control temporarily passes from the Systems Specialist to another crew member inside each trial room. This does not permit general mid-Mission switching.
 
 Each Character and Specialization combination must transform shared verbs through movement, attack geometry, range, risk, defence, resources, or route access. Cosmetic and minor statistical variation are insufficient.
 
@@ -77,4 +77,4 @@ Specializations define compatible weapon and armour classes. Equipment may alter
 
 ## Memory Imprints
 
-[[Equipment/Memory Imprints|Memory Imprints]] must change both understanding and action. Their acquisition, assignment, capacity, compatibility, transfer, persistence, and loss remain unresolved.
+[[Imprints/Overview|Memory Imprints]] must change both understanding and action. Their acquisition, assignment, capacity, compatibility, transfer, persistence, and loss remain unresolved.

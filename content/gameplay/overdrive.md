@@ -43,7 +43,7 @@ Equipment can meaningfully alter a compatible kit without replacing its play sty
 
 > **Accepted** — A new player is not told that Overdrive exists. Characters initially use their available Specializations without access to Overdrive.
 
-Overdrive is first revealed and unlocked for the entire crew by completing [[Missions/Lift the Governor|Lift the Governor]]. It is one global campaign unlock, not a separate progression track for every character.
+Overdrive is first revealed and unlocked for the entire crew by completing [[Missions/M05|The Four Trials]]. It is one global campaign unlock, not a separate progression track for every character.
 
 During that Mission:
 
@@ -57,7 +57,7 @@ During that Mission:
 
 Completing the Mission unlocks Overdrive for the crew. Every Specialization acquired after this reveal includes its own Overdrive by default. A Specialization acquired before the reveal gains its Overdrive when the global system is unlocked.
 
-Lift the Governor is a scripted exception to the ordinary one-character-per-deployment rule. It does not establish free character switching or companion AI as general mechanics.
+The Four Trials is a scripted exception to the ordinary one-character-per-deployment rule. It does not establish free character switching or companion AI as general mechanics.
 
 ## Overdrive behavior
 

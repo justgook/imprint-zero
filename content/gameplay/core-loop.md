@@ -31,7 +31,7 @@ The selected Character and Specialization must alter how the player reads, choos
 
 ## Opening exception
 
-> **Accepted** — A new game skips the Hub and menus. [[Characters/Rook|ROOK]], the [[Equipment/Baseline Rifle|Baseline Rifle]], and the [[Missions/Restore the Cargo Line|introduction Mission]] are preselected so the player begins in action. First success unlocks a player-controlled Hub arrival. Character, equipment, and destination interfaces become immediately available through physical stations and direct shortcuts; no forced tour interrupts control. The initial Hub roster contains ROOK and one contrasting playable character.
+> **Accepted** — A new game skips the Hub and menus. [[Characters/Rook|ROOK]], the [[Equipment/Baseline Rifle|Baseline Rifle]], and the [[Missions/M01|introduction Mission]] are preselected so the player begins in action. First success unlocks a player-controlled Hub arrival. Character, equipment, and destination interfaces become immediately available through physical stations and direct shortcuts; no forced tour interrupts control. The initial Hub roster contains ROOK and one contrasting playable character.
 
 ## Standard macro loop
 
@@ -44,7 +44,7 @@ The selected Character and Specialization must alter how the player reads, choos
 5. Return to the hub with the world changed by selected persistent discoveries.
 6. Freely reconsider character, loadout, route, or investment before the next deployment.
 
-The player cannot ordinarily swap Characters or Specializations during a deployment. The scripted character trials in [[Missions/Lift the Governor|Lift the Governor]] are an explicit exception, not a general switching mechanic. The exact spatial and fictional relationship between the hub and campaign locations remains unresolved.
+The player cannot ordinarily swap Characters or Specializations during a deployment. The scripted character trials in [[Missions/M05|The Four Trials]] are an explicit exception, not a general switching mechanic. The exact spatial and fictional relationship between the hub and campaign locations remains unresolved.
 
 ## Failure and recovery
 

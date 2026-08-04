@@ -12,7 +12,7 @@ status: in-progress
   </figure>
   <div class="character-card-profile">
     <header><p class="character-card-kicker">Institutional codename</p><strong class="character-card-name">RELAY</strong><p class="character-card-role">Systems Specialist · Control and infrastructure</p></header>
-    <dl class="character-card-facts"><div><dt>Personal identity</dt><dd>Unavailable</dd></div><div><dt>Crew availability</dt><dd>Breach the Lockdown</dd></div><div><dt>Default Specialization</dt><dd>Wire</dd></div><div><dt>Difficulty</dt><dd>Planning</dd></div></dl>
+    <dl class="character-card-facts"><div><dt>Personal identity</dt><dd>Unavailable</dd></div><div><dt>Crew availability</dt><dd>Production Halt</dd></div><div><dt>Default Specialization</dt><dd>Wire</dd></div><div><dt>Difficulty</dt><dd>Planning</dd></div></dl>
     <div class="character-card-columns">
       <section><strong class="character-card-section-title">Profile</strong><dl class="character-card-stats"><div><dt>Integrity</dt><dd>Moderate</dd></div><div><dt>Mobility</dt><dd>Average</dd></div><div><dt>Range</dt><dd>Indirect</dd></div><div><dt>Risk</dt><dd>Setup</dd></div></dl></section>
       <section><strong class="character-card-section-title">Innate skill</strong><p><strong>Interface Link</strong><br>Operate character-reactive machinery and turn hostile infrastructure into routes or tactical tools.</p></section>
@@ -21,9 +21,9 @@ status: in-progress
   </div>
 </section>
 
-RELAY is an institution-assigned operational codename, not a known personal name. When RAM reaches the crew, RELAY is trapped inside a hostile factory complex after sealing themself into its bunker. The RAM-required [[Missions/Breach the Lockdown|Breach the Lockdown]] Special Mission opens the facility and adds RELAY to the playable crew.
+RELAY is an institution-assigned operational codename, not a known personal name. When RAM reaches the crew, RELAY is trapped inside a hostile factory complex after sealing themself into its bunker. The RAM-required [[Missions/M04|Production Halt]] Special Mission opens the facility and adds RELAY to the playable crew.
 
-RELAY later leads [[Missions/Lift the Governor|Lift the Governor]], the Special Mission that reveals Overdrive. The player deploys primarily as RELAY, selects character activation rooms in any order, and temporarily controls each crew member through an unlimited-Overdrive trial.
+RELAY later leads [[Missions/M05|The Four Trials]], the Special Mission that reveals Overdrive. The player deploys primarily as RELAY, selects character activation rooms in any order, and temporarily controls each crew member through an unlimited-Overdrive trial.
 
 ## Gameplay role
 

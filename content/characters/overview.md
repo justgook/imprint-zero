@@ -11,7 +11,7 @@ status: in-progress
 
 A new game preselects [[Characters/Rook|ROOK]], the crew's Rifle Marine, and deploys directly into the introduction Mission. [[Characters/Vector|VECTOR]] speaks over radio before the player physically reaches the Hub, establishing operational familiarity and role rather than biography. After the killed-in-action record appears, VECTOR questions it while [[NPCs/Operator|OPERATOR]] dismisses it as an archive ghost. [[Characters/Ram|RAM]] and [[Characters/Relay|RELAY]] join later in the campaign.
 
-After the introduction, the player ordinarily deploys one crew member at a time. The active character remains fixed until death or voluntary return. At the Hub, any unlocked character can be selected freely; death does not remove or randomize characters. Scripted character handoffs inside [[Missions/Lift the Governor|Lift the Governor]] are the sole accepted exception.
+After the introduction, the player ordinarily deploys one crew member at a time. The active character remains fixed until death or voluntary return. At the Hub, any unlocked character can be selected freely; death does not remove or randomize characters. Scripted character handoffs inside [[Missions/M05|The Four Trials]] are the sole accepted exception.
 
 ## Deployment identity
 
@@ -33,8 +33,8 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 
 - [[Characters/Rook|ROOK]] — Rifle Marine; balanced baseline and mechanical control case; available at new game.
 - [[Characters/Vector|VECTOR]] — Recon Operative; precision, mobility, and alternate routes; available at the first Hub arrival.
-- [[Characters/Ram|RAM]] — Breach Trooper; close-range commitment and environmental force; introduced during the second boss Encounter in [[Missions/Restart the Deep Pumps|Restart the Deep Pumps]].
-- [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/Breach the Lockdown|Breach the Lockdown]] Special Mission.
+- [[Characters/Ram|RAM]] — Breach Trooper; close-range commitment and environmental force; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
+- [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/M04|Production Halt]] Special Mission.
 
 > **Accepted** — The first Hub arrival offers VECTOR as a contrasting playable character alongside ROOK. Hearing VECTOR question the archive record during the introduction creates recognition and a reason to inspect the alternative Character at the Hub.
 

@@ -48,7 +48,7 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **RELAY default Specialization:** **Wire** replaces Operator, keeping OPERATOR unambiguous as the NPC designation.
 - **Configuration vocabulary:** a Character is the persistent person, a Specialization is one of three Hub-selected normal play styles, and Overdrive is the temporary transformation unique to the selected Specialization. See [[Gameplay/Overdrive|Specializations and Overdrive]].
 - **Specialization count:** four Characters each have three Specializations; the baseline is the default Specialization, producing twelve selectable play styles.
-- **Overdrive reveal:** the player does not initially know Overdrive exists; [[Missions/Lift the Governor|Lift the Governor]] later reveals and unlocks the system for the entire crew.
+- **Overdrive reveal:** the player does not initially know Overdrive exists; [[Missions/M05|The Four Trials]] later reveals and unlocks the system for the entire crew.
 - **Overdrive activation Mission:** deploy as RELAY, choose branching activation rooms in any order, temporarily control each room's crew member, and complete an unlimited-Overdrive trial before returning to RELAY.
 - **Later Specializations:** after the global reveal, every newly unlocked Specialization includes its unique Overdrive by default.
 - **Mission compatibility:** ordinary main Missions must be completable with all twelve Specializations and cannot require charged Overdrive; explicit optional and Special Mission requirements are allowed.
@@ -58,7 +58,7 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Immediate response:** [[NPCs/Operator|OPERATOR]] calmly calls the record legacy corruption and an archive ghost while VECTOR leaves doubt audible.
 - **First contradiction:** the rail-control system recognizes ROOK under an unknown designation officially recorded as killed in action; OPERATOR suppresses the connection.
 - **Opening delivery:** control begins immediately; objective and crew familiarity arrive through operational radio dialogue during the safe-arrival beat.
-- **Opening progression:** new game deploys directly into Restore the Cargo Line with preselected ROOK and the Baseline Rifle; first success unlocks the Hub.
+- **Opening progression:** new game deploys directly into Cold Deployment with preselected ROOK and the Baseline Rifle; first success unlocks the Hub.
 - **Hub presentation:** compact navigable side-view Zone with direct shortcuts to character, equipment, Mission, and Memory interfaces.
 - **Private asset workflow:** licensed CraftPix source and derivatives stay under the git-ignored `examples/demo/game/assets.private/craftpix/` directory. See [[Design/Art Direction|Art direction]].
 - **Baseline camera:** smooth side-follow with dead zones, gradual movement-based look-ahead, vertical bias, authored bounds, backward support, and no forced scrolling.
@@ -82,9 +82,9 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Campaign premise:** a conditioned recovery crew knows its missions and operational skills but lacks reliable autobiographical identity and knowledge of OPERATOR's true nature or command authority. See [[World/Overview|World]].
 - **Opening knowledge:** the crew and player know immediately that personal identity is missing or unreliable; whether the crew members are originals, clones, or manufactured people remains a central mystery. See [[Characters/Overview|Playable crew]].
 - **Initial obedience:** soldiering is the crew's only stable identity; refusal is physically possible, but conditioning makes doubt feel improper and unsafe. See [[Design/Player Experience|Player experience]].
-- **Mission morality:** early operations create genuine local benefits while secretly advancing the command authority's larger purpose. See [[Missions/Restore the Cargo Line|Restore the Cargo Line]].
+- **Mission morality:** early operations create genuine local benefits while secretly advancing the command authority's larger purpose. See [[Missions/M01|Cold Deployment]].
 - **Concealed project:** the authority behind the Missions is rebuilding an industrial system for extracting, editing, copying, and deploying human identity. See [[World/Overview|World]].
-- **Memory Imprints:** recovered memories reveal truth and grant capability; they expand rather than replace character identity. See [[Equipment/Memory Imprints|Memory Imprints]].
+- **Memory Imprints:** recovered memories reveal truth and grant capability; they expand rather than replace character identity. See [[Imprints/Overview|Memory Imprints]].
 - **Intended audience:** players seeking readable but demanding authored 2D action, character-specific replay, consequential discovery, and atmospheric mystery delivered through play. See [[Design/Game Vision|Game vision]].
 - **Design pillars:** familiarity without repetition, character choice transforms play, and discovery changes understanding and action. See [[Design/Design Pillars|Design pillars]].
 - **Release mode:** strictly single-player, with one locally controlled character per deployment and no multiplayer requirement. See [[Production/Scope|Scope and non-goals]].
