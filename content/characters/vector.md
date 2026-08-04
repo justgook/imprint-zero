@@ -2,7 +2,7 @@
 title: VECTOR
 summary: Institution-assigned Recon Operative built around precision, mobility, alternate approaches, and unreliable familiarity.
 eyebrow: Playable character
-status: in-progress
+status: reference
 ---
 
 <section class="character-card" aria-label="VECTOR character profile">

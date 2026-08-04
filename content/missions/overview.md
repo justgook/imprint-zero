@@ -2,7 +2,7 @@
 title: Missions
 summary: Canonical index of accepted objective-driven deployments.
 eyebrow: Missions
-status: in-progress
+status: in-progress 
 ---
 ## Gameplay-style distribution
 | Gameplay family | Suggested levels |

@@ -2,7 +2,7 @@
 title: RAM
 summary: Institution-assigned Breach Trooper built around close-range commitment, mass, destruction, and violent entry.
 eyebrow: Playable character
-status: in-progress
+status: reference
 ---
 
 <section class="character-card" aria-label="RAM character profile">

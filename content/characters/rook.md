@@ -2,7 +2,7 @@
 title: ROOK
 summary: Institution-assigned Rifle Marine and balanced starting character used to prove Imprint Zero's shared action fundamentals.
 eyebrow: Playable character
-status: in-progress
+status: reference
 ---
 
 <section class="character-card" aria-label="ROOK character profile">

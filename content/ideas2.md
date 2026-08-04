@@ -2,7 +2,7 @@
 title: Story
 summary: AI generated biomes / missions / story
 eyebrow: ideas 2
-status: in-progress
+status: reference
 ---
 
 ## Core Narrative Premise

@@ -2,7 +2,7 @@
 title: Biomes
 summary: Biomes overview
 eyebrow: World
-status: in-progress
+status: accepted
 ---
 
 | Biome              | Missions                                                                                       |
@@ -21,8 +21,3 @@ status: in-progress
 | [[Biomes/B12|B12]] | [[Missions/HS02|HS02]], [[Missions/HS03|HS03]]                                                 |
 | [[Biomes/B99|B99]] | [[Missions/SE01|SE01]]                                                                         |
 
-
-| ID | Biome | Missions | Locations | Unique mechanics | Environment kit | Status |
-|---|---|---:|---:|---:|---:|---|
-| BIO-01 | [[World/Biomes/BIO-01|Freight infrastructure]] | 2 | 3 | 1 | 1 | Placeholder |
-| BIO-02 | [[World/Biomes/BIO-02|Flood-control works]] | 3 | 4 | 2 | 1 | Placeholder |

@@ -2,7 +2,7 @@
 title: RELAY
 summary: Institution-assigned Systems Specialist built around machinery interaction, area control, tactical setup, and rejection of the network.
 eyebrow: Playable character
-status: in-progress
+status: reference
 ---
 
 <section class="character-card" aria-label="RELAY character profile">

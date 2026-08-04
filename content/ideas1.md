@@ -2,7 +2,7 @@
 title: Imprint Zero — Campaign Shape
 summary: AI generated progression shape
 eyebrow: ideas 1
-status: in-progress
+status: reference
 ---
 
 # Imprint Zero — Campaign Shape
