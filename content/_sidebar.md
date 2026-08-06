@@ -170,6 +170,11 @@
 
 ## Presentation
 
+- [[Design/Crew|Playable Crew]]
+  - [[Design/C1|ROOK]]
+  - [[Design/C2|VECTOR]]
+  - [[Design/C3|RAM]]
+  - [[Design/C4|RELAY]]
 - [[Design/Art Direction|Art direction]]
 
 ## Production
