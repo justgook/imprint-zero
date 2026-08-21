@@ -269,15 +269,17 @@
   cursor: pointer;
 }
 
-.prose .mermaid a:is(:hover, :focus-visible) .node,
-.diagram-canvas a:is(:hover, :focus-visible) .node {
-  filter: brightness(1.14) drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent));
+.prose .mermaid a .node,
+.diagram-canvas a .node {
+  opacity: .72;
+  transition: opacity .15s ease;
 }
 
-.prose .mermaid a:is(:hover, :focus-visible) .node .label-container,
-.diagram-canvas a:is(:hover, :focus-visible) .node .label-container {
-  stroke: var(--accent) !important;
-  stroke-width: 4px !important;
+.prose .mermaid .node.clickable:hover,
+.prose .mermaid a:focus-visible .node,
+.diagram-canvas .node.clickable:hover,
+.diagram-canvas a:focus-visible .node {
+  opacity: 1;
 }
 
 /* Project-local gettext catalogue renderer. */
