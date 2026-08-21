@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "Gra akcji"
+
+msgid "game.genre.adventure"
+msgstr "Gra przygodowa"
+
+msgid "game.genre.card"
+msgstr "Karciana"
+
+msgid "game.genre.casual"
+msgstr "Gra zwyczajna"
+
+msgid "game.genre.fantasy"
+msgstr "Gra fantasy"
+
+msgid "game.genre.hardcore"
+msgstr "Gra hardkorowa"
+
+msgid "game.genre.indie"
+msgstr "Indie"
+
+msgid "game.genre.medieval"
+msgstr "Gra w średniowieczu"
+
+msgid "game.genre.misc"
+msgstr "Różne"
+
+msgid "game.genre.multiplayer"
+msgstr "Gra wieloosobowa"
+
+msgid "game.genre.name"
+msgstr "Gatunek"
+
+msgid "game.genre.platformer"
+msgstr "Gra platformowa"
+
+msgid "game.genre.puzzle"
+msgstr "Gra logiczna"
+
+msgid "game.genre.quiz"
+msgstr "Teleturniej"
+
+msgid "game.genre.racing"
+msgstr "Wyścigi"
+
+msgid "game.genre.retro"
+msgstr "Gra retro"
+
+msgid "game.genre.rpg"
+msgstr "RPG"
+
+msgid "game.genre.rts"
+msgstr "Strategie czasu rzeczywistego"
+
+msgid "game.genre.scifi"
+msgstr "Gra science-fiction"
+
+msgid "game.genre.shooter"
+msgstr "Strzelanka"
+
+msgid "game.genre.simulation"
+msgstr "Symulator"
+
+msgid "game.genre.singleplayer"
+msgstr "Gra jednoosobowa"
+
+msgid "game.genre.sports"
+msgstr "Gra sportowa"
+
+msgid "game.genre.strategy"
+msgstr "Gra strategiczna"
+
+msgid "game.genre.tbs"
+msgstr "Strategia turowa"
+
+msgid "game.genre.tower.defense"
+msgstr "Tower defence"
+
+msgid "game.genre.async"
+msgstr "Asynchroniczny multiplayer"
+
+msgid "game.genre.arcade"
+msgstr "Gra arkadowa"
+
+msgid "game.genre.beatemup"
+msgstr "Beat 'em up"
+
+msgid "game.genre.shootemup"
+msgstr "Shoot 'em up"
+
+msgid "game.genre.graphic.adventure"
+msgstr "Gra przygodowa"
+
+msgid "game.genre.text.adventure"
+msgstr "Fikcja interaktywna"
+
+msgid "game.genre.stealth.game"
+msgstr "Skradanka"
+
+msgid "game.genre.pointandclick.game"
+msgstr "Gra point and click"
+
+msgid "game.genre.roguelike"
+msgstr "Roguelike"
+
+msgid "game.genre.visual.novel"
+msgstr "Powieść wizualna"
+
+msgid "game.genre.dating.sim"
+msgstr "Symulator randki"
+
+msgid "game.genre.match.three"
+msgstr "Gra typu \"dopasuj 3\""
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "Gra polegająca na dopasowywaniu płytek"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "Gra"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "Przygoda"

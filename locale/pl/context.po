@@ -1,0 +1,1929 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: context\n"
+
+#. [Noun] Character class
+msgid "context.character.class"
+msgstr "Klasa"
+
+#. [Verb]
+msgid "context.character.delete"
+msgstr "Usuń Postać"
+
+#. Typically used in rpgs/mmorpgs
+msgid "context.character.new"
+msgstr "Nowa Postać"
+
+#. [Noun]
+msgid "context.class.ai"
+msgstr "Sztuczna Inteligencja"
+
+#. [Noun]
+msgid "context.class.alien"
+msgstr "Kosmita"
+
+#. [Noun]
+msgid "context.class.clone"
+msgstr "Klon"
+
+#. [Noun]
+msgid "context.class.cyborg"
+msgstr "Cyborg"
+
+#. [Noun]
+msgid "context.class.deity"
+msgstr "Bóstwo"
+
+#. [Noun]
+msgid "context.class.demon"
+msgstr "Demon"
+
+#. [Noun]
+msgid "context.class.demonness"
+msgstr "Demon"
+
+#. [Noun]
+msgid "context.class.dragon"
+msgstr "Smok"
+
+#. [Noun/Plural]
+msgid "context.class.dragon.plural"
+msgstr "Smoki"
+
+#. [Noun]
+msgid "context.class.ghost"
+msgstr "Duch"
+
+#. [Noun]
+msgid "context.class.god"
+msgstr "Bóg"
+
+#. [Noun/Plural]
+msgid "context.class.god.plural"
+msgstr "Bogowie"
+
+#. [Noun]
+msgid "context.class.goddess"
+msgstr "Bogini"
+
+#. [Noun]
+msgid "context.class.mage"
+msgstr "Mag"
+
+#. [Noun] A person involved in medicine
+msgid "context.class.medic"
+msgstr "Medyk"
+
+#. [Noun]
+msgid "context.class.monster"
+msgstr "Potwór"
+
+#. [Noun]
+msgid "context.class.ninja"
+msgstr "Ninja"
+
+#. [Noun]
+msgid "context.class.pirate"
+msgstr "Pirat"
+
+#. [Noun]
+msgid "context.class.priest"
+msgstr "Kapłan"
+
+#. [Noun]
+msgid "context.class.prince"
+msgstr "Książę"
+
+#. [Noun]
+msgid "context.class.princess"
+msgstr "Księżniczka"
+
+#. [Noun]
+msgid "context.class.robot"
+msgstr "Robot"
+
+#. [Noun]
+msgid "context.class.skeleton"
+msgstr "Szkielet"
+
+#. [Noun]
+msgid "context.class.sniper"
+msgstr "Snajper"
+
+#. [Noun]
+msgid "context.class.soldier"
+msgstr "Żołnierz"
+
+#. [Noun]
+msgid "context.class.thief"
+msgstr "Złodziej"
+
+#. [Noun]
+msgid "context.class.warrior"
+msgstr "Wojownik"
+
+#. [Noun]
+msgid "context.class.wizard"
+msgstr "Czarnoksiężnik"
+
+#. [Noun]
+msgid "context.class.zombie"
+msgstr "Zombie"
+
+#. [Noun/Plural]
+msgid "context.class.zombie.plural"
+msgstr "Zombie"
+
+#. [Noun]
+msgid "context.competition.first"
+msgstr "Pierwsze miejsce"
+
+#. [Noun] What place someone came in competition
+msgid "context.competition.place.noun"
+msgstr "Miejsce"
+
+#. [Noun]
+msgid "context.competition.second"
+msgstr "Drugie miejsce"
+
+#. [Noun]
+msgid "context.competition.third"
+msgstr "Trzecie miejsce"
+
+#. [Adjective]
+msgid "context.condition.burning"
+msgstr "Popażony"
+
+#. [Adjective]
+msgid "context.condition.critical"
+msgstr "Krytyczny"
+
+#. [Adjective] [Default male]
+msgid "context.condition.dead"
+msgstr "Martwy"
+
+#. [Adjective] [Default male]
+msgid "context.condition.frozen"
+msgstr "Zamrożony"
+
+#. [Adjective] [Default male]
+msgid "context.condition.poisoned"
+msgstr "Otruty"
+
+#. [Adjective] [Default male]
+msgid "context.condition.slowed"
+msgstr "Spowolniony"
+
+#. [Adjective] [Default male]
+msgid "context.condition.stunned"
+msgstr "Ogłuszony"
+
+#. [Adjective]
+msgid "context.condition.unconscious"
+msgstr "Nieprzytomny"
+
+#. [Adjective] [Default male] No wounds
+msgid "context.condition.unhurt"
+msgstr "Zdrowy"
+
+#. [Adjective] [Default male]
+msgid "context.condition.wet"
+msgstr "Przemoczony"
+
+#. [Adjective] [Default male]
+msgid "context.condition.wounded"
+msgstr "Ranny"
+
+#. [Adjective]
+msgid "context.description.big"
+msgstr "Duży"
+
+#. [Adjective] Very large
+msgid "context.description.huge"
+msgstr "Ogromny"
+
+#. [Adjective]
+msgid "context.description.small"
+msgstr "Mały"
+
+#. [Adjective] Very small
+msgid "context.description.tiny"
+msgstr "Malutki"
+
+#. [Noun]
+msgid "context.element.air"
+msgstr "Powietrze"
+
+#. [Noun]
+msgid "context.element.earth"
+msgstr "Ziemia"
+
+#. [Noun]
+msgid "context.element.fire"
+msgstr "Ogień"
+
+#. [Noun]
+msgid "context.element.metal"
+msgstr "Metal"
+
+#. [Noun] Magical elements
+msgid "context.element.water"
+msgstr "Woda"
+
+#. [Infinitive verb]
+msgid "context.gambling.bet"
+msgstr "Zakład"
+
+#. [Infinitive verb]
+msgid "context.gambling.discard"
+msgstr "Odrzuć"
+
+#. [Noun] Biggest possible prize
+msgid "context.gambling.jackpot"
+msgstr "Jackpot"
+
+#. [Noun] Abbreviation for maximum of range
+msgid "context.gambling.max"
+msgstr "Maksymum"
+
+#. [Noun] Abbreviation for minimum of range
+msgid "context.gambling.min"
+msgstr "Minimum"
+
+#. [Noun] Body armor
+msgid "context.item.armor"
+msgstr "Zbroja"
+
+#. [Noun] Ammo for archers
+msgid "context.item.arrow"
+msgstr "Strzała"
+
+#. [Noun/Plural] Ammo for archers
+msgid "context.item.arrow.plural"
+msgstr "Strzały"
+
+#. [Noun] Boardgame board
+msgid "context.item.board"
+msgstr "Plansza"
+
+#. [Noun]
+msgid "context.item.bomb"
+msgstr "Bomba"
+
+#. [Noun]
+msgid "context.item.book"
+msgstr "Książka"
+
+#. [Noun/Plural] Boots
+msgid "context.item.boots"
+msgstr "Buty"
+
+#. [Noun] Used by archers
+msgid "context.item.bow"
+msgstr "Łuk"
+
+#. [Noun]
+msgid "context.item.card"
+msgstr "Karta"
+
+#. [Noun/Plural]
+msgid "context.item.card.plural"
+msgstr "Karty"
+
+#. [Noun] Treasure not body part
+msgid "context.item.chest"
+msgstr "Skrzynia"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.cond.magical"
+msgstr "Magiczny"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.cond.rusty"
+msgstr "Zardzewiały"
+
+#. [Noun] Small blade used by rogues
+msgid "context.item.dagger"
+msgstr "Sztylet"
+
+#. [Noun] [Noun] As in "throw the die"
+msgid "context.item.die.noun"
+msgstr "Kość"
+
+#. [Noun/Plural] As in "throw two dice"
+msgid "context.item.die.plural"
+msgstr "Kości"
+
+#. [Noun]
+msgid "context.item.door"
+msgstr "Drzwi"
+
+#. [Noun/Plural] Heavy protective warrior's gloves
+msgid "context.item.gauntlets"
+msgstr "Rękawica"
+
+#. [Noun] Gem or jewel
+msgid "context.item.gem"
+msgstr "Klejnot"
+
+#. [Noun]
+msgid "context.item.gift.noun"
+msgstr "Prezent"
+
+#. [Noun/Plural]
+msgid "context.item.gift.plural"
+msgstr "Prezenty"
+
+#. [Noun/Plural] Regular gloves
+msgid "context.item.glove.plural"
+msgstr "Rękawiczki"
+
+#. [Noun] A single regular glove worn on the hand.
+msgid "context.item.glove"
+msgstr "Rękawiczka"
+
+#. [Noun] Generic name for any firearm
+msgid "context.item.gun"
+msgstr "Broń"
+
+#. [Noun] Tool
+msgid "context.item.hammer"
+msgstr "Młot"
+
+#. [Noun] Head protector specifically for warriors not athletes
+msgid "context.item.helmet"
+msgstr "Hełm"
+
+#. [Noun]
+msgid "context.item.key"
+msgstr "Klucz"
+
+#. [Noun] Tool for whittling and carving not just combat
+msgid "context.item.knife"
+msgstr "Nóż"
+
+#. [Noun]
+msgid "context.item.lock"
+msgstr "Zamek"
+
+#. [Noun]
+msgid "context.item.love"
+msgstr "Miłość"
+
+#. [Noun] Generic - Not "uzi" or "ak-47" etc
+msgid "context.item.machine.item.gun"
+msgstr "Karabin Maszynowy"
+
+#. [Noun]
+msgid "context.item.magic"
+msgstr "Magia"
+
+#. [Noun]
+msgid "context.item.pistol"
+msgstr "Pistolet"
+
+#. [Noun] The pursuit of something
+msgid "context.item.quest.noun"
+msgstr "Wyprawa"
+
+#. [Noun] Military Rank
+msgid "context.item.rank.noun"
+msgstr "Ranga"
+
+#. [Noun] Generic name for long-barelled gun
+msgid "context.item.rifle"
+msgstr "Karabin"
+
+#. [Noun]
+msgid "context.item.rocket.item.launcher"
+msgstr "Wyrzutnia Rakiet"
+
+#. [Noun] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+msgid "context.item.rpg"
+msgstr "RPG"
+
+#. [Noun] Readable/magic scroll
+msgid "context.item.scroll"
+msgstr "Zwój"
+
+#. [Noun] Medieval shield
+msgid "context.item.shield"
+msgstr "Tarcza"
+
+#. [Noun/Plural]
+msgid "context.item.shield.plural"
+msgstr "Tarcze"
+
+#. [Noun] Sci-fi energy shield [spaceship]
+msgid "context.item.shield.scifi"
+msgstr "Pole siłowe"
+
+#. [Noun/Plural] Sci-fi energy shield [spaceship]
+msgid "context.item.shield.scifi.plural"
+msgstr "Pola siłowe"
+
+#. [Noun]
+msgid "context.item.shotgun"
+msgstr "Strzelba"
+
+#. [Noun] Rifle with a scope
+msgid "context.item.sniper.item.rifle"
+msgstr "Karabin Snajperski"
+
+#. [Noun]
+msgid "context.item.spell"
+msgstr "Zaklęcie"
+
+#. [Noun] Large magical walking stick
+msgid "context.item.staff"
+msgstr "Laska"
+
+#. [Noun] Classic medieval sword
+msgid "context.item.sword"
+msgstr "Miecz"
+
+#. [Noun]
+msgid "context.item.treasure"
+msgstr "Skarb"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.type.epic"
+msgstr "Epicki"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.type.junk"
+msgstr "Śmieć"
+
+#. [Noun] Magic wand like Harry Potter
+msgid "context.item.wand"
+msgstr "Różdżka"
+
+#. [Noun]
+msgid "context.item.wood"
+msgstr "Drewno"
+
+#. [Noun]
+msgid "context.machine.altitude"
+msgstr "Wysokość"
+
+#. [Noun/Plural]
+msgid "context.machine.brakes"
+msgstr "Hamulce"
+
+#. [Noun]
+msgid "context.machine.chassis"
+msgstr "Podwozie"
+
+#. [Noun] For example how deep a submarine is
+msgid "context.machine.depth"
+msgstr "Głębokość"
+
+#. [Noun]
+msgid "context.machine.fuel"
+msgstr "Paliwo"
+
+#. [Noun] Transmission gear
+msgid "context.machine.gear"
+msgstr "Zębatka"
+
+#. [Noun] Vehicle cornering swerving performance
+msgid "context.machine.handling"
+msgstr "Zwrotność"
+
+#. [Noun]
+msgid "context.machine.speed"
+msgstr "Prędkość"
+
+#. [Noun] Steering wheel responsiveness
+msgid "context.machine.steering"
+msgstr "Sterowanie"
+
+#. [Noun]
+msgid "context.machine.suspension"
+msgstr "Zawieszenie"
+
+#. [Noun/Plural] Generic for any machine car plane etc
+msgid "context.machine.wheels"
+msgstr "Koła"
+
+#. [Noun]
+msgid "context.machine.wings"
+msgstr "Skrzydła"
+
+#. [Noun]
+msgid "context.medal"
+msgstr "Medal"
+
+#. [Noun]
+msgid "context.medal.bronze"
+msgstr "Brązowy medal"
+
+#. [Noun]
+msgid "context.medal.gold"
+msgstr "Złoty medal"
+
+#. [Noun]
+msgid "context.medal.silver"
+msgstr "Srebrny medal"
+
+#. [Noun]
+msgid "context.metal.bronze"
+msgstr "Brąz"
+
+#. [Noun]
+msgid "context.metal.coin"
+msgstr "Moneta"
+
+#. [Noun]
+msgid "context.metal.gold"
+msgstr "Złoto"
+
+#. [Noun] Cast shape of solid metal in bank vaults
+msgid "context.metal.ingot"
+msgstr "Sztabka"
+
+#. [Noun]
+msgid "context.metal.platinum"
+msgstr "Platyna"
+
+#. [Noun]
+msgid "context.metal.silver"
+msgstr "Srebro"
+
+#. [Noun]
+msgid "context.place.castle"
+msgstr "Zamek"
+
+#. [Noun]
+msgid "context.place.cave"
+msgstr "Jaskinia"
+
+#. [Noun] Underground prison
+msgid "context.place.dungeon"
+msgstr "Loch"
+
+#. [Noun] Hosted stay building for travellers
+msgid "context.place.inn"
+msgstr "Zajazd"
+
+#. [Noun]
+msgid "context.place.planet"
+msgstr "Planeta"
+
+#. [Noun]
+msgid "context.place.planet.earth"
+msgstr "Ziemia"
+
+#. [Noun] Interstellar space not volumetric space
+msgid "context.place.space"
+msgstr "Kosmos"
+
+#. [Noun]
+msgid "context.place.spaceship"
+msgstr "Statek kosmiczny"
+
+#. [Noun]
+msgid "context.story"
+msgstr "Historia"
+
+#. [Noun]
+msgid "context.story.adventure"
+msgstr "Przygoda"
+
+#. [Noun]
+msgid "context.story.chapter"
+msgstr "Rozdział"
+
+#. [Noun]
+msgid "context.story.page"
+msgstr "Strona"
+
+#. [Noun] Artificial Intelligence (short)
+msgid "context.class.ai.short"
+msgstr "SI"
+
+msgid "context.machine.plane.fuselage"
+msgstr "Kadłub"
+
+msgid "context.character"
+msgstr "Postać"
+
+#. [Noun/Plural] Character class
+#, game-format
+msgid "context.character.class.count"
+msgstr "Klasy: %d"
+
+#. [Noun/Plural] Character class
+msgid "context.character.class.plural"
+msgstr "Klasy:"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.character.delete.count"
+msgstr "Usuń Postacie: %d"
+
+#. [Noun/Plural]
+msgid "context.character.delete.plural"
+msgstr "Usuń Postacie:"
+
+msgid "context.character.name"
+msgstr "Nazwa postaci"
+
+#. [Noun/Plural] Typically used in rpgs/mmorpgs
+#, game-format
+msgid "context.character.new.count"
+msgstr "Nowe Postacie: %d"
+
+#. [Noun/Plural] Typically used in rpgs/mmorpgs
+msgid "context.character.new.plural"
+msgstr "Nowe Postacie:"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ai.count"
+msgstr "Sztuczne Inteligencje: %d"
+
+#. [Noun/Plural]
+msgid "context.class.ai.plural"
+msgstr "Sztuczne Inteligencje:"
+
+#. [Noun/Plural] How many aliens e.g. for stats.
+#, game-format
+msgid "context.class.alien.count"
+msgstr "Obcy: %d"
+
+#. [Noun/Plural]
+msgid "context.class.alien.plural"
+msgstr "Obcy"
+
+#. [Noun/Plural] E.g. "Clones: 9"
+#, game-format
+msgid "context.class.clone.count"
+msgstr "Klony: %d"
+
+#. [Noun/Plural]
+msgid "context.class.clone.plural"
+msgstr "Klony"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.cyborg.count"
+msgstr "Cyborgi: %d"
+
+#. [Noun/Plural]
+msgid "context.class.cyborg.plural"
+msgstr "Cyborgi"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.deity.count"
+msgstr "Bóstwa: %d"
+
+#. [Noun/Plural]
+msgid "context.class.deity.plural"
+msgstr "Bóstwa"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.demon.count"
+msgstr "Demony: %d"
+
+#. [Noun/Plural]
+msgid "context.class.demon.plural"
+msgstr "Demony"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.demoness.count"
+msgstr "Demonice: %d"
+
+#. [Noun/Plural]
+msgid "context.class.demoness.plural"
+msgstr "Demonice"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ghost.count"
+msgstr "Duchy: %d"
+
+#. [Noun/Plural]
+msgid "context.class.ghost.plural"
+msgstr "Duchy"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.goddess.count"
+msgstr "Boginie: %d"
+
+#. [Noun/Plural]
+msgid "context.class.goddess.plural"
+msgstr "Boginie"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.mage.count"
+msgstr "Magowie: %d"
+
+#. [Noun/Plural]
+msgid "context.class.mage.plural"
+msgstr "Magowie"
+
+#. [Noun/Plural] A person involved in medicine
+#, game-format
+msgid "context.class.medic.count"
+msgstr "Medycy: %d"
+
+#. [Noun/Plural] A person involved in medicine
+msgid "context.class.medic.plural"
+msgstr "Medycy"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.monster.count"
+msgstr "Potwory: %d"
+
+#. [Noun/Plural]
+msgid "context.class.monster.plural"
+msgstr "Potwory"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ninja.count"
+msgstr "Ninja: %d"
+
+#. [Noun/Plural]
+msgid "context.class.ninja.plural"
+msgstr "Ninja"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.pirate.count"
+msgstr "Piraci: %d"
+
+#. [Noun/Plural]
+msgid "context.class.pirate.plural"
+msgstr "Piraci"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.priest.count"
+msgstr "Kapłani: %d"
+
+#. [Noun/Plural]
+msgid "context.class.priest.plural"
+msgstr "Księża"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.prince.count"
+msgstr "Książęta: %d"
+
+#. [Noun/Plural]
+msgid "context.class.prince.plural"
+msgstr "Książęta"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.princess.count"
+msgstr "Księżniczki: %d"
+
+#. [Noun/Plural]
+msgid "context.class.princess.plural"
+msgstr "Księżniczki"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.robot.count"
+msgstr "Roboty: %d"
+
+#. [Noun/Plural]
+msgid "context.class.robot.plural"
+msgstr "Roboty"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.skeleton.count"
+msgstr "Szkielety: %d"
+
+#. [Noun/Plural]
+msgid "context.class.skeleton.plural"
+msgstr "Szkielety"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.sniper.count"
+msgstr "Snajperzy: %d"
+
+#. [Noun/Plural]
+msgid "context.class.sniper.plural"
+msgstr "Snajperzy"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.soldier.count"
+msgstr "Żołnierze: %d"
+
+#. [Noun/Plural]
+msgid "context.class.soldier.plural"
+msgstr "Żołnierze"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.thief.count"
+msgstr "Złodzieje: %d"
+
+#. [Noun/Plural]
+msgid "context.class.thief.plural"
+msgstr "Złodzieje"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.warrior.count"
+msgstr "Wojownicy: %d"
+
+#. [Noun/Plural]
+msgid "context.class.warrior.plural"
+msgstr "Wojownicy"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.wizard.count"
+msgstr "Czarodzieje: %d"
+
+#. [Noun/Plural]
+msgid "context.class.wizard.plural"
+msgstr "Czarodzieje"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.zombie.count"
+msgstr "Zombie: %d"
+
+#. [Noun/Plural] What place someone came in competition
+#, game-format
+msgid "context.competition.place.noun.count"
+msgstr "Miejsca: %d"
+
+#. [Noun/Plural] What place someone came in competition
+msgid "context.competition.place.noun.plural"
+msgstr "Miejsca"
+
+#. [Adjective] To be lying down on ground
+msgid "context.condition.prone"
+msgstr "Kładź się"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.element.metal.count"
+msgstr "Metale: %d"
+
+#. [Noun/Plural]
+msgid "context.element.metal.plural"
+msgstr "Metale"
+
+#. [Noun/Plural] The actual money on the gambling table.
+#, game-format
+msgid "context.gambling.bet.noun.count"
+msgstr "Zakłady: %d"
+
+#. [Noun/Plural] The actual money on the gambling table.
+msgid "context.gambling.bet.noun.plural"
+msgstr "Zakłady"
+
+#. [Noun/Plural] E.g. Discarded cards.
+#, game-format
+msgid "context.gambling.discard.noun.count"
+msgstr "Odrzuca: %d"
+
+#. [Noun/Plural] E.g. Discarded cards.
+msgid "context.gambling.discard.noun.plural"
+msgstr "Odrzuca"
+
+#. [Noun/Plural] Biggest possible prize
+#, game-format
+msgid "context.gambling.jackpot.count"
+msgstr "Jackpoty: %d"
+
+#. [Noun/Plural] Biggest possible prize
+msgid "context.gambling.jackpot.plural"
+msgstr "Jackpoty"
+
+#. Loser of a gambling game
+msgid "context.gambling.loser"
+msgstr "Przegrany"
+
+#. [Noun/Plural] Abbreviation for minimum of range
+#, game-format
+msgid "context.gambling.min.count"
+msgstr "Min.: %d"
+
+#. [Noun/Plural] Abbreviation for minimum of range
+msgid "context.gambling.min.plural"
+msgstr "Min"
+
+#. [Adjective] Random number
+msgid "context.gambling.random"
+msgstr "Losowy"
+
+#. Winner of a gambling game
+msgid "context.gambling.winner"
+msgstr "Wygrany"
+
+#. [Noun/Plural] Body armor
+#, game-format
+msgid "context.item.armor.count"
+msgstr "Pancerze: %d"
+
+#. [Noun/Plural] Body armor
+msgid "context.item.armor.plural"
+msgstr "Zbroje"
+
+#. [Noun/Plural] Ammo for archers
+#, game-format
+msgid "context.item.arrow.count"
+msgstr "Strzałki: %d"
+
+#. [Noun/Plural] Boardgame board
+#, game-format
+msgid "context.item.board.count"
+msgstr "Płyty: %d"
+
+#. [Noun/Plural] Boardgame board
+msgid "context.item.board.plural"
+msgstr "Deski"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.bomb.count"
+msgstr "Bomby: %d"
+
+#. [Noun/Plural]
+msgid "context.item.bomb.plural"
+msgstr "Bomby"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.book.count"
+msgstr "Książki: %d"
+
+#. [Noun/Plural]
+msgid "context.item.book.plural"
+msgstr "Książki"
+
+#. [Noun] A single boot. https://upload.wikimedia.org/wikipedia/commons/3/39/Dr_Martens%2C_black%2C_old.jpg
+msgid "context.item.boot"
+msgstr "Rozruch"
+
+#. [Noun/Plural] Boots
+#, game-format
+msgid "context.item.boot.count"
+msgstr "Buty: %d"
+
+#. [Noun/Plural] Used by archers
+#, game-format
+msgid "context.item.bow.count"
+msgstr "Łuki: %d"
+
+#. [Noun/Plural] Used by archers
+msgid "context.item.bow.plural"
+msgstr "Łuki"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.card.count"
+msgstr "Karty: %d"
+
+#. [Noun/Plural] Treasure not body part
+#, game-format
+msgid "context.item.chest.count"
+msgstr "Skrzynie: %d"
+
+#. [Noun/Plural] Treasure not body part
+msgid "context.item.chest.plural"
+msgstr "Skrzynie"
+
+#. [Noun/Plural] Small blade used by rogues
+#, game-format
+msgid "context.item.dagger.count"
+msgstr "Sztylety: %d"
+
+#. [Noun/Plural] Small blade used by rogues
+msgid "context.item.dagger.plural"
+msgstr "Sztylety"
+
+#. Deck of cards
+msgid "context.item.deck"
+msgstr "Talia"
+
+#. E.g. "4 decks of cards"
+#, game-format
+msgid "context.item.deck.many"
+msgstr "Pokłady: %d"
+
+#. Decks of cards
+msgid "context.item.deck.plural"
+msgstr "Talie"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.door.count"
+msgstr "Drzwi: %d"
+
+#. [Noun/Plural]
+msgid "context.item.door.plural"
+msgstr "Drzwi"
+
+#. [Noun] Various items such as armor, weapons, tools used in sports, etc.
+msgid "context.item.equipment"
+msgstr "Sprzęt"
+
+#. [Noun/Plural] Various items such as armor, weapons, tools used in sports, etc.
+#, game-format
+msgid "context.item.equipment.count"
+msgstr "Wyposażenie: %d"
+
+#. [Noun/Plural] Various items such as armor, weapons, tools used in sports, etc.
+msgid "context.item.equipment.plural"
+msgstr "Sprzęt"
+
+#. [Noun] A single protective armored glove.
+msgid "context.item.gauntlet"
+msgstr "Rękawica"
+
+#. [Noun/Plural] Heavy protective warrior's gloves
+#, game-format
+msgid "context.item.gauntlet.count"
+msgstr "Rękawice: %d"
+
+#. [Noun] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+msgid "context.item.gear.equipment"
+msgstr "Sprzęt"
+
+#. [Noun/Plural] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+#, game-format
+msgid "context.item.gear.equipment.count"
+msgstr "Sprzęt: %d"
+
+#. [Noun/Plural] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+msgid "context.item.gear.equipment.plural"
+msgstr "Sprzęt"
+
+#. [Noun] Usually a round wheel with teeth designed to transmit torque.
+msgid "context.item.gearwheel"
+msgstr "Sprzęt"
+
+#. [Noun/Plural] Usually a round wheel with teeth designed to transmit torque.
+#, game-format
+msgid "context.item.gearwheel.count"
+msgstr "Przekładnie: %d"
+
+#. [Noun/Plural] Usually a round wheel with teeth designed to transmit torque.
+msgid "context.item.gearwheel.plural"
+msgstr "Przekładnie"
+
+#. [Noun/Plural] Gem or jewel
+#, game-format
+msgid "context.item.gem.count"
+msgstr "Klejnoty: %d"
+
+#. [Noun/Plural] Gem or jewel
+msgid "context.item.gem.plural"
+msgstr "Klejnoty"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.gift.count"
+msgstr "Prezenty: %d"
+
+#. [Noun/Plural] Regular gloves
+#, game-format
+msgid "context.item.glove.count"
+msgstr "Rękawiczki: %d"
+
+#. [Noun/Plural] Generic name for any firearm
+#, game-format
+msgid "context.item.gun.count"
+msgstr "Broń: %d"
+
+#. [Noun/Plural] Generic name for any firearm
+msgid "context.item.gun.plural"
+msgstr "Pistolety"
+
+#. [Noun/Plural] The tool you use to hammer nails.
+#, game-format
+msgid "context.item.hammer.count"
+msgstr "Młotki: %d"
+
+#. [Noun/Plural] The tool you use to hammer nails.
+msgid "context.item.hammer.plural"
+msgstr "Młotki"
+
+#. [Noun/Plural] Head protector specifically for warriors not athletes
+#, game-format
+msgid "context.item.helmet.count"
+msgstr "Hełmy: %d"
+
+#. [Noun/Plural] Head protector specifically for warriors not athletes
+msgid "context.item.helmet.plural"
+msgstr "Hełmy"
+
+#. [Noun] A generic term for any distinct physical object.
+msgid "context.item.item"
+msgstr "Przedmiot"
+
+#. [Noun/Plural] A generic term for any distinct physical object.
+#, game-format
+msgid "context.item.item.count"
+msgstr "Przedmioty: %d"
+
+#. [Noun/Plural] A generic term for any distinct physical object.
+msgid "context.item.item.plural"
+msgstr "Przedmioty"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.key.count"
+msgstr "Klucze: %d"
+
+#. [Noun/Plural]
+msgid "context.item.key.plural"
+msgstr "Klucze"
+
+#. [Noun/Plural] Tool for whittling and carving not just combat
+#, game-format
+msgid "context.item.knife.count"
+msgstr "Noże: %d"
+
+#. [Noun/Plural] Tool for whittling and carving not just combat
+msgid "context.item.knife.plural"
+msgstr "Noże"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.lock.count"
+msgstr "Zamki: %d"
+
+#. [Noun/Plural]
+msgid "context.item.lock.plural"
+msgstr "Zamki"
+
+#. [Noun/Plural] Generic - Not "uzi" or "ak-47" etc
+#, game-format
+msgid "context.item.machine.item.gun.count"
+msgstr "Karabiny maszynowe: %d"
+
+#. [Noun/Plural] Generic - Not "uzi" or "ak-47" etc
+msgid "context.item.machine.item.gun.plural"
+msgstr "Karabiny maszynowe"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.magic.count"
+msgstr "Magia: %d"
+
+#. [Noun/Plural]
+msgid "context.item.magic.plural"
+msgstr "Magia"
+
+#. [Noun] Item worn on face
+msgid "context.item.mask"
+msgstr "Maska"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.pistol.count"
+msgstr "Pistolety: %d"
+
+#. [Noun/Plural]
+msgid "context.item.pistol.plural"
+msgstr "Pistolety"
+
+#. [Noun/Plural] The pursuit of something
+#, game-format
+msgid "context.item.quest.noun.count"
+msgstr "Zadania: %d"
+
+#. [Noun/Plural] The pursuit of something
+msgid "context.item.quest.noun.plural"
+msgstr "Zadania"
+
+#. [Noun/Plural] Military Rank
+#, game-format
+msgid "context.item.rank.noun.count"
+msgstr "Rangi: %d"
+
+#. [Noun/Plural] Military Rank
+msgid "context.item.rank.noun.plural"
+msgstr "Rangi"
+
+#. [Noun/Plural] Generic name for long-barelled gun
+#, game-format
+msgid "context.item.rifle.count"
+msgstr "Karabiny: %d"
+
+#. [Noun/Plural] Generic name for long-barelled gun
+msgid "context.item.rifle.plural"
+msgstr "Karabiny"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.rocket.item.launcher.count"
+msgstr "Wyrzutnie rakiet: %d"
+
+#. [Noun/Plural]
+msgid "context.item.rocket.item.launcher.plural"
+msgstr "Wyrzutnie rakiet"
+
+#. [Noun/Plural] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+#, game-format
+msgid "context.item.rpg.count"
+msgstr "Gry RPG: %d"
+
+#. [Noun/Plural] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+msgid "context.item.rpg.plural"
+msgstr "RPG"
+
+#. [Noun/Plural] Readable/magic scroll
+#, game-format
+msgid "context.item.scroll.count"
+msgstr "Zwoje: %d"
+
+#. [Noun/Plural] Readable/magic scroll
+msgid "context.item.scroll.plural"
+msgstr "Zwoje"
+
+#. [Noun/Plural] Sci-fi energy shield [spaceship]
+#, game-format
+msgid "context.item.shield.scifi.count"
+msgstr "Tarcze energetyczne: %d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.shotgun.count"
+msgstr "Strzelby: %d"
+
+#. [Noun/Plural]
+msgid "context.item.shotgun.plural"
+msgstr "Strzelby"
+
+#. [Noun/Plural] Rifle with a scope
+#, game-format
+msgid "context.item.sniper.item.rifle.count"
+msgstr "Karabiny snajperskie: %d"
+
+#. [Noun/Plural] Rifle with a scope
+msgid "context.item.sniper.item.rifle.plural"
+msgstr "Karabiny snajperskie"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.spell.count"
+msgstr "Czary: %d"
+
+#. [Noun/Plural]
+msgid "context.item.spell.plural"
+msgstr "Zaklęcia"
+
+#. [Noun/Plural] Large magical walking stick
+#, game-format
+msgid "context.item.staff.count"
+msgstr "Laski: %d"
+
+#. [Noun/Plural] Large magical walking stick
+msgid "context.item.staff.plural"
+msgstr "Laski"
+
+#. [Noun/Plural] Classic medieval sword
+#, game-format
+msgid "context.item.sword.count"
+msgstr "Miecze: %d"
+
+#. [Noun/Plural] Classic medieval sword
+msgid "context.item.sword.plural"
+msgstr "Miecze"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.treasure.count"
+msgstr "Skarby: %d"
+
+#. [Noun/Plural]
+msgid "context.item.treasure.plural"
+msgstr "Skarby"
+
+#. [Noun/Plural] Very high level equipment. ”This dungeon is full of epics.”
+#, game-format
+msgid "context.item.type.epic.count"
+msgstr "Epickie: %d"
+
+#. [Noun/Plural] Very high level equipment. ”This dungeon is full of epics.”
+msgid "context.item.type.epic.plural"
+msgstr "Eposy"
+
+#. [Noun/Plural] Worthless stuff. ”This stuff is junk!”
+#, game-format
+msgid "context.item.type.junk.count"
+msgstr "Złom: %d"
+
+#. [Noun/Plural] Worthless stuff. ”This stuff is junk!”
+msgid "context.item.type.junk.plural"
+msgstr "Śmieci"
+
+#. [Noun/Plural] Used by wizards - different from Staff
+#, game-format
+msgid "context.item.wand.count"
+msgstr "Różdżki: %d"
+
+#. [Noun/Plural] Used by wizards - different from Staff
+msgid "context.item.wand.plural"
+msgstr "Różdżki"
+
+#. [Noun]
+msgid "context.item.warhammer"
+msgstr "Warhammera"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.wood.count"
+msgstr "Lasy: %d"
+
+#. [Noun/Plural] Many pieces of wood. Not a forest.
+msgid "context.item.wood.plural"
+msgstr "Las"
+
+msgid "context.machine.car.body"
+msgstr "Nadwozie"
+
+#. https://en.wikipedia.org/wiki/Chassis
+msgid "context.machine.car.chassis"
+msgstr "Podwozie"
+
+#. [Noun/Plural] Transmission gears
+#, game-format
+msgid "context.machine.gear.count"
+msgstr "Przekładnie: %d"
+
+#. [Noun/Plural] Transmission gears
+msgid "context.machine.gear.plural"
+msgstr "Przekładnie"
+
+msgid "context.machine.hull"
+msgstr "Kadłub"
+
+msgid "context.machine.plane.chassis"
+msgstr "Podwozie"
+
+#. Wheels or pontoons of a plane
+msgid "context.machine.plane.landinggear"
+msgstr "Podwozie"
+
+#. Steering wheel of a car
+msgid "context.machine.steering.wheel"
+msgstr "Kierownica"
+
+#. Steering rod on a ship
+msgid "context.machine.tiller"
+msgstr "Rumpel"
+
+#. [Noun] Rubber wheel
+msgid "context.machine.tire.noun"
+msgstr "Opona"
+
+#. [Noun] Rubber wheels
+msgid "context.machine.tire.plural"
+msgstr "Opony"
+
+#. [Noun] Generic for any machine car plane etc
+msgid "context.machine.wheel"
+msgstr "Koło"
+
+#. [Noun/Plural] A single mechanical wing that provides lift.
+msgid "context.machine.wing"
+msgstr "Skrzydło"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.machine.wing.count"
+msgstr "Skrzydła: %d"
+
+#. Steering wheel of a plane
+msgid "context.machine.yoke"
+msgstr "Wolant"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.bronze.count"
+msgstr "Brązowe medale: %d"
+
+#. [Noun/Plural]
+msgid "context.medal.bronze.plural"
+msgstr "Brązowe medale"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.count"
+msgstr "Medale: %d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.gold.count"
+msgstr "Złote medale: %d"
+
+#. [Noun/Plural]
+msgid "context.medal.gold.plural"
+msgstr "Złote medale"
+
+#. [Noun/Plural]
+msgid "context.medal.plural"
+msgstr "Medale"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.silver.count"
+msgstr "Srebrne medale: %d"
+
+#. [Noun/Plural]
+msgid "context.medal.silver.plural"
+msgstr "Srebrne medale"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.metal.coin.count"
+msgstr "Monety: %d"
+
+#. [Noun/Plural]
+msgid "context.metal.coin.plural"
+msgstr "Monety"
+
+#. [Noun/Plural] Cast shape of solid metal in bank vaults
+#, game-format
+msgid "context.metal.ingot.count"
+msgstr "Wlewki: %d"
+
+#. [Noun/Plural] Cast shape of solid metal in bank vaults
+msgid "context.metal.ingot.plural"
+msgstr "Wlewki"
+
+#. Final lap of lap race
+msgid "context.objective.final.lap"
+msgstr "Ostatnie okrążenie"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.castle.count"
+msgstr "Zamki: %d"
+
+#. [Noun/Plural]
+msgid "context.place.castle.plural"
+msgstr "Zamki"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.cave.count"
+msgstr "Jaskinie: %d"
+
+#. [Noun/Plural]
+msgid "context.place.cave.plural"
+msgstr "Jaskinie"
+
+#. Deck of a ship
+msgid "context.place.deck.ship"
+msgstr "Pokład"
+
+#. [Noun/Plural] Underground prisons
+#, game-format
+msgid "context.place.dungeon.count"
+msgstr "Lochy: %d"
+
+#. [Noun/Plural] Underground prisons
+msgid "context.place.dungeon.plural"
+msgstr "Lochy"
+
+#. [Noun]
+msgid "context.place.entrance"
+msgstr "Wejście"
+
+#. [Noun]
+msgid "context.place.exit"
+msgstr "Wyjdź"
+
+#. [Noun/Plural] Hosted stay building for travellers
+#, game-format
+msgid "context.place.inn.count"
+msgstr "Zajazdy: %d"
+
+#. [Noun/Plural] Hosted stay building for travellers
+msgid "context.place.inn.plural"
+msgstr "Zajazdy"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+msgid "context.place.location"
+msgstr "Lokalizacja"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+#, game-format
+msgid "context.place.location.count"
+msgstr "Lokalizacje: %d"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+msgid "context.place.location.plural"
+msgstr "Lokalizacje"
+
+#. [Noun] A generic term for a location. E.g. A village.
+msgid "context.place.place"
+msgstr "Miejsce"
+
+#. [Noun/Plural] A generic term for a location. E.g. A village.
+#, game-format
+msgid "context.place.place.count"
+msgstr "Miejsca: %d"
+
+#. [Noun/Plural] A generic term for a location. E.g. A village.
+msgid "context.place.places"
+msgstr "Miejsca"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.planet.count"
+msgstr "Planety: %d"
+
+#. [Noun/Plural] This planet.
+#, game-format
+msgid "context.place.planet.earth.count"
+msgstr "Uziemienie: %d"
+
+#. [Noun/Plural] This planet.
+msgid "context.place.planet.earth.plural"
+msgstr "Ziemie"
+
+#. [Noun/Plural]
+msgid "context.place.planet.plural"
+msgstr "Planety"
+
+#. [Noun] E.g. A shortcut from the tavern to the cave.
+msgid "context.place.shortcut"
+msgstr "Skrót"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.spaceship.count"
+msgstr "Statki kosmiczne: %d"
+
+#. [Noun/Plural]
+msgid "context.place.spaceship.plural"
+msgstr "Statki kosmiczne"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.adventure.count"
+msgstr "Przygody: %d"
+
+#. [Noun/Plural]
+msgid "context.story.adventure.plural"
+msgstr "Przygody"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.chapter.count"
+msgstr "Rozdziały: %d"
+
+#. [Noun/Plural]
+msgid "context.story.chapter.plural"
+msgstr "Rozdziały"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.count"
+msgstr "Historie: %d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.page.count"
+msgstr "Strony: %d"
+
+#. [Noun/Plural]
+msgid "context.story.page.plural"
+msgstr "Stron"
+
+#. [Noun/Plural]
+msgid "context.story.plural"
+msgstr "Opowiadania"
+
+#. E.g. "What is the date on the milk?"
+msgid "context.time.date"
+msgstr "Data"
+
+msgid "context.time.day"
+msgstr "Dzień"
+
+msgid "context.time.day.plural"
+msgstr "Dni"
+
+#. E.g. "One hour."
+msgid "context.time.hour"
+msgstr "Godzina"
+
+#. E.g. "Last game length: 3 hours"
+msgid "context.time.hour.plural"
+msgstr "Godzin"
+
+#. E.g. "Date Posted: Just now".
+msgid "context.time.just.now"
+msgstr "Przed chwilą"
+
+msgid "context.time.last.month"
+msgstr "W zeszłym miesiącu"
+
+msgid "context.time.last.week"
+msgstr "W zeszłym tygodniu"
+
+msgid "context.time.last.year"
+msgstr "W zeszłym roku"
+
+msgid "context.time.minute"
+msgstr "Minuta"
+
+#. E.g. "Longest life: 19 minutes"
+msgid "context.time.minute.plural"
+msgstr "Minut"
+
+#. E.g. "Last Seen: 12 minutes ago".
+#, game-format
+msgid "context.time.minutes.ago"
+msgstr "%d minut temu"
+
+msgid "context.time.month"
+msgstr "Miesiąc"
+
+msgid "context.time.month.plural"
+msgstr "Miesięcy"
+
+msgid "context.time.next.month"
+msgstr "W następnym miesiącu"
+
+msgid "context.time.next.week"
+msgstr "W następnym tygodniu"
+
+msgid "context.time.next.year"
+msgstr "W następnym roku"
+
+msgid "context.time.second"
+msgstr "Sekunda"
+
+#. E.g. "Time left: 10 seconds"
+msgid "context.time.second.plural"
+msgstr "Sekund"
+
+msgid "context.time.this.month"
+msgstr "W tym miesiącu"
+
+msgid "context.time.this.week"
+msgstr "W tym tygodniu"
+
+msgid "context.time.this.year"
+msgstr "W tym roku"
+
+msgid "context.time.today"
+msgstr "Dzisiaj"
+
+msgid "context.time.tomorrow"
+msgstr "Jutro"
+
+msgid "context.time.week"
+msgstr "Tydzień"
+
+msgid "context.time.week.plural"
+msgstr "Tygodni"
+
+msgid "context.time.year"
+msgstr "Rok"
+
+msgid "context.time.year.plural"
+msgstr "Lata"
+
+msgid "context.time.yesterday"
+msgstr "Wczoraj"
+
+msgid "context.weapon.range"
+msgstr "Zasięg"
+
+msgid "context.weapon.short.range"
+msgstr "Krótki zasięg"
+
+msgid "context.weapon.medium.range"
+msgstr "Średni zasięg"
+
+msgid "context.weapon.long.range"
+msgstr "Duży zasięg"
+
+msgid "context.weapon.out.of.range"
+msgstr "Poza zasięgiem"
+
+msgid "context.bonus"
+msgstr "Bonus"
+
+msgid "context.bonus.longshot"
+msgstr "Długi strzał"
+
+msgid "context.bonus.skillshot"
+msgstr "Strzał umiejętności"
+
+msgid "context.bonus.trickshot"
+msgstr "Podstępny strzał"
+
+msgid "context.bonus.double"
+msgstr "Podwójne"
+
+msgid "context.bonus.triple"
+msgstr "Potrójny"
+
+msgid "context.bonus.super"
+msgstr "Super"
+
+#. I think these are meant to be used as popup texts when you achieve a cool shot, the text pops up like "Skill" "Double" along with the score
+msgid "context.bonus.skill"
+msgstr "Umiejętność"
+
+#. Energy Charge - Noun
+msgid "context.bonus.charge"
+msgstr "Ładuj"
+
+msgid "context.bonus.point"
+msgstr "punkt"
+
+msgid "context.bonus.point.plural"
+msgstr "Punkty"
+
+#. [Noun] Heavenly bodies. If your "star" has dual meaning of this and a collectible, use this one.
+msgid "context.item.star.celestial.plural"
+msgstr "Gwiazdy"
+
+#. [Noun] Collectibles (some other form of points often used in game)
+msgid "context.item.star.collectible.plural"
+msgstr "Gwiazdy"
+
+#. [Noun] periodic table elements
+msgid "context.element.hydrogen"
+msgstr "Wodór"
+
+#. Feel free to add more elements as you needed; I've only added some common ones
+msgid "context.metal.elemental.lithium"
+msgstr "Lit"
+
+#. [Noun] Sodium as in periodic table, NOT a nutrient
+msgid "context.metal.elemental.sodium"
+msgstr "Sód"
+
+#. K
+msgid "context.metal.elemental.potassium"
+msgstr "Potas"
+
+#. Mg
+msgid "context.metal.elemental.magnesium"
+msgstr "Magnez"
+
+#. Ca
+msgid "context.metal.elemental.calcium"
+msgstr "Wapń"
+
+#. Th
+msgid "context.metal.thorium"
+msgstr "Tor"
+
+#. U
+msgid "context.metal.uranium"
+msgstr "Uran"
+
+#. Pl
+msgid "context.metal.plutonium"
+msgstr "pluton"
+
+#. Ti
+msgid "context.metal.titanium"
+msgstr "Tytan"
+
+#. W
+msgid "context.metal.tungsten"
+msgstr "Wolfram"
+
+#. Mn
+msgid "context.metal.manganese"
+msgstr "Mangan"
+
+#. [Noun] Iron as in periodic table, NOT a nutrient
+msgid "context.metal.elemental.iron"
+msgstr "Żelazo"
+
+#. Ru
+msgid "context.metal.ruthenium"
+msgstr "Ruten"
+
+#. Os
+msgid "context.metal.osmium"
+msgstr "Osm"
+
+#. [Noun] Cobalt as in periodic table, NOT a dye
+msgid "context.metal.elemental.cobalt"
+msgstr "Kobalt"
+
+#. Rh
+msgid "context.metal.rhodium"
+msgstr "Rod"
+
+#. Ir
+msgid "context.metal.iridium"
+msgstr "Iryd"
+
+#. Ni
+msgid "context.metal.nickel"
+msgstr "Nikiel"
+
+#. Pd
+msgid "context.metal.palladium"
+msgstr "Pallad"
+
+#. Cu
+msgid "context.metal.copper"
+msgstr "Miedź"
+
+#. Zn
+msgid "context.metal.zinc"
+msgstr "Cynk"
+
+#. Hg
+msgid "context.metal.mercury"
+msgstr "Rtęć"
+
+#. [Noun] another term for mercury, often used in fantasy world
+msgid "context.metal.quicksilver"
+msgstr "Rtęć"
+
+#. Al
+msgid "context.metal.aluminium"
+msgstr "Aluminium"
+
+#. C
+msgid "context.element.carbon"
+msgstr "Węgiel"
+
+#. [Noun] Si in periodic table, NOT a gel used for caulking
+msgid "context.element.silicon"
+msgstr "Krzem"
+
+#. Sn
+msgid "context.metal.tin"
+msgstr "Cyna"
+
+#. Pb
+msgid "context.metal.lead"
+msgstr "Ołów"
+
+#. N
+msgid "context.element.nitrogen"
+msgstr "Azot"
+
+#. as in periodic table
+msgid "context.element.phosphorus"
+msgstr "Fosfor"
+
+#. O
+msgid "context.element.oxygen"
+msgstr "Tlen"
+
+#. S
+msgid "context.element.sulfur"
+msgstr "Siarka"
+
+#. He
+msgid "context.element.helium"
+msgstr "Hel"
+
+#. Ne
+msgid "context.element.neon"
+msgstr "Neon"
+
+#. [Noun] alloy of iron, carbon and other elements
+msgid "context.metal.steel"
+msgstr "Stal"
+
+#. [Noun] metal alloy of copper and zinc
+msgid "context.metal.brass"
+msgstr "Mosiądz"
+
+#. [Noun]
+msgid "context.item.map"
+msgstr "Mapa"
+
+#. [Noun/Plural]
+msgid "context.item.map.plural"
+msgstr "Mapy"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.map.count"
+msgstr "Map: %d"

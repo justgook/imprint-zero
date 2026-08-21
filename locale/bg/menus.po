@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menus\n"
+
+msgid "menu.camera"
+msgstr "Камера"
+
+msgid "menu.camera.inverted"
+msgstr "Обратна"
+
+msgid "menu.camera.normal"
+msgstr "Нормална"
+
+#. Camera X Axis setting
+msgid "menu.camera.xaxis"
+msgstr "Ос X на камерата"
+
+msgid "menu.camera.yaxis"
+msgstr "Ос Y на камерата"
+
+msgid "menu.controls.button"
+msgstr "Копче"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.click"
+msgstr "Щракване"
+
+msgid "menu.controls.deadzone"
+msgstr "Мъртва зона"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.double.click"
+msgstr "Двойно щракване"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag"
+msgstr "Влачене"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag.drop"
+msgstr "Влачене и пускане"
+
+#. [Noun] Touch control
+msgid "menu.controls.finger"
+msgstr "Пръст"
+
+msgid "menu.controls.gamepad"
+msgstr "Джойстик"
+
+msgid "menu.controls.gyroscope"
+msgstr "Жироскоп"
+
+#. Keyboard key
+msgid "menu.controls.key"
+msgstr "Клавиш"
+
+msgid "menu.controls.keyboard"
+msgstr "Клавиатура"
+
+msgid "menu.controls.mouse"
+msgstr "Мишка"
+
+msgid "menu.controls.mouse.sensitivity"
+msgstr "Чувствителност на мишката"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.pinch"
+msgstr "Защипване"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.rotate"
+msgstr "Завъртане"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.scroll"
+msgstr "Превъртете"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.shake"
+msgstr "Разклащане"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.spread"
+msgstr "Разтваряне"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.swipe"
+msgstr "Прокарайте пръст"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.tap"
+msgstr "Натиснете"
+
+msgid "menu.controls.the.button"
+msgstr "Копчето"
+
+#. The keyboard key
+msgid "menu.controls.the.key"
+msgstr "Клавишът"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.tilt"
+msgstr "Накланяне"
+
+msgid "menu.customize.arm"
+msgstr "Ръка"
+
+msgid "menu.customize.arm.plural"
+msgstr "Ръце"
+
+#. Body part not treasure
+msgid "menu.customize.chest"
+msgstr "Гърди"
+
+msgid "menu.customize.chin"
+msgstr "Брадичка"
+
+msgid "menu.customize.color"
+msgstr "Цвят"
+
+msgid "menu.customize.ear"
+msgstr "Ухо"
+
+msgid "menu.customize.ear.plural"
+msgstr "Уши"
+
+msgid "menu.customize.eye"
+msgstr "Око"
+
+msgid "menu.customize.eye.plural"
+msgstr "Очи"
+
+msgid "menu.customize.feet"
+msgstr "Стъпала"
+
+msgid "menu.customize.foot"
+msgstr "Стъпало"
+
+#. All-purpose term
+msgid "menu.customize.hair"
+msgstr "Окосмение"
+
+#. Facial hair
+msgid "menu.customize.hair.beard"
+msgstr "Брада"
+
+#. Animal fur
+msgid "menu.customize.hair.fur"
+msgstr "Козина"
+
+msgid "menu.customize.hair.head"
+msgstr "Коса"
+
+msgid "menu.customize.hand"
+msgstr "Длан"
+
+msgid "menu.customize.hand.plural"
+msgstr "Длани"
+
+msgid "menu.customize.head"
+msgstr "Глава"
+
+msgid "menu.customize.hips"
+msgstr "Бедра"
+
+msgid "menu.customize.leg"
+msgstr "Крак"
+
+msgid "menu.customize.leg.plural"
+msgstr "Крака"
+
+msgid "menu.customize.mouth"
+msgstr "Уста"
+
+msgid "menu.customize.neck"
+msgstr "Врат"
+
+msgid "menu.customize.nose"
+msgstr "Нос"
+
+msgid "menu.customize.skin"
+msgstr "Кожа"
+
+msgid "menu.customize.thorax"
+msgstr "Гръден кош"
+
+#. Difficulty
+msgid "menu.difficulty"
+msgstr "Трудност"
+
+#. Difficulty
+msgid "menu.difficulty.easy"
+msgstr "Лесно"
+
+#. Difficulty
+msgid "menu.difficulty.hard"
+msgstr "Трудно"
+
+#. Difficulty
+msgid "menu.difficulty.impossible"
+msgstr "Невъзможно"
+
+#. Difficulty
+msgid "menu.difficulty.insane"
+msgstr "Лудост"
+
+#. Difficulty
+msgid "menu.difficulty.medium"
+msgstr "Средно"
+
+#. Difficulty
+msgid "menu.difficulty.very.easy"
+msgstr "Много лесно"
+
+#. Difficulty
+msgid "menu.difficulty.very.hard"
+msgstr "Много трудно"
+
+msgid "menu.dir.down"
+msgstr "Надолу"
+
+msgid "menu.dir.left"
+msgstr "Наляво"
+
+msgid "menu.dir.right"
+msgstr "Надясно"
+
+msgid "menu.dir.up"
+msgstr "Нагоре"
+
+msgid "menu.io.load"
+msgstr "Зареждане"
+
+msgid "menu.io.load.game"
+msgstr "Зареждане на игра"
+
+msgid "menu.io.loading"
+msgstr "Зареждане..."
+
+msgid "menu.io.please.wait"
+msgstr "Моля, изчакайте..."
+
+#. Reset whatever save data is in focus
+msgid "menu.io.reset.save.data"
+msgstr "Да се нулира ли записа?"
+
+#. [Verb]
+msgid "menu.io.save"
+msgstr "Записване"
+
+#. [Verb]
+msgid "menu.io.save.data"
+msgstr "Записване на данните"
+
+#. [Verb]
+msgid "menu.io.save.game"
+msgstr "Записване на играта"
+
+msgid "menu.io.saving"
+msgstr "Записване..."
+
+msgid "menu.label.all"
+msgstr "Всички"
+
+msgid "menu.label.age"
+msgstr "Възраст"
+
+msgid "menu.label.are.you.really.sure"
+msgstr "Наистина ли сте сигурни?"
+
+#. A generic confirmation
+msgid "menu.label.are.you.sure"
+msgstr "Сигурни ли сте?"
+
+#. Back one level in selections
+msgid "menu.label.back"
+msgstr "Назад"
+
+msgid "menu.label.background.music"
+msgstr "Музика"
+
+msgid "menu.label.cancel"
+msgstr "Отмяма"
+
+#. Close window
+msgid "menu.label.close"
+msgstr "Затваряне"
+
+#. Choose selected button
+msgid "menu.label.confirm.button"
+msgstr "Потвърждаване"
+
+msgid "menu.label.continue"
+msgstr "Продължаване"
+
+msgid "menu.label.continue.question"
+msgstr "Продължаване?"
+
+#. Authors list
+msgid "menu.label.credits"
+msgstr "Заслуги"
+
+msgid "menu.label.desktop"
+msgstr "Изход до работния плот"
+
+msgid "menu.label.desktop.question"
+msgstr "Искате ли да излете?"
+
+#. Downloadable content (abbreviation/short)
+msgid "menu.label.dlc"
+msgstr "Сваляемо съдържание"
+
+#. [Verb]
+msgid "menu.label.download"
+msgstr "Изтегляне"
+
+#. Downloadable content (long)
+msgid "menu.label.downloadable"
+msgstr "Сваляемо съдържание"
+
+#. Leave a state or place
+msgid "menu.label.exit"
+msgstr "Изход"
+
+msgid "menu.label.exit.question"
+msgstr "Искате ли да излезете?"
+
+msgid "menu.label.extras"
+msgstr "Екстри"
+
+#. Frames Per Second
+msgid "menu.label.framespersec"
+msgstr "Кадри/сек."
+
+msgid "menu.label.gallery"
+msgstr "Галерия"
+
+msgid "menu.label.goodbye"
+msgstr "Довиждане!"
+
+msgid "menu.label.graphics"
+msgstr "Графика"
+
+#. [Singular]
+msgid "menu.label.iap"
+msgstr "Покупка с реална валута"
+
+msgid "menu.label.language"
+msgstr "Език"
+
+#. Game stage (not game world or char level)
+msgid "menu.label.level"
+msgstr "Ниво"
+
+#. In-game mailbox
+msgid "menu.label.mail"
+msgstr "Поща"
+
+msgid "menu.label.mainmenu"
+msgstr "Главно меню"
+
+msgid "menu.label.more"
+msgstr "Още"
+
+msgid "menu.label.music"
+msgstr "Музика"
+
+msgid "menu.label.music.player"
+msgstr "Музикален свирач"
+
+msgid "menu.label.new.game"
+msgstr "Нова игра"
+
+msgid "menu.label.next"
+msgstr "Следващ"
+
+#. Next music track/song
+msgid "menu.label.next.track"
+msgstr "Следваща песен"
+
+msgid "menu.label.no"
+msgstr "Не"
+
+msgid "menu.label.no.caps"
+msgstr "НЕ"
+
+#. A more casual 'no'
+msgid "menu.label.nope"
+msgstr "Мне"
+
+#. As in Windows dialog
+msgid "menu.label.ok"
+msgstr "Добре"
+
+#. [Infinitive/tutorial verb] common term
+msgid "menu.label.pause"
+msgstr "Преустановяване"
+
+msgid "menu.label.paused"
+msgstr "Пауза"
+
+msgid "menu.label.play"
+msgstr "Пускане"
+
+msgid "menu.label.play.again"
+msgstr "Пускане отново"
+
+msgid "menu.label.press.anykey"
+msgstr "Натиснете някакъв клавиш"
+
+msgid "menu.label.press.anykey.continue"
+msgstr "Натиснете някакъв клавиш, за да продължите"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start"
+msgstr "Натиснете Start"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start.continue"
+msgstr "Натиснете Start, за да продължите"
+
+msgid "menu.label.previous"
+msgstr "Предишен"
+
+#. Previous music track/song
+msgid "menu.label.previous.track"
+msgstr "Предишна песен"
+
+msgid "menu.label.price"
+msgstr "Цена"
+
+msgid "menu.label.price.free"
+msgstr "Безплатно"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.purchase"
+msgstr "Купуване"
+
+#. Leave the game (keep short)
+msgid "menu.label.quit"
+msgstr "Изход"
+
+msgid "menu.label.quit.confirm"
+msgstr "Наистина ли искате да излезете?"
+
+msgid "menu.label.quit.question"
+msgstr "Излизане?"
+
+#. Show the replay of the last game
+msgid "menu.label.replay"
+msgstr "Повторение"
+
+msgid "menu.label.return"
+msgstr "Връщане"
+
+msgid "menu.label.return.main"
+msgstr "Обратно към главното меню"
+
+msgid "menu.label.return.main.question"
+msgstr "Искате ли да се върнете към главното меню?"
+
+#. Share via social media
+msgid "menu.label.share"
+msgstr "Споделяне"
+
+#. Skip cutscene skip replay (Generic)
+msgid "menu.label.skip"
+msgstr "Пропускане"
+
+msgid "menu.label.sound"
+msgstr "Звук"
+
+msgid "menu.label.thank.you"
+msgstr "Благодаря!"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.unlock"
+msgstr "Отключване"
+
+msgid "menu.label.video"
+msgstr "Видео"
+
+msgid "menu.label.voices"
+msgstr "Говор"
+
+msgid "menu.label.warning"
+msgstr "Внимание"
+
+msgid "menu.label.welcome"
+msgstr "Привет"
+
+msgid "menu.label.world"
+msgstr "Свят"
+
+#. A more casual 'yes'
+msgid "menu.label.yeah"
+msgstr "Аха"
+
+msgid "menu.label.yes"
+msgstr "Да"
+
+msgid "menu.label.yes.caps"
+msgstr "ДА"
+
+#. ltr or rtl (text direction used by game code)
+msgid "menu.language.direction"
+msgstr "ltr"
+
+#. "MyLanguage" in native text
+msgid "menu.language.this"
+msgstr "Български"
+
+#. "MyLanguage" in english text
+msgid "menu.language.this.en"
+msgstr "Bulgarian"
+
+#. [Verb]
+msgid "menu.login"
+msgstr "Вписване"
+
+#. Email address
+msgid "menu.login.email"
+msgstr "Електронна поща"
+
+msgid "menu.login.forgot"
+msgstr "Забравена парола"
+
+msgid "menu.login.password"
+msgstr "Парола"
+
+#. [Verb]
+msgid "menu.login.register"
+msgstr "Регистриране"
+
+#. Remember entered data on this device?
+msgid "menu.login.remember"
+msgstr "Да се запомни ли?"
+
+#. [Noun]
+msgid "menu.mode.challenge"
+msgstr "Предизвикателство"
+
+#. For challenges like "Win in 30 secs"
+msgid "menu.mode.challenge.mode"
+msgstr "Предизвикателства"
+
+msgid "menu.mode.coop"
+msgstr "Кооперативна игра"
+
+msgid "menu.mode.cooperative"
+msgstr "Кооперативна игра"
+
+msgid "menu.mode.deathmatch"
+msgstr "Смъртоносна битка"
+
+msgid "menu.mode.help"
+msgstr "Помощ"
+
+msgid "menu.mode.instructions"
+msgstr "Указания"
+
+msgid "menu.mode.multiplayer"
+msgstr "Групова игра"
+
+msgid "menu.mode.multiplayer.local"
+msgstr "Групова игра по местна мрежа"
+
+msgid "menu.mode.multiplayer.online"
+msgstr "Групова игра по Интернет"
+
+msgid "menu.mode.play.online"
+msgstr "Игра в мрежа"
+
+msgid "menu.mode.singleplayer"
+msgstr "Самостоятелна игра"
+
+msgid "menu.mode.training"
+msgstr "Тренировка"
+
+msgid "menu.mode.tutorial"
+msgstr "Обучение"
+
+msgid "menu.mode.versus"
+msgstr "Срещу"
+
+#. Generic – for: human dog ship item
+msgid "menu.name"
+msgstr "Име"
+
+#. First name
+msgid "menu.name.first"
+msgstr "Име"
+
+#. Family name
+msgid "menu.name.last"
+msgstr "Фамилия"
+
+#. Alias or pseudonym or account name
+msgid "menu.name.user"
+msgstr "Потребител"
+
+msgid "menu.options"
+msgstr "Настройки"
+
+msgid "menu.options.advancedgraphics"
+msgstr "Разширени настройки на графиката"
+
+msgid "menu.options.antialiasing"
+msgstr "Изглаждане на ръбове"
+
+msgid "menu.options.bloom"
+msgstr "Сияния"
+
+msgid "menu.options.controls"
+msgstr "Управление"
+
+msgid "menu.options.difficulty"
+msgstr "Настройки на трудността"
+
+msgid "menu.options.display"
+msgstr "Екран"
+
+msgid "menu.options.first.person.view"
+msgstr "Първо лице"
+
+#. Field of View
+msgid "menu.options.fov"
+msgstr "Зрително поле"
+
+msgid "menu.options.fullscreen"
+msgstr "На цял екран"
+
+msgid "menu.options.gameplay"
+msgstr "Настройки на игровия процес"
+
+msgid "menu.options.graphics"
+msgstr "Настройки на графиката"
+
+#. Heads Up Display
+msgid "menu.options.hud"
+msgstr "Интерфейс"
+
+msgid "menu.options.music.volume"
+msgstr "Гръмкост на музиката"
+
+msgid "menu.options.network"
+msgstr "Настройки на мрежата"
+
+msgid "menu.options.quality"
+msgstr "Качество"
+
+msgid "menu.options.resolution"
+msgstr "Разделителна способност"
+
+msgid "menu.options.sfx.volume"
+msgstr "Сила на звуковите ефекти"
+
+msgid "menu.options.shadow"
+msgstr "Сянка"
+
+msgid "menu.options.shadow.plural"
+msgstr "Сенки"
+
+msgid "menu.options.size"
+msgstr "Размер"
+
+msgid "menu.options.sound"
+msgstr "Настройки на звука"
+
+msgid "menu.options.sound.volume"
+msgstr "Гръмкост"
+
+msgid "menu.options.splitscreen"
+msgstr "Разделен екран"
+
+msgid "menu.options.third.person.view"
+msgstr "Трето лице"
+
+msgid "menu.options.video"
+msgstr "Настройки на видеото"
+
+#. Movie playback quality
+msgid "menu.options.video.quality"
+msgstr "Качество на видеото"
+
+msgid "menu.options.voice.volume"
+msgstr "Сила на говора"
+
+msgid "menu.options.vsync"
+msgstr "Отвесна синхронизация"
+
+msgid "menu.options.windowed"
+msgstr "В прозорец"
+
+msgid "menu.options.shader.detail"
+msgstr "Детайлност на шейдерите"
+
+msgid "menu.options.texture.detail"
+msgstr "Детайлност на текстурите"
+
+msgid "menu.options.multicore.rendering"
+msgstr "Многоядрено изчертаване"
+
+msgid "menu.options.model.detail"
+msgstr "Детайлност на модели"
+
+#. Aspect ratio (16:9 or 16:10)
+msgid "menu.options.widescreen"
+msgstr "Широк екран"
+
+msgid "menu.options.effect.detail"
+msgstr "Детайлност на ефектите"
+
+#. Filtering mode
+msgid "menu.options.filtering.anisotropic"
+msgstr "Анизотропно"
+
+#. Filtering mode
+msgid "menu.options.filtering.bilinear"
+msgstr "Двулинейно"
+
+#. Filtering mode
+msgid "menu.options.filtering.trilinear"
+msgstr "Трилинейно"
+
+msgid "menu.options.filtering.mode"
+msgstr "Филтриране"
+
+#. (Generic) Very High (short)
+msgid "menu.setting.ultra"
+msgstr "Ултра"
+
+#. (Generic)
+msgid "menu.setting.very.high"
+msgstr "Много висока"
+
+#. (Generic)
+msgid "menu.setting.high"
+msgstr "Висока"
+
+#. (Generic)
+msgid "menu.setting.medium"
+msgstr "Средна"
+
+#. (Generic)
+msgid "menu.setting.low"
+msgstr "Ниска"
+
+#. Game's version number
+msgid "menu.version"
+msgstr "Версия"
+
+#. Demo version [short]  '0.3.3 Demo'
+msgid "menu.version.demo"
+msgstr "Демонстрация"
+
+#. Free version [short]
+msgid "menu.version.free"
+msgstr "Безплатна"
+
+#. Full version [short]
+msgid "menu.version.full"
+msgstr "Пълна"
+
+#. Lite version [short]
+msgid "menu.version.lite"
+msgstr "Непълна"
+
+#. Premium version [short]
+msgid "menu.version.premium"
+msgstr "Премийна"
+
+#. Shareware version [short]
+msgid "menu.version.shareware"
+msgstr "Условно-безплатна"
+
+#. Trial version [short]
+msgid "menu.version.trial"
+msgstr "Пробна"
+
+#. For sensitive people in VR
+msgid "menu.vr.comfort.mode"
+msgstr "Режим на удобство при ВР"
+
+#. Using abbrev. HMD (Head mounted display)
+msgid "menu.vr.hmd.orient.reset"
+msgstr "Нулиране на ориентацията на ППС"
+
+msgid "menu.vr.virtual.reality"
+msgstr "Виртуална реалност"
+
+#. Catch-all term for Gamepads Joysticks etc.
+msgid "menu.controls.controller"
+msgstr "Джойстик"
+
+#. The digital D-Pad
+msgid "menu.controls.dpad"
+msgstr "Посоки"
+
+msgid "menu.controls.horizontal.sensitivity"
+msgstr "Хор. чувствителност"
+
+#. Button layout Stick layout
+msgid "menu.controls.layout"
+msgstr "Подредба"
+
+msgid "menu.controls.left.stick"
+msgstr "Ляв джойстик"
+
+msgid "menu.controls.mouse.acceleration"
+msgstr "Ускорение на мишката"
+
+msgid "menu.controls.mouse.invert"
+msgstr "Обръщане на мишката"
+
+msgid "menu.controls.mouse.invert.yaxis"
+msgstr "Обръщане на оста Y"
+
+msgid "menu.controls.mouse.wheel"
+msgstr "Колело на мишката"
+
+#. When an action is not bound to any key.
+msgid "menu.controls.none"
+msgstr "Нищо"
+
+msgid "menu.controls.right.stick"
+msgstr "Десен джойстик"
+
+#. Settings : Gamepad or Joystick stick
+msgid "menu.controls.stick"
+msgstr "Джойстик"
+
+msgid "menu.controls.vertical.sensitivity"
+msgstr "Отвесна чувствителност"
+
+msgid "menu.controls.vibration"
+msgstr "Вибрация"
+
+msgid "menu.label.allow"
+msgstr "Позволяване"
+
+msgid "menu.label.apply"
+msgstr "Прилагане"
+
+msgid "menu.label.choose.character"
+msgstr "Изберете герой"
+
+msgid "menu.label.choose.hero"
+msgstr "Изберете герой"
+
+msgid "menu.label.choose.hero.female"
+msgstr "Изберете героиня"
+
+#. Choose game language
+msgid "menu.label.choose.language"
+msgstr "Изберете език"
+
+#. Choose game world level
+msgid "menu.label.choose.level"
+msgstr "Изберете ниво"
+
+msgid "menu.label.community"
+msgstr "Общност"
+
+msgid "menu.label.default"
+msgstr "По подразбиране"
+
+msgid "menu.label.deny"
+msgstr "Забрани"
+
+msgid "menu.label.developer.commentary"
+msgstr "Коментар от разработчиците"
+
+msgid "menu.label.developer.console"
+msgstr "Конзола за разработчици"
+
+msgid "menu.label.disabled"
+msgstr "Изключено"
+
+msgid "menu.label.done"
+msgstr "Готово"
+
+msgid "menu.label.enabled"
+msgstr "Включено"
+
+#. Listing of high scores
+msgid "menu.label.high.scores"
+msgstr "Рекорди"
+
+msgid "menu.label.iap.plural"
+msgstr "Покупки с реална валута"
+
+#. Listing of high scores often online
+msgid "menu.label.leaderboard.plural"
+msgstr "Класации"
+
+msgid "menu.label.press.any.btn.continue"
+msgstr "Натиснете някое копче, за да продължите"
+
+msgid "menu.label.reset"
+msgstr "Нулиране"
+
+msgid "menu.label.save.plural"
+msgstr "Записи"
+
+#. For secret code or cheat code
+msgid "menu.label.secret.code"
+msgstr "Код"
+
+msgid "menu.label.start"
+msgstr "Старт"
+
+msgid "menu.label.use.defaults"
+msgstr "По подразбиране"
+
+#. Performance test
+msgid "menu.mode.benchmark"
+msgstr "Тест за производителност"
+
+#. [Adjective]
+msgid "menu.mode.local"
+msgstr "Местно"
+
+#. [Adjective]
+msgid "menu.mode.offline"
+msgstr "Извън линия"
+
+#. [Adjective]
+msgid "menu.mode.online"
+msgstr "В интернет"
+
+msgid "menu.options.aspect.ratio"
+msgstr "Съотношение"
+
+#. Fullscreen/windowed
+msgid "menu.options.display.mode"
+msgstr "Режим на показване"
+
+#. Depth of Field abbreviation
+msgid "menu.options.dof"
+msgstr "Дълбочина на рязкост"
+
+#. Not belonging to a group
+msgid "menu.options.miscellaneous"
+msgstr "Други настройки"
+
+#. [Noun] Rendering technique
+msgid "menu.options.tesselation"
+msgstr "Облицовка"
+
+#. (Generic)
+msgid "menu.setting.very.low"
+msgstr "Много ниска"
+
+#. Point lights : amount or toggle
+msgid "menu.options.point.lights"
+msgstr "Насочени светлини"
+
+msgid "menu.keys.alt"
+msgstr "Alt"
+
+msgid "menu.keys.ctrl"
+msgstr "Ctrl"
+
+msgid "menu.keys.shift"
+msgstr "Shift"
+
+msgid "menu.keys.enter"
+msgstr "Enter"
+
+msgid "menu.keys.escape"
+msgstr "Esc"
+
+msgid "menu.keys.space"
+msgstr "Интервал"
+
+msgid "menu.io.load.save"
+msgstr "Зареждане/Запазване"
+
+msgid "menu.keys.tab"
+msgstr "Tab"
+
+msgid "menu.keys.shift.left"
+msgstr "L Shift"
+
+msgid "menu.keys.shift.right"
+msgstr "R Shift"
+
+msgid "menu.keys.alt.gr"
+msgstr "Alt Gr"
+
+msgid "menu.keys.ctrl.left"
+msgstr "L Ctrl"
+
+msgid "menu.keys.ctrl.right"
+msgstr "R Ctrl"
+
+#. https://en.wikipedia.org/wiki/Windows_key
+msgid "menu.keys.super.left"
+msgstr "Ляв клавиш Уиндоус"
+
+msgid "menu.keys.super.right"
+msgstr "Десен клавиш Уиндоус"
+
+#. https://en.wikipedia.org/wiki/Command_key
+msgid "menu.keys.command.left"
+msgstr "Ляв клавиш Команда"
+
+msgid "menu.keys.command.right"
+msgstr "Десен клавиш Команда"
+
+#. E.g. "Camera mode: Top-Down"
+msgid "menu.options.camera.mode"
+msgstr "Режим на камерата"
+
+#. Height of 3rd person camera from the player.
+msgid "menu.options.camera.height"
+msgstr "Височина на камерата"
+
+#. Camera pitch.
+msgid "menu.options.camera.angle"
+msgstr "Ъгъл на камерата"
+
+#. 3rd person camera distance from player.
+msgid "menu.options.camera.distance"
+msgstr "Разстояние на камерата"
+
+#. https://en.wikipedia.org/wiki/Crepuscular_rays
+msgid "menu.options.light.shafts"
+msgstr "Слънчеви лъчи"
+
+msgid "menu.options.lens.flares"
+msgstr "Проблясъци"
+
+msgid "menu.options.motion.blur"
+msgstr "Размазване при движение"
+
+#. Ambient sounds like birds chirping.
+msgid "menu.options.ambient.volume"
+msgstr "Гръмкост на обкръжаващите звуци"
+
+#. Gameplay sound effects like walking.
+msgid "menu.options.gameplay.volume"
+msgstr "Гръмкост на игровите ефекти"
+
+#. Device used for audio output.
+msgid "menu.options.audio.device"
+msgstr "Изходно звуково устройство"
+
+#. Device used for video output.
+msgid "menu.options.video.device"
+msgstr "Изходно устройство на картината"
+
+#. E.g. For chat visibility.
+msgid "menu.label.allow.all"
+msgstr "Позволяване на всички"
+
+#. E.g. For chat visibility.
+msgid "menu.label.team.only"
+msgstr "Само отбора"
+
+#. E.g. For chat visibility.
+msgid "menu.label.squad.only"
+msgstr "Само взвода"
+
+#. E.g. For chat visibility.
+msgid "menu.label.group.only"
+msgstr "Само групата"
+
+#. E.g. For chat visibility.
+msgid "menu.label.crew.only"
+msgstr "Само екипажа"
+
+#. E.g. For chat visibility.
+msgid "menu.label.party.only"
+msgstr "Само групата"
+
+#. For enabling/disabling cross-platform play.
+msgid "menu.options.cross.platform.play"
+msgstr "Междуплатформена игра"
+
+msgid "menu.label.cross.platform.multiplayer"
+msgstr "Междуплатформена групова игра"
+
+#. multiplayer lobby/list of games
+msgid "menu.label.refresh"
+msgstr "Опресняване"
+
+msgid "menu.io.overwrite.save.data"
+msgstr "Да се презапише ли текущия запис?"
+
+#. [Infinitive/tutorial verb] Change name
+msgid "menu.label.rename"
+msgstr "Преименувам"
+
+#. We have "Main Menu" but don't have generic "Menu"
+msgid "menu.label.menu"
+msgstr "Меню"
+
+#. Look up the Achievements in the menu
+msgid "menu.label.achievements"
+msgstr "Постижения"
+
+#. [Infinitive/tutorial verb] e.g. a button with label "change", push this and your text is saved
+msgid "menu.label.change.verb"
+msgstr "Промяна"
+
+msgid "menu.label.audio"
+msgstr "Аудио"
+
+#. Yes/no question
+msgid "menu.override.save.question"
+msgstr "Това ще презапише предишния запис, сигурни ли сте?"
+
+msgid "menu.will.save.progress"
+msgstr "Прогресът ще бъде записан"
+
+#. [Infinitive/tutorial verb] Hold control
+msgid "menu.controls.hold"
+msgstr "Задръжте"
+
+#. for some option changes that requires restarting the game
+msgid "menu.label.restart.required"
+msgstr "Изисква се рестартиране"

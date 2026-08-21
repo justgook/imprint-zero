@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menus\n"
+
+msgid "menu.camera"
+msgstr "摄影机"
+
+msgid "menu.camera.inverted"
+msgstr "反转"
+
+msgid "menu.camera.normal"
+msgstr "标准"
+
+#. Camera X Axis setting
+msgid "menu.camera.xaxis"
+msgstr "摄影机X坐标轴"
+
+msgid "menu.camera.yaxis"
+msgstr "摄影机Y坐标轴"
+
+msgid "menu.controls.button"
+msgstr "按键"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.click"
+msgstr "点击"
+
+msgid "menu.controls.deadzone"
+msgstr "危险地区"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.double.click"
+msgstr "双击"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag"
+msgstr "拖"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag.drop"
+msgstr "拖放"
+
+#. [Noun] Touch control
+msgid "menu.controls.finger"
+msgstr "手指"
+
+msgid "menu.controls.gamepad"
+msgstr "游戏手柄"
+
+msgid "menu.controls.gyroscope"
+msgstr "回转仪"
+
+#. Keyboard key
+msgid "menu.controls.key"
+msgstr "键"
+
+msgid "menu.controls.keyboard"
+msgstr "键盘"
+
+msgid "menu.controls.mouse"
+msgstr "鼠标"
+
+msgid "menu.controls.mouse.sensitivity"
+msgstr "鼠标灵敏度"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.pinch"
+msgstr "捏"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.rotate"
+msgstr "环绕"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.scroll"
+msgstr "滚动"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.shake"
+msgstr "震动"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.spread"
+msgstr "扩"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.swipe"
+msgstr "滑动"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.tap"
+msgstr "点击"
+
+msgid "menu.controls.the.button"
+msgstr "按键"
+
+#. The keyboard key
+msgid "menu.controls.the.key"
+msgstr "关键"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.tilt"
+msgstr "倾斜"
+
+msgid "menu.customize.arm"
+msgstr "臂"
+
+msgid "menu.customize.arm.plural"
+msgstr "臂"
+
+#. Body part not treasure
+msgid "menu.customize.chest"
+msgstr "胸"
+
+msgid "menu.customize.chin"
+msgstr "下巴"
+
+msgid "menu.customize.color"
+msgstr "颜色"
+
+msgid "menu.customize.ear"
+msgstr "耳"
+
+msgid "menu.customize.ear.plural"
+msgstr "耳朵"
+
+msgid "menu.customize.eye"
+msgstr "眼"
+
+msgid "menu.customize.eye.plural"
+msgstr "眼睛"
+
+msgid "menu.customize.feet"
+msgstr "双脚"
+
+msgid "menu.customize.foot"
+msgstr "脚"
+
+#. All-purpose term
+msgid "menu.customize.hair"
+msgstr "毛发"
+
+#. Facial hair
+msgid "menu.customize.hair.beard"
+msgstr "胡子"
+
+#. Animal fur
+msgid "menu.customize.hair.fur"
+msgstr "毛皮"
+
+msgid "menu.customize.hair.head"
+msgstr "头发"
+
+msgid "menu.customize.hand"
+msgstr "手"
+
+msgid "menu.customize.hand.plural"
+msgstr "手"
+
+msgid "menu.customize.head"
+msgstr "头"
+
+msgid "menu.customize.hips"
+msgstr "臀部"
+
+msgid "menu.customize.leg"
+msgstr "腿"
+
+msgid "menu.customize.leg.plural"
+msgstr "双腿"
+
+msgid "menu.customize.mouth"
+msgstr "嘴巴"
+
+msgid "menu.customize.neck"
+msgstr "颈"
+
+msgid "menu.customize.nose"
+msgstr "鼻子"
+
+msgid "menu.customize.skin"
+msgstr "皮肤"
+
+msgid "menu.customize.thorax"
+msgstr "胸部"
+
+#. Difficulty
+msgid "menu.difficulty"
+msgstr "难度"
+
+#. Difficulty
+msgid "menu.difficulty.easy"
+msgstr "简单"
+
+#. Difficulty
+msgid "menu.difficulty.hard"
+msgstr "困难"
+
+#. Difficulty
+msgid "menu.difficulty.impossible"
+msgstr "不可能"
+
+#. Difficulty
+msgid "menu.difficulty.insane"
+msgstr "疯狂"
+
+#. Difficulty
+msgid "menu.difficulty.medium"
+msgstr "中等"
+
+#. Difficulty
+msgid "menu.difficulty.very.easy"
+msgstr "非常简单"
+
+#. Difficulty
+msgid "menu.difficulty.very.hard"
+msgstr "非常困难"
+
+msgid "menu.dir.down"
+msgstr "下"
+
+msgid "menu.dir.left"
+msgstr "左"
+
+msgid "menu.dir.right"
+msgstr "右"
+
+msgid "menu.dir.up"
+msgstr "上"
+
+msgid "menu.io.load"
+msgstr "载入"
+
+msgid "menu.io.load.game"
+msgstr "载入游戏"
+
+msgid "menu.io.loading"
+msgstr "正在登录中..."
+
+msgid "menu.io.please.wait"
+msgstr "请等待..."
+
+#. Reset whatever save data is in focus
+msgid "menu.io.reset.save.data"
+msgstr "重设已保存数据"
+
+#. [Verb]
+msgid "menu.io.save"
+msgstr "保存"
+
+#. [Verb]
+msgid "menu.io.save.data"
+msgstr "保存数据"
+
+#. [Verb]
+msgid "menu.io.save.game"
+msgstr "保存游戏"
+
+msgid "menu.io.saving"
+msgstr "保存中…"
+
+msgid "menu.label.all"
+msgstr "全部"
+
+msgid "menu.label.age"
+msgstr "年龄"
+
+msgid "menu.label.are.you.really.sure"
+msgstr "你是否确认？"
+
+#. A generic confirmation
+msgid "menu.label.are.you.sure"
+msgstr "你确定吗？"
+
+#. Back one level in selections
+msgid "menu.label.back"
+msgstr "返回"
+
+msgid "menu.label.background.music"
+msgstr "背景音乐"
+
+msgid "menu.label.cancel"
+msgstr "取消"
+
+#. Close window
+msgid "menu.label.close"
+msgstr "关闭"
+
+#. Choose selected button
+msgid "menu.label.confirm.button"
+msgstr "确认"
+
+msgid "menu.label.continue"
+msgstr "继续"
+
+msgid "menu.label.continue.question"
+msgstr "继续？"
+
+#. Authors list
+msgid "menu.label.credits"
+msgstr "致谢"
+
+msgid "menu.label.desktop"
+msgstr "退出至桌面"
+
+msgid "menu.label.desktop.question"
+msgstr "退出至桌面？"
+
+#. Downloadable content (abbreviation/short)
+msgid "menu.label.dlc"
+msgstr "DLC"
+
+#. [Verb]
+msgid "menu.label.download"
+msgstr "下载"
+
+#. Downloadable content (long)
+msgid "menu.label.downloadable"
+msgstr "下载包"
+
+#. Leave a state or place
+msgid "menu.label.exit"
+msgstr "退出"
+
+msgid "menu.label.exit.question"
+msgstr "退出？"
+
+msgid "menu.label.extras"
+msgstr "演员"
+
+#. Frames Per Second
+msgid "menu.label.framespersec"
+msgstr "FPS"
+
+msgid "menu.label.gallery"
+msgstr "艺术馆"
+
+msgid "menu.label.goodbye"
+msgstr "再见！"
+
+msgid "menu.label.graphics"
+msgstr "图形设置"
+
+#. [Singular]
+msgid "menu.label.iap"
+msgstr "在应用程序内购买"
+
+msgid "menu.label.language"
+msgstr "语言"
+
+#. Game stage (not game world or char level)
+msgid "menu.label.level"
+msgstr "级别"
+
+#. In-game mailbox
+msgid "menu.label.mail"
+msgstr "邮件"
+
+msgid "menu.label.mainmenu"
+msgstr "主界面"
+
+msgid "menu.label.more"
+msgstr "更多"
+
+msgid "menu.label.music"
+msgstr "音乐"
+
+msgid "menu.label.music.player"
+msgstr "音乐播放器"
+
+msgid "menu.label.new.game"
+msgstr "新游戏"
+
+msgid "menu.label.next"
+msgstr "下一个"
+
+#. Next music track/song
+msgid "menu.label.next.track"
+msgstr "下一个曲目"
+
+msgid "menu.label.no"
+msgstr "否"
+
+msgid "menu.label.no.caps"
+msgstr "否"
+
+#. A more casual 'no'
+msgid "menu.label.nope"
+msgstr "不行"
+
+#. As in Windows dialog
+msgid "menu.label.ok"
+msgstr "OK"
+
+#. [Infinitive/tutorial verb] common term
+msgid "menu.label.pause"
+msgstr "暂停"
+
+msgid "menu.label.paused"
+msgstr "暂停中"
+
+msgid "menu.label.play"
+msgstr "开始"
+
+msgid "menu.label.play.again"
+msgstr "再玩一次"
+
+msgid "menu.label.press.anykey"
+msgstr "按下任意键"
+
+msgid "menu.label.press.anykey.continue"
+msgstr "按下任意键以继续"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start"
+msgstr "按下开始"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start.continue"
+msgstr "按下开始以继续"
+
+msgid "menu.label.previous"
+msgstr "返回"
+
+#. Previous music track/song
+msgid "menu.label.previous.track"
+msgstr "上一曲目"
+
+msgid "menu.label.price"
+msgstr "价钱"
+
+msgid "menu.label.price.free"
+msgstr "免费"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.purchase"
+msgstr "购买"
+
+#. Leave the game (keep short)
+msgid "menu.label.quit"
+msgstr "退出"
+
+msgid "menu.label.quit.confirm"
+msgstr "你确定你需要退出吗？"
+
+msgid "menu.label.quit.question"
+msgstr "退出？"
+
+#. Show the replay of the last game
+msgid "menu.label.replay"
+msgstr "重播"
+
+msgid "menu.label.return"
+msgstr "返回"
+
+msgid "menu.label.return.main"
+msgstr "返回至主界面"
+
+msgid "menu.label.return.main.question"
+msgstr "返回至主界面？"
+
+#. Share via social media
+msgid "menu.label.share"
+msgstr "分享"
+
+#. Skip cutscene skip replay (Generic)
+msgid "menu.label.skip"
+msgstr "跳过"
+
+msgid "menu.label.sound"
+msgstr "声音"
+
+msgid "menu.label.thank.you"
+msgstr "谢谢！"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.unlock"
+msgstr "开锁"
+
+msgid "menu.label.video"
+msgstr "视频设置"
+
+msgid "menu.label.voices"
+msgstr "声音"
+
+msgid "menu.label.warning"
+msgstr "注意"
+
+msgid "menu.label.welcome"
+msgstr "欢迎"
+
+msgid "menu.label.world"
+msgstr "世界"
+
+#. A more casual 'yes'
+msgid "menu.label.yeah"
+msgstr "好的"
+
+msgid "menu.label.yes"
+msgstr "是"
+
+msgid "menu.label.yes.caps"
+msgstr "是"
+
+#. ltr or rtl (text direction used by game code)
+msgid "menu.language.direction"
+msgstr "ltr"
+
+#. "MyLanguage" in native text
+msgid "menu.language.this"
+msgstr "简体中文"
+
+#. "MyLanguage" in english text
+msgid "menu.language.this.en"
+msgstr "Simplified Chinese"
+
+#. [Verb]
+msgid "menu.login"
+msgstr "登录"
+
+#. Email address
+msgid "menu.login.email"
+msgstr "电子邮件"
+
+msgid "menu.login.forgot"
+msgstr "忘记密码"
+
+msgid "menu.login.password"
+msgstr "密码"
+
+#. [Verb]
+msgid "menu.login.register"
+msgstr "注册"
+
+#. Remember entered data on this device?
+msgid "menu.login.remember"
+msgstr "记住"
+
+#. [Noun]
+msgid "menu.mode.challenge"
+msgstr "挑战"
+
+#. For challenges like "Win in 30 secs"
+msgid "menu.mode.challenge.mode"
+msgstr "挑战模式"
+
+msgid "menu.mode.coop"
+msgstr "合作"
+
+msgid "menu.mode.cooperative"
+msgstr "合作模式"
+
+msgid "menu.mode.deathmatch"
+msgstr "死亡竞赛"
+
+msgid "menu.mode.help"
+msgstr "帮助"
+
+msgid "menu.mode.instructions"
+msgstr "说明"
+
+msgid "menu.mode.multiplayer"
+msgstr "联机模式"
+
+msgid "menu.mode.multiplayer.local"
+msgstr "本地联机"
+
+msgid "menu.mode.multiplayer.online"
+msgstr "在线联机"
+
+msgid "menu.mode.play.online"
+msgstr "在线游戏"
+
+msgid "menu.mode.singleplayer"
+msgstr "单人模式"
+
+msgid "menu.mode.training"
+msgstr "训练"
+
+msgid "menu.mode.tutorial"
+msgstr "教程"
+
+msgid "menu.mode.versus"
+msgstr "对抗模式"
+
+#. Generic – for: human dog ship item
+msgid "menu.name"
+msgstr "名称"
+
+#. First name
+msgid "menu.name.first"
+msgstr "名字"
+
+#. Family name
+msgid "menu.name.last"
+msgstr "姓"
+
+#. Alias or pseudonym or account name
+msgid "menu.name.user"
+msgstr "用户名"
+
+msgid "menu.options"
+msgstr "设置"
+
+msgid "menu.options.advancedgraphics"
+msgstr "高级图形"
+
+msgid "menu.options.antialiasing"
+msgstr "抗锯齿"
+
+msgid "menu.options.bloom"
+msgstr "高光"
+
+msgid "menu.options.controls"
+msgstr "操作模式"
+
+msgid "menu.options.difficulty"
+msgstr "难度设置"
+
+msgid "menu.options.display"
+msgstr "显示"
+
+msgid "menu.options.first.person.view"
+msgstr "第一人称视角"
+
+#. Field of View
+msgid "menu.options.fov"
+msgstr "视场角"
+
+msgid "menu.options.fullscreen"
+msgstr "全屏"
+
+msgid "menu.options.gameplay"
+msgstr "游戏设置"
+
+msgid "menu.options.graphics"
+msgstr "图形设置"
+
+#. Heads Up Display
+msgid "menu.options.hud"
+msgstr "HUD"
+
+msgid "menu.options.music.volume"
+msgstr "音乐音量"
+
+msgid "menu.options.network"
+msgstr "网络设置"
+
+msgid "menu.options.quality"
+msgstr "质量"
+
+msgid "menu.options.resolution"
+msgstr "解析度"
+
+msgid "menu.options.sfx.volume"
+msgstr "音效音量"
+
+msgid "menu.options.shadow"
+msgstr "影子"
+
+msgid "menu.options.shadow.plural"
+msgstr "阴影效果"
+
+msgid "menu.options.size"
+msgstr "大小"
+
+msgid "menu.options.sound"
+msgstr "声音设置"
+
+msgid "menu.options.sound.volume"
+msgstr "音量"
+
+msgid "menu.options.splitscreen"
+msgstr "分屏"
+
+msgid "menu.options.third.person.view"
+msgstr "第三人称视角"
+
+msgid "menu.options.video"
+msgstr "视频设置"
+
+#. Movie playback quality
+msgid "menu.options.video.quality"
+msgstr "视频质量"
+
+msgid "menu.options.voice.volume"
+msgstr "声音音量"
+
+msgid "menu.options.vsync"
+msgstr "垂直同步"
+
+msgid "menu.options.windowed"
+msgstr "窗口模式"
+
+msgid "menu.options.shader.detail"
+msgstr "光影细节"
+
+msgid "menu.options.texture.detail"
+msgstr "材质细节"
+
+msgid "menu.options.multicore.rendering"
+msgstr "多核渲染"
+
+msgid "menu.options.model.detail"
+msgstr "模型细节"
+
+#. Aspect ratio (16:9 or 16:10)
+msgid "menu.options.widescreen"
+msgstr "宽屏幕"
+
+msgid "menu.options.effect.detail"
+msgstr "效果细节"
+
+#. Filtering mode
+msgid "menu.options.filtering.anisotropic"
+msgstr "异向"
+
+#. Filtering mode
+msgid "menu.options.filtering.bilinear"
+msgstr "双线性"
+
+#. Filtering mode
+msgid "menu.options.filtering.trilinear"
+msgstr "三线性"
+
+msgid "menu.options.filtering.mode"
+msgstr "过滤模式"
+
+#. (Generic) Very High (short)
+msgid "menu.setting.ultra"
+msgstr "非常高"
+
+#. (Generic)
+msgid "menu.setting.very.high"
+msgstr "非常高"
+
+#. (Generic)
+msgid "menu.setting.high"
+msgstr "高"
+
+#. (Generic)
+msgid "menu.setting.medium"
+msgstr "中"
+
+#. (Generic)
+msgid "menu.setting.low"
+msgstr "低"
+
+#. Game's version number
+msgid "menu.version"
+msgstr "版本"
+
+#. Demo version [short]  '0.3.3 Demo'
+msgid "menu.version.demo"
+msgstr "试玩版"
+
+#. Free version [short]
+msgid "menu.version.free"
+msgstr "免费版"
+
+#. Full version [short]
+msgid "menu.version.full"
+msgstr "完整版"
+
+#. Lite version [short]
+msgid "menu.version.lite"
+msgstr "位版本"
+
+#. Premium version [short]
+msgid "menu.version.premium"
+msgstr "超值版"
+
+#. Shareware version [short]
+msgid "menu.version.shareware"
+msgstr "共享软件"
+
+#. Trial version [short]
+msgid "menu.version.trial"
+msgstr "试用版"
+
+#. For sensitive people in VR
+msgid "menu.vr.comfort.mode"
+msgstr "虚拟现实舒适模式"
+
+#. Using abbrev. HMD (Head mounted display)
+msgid "menu.vr.hmd.orient.reset"
+msgstr "HMD方向重置"
+
+msgid "menu.vr.virtual.reality"
+msgstr "虚拟现实"
+
+#. Catch-all term for Gamepads Joysticks etc.
+msgid "menu.controls.controller"
+msgstr "手柄"
+
+#. The digital D-Pad
+msgid "menu.controls.dpad"
+msgstr "十字键"
+
+msgid "menu.controls.horizontal.sensitivity"
+msgstr "水平灵敏度"
+
+#. Button layout Stick layout
+msgid "menu.controls.layout"
+msgstr "布局"
+
+msgid "menu.controls.left.stick"
+msgstr "左摇杆"
+
+msgid "menu.controls.mouse.acceleration"
+msgstr "鼠标加速度"
+
+msgid "menu.controls.mouse.invert"
+msgstr "反转鼠标"
+
+msgid "menu.controls.mouse.invert.yaxis"
+msgstr "反转Y轴"
+
+msgid "menu.controls.mouse.wheel"
+msgstr "鼠标滚轮"
+
+#. When an action is not bound to any key.
+msgid "menu.controls.none"
+msgstr "无"
+
+msgid "menu.controls.right.stick"
+msgstr "右摇杆"
+
+#. Settings : Gamepad or Joystick stick
+msgid "menu.controls.stick"
+msgstr "摇杆"
+
+msgid "menu.controls.vertical.sensitivity"
+msgstr "垂直灵敏度"
+
+msgid "menu.controls.vibration"
+msgstr "振动"
+
+msgid "menu.label.allow"
+msgstr "允许"
+
+msgid "menu.label.apply"
+msgstr "应用"
+
+msgid "menu.label.choose.character"
+msgstr "选择角色"
+
+msgid "menu.label.choose.hero"
+msgstr "选择英雄"
+
+msgid "menu.label.choose.hero.female"
+msgstr "选择英雄"
+
+#. Choose game language
+msgid "menu.label.choose.language"
+msgstr "选择语言"
+
+#. Choose game world level
+msgid "menu.label.choose.level"
+msgstr "选择关卡"
+
+msgid "menu.label.community"
+msgstr "社区"
+
+msgid "menu.label.default"
+msgstr "默认"
+
+msgid "menu.label.deny"
+msgstr "拒绝"
+
+msgid "menu.label.developer.commentary"
+msgstr "开发者评论"
+
+msgid "menu.label.developer.console"
+msgstr "开发者控制台"
+
+msgid "menu.label.disabled"
+msgstr "已禁用"
+
+msgid "menu.label.done"
+msgstr "完成"
+
+msgid "menu.label.enabled"
+msgstr "已启用"
+
+#. Listing of high scores
+msgid "menu.label.high.scores"
+msgstr "排行榜"
+
+msgid "menu.label.iap.plural"
+msgstr "应用内购买"
+
+#. Listing of high scores often online
+msgid "menu.label.leaderboard.plural"
+msgstr "排行榜"
+
+msgid "menu.label.press.any.btn.continue"
+msgstr "按下任意键继续"
+
+msgid "menu.label.reset"
+msgstr "重置"
+
+msgid "menu.label.save.plural"
+msgstr "存档"
+
+#. For secret code or cheat code
+msgid "menu.label.secret.code"
+msgstr "代码"
+
+msgid "menu.label.start"
+msgstr "开始"
+
+msgid "menu.label.use.defaults"
+msgstr "使用默认设置"
+
+#. Performance test
+msgid "menu.mode.benchmark"
+msgstr "性能测试"
+
+#. [Adjective]
+msgid "menu.mode.local"
+msgstr "本地"
+
+#. [Adjective]
+msgid "menu.mode.offline"
+msgstr "离线"
+
+#. [Adjective]
+msgid "menu.mode.online"
+msgstr "在线"
+
+msgid "menu.options.aspect.ratio"
+msgstr "画面比例"
+
+#. Fullscreen/windowed
+msgid "menu.options.display.mode"
+msgstr "显示模式"
+
+#. Depth of Field abbreviation
+msgid "menu.options.dof"
+msgstr "景深"
+
+#. Not belonging to a group
+msgid "menu.options.miscellaneous"
+msgstr "杂项设置"
+
+#. [Noun] Rendering technique
+msgid "menu.options.tesselation"
+msgstr "曲面细分"
+
+#. (Generic)
+msgid "menu.setting.very.low"
+msgstr "极低"
+
+#. Point lights : amount or toggle
+msgid "menu.options.point.lights"
+msgstr "点光源"
+
+msgid "menu.keys.alt"
+msgstr "Alt"
+
+msgid "menu.keys.ctrl"
+msgstr "Ctrl"
+
+msgid "menu.keys.shift"
+msgstr "Shift"
+
+msgid "menu.keys.enter"
+msgstr "回车"
+
+msgid "menu.keys.escape"
+msgstr "Esc"
+
+msgid "menu.keys.space"
+msgstr "空格"
+
+msgid "menu.io.load.save"
+msgstr "读取/保存"
+
+msgid "menu.keys.tab"
+msgstr "Tab"
+
+msgid "menu.keys.shift.left"
+msgstr "左Shift"
+
+msgid "menu.keys.shift.right"
+msgstr "右Shift"
+
+msgid "menu.keys.alt.gr"
+msgstr "Alt Gr"
+
+msgid "menu.keys.ctrl.left"
+msgstr "左Ctrl"
+
+msgid "menu.keys.ctrl.right"
+msgstr "右Ctrl"
+
+#. https://en.wikipedia.org/wiki/Windows_key
+msgid "menu.keys.super.left"
+msgstr "左Win"
+
+msgid "menu.keys.super.right"
+msgstr "右Win"
+
+#. https://en.wikipedia.org/wiki/Command_key
+msgid "menu.keys.command.left"
+msgstr "左Command"
+
+msgid "menu.keys.command.right"
+msgstr "右指令键"
+
+#. E.g. "Camera mode: Top-Down"
+msgid "menu.options.camera.mode"
+msgstr "摄像机模式"
+
+#. Height of 3rd person camera from the player.
+msgid "menu.options.camera.height"
+msgstr "摄像机高度"
+
+#. Camera pitch.
+msgid "menu.options.camera.angle"
+msgstr "摄像机角度"
+
+#. 3rd person camera distance from player.
+msgid "menu.options.camera.distance"
+msgstr "摄像机距离"
+
+#. https://en.wikipedia.org/wiki/Crepuscular_rays
+msgid "menu.options.light.shafts"
+msgstr "光束效果"
+
+msgid "menu.options.lens.flares"
+msgstr "镜头光晕"
+
+msgid "menu.options.motion.blur"
+msgstr "动态模糊"
+
+#. Ambient sounds like birds chirping.
+msgid "menu.options.ambient.volume"
+msgstr "环境音量"
+
+#. Gameplay sound effects like walking.
+msgid "menu.options.gameplay.volume"
+msgstr "游戏音效音量"
+
+#. Device used for audio output.
+msgid "menu.options.audio.device"
+msgstr "音频输出设备"
+
+#. Device used for video output.
+msgid "menu.options.video.device"
+msgstr "视频输出设备"
+
+#. E.g. For chat visibility.
+msgid "menu.label.allow.all"
+msgstr "允许所有人"
+
+#. E.g. For chat visibility.
+msgid "menu.label.team.only"
+msgstr "仅限队伍"
+
+#. E.g. For chat visibility.
+msgid "menu.label.squad.only"
+msgstr "仅限小队"
+
+#. E.g. For chat visibility.
+msgid "menu.label.group.only"
+msgstr "仅限小队"
+
+#. E.g. For chat visibility.
+msgid "menu.label.crew.only"
+msgstr "仅限船员"
+
+#. E.g. For chat visibility.
+msgid "menu.label.party.only"
+msgstr "仅限队伍"
+
+#. For enabling/disabling cross-platform play.
+msgid "menu.options.cross.platform.play"
+msgstr "跨平台联机"
+
+msgid "menu.label.cross.platform.multiplayer"
+msgstr "跨平台多人游戏"
+
+#. multiplayer lobby/list of games
+msgid "menu.label.refresh"
+msgstr "刷新"
+
+msgid "menu.io.overwrite.save.data"
+msgstr "是否覆盖当前存档数据？"
+
+#. [Infinitive/tutorial verb] Change name
+msgid "menu.label.rename"
+msgstr "改名"
+
+#. We have "Main Menu" but don't have generic "Menu"
+msgid "menu.label.menu"
+msgstr "菜单"
+
+#. Look up the Achievements in the menu
+msgid "menu.label.achievements"
+msgstr "成就"
+
+#. [Infinitive/tutorial verb] e.g. a button with label "change", push this and your text is saved
+msgid "menu.label.change.verb"
+msgstr "更改"
+
+msgid "menu.label.audio"
+msgstr "音频"
+
+#. Yes/no question
+msgid "menu.override.save.question"
+msgstr "此操作将覆盖之前的存档，确定要继续吗？"
+
+msgid "menu.will.save.progress"
+msgstr "进度将会保存"
+
+#. [Infinitive/tutorial verb] Hold control
+msgid "menu.controls.hold"
+msgstr "按住"
+
+#. for some option changes that requires restarting the game
+msgid "menu.label.restart.required"
+msgstr "需要重新启动"

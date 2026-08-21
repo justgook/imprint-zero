@@ -1,0 +1,1929 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: context\n"
+
+#. [Noun] Character class
+msgid "context.character.class"
+msgstr "角色种类"
+
+#. [Verb]
+msgid "context.character.delete"
+msgstr "删除角色"
+
+#. Typically used in rpgs/mmorpgs
+msgid "context.character.new"
+msgstr "创新角色"
+
+#. [Noun]
+msgid "context.class.ai"
+msgstr "人工智能"
+
+#. [Noun]
+msgid "context.class.alien"
+msgstr "外星人"
+
+#. [Noun]
+msgid "context.class.clone"
+msgstr "复制"
+
+#. [Noun]
+msgid "context.class.cyborg"
+msgstr "机器人"
+
+#. [Noun]
+msgid "context.class.deity"
+msgstr "神灵"
+
+#. [Noun]
+msgid "context.class.demon"
+msgstr "魔鬼"
+
+#. [Noun]
+msgid "context.class.demonness"
+msgstr "女魔"
+
+#. [Noun]
+msgid "context.class.dragon"
+msgstr "龙"
+
+#. [Noun/Plural]
+msgid "context.class.dragon.plural"
+msgstr "龙"
+
+#. [Noun]
+msgid "context.class.ghost"
+msgstr "鬼"
+
+#. [Noun]
+msgid "context.class.god"
+msgstr "神"
+
+#. [Noun/Plural]
+msgid "context.class.god.plural"
+msgstr "神"
+
+#. [Noun]
+msgid "context.class.goddess"
+msgstr "女神"
+
+#. [Noun]
+msgid "context.class.mage"
+msgstr "魔法师"
+
+#. [Noun] A person involved in medicine
+msgid "context.class.medic"
+msgstr "军医"
+
+#. [Noun]
+msgid "context.class.monster"
+msgstr "怪兽"
+
+#. [Noun]
+msgid "context.class.ninja"
+msgstr "忍者"
+
+#. [Noun]
+msgid "context.class.pirate"
+msgstr "海贼"
+
+#. [Noun]
+msgid "context.class.priest"
+msgstr "祭士"
+
+#. [Noun]
+msgid "context.class.prince"
+msgstr "王子"
+
+#. [Noun]
+msgid "context.class.princess"
+msgstr "公主"
+
+#. [Noun]
+msgid "context.class.robot"
+msgstr "机器人"
+
+#. [Noun]
+msgid "context.class.skeleton"
+msgstr "尸骨"
+
+#. [Noun]
+msgid "context.class.sniper"
+msgstr "狙击射手"
+
+#. [Noun]
+msgid "context.class.soldier"
+msgstr "战士"
+
+#. [Noun]
+msgid "context.class.thief"
+msgstr "盗贼"
+
+#. [Noun]
+msgid "context.class.warrior"
+msgstr "武士"
+
+#. [Noun]
+msgid "context.class.wizard"
+msgstr "巫师"
+
+#. [Noun]
+msgid "context.class.zombie"
+msgstr "僵尸"
+
+#. [Noun/Plural]
+msgid "context.class.zombie.plural"
+msgstr "僵尸"
+
+#. [Noun]
+msgid "context.competition.first"
+msgstr "第一名"
+
+#. [Noun] What place someone came in competition
+msgid "context.competition.place.noun"
+msgstr "名次"
+
+#. [Noun]
+msgid "context.competition.second"
+msgstr "第二名"
+
+#. [Noun]
+msgid "context.competition.third"
+msgstr "第三名"
+
+#. [Adjective]
+msgid "context.condition.burning"
+msgstr "燃烧"
+
+#. [Adjective]
+msgid "context.condition.critical"
+msgstr "瀕死"
+
+#. [Adjective] [Default male]
+msgid "context.condition.dead"
+msgstr "死亡"
+
+#. [Adjective] [Default male]
+msgid "context.condition.frozen"
+msgstr "凍結"
+
+#. [Adjective] [Default male]
+msgid "context.condition.poisoned"
+msgstr "毒"
+
+#. [Adjective] [Default male]
+msgid "context.condition.slowed"
+msgstr "減速"
+
+#. [Adjective] [Default male]
+msgid "context.condition.stunned"
+msgstr "眩晕"
+
+#. [Adjective]
+msgid "context.condition.unconscious"
+msgstr "失去知觉"
+
+#. [Adjective] [Default male] No wounds
+msgid "context.condition.unhurt"
+msgstr "未受伤"
+
+#. [Adjective] [Default male]
+msgid "context.condition.wet"
+msgstr ".湿"
+
+#. [Adjective] [Default male]
+msgid "context.condition.wounded"
+msgstr "受伤"
+
+#. [Adjective]
+msgid "context.description.big"
+msgstr "大"
+
+#. [Adjective] Very large
+msgid "context.description.huge"
+msgstr "极大"
+
+#. [Adjective]
+msgid "context.description.small"
+msgstr "小"
+
+#. [Adjective] Very small
+msgid "context.description.tiny"
+msgstr "极小"
+
+#. [Noun]
+msgid "context.element.air"
+msgstr "风"
+
+#. [Noun]
+msgid "context.element.earth"
+msgstr "地"
+
+#. [Noun]
+msgid "context.element.fire"
+msgstr "火"
+
+#. [Noun]
+msgid "context.element.metal"
+msgstr "金"
+
+#. [Noun] Magical elements
+msgid "context.element.water"
+msgstr "水"
+
+#. [Infinitive verb]
+msgid "context.gambling.bet"
+msgstr "赌"
+
+#. [Infinitive verb]
+msgid "context.gambling.discard"
+msgstr "抛弃"
+
+#. [Noun] Biggest possible prize
+msgid "context.gambling.jackpot"
+msgstr "头奖"
+
+#. [Noun] Abbreviation for maximum of range
+msgid "context.gambling.max"
+msgstr "最高限度"
+
+#. [Noun] Abbreviation for minimum of range
+msgid "context.gambling.min"
+msgstr "最少限度"
+
+#. [Noun] Body armor
+msgid "context.item.armor"
+msgstr "护甲"
+
+#. [Noun] Ammo for archers
+msgid "context.item.arrow"
+msgstr "箭"
+
+#. [Noun/Plural] Ammo for archers
+msgid "context.item.arrow.plural"
+msgstr "箭"
+
+#. [Noun] Boardgame board
+msgid "context.item.board"
+msgstr "盘"
+
+#. [Noun]
+msgid "context.item.bomb"
+msgstr "炸弹"
+
+#. [Noun]
+msgid "context.item.book"
+msgstr "书"
+
+#. [Noun/Plural] Boots
+msgid "context.item.boots"
+msgstr "靴"
+
+#. [Noun] Used by archers
+msgid "context.item.bow"
+msgstr "弓"
+
+#. [Noun]
+msgid "context.item.card"
+msgstr "卡片"
+
+#. [Noun/Plural]
+msgid "context.item.card.plural"
+msgstr "卡片"
+
+#. [Noun] Treasure not body part
+msgid "context.item.chest"
+msgstr "箱"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.cond.magical"
+msgstr "魔法的"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.cond.rusty"
+msgstr "生锈的"
+
+#. [Noun] Small blade used by rogues
+msgid "context.item.dagger"
+msgstr "短剑"
+
+#. [Noun] [Noun] As in "throw the die"
+msgid "context.item.die.noun"
+msgstr "骰子"
+
+#. [Noun/Plural] As in "throw two dice"
+msgid "context.item.die.plural"
+msgstr "骰子"
+
+#. [Noun]
+msgid "context.item.door"
+msgstr "门"
+
+#. [Noun/Plural] Heavy protective warrior's gloves
+msgid "context.item.gauntlets"
+msgstr "铁手套"
+
+#. [Noun] Gem or jewel
+msgid "context.item.gem"
+msgstr "宝石"
+
+#. [Noun]
+msgid "context.item.gift.noun"
+msgstr "赠品"
+
+#. [Noun/Plural]
+msgid "context.item.gift.plural"
+msgstr "赠品"
+
+#. [Noun/Plural] Regular gloves
+msgid "context.item.glove.plural"
+msgstr "手套"
+
+#. [Noun] A single regular glove worn on the hand.
+msgid "context.item.glove"
+msgstr "手套"
+
+#. [Noun] Generic name for any firearm
+msgid "context.item.gun"
+msgstr "枪"
+
+#. [Noun] Tool
+msgid "context.item.hammer"
+msgstr "铁锤"
+
+#. [Noun] Head protector specifically for warriors not athletes
+msgid "context.item.helmet"
+msgstr "钢盔"
+
+#. [Noun]
+msgid "context.item.key"
+msgstr "钥匙"
+
+#. [Noun] Tool for whittling and carving not just combat
+msgid "context.item.knife"
+msgstr "小刀"
+
+#. [Noun]
+msgid "context.item.lock"
+msgstr "锁"
+
+#. [Noun]
+msgid "context.item.love"
+msgstr "爱"
+
+#. [Noun] Generic - Not "uzi" or "ak-47" etc
+msgid "context.item.machine.item.gun"
+msgstr "机关枪"
+
+#. [Noun]
+msgid "context.item.magic"
+msgstr "魔法"
+
+#. [Noun]
+msgid "context.item.pistol"
+msgstr "手枪"
+
+#. [Noun] The pursuit of something
+msgid "context.item.quest.noun"
+msgstr "任务"
+
+#. [Noun] Military Rank
+msgid "context.item.rank.noun"
+msgstr "行列"
+
+#. [Noun] Generic name for long-barelled gun
+msgid "context.item.rifle"
+msgstr "步枪"
+
+#. [Noun]
+msgid "context.item.rocket.item.launcher"
+msgstr "火箭炮"
+
+#. [Noun] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+msgid "context.item.rpg"
+msgstr "RPG"
+
+#. [Noun] Readable/magic scroll
+msgid "context.item.scroll"
+msgstr "卷"
+
+#. [Noun] Medieval shield
+msgid "context.item.shield"
+msgstr "盾"
+
+#. [Noun/Plural]
+msgid "context.item.shield.plural"
+msgstr "盾"
+
+#. [Noun] Sci-fi energy shield [spaceship]
+msgid "context.item.shield.scifi"
+msgstr "能量罩"
+
+#. [Noun/Plural] Sci-fi energy shield [spaceship]
+msgid "context.item.shield.scifi.plural"
+msgstr "能量罩"
+
+#. [Noun]
+msgid "context.item.shotgun"
+msgstr "散弹枪"
+
+#. [Noun] Rifle with a scope
+msgid "context.item.sniper.item.rifle"
+msgstr "狙击步枪"
+
+#. [Noun]
+msgid "context.item.spell"
+msgstr "咒语"
+
+#. [Noun] Large magical walking stick
+msgid "context.item.staff"
+msgstr "杖"
+
+#. [Noun] Classic medieval sword
+msgid "context.item.sword"
+msgstr "剑"
+
+#. [Noun]
+msgid "context.item.treasure"
+msgstr "财宝"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.type.epic"
+msgstr "史诗的"
+
+#. [Adjective] [Default male] usage : [item] : [type]
+msgid "context.item.type.junk"
+msgstr "废物"
+
+#. [Noun] Magic wand like Harry Potter
+msgid "context.item.wand"
+msgstr "魔杖"
+
+#. [Noun]
+msgid "context.item.wood"
+msgstr "木"
+
+#. [Noun]
+msgid "context.machine.altitude"
+msgstr "高度"
+
+#. [Noun/Plural]
+msgid "context.machine.brakes"
+msgstr "煞车闸"
+
+#. [Noun]
+msgid "context.machine.chassis"
+msgstr "马车"
+
+#. [Noun] For example how deep a submarine is
+msgid "context.machine.depth"
+msgstr "深度"
+
+#. [Noun]
+msgid "context.machine.fuel"
+msgstr "燃料"
+
+#. [Noun] Transmission gear
+msgid "context.machine.gear"
+msgstr "档"
+
+#. [Noun] Vehicle cornering swerving performance
+msgid "context.machine.handling"
+msgstr "操纵"
+
+#. [Noun]
+msgid "context.machine.speed"
+msgstr "速度"
+
+#. [Noun] Steering wheel responsiveness
+msgid "context.machine.steering"
+msgstr "转向"
+
+#. [Noun]
+msgid "context.machine.suspension"
+msgstr "悬挂"
+
+#. [Noun/Plural] Generic for any machine car plane etc
+msgid "context.machine.wheels"
+msgstr "轮子"
+
+#. [Noun]
+msgid "context.machine.wings"
+msgstr "机翼"
+
+#. [Noun]
+msgid "context.medal"
+msgstr "徽章"
+
+#. [Noun]
+msgid "context.medal.bronze"
+msgstr "铜徽章"
+
+#. [Noun]
+msgid "context.medal.gold"
+msgstr "金徽章"
+
+#. [Noun]
+msgid "context.medal.silver"
+msgstr "银徽章"
+
+#. [Noun]
+msgid "context.metal.bronze"
+msgstr "銅"
+
+#. [Noun]
+msgid "context.metal.coin"
+msgstr "硬币"
+
+#. [Noun]
+msgid "context.metal.gold"
+msgstr "金"
+
+#. [Noun] Cast shape of solid metal in bank vaults
+msgid "context.metal.ingot"
+msgstr "铁块"
+
+#. [Noun]
+msgid "context.metal.platinum"
+msgstr "白金"
+
+#. [Noun]
+msgid "context.metal.silver"
+msgstr "銀"
+
+#. [Noun]
+msgid "context.place.castle"
+msgstr "城"
+
+#. [Noun]
+msgid "context.place.cave"
+msgstr "洞穴"
+
+#. [Noun] Underground prison
+msgid "context.place.dungeon"
+msgstr "地下城"
+
+#. [Noun] Hosted stay building for travellers
+msgid "context.place.inn"
+msgstr "客栈"
+
+#. [Noun]
+msgid "context.place.planet"
+msgstr "行星"
+
+#. [Noun]
+msgid "context.place.planet.earth"
+msgstr "地球"
+
+#. [Noun] Interstellar space not volumetric space
+msgid "context.place.space"
+msgstr "太空"
+
+#. [Noun]
+msgid "context.place.spaceship"
+msgstr "太空船"
+
+#. [Noun]
+msgid "context.story"
+msgstr "故事"
+
+#. [Noun]
+msgid "context.story.adventure"
+msgstr "冒险"
+
+#. [Noun]
+msgid "context.story.chapter"
+msgstr "章"
+
+#. [Noun]
+msgid "context.story.page"
+msgstr "页"
+
+#. [Noun] Artificial Intelligence (short)
+msgid "context.class.ai.short"
+msgstr "AI"
+
+msgid "context.machine.plane.fuselage"
+msgstr "机身"
+
+msgid "context.character"
+msgstr "角色"
+
+#. [Noun/Plural] Character class
+#, game-format
+msgid "context.character.class.count"
+msgstr "职业：%d"
+
+#. [Noun/Plural] Character class
+msgid "context.character.class.plural"
+msgstr "职业"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.character.delete.count"
+msgstr "删除角色：%d"
+
+#. [Noun/Plural]
+msgid "context.character.delete.plural"
+msgstr "删除角色"
+
+msgid "context.character.name"
+msgstr "角色名称"
+
+#. [Noun/Plural] Typically used in rpgs/mmorpgs
+#, game-format
+msgid "context.character.new.count"
+msgstr "新角色：%d"
+
+#. [Noun/Plural] Typically used in rpgs/mmorpgs
+msgid "context.character.new.plural"
+msgstr "新角色"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ai.count"
+msgstr "人工智能：%d"
+
+#. [Noun/Plural]
+msgid "context.class.ai.plural"
+msgstr "人工智能"
+
+#. [Noun/Plural] How many aliens e.g. for stats.
+#, game-format
+msgid "context.class.alien.count"
+msgstr "外星人：%d"
+
+#. [Noun/Plural]
+msgid "context.class.alien.plural"
+msgstr "外星人"
+
+#. [Noun/Plural] E.g. "Clones: 9"
+#, game-format
+msgid "context.class.clone.count"
+msgstr "克隆人：%d"
+
+#. [Noun/Plural]
+msgid "context.class.clone.plural"
+msgstr "克隆人"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.cyborg.count"
+msgstr "半机械人：%d"
+
+#. [Noun/Plural]
+msgid "context.class.cyborg.plural"
+msgstr "半机械人"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.deity.count"
+msgstr "神祇：%d"
+
+#. [Noun/Plural]
+msgid "context.class.deity.plural"
+msgstr "神祇"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.demon.count"
+msgstr "恶魔：%d"
+
+#. [Noun/Plural]
+msgid "context.class.demon.plural"
+msgstr "恶魔"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.demoness.count"
+msgstr "女恶魔：%d"
+
+#. [Noun/Plural]
+msgid "context.class.demoness.plural"
+msgstr "女恶魔"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ghost.count"
+msgstr "幽灵：%d"
+
+#. [Noun/Plural]
+msgid "context.class.ghost.plural"
+msgstr "幽灵"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.goddess.count"
+msgstr "女神：%d"
+
+#. [Noun/Plural]
+msgid "context.class.goddess.plural"
+msgstr "女神"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.mage.count"
+msgstr "法师：%d"
+
+#. [Noun/Plural]
+msgid "context.class.mage.plural"
+msgstr "法师"
+
+#. [Noun/Plural] A person involved in medicine
+#, game-format
+msgid "context.class.medic.count"
+msgstr "医护兵：%d"
+
+#. [Noun/Plural] A person involved in medicine
+msgid "context.class.medic.plural"
+msgstr "医疗兵"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.monster.count"
+msgstr "怪物：%d"
+
+#. [Noun/Plural]
+msgid "context.class.monster.plural"
+msgstr "怪物"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.ninja.count"
+msgstr "忍者：%d"
+
+#. [Noun/Plural]
+msgid "context.class.ninja.plural"
+msgstr "忍者"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.pirate.count"
+msgstr "海盗：%d"
+
+#. [Noun/Plural]
+msgid "context.class.pirate.plural"
+msgstr "海盗"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.priest.count"
+msgstr "牧师：%d"
+
+#. [Noun/Plural]
+msgid "context.class.priest.plural"
+msgstr "牧师"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.prince.count"
+msgstr "王子：%d"
+
+#. [Noun/Plural]
+msgid "context.class.prince.plural"
+msgstr "王子"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.princess.count"
+msgstr "公主：%d"
+
+#. [Noun/Plural]
+msgid "context.class.princess.plural"
+msgstr "公主"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.robot.count"
+msgstr "机器人：%d"
+
+#. [Noun/Plural]
+msgid "context.class.robot.plural"
+msgstr "机器人"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.skeleton.count"
+msgstr "骷髅：%d"
+
+#. [Noun/Plural]
+msgid "context.class.skeleton.plural"
+msgstr "骷髅"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.sniper.count"
+msgstr "狙击手：%d"
+
+#. [Noun/Plural]
+msgid "context.class.sniper.plural"
+msgstr "狙击手"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.soldier.count"
+msgstr "士兵：%d"
+
+#. [Noun/Plural]
+msgid "context.class.soldier.plural"
+msgstr "士兵"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.thief.count"
+msgstr "盗贼：%d"
+
+#. [Noun/Plural]
+msgid "context.class.thief.plural"
+msgstr "盗贼"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.warrior.count"
+msgstr "战士：%d"
+
+#. [Noun/Plural]
+msgid "context.class.warrior.plural"
+msgstr "战士"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.wizard.count"
+msgstr "巫师：%d"
+
+#. [Noun/Plural]
+msgid "context.class.wizard.plural"
+msgstr "巫师"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.class.zombie.count"
+msgstr "僵尸：%d"
+
+#. [Noun/Plural] What place someone came in competition
+#, game-format
+msgid "context.competition.place.noun.count"
+msgstr "名次：%d"
+
+#. [Noun/Plural] What place someone came in competition
+msgid "context.competition.place.noun.plural"
+msgstr "名次"
+
+#. [Adjective] To be lying down on ground
+msgid "context.condition.prone"
+msgstr "易于"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.element.metal.count"
+msgstr "金属：%d"
+
+#. [Noun/Plural]
+msgid "context.element.metal.plural"
+msgstr "金属"
+
+#. [Noun/Plural] The actual money on the gambling table.
+#, game-format
+msgid "context.gambling.bet.noun.count"
+msgstr "赌注：%d"
+
+#. [Noun/Plural] The actual money on the gambling table.
+msgid "context.gambling.bet.noun.plural"
+msgstr "赌注"
+
+#. [Noun/Plural] E.g. Discarded cards.
+#, game-format
+msgid "context.gambling.discard.noun.count"
+msgstr "弃牌：%d"
+
+#. [Noun/Plural] E.g. Discarded cards.
+msgid "context.gambling.discard.noun.plural"
+msgstr "弃牌"
+
+#. [Noun/Plural] Biggest possible prize
+#, game-format
+msgid "context.gambling.jackpot.count"
+msgstr "头奖：%d"
+
+#. [Noun/Plural] Biggest possible prize
+msgid "context.gambling.jackpot.plural"
+msgstr "头奖"
+
+#. Loser of a gambling game
+msgid "context.gambling.loser"
+msgstr "输家"
+
+#. [Noun/Plural] Abbreviation for minimum of range
+#, game-format
+msgid "context.gambling.min.count"
+msgstr "最小值：%d"
+
+#. [Noun/Plural] Abbreviation for minimum of range
+msgid "context.gambling.min.plural"
+msgstr "最小值"
+
+#. [Adjective] Random number
+msgid "context.gambling.random"
+msgstr "随机"
+
+#. Winner of a gambling game
+msgid "context.gambling.winner"
+msgstr "赢家"
+
+#. [Noun/Plural] Body armor
+#, game-format
+msgid "context.item.armor.count"
+msgstr "护甲：%d"
+
+#. [Noun/Plural] Body armor
+msgid "context.item.armor.plural"
+msgstr "护甲"
+
+#. [Noun/Plural] Ammo for archers
+#, game-format
+msgid "context.item.arrow.count"
+msgstr "箭矢：%d"
+
+#. [Noun/Plural] Boardgame board
+#, game-format
+msgid "context.item.board.count"
+msgstr "木板：%d"
+
+#. [Noun/Plural] Boardgame board
+msgid "context.item.board.plural"
+msgstr "木板"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.bomb.count"
+msgstr "炸弹：%d"
+
+#. [Noun/Plural]
+msgid "context.item.bomb.plural"
+msgstr "炸弹"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.book.count"
+msgstr "书籍：%d"
+
+#. [Noun/Plural]
+msgid "context.item.book.plural"
+msgstr "书籍"
+
+#. [Noun] A single boot. https://upload.wikimedia.org/wikipedia/commons/3/39/Dr_Martens%2C_black%2C_old.jpg
+msgid "context.item.boot"
+msgstr "靴子"
+
+#. [Noun/Plural] Boots
+#, game-format
+msgid "context.item.boot.count"
+msgstr "靴子：%d"
+
+#. [Noun/Plural] Used by archers
+#, game-format
+msgid "context.item.bow.count"
+msgstr "弓：%d"
+
+#. [Noun/Plural] Used by archers
+msgid "context.item.bow.plural"
+msgstr "弓"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.card.count"
+msgstr "卡牌：%d"
+
+#. [Noun/Plural] Treasure not body part
+#, game-format
+msgid "context.item.chest.count"
+msgstr "宝箱：%d"
+
+#. [Noun/Plural] Treasure not body part
+msgid "context.item.chest.plural"
+msgstr "宝箱"
+
+#. [Noun/Plural] Small blade used by rogues
+#, game-format
+msgid "context.item.dagger.count"
+msgstr "匕首：%d"
+
+#. [Noun/Plural] Small blade used by rogues
+msgid "context.item.dagger.plural"
+msgstr "匕首"
+
+#. Deck of cards
+msgid "context.item.deck"
+msgstr "牌组"
+
+#. E.g. "4 decks of cards"
+#, game-format
+msgid "context.item.deck.many"
+msgstr "牌组：%d"
+
+#. Decks of cards
+msgid "context.item.deck.plural"
+msgstr "牌组"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.door.count"
+msgstr "门：%d"
+
+#. [Noun/Plural]
+msgid "context.item.door.plural"
+msgstr "门"
+
+#. [Noun] Various items such as armor, weapons, tools used in sports, etc.
+msgid "context.item.equipment"
+msgstr "装备"
+
+#. [Noun/Plural] Various items such as armor, weapons, tools used in sports, etc.
+#, game-format
+msgid "context.item.equipment.count"
+msgstr "装备：%d"
+
+#. [Noun/Plural] Various items such as armor, weapons, tools used in sports, etc.
+msgid "context.item.equipment.plural"
+msgstr "装备"
+
+#. [Noun] A single protective armored glove.
+msgid "context.item.gauntlet"
+msgstr "护手"
+
+#. [Noun/Plural] Heavy protective warrior's gloves
+#, game-format
+msgid "context.item.gauntlet.count"
+msgstr "护手：%d"
+
+#. [Noun] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+msgid "context.item.gear.equipment"
+msgstr "装备"
+
+#. [Noun/Plural] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+#, game-format
+msgid "context.item.gear.equipment.count"
+msgstr "装备：%d"
+
+#. [Noun/Plural] A generic term for any sort of equipment. (Helmets, weapons, armor, etc.)
+msgid "context.item.gear.equipment.plural"
+msgstr "装备"
+
+#. [Noun] Usually a round wheel with teeth designed to transmit torque.
+msgid "context.item.gearwheel"
+msgstr "齿轮"
+
+#. [Noun/Plural] Usually a round wheel with teeth designed to transmit torque.
+#, game-format
+msgid "context.item.gearwheel.count"
+msgstr "齿轮: %d"
+
+#. [Noun/Plural] Usually a round wheel with teeth designed to transmit torque.
+msgid "context.item.gearwheel.plural"
+msgstr "齿轮"
+
+#. [Noun/Plural] Gem or jewel
+#, game-format
+msgid "context.item.gem.count"
+msgstr "宝石: %d"
+
+#. [Noun/Plural] Gem or jewel
+msgid "context.item.gem.plural"
+msgstr "宝石"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.gift.count"
+msgstr "礼物: %d"
+
+#. [Noun/Plural] Regular gloves
+#, game-format
+msgid "context.item.glove.count"
+msgstr "手套: %d"
+
+#. [Noun/Plural] Generic name for any firearm
+#, game-format
+msgid "context.item.gun.count"
+msgstr "枪械: %d"
+
+#. [Noun/Plural] Generic name for any firearm
+msgid "context.item.gun.plural"
+msgstr "枪械"
+
+#. [Noun/Plural] The tool you use to hammer nails.
+#, game-format
+msgid "context.item.hammer.count"
+msgstr "锤子: %d"
+
+#. [Noun/Plural] The tool you use to hammer nails.
+msgid "context.item.hammer.plural"
+msgstr "锤子"
+
+#. [Noun/Plural] Head protector specifically for warriors not athletes
+#, game-format
+msgid "context.item.helmet.count"
+msgstr "头盔: %d"
+
+#. [Noun/Plural] Head protector specifically for warriors not athletes
+msgid "context.item.helmet.plural"
+msgstr "头盔"
+
+#. [Noun] A generic term for any distinct physical object.
+msgid "context.item.item"
+msgstr "物品"
+
+#. [Noun/Plural] A generic term for any distinct physical object.
+#, game-format
+msgid "context.item.item.count"
+msgstr "物品: %d"
+
+#. [Noun/Plural] A generic term for any distinct physical object.
+msgid "context.item.item.plural"
+msgstr "物品"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.key.count"
+msgstr "钥匙：%d"
+
+#. [Noun/Plural]
+msgid "context.item.key.plural"
+msgstr "钥匙"
+
+#. [Noun/Plural] Tool for whittling and carving not just combat
+#, game-format
+msgid "context.item.knife.count"
+msgstr "小刀：%d"
+
+#. [Noun/Plural] Tool for whittling and carving not just combat
+msgid "context.item.knife.plural"
+msgstr "小刀"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.lock.count"
+msgstr "锁：%d"
+
+#. [Noun/Plural]
+msgid "context.item.lock.plural"
+msgstr "锁"
+
+#. [Noun/Plural] Generic - Not "uzi" or "ak-47" etc
+#, game-format
+msgid "context.item.machine.item.gun.count"
+msgstr "机枪：%d"
+
+#. [Noun/Plural] Generic - Not "uzi" or "ak-47" etc
+msgid "context.item.machine.item.gun.plural"
+msgstr "机枪"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.magic.count"
+msgstr "魔法：%d"
+
+#. [Noun/Plural]
+msgid "context.item.magic.plural"
+msgstr "魔法"
+
+#. [Noun] Item worn on face
+msgid "context.item.mask"
+msgstr "面具"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.pistol.count"
+msgstr "手枪：%d"
+
+#. [Noun/Plural]
+msgid "context.item.pistol.plural"
+msgstr "手枪"
+
+#. [Noun/Plural] The pursuit of something
+#, game-format
+msgid "context.item.quest.noun.count"
+msgstr "任务：%d"
+
+#. [Noun/Plural] The pursuit of something
+msgid "context.item.quest.noun.plural"
+msgstr "任务"
+
+#. [Noun/Plural] Military Rank
+#, game-format
+msgid "context.item.rank.noun.count"
+msgstr "军衔：%d"
+
+#. [Noun/Plural] Military Rank
+msgid "context.item.rank.noun.plural"
+msgstr "军衔"
+
+#. [Noun/Plural] Generic name for long-barelled gun
+#, game-format
+msgid "context.item.rifle.count"
+msgstr "步枪：%d"
+
+#. [Noun/Plural] Generic name for long-barelled gun
+msgid "context.item.rifle.plural"
+msgstr "步枪"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.rocket.item.launcher.count"
+msgstr "火箭发射器：%d"
+
+#. [Noun/Plural]
+msgid "context.item.rocket.item.launcher.plural"
+msgstr "火箭发射器"
+
+#. [Noun/Plural] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+#, game-format
+msgid "context.item.rpg.count"
+msgstr "RPG：%d"
+
+#. [Noun/Plural] A more modern/realistic name for "Rocket launcher". Might be the same as "rocket launcher" in some languages
+msgid "context.item.rpg.plural"
+msgstr "RPG"
+
+#. [Noun/Plural] Readable/magic scroll
+#, game-format
+msgid "context.item.scroll.count"
+msgstr "卷轴：%d"
+
+#. [Noun/Plural] Readable/magic scroll
+msgid "context.item.scroll.plural"
+msgstr "卷轴"
+
+#. [Noun/Plural] Sci-fi energy shield [spaceship]
+#, game-format
+msgid "context.item.shield.scifi.count"
+msgstr "能量护盾：%d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.shotgun.count"
+msgstr "霰弹枪：%d"
+
+#. [Noun/Plural]
+msgid "context.item.shotgun.plural"
+msgstr "霰弹枪"
+
+#. [Noun/Plural] Rifle with a scope
+#, game-format
+msgid "context.item.sniper.item.rifle.count"
+msgstr "狙击步枪：%d"
+
+#. [Noun/Plural] Rifle with a scope
+msgid "context.item.sniper.item.rifle.plural"
+msgstr "狙击步枪"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.spell.count"
+msgstr "法术：%d"
+
+#. [Noun/Plural]
+msgid "context.item.spell.plural"
+msgstr "法术"
+
+#. [Noun/Plural] Large magical walking stick
+#, game-format
+msgid "context.item.staff.count"
+msgstr "法杖：%d"
+
+#. [Noun/Plural] Large magical walking stick
+msgid "context.item.staff.plural"
+msgstr "法杖"
+
+#. [Noun/Plural] Classic medieval sword
+#, game-format
+msgid "context.item.sword.count"
+msgstr "剑：%d"
+
+#. [Noun/Plural] Classic medieval sword
+msgid "context.item.sword.plural"
+msgstr "剑"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.treasure.count"
+msgstr "宝藏：%d"
+
+#. [Noun/Plural]
+msgid "context.item.treasure.plural"
+msgstr "宝藏"
+
+#. [Noun/Plural] Very high level equipment. ”This dungeon is full of epics.”
+#, game-format
+msgid "context.item.type.epic.count"
+msgstr "史诗装备：%d"
+
+#. [Noun/Plural] Very high level equipment. ”This dungeon is full of epics.”
+msgid "context.item.type.epic.plural"
+msgstr "史诗装备"
+
+#. [Noun/Plural] Worthless stuff. ”This stuff is junk!”
+#, game-format
+msgid "context.item.type.junk.count"
+msgstr "垃圾：%d"
+
+#. [Noun/Plural] Worthless stuff. ”This stuff is junk!”
+msgid "context.item.type.junk.plural"
+msgstr "垃圾"
+
+#. [Noun/Plural] Used by wizards - different from Staff
+#, game-format
+msgid "context.item.wand.count"
+msgstr "魔杖：%d"
+
+#. [Noun/Plural] Used by wizards - different from Staff
+msgid "context.item.wand.plural"
+msgstr "魔杖"
+
+#. [Noun]
+msgid "context.item.warhammer"
+msgstr "战锤"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.wood.count"
+msgstr "木材：%d"
+
+#. [Noun/Plural] Many pieces of wood. Not a forest.
+msgid "context.item.wood.plural"
+msgstr "木材"
+
+msgid "context.machine.car.body"
+msgstr "车身"
+
+#. https://en.wikipedia.org/wiki/Chassis
+msgid "context.machine.car.chassis"
+msgstr "底盘"
+
+#. [Noun/Plural] Transmission gears
+#, game-format
+msgid "context.machine.gear.count"
+msgstr "齿轮数：%d"
+
+#. [Noun/Plural] Transmission gears
+msgid "context.machine.gear.plural"
+msgstr "齿轮"
+
+msgid "context.machine.hull"
+msgstr "船体"
+
+msgid "context.machine.plane.chassis"
+msgstr "机身底盘"
+
+#. Wheels or pontoons of a plane
+msgid "context.machine.plane.landinggear"
+msgstr "起落架"
+
+#. Steering wheel of a car
+msgid "context.machine.steering.wheel"
+msgstr "方向盘"
+
+#. Steering rod on a ship
+msgid "context.machine.tiller"
+msgstr "舵柄"
+
+#. [Noun] Rubber wheel
+msgid "context.machine.tire.noun"
+msgstr "轮胎"
+
+#. [Noun] Rubber wheels
+msgid "context.machine.tire.plural"
+msgstr "轮胎"
+
+#. [Noun] Generic for any machine car plane etc
+msgid "context.machine.wheel"
+msgstr "轮子"
+
+#. [Noun/Plural] A single mechanical wing that provides lift.
+msgid "context.machine.wing"
+msgstr "机翼"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.machine.wing.count"
+msgstr "机翼数：%d"
+
+#. Steering wheel of a plane
+msgid "context.machine.yoke"
+msgstr "操纵杆"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.bronze.count"
+msgstr "铜牌数：%d"
+
+#. [Noun/Plural]
+msgid "context.medal.bronze.plural"
+msgstr "铜牌"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.count"
+msgstr "奖牌数：%d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.gold.count"
+msgstr "金牌数：%d"
+
+#. [Noun/Plural]
+msgid "context.medal.gold.plural"
+msgstr "金牌"
+
+#. [Noun/Plural]
+msgid "context.medal.plural"
+msgstr "奖牌"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.medal.silver.count"
+msgstr "银牌数：%d"
+
+#. [Noun/Plural]
+msgid "context.medal.silver.plural"
+msgstr "银牌"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.metal.coin.count"
+msgstr "金币数：%d"
+
+#. [Noun/Plural]
+msgid "context.metal.coin.plural"
+msgstr "金币"
+
+#. [Noun/Plural] Cast shape of solid metal in bank vaults
+#, game-format
+msgid "context.metal.ingot.count"
+msgstr "金锭数：%d"
+
+#. [Noun/Plural] Cast shape of solid metal in bank vaults
+msgid "context.metal.ingot.plural"
+msgstr "金锭"
+
+#. Final lap of lap race
+msgid "context.objective.final.lap"
+msgstr "最后一圈"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.castle.count"
+msgstr "城堡数：%d"
+
+#. [Noun/Plural]
+msgid "context.place.castle.plural"
+msgstr "城堡"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.cave.count"
+msgstr "洞穴：%d"
+
+#. [Noun/Plural]
+msgid "context.place.cave.plural"
+msgstr "洞穴"
+
+#. Deck of a ship
+msgid "context.place.deck.ship"
+msgstr "甲板"
+
+#. [Noun/Plural] Underground prisons
+#, game-format
+msgid "context.place.dungeon.count"
+msgstr "地牢：%d"
+
+#. [Noun/Plural] Underground prisons
+msgid "context.place.dungeon.plural"
+msgstr "地牢"
+
+#. [Noun]
+msgid "context.place.entrance"
+msgstr "入口"
+
+#. [Noun]
+msgid "context.place.exit"
+msgstr "出口"
+
+#. [Noun/Plural] Hosted stay building for travellers
+#, game-format
+msgid "context.place.inn.count"
+msgstr "旅店：%d"
+
+#. [Noun/Plural] Hosted stay building for travellers
+msgid "context.place.inn.plural"
+msgstr "旅店"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+msgid "context.place.location"
+msgstr "地点"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+#, game-format
+msgid "context.place.location.count"
+msgstr "地点：%d"
+
+#. [Noun] Some sort of area or place. E.g. A clearing in a forest, a castle.
+msgid "context.place.location.plural"
+msgstr "地点"
+
+#. [Noun] A generic term for a location. E.g. A village.
+msgid "context.place.place"
+msgstr "地方"
+
+#. [Noun/Plural] A generic term for a location. E.g. A village.
+#, game-format
+msgid "context.place.place.count"
+msgstr "地方：%d"
+
+#. [Noun/Plural] A generic term for a location. E.g. A village.
+msgid "context.place.places"
+msgstr "地点"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.planet.count"
+msgstr "行星：%d"
+
+#. [Noun/Plural] This planet.
+#, game-format
+msgid "context.place.planet.earth.count"
+msgstr "地球：%d"
+
+#. [Noun/Plural] This planet.
+msgid "context.place.planet.earth.plural"
+msgstr "地球"
+
+#. [Noun/Plural]
+msgid "context.place.planet.plural"
+msgstr "行星"
+
+#. [Noun] E.g. A shortcut from the tavern to the cave.
+msgid "context.place.shortcut"
+msgstr "捷径"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.place.spaceship.count"
+msgstr "飞船：%d"
+
+#. [Noun/Plural]
+msgid "context.place.spaceship.plural"
+msgstr "飞船"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.adventure.count"
+msgstr "冒险：%d"
+
+#. [Noun/Plural]
+msgid "context.story.adventure.plural"
+msgstr "冒险"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.chapter.count"
+msgstr "章节：%d"
+
+#. [Noun/Plural]
+msgid "context.story.chapter.plural"
+msgstr "章节"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.count"
+msgstr "故事：%d"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.story.page.count"
+msgstr "页面：%d"
+
+#. [Noun/Plural]
+msgid "context.story.page.plural"
+msgstr "页面"
+
+#. [Noun/Plural]
+msgid "context.story.plural"
+msgstr "故事"
+
+#. E.g. "What is the date on the milk?"
+msgid "context.time.date"
+msgstr "日期"
+
+msgid "context.time.day"
+msgstr "天"
+
+msgid "context.time.day.plural"
+msgstr "天"
+
+#. E.g. "One hour."
+msgid "context.time.hour"
+msgstr "小时"
+
+#. E.g. "Last game length: 3 hours"
+msgid "context.time.hour.plural"
+msgstr "小时"
+
+#. E.g. "Date Posted: Just now".
+msgid "context.time.just.now"
+msgstr "刚刚"
+
+msgid "context.time.last.month"
+msgstr "上个月"
+
+msgid "context.time.last.week"
+msgstr "上周"
+
+msgid "context.time.last.year"
+msgstr "去年"
+
+msgid "context.time.minute"
+msgstr "分钟"
+
+#. E.g. "Longest life: 19 minutes"
+msgid "context.time.minute.plural"
+msgstr "分钟"
+
+#. E.g. "Last Seen: 12 minutes ago".
+#, game-format
+msgid "context.time.minutes.ago"
+msgstr "%d 分钟以前"
+
+msgid "context.time.month"
+msgstr "月"
+
+msgid "context.time.month.plural"
+msgstr "个月"
+
+msgid "context.time.next.month"
+msgstr "下个月"
+
+msgid "context.time.next.week"
+msgstr "下周"
+
+msgid "context.time.next.year"
+msgstr "明年"
+
+msgid "context.time.second"
+msgstr "秒"
+
+#. E.g. "Time left: 10 seconds"
+msgid "context.time.second.plural"
+msgstr "秒"
+
+msgid "context.time.this.month"
+msgstr "本月"
+
+msgid "context.time.this.week"
+msgstr "本周"
+
+msgid "context.time.this.year"
+msgstr "今年"
+
+msgid "context.time.today"
+msgstr "今天"
+
+msgid "context.time.tomorrow"
+msgstr "明天"
+
+msgid "context.time.week"
+msgstr "周"
+
+msgid "context.time.week.plural"
+msgstr "周"
+
+msgid "context.time.year"
+msgstr "年"
+
+msgid "context.time.year.plural"
+msgstr "年"
+
+msgid "context.time.yesterday"
+msgstr "昨天"
+
+msgid "context.weapon.range"
+msgstr "射程"
+
+msgid "context.weapon.short.range"
+msgstr "近程"
+
+msgid "context.weapon.medium.range"
+msgstr "中距离"
+
+msgid "context.weapon.long.range"
+msgstr "远距离"
+
+msgid "context.weapon.out.of.range"
+msgstr "超出射程"
+
+msgid "context.bonus"
+msgstr "奖励"
+
+msgid "context.bonus.longshot"
+msgstr "远程射击"
+
+msgid "context.bonus.skillshot"
+msgstr "技巧射击"
+
+msgid "context.bonus.trickshot"
+msgstr "花式射击"
+
+msgid "context.bonus.double"
+msgstr "双重"
+
+msgid "context.bonus.triple"
+msgstr "三重"
+
+msgid "context.bonus.super"
+msgstr "超级"
+
+#. I think these are meant to be used as popup texts when you achieve a cool shot, the text pops up like "Skill" "Double" along with the score
+msgid "context.bonus.skill"
+msgstr "技巧"
+
+#. Energy Charge - Noun
+msgid "context.bonus.charge"
+msgstr "充能"
+
+msgid "context.bonus.point"
+msgstr "得分"
+
+msgid "context.bonus.point.plural"
+msgstr "技能点"
+
+#. [Noun] Heavenly bodies. If your "star" has dual meaning of this and a collectible, use this one.
+msgid "context.item.star.celestial.plural"
+msgstr "明星"
+
+#. [Noun] Collectibles (some other form of points often used in game)
+msgid "context.item.star.collectible.plural"
+msgstr "明星"
+
+#. [Noun] periodic table elements
+msgid "context.element.hydrogen"
+msgstr "氢"
+
+#. Feel free to add more elements as you needed; I've only added some common ones
+msgid "context.metal.elemental.lithium"
+msgstr "锂"
+
+#. [Noun] Sodium as in periodic table, NOT a nutrient
+msgid "context.metal.elemental.sodium"
+msgstr "钠"
+
+#. K
+msgid "context.metal.elemental.potassium"
+msgstr "钾"
+
+#. Mg
+msgid "context.metal.elemental.magnesium"
+msgstr "镁"
+
+#. Ca
+msgid "context.metal.elemental.calcium"
+msgstr "钙"
+
+#. Th
+msgid "context.metal.thorium"
+msgstr "钍"
+
+#. U
+msgid "context.metal.uranium"
+msgstr "铀"
+
+#. Pl
+msgid "context.metal.plutonium"
+msgstr "钚"
+
+#. Ti
+msgid "context.metal.titanium"
+msgstr "钛"
+
+#. W
+msgid "context.metal.tungsten"
+msgstr "钨"
+
+#. Mn
+msgid "context.metal.manganese"
+msgstr "锰"
+
+#. [Noun] Iron as in periodic table, NOT a nutrient
+msgid "context.metal.elemental.iron"
+msgstr "铁"
+
+#. Ru
+msgid "context.metal.ruthenium"
+msgstr "钌"
+
+#. Os
+msgid "context.metal.osmium"
+msgstr "锇"
+
+#. [Noun] Cobalt as in periodic table, NOT a dye
+msgid "context.metal.elemental.cobalt"
+msgstr "钴"
+
+#. Rh
+msgid "context.metal.rhodium"
+msgstr "铑"
+
+#. Ir
+msgid "context.metal.iridium"
+msgstr "铱"
+
+#. Ni
+msgid "context.metal.nickel"
+msgstr "镍"
+
+#. Pd
+msgid "context.metal.palladium"
+msgstr "钯"
+
+#. Cu
+msgid "context.metal.copper"
+msgstr "铜"
+
+#. Zn
+msgid "context.metal.zinc"
+msgstr "锌"
+
+#. Hg
+msgid "context.metal.mercury"
+msgstr "汞"
+
+#. [Noun] another term for mercury, often used in fantasy world
+msgid "context.metal.quicksilver"
+msgstr "水银"
+
+#. Al
+msgid "context.metal.aluminium"
+msgstr "铝"
+
+#. C
+msgid "context.element.carbon"
+msgstr "碳"
+
+#. [Noun] Si in periodic table, NOT a gel used for caulking
+msgid "context.element.silicon"
+msgstr "硅"
+
+#. Sn
+msgid "context.metal.tin"
+msgstr "锡"
+
+#. Pb
+msgid "context.metal.lead"
+msgstr "铅"
+
+#. N
+msgid "context.element.nitrogen"
+msgstr "氮"
+
+#. as in periodic table
+msgid "context.element.phosphorus"
+msgstr "磷"
+
+#. O
+msgid "context.element.oxygen"
+msgstr "氧"
+
+#. S
+msgid "context.element.sulfur"
+msgstr "硫"
+
+#. He
+msgid "context.element.helium"
+msgstr "氦"
+
+#. Ne
+msgid "context.element.neon"
+msgstr "氖"
+
+#. [Noun] alloy of iron, carbon and other elements
+msgid "context.metal.steel"
+msgstr "钢"
+
+#. [Noun] metal alloy of copper and zinc
+msgid "context.metal.brass"
+msgstr "黄铜"
+
+#. [Noun]
+msgid "context.item.map"
+msgstr "地图"
+
+#. [Noun/Plural]
+msgid "context.item.map.plural"
+msgstr "地图"
+
+#. [Noun/Plural]
+#, game-format
+msgid "context.item.map.count"
+msgstr "地图: %d"

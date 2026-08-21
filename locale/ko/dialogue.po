@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"X-Wiki-Title: Dialogue\n"
+"X-Wiki-Eyebrow: Game text\n"
+"X-Wiki-Status: in-progress\n"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: Confirm deployment and establish the immediate objective.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l001"
+msgstr "ROOK, 배치가 확인되었습니다. Ashfall 주거 타워, 섹터 7."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: State the required mission sequence concisely.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l002"
+msgstr "구역의 전력을 회복하고, 갇힌 보안 팀을 구출하고, 환승 링크에 도달하세요."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Establish that VECTOR is active elsewhere in Ashfall District.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l001"
+msgstr "루크, 벡터. 저는 동쪽으로 두 블록 떨어져 있어요. 같은 화재, 같은 죽은 통신."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Direct attention toward the drones without stopping the tutorial.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l002"
+msgstr "뭔가가 드론을 사람이 있는 층으로 조종하고 있습니다. 여기부터 추적하겠습니다."
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Introduce the first contradiction in ROOK’s remembered history.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l001"
+msgstr "선장?"
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Make the recognition specific without explaining it.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l002"
+msgstr "나는 당신이 케스트렐 다리에서 죽는 것을 지켜보았습니다. 8년 전."
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R06
+#. Intent: Keep ROOK controlled and focused on the rescue.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l003"
+msgstr "군인을 잘못 보셨군요. 움직일 수 있나요?"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Offer a plausible explanation while redirecting the mission.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l001"
+msgstr "신경학적 노출은 잘못된 인식과 정체성 투영을 생성할 수 있습니다."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Close the interruption and return the player to the objective.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l002"
+msgstr "생존자를 확보하고 계속 이동하세요."

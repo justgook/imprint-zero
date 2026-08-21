@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: es_419\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: credits\n"
+
+msgid "credits.game"
+msgstr "Juego"
+
+msgid "credits.game.development"
+msgstr "Desarrollo de juegos"
+
+#. [Default male]
+msgid "credits.game.developer"
+msgstr "Desarrollador de juegos"
+
+msgid "credits.developed.by"
+msgstr "Desarrollado por"
+
+msgid "credits.production"
+msgstr "Producción"
+
+#. [Default male]
+msgid "credits.producer"
+msgstr "Productor"
+
+#. [Default male]
+msgid "credits.publisher"
+msgstr "Publicador"
+
+#. [Default male]
+msgid "credits.director"
+msgstr "Director"
+
+msgid "credits.lead"
+msgstr "Jefe"
+
+msgid "credits.assistant"
+msgstr "Asistente"
+
+msgid "credits.associate"
+msgstr "Asociado"
+
+msgid "credits.senior"
+msgstr "Senior"
+
+msgid "credits.junior"
+msgstr "Junior"
+
+msgid "credits.chief.tech.officer"
+msgstr "Director de tecnología"
+
+#. [Default male]
+msgid "credits.technical.director"
+msgstr "Director técnico"
+
+#. [Default male]
+msgid "credits.creative.director"
+msgstr "Director creativo"
+
+#. [Default male]
+msgid "credits.animation.director"
+msgstr "Director de animación"
+
+#. [Default male]
+msgid "credits.art.director"
+msgstr "Director artístico"
+
+#. [Default male]
+msgid "credits.audio.director"
+msgstr "Director de sonido"
+
+#. [Default male]
+msgid "credits.program.manager"
+msgstr "Director de programa"
+
+#. [Default male]
+msgid "credits.project.manager"
+msgstr "Gerente de proyecto"
+
+msgid "credits.game.design"
+msgstr "Diseño de juego"
+
+#. [Default male]
+msgid "credits.game.designer"
+msgstr "Diseñador de juego"
+
+#. Programming code
+msgid "credits.code"
+msgstr "Código"
+
+msgid "credits.programming"
+msgstr "Programación"
+
+#. [Default male]
+msgid "credits.programmer"
+msgstr "Programador"
+
+#. [Default male]
+msgid "credits.programmer.plural"
+msgstr "Programadores"
+
+#. [Default male]
+msgid "credits.lead.programmer"
+msgstr "Programador jefe"
+
+#. [Default male]
+msgid "credits.graphic.designer"
+msgstr "Diseñador gráfico"
+
+#. [Default male]
+msgid "credits.technical.artist"
+msgstr "Artista técnico"
+
+#. [Default male]
+msgid "credits.concept.artist"
+msgstr "Artista conceptual"
+
+#. [Default male]
+msgid "credits.character.designer"
+msgstr "Diseñador de personajes"
+
+msgid "credits.art"
+msgstr "Arte"
+
+#. [Singular]
+msgid "credits.artist"
+msgstr "Artista"
+
+#. [Plural]
+msgid "credits.artist.plural"
+msgstr "Artistas"
+
+msgid "credits.level.design"
+msgstr "Diseño de niveles"
+
+#. [Singular]
+msgid "credits.level.designer"
+msgstr "Diseñador de niveles"
+
+#. [Default male]
+msgid "credits.cinematics.director"
+msgstr "Director cinematográfico"
+
+#. [Default male]
+msgid "credits.cinematic.animator"
+msgstr "Animador cinematográfico"
+
+#. [Default male]
+msgid "credits.interface.artist"
+msgstr "Artista de interfaz"
+
+#. [Default male]
+msgid "credits.composer"
+msgstr "Compositor"
+
+#. [Default male]
+msgid "credits.musician"
+msgstr "Músico"
+
+msgid "credits.special.thanks"
+msgstr "Agradecimientos"
+
+msgid "credits.special.thanks.to"
+msgstr "Agradecimientos a"
+
+msgid "credits.image"
+msgstr "Imagen"
+
+msgid "credits.image.plural"
+msgstr "Imágenes"
+
+msgid "credits.font"
+msgstr "Tipografía"
+
+msgid "credits.font.plural"
+msgstr "Tipografías"
+
+msgid "credits.soundtrack"
+msgstr "Banda sonora"
+
+#. [Default male]
+msgid "credits.writer"
+msgstr "Escritor"
+
+msgid "credits.manuscript"
+msgstr "Manuscrito"
+
+#. [Default male]
+msgid "credits.script.writer"
+msgstr "Guionista"
+
+msgid "credits.animation"
+msgstr "Animación"
+
+msgid "credits.animator"
+msgstr "Animador"
+
+msgid "credits.voice.acting"
+msgstr "Doblaje"
+
+#. [Default male]
+msgid "credits.voice.actor"
+msgstr "Actor de doblaje"
+
+#. [Default male]
+msgid "credits.sound.designer"
+msgstr "Diseñador de sonido"
+
+#. [Default male]
+msgid "credits.sound.engineer"
+msgstr "Técnico de sonido"
+
+msgid "credits.sfx"
+msgstr "Efectos de sonido"
+
+msgid "credits.vfx"
+msgstr "Efectos visuales"
+
+#. [Default male] Someone who records sound
+msgid "credits.recordist"
+msgstr "Grabador"
+
+#. [Default male] Special sound FX
+msgid "credits.foley.artist"
+msgstr "Editor sonoro"
+
+#. [Default male]
+msgid "credits.test.manager"
+msgstr "Gerente de pruebas"
+
+#. [Default male]
+msgid "credits.test.lead"
+msgstr "Jefe de pruebas"
+
+#. [Default male]
+msgid "credits.tester"
+msgstr "Probador de videojuegos"
+
+#. [Default male]
+msgid "credits.database.admin"
+msgstr "Administrador de base de datos"
+
+msgid "credits.3d.modeling"
+msgstr "Modelado 3D"
+
+msgid "credits.models"
+msgstr "Modelos"
+
+msgid "credits.localization"
+msgstr "Localización"
+
+msgid "credits.translation"
+msgstr "Traducción"

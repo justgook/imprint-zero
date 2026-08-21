@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gameplay\n"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.attack"
+msgstr "攻击"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.boost"
+msgstr "提升"
+
+#. [Infinitive/tutorial verb] Build house
+msgid "game.action.build"
+msgstr "建设"
+
+#. [Infinitive/tutorial verb] Cast fishing lure
+msgid "game.action.cast.fishing"
+msgstr "投"
+
+#. [Infinitive/tutorial verb] Cast a spell
+msgid "game.action.cast.spell"
+msgstr "施咒语"
+
+#. [Infinitive/tutorial verb] To take possession of
+msgid "game.action.claim"
+msgstr "索取"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.climb"
+msgstr "爬上"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.close"
+msgstr "关闭"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.collect"
+msgstr "收取"
+
+#. [Infinitive/tutorial verb] Cook food
+msgid "game.action.cook"
+msgstr "煮"
+
+#. [Infinitive/tutorial verb] Create item
+msgid "game.action.craft"
+msgstr "制造"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.crouch"
+msgstr "蹲"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.dodge"
+msgstr "闪避"
+
+#. [Infinitive/tutorial verb] Accelerate/Brake
+msgid "game.action.drive"
+msgstr "驱动"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.fly"
+msgstr "飞"
+
+msgid "game.action.full.speed"
+msgstr "全速"
+
+#. [Infinitive/tutorial verb] To go somewhere
+msgid "game.action.go"
+msgstr "前往"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.to.place"
+msgstr "去"
+
+msgid "game.action.half.speed"
+msgstr "半速度"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.heal"
+msgstr "治疗"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump"
+msgstr "跳"
+
+#. [Infinitive/tutorial verb] Plane stops flying
+msgid "game.action.land"
+msgstr "降落"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.look"
+msgstr "看"
+
+#. [Infinitive/tutorial verb] Mix potions
+msgid "game.action.mix"
+msgstr "混合"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.open"
+msgstr "开"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.pick.up"
+msgstr "拾起"
+
+#. [Infinitive/tutorial verb] Begin a Race in a competition
+msgid "game.action.race"
+msgstr "竞赛"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.read"
+msgstr "读"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.replace"
+msgstr "更换"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.run"
+msgstr "奔跑"
+
+#. [Infinitive/tutorial verb] Escape a situation by foot
+msgid "game.action.run.away"
+msgstr "逃跑"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.shoot"
+msgstr "射击"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sneak"
+msgstr "潜行"
+
+#. [Infinitive/tutorial verb] Spin a wheel
+msgid "game.action.spin"
+msgstr "旋转"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sprint"
+msgstr "冲刺"
+
+#. [Infinitive/tutorial verb] Left/Right
+msgid "game.action.steer"
+msgstr "转向"
+
+#. [Infinitive/tutorial verb] Plane starts flying
+msgid "game.action.take.off"
+msgstr "起飞"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.talk"
+msgstr "谈话"
+
+#. [Infinitive/tutorial verb] Aggressive
+msgid "game.action.throw"
+msgstr "扔"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.walk"
+msgstr "步行"
+
+#. Like 'Stamina'
+msgid "game.character.endurance"
+msgstr "耐力"
+
+msgid "game.character.exp"
+msgstr "经验值"
+
+#. [Noun]
+msgid "game.character.female"
+msgstr "女性"
+
+msgid "game.character.health"
+msgstr "健康值"
+
+#. 1 heart
+msgid "game.character.heart"
+msgstr "心"
+
+#. [Plural] 3 hearts
+msgid "game.character.heart.plural"
+msgstr "心"
+
+#. Character's level
+msgid "game.character.level"
+msgstr "等级"
+
+msgid "game.character.level.up"
+msgstr "升级"
+
+msgid "game.character.lives"
+msgstr "生命"
+
+#. [Noun]
+msgid "game.character.male"
+msgstr "男性"
+
+#. [Noun]
+msgid "game.character.man"
+msgstr "男人"
+
+#. [Noun][Plural]
+msgid "game.character.man.plural"
+msgstr "男人"
+
+msgid "game.character.respawn"
+msgstr "重生"
+
+msgid "game.character.respawn.in"
+msgstr "于此之后重生："
+
+msgid "game.character.respawn.question"
+msgstr "重生？"
+
+msgid "game.character.respawning"
+msgstr "重生中"
+
+msgid "game.character.skill"
+msgstr "技能"
+
+msgid "game.character.spawn.point"
+msgstr "重生点"
+
+#. [Noun]
+msgid "game.character.transgender"
+msgstr "跨性别"
+
+#. [Noun]
+msgid "game.character.woman"
+msgstr "女人"
+
+#. [Noun][Plural]
+msgid "game.character.woman.plural"
+msgstr "女人"
+
+#. generic : damage to vehicle body etc
+msgid "game.damage"
+msgstr "伤害"
+
+#. RPG attack
+msgid "game.damage.critical.hit"
+msgstr "暴击"
+
+#. RPG attack miss
+msgid "game.damage.critical.miss"
+msgstr "严重失误"
+
+#. RPG attack
+msgid "game.damage.hit.noun"
+msgstr "击中"
+
+#. Health
+msgid "game.damage.hit.points.plural"
+msgstr "生命值"
+
+#. RPG attack miss
+msgid "game.damage.miss.noun"
+msgstr "失误"
+
+#. 1 damage unit
+msgid "game.damage.unit"
+msgstr "破坏值"
+
+#. [Plural] 5 damage units
+msgid "game.damage.unit.plural"
+msgstr "破坏率"
+
+#. [Noun]
+msgid "game.enemy"
+msgstr "敌人"
+
+#. [Noun]
+msgid "game.enemy.female"
+msgstr "敌人"
+
+#. [Noun]
+msgid "game.enemy.female.plural"
+msgstr "敌人"
+
+#. [Noun]
+msgid "game.enemy.plural"
+msgstr "敌人"
+
+msgid "game.inventory"
+msgstr "装备栏"
+
+msgid "game.inventory.ammo"
+msgstr "弹药"
+
+msgid "game.inventory.ammunition"
+msgstr "弹药值"
+
+msgid "game.inventory.bullet"
+msgstr "子弹"
+
+msgid "game.inventory.bullet.plural"
+msgstr "子弹"
+
+msgid "game.inventory.buy"
+msgstr "购买"
+
+msgid "game.inventory.capacity"
+msgstr "装备容量"
+
+msgid "game.inventory.drop"
+msgstr "放下"
+
+#. How much is being carried
+msgid "game.inventory.encumbrance"
+msgstr "负担"
+
+msgid "game.inventory.full"
+msgstr "装备已满"
+
+msgid "game.inventory.item"
+msgstr "物品"
+
+msgid "game.inventory.key"
+msgstr "钥匙"
+
+msgid "game.inventory.powerup"
+msgstr "提升功率"
+
+msgid "game.inventory.sell"
+msgstr "销售"
+
+#. [Infinitive/tutorial verb]
+msgid "game.inventory.use"
+msgstr "使用"
+
+msgid "game.inventory.weapon"
+msgstr "武器"
+
+msgid "game.inventory.weapons"
+msgstr "武器"
+
+msgid "game.inventory.you.cannot.carry"
+msgstr "你不能再拿起东西了。"
+
+#. [Imperative verb]
+msgid "game.label.be.careful"
+msgstr "注意"
+
+#. [Imperative verb]
+msgid "game.label.please.be.careful"
+msgstr "请注意！"
+
+msgid "game.label.tactics"
+msgstr "战术"
+
+msgid "game.objective"
+msgstr "目标"
+
+#. [Noun]
+msgid "game.objective.assist"
+msgstr "协助"
+
+msgid "game.objective.assist.plural"
+msgstr "协助"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.attack"
+msgstr "攻击"
+
+msgid "game.objective.bonus"
+msgstr "奖金"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.capture"
+msgstr "捉取"
+
+#. Has been completed
+msgid "game.objective.complete"
+msgstr "完成"
+
+msgid "game.objective.death"
+msgstr "死亡"
+
+msgid "game.objective.death.plural"
+msgstr "死亡"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.defend"
+msgstr "防守"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.destroy"
+msgstr "破坏"
+
+#. [Infinitive/tutorial verb] Escape a situation
+msgid "game.objective.escape"
+msgstr "逃生"
+
+#. Completed the game : end of story
+msgid "game.objective.game.finished"
+msgstr "结束"
+
+#. Died lost destroyed etc
+msgid "game.objective.gameover"
+msgstr "游戏结束！"
+
+msgid "game.objective.gameover.caps"
+msgstr "游戏结束！"
+
+#. The highest score
+msgid "game.objective.high.score"
+msgstr "最高评分"
+
+msgid "game.objective.incomplete"
+msgstr "未完成"
+
+#. [Infinitive/tutorial verb] "to kill the bird"
+msgid "game.objective.kill"
+msgstr "毁掉"
+
+#. [Noun]
+msgid "game.objective.kill.assist"
+msgstr "助杀"
+
+#. [Noun] As in "One kill"
+msgid "game.objective.kill.noun"
+msgstr "击杀"
+
+#. As in "Two kills"
+msgid "game.objective.kill.plural"
+msgstr "击杀"
+
+msgid "game.objective.locked"
+msgstr "锁定"
+
+msgid "game.objective.losses"
+msgstr "失败"
+
+msgid "game.objective.match"
+msgstr "比赛"
+
+#. [Noun]
+msgid "game.objective.mission"
+msgstr "任务"
+
+msgid "game.objective.mission.objective.plural"
+msgstr "任务目标"
+
+msgid "game.objective.mission.objective"
+msgstr "任务目标"
+
+msgid "game.objective.multiplier"
+msgstr "倍"
+
+msgid "game.objective.plural"
+msgstr "目标"
+
+#. Position in order from winner to loser
+msgid "game.objective.position"
+msgstr "位置"
+
+#. Racing lap
+msgid "game.objective.race.lap"
+msgstr "全程"
+
+#. Racing laps
+msgid "game.objective.race.lap.plural"
+msgstr "圈数"
+
+#. [Noun] As in part of match
+msgid "game.objective.round"
+msgstr "回合"
+
+msgid "game.objective.score"
+msgstr "评分"
+
+#. For countdown timers or elapsed time
+msgid "game.objective.time"
+msgstr "时间"
+
+msgid "game.objective.time.left"
+msgstr "剩余时间"
+
+msgid "game.objective.tournament"
+msgstr "比赛"
+
+msgid "game.objective.tournament.plural"
+msgstr "比赛"
+
+msgid "game.objective.wins"
+msgstr "获胜"
+
+#. [Noun]
+msgid "game.status.defeat"
+msgstr "失败"
+
+msgid "game.status.defeated"
+msgstr "你被击败了。"
+
+msgid "game.status.loser"
+msgstr "输家"
+
+msgid "game.status.team.lost"
+msgstr "你的团队失败"
+
+msgid "game.status.team.won"
+msgstr "你的团队胜利"
+
+#. [Noun]
+msgid "game.status.victory"
+msgstr "胜利"
+
+msgid "game.status.winner"
+msgstr "赢家"
+
+#. [Default male]
+msgid "game.status.you.are.dead"
+msgstr "你死了。"
+
+msgid "game.status.you.died"
+msgstr "你死了。"
+
+msgid "game.status.you.lose"
+msgstr "你输了！"
+
+msgid "game.status.you.lost"
+msgstr "你输了！"
+
+msgid "game.status.you.win"
+msgstr "你赢了！"
+
+msgid "game.status.you.won"
+msgstr "你赢了！"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.aim"
+msgstr "瞄准"
+
+#. [Noun]
+msgid "game.action.attacking"
+msgstr "攻击"
+
+#. [Infinitive/tutorial verb] Running attack
+msgid "game.action.charge"
+msgstr "冲锋"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.self"
+msgstr "自我防御"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.target"
+msgstr "防御目标"
+
+#. [Infinitive/tutorial verb] Heal self
+msgid "game.action.heal.self"
+msgstr "自我治疗"
+
+#. [Infinitive/tutorial verb] Heal target
+msgid "game.action.heal.target"
+msgstr "治疗目标"
+
+#. [Infinitive/tutorial verb] Character spins
+msgid "game.action.spin.around"
+msgstr "旋转"
+
+#. Singular of Hit Points
+msgid "game.damage.hit.point"
+msgstr "生命值"
+
+msgid "game.objective.mission.failed"
+msgstr "任务失败"
+
+msgid "game.objective.mission.succesful"
+msgstr "任务成功"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.prone"
+msgstr "卧倒"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.take.cover"
+msgstr "寻找掩护"
+
+msgid "game.politics.hostile"
+msgstr "敌对"
+
+msgid "game.politics.hostile.plural"
+msgstr "敌对目标"
+
+msgid "game.politics.hostile.female"
+msgstr "敌对"
+
+msgid "game.politics.hostile.female.plural"
+msgstr "敌对者"
+
+#. [Adjective]
+msgid "game.politics.allied"
+msgstr "盟友"
+
+#. [Adjective]
+msgid "game.politics.neutral"
+msgstr "中立"
+
+#. [Adjective]
+msgid "game.politics.opposing"
+msgstr "敌对"
+
+#. [Noun] ' The opposition '
+msgid "game.politics.opposition"
+msgstr "反对派"
+
+#. [Noun]
+msgid "game.politics.ally"
+msgstr "盟友"
+
+#. [Noun]
+msgid "game.politics.ally.plural"
+msgstr "盟友"
+
+#. [Noun]
+msgid "game.politics.ally.female"
+msgstr "盟友"
+
+#. [Noun]
+msgid "game.politics.ally.female.plural"
+msgstr "盟友"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.alliance"
+msgstr "联盟"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.enmity"
+msgstr "敌对关系"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.neutrality"
+msgstr "中立关系"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.forward"
+msgstr "向前行驶"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.backwards"
+msgstr "向后行驶"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.left"
+msgstr "向左转向"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.right"
+msgstr "向右转向"
+
+#. [Verb/Infinitive] Sliding on the ground after running.
+msgid "game.action.slide"
+msgstr "滑铲"
+
+#. [Verb/Infinitive] In a racing game.
+msgid "game.action.powerslide"
+msgstr "漂移"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.right"
+msgstr "空中向右转向"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.left"
+msgstr "空中向左转向"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.up"
+msgstr "空中抬头"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.down"
+msgstr "空中低头"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll"
+msgstr "空中翻滚"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.right"
+msgstr "空中向右翻滚"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.left"
+msgstr "空中向左翻滚"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch"
+msgstr "空中俯仰"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer"
+msgstr "空中转向"
+
+#. Focus while aiming through iron sights.
+msgid "game.action.focus"
+msgstr "屏息"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.up"
+msgstr "拉升"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.down"
+msgstr "俯冲"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.vehicle"
+msgstr "横滚"
+
+#. [Infinitive/tutorial verb] A character performs a ground roll.
+msgid "game.action.roll.character"
+msgstr "翻滚"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.right"
+msgstr "向右翻滚"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.left"
+msgstr "向左翻滚"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch"
+msgstr "俯仰"
+
+#. [Noun] Common in racing games.
+msgid "game.action.rear.view"
+msgstr "后视"
+
+#. [Noun] Global/Common chatting.
+msgid "game.action.chat"
+msgstr "聊天"
+
+#. [Noun]
+msgid "game.action.chat.global"
+msgstr "全局聊天"
+
+#. [Noun]
+msgid "game.action.chat.server"
+msgstr "服务器聊天"
+
+#. [Noun]
+msgid "game.action.chat.quick"
+msgstr "快捷聊天"
+
+#. [Noun]
+msgid "game.action.chat.team"
+msgstr "队伍聊天"
+
+#. [Noun]
+msgid "game.action.chat.squad"
+msgstr "小队聊天"
+
+#. [Noun]
+msgid "game.action.chat.group"
+msgstr "群组聊天"
+
+#. [Noun]
+msgid "game.action.chat.crew"
+msgstr "船员聊天"
+
+#. [Noun]
+msgid "game.action.chat.party"
+msgstr "派对聊天"
+
+#. [Infinitive/tutorial verb] put away; place an item into container for later use
+msgid "game.action.store"
+msgstr "收纳"
+
+#. [Infinitive/tutorial verb] place an item into/on somewhere/something (generic term)
+msgid "game.action.put.item"
+msgstr "放置"
+
+#. [Verb/Infinitive] wear something (armor, weapon, etc.)/install an equipment
+msgid "game.inventory.equip"
+msgstr "装备"
+
+#. [Verb/Infinitive]
+msgid "game.inventory.unequip"
+msgstr "卸下"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump.plural"
+msgstr "跳"
+
+#. [Adjective?] without limit
+msgid "game.character.unlimited"
+msgstr "无限"
+
+#. [Noun] name for a list of items you have registered as favourite
+msgid "game.inventory.favorites"
+msgstr "收藏夹"
+
+#. [Infinitive/tutorial verb] to register an item onto a keyboard shortcut, as favourites, etc.
+msgid "game.inventory.register"
+msgstr "注册"
+
+#. [Infinitive/tutorial verb] the most basic thing WASD should do
+msgid "game.action.move.verb"
+msgstr "移动"
+
+#. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
+msgid "game.action.zoom"
+msgstr "缩放"

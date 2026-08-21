@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: credits\n"
+
+msgid "credits.game"
+msgstr "游戏"
+
+msgid "credits.game.development"
+msgstr "游戏开发"
+
+#. [Default male]
+msgid "credits.game.developer"
+msgstr "游戏开发者"
+
+msgid "credits.developed.by"
+msgstr "游戏开发由"
+
+msgid "credits.production"
+msgstr "制作"
+
+#. [Default male]
+msgid "credits.producer"
+msgstr "监制"
+
+#. [Default male]
+msgid "credits.publisher"
+msgstr "出版商"
+
+#. [Default male]
+msgid "credits.director"
+msgstr "总监"
+
+msgid "credits.lead"
+msgstr "领导"
+
+msgid "credits.assistant"
+msgstr "助理"
+
+msgid "credits.associate"
+msgstr "副"
+
+msgid "credits.senior"
+msgstr "高级"
+
+msgid "credits.junior"
+msgstr "初级"
+
+msgid "credits.chief.tech.officer"
+msgstr "首席技术官"
+
+#. [Default male]
+msgid "credits.technical.director"
+msgstr "技术主任"
+
+#. [Default male]
+msgid "credits.creative.director"
+msgstr "创意总监"
+
+#. [Default male]
+msgid "credits.animation.director"
+msgstr "动画总监"
+
+#. [Default male]
+msgid "credits.art.director"
+msgstr "美术总监"
+
+#. [Default male]
+msgid "credits.audio.director"
+msgstr "音乐总监"
+
+#. [Default male]
+msgid "credits.program.manager"
+msgstr "规划经理"
+
+#. [Default male]
+msgid "credits.project.manager"
+msgstr "项目经理"
+
+msgid "credits.game.design"
+msgstr "游戏设计"
+
+#. [Default male]
+msgid "credits.game.designer"
+msgstr "游戏设计师"
+
+#. Programming code
+msgid "credits.code"
+msgstr "代码"
+
+msgid "credits.programming"
+msgstr "编程"
+
+#. [Default male]
+msgid "credits.programmer"
+msgstr "程序员"
+
+#. [Default male]
+msgid "credits.programmer.plural"
+msgstr "程序员"
+
+#. [Default male]
+msgid "credits.lead.programmer"
+msgstr "程序组长"
+
+#. [Default male]
+msgid "credits.graphic.designer"
+msgstr "图像设计"
+
+#. [Default male]
+msgid "credits.technical.artist"
+msgstr "技术美术"
+
+#. [Default male]
+msgid "credits.concept.artist"
+msgstr "概念美术"
+
+#. [Default male]
+msgid "credits.character.designer"
+msgstr "角色设计"
+
+msgid "credits.art"
+msgstr "美术"
+
+#. [Singular]
+msgid "credits.artist"
+msgstr "美术师"
+
+#. [Plural]
+msgid "credits.artist.plural"
+msgstr "美术师"
+
+msgid "credits.level.design"
+msgstr "关卡设计"
+
+#. [Singular]
+msgid "credits.level.designer"
+msgstr "关卡设计师"
+
+#. [Default male]
+msgid "credits.cinematics.director"
+msgstr "影片导演"
+
+#. [Default male]
+msgid "credits.cinematic.animator"
+msgstr "影片动画"
+
+#. [Default male]
+msgid "credits.interface.artist"
+msgstr "影片美术"
+
+#. [Default male]
+msgid "credits.composer"
+msgstr "作曲"
+
+#. [Default male]
+msgid "credits.musician"
+msgstr "音乐师"
+
+msgid "credits.special.thanks"
+msgstr "特别感谢"
+
+msgid "credits.special.thanks.to"
+msgstr "特别感谢"
+
+msgid "credits.image"
+msgstr "图像"
+
+msgid "credits.image.plural"
+msgstr "图像"
+
+msgid "credits.font"
+msgstr "字体"
+
+msgid "credits.font.plural"
+msgstr "字体"
+
+msgid "credits.soundtrack"
+msgstr "原声音乐"
+
+#. [Default male]
+msgid "credits.writer"
+msgstr "文案"
+
+msgid "credits.manuscript"
+msgstr "手稿"
+
+#. [Default male]
+msgid "credits.script.writer"
+msgstr "剧本"
+
+msgid "credits.animation"
+msgstr "动画"
+
+msgid "credits.animator"
+msgstr "动画师"
+
+msgid "credits.voice.acting"
+msgstr "配音"
+
+#. [Default male]
+msgid "credits.voice.actor"
+msgstr "配音演员"
+
+#. [Default male]
+msgid "credits.sound.designer"
+msgstr "音响设计"
+
+#. [Default male]
+msgid "credits.sound.engineer"
+msgstr "音响工程师"
+
+msgid "credits.sfx"
+msgstr "音响效果"
+
+msgid "credits.vfx"
+msgstr "视觉效果"
+
+#. [Default male] Someone who records sound
+msgid "credits.recordist"
+msgstr "录音师"
+
+#. [Default male] Special sound FX
+msgid "credits.foley.artist"
+msgstr "音效师"
+
+#. [Default male]
+msgid "credits.test.manager"
+msgstr "测试经理"
+
+#. [Default male]
+msgid "credits.test.lead"
+msgstr "测试组长"
+
+#. [Default male]
+msgid "credits.tester"
+msgstr "测试员"
+
+#. [Default male]
+msgid "credits.database.admin"
+msgstr "三维建模"
+
+msgid "credits.3d.modeling"
+msgstr "三维建模"
+
+msgid "credits.models"
+msgstr "模型"
+
+msgid "credits.localization"
+msgstr "本地化"
+
+msgid "credits.translation"
+msgstr "翻译"

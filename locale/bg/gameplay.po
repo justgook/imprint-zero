@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gameplay\n"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.attack"
+msgstr "Нападнете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.boost"
+msgstr "Засилете"
+
+#. [Infinitive/tutorial verb] Build house
+msgid "game.action.build"
+msgstr "Постройте"
+
+#. [Infinitive/tutorial verb] Cast fishing lure
+msgid "game.action.cast.fishing"
+msgstr "Хвърлете"
+
+#. [Infinitive/tutorial verb] Cast a spell
+msgid "game.action.cast.spell"
+msgstr "Извикайте"
+
+#. [Infinitive/tutorial verb] To take possession of
+msgid "game.action.claim"
+msgstr "Вземете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.climb"
+msgstr "Изкачете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.close"
+msgstr "Затворете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.collect"
+msgstr "Съберете"
+
+#. [Infinitive/tutorial verb] Cook food
+msgid "game.action.cook"
+msgstr "Сгответе"
+
+#. [Infinitive/tutorial verb] Create item
+msgid "game.action.craft"
+msgstr "Изработете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.crouch"
+msgstr "Клекнете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.dodge"
+msgstr "Избегнете"
+
+#. [Infinitive/tutorial verb] Accelerate/Brake
+msgid "game.action.drive"
+msgstr "Карайте"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.fly"
+msgstr "Летете"
+
+msgid "game.action.full.speed"
+msgstr "Пълна скорост"
+
+#. [Infinitive/tutorial verb] To go somewhere
+msgid "game.action.go"
+msgstr "Отидете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.to.place"
+msgstr "Отидете до"
+
+msgid "game.action.half.speed"
+msgstr "Половин скорост"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.heal"
+msgstr "Излекувайте"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump"
+msgstr "Скочете"
+
+#. [Infinitive/tutorial verb] Plane stops flying
+msgid "game.action.land"
+msgstr "Кацнете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.look"
+msgstr "Погледнете"
+
+#. [Infinitive/tutorial verb] Mix potions
+msgid "game.action.mix"
+msgstr "Смесете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.open"
+msgstr "Отворете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.pick.up"
+msgstr "Вземете"
+
+#. [Infinitive/tutorial verb] Begin a Race in a competition
+msgid "game.action.race"
+msgstr "Състезавай се"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.read"
+msgstr "Прочетете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.replace"
+msgstr "Заменете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.run"
+msgstr "Тичайте"
+
+#. [Infinitive/tutorial verb] Escape a situation by foot
+msgid "game.action.run.away"
+msgstr "Бягайте"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.shoot"
+msgstr "Стреляйте"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sneak"
+msgstr "Промъкнете се"
+
+#. [Infinitive/tutorial verb] Spin a wheel
+msgid "game.action.spin"
+msgstr "Завъртете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sprint"
+msgstr "Спринтирайте"
+
+#. [Infinitive/tutorial verb] Left/Right
+msgid "game.action.steer"
+msgstr "Завийте"
+
+#. [Infinitive/tutorial verb] Plane starts flying
+msgid "game.action.take.off"
+msgstr "Излетете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.talk"
+msgstr "Говорете"
+
+#. [Infinitive/tutorial verb] Aggressive
+msgid "game.action.throw"
+msgstr "Хвърлете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.walk"
+msgstr "Вървете"
+
+#. Like 'Stamina'
+msgid "game.character.endurance"
+msgstr "Издържливост"
+
+msgid "game.character.exp"
+msgstr "Опит"
+
+#. [Noun]
+msgid "game.character.female"
+msgstr "Жена"
+
+msgid "game.character.health"
+msgstr "Живот"
+
+#. 1 heart
+msgid "game.character.heart"
+msgstr "Сърце"
+
+#. [Plural] 3 hearts
+msgid "game.character.heart.plural"
+msgstr "Сърца"
+
+#. Character's level
+msgid "game.character.level"
+msgstr "Ниво"
+
+msgid "game.character.level.up"
+msgstr "Качи ниво!"
+
+msgid "game.character.lives"
+msgstr "Животи"
+
+#. [Noun]
+msgid "game.character.male"
+msgstr "Мъж"
+
+#. [Noun]
+msgid "game.character.man"
+msgstr "Мъж"
+
+#. [Noun][Plural]
+msgid "game.character.man.plural"
+msgstr "Мъже"
+
+msgid "game.character.respawn"
+msgstr "Върни се в играта"
+
+msgid "game.character.respawn.in"
+msgstr "Връщане в играта след:"
+
+msgid "game.character.respawn.question"
+msgstr "Връщаш ли се в играта?"
+
+msgid "game.character.respawning"
+msgstr "Връщане в играта"
+
+msgid "game.character.skill"
+msgstr "Умение"
+
+msgid "game.character.spawn.point"
+msgstr "Точка за връщане"
+
+#. [Noun]
+msgid "game.character.transgender"
+msgstr "Транссексуален"
+
+#. [Noun]
+msgid "game.character.woman"
+msgstr "Жена"
+
+#. [Noun][Plural]
+msgid "game.character.woman.plural"
+msgstr "Жени"
+
+#. generic : damage to vehicle body etc
+msgid "game.damage"
+msgstr "Щети"
+
+#. RPG attack
+msgid "game.damage.critical.hit"
+msgstr "Критичен удар"
+
+#. RPG attack miss
+msgid "game.damage.critical.miss"
+msgstr "Критичен пропуск"
+
+#. RPG attack
+msgid "game.damage.hit.noun"
+msgstr "Удар"
+
+#. Health
+msgid "game.damage.hit.points.plural"
+msgstr "Точки живот"
+
+#. RPG attack miss
+msgid "game.damage.miss.noun"
+msgstr "Пропуск"
+
+#. 1 damage unit
+msgid "game.damage.unit"
+msgstr "Точка щети"
+
+#. [Plural] 5 damage units
+msgid "game.damage.unit.plural"
+msgstr "Точки щети"
+
+#. [Noun]
+msgid "game.enemy"
+msgstr "Противник"
+
+#. [Noun]
+msgid "game.enemy.female"
+msgstr "Противничка"
+
+#. [Noun]
+msgid "game.enemy.female.plural"
+msgstr "Противнички"
+
+#. [Noun]
+msgid "game.enemy.plural"
+msgstr "Противници"
+
+msgid "game.inventory"
+msgstr "Инвентар"
+
+msgid "game.inventory.ammo"
+msgstr "Боеприпаси"
+
+msgid "game.inventory.ammunition"
+msgstr "Боеприпаси"
+
+msgid "game.inventory.bullet"
+msgstr "Патрон"
+
+msgid "game.inventory.bullet.plural"
+msgstr "Патрони"
+
+msgid "game.inventory.buy"
+msgstr "Купуване"
+
+msgid "game.inventory.capacity"
+msgstr "Капацитет на инвентара"
+
+msgid "game.inventory.drop"
+msgstr "Изхвърляне"
+
+#. How much is being carried
+msgid "game.inventory.encumbrance"
+msgstr "Тегло"
+
+msgid "game.inventory.full"
+msgstr "Пълен инвентар"
+
+msgid "game.inventory.item"
+msgstr "Предмет"
+
+msgid "game.inventory.key"
+msgstr "Ключ"
+
+msgid "game.inventory.powerup"
+msgstr "Подобрение"
+
+msgid "game.inventory.sell"
+msgstr "Продаване"
+
+#. [Infinitive/tutorial verb]
+msgid "game.inventory.use"
+msgstr "Използване"
+
+msgid "game.inventory.weapon"
+msgstr "Оръжие"
+
+msgid "game.inventory.weapons"
+msgstr "Оръжия"
+
+msgid "game.inventory.you.cannot.carry"
+msgstr "Не можете да носите повече."
+
+#. [Imperative verb]
+msgid "game.label.be.careful"
+msgstr "Внимателно!"
+
+#. [Imperative verb]
+msgid "game.label.please.be.careful"
+msgstr "Моля, внимавайте!"
+
+msgid "game.label.tactics"
+msgstr "Тактика"
+
+msgid "game.objective"
+msgstr "Цел"
+
+#. [Noun]
+msgid "game.objective.assist"
+msgstr "Помагане"
+
+msgid "game.objective.assist.plural"
+msgstr "Помагания"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.attack"
+msgstr "Нападане"
+
+msgid "game.objective.bonus"
+msgstr "Бонус"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.capture"
+msgstr "Превземане"
+
+#. Has been completed
+msgid "game.objective.complete"
+msgstr "Изпълнено"
+
+msgid "game.objective.death"
+msgstr "Жертва"
+
+msgid "game.objective.death.plural"
+msgstr "Жертви"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.defend"
+msgstr "Защити"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.destroy"
+msgstr "Унищожи"
+
+#. [Infinitive/tutorial verb] Escape a situation
+msgid "game.objective.escape"
+msgstr "Избягай"
+
+#. Completed the game : end of story
+msgid "game.objective.game.finished"
+msgstr "Край"
+
+#. Died lost destroyed etc
+msgid "game.objective.gameover"
+msgstr "Край на играта!"
+
+msgid "game.objective.gameover.caps"
+msgstr "КРАЙ НА ИГРАТА!"
+
+#. The highest score
+msgid "game.objective.high.score"
+msgstr "Рекорд"
+
+msgid "game.objective.incomplete"
+msgstr "Неизпълнено"
+
+#. [Infinitive/tutorial verb] "to kill the bird"
+msgid "game.objective.kill"
+msgstr "Убий"
+
+#. [Noun]
+msgid "game.objective.kill.assist"
+msgstr "Асистиране"
+
+#. [Noun] As in "One kill"
+msgid "game.objective.kill.noun"
+msgstr "Убийство"
+
+#. As in "Two kills"
+msgid "game.objective.kill.plural"
+msgstr "Убийства"
+
+msgid "game.objective.locked"
+msgstr "Заключено"
+
+msgid "game.objective.losses"
+msgstr "Загуби"
+
+msgid "game.objective.match"
+msgstr "Мач"
+
+#. [Noun]
+msgid "game.objective.mission"
+msgstr "Мисия"
+
+msgid "game.objective.mission.objective.plural"
+msgstr "Цели на мисията"
+
+msgid "game.objective.mission.objective"
+msgstr "Цел на мисията"
+
+msgid "game.objective.multiplier"
+msgstr "Множител"
+
+msgid "game.objective.plural"
+msgstr "Цели"
+
+#. Position in order from winner to loser
+msgid "game.objective.position"
+msgstr "Позиция"
+
+#. Racing lap
+msgid "game.objective.race.lap"
+msgstr "Обиколка"
+
+#. Racing laps
+msgid "game.objective.race.lap.plural"
+msgstr "Обиколки"
+
+#. [Noun] As in part of match
+msgid "game.objective.round"
+msgstr "Рунд"
+
+msgid "game.objective.score"
+msgstr "Резултат"
+
+#. For countdown timers or elapsed time
+msgid "game.objective.time"
+msgstr "Време"
+
+msgid "game.objective.time.left"
+msgstr "Остава"
+
+msgid "game.objective.tournament"
+msgstr "Турнир"
+
+msgid "game.objective.tournament.plural"
+msgstr "Турнири"
+
+msgid "game.objective.wins"
+msgstr "Победи"
+
+#. [Noun]
+msgid "game.status.defeat"
+msgstr "Поражение"
+
+msgid "game.status.defeated"
+msgstr "Претърпя поражение."
+
+msgid "game.status.loser"
+msgstr "Губещ"
+
+msgid "game.status.team.lost"
+msgstr "Отборът ви загуби!"
+
+msgid "game.status.team.won"
+msgstr "Отборът ви спечели!"
+
+#. [Noun]
+msgid "game.status.victory"
+msgstr "Победа"
+
+msgid "game.status.winner"
+msgstr "Победител"
+
+#. [Default male]
+msgid "game.status.you.are.dead"
+msgstr "Мъртви сте."
+
+msgid "game.status.you.died"
+msgstr "Умряхте."
+
+msgid "game.status.you.lose"
+msgstr "Губите!"
+
+msgid "game.status.you.lost"
+msgstr "Загубхте!"
+
+msgid "game.status.you.win"
+msgstr "Печелите!"
+
+msgid "game.status.you.won"
+msgstr "Спечелихте!"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.aim"
+msgstr "Прицелете се"
+
+#. [Noun]
+msgid "game.action.attacking"
+msgstr "Нападане"
+
+#. [Infinitive/tutorial verb] Running attack
+msgid "game.action.charge"
+msgstr "Щурмувайте"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.self"
+msgstr "Защитавайте се"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.target"
+msgstr "Защитете"
+
+#. [Infinitive/tutorial verb] Heal self
+msgid "game.action.heal.self"
+msgstr "Лекувайте се"
+
+#. [Infinitive/tutorial verb] Heal target
+msgid "game.action.heal.target"
+msgstr "Лекувайте"
+
+#. [Infinitive/tutorial verb] Character spins
+msgid "game.action.spin.around"
+msgstr "Върти се"
+
+#. Singular of Hit Points
+msgid "game.damage.hit.point"
+msgstr "Точка живот"
+
+msgid "game.objective.mission.failed"
+msgstr "Мисията е неуспешна"
+
+msgid "game.objective.mission.succesful"
+msgstr "Мисията е успешна"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.prone"
+msgstr "Легнете"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.take.cover"
+msgstr "Прикрийте се"
+
+msgid "game.politics.hostile"
+msgstr "Враг"
+
+msgid "game.politics.hostile.plural"
+msgstr "Врагове"
+
+msgid "game.politics.hostile.female"
+msgstr "Враг"
+
+msgid "game.politics.hostile.female.plural"
+msgstr "Врагове"
+
+#. [Adjective]
+msgid "game.politics.allied"
+msgstr "Съюзнически"
+
+#. [Adjective]
+msgid "game.politics.neutral"
+msgstr "Неутрални"
+
+#. [Adjective]
+msgid "game.politics.opposing"
+msgstr "Вражески"
+
+#. [Noun] ' The opposition '
+msgid "game.politics.opposition"
+msgstr "Враговете"
+
+#. [Noun]
+msgid "game.politics.ally"
+msgstr "Съюзник"
+
+#. [Noun]
+msgid "game.politics.ally.plural"
+msgstr "Съюзници"
+
+#. [Noun]
+msgid "game.politics.ally.female"
+msgstr "Съюзничка"
+
+#. [Noun]
+msgid "game.politics.ally.female.plural"
+msgstr "Съюзнички"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.alliance"
+msgstr "Съюз"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.enmity"
+msgstr "Вражда"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.neutrality"
+msgstr "Неутралност"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.forward"
+msgstr "Карайте напред"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.backwards"
+msgstr "Карайте назад"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.left"
+msgstr "Завийте наляво"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.right"
+msgstr "Завийте надясно"
+
+#. [Verb/Infinitive] Sliding on the ground after running.
+msgid "game.action.slide"
+msgstr "Пързулнете се"
+
+#. [Verb/Infinitive] In a racing game.
+msgid "game.action.powerslide"
+msgstr "Дрифт"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.right"
+msgstr "Завой надясно във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.left"
+msgstr "Завой наляво във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.up"
+msgstr "Нагоре във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.down"
+msgstr "Надолу във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll"
+msgstr "Въртене във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.right"
+msgstr "Въртене надясно във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.left"
+msgstr "Въртене наляво във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch"
+msgstr "Наклон във въздуха"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer"
+msgstr "Управление във въздуха"
+
+#. Focus while aiming through iron sights.
+msgid "game.action.focus"
+msgstr "Съсредоточете се"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.up"
+msgstr "Нагоре"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.down"
+msgstr "Надолу"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.vehicle"
+msgstr "Направи бъчва"
+
+#. [Infinitive/tutorial verb] A character performs a ground roll.
+msgid "game.action.roll.character"
+msgstr "Претърколи се"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.right"
+msgstr "Въртене надясно"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.left"
+msgstr "Въртене наляво"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch"
+msgstr "Наклон"
+
+#. [Noun] Common in racing games.
+msgid "game.action.rear.view"
+msgstr "Задно виждане"
+
+#. [Noun] Global/Common chatting.
+msgid "game.action.chat"
+msgstr "Разговор"
+
+#. [Noun]
+msgid "game.action.chat.global"
+msgstr "Глобален разговор"
+
+#. [Noun]
+msgid "game.action.chat.server"
+msgstr "Разговор на сървъра"
+
+#. [Noun]
+msgid "game.action.chat.quick"
+msgstr "Бърз разговор"
+
+#. [Noun]
+msgid "game.action.chat.team"
+msgstr "Разговор на отбора"
+
+#. [Noun]
+msgid "game.action.chat.squad"
+msgstr "Разговор на отряда"
+
+#. [Noun]
+msgid "game.action.chat.group"
+msgstr "Разговор на групата"
+
+#. [Noun]
+msgid "game.action.chat.crew"
+msgstr "Разговор на екипажа"
+
+#. [Noun]
+msgid "game.action.chat.party"
+msgstr "Разговор на групата"
+
+#. [Infinitive/tutorial verb] put away; place an item into container for later use
+msgid "game.action.store"
+msgstr "Съхранете"
+
+#. [Infinitive/tutorial verb] place an item into/on somewhere/something (generic term)
+msgid "game.action.put.item"
+msgstr "Поставете"
+
+#. [Verb/Infinitive] wear something (armor, weapon, etc.)/install an equipment
+msgid "game.inventory.equip"
+msgstr "Екипирай"
+
+#. [Verb/Infinitive]
+msgid "game.inventory.unequip"
+msgstr "Махни екипировката"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump.plural"
+msgstr "Скоковете"
+
+#. [Adjective?] without limit
+msgid "game.character.unlimited"
+msgstr "неограничен"
+
+#. [Noun] name for a list of items you have registered as favourite
+msgid "game.inventory.favorites"
+msgstr "Предпочитани"
+
+#. [Infinitive/tutorial verb] to register an item onto a keyboard shortcut, as favourites, etc.
+msgid "game.inventory.register"
+msgstr "Регистрирай"
+
+#. [Infinitive/tutorial verb] the most basic thing WASD should do
+msgid "game.action.move.verb"
+msgstr "Движение"
+
+#. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
+msgid "game.action.zoom"
+msgstr "Мащабиране"

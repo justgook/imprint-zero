@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "%s が接続されていません。"
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "通信圏外です。"
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "HMDが接続されていません。"
+
+msgid "error.generic.errcode"
+msgstr "エラーコード："
+
+msgid "error.generic.text"
+msgstr "エラーが発生しました。"
+
+msgid "error.generic.invalid.name"
+msgstr "無効な名前です。"
+
+msgid "error.generic.invalid.cd.key"
+msgstr "無効なCDキーです。"
+
+msgid "error.generic.cheating"
+msgstr "チート検出！"
+
+msgid "error.network.connection.lost"
+msgstr "接続が切断されました。"
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "相手プレイヤーが接続を切断しました。"
+
+msgid "error.network.disconnected.your.player"
+msgstr "他のプレイヤーが接続を切断しました。"
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "味方プレイヤーが接続を切断しました。"
+
+msgid "error.network.server"
+msgstr "サーバーに接続できません。"
+
+msgid "error.save.corrupted"
+msgstr "セーブデータが破損しています。"
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "セーブデータが見つかりません。"
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "参加可能なゲームがありません。"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "プレイヤーが接続を切断しました"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "相手プレイヤーが接続を切断しました"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "味方プレイヤーが接続を切断しました"

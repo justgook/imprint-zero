@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Imprint Zero\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: fr\n"
 "X-Wiki-Title: Dialogue\n"
 "X-Wiki-Eyebrow: Game text\n"
 "X-Wiki-Status: in-progress\n"
@@ -13,78 +13,69 @@ msgstr ""
 #. Room: R01
 #. Intent: Confirm deployment and establish the immediate objective.
 #: missions/m01.md:R01
-msgctxt "dialogue.m01.com01.l001"
-msgid "ROOK, deployment confirmed. Ashfall residential tower, sector seven."
-msgstr ""
+msgid "dialogue.m01.com01.l001"
+msgstr "ROOK, déploiement confirmé. Tour résidentielle Ashfall, secteur sept."
 
 #. Speaker: OPERATOR
 #. Delivery: Radio
 #. Room: R01
 #. Intent: State the required mission sequence concisely.
 #: missions/m01.md:R01
-msgctxt "dialogue.m01.com01.l002"
-msgid "Restore sector power, recover the trapped security team, and reach the transit link."
-msgstr ""
+msgid "dialogue.m01.com01.l002"
+msgstr "Rétablissez l'alimentation du secteur, récupérez l'équipe de sécurité piégée et atteignez la liaison de transit."
 
 #. Speaker: VECTOR
 #. Delivery: Radio
 #. Room: R02
 #. Intent: Establish that VECTOR is active elsewhere in Ashfall District.
 #: missions/m01.md:R02
-msgctxt "dialogue.m01.com02.l001"
-msgid "ROOK, VECTOR. I’m two blocks east. Same fire, same dead comms."
-msgstr ""
+msgid "dialogue.m01.com02.l001"
+msgstr "TOUR, VECTEUR. Je suis à deux pâtés de maisons à l'est. Même incendie, mêmes communications mortes."
 
 #. Speaker: VECTOR
 #. Delivery: Radio
 #. Room: R02
 #. Intent: Direct attention toward the drones without stopping the tutorial.
 #: missions/m01.md:R02
-msgctxt "dialogue.m01.com02.l002"
-msgid "Something is steering the drones toward occupied floors. I’ll trace it from here."
-msgstr ""
+msgid "dialogue.m01.com02.l002"
+msgstr "Quelque chose dirige les drones vers les étages occupés. Je vais le retracer à partir d'ici."
 
 #. Speaker: SECURITY_OFFICER
 #. Delivery: In person
 #. Room: R06
 #. Intent: Introduce the first contradiction in ROOK’s remembered history.
 #: missions/m01.md:R06
-msgctxt "dialogue.m01.com03.l001"
-msgid "Captain?"
-msgstr ""
+msgid "dialogue.m01.com03.l001"
+msgstr "Capitaine ?"
 
 #. Speaker: SECURITY_OFFICER
 #. Delivery: In person
 #. Room: R06
 #. Intent: Make the recognition specific without explaining it.
 #: missions/m01.md:R06
-msgctxt "dialogue.m01.com03.l002"
-msgid "I watched you die at Kestrel Bridge. Eight years ago."
-msgstr ""
+msgid "dialogue.m01.com03.l002"
+msgstr "Je t'ai vu mourir à Kestrel Bridge. Il y a huit ans."
 
 #. Speaker: ROOK
 #. Delivery: In person
 #. Room: R06
 #. Intent: Keep ROOK controlled and focused on the rescue.
 #: missions/m01.md:R06
-msgctxt "dialogue.m01.com03.l003"
-msgid "You have the wrong soldier. Can you move?"
-msgstr ""
+msgid "dialogue.m01.com03.l003"
+msgstr "Vous vous trompez de soldat. Pouvez-vous bouger ?"
 
 #. Speaker: OPERATOR
 #. Delivery: Radio
 #. Room: R06
 #. Intent: Offer a plausible explanation while redirecting the mission.
 #: missions/m01.md:R06
-msgctxt "dialogue.m01.com04.l001"
-msgid "Neurological exposure can produce false recognition and identity projection."
-msgstr ""
+msgid "dialogue.m01.com04.l001"
+msgstr "L’exposition neurologique peut produire une fausse reconnaissance et une fausse projection d’identité."
 
 #. Speaker: OPERATOR
 #. Delivery: Radio
 #. Room: R06
 #. Intent: Close the interruption and return the player to the objective.
 #: missions/m01.md:R06
-msgctxt "dialogue.m01.com04.l002"
-msgid "Secure the survivor and continue to transit."
-msgstr ""
+msgid "dialogue.m01.com04.l002"
+msgstr "Sécurisez le survivant et continuez votre transit."

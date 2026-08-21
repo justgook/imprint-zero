@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menus\n"
+
+msgid "menu.camera"
+msgstr "Kamera"
+
+msgid "menu.camera.inverted"
+msgstr "Invertiert"
+
+msgid "menu.camera.normal"
+msgstr "Normal"
+
+#. Camera X Axis setting
+msgid "menu.camera.xaxis"
+msgstr "Kamera X-Achse"
+
+msgid "menu.camera.yaxis"
+msgstr "Kamera Y-Achse"
+
+msgid "menu.controls.button"
+msgstr "Knopf"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.click"
+msgstr "Anklicken"
+
+msgid "menu.controls.deadzone"
+msgstr "Tote Zone"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.double.click"
+msgstr "Doppelklick"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag"
+msgstr "Ziehen"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag.drop"
+msgstr "Klicken und ziehen"
+
+#. [Noun] Touch control
+msgid "menu.controls.finger"
+msgstr "Finger"
+
+msgid "menu.controls.gamepad"
+msgstr "Gamepad"
+
+msgid "menu.controls.gyroscope"
+msgstr "Lagesensor"
+
+#. Keyboard key
+msgid "menu.controls.key"
+msgstr "Taste"
+
+msgid "menu.controls.keyboard"
+msgstr "Tastatur"
+
+msgid "menu.controls.mouse"
+msgstr "Maus"
+
+msgid "menu.controls.mouse.sensitivity"
+msgstr "Mausempfindlichkeit"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.pinch"
+msgstr "Zusammenziehen"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.rotate"
+msgstr "Drehen"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.scroll"
+msgstr "Scrollen"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.shake"
+msgstr "Schütteln"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.spread"
+msgstr "Auseinanderziehen"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.swipe"
+msgstr "Wischen"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.tap"
+msgstr "Antippen"
+
+msgid "menu.controls.the.button"
+msgstr "Der Knopf"
+
+#. The keyboard key
+msgid "menu.controls.the.key"
+msgstr "Die Taste"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.tilt"
+msgstr "Kippen"
+
+msgid "menu.customize.arm"
+msgstr "Arm"
+
+msgid "menu.customize.arm.plural"
+msgstr "Arme"
+
+#. Body part not treasure
+msgid "menu.customize.chest"
+msgstr "Brust"
+
+msgid "menu.customize.chin"
+msgstr "Kinn"
+
+msgid "menu.customize.color"
+msgstr "Farbe"
+
+msgid "menu.customize.ear"
+msgstr "Ohr"
+
+msgid "menu.customize.ear.plural"
+msgstr "Ohren"
+
+msgid "menu.customize.eye"
+msgstr "Auge"
+
+msgid "menu.customize.eye.plural"
+msgstr "Augen"
+
+msgid "menu.customize.feet"
+msgstr "Füße"
+
+msgid "menu.customize.foot"
+msgstr "Fuß"
+
+#. All-purpose term
+msgid "menu.customize.hair"
+msgstr "Haare"
+
+#. Facial hair
+msgid "menu.customize.hair.beard"
+msgstr "Bart"
+
+#. Animal fur
+msgid "menu.customize.hair.fur"
+msgstr "Fell"
+
+msgid "menu.customize.hair.head"
+msgstr "Haare"
+
+msgid "menu.customize.hand"
+msgstr "Hand"
+
+msgid "menu.customize.hand.plural"
+msgstr "Hände"
+
+msgid "menu.customize.head"
+msgstr "Kopf"
+
+msgid "menu.customize.hips"
+msgstr "Hüften"
+
+msgid "menu.customize.leg"
+msgstr "Bein"
+
+msgid "menu.customize.leg.plural"
+msgstr "Beine"
+
+msgid "menu.customize.mouth"
+msgstr "Mund"
+
+msgid "menu.customize.neck"
+msgstr "Genick"
+
+msgid "menu.customize.nose"
+msgstr "Nase"
+
+msgid "menu.customize.skin"
+msgstr "Haut"
+
+msgid "menu.customize.thorax"
+msgstr "Brustkorb"
+
+#. Difficulty
+msgid "menu.difficulty"
+msgstr "Schwierigkeitsgrad"
+
+#. Difficulty
+msgid "menu.difficulty.easy"
+msgstr "Einfach"
+
+#. Difficulty
+msgid "menu.difficulty.hard"
+msgstr "Schwer"
+
+#. Difficulty
+msgid "menu.difficulty.impossible"
+msgstr "Unmöglich"
+
+#. Difficulty
+msgid "menu.difficulty.insane"
+msgstr "Wahnsinn"
+
+#. Difficulty
+msgid "menu.difficulty.medium"
+msgstr "Mittel"
+
+#. Difficulty
+msgid "menu.difficulty.very.easy"
+msgstr "Sehr einfach"
+
+#. Difficulty
+msgid "menu.difficulty.very.hard"
+msgstr "Sehr schwer"
+
+msgid "menu.dir.down"
+msgstr "Unten"
+
+msgid "menu.dir.left"
+msgstr "Links"
+
+msgid "menu.dir.right"
+msgstr "Rechts"
+
+msgid "menu.dir.up"
+msgstr "Oben"
+
+msgid "menu.io.load"
+msgstr "Laden"
+
+msgid "menu.io.load.game"
+msgstr "Spiel laden"
+
+msgid "menu.io.loading"
+msgstr "Lädt..."
+
+msgid "menu.io.please.wait"
+msgstr "Bitte warten"
+
+#. Reset whatever save data is in focus
+msgid "menu.io.reset.save.data"
+msgstr "Spielstand zurücksetzen?"
+
+#. [Verb]
+msgid "menu.io.save"
+msgstr "Speichern"
+
+#. [Verb]
+msgid "menu.io.save.data"
+msgstr "Spiel speichern"
+
+#. [Verb]
+msgid "menu.io.save.game"
+msgstr "Spiel speichern"
+
+msgid "menu.io.saving"
+msgstr "Spiel wird gespeichert..."
+
+msgid "menu.label.all"
+msgstr "Alle"
+
+msgid "menu.label.age"
+msgstr "Alter"
+
+msgid "menu.label.are.you.really.sure"
+msgstr "Bist du wirklich sicher?"
+
+#. A generic confirmation
+msgid "menu.label.are.you.sure"
+msgstr "Bist du sicher?"
+
+#. Back one level in selections
+msgid "menu.label.back"
+msgstr "Zurück"
+
+msgid "menu.label.background.music"
+msgstr "Hintergrundmusik"
+
+msgid "menu.label.cancel"
+msgstr "Abbrechen"
+
+#. Close window
+msgid "menu.label.close"
+msgstr "Schließen"
+
+#. Choose selected button
+msgid "menu.label.confirm.button"
+msgstr "Bestätigen"
+
+msgid "menu.label.continue"
+msgstr "Fortsetzen"
+
+msgid "menu.label.continue.question"
+msgstr "Fortfahren?"
+
+#. Authors list
+msgid "menu.label.credits"
+msgstr "Credits"
+
+msgid "menu.label.desktop"
+msgstr "Zurück zum Desktop"
+
+msgid "menu.label.desktop.question"
+msgstr "Zum Desktop zurückkehren?"
+
+#. Downloadable content (abbreviation/short)
+msgid "menu.label.dlc"
+msgstr "DLC"
+
+#. [Verb]
+msgid "menu.label.download"
+msgstr "Herunterladen"
+
+#. Downloadable content (long)
+msgid "menu.label.downloadable"
+msgstr "Inhalte zum Herunterladen"
+
+#. Leave a state or place
+msgid "menu.label.exit"
+msgstr "Beenden"
+
+msgid "menu.label.exit.question"
+msgstr "Beenden?"
+
+msgid "menu.label.extras"
+msgstr "Extras"
+
+#. Frames Per Second
+msgid "menu.label.framespersec"
+msgstr "FPS"
+
+msgid "menu.label.gallery"
+msgstr "Kunstgalerie"
+
+msgid "menu.label.goodbye"
+msgstr "Auf Wiedersehen!"
+
+msgid "menu.label.graphics"
+msgstr "Grafik"
+
+#. [Singular]
+msgid "menu.label.iap"
+msgstr "In-App-Verkäufe"
+
+msgid "menu.label.language"
+msgstr "Sprache"
+
+#. Game stage (not game world or char level)
+msgid "menu.label.level"
+msgstr "Level"
+
+#. In-game mailbox
+msgid "menu.label.mail"
+msgstr "Mailbox"
+
+msgid "menu.label.mainmenu"
+msgstr "Hauptmenü"
+
+msgid "menu.label.more"
+msgstr "Mehr"
+
+msgid "menu.label.music"
+msgstr "Musik"
+
+msgid "menu.label.music.player"
+msgstr "Musikspieler"
+
+msgid "menu.label.new.game"
+msgstr "Neues Spiel"
+
+msgid "menu.label.next"
+msgstr "Weiter"
+
+#. Next music track/song
+msgid "menu.label.next.track"
+msgstr "Nächster Titel"
+
+msgid "menu.label.no"
+msgstr "Nein"
+
+msgid "menu.label.no.caps"
+msgstr "NEIN"
+
+#. A more casual 'no'
+msgid "menu.label.nope"
+msgstr "Nö"
+
+#. As in Windows dialog
+msgid "menu.label.ok"
+msgstr "OK"
+
+#. [Infinitive/tutorial verb] common term
+msgid "menu.label.pause"
+msgstr "Pause"
+
+msgid "menu.label.paused"
+msgstr "Pausiert"
+
+msgid "menu.label.play"
+msgstr "Spielen"
+
+msgid "menu.label.play.again"
+msgstr "Noch einmal spielen"
+
+msgid "menu.label.press.anykey"
+msgstr "Drücke eine beliebige Taste"
+
+msgid "menu.label.press.anykey.continue"
+msgstr "Drücke eine beliebige Taste um fortzufahren"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start"
+msgstr "Start drücken"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start.continue"
+msgstr "Drücke Start um fortzufahren"
+
+msgid "menu.label.previous"
+msgstr "Zurück"
+
+#. Previous music track/song
+msgid "menu.label.previous.track"
+msgstr "Vorheriger Titel"
+
+msgid "menu.label.price"
+msgstr "Preis"
+
+msgid "menu.label.price.free"
+msgstr "Kostenlos"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.purchase"
+msgstr "Kaufen"
+
+#. Leave the game (keep short)
+msgid "menu.label.quit"
+msgstr "Beenden"
+
+msgid "menu.label.quit.confirm"
+msgstr "Wirklich beenden?"
+
+msgid "menu.label.quit.question"
+msgstr "Spiel beenden?"
+
+#. Show the replay of the last game
+msgid "menu.label.replay"
+msgstr "Replay"
+
+msgid "menu.label.return"
+msgstr "Zurück"
+
+msgid "menu.label.return.main"
+msgstr "Zurück zum Hauptmenü"
+
+msgid "menu.label.return.main.question"
+msgstr "Zum Hauptmenü zurückkehren?"
+
+#. Share via social media
+msgid "menu.label.share"
+msgstr "Teilen"
+
+#. Skip cutscene skip replay (Generic)
+msgid "menu.label.skip"
+msgstr "Replay überspringen"
+
+msgid "menu.label.sound"
+msgstr "Audio"
+
+msgid "menu.label.thank.you"
+msgstr "Danke!"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.unlock"
+msgstr "Freischalten"
+
+msgid "menu.label.video"
+msgstr "Video"
+
+msgid "menu.label.voices"
+msgstr "Stimmen"
+
+msgid "menu.label.warning"
+msgstr "Warnung"
+
+msgid "menu.label.welcome"
+msgstr "Willkommen"
+
+msgid "menu.label.world"
+msgstr "Welt"
+
+#. A more casual 'yes'
+msgid "menu.label.yeah"
+msgstr "Jo"
+
+msgid "menu.label.yes"
+msgstr "Ja"
+
+msgid "menu.label.yes.caps"
+msgstr "JA"
+
+#. ltr or rtl (text direction used by game code)
+msgid "menu.language.direction"
+msgstr "ltr"
+
+#. "MyLanguage" in native text
+msgid "menu.language.this"
+msgstr "Deutsch"
+
+#. "MyLanguage" in english text
+msgid "menu.language.this.en"
+msgstr "German"
+
+#. [Verb]
+msgid "menu.login"
+msgstr "Login"
+
+#. Email address
+msgid "menu.login.email"
+msgstr "E-Mail"
+
+msgid "menu.login.forgot"
+msgstr "Passwort vergessen?"
+
+msgid "menu.login.password"
+msgstr "Passwort"
+
+#. [Verb]
+msgid "menu.login.register"
+msgstr "Registrieren"
+
+#. Remember entered data on this device?
+msgid "menu.login.remember"
+msgstr "Auf diesem Gerät merken?"
+
+#. [Noun]
+msgid "menu.mode.challenge"
+msgstr "Herausforderung"
+
+#. For challenges like "Win in 30 secs"
+msgid "menu.mode.challenge.mode"
+msgstr "Herausforderungsmodus"
+
+msgid "menu.mode.coop"
+msgstr "Koop"
+
+msgid "menu.mode.cooperative"
+msgstr "Koop-Modus"
+
+msgid "menu.mode.deathmatch"
+msgstr "Deathmatch"
+
+msgid "menu.mode.help"
+msgstr "Hilfe"
+
+msgid "menu.mode.instructions"
+msgstr "Anleitung"
+
+msgid "menu.mode.multiplayer"
+msgstr "Mehrspielermodus"
+
+msgid "menu.mode.multiplayer.local"
+msgstr "Lokaler Mehrspielermodus"
+
+msgid "menu.mode.multiplayer.online"
+msgstr "Online Mehrspielermodus"
+
+msgid "menu.mode.play.online"
+msgstr "Online spielen"
+
+msgid "menu.mode.singleplayer"
+msgstr "Einzelspielermodus"
+
+msgid "menu.mode.training"
+msgstr "Training"
+
+msgid "menu.mode.tutorial"
+msgstr "Tutorial"
+
+msgid "menu.mode.versus"
+msgstr "Versus"
+
+#. Generic – for: human dog ship item
+msgid "menu.name"
+msgstr "Name"
+
+#. First name
+msgid "menu.name.first"
+msgstr "Vorname"
+
+#. Family name
+msgid "menu.name.last"
+msgstr "Nachname"
+
+#. Alias or pseudonym or account name
+msgid "menu.name.user"
+msgstr "Nickname"
+
+msgid "menu.options"
+msgstr "Optionen"
+
+msgid "menu.options.advancedgraphics"
+msgstr "Erweiterte Grafikeinstellungen"
+
+msgid "menu.options.antialiasing"
+msgstr "Antialiasing"
+
+msgid "menu.options.bloom"
+msgstr "Bloom"
+
+msgid "menu.options.controls"
+msgstr "Tastenbelegung"
+
+msgid "menu.options.difficulty"
+msgstr "Schwierigkeitseinstellungen"
+
+msgid "menu.options.display"
+msgstr "Anzeige"
+
+msgid "menu.options.first.person.view"
+msgstr "Egoperspektive"
+
+#. Field of View
+msgid "menu.options.fov"
+msgstr "Sichtfeld"
+
+msgid "menu.options.fullscreen"
+msgstr "Vollbild"
+
+msgid "menu.options.gameplay"
+msgstr "Gameplay-Optionen"
+
+msgid "menu.options.graphics"
+msgstr "Grafikeinstellungen"
+
+#. Heads Up Display
+msgid "menu.options.hud"
+msgstr "Anzeige"
+
+msgid "menu.options.music.volume"
+msgstr "Musiklautstärke"
+
+msgid "menu.options.network"
+msgstr "Netzwerkoptionen"
+
+msgid "menu.options.quality"
+msgstr "Qualität"
+
+msgid "menu.options.resolution"
+msgstr "Auflösung"
+
+msgid "menu.options.sfx.volume"
+msgstr "Soundeffektlautstärke"
+
+msgid "menu.options.shadow"
+msgstr "Schatten"
+
+msgid "menu.options.shadow.plural"
+msgstr "Schatten"
+
+msgid "menu.options.size"
+msgstr "Größe"
+
+msgid "menu.options.sound"
+msgstr "Audioeinstellungen"
+
+msgid "menu.options.sound.volume"
+msgstr "Lautstärke"
+
+msgid "menu.options.splitscreen"
+msgstr "Geteilter Bildschirm"
+
+msgid "menu.options.third.person.view"
+msgstr "Verfolgerperspektive"
+
+msgid "menu.options.video"
+msgstr "Videoeinstellungen"
+
+#. Movie playback quality
+msgid "menu.options.video.quality"
+msgstr "Qualität"
+
+msgid "menu.options.voice.volume"
+msgstr "Stimmenlautstärke"
+
+msgid "menu.options.vsync"
+msgstr "Bildschirmsynchronisation"
+
+msgid "menu.options.windowed"
+msgstr "Fenstermodus"
+
+msgid "menu.options.shader.detail"
+msgstr "Shader-Detail"
+
+msgid "menu.options.texture.detail"
+msgstr "Texturdetails"
+
+msgid "menu.options.multicore.rendering"
+msgstr "Multicore-Rendering"
+
+msgid "menu.options.model.detail"
+msgstr "Modelldetails"
+
+#. Aspect ratio (16:9 or 16:10)
+msgid "menu.options.widescreen"
+msgstr "Breitbild"
+
+msgid "menu.options.effect.detail"
+msgstr "Effektdetails"
+
+#. Filtering mode
+msgid "menu.options.filtering.anisotropic"
+msgstr "Anisotropisch"
+
+#. Filtering mode
+msgid "menu.options.filtering.bilinear"
+msgstr "Bilinear"
+
+#. Filtering mode
+msgid "menu.options.filtering.trilinear"
+msgstr "Trilinear"
+
+msgid "menu.options.filtering.mode"
+msgstr "Filtermodus"
+
+#. (Generic) Very High (short)
+msgid "menu.setting.ultra"
+msgstr "Sehr hoch"
+
+#. (Generic)
+msgid "menu.setting.very.high"
+msgstr "Sehr hoch"
+
+#. (Generic)
+msgid "menu.setting.high"
+msgstr "Hoch"
+
+#. (Generic)
+msgid "menu.setting.medium"
+msgstr "Mittel"
+
+#. (Generic)
+msgid "menu.setting.low"
+msgstr "Niedrig"
+
+#. Game's version number
+msgid "menu.version"
+msgstr "Version"
+
+#. Demo version [short]  '0.3.3 Demo'
+msgid "menu.version.demo"
+msgstr "Demo"
+
+#. Free version [short]
+msgid "menu.version.free"
+msgstr "Kostenlos"
+
+#. Full version [short]
+msgid "menu.version.full"
+msgstr "Komplett"
+
+#. Lite version [short]
+msgid "menu.version.lite"
+msgstr "Lite"
+
+#. Premium version [short]
+msgid "menu.version.premium"
+msgstr "Premium"
+
+#. Shareware version [short]
+msgid "menu.version.shareware"
+msgstr "Shareware"
+
+#. Trial version [short]
+msgid "menu.version.trial"
+msgstr "Trial"
+
+#. For sensitive people in VR
+msgid "menu.vr.comfort.mode"
+msgstr "VR Comfort Mode"
+
+#. Using abbrev. HMD (Head mounted display)
+msgid "menu.vr.hmd.orient.reset"
+msgstr "HMD-Orientierung zurücksetzen"
+
+msgid "menu.vr.virtual.reality"
+msgstr "Virtuelle Realität"
+
+#. Catch-all term for Gamepads Joysticks etc.
+msgid "menu.controls.controller"
+msgstr "Controller"
+
+#. The digital D-Pad
+msgid "menu.controls.dpad"
+msgstr "Steuerkreuz"
+
+msgid "menu.controls.horizontal.sensitivity"
+msgstr "Horizontale Empfindlichkeit"
+
+#. Button layout Stick layout
+msgid "menu.controls.layout"
+msgstr "Tastenbelegung"
+
+msgid "menu.controls.left.stick"
+msgstr "Linker Stick"
+
+msgid "menu.controls.mouse.acceleration"
+msgstr "Mausbeschleunigung"
+
+msgid "menu.controls.mouse.invert"
+msgstr "Maus umkehren"
+
+msgid "menu.controls.mouse.invert.yaxis"
+msgstr "Maus vertikal invertieren"
+
+msgid "menu.controls.mouse.wheel"
+msgstr "Mausrad"
+
+#. When an action is not bound to any key.
+msgid "menu.controls.none"
+msgstr "Unbelegt"
+
+msgid "menu.controls.right.stick"
+msgstr "Rechter Stick"
+
+#. Settings : Gamepad or Joystick stick
+msgid "menu.controls.stick"
+msgstr "Stick"
+
+msgid "menu.controls.vertical.sensitivity"
+msgstr "Vertikale Empfindlichkeit"
+
+msgid "menu.controls.vibration"
+msgstr "Vibration"
+
+msgid "menu.label.allow"
+msgstr "Zulassen"
+
+msgid "menu.label.apply"
+msgstr "Anwenden"
+
+msgid "menu.label.choose.character"
+msgstr "Wähle Charakter"
+
+msgid "menu.label.choose.hero"
+msgstr "Held auswählen"
+
+msgid "menu.label.choose.hero.female"
+msgstr "Heldin auswählen"
+
+#. Choose game language
+msgid "menu.label.choose.language"
+msgstr "Sprachauswahl"
+
+#. Choose game world level
+msgid "menu.label.choose.level"
+msgstr "Levelauswahl"
+
+msgid "menu.label.community"
+msgstr "Community"
+
+msgid "menu.label.default"
+msgstr "Standard"
+
+msgid "menu.label.deny"
+msgstr "Verweigern"
+
+msgid "menu.label.developer.commentary"
+msgstr "Entwicklerkommentare"
+
+msgid "menu.label.developer.console"
+msgstr "Entwicklerkonsole"
+
+msgid "menu.label.disabled"
+msgstr "Abgeschaltet"
+
+msgid "menu.label.done"
+msgstr "Fertig"
+
+msgid "menu.label.enabled"
+msgstr "Aktiviert"
+
+#. Listing of high scores
+msgid "menu.label.high.scores"
+msgstr "Bestenliste"
+
+msgid "menu.label.iap.plural"
+msgstr "In-App-Einkäufe"
+
+#. Listing of high scores often online
+msgid "menu.label.leaderboard.plural"
+msgstr "Bestenlisten"
+
+msgid "menu.label.press.any.btn.continue"
+msgstr "Bitte einen Knopf drücken um fortzufahren"
+
+msgid "menu.label.reset"
+msgstr "Zurücksetzen"
+
+msgid "menu.label.save.plural"
+msgstr "Spart"
+
+#. For secret code or cheat code
+msgid "menu.label.secret.code"
+msgstr "Geheimcode"
+
+msgid "menu.label.start"
+msgstr "Starten"
+
+msgid "menu.label.use.defaults"
+msgstr "Standardeinstellungen verwenden"
+
+#. Performance test
+msgid "menu.mode.benchmark"
+msgstr "Benchmark"
+
+#. [Adjective]
+msgid "menu.mode.local"
+msgstr "Lokal"
+
+#. [Adjective]
+msgid "menu.mode.offline"
+msgstr "Offline"
+
+#. [Adjective]
+msgid "menu.mode.online"
+msgstr "Online"
+
+msgid "menu.options.aspect.ratio"
+msgstr "Seitenverhältnis"
+
+#. Fullscreen/windowed
+msgid "menu.options.display.mode"
+msgstr "Anzeigemodus"
+
+#. Depth of Field abbreviation
+msgid "menu.options.dof"
+msgstr "Tiefenschärfe"
+
+#. Not belonging to a group
+msgid "menu.options.miscellaneous"
+msgstr "Verschiedene Einstellungen"
+
+#. [Noun] Rendering technique
+msgid "menu.options.tesselation"
+msgstr "Tesselierung"
+
+#. (Generic)
+msgid "menu.setting.very.low"
+msgstr "Sehr niedrig"
+
+#. Point lights : amount or toggle
+msgid "menu.options.point.lights"
+msgstr "Punktlichter"
+
+msgid "menu.keys.alt"
+msgstr "Alt"
+
+msgid "menu.keys.ctrl"
+msgstr "Strg"
+
+msgid "menu.keys.shift"
+msgstr "Schicht"
+
+msgid "menu.keys.enter"
+msgstr "Treten Sie ein"
+
+msgid "menu.keys.escape"
+msgstr "Esc"
+
+msgid "menu.keys.space"
+msgstr "Raum"
+
+msgid "menu.io.load.save"
+msgstr "Laden/Speichern"
+
+msgid "menu.keys.tab"
+msgstr "Tab"
+
+msgid "menu.keys.shift.left"
+msgstr "Linksverschiebung"
+
+msgid "menu.keys.shift.right"
+msgstr "Rechtsverschiebung"
+
+msgid "menu.keys.alt.gr"
+msgstr "Alt Gr"
+
+msgid "menu.keys.ctrl.left"
+msgstr "Linke Strg-Taste"
+
+msgid "menu.keys.ctrl.right"
+msgstr "Rechte Strg-Taste"
+
+#. https://en.wikipedia.org/wiki/Windows_key
+msgid "menu.keys.super.left"
+msgstr "Linker Sieg"
+
+msgid "menu.keys.super.right"
+msgstr "Richtiger Sieg"
+
+#. https://en.wikipedia.org/wiki/Command_key
+msgid "menu.keys.command.left"
+msgstr "Linkes Kommando"
+
+msgid "menu.keys.command.right"
+msgstr "Richtiger Befehl"
+
+#. E.g. "Camera mode: Top-Down"
+msgid "menu.options.camera.mode"
+msgstr "Kameramodus"
+
+#. Height of 3rd person camera from the player.
+msgid "menu.options.camera.height"
+msgstr "Kamerahöhe"
+
+#. Camera pitch.
+msgid "menu.options.camera.angle"
+msgstr "Kamerawinkel"
+
+#. 3rd person camera distance from player.
+msgid "menu.options.camera.distance"
+msgstr "Kameraabstand"
+
+#. https://en.wikipedia.org/wiki/Crepuscular_rays
+msgid "menu.options.light.shafts"
+msgstr "Lichtschächte"
+
+msgid "menu.options.lens.flares"
+msgstr "Linseneffekte"
+
+msgid "menu.options.motion.blur"
+msgstr "Bewegungsunschärfe"
+
+#. Ambient sounds like birds chirping.
+msgid "menu.options.ambient.volume"
+msgstr "Umgebungslautstärke"
+
+#. Gameplay sound effects like walking.
+msgid "menu.options.gameplay.volume"
+msgstr "Spiellautstärke"
+
+#. Device used for audio output.
+msgid "menu.options.audio.device"
+msgstr "Audioausgabe"
+
+#. Device used for video output.
+msgid "menu.options.video.device"
+msgstr "Videoausgabe"
+
+#. E.g. For chat visibility.
+msgid "menu.label.allow.all"
+msgstr "Alles zulassen"
+
+#. E.g. For chat visibility.
+msgid "menu.label.team.only"
+msgstr "Nur Team"
+
+#. E.g. For chat visibility.
+msgid "menu.label.squad.only"
+msgstr "Nur Squad"
+
+#. E.g. For chat visibility.
+msgid "menu.label.group.only"
+msgstr "Nur Gruppe"
+
+#. E.g. For chat visibility.
+msgid "menu.label.crew.only"
+msgstr "Nur Besatzung"
+
+#. E.g. For chat visibility.
+msgid "menu.label.party.only"
+msgstr "Nur Party"
+
+#. For enabling/disabling cross-platform play.
+msgid "menu.options.cross.platform.play"
+msgstr "Plattformübergreifendes Spielen"
+
+msgid "menu.label.cross.platform.multiplayer"
+msgstr "Plattformübergreifender Multiplayer"
+
+#. multiplayer lobby/list of games
+msgid "menu.label.refresh"
+msgstr "Aktualisieren"
+
+msgid "menu.io.overwrite.save.data"
+msgstr "Aktuelle Speicherdaten überschreiben?"
+
+#. [Infinitive/tutorial verb] Change name
+msgid "menu.label.rename"
+msgstr "Umbenennen"
+
+#. We have "Main Menu" but don't have generic "Menu"
+msgid "menu.label.menu"
+msgstr "Menü"
+
+#. Look up the Achievements in the menu
+msgid "menu.label.achievements"
+msgstr "Auszeichnungen"
+
+#. [Infinitive/tutorial verb] e.g. a button with label "change", push this and your text is saved
+msgid "menu.label.change.verb"
+msgstr "Ändern"
+
+msgid "menu.label.audio"
+msgstr "Audio"
+
+#. Yes/no question
+msgid "menu.override.save.question"
+msgstr "Dadurch wird der vorherige Speichervorgang überschrieben. Sind Sie sicher?"
+
+msgid "menu.will.save.progress"
+msgstr "Der Fortschritt wird gespeichert"
+
+#. [Infinitive/tutorial verb] Hold control
+msgid "menu.controls.hold"
+msgstr "Halt"
+
+#. for some option changes that requires restarting the game
+msgid "menu.label.restart.required"
+msgstr "Neustart erforderlich"

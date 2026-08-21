@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gameplay\n"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.attack"
+msgstr "Attackiere"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.boost"
+msgstr "Boost"
+
+#. [Infinitive/tutorial verb] Build house
+msgid "game.action.build"
+msgstr "Bauen"
+
+#. [Infinitive/tutorial verb] Cast fishing lure
+msgid "game.action.cast.fishing"
+msgstr "Werfe"
+
+#. [Infinitive/tutorial verb] Cast a spell
+msgid "game.action.cast.spell"
+msgstr "Beschwöre"
+
+#. [Infinitive/tutorial verb] To take possession of
+msgid "game.action.claim"
+msgstr "Beanspruchen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.climb"
+msgstr "Klettern"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.close"
+msgstr "Schließen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.collect"
+msgstr "Sammle"
+
+#. [Infinitive/tutorial verb] Cook food
+msgid "game.action.cook"
+msgstr "Kochen"
+
+#. [Infinitive/tutorial verb] Create item
+msgid "game.action.craft"
+msgstr "Herstellen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.crouch"
+msgstr "Ducken"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.dodge"
+msgstr "Ausweichen"
+
+#. [Infinitive/tutorial verb] Accelerate/Brake
+msgid "game.action.drive"
+msgstr "Fahren"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.fly"
+msgstr "Fliegen"
+
+msgid "game.action.full.speed"
+msgstr "Höchstgeschwindigkeit"
+
+#. [Infinitive/tutorial verb] To go somewhere
+msgid "game.action.go"
+msgstr "Gehen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.to.place"
+msgstr "Hierher gehen"
+
+msgid "game.action.half.speed"
+msgstr "Halbe Geschwindigkeit"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.heal"
+msgstr "Heile"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump"
+msgstr "Springen"
+
+#. [Infinitive/tutorial verb] Plane stops flying
+msgid "game.action.land"
+msgstr "Landen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.look"
+msgstr "Gucken"
+
+#. [Infinitive/tutorial verb] Mix potions
+msgid "game.action.mix"
+msgstr "Mixen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.open"
+msgstr "Öffnen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.pick.up"
+msgstr "Aufnehmen"
+
+#. [Infinitive/tutorial verb] Begin a Race in a competition
+msgid "game.action.race"
+msgstr "Rase"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.read"
+msgstr "Lesen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.replace"
+msgstr "Ersetze"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.run"
+msgstr "Rennen"
+
+#. [Infinitive/tutorial verb] Escape a situation by foot
+msgid "game.action.run.away"
+msgstr "Lauf weg"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.shoot"
+msgstr "Schieße"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sneak"
+msgstr "Schleichen"
+
+#. [Infinitive/tutorial verb] Spin a wheel
+msgid "game.action.spin"
+msgstr "Drehen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sprint"
+msgstr "Sprinten"
+
+#. [Infinitive/tutorial verb] Left/Right
+msgid "game.action.steer"
+msgstr "Lenken"
+
+#. [Infinitive/tutorial verb] Plane starts flying
+msgid "game.action.take.off"
+msgstr "Abheben"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.talk"
+msgstr "Reden"
+
+#. [Infinitive/tutorial verb] Aggressive
+msgid "game.action.throw"
+msgstr "Werfe"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.walk"
+msgstr "Laufen"
+
+#. Like 'Stamina'
+msgid "game.character.endurance"
+msgstr "Ausdauer"
+
+msgid "game.character.exp"
+msgstr "Erfahrungspunkte"
+
+#. [Noun]
+msgid "game.character.female"
+msgstr "Weiblich"
+
+msgid "game.character.health"
+msgstr "Gesundheit"
+
+#. 1 heart
+msgid "game.character.heart"
+msgstr "Herz"
+
+#. [Plural] 3 hearts
+msgid "game.character.heart.plural"
+msgstr "Herzen"
+
+#. Character's level
+msgid "game.character.level"
+msgstr "Level"
+
+msgid "game.character.level.up"
+msgstr "Level up!"
+
+msgid "game.character.lives"
+msgstr "Leben"
+
+#. [Noun]
+msgid "game.character.male"
+msgstr "Männlich"
+
+#. [Noun]
+msgid "game.character.man"
+msgstr "Mann"
+
+#. [Noun][Plural]
+msgid "game.character.man.plural"
+msgstr "Männer"
+
+msgid "game.character.respawn"
+msgstr "Wiederbelebung"
+
+msgid "game.character.respawn.in"
+msgstr "Wiederbelebung in:"
+
+msgid "game.character.respawn.question"
+msgstr "Wiederbeleben?"
+
+msgid "game.character.respawning"
+msgstr "Wiederbeleben"
+
+msgid "game.character.skill"
+msgstr "Fähigkeiten"
+
+msgid "game.character.spawn.point"
+msgstr "Spawn-Punkt"
+
+#. [Noun]
+msgid "game.character.transgender"
+msgstr "Transsexuell"
+
+#. [Noun]
+msgid "game.character.woman"
+msgstr "Frau"
+
+#. [Noun][Plural]
+msgid "game.character.woman.plural"
+msgstr "Frauen"
+
+#. generic : damage to vehicle body etc
+msgid "game.damage"
+msgstr "Schaden"
+
+#. RPG attack
+msgid "game.damage.critical.hit"
+msgstr "Kritischer Treffer"
+
+#. RPG attack miss
+msgid "game.damage.critical.miss"
+msgstr "Kritischer Fehltreffer"
+
+#. RPG attack
+msgid "game.damage.hit.noun"
+msgstr "Treffer"
+
+#. Health
+msgid "game.damage.hit.points.plural"
+msgstr "Kraftpunkte"
+
+#. RPG attack miss
+msgid "game.damage.miss.noun"
+msgstr "Verfehlt!"
+
+#. 1 damage unit
+msgid "game.damage.unit"
+msgstr "Schaden"
+
+#. [Plural] 5 damage units
+msgid "game.damage.unit.plural"
+msgstr "Schaden"
+
+#. [Noun]
+msgid "game.enemy"
+msgstr "Gegner"
+
+#. [Noun]
+msgid "game.enemy.female"
+msgstr "Gegnerin"
+
+#. [Noun]
+msgid "game.enemy.female.plural"
+msgstr "Gegnerinnen"
+
+#. [Noun]
+msgid "game.enemy.plural"
+msgstr "Gegner"
+
+msgid "game.inventory"
+msgstr "Inventar"
+
+msgid "game.inventory.ammo"
+msgstr "Munition"
+
+msgid "game.inventory.ammunition"
+msgstr "Munition"
+
+msgid "game.inventory.bullet"
+msgstr "Patrone"
+
+msgid "game.inventory.bullet.plural"
+msgstr "Patronen"
+
+msgid "game.inventory.buy"
+msgstr "Kaufen"
+
+msgid "game.inventory.capacity"
+msgstr "Inventarkapazität"
+
+msgid "game.inventory.drop"
+msgstr "wegwerfen"
+
+#. How much is being carried
+msgid "game.inventory.encumbrance"
+msgstr "Beladung"
+
+msgid "game.inventory.full"
+msgstr "Inventar voll"
+
+msgid "game.inventory.item"
+msgstr "Gegenstand"
+
+msgid "game.inventory.key"
+msgstr "Schlüssel"
+
+msgid "game.inventory.powerup"
+msgstr "Power-Up"
+
+msgid "game.inventory.sell"
+msgstr "Verkaufen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.inventory.use"
+msgstr "Benutze"
+
+msgid "game.inventory.weapon"
+msgstr "Waffe"
+
+msgid "game.inventory.weapons"
+msgstr "Waffen"
+
+msgid "game.inventory.you.cannot.carry"
+msgstr "Sie können nichts mehr tragen."
+
+#. [Imperative verb]
+msgid "game.label.be.careful"
+msgstr "Sei vorsichtig!"
+
+#. [Imperative verb]
+msgid "game.label.please.be.careful"
+msgstr "Bitte sei vorsichtig."
+
+msgid "game.label.tactics"
+msgstr "Taktiken"
+
+msgid "game.objective"
+msgstr "Ziel"
+
+#. [Noun]
+msgid "game.objective.assist"
+msgstr "Hilfe"
+
+msgid "game.objective.assist.plural"
+msgstr "Hilfen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.attack"
+msgstr "Attackiere"
+
+msgid "game.objective.bonus"
+msgstr "Bonus"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.capture"
+msgstr "Fang"
+
+#. Has been completed
+msgid "game.objective.complete"
+msgstr "Vollständig"
+
+msgid "game.objective.death"
+msgstr "Tod"
+
+msgid "game.objective.death.plural"
+msgstr "Tode"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.defend"
+msgstr "Verteidige"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.destroy"
+msgstr "Zerstöre"
+
+#. [Infinitive/tutorial verb] Escape a situation
+msgid "game.objective.escape"
+msgstr "Entkomme"
+
+#. Completed the game : end of story
+msgid "game.objective.game.finished"
+msgstr "Ende"
+
+#. Died lost destroyed etc
+msgid "game.objective.gameover"
+msgstr "Spiel vorbei!"
+
+msgid "game.objective.gameover.caps"
+msgstr "SPIEL VORBEI!"
+
+#. The highest score
+msgid "game.objective.high.score"
+msgstr "Höchstpunktzahl"
+
+msgid "game.objective.incomplete"
+msgstr "Unvollständig"
+
+#. [Infinitive/tutorial verb] "to kill the bird"
+msgid "game.objective.kill"
+msgstr "Töten"
+
+#. [Noun]
+msgid "game.objective.kill.assist"
+msgstr "Assistiert"
+
+#. [Noun] As in "One kill"
+msgid "game.objective.kill.noun"
+msgstr "Kill"
+
+#. As in "Two kills"
+msgid "game.objective.kill.plural"
+msgstr "Kills"
+
+msgid "game.objective.locked"
+msgstr "Gesperrt"
+
+msgid "game.objective.losses"
+msgstr "Niederlagen"
+
+msgid "game.objective.match"
+msgstr "Spiel"
+
+#. [Noun]
+msgid "game.objective.mission"
+msgstr "Mission"
+
+msgid "game.objective.mission.objective.plural"
+msgstr "Missionsziele"
+
+msgid "game.objective.mission.objective"
+msgstr "Missionsziel"
+
+msgid "game.objective.multiplier"
+msgstr "Multiplikator"
+
+msgid "game.objective.plural"
+msgstr "Ziele"
+
+#. Position in order from winner to loser
+msgid "game.objective.position"
+msgstr "Position"
+
+#. Racing lap
+msgid "game.objective.race.lap"
+msgstr "Runde"
+
+#. Racing laps
+msgid "game.objective.race.lap.plural"
+msgstr "Runden"
+
+#. [Noun] As in part of match
+msgid "game.objective.round"
+msgstr "Runde"
+
+msgid "game.objective.score"
+msgstr "Punktzahl"
+
+#. For countdown timers or elapsed time
+msgid "game.objective.time"
+msgstr "Zeit"
+
+msgid "game.objective.time.left"
+msgstr "Zeit übrig"
+
+msgid "game.objective.tournament"
+msgstr "Wettkampf"
+
+msgid "game.objective.tournament.plural"
+msgstr "Wettkämpfe"
+
+msgid "game.objective.wins"
+msgstr "Siege"
+
+#. [Noun]
+msgid "game.status.defeat"
+msgstr "Niederlage"
+
+msgid "game.status.defeated"
+msgstr "Du wurdest besiegt!"
+
+msgid "game.status.loser"
+msgstr "Verlierer"
+
+msgid "game.status.team.lost"
+msgstr "Team hat verloren"
+
+msgid "game.status.team.won"
+msgstr "Team hat gewonnen"
+
+#. [Noun]
+msgid "game.status.victory"
+msgstr "Sieg"
+
+msgid "game.status.winner"
+msgstr "Gewinner"
+
+#. [Default male]
+msgid "game.status.you.are.dead"
+msgstr "Du bist tot."
+
+msgid "game.status.you.died"
+msgstr "Du bist gestorben."
+
+msgid "game.status.you.lose"
+msgstr "Verloren!"
+
+msgid "game.status.you.lost"
+msgstr "Du hast verloren!"
+
+msgid "game.status.you.win"
+msgstr "Gewonnen!"
+
+msgid "game.status.you.won"
+msgstr "Du hast gewonnen!"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.aim"
+msgstr "Zielen"
+
+#. [Noun]
+msgid "game.action.attacking"
+msgstr "Angreifen"
+
+#. [Infinitive/tutorial verb] Running attack
+msgid "game.action.charge"
+msgstr "Aufladen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.self"
+msgstr "Verteidigen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.target"
+msgstr "Ziel verteidigen"
+
+#. [Infinitive/tutorial verb] Heal self
+msgid "game.action.heal.self"
+msgstr "Selbstheilung"
+
+#. [Infinitive/tutorial verb] Heal target
+msgid "game.action.heal.target"
+msgstr "Ziel heilen"
+
+#. [Infinitive/tutorial verb] Character spins
+msgid "game.action.spin.around"
+msgstr "Umdrehen"
+
+#. Singular of Hit Points
+msgid "game.damage.hit.point"
+msgstr "Lebenspunkt"
+
+msgid "game.objective.mission.failed"
+msgstr "Auftrag gescheitert"
+
+msgid "game.objective.mission.succesful"
+msgstr "Auftrag ausgeführt"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.prone"
+msgstr "Kriechen"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.take.cover"
+msgstr "In Deckung gehen"
+
+msgid "game.politics.hostile"
+msgstr "Feind"
+
+msgid "game.politics.hostile.plural"
+msgstr "Feinde"
+
+msgid "game.politics.hostile.female"
+msgstr "Feindin"
+
+msgid "game.politics.hostile.female.plural"
+msgstr "Feindinnen"
+
+#. [Adjective]
+msgid "game.politics.allied"
+msgstr "Verbündet"
+
+#. [Adjective]
+msgid "game.politics.neutral"
+msgstr "Neutral"
+
+#. [Adjective]
+msgid "game.politics.opposing"
+msgstr "Entgegengesetzt"
+
+#. [Noun] ' The opposition '
+msgid "game.politics.opposition"
+msgstr "Gegner"
+
+#. [Noun]
+msgid "game.politics.ally"
+msgstr "Verbündeter"
+
+#. [Noun]
+msgid "game.politics.ally.plural"
+msgstr "Verbündete"
+
+#. [Noun]
+msgid "game.politics.ally.female"
+msgstr "Verbündete"
+
+#. [Noun]
+msgid "game.politics.ally.female.plural"
+msgstr "Verbündete"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.alliance"
+msgstr "Bündnis"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.enmity"
+msgstr "Feindschaft"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.neutrality"
+msgstr "Neutralität"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.forward"
+msgstr "Fahren Sie vorwärts"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.backwards"
+msgstr "Fahren Sie rückwärts"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.left"
+msgstr "Lenken Sie nach links"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.right"
+msgstr "Lenken Sie nach rechts"
+
+#. [Verb/Infinitive] Sliding on the ground after running.
+msgid "game.action.slide"
+msgstr "Rutsche"
+
+#. [Verb/Infinitive] In a racing game.
+msgid "game.action.powerslide"
+msgstr "Powerslide"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.right"
+msgstr "Luftsteuerung nach rechts"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.left"
+msgstr "Luftsteuerung links"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.up"
+msgstr "Luftanstieg"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.down"
+msgstr "Luftneigung nach unten"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll"
+msgstr "Luftrolle"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.right"
+msgstr "Luftrolle nach rechts"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.left"
+msgstr "Luftrolle links"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch"
+msgstr "Luftpitch"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer"
+msgstr "Luftlenkung"
+
+#. Focus while aiming through iron sights.
+msgid "game.action.focus"
+msgstr "Konzentrieren Sie sich"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.up"
+msgstr "Pitch auf"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.down"
+msgstr "Pitch runter"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.vehicle"
+msgstr "Rollen"
+
+#. [Infinitive/tutorial verb] A character performs a ground roll.
+msgid "game.action.roll.character"
+msgstr "Abrollen"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.right"
+msgstr "Nach rechts rollen"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.left"
+msgstr "Nach links rollen"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch"
+msgstr "Tonhöhe"
+
+#. [Noun] Common in racing games.
+msgid "game.action.rear.view"
+msgstr "Rückansicht"
+
+#. [Noun] Global/Common chatting.
+msgid "game.action.chat"
+msgstr "Chatten"
+
+#. [Noun]
+msgid "game.action.chat.global"
+msgstr "Globaler Chat"
+
+#. [Noun]
+msgid "game.action.chat.server"
+msgstr "Server-Chat"
+
+#. [Noun]
+msgid "game.action.chat.quick"
+msgstr "Kurzer Chat"
+
+#. [Noun]
+msgid "game.action.chat.team"
+msgstr "Team-Chat"
+
+#. [Noun]
+msgid "game.action.chat.squad"
+msgstr "Squad-Chat"
+
+#. [Noun]
+msgid "game.action.chat.group"
+msgstr "Gruppenchat"
+
+#. [Noun]
+msgid "game.action.chat.crew"
+msgstr "Crew-Chat"
+
+#. [Noun]
+msgid "game.action.chat.party"
+msgstr "Party-Chat"
+
+#. [Infinitive/tutorial verb] put away; place an item into container for later use
+msgid "game.action.store"
+msgstr "Einlagern"
+
+#. [Infinitive/tutorial verb] place an item into/on somewhere/something (generic term)
+msgid "game.action.put.item"
+msgstr "Setzen"
+
+#. [Verb/Infinitive] wear something (armor, weapon, etc.)/install an equipment
+msgid "game.inventory.equip"
+msgstr "Ausrüsten"
+
+#. [Verb/Infinitive]
+msgid "game.inventory.unequip"
+msgstr "Ausrüsten"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump.plural"
+msgstr "Springt"
+
+#. [Adjective?] without limit
+msgid "game.character.unlimited"
+msgstr "unbegrenzt"
+
+#. [Noun] name for a list of items you have registered as favourite
+msgid "game.inventory.favorites"
+msgstr "Favoriten"
+
+#. [Infinitive/tutorial verb] to register an item onto a keyboard shortcut, as favourites, etc.
+msgid "game.inventory.register"
+msgstr "Registrieren"
+
+#. [Infinitive/tutorial verb] the most basic thing WASD should do
+msgid "game.action.move.verb"
+msgstr "Verschieben"
+
+#. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
+msgid "game.action.zoom"
+msgstr "Zoomen"

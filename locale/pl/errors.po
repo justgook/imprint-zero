@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "Nie wykryto %s."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Opuszczanie strefy śledzenia."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "Nie wykryto HMD."
+
+msgid "error.generic.errcode"
+msgstr "Kod błędu:"
+
+msgid "error.generic.text"
+msgstr "Wystąpił jakiś błąd."
+
+msgid "error.generic.invalid.name"
+msgstr "Błędna nazwa."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Nieprawidłowy numer seryjny."
+
+msgid "error.generic.cheating"
+msgstr "Wykryto użycie kodów!"
+
+msgid "error.network.connection.lost"
+msgstr "Stracono połączenie."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Twój przeciwnik się rozłączył."
+
+msgid "error.network.disconnected.your.player"
+msgstr "Gracz się rozłączył."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Członek Twojej drużyny się rozłączył."
+
+msgid "error.network.server"
+msgstr "Nie można połączyć się z serwerem."
+
+msgid "error.save.corrupted"
+msgstr "Uszkodzony plik zapisu gry."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Nie znaleziono zapisanych gier."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Brak gier."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Gracz się rozłączył"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Przeciwnik się rozłączył"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Członek drużyny się rozłączył"

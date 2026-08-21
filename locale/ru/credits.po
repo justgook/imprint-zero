@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: credits\n"
+
+msgid "credits.game"
+msgstr "Игра"
+
+msgid "credits.game.development"
+msgstr "Разработка игры"
+
+#. [Default male]
+msgid "credits.game.developer"
+msgstr "Игровой разработчик"
+
+msgid "credits.developed.by"
+msgstr "Разработано"
+
+msgid "credits.production"
+msgstr "Производство"
+
+#. [Default male]
+msgid "credits.producer"
+msgstr "Продюсер"
+
+#. [Default male]
+msgid "credits.publisher"
+msgstr "Издатель"
+
+#. [Default male]
+msgid "credits.director"
+msgstr "Режиссёр"
+
+msgid "credits.lead"
+msgstr "Руководитель"
+
+msgid "credits.assistant"
+msgstr "Заместитель"
+
+msgid "credits.associate"
+msgstr "Партнёр"
+
+msgid "credits.senior"
+msgstr "Старший"
+
+msgid "credits.junior"
+msgstr "Младший"
+
+msgid "credits.chief.tech.officer"
+msgstr "Главный технический директор"
+
+#. [Default male]
+msgid "credits.technical.director"
+msgstr "Технический директор"
+
+#. [Default male]
+msgid "credits.creative.director"
+msgstr "Креативный директор"
+
+#. [Default male]
+msgid "credits.animation.director"
+msgstr "Режиссёр анимации"
+
+#. [Default male]
+msgid "credits.art.director"
+msgstr "Арт-директор"
+
+#. [Default male]
+msgid "credits.audio.director"
+msgstr "Аудио-директор"
+
+#. [Default male]
+msgid "credits.program.manager"
+msgstr "Руководитель программы"
+
+#. [Default male]
+msgid "credits.project.manager"
+msgstr "Руководитель проекта"
+
+msgid "credits.game.design"
+msgstr "Гейм-дизайн"
+
+#. [Default male]
+msgid "credits.game.designer"
+msgstr "Гейм-дизайнер"
+
+#. Programming code
+msgid "credits.code"
+msgstr "Код"
+
+msgid "credits.programming"
+msgstr "Программирование"
+
+#. [Default male]
+msgid "credits.programmer"
+msgstr "Программисты"
+
+#. [Default male]
+msgid "credits.programmer.plural"
+msgstr "Программисты"
+
+#. [Default male]
+msgid "credits.lead.programmer"
+msgstr "Ведущий программист"
+
+#. [Default male]
+msgid "credits.graphic.designer"
+msgstr "Графический дизайнер"
+
+#. [Default male]
+msgid "credits.technical.artist"
+msgstr "Технический художник"
+
+#. [Default male]
+msgid "credits.concept.artist"
+msgstr "Концепт-художник"
+
+#. [Default male]
+msgid "credits.character.designer"
+msgstr "Дизайнер персонажей"
+
+msgid "credits.art"
+msgstr "Графика"
+
+#. [Singular]
+msgid "credits.artist"
+msgstr "Художник"
+
+#. [Plural]
+msgid "credits.artist.plural"
+msgstr "Художники"
+
+msgid "credits.level.design"
+msgstr "Дизайн уровней"
+
+#. [Singular]
+msgid "credits.level.designer"
+msgstr "Дизайнер уровней"
+
+#. [Default male]
+msgid "credits.cinematics.director"
+msgstr "Кинематографический директор"
+
+#. [Default male]
+msgid "credits.cinematic.animator"
+msgstr "Кинематографический художник"
+
+#. [Default male]
+msgid "credits.interface.artist"
+msgstr "Художник интерфейса"
+
+#. [Default male]
+msgid "credits.composer"
+msgstr "Композитор"
+
+#. [Default male]
+msgid "credits.musician"
+msgstr "Музыкант"
+
+msgid "credits.special.thanks"
+msgstr "Особая благодарность"
+
+msgid "credits.special.thanks.to"
+msgstr "Особая благодарность"
+
+msgid "credits.image"
+msgstr "Изображение"
+
+msgid "credits.image.plural"
+msgstr "Изображения"
+
+msgid "credits.font"
+msgstr "Шрифт"
+
+msgid "credits.font.plural"
+msgstr "Шрифты"
+
+msgid "credits.soundtrack"
+msgstr "Саундтрек"
+
+#. [Default male]
+msgid "credits.writer"
+msgstr "Автор"
+
+msgid "credits.manuscript"
+msgstr "Рукопись"
+
+#. [Default male]
+msgid "credits.script.writer"
+msgstr "Сценарист"
+
+msgid "credits.animation"
+msgstr "Анимация"
+
+msgid "credits.animator"
+msgstr "Аниматор"
+
+msgid "credits.voice.acting"
+msgstr "Озвучивание"
+
+#. [Default male]
+msgid "credits.voice.actor"
+msgstr "Актёр озвучивания"
+
+#. [Default male]
+msgid "credits.sound.designer"
+msgstr "Саунд-дизайнер"
+
+#. [Default male]
+msgid "credits.sound.engineer"
+msgstr "Звукорежиссёр"
+
+msgid "credits.sfx"
+msgstr "Звуковые эффекты"
+
+msgid "credits.vfx"
+msgstr "Визуальные эффекты"
+
+#. [Default male] Someone who records sound
+msgid "credits.recordist"
+msgstr "Звукооператор"
+
+#. [Default male] Special sound FX
+msgid "credits.foley.artist"
+msgstr "Шумовик"
+
+#. [Default male]
+msgid "credits.test.manager"
+msgstr "Тест-менеджер"
+
+#. [Default male]
+msgid "credits.test.lead"
+msgstr "Руководитель тестирования"
+
+#. [Default male]
+msgid "credits.tester"
+msgstr "Тестер"
+
+#. [Default male]
+msgid "credits.database.admin"
+msgstr "Администратор базы данных"
+
+msgid "credits.3d.modeling"
+msgstr "3D моделирование"
+
+msgid "credits.models"
+msgstr "Модели"
+
+msgid "credits.localization"
+msgstr "Локализация"
+
+msgid "credits.translation"
+msgstr "Перевод"

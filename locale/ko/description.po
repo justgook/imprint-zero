@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "액션 게임"
+
+msgid "game.genre.adventure"
+msgstr "어드벤처 게임"
+
+msgid "game.genre.card"
+msgstr "카드 게임"
+
+msgid "game.genre.casual"
+msgstr "캐주얼 게임"
+
+msgid "game.genre.fantasy"
+msgstr "판타지 게임"
+
+msgid "game.genre.hardcore"
+msgstr "하드코어 게임"
+
+msgid "game.genre.indie"
+msgstr "인디"
+
+msgid "game.genre.medieval"
+msgstr "중세 게임"
+
+msgid "game.genre.misc"
+msgstr "기타"
+
+msgid "game.genre.multiplayer"
+msgstr "멀티플레이어"
+
+msgid "game.genre.name"
+msgstr "장르"
+
+msgid "game.genre.platformer"
+msgstr "플랫폼 게임"
+
+msgid "game.genre.puzzle"
+msgstr "퍼즐 게임"
+
+msgid "game.genre.quiz"
+msgstr "퀴즈 게임"
+
+msgid "game.genre.racing"
+msgstr "레이싱"
+
+msgid "game.genre.retro"
+msgstr "레트로 게임"
+
+msgid "game.genre.rpg"
+msgstr "롤플레잉 게임"
+
+msgid "game.genre.rts"
+msgstr "실시간 전략"
+
+msgid "game.genre.scifi"
+msgstr "SF 게임"
+
+msgid "game.genre.shooter"
+msgstr "슈팅 게임"
+
+msgid "game.genre.simulation"
+msgstr "시뮬레이션 게임"
+
+msgid "game.genre.singleplayer"
+msgstr "싱글플레이어"
+
+msgid "game.genre.sports"
+msgstr "스포츠 게임"
+
+msgid "game.genre.strategy"
+msgstr "전략 게임"
+
+msgid "game.genre.tbs"
+msgstr "턴제 전략"
+
+msgid "game.genre.tower.defense"
+msgstr "타워 디펜스 게임"
+
+msgid "game.genre.async"
+msgstr "비동기 멀티플레이어"
+
+msgid "game.genre.arcade"
+msgstr "아케이드 게임"
+
+msgid "game.genre.beatemup"
+msgstr "진행형 격투 게임"
+
+msgid "game.genre.shootemup"
+msgstr "탄막 슈팅"
+
+msgid "game.genre.graphic.adventure"
+msgstr "그래픽 어드벤처"
+
+msgid "game.genre.text.adventure"
+msgstr "텍스트 어드벤처"
+
+msgid "game.genre.stealth.game"
+msgstr "잠입 게임"
+
+msgid "game.genre.pointandclick.game"
+msgstr "포인트 앤 클릭 게임"
+
+msgid "game.genre.roguelike"
+msgstr "로그라이크"
+
+msgid "game.genre.visual.novel"
+msgstr "비주얼 노벨"
+
+msgid "game.genre.dating.sim"
+msgstr "연애 시뮬레이션"
+
+msgid "game.genre.match.three"
+msgstr "세 타일 맞추기"
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "타일 맞추기"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "게임"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "어드벤처"

@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menus\n"
+
+msgid "menu.camera"
+msgstr "카메라"
+
+msgid "menu.camera.inverted"
+msgstr "반전"
+
+msgid "menu.camera.normal"
+msgstr "보통"
+
+#. Camera X Axis setting
+msgid "menu.camera.xaxis"
+msgstr "카메라 가로축"
+
+msgid "menu.camera.yaxis"
+msgstr "카메라 세로축"
+
+msgid "menu.controls.button"
+msgstr "버튼"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.click"
+msgstr "클릭"
+
+msgid "menu.controls.deadzone"
+msgstr "데드존"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.double.click"
+msgstr "이중 클릭"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag"
+msgstr "끌기"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag.drop"
+msgstr "끌어다 놓기"
+
+#. [Noun] Touch control
+msgid "menu.controls.finger"
+msgstr "터치 조작"
+
+msgid "menu.controls.gamepad"
+msgstr "게임 패드"
+
+msgid "menu.controls.gyroscope"
+msgstr "자이로스코프"
+
+#. Keyboard key
+msgid "menu.controls.key"
+msgstr "글쇠"
+
+msgid "menu.controls.keyboard"
+msgstr "자판"
+
+msgid "menu.controls.mouse"
+msgstr "마우스"
+
+msgid "menu.controls.mouse.sensitivity"
+msgstr "마우스 감도"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.pinch"
+msgstr "손가락 모으기"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.rotate"
+msgstr "돌리기"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.scroll"
+msgstr "스크롤"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.shake"
+msgstr "흔들기"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.spread"
+msgstr "손가락 펼치기"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.swipe"
+msgstr "밀기"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.tap"
+msgstr "터치하기"
+
+msgid "menu.controls.the.button"
+msgstr "버튼"
+
+#. The keyboard key
+msgid "menu.controls.the.key"
+msgstr "글쇠"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.tilt"
+msgstr "기울이기"
+
+msgid "menu.customize.arm"
+msgstr "팔"
+
+msgid "menu.customize.arm.plural"
+msgstr "팔"
+
+#. Body part not treasure
+msgid "menu.customize.chest"
+msgstr "가슴"
+
+msgid "menu.customize.chin"
+msgstr "턱"
+
+msgid "menu.customize.color"
+msgstr "색"
+
+msgid "menu.customize.ear"
+msgstr "귀"
+
+msgid "menu.customize.ear.plural"
+msgstr "귀"
+
+msgid "menu.customize.eye"
+msgstr "눈"
+
+msgid "menu.customize.eye.plural"
+msgstr "눈"
+
+msgid "menu.customize.feet"
+msgstr "발"
+
+msgid "menu.customize.foot"
+msgstr "발"
+
+#. All-purpose term
+msgid "menu.customize.hair"
+msgstr "털"
+
+#. Facial hair
+msgid "menu.customize.hair.beard"
+msgstr "수염"
+
+#. Animal fur
+msgid "menu.customize.hair.fur"
+msgstr "털"
+
+msgid "menu.customize.hair.head"
+msgstr "머리카락"
+
+msgid "menu.customize.hand"
+msgstr "손"
+
+msgid "menu.customize.hand.plural"
+msgstr "손"
+
+msgid "menu.customize.head"
+msgstr "머리"
+
+msgid "menu.customize.hips"
+msgstr "엉덩이"
+
+msgid "menu.customize.leg"
+msgstr "다리"
+
+msgid "menu.customize.leg.plural"
+msgstr "다리"
+
+msgid "menu.customize.mouth"
+msgstr "입"
+
+msgid "menu.customize.neck"
+msgstr "목"
+
+msgid "menu.customize.nose"
+msgstr "코"
+
+msgid "menu.customize.skin"
+msgstr "피부"
+
+msgid "menu.customize.thorax"
+msgstr "상반신"
+
+#. Difficulty
+msgid "menu.difficulty"
+msgstr "난이도"
+
+#. Difficulty
+msgid "menu.difficulty.easy"
+msgstr "쉬움"
+
+#. Difficulty
+msgid "menu.difficulty.hard"
+msgstr "어려움"
+
+#. Difficulty
+msgid "menu.difficulty.impossible"
+msgstr "불가능"
+
+#. Difficulty
+msgid "menu.difficulty.insane"
+msgstr "매니악"
+
+#. Difficulty
+msgid "menu.difficulty.medium"
+msgstr "보통"
+
+#. Difficulty
+msgid "menu.difficulty.very.easy"
+msgstr "매우 쉬움"
+
+#. Difficulty
+msgid "menu.difficulty.very.hard"
+msgstr "매우 어려움"
+
+msgid "menu.dir.down"
+msgstr "아래"
+
+msgid "menu.dir.left"
+msgstr "왼쪽"
+
+msgid "menu.dir.right"
+msgstr "오른쪽"
+
+msgid "menu.dir.up"
+msgstr "위"
+
+msgid "menu.io.load"
+msgstr "불러오기"
+
+msgid "menu.io.load.game"
+msgstr "게임 불러오기"
+
+msgid "menu.io.loading"
+msgstr "불러오는 중..."
+
+msgid "menu.io.please.wait"
+msgstr "잠시만 기다려 주세요"
+
+#. Reset whatever save data is in focus
+msgid "menu.io.reset.save.data"
+msgstr "저장된 데이터를 초기화할까요?"
+
+#. [Verb]
+msgid "menu.io.save"
+msgstr "저장"
+
+#. [Verb]
+msgid "menu.io.save.data"
+msgstr "저장된 데이터"
+
+#. [Verb]
+msgid "menu.io.save.game"
+msgstr "게임 저장"
+
+msgid "menu.io.saving"
+msgstr "저장하는 중"
+
+msgid "menu.label.all"
+msgstr "모두"
+
+msgid "menu.label.age"
+msgstr "나이"
+
+msgid "menu.label.are.you.really.sure"
+msgstr "정말로 확실합니까?"
+
+#. A generic confirmation
+msgid "menu.label.are.you.sure"
+msgstr "확실합니까?"
+
+#. Back one level in selections
+msgid "menu.label.back"
+msgstr "뒤로"
+
+msgid "menu.label.background.music"
+msgstr "배경 음악"
+
+msgid "menu.label.cancel"
+msgstr "취소"
+
+#. Close window
+msgid "menu.label.close"
+msgstr "닫기"
+
+#. Choose selected button
+msgid "menu.label.confirm.button"
+msgstr "확인"
+
+msgid "menu.label.continue"
+msgstr "계속"
+
+msgid "menu.label.continue.question"
+msgstr "계속할까요?"
+
+#. Authors list
+msgid "menu.label.credits"
+msgstr "제작진"
+
+msgid "menu.label.desktop"
+msgstr "바탕화면으로 나가기"
+
+msgid "menu.label.desktop.question"
+msgstr "바탕화면으로 나가겠습니까?"
+
+#. Downloadable content (abbreviation/short)
+msgid "menu.label.dlc"
+msgstr "DLC"
+
+#. [Verb]
+msgid "menu.label.download"
+msgstr "내려받기"
+
+#. Downloadable content (long)
+msgid "menu.label.downloadable"
+msgstr "다운로드 콘텐츠"
+
+#. Leave a state or place
+msgid "menu.label.exit"
+msgstr "나가기"
+
+msgid "menu.label.exit.question"
+msgstr "나가겠습니까?"
+
+msgid "menu.label.extras"
+msgstr "추가 컨텐츠"
+
+#. Frames Per Second
+msgid "menu.label.framespersec"
+msgstr "FPS"
+
+msgid "menu.label.gallery"
+msgstr "아트 갤러리"
+
+msgid "menu.label.goodbye"
+msgstr "안녕히 가세요!"
+
+msgid "menu.label.graphics"
+msgstr "그래픽"
+
+#. [Singular]
+msgid "menu.label.iap"
+msgstr "앱 내 구매"
+
+msgid "menu.label.language"
+msgstr "언어"
+
+#. Game stage (not game world or char level)
+msgid "menu.label.level"
+msgstr "레벨"
+
+#. In-game mailbox
+msgid "menu.label.mail"
+msgstr "메일"
+
+msgid "menu.label.mainmenu"
+msgstr "메인 메뉴"
+
+msgid "menu.label.more"
+msgstr "더 보기"
+
+msgid "menu.label.music"
+msgstr "음악"
+
+msgid "menu.label.music.player"
+msgstr "음악 재생기"
+
+msgid "menu.label.new.game"
+msgstr "새 게임"
+
+msgid "menu.label.next"
+msgstr "다음"
+
+#. Next music track/song
+msgid "menu.label.next.track"
+msgstr "다음 곡"
+
+msgid "menu.label.no"
+msgstr "아니요"
+
+msgid "menu.label.no.caps"
+msgstr "아니요"
+
+#. A more casual 'no'
+msgid "menu.label.nope"
+msgstr "아니"
+
+#. As in Windows dialog
+msgid "menu.label.ok"
+msgstr "확인"
+
+#. [Infinitive/tutorial verb] common term
+msgid "menu.label.pause"
+msgstr "일시 정지"
+
+msgid "menu.label.paused"
+msgstr "일시 정지됨"
+
+msgid "menu.label.play"
+msgstr "플레이"
+
+msgid "menu.label.play.again"
+msgstr "다시 하기"
+
+msgid "menu.label.press.anykey"
+msgstr "아무 키나 누르세요"
+
+msgid "menu.label.press.anykey.continue"
+msgstr "계속하려면 아무 키나 누르세요"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start"
+msgstr "‘시작’을 누르세요"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start.continue"
+msgstr "계속하려면 ‘시작’을 누르세요"
+
+msgid "menu.label.previous"
+msgstr "이전"
+
+#. Previous music track/song
+msgid "menu.label.previous.track"
+msgstr "이전 곡"
+
+msgid "menu.label.price"
+msgstr "가격"
+
+msgid "menu.label.price.free"
+msgstr "무료"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.purchase"
+msgstr "구매하기"
+
+#. Leave the game (keep short)
+msgid "menu.label.quit"
+msgstr "종료"
+
+msgid "menu.label.quit.confirm"
+msgstr "정말로 종료할까요?"
+
+msgid "menu.label.quit.question"
+msgstr "종료할까요?"
+
+#. Show the replay of the last game
+msgid "menu.label.replay"
+msgstr "리플레이"
+
+msgid "menu.label.return"
+msgstr "돌아가기"
+
+msgid "menu.label.return.main"
+msgstr "메인 메뉴로 돌아가기"
+
+msgid "menu.label.return.main.question"
+msgstr "메인 메뉴로 돌아갈까요?"
+
+#. Share via social media
+msgid "menu.label.share"
+msgstr "공유하기"
+
+#. Skip cutscene skip replay (Generic)
+msgid "menu.label.skip"
+msgstr "건너뛰기"
+
+msgid "menu.label.sound"
+msgstr "음향"
+
+msgid "menu.label.thank.you"
+msgstr "감사합니다!"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.unlock"
+msgstr "잠김 해제"
+
+msgid "menu.label.video"
+msgstr "영상"
+
+msgid "menu.label.voices"
+msgstr "음성"
+
+msgid "menu.label.warning"
+msgstr "경고"
+
+msgid "menu.label.welcome"
+msgstr "환영합니다"
+
+msgid "menu.label.world"
+msgstr "세계"
+
+#. A more casual 'yes'
+msgid "menu.label.yeah"
+msgstr "응"
+
+msgid "menu.label.yes"
+msgstr "예"
+
+msgid "menu.label.yes.caps"
+msgstr "예"
+
+#. ltr or rtl (text direction used by game code)
+msgid "menu.language.direction"
+msgstr "ltr"
+
+#. "MyLanguage" in native text
+msgid "menu.language.this"
+msgstr "한국어"
+
+#. "MyLanguage" in english text
+msgid "menu.language.this.en"
+msgstr "Korean"
+
+#. [Verb]
+msgid "menu.login"
+msgstr "로그인"
+
+#. Email address
+msgid "menu.login.email"
+msgstr "이메일"
+
+msgid "menu.login.forgot"
+msgstr "비밀번호를 잊으셨나요?"
+
+msgid "menu.login.password"
+msgstr "비밀번호"
+
+#. [Verb]
+msgid "menu.login.register"
+msgstr "회원 가입"
+
+#. Remember entered data on this device?
+msgid "menu.login.remember"
+msgstr "입력 정보 저장"
+
+#. [Noun]
+msgid "menu.mode.challenge"
+msgstr "도전"
+
+#. For challenges like "Win in 30 secs"
+msgid "menu.mode.challenge.mode"
+msgstr "도전 모드"
+
+msgid "menu.mode.coop"
+msgstr "협동"
+
+msgid "menu.mode.cooperative"
+msgstr "협동 플레이"
+
+msgid "menu.mode.deathmatch"
+msgstr "데스매치"
+
+msgid "menu.mode.help"
+msgstr "도움말"
+
+msgid "menu.mode.instructions"
+msgstr "설명"
+
+msgid "menu.mode.multiplayer"
+msgstr "멀티플레이"
+
+msgid "menu.mode.multiplayer.local"
+msgstr "로컬 멀티플레이"
+
+msgid "menu.mode.multiplayer.online"
+msgstr "온라인 멀티플레이"
+
+msgid "menu.mode.play.online"
+msgstr "온라인으로 플레이"
+
+msgid "menu.mode.singleplayer"
+msgstr "싱글플레이"
+
+msgid "menu.mode.training"
+msgstr "트레이닝"
+
+msgid "menu.mode.tutorial"
+msgstr "튜토리얼"
+
+msgid "menu.mode.versus"
+msgstr "대전 모드"
+
+#. Generic – for: human dog ship item
+msgid "menu.name"
+msgstr "이름"
+
+#. First name
+msgid "menu.name.first"
+msgstr "이름"
+
+#. Family name
+msgid "menu.name.last"
+msgstr "성"
+
+#. Alias or pseudonym or account name
+msgid "menu.name.user"
+msgstr "아이디"
+
+msgid "menu.options"
+msgstr "설정"
+
+msgid "menu.options.advancedgraphics"
+msgstr "고급 그래픽 설정"
+
+msgid "menu.options.antialiasing"
+msgstr "안티에일리어싱"
+
+msgid "menu.options.bloom"
+msgstr "블룸 효과"
+
+msgid "menu.options.controls"
+msgstr "조작 방식"
+
+msgid "menu.options.difficulty"
+msgstr "난이도 설정"
+
+msgid "menu.options.display"
+msgstr "화면 설정"
+
+msgid "menu.options.first.person.view"
+msgstr "1인칭 시점"
+
+#. Field of View
+msgid "menu.options.fov"
+msgstr "시야각"
+
+msgid "menu.options.fullscreen"
+msgstr "전체화면"
+
+msgid "menu.options.gameplay"
+msgstr "게임플레이 설정"
+
+msgid "menu.options.graphics"
+msgstr "그래픽 설정"
+
+#. Heads Up Display
+msgid "menu.options.hud"
+msgstr "HUD"
+
+msgid "menu.options.music.volume"
+msgstr "음악 음량"
+
+msgid "menu.options.network"
+msgstr "네트워크 설정"
+
+msgid "menu.options.quality"
+msgstr "품질"
+
+msgid "menu.options.resolution"
+msgstr "해상도"
+
+msgid "menu.options.sfx.volume"
+msgstr "효과음 음량"
+
+msgid "menu.options.shadow"
+msgstr "그림자"
+
+msgid "menu.options.shadow.plural"
+msgstr "그림자"
+
+msgid "menu.options.size"
+msgstr "크기"
+
+msgid "menu.options.sound"
+msgstr "소리 설정"
+
+msgid "menu.options.sound.volume"
+msgstr "음량"
+
+msgid "menu.options.splitscreen"
+msgstr "분할 화면"
+
+msgid "menu.options.third.person.view"
+msgstr "3인칭 시점"
+
+msgid "menu.options.video"
+msgstr "영상 설정"
+
+#. Movie playback quality
+msgid "menu.options.video.quality"
+msgstr "영상 화질"
+
+msgid "menu.options.voice.volume"
+msgstr "음성 음량"
+
+msgid "menu.options.vsync"
+msgstr "수직 동기"
+
+msgid "menu.options.windowed"
+msgstr "창 모드"
+
+msgid "menu.options.shader.detail"
+msgstr "셰이더 세부 사항"
+
+msgid "menu.options.texture.detail"
+msgstr "텍스처 세부 사항"
+
+msgid "menu.options.multicore.rendering"
+msgstr "다중 코어 렌더링"
+
+msgid "menu.options.model.detail"
+msgstr "모델 세부 사항"
+
+#. Aspect ratio (16:9 or 16:10)
+msgid "menu.options.widescreen"
+msgstr "와이드 화면"
+
+msgid "menu.options.effect.detail"
+msgstr "효과 세부 묘사"
+
+#. Filtering mode
+msgid "menu.options.filtering.anisotropic"
+msgstr "비등방성"
+
+#. Filtering mode
+msgid "menu.options.filtering.bilinear"
+msgstr "쌍선형"
+
+#. Filtering mode
+msgid "menu.options.filtering.trilinear"
+msgstr "삼선형"
+
+msgid "menu.options.filtering.mode"
+msgstr "필터링 모드"
+
+#. (Generic) Very High (short)
+msgid "menu.setting.ultra"
+msgstr "매우 높음"
+
+#. (Generic)
+msgid "menu.setting.very.high"
+msgstr "매우 높음"
+
+#. (Generic)
+msgid "menu.setting.high"
+msgstr "높음"
+
+#. (Generic)
+msgid "menu.setting.medium"
+msgstr "중간"
+
+#. (Generic)
+msgid "menu.setting.low"
+msgstr "낮음"
+
+#. Game's version number
+msgid "menu.version"
+msgstr "버전"
+
+#. Demo version [short]  '0.3.3 Demo'
+msgid "menu.version.demo"
+msgstr "체험판"
+
+#. Free version [short]
+msgid "menu.version.free"
+msgstr "무료판"
+
+#. Full version [short]
+msgid "menu.version.full"
+msgstr "완전판"
+
+#. Lite version [short]
+msgid "menu.version.lite"
+msgstr "라이트판"
+
+#. Premium version [short]
+msgid "menu.version.premium"
+msgstr "프리미엄판"
+
+#. Shareware version [short]
+msgid "menu.version.shareware"
+msgstr "셰어웨어"
+
+#. Trial version [short]
+msgid "menu.version.trial"
+msgstr "시험판"
+
+#. For sensitive people in VR
+msgid "menu.vr.comfort.mode"
+msgstr "VR 효과 줄이기"
+
+#. Using abbrev. HMD (Head mounted display)
+msgid "menu.vr.hmd.orient.reset"
+msgstr "HMD 방향 재설정"
+
+msgid "menu.vr.virtual.reality"
+msgstr "가상현실"
+
+#. Catch-all term for Gamepads Joysticks etc.
+msgid "menu.controls.controller"
+msgstr "컨트롤러"
+
+#. The digital D-Pad
+msgid "menu.controls.dpad"
+msgstr "십자키"
+
+msgid "menu.controls.horizontal.sensitivity"
+msgstr "수평 감도"
+
+#. Button layout Stick layout
+msgid "menu.controls.layout"
+msgstr "키 배치"
+
+msgid "menu.controls.left.stick"
+msgstr "왼쪽 스틱"
+
+msgid "menu.controls.mouse.acceleration"
+msgstr "마우스 가속"
+
+msgid "menu.controls.mouse.invert"
+msgstr "마우스 반전"
+
+msgid "menu.controls.mouse.invert.yaxis"
+msgstr "수직 반전"
+
+msgid "menu.controls.mouse.wheel"
+msgstr "마우스 휠"
+
+#. When an action is not bound to any key.
+msgid "menu.controls.none"
+msgstr "없음"
+
+msgid "menu.controls.right.stick"
+msgstr "오른쪽 스틱"
+
+#. Settings : Gamepad or Joystick stick
+msgid "menu.controls.stick"
+msgstr "스틱"
+
+msgid "menu.controls.vertical.sensitivity"
+msgstr "수직 감도"
+
+msgid "menu.controls.vibration"
+msgstr "진동"
+
+msgid "menu.label.allow"
+msgstr "허용"
+
+msgid "menu.label.apply"
+msgstr "적용"
+
+msgid "menu.label.choose.character"
+msgstr "캐릭터 선택"
+
+msgid "menu.label.choose.hero"
+msgstr "영웅 선택"
+
+msgid "menu.label.choose.hero.female"
+msgstr "영웅 선택"
+
+#. Choose game language
+msgid "menu.label.choose.language"
+msgstr "언어 선택"
+
+#. Choose game world level
+msgid "menu.label.choose.level"
+msgstr "레벨 선택"
+
+msgid "menu.label.community"
+msgstr "커뮤니티"
+
+msgid "menu.label.default"
+msgstr "기본값"
+
+msgid "menu.label.deny"
+msgstr "불허"
+
+msgid "menu.label.developer.commentary"
+msgstr "개발자 코멘터리"
+
+msgid "menu.label.developer.console"
+msgstr "콘솔"
+
+msgid "menu.label.disabled"
+msgstr "비활성화됨"
+
+msgid "menu.label.done"
+msgstr "완료"
+
+msgid "menu.label.enabled"
+msgstr "활성화됨"
+
+#. Listing of high scores
+msgid "menu.label.high.scores"
+msgstr "고득점"
+
+msgid "menu.label.iap.plural"
+msgstr "앱 내 구매"
+
+#. Listing of high scores often online
+msgid "menu.label.leaderboard.plural"
+msgstr "순위표"
+
+msgid "menu.label.press.any.btn.continue"
+msgstr "계속하려면 아무 버튼이나 누르세요"
+
+msgid "menu.label.reset"
+msgstr "재설정"
+
+msgid "menu.label.save.plural"
+msgstr "저장된 게임"
+
+#. For secret code or cheat code
+msgid "menu.label.secret.code"
+msgstr "암호"
+
+msgid "menu.label.start"
+msgstr "시작"
+
+msgid "menu.label.use.defaults"
+msgstr "기본값 사용"
+
+#. Performance test
+msgid "menu.mode.benchmark"
+msgstr "벤치마크"
+
+#. [Adjective]
+msgid "menu.mode.local"
+msgstr "로컬"
+
+#. [Adjective]
+msgid "menu.mode.offline"
+msgstr "오프라인"
+
+#. [Adjective]
+msgid "menu.mode.online"
+msgstr "온라인"
+
+msgid "menu.options.aspect.ratio"
+msgstr "화면비"
+
+#. Fullscreen/windowed
+msgid "menu.options.display.mode"
+msgstr "디스플레이 모드"
+
+#. Depth of Field abbreviation
+msgid "menu.options.dof"
+msgstr "DOF"
+
+#. Not belonging to a group
+msgid "menu.options.miscellaneous"
+msgstr "기타 설정"
+
+#. [Noun] Rendering technique
+msgid "menu.options.tesselation"
+msgstr "테셀레이션"
+
+#. (Generic)
+msgid "menu.setting.very.low"
+msgstr "매우 낮음"
+
+#. Point lights : amount or toggle
+msgid "menu.options.point.lights"
+msgstr "광원"
+
+msgid "menu.keys.alt"
+msgstr "알트"
+
+msgid "menu.keys.ctrl"
+msgstr "컨트롤"
+
+msgid "menu.keys.shift"
+msgstr "시프트"
+
+msgid "menu.keys.enter"
+msgstr "엔터"
+
+msgid "menu.keys.escape"
+msgstr "Esc"
+
+msgid "menu.keys.space"
+msgstr "스페이스바"
+
+msgid "menu.io.load.save"
+msgstr "불러오기/저장"
+
+msgid "menu.keys.tab"
+msgstr "탭"
+
+msgid "menu.keys.shift.left"
+msgstr "왼쪽 시프트"
+
+msgid "menu.keys.shift.right"
+msgstr "오른쪽 시프트"
+
+msgid "menu.keys.alt.gr"
+msgstr "알트 그래프"
+
+msgid "menu.keys.ctrl.left"
+msgstr "왼쪽 컨트롤"
+
+msgid "menu.keys.ctrl.right"
+msgstr "오른쪽 컨트롤"
+
+#. https://en.wikipedia.org/wiki/Windows_key
+msgid "menu.keys.super.left"
+msgstr "왼쪽 윈도"
+
+msgid "menu.keys.super.right"
+msgstr "오른쪽 윈도"
+
+#. https://en.wikipedia.org/wiki/Command_key
+msgid "menu.keys.command.left"
+msgstr "왼쪽 커맨드"
+
+msgid "menu.keys.command.right"
+msgstr "오른쪽 커맨드"
+
+#. E.g. "Camera mode: Top-Down"
+msgid "menu.options.camera.mode"
+msgstr "카메라 모드"
+
+#. Height of 3rd person camera from the player.
+msgid "menu.options.camera.height"
+msgstr "카메라 높이"
+
+#. Camera pitch.
+msgid "menu.options.camera.angle"
+msgstr "카메라 각도"
+
+#. 3rd person camera distance from player.
+msgid "menu.options.camera.distance"
+msgstr "카메라 거리"
+
+#. https://en.wikipedia.org/wiki/Crepuscular_rays
+msgid "menu.options.light.shafts"
+msgstr "빛살"
+
+msgid "menu.options.lens.flares"
+msgstr "렌즈 플레어"
+
+msgid "menu.options.motion.blur"
+msgstr "모션 블러"
+
+#. Ambient sounds like birds chirping.
+msgid "menu.options.ambient.volume"
+msgstr "환경음 음량"
+
+#. Gameplay sound effects like walking.
+msgid "menu.options.gameplay.volume"
+msgstr "게임 음량"
+
+#. Device used for audio output.
+msgid "menu.options.audio.device"
+msgstr "음성 출력"
+
+#. Device used for video output.
+msgid "menu.options.video.device"
+msgstr "영상 출력"
+
+#. E.g. For chat visibility.
+msgid "menu.label.allow.all"
+msgstr "모두에게"
+
+#. E.g. For chat visibility.
+msgid "menu.label.team.only"
+msgstr "팀에게만"
+
+#. E.g. For chat visibility.
+msgid "menu.label.squad.only"
+msgstr "부대원에게만"
+
+#. E.g. For chat visibility.
+msgid "menu.label.group.only"
+msgstr "그룹원에게만"
+
+#. E.g. For chat visibility.
+msgid "menu.label.crew.only"
+msgstr "크루에게만"
+
+#. E.g. For chat visibility.
+msgid "menu.label.party.only"
+msgstr "파티원에게만"
+
+#. For enabling/disabling cross-platform play.
+msgid "menu.options.cross.platform.play"
+msgstr "플랫폼간 플레이"
+
+msgid "menu.label.cross.platform.multiplayer"
+msgstr "플랫폼간 멀티플레이"
+
+#. multiplayer lobby/list of games
+msgid "menu.label.refresh"
+msgstr "새로 고침"
+
+msgid "menu.io.overwrite.save.data"
+msgstr "현재 저장된 데이터를 덮어쓸까요?"
+
+#. [Infinitive/tutorial verb] Change name
+msgid "menu.label.rename"
+msgstr "이름 바꾸기"
+
+#. We have "Main Menu" but don't have generic "Menu"
+msgid "menu.label.menu"
+msgstr "메뉴"
+
+#. Look up the Achievements in the menu
+msgid "menu.label.achievements"
+msgstr "도전 과제"
+
+#. [Infinitive/tutorial verb] e.g. a button with label "change", push this and your text is saved
+msgid "menu.label.change.verb"
+msgstr "변경"
+
+msgid "menu.label.audio"
+msgstr "오디오"
+
+#. Yes/no question
+msgid "menu.override.save.question"
+msgstr "저장된 데이터를 덮어씁니다. 계속하시겠습니까?"
+
+msgid "menu.will.save.progress"
+msgstr "진행상황이 저장됩니다"
+
+#. [Infinitive/tutorial verb] Hold control
+msgid "menu.controls.hold"
+msgstr "계속 누르기"
+
+#. for some option changes that requires restarting the game
+msgid "menu.label.restart.required"
+msgstr "재시작 필요"

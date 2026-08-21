@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "Няма засечен %s."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Напускате следената площ."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "Няма засечен ППС."
+
+msgid "error.generic.errcode"
+msgstr "Код на грешката:"
+
+msgid "error.generic.text"
+msgstr "Възникна грешка."
+
+msgid "error.generic.invalid.name"
+msgstr "Недействително име."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Недействителен ключ."
+
+msgid "error.generic.cheating"
+msgstr "Засечени са забранени средства!"
+
+msgid "error.network.connection.lost"
+msgstr "Връзката е изгубена."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Противникът ви се разкачи."
+
+msgid "error.network.disconnected.your.player"
+msgstr "Другият играч се разкачи."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Съотборникът ви се разкачи."
+
+msgid "error.network.server"
+msgstr "Няма връзка със сървъра."
+
+msgid "error.save.corrupted"
+msgstr "Повреден файл със запис."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Няма намерени игри."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Няма отворени игри."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Изгубена връзка с играч"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Изгубена връзка с противник"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Изгубена връзка със съотборник"

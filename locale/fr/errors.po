@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "Aucun %s détecté."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Vous quittez la zone de détection."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "Aucun HDM détecté."
+
+msgid "error.generic.errcode"
+msgstr "Code d'erreur :"
+
+msgid "error.generic.text"
+msgstr "Une erreur s'est produite."
+
+msgid "error.generic.invalid.name"
+msgstr "Nom incorrect."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Clé CD incorrecte."
+
+msgid "error.generic.cheating"
+msgstr "Codes triche détectés !"
+
+msgid "error.network.connection.lost"
+msgstr "Connexion perdue."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Votre adversaire s'est déconnecté."
+
+msgid "error.network.disconnected.your.player"
+msgstr "L'autre joueur s'est déconnecté."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Votre coéquipier s'est déconnecté."
+
+msgid "error.network.server"
+msgstr "Impossible de se connecter au serveur."
+
+msgid "error.save.corrupted"
+msgstr "Fichier de sauvegarde corrompu."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Aucune sauvegarde trouvée."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Aucune partie trouvée."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Un joueur s'est déconnecté"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Un adversaire s'est déconnecté"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Un partenaire s'est déconnecté"

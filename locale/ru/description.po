@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "Экшен"
+
+msgid "game.genre.adventure"
+msgstr "Приключенческая игра"
+
+msgid "game.genre.card"
+msgstr "Карточная игра"
+
+msgid "game.genre.casual"
+msgstr "Казуальная игра"
+
+msgid "game.genre.fantasy"
+msgstr "Фэнтези"
+
+msgid "game.genre.hardcore"
+msgstr "Хардкорная игра"
+
+msgid "game.genre.indie"
+msgstr "Инди"
+
+msgid "game.genre.medieval"
+msgstr "Средневековье"
+
+msgid "game.genre.misc"
+msgstr "Разное"
+
+msgid "game.genre.multiplayer"
+msgstr "Многопользовательская игра"
+
+msgid "game.genre.name"
+msgstr "Жанр"
+
+msgid "game.genre.platformer"
+msgstr "Платформер"
+
+msgid "game.genre.puzzle"
+msgstr "Головоломка"
+
+msgid "game.genre.quiz"
+msgstr "Викторина"
+
+msgid "game.genre.racing"
+msgstr "Гонки"
+
+msgid "game.genre.retro"
+msgstr "Ретро-игра"
+
+msgid "game.genre.rpg"
+msgstr "Ролевая игра (RPG)"
+
+msgid "game.genre.rts"
+msgstr "Стратегия в реальном времени"
+
+msgid "game.genre.scifi"
+msgstr "Научно-фантастическая игра"
+
+msgid "game.genre.shooter"
+msgstr "Шутер"
+
+msgid "game.genre.simulation"
+msgstr "Симулятор"
+
+msgid "game.genre.singleplayer"
+msgstr "Одиночная игра"
+
+msgid "game.genre.sports"
+msgstr "Спортивный симулятор"
+
+msgid "game.genre.strategy"
+msgstr "Стратегия"
+
+msgid "game.genre.tbs"
+msgstr "Пошаговая стратегия"
+
+msgid "game.genre.tower.defense"
+msgstr "Башенная защита (TD)"
+
+msgid "game.genre.async"
+msgstr "Асинхронный мультиплеер"
+
+msgid "game.genre.arcade"
+msgstr "Аркада"
+
+msgid "game.genre.beatemup"
+msgstr "Beat ’em up"
+
+msgid "game.genre.shootemup"
+msgstr "Shoot 'em up"
+
+msgid "game.genre.graphic.adventure"
+msgstr "Квест"
+
+msgid "game.genre.text.adventure"
+msgstr "Текстовая игра"
+
+msgid "game.genre.stealth.game"
+msgstr "Стелс-экшен"
+
+msgid "game.genre.pointandclick.game"
+msgstr "Квест"
+
+msgid "game.genre.roguelike"
+msgstr "Roguelike"
+
+msgid "game.genre.visual.novel"
+msgstr "Визуальный роман"
+
+msgid "game.genre.dating.sim"
+msgstr "Симулятор свиданий"
+
+msgid "game.genre.match.three"
+msgstr "Три в ряд"
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "Сочетание плиток"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "Игра"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "Приключение"

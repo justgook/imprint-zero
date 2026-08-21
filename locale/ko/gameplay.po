@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gameplay\n"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.attack"
+msgstr "공격"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.boost"
+msgstr "가속하기"
+
+#. [Infinitive/tutorial verb] Build house
+msgid "game.action.build"
+msgstr "짓기"
+
+#. [Infinitive/tutorial verb] Cast fishing lure
+msgid "game.action.cast.fishing"
+msgstr "던지기"
+
+#. [Infinitive/tutorial verb] Cast a spell
+msgid "game.action.cast.spell"
+msgstr "사용하기"
+
+#. [Infinitive/tutorial verb] To take possession of
+msgid "game.action.claim"
+msgstr "갖기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.climb"
+msgstr "오르기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.close"
+msgstr "닫기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.collect"
+msgstr "모으기"
+
+#. [Infinitive/tutorial verb] Cook food
+msgid "game.action.cook"
+msgstr "요리하기"
+
+#. [Infinitive/tutorial verb] Create item
+msgid "game.action.craft"
+msgstr "만들기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.crouch"
+msgstr "조용히 걷기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.dodge"
+msgstr "피하기"
+
+#. [Infinitive/tutorial verb] Accelerate/Brake
+msgid "game.action.drive"
+msgstr "운전하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.fly"
+msgstr "비행하기"
+
+msgid "game.action.full.speed"
+msgstr "최고 속도"
+
+#. [Infinitive/tutorial verb] To go somewhere
+msgid "game.action.go"
+msgstr "가기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.to.place"
+msgstr "(으)로 가기"
+
+msgid "game.action.half.speed"
+msgstr "중간 속도"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.heal"
+msgstr "치료"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump"
+msgstr "점프"
+
+#. [Infinitive/tutorial verb] Plane stops flying
+msgid "game.action.land"
+msgstr "착륙"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.look"
+msgstr "보기"
+
+#. [Infinitive/tutorial verb] Mix potions
+msgid "game.action.mix"
+msgstr "섞기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.open"
+msgstr "열기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.pick.up"
+msgstr "줍기"
+
+#. [Infinitive/tutorial verb] Begin a Race in a competition
+msgid "game.action.race"
+msgstr "경주하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.read"
+msgstr "읽기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.replace"
+msgstr "대치하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.run"
+msgstr "달리기"
+
+#. [Infinitive/tutorial verb] Escape a situation by foot
+msgid "game.action.run.away"
+msgstr "도망치기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.shoot"
+msgstr "쏘기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sneak"
+msgstr "몰래 가기"
+
+#. [Infinitive/tutorial verb] Spin a wheel
+msgid "game.action.spin"
+msgstr "회전시키기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sprint"
+msgstr "달리기"
+
+#. [Infinitive/tutorial verb] Left/Right
+msgid "game.action.steer"
+msgstr "조종하기"
+
+#. [Infinitive/tutorial verb] Plane starts flying
+msgid "game.action.take.off"
+msgstr "이륙하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.talk"
+msgstr "대화하기"
+
+#. [Infinitive/tutorial verb] Aggressive
+msgid "game.action.throw"
+msgstr "던지기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.walk"
+msgstr "걷기"
+
+#. Like 'Stamina'
+msgid "game.character.endurance"
+msgstr "지구력"
+
+msgid "game.character.exp"
+msgstr "경험치"
+
+#. [Noun]
+msgid "game.character.female"
+msgstr "여성"
+
+msgid "game.character.health"
+msgstr "체력"
+
+#. 1 heart
+msgid "game.character.heart"
+msgstr "하트"
+
+#. [Plural] 3 hearts
+msgid "game.character.heart.plural"
+msgstr "하트"
+
+#. Character's level
+msgid "game.character.level"
+msgstr "레벨"
+
+msgid "game.character.level.up"
+msgstr "레벨 업!"
+
+msgid "game.character.lives"
+msgstr "라이프"
+
+#. [Noun]
+msgid "game.character.male"
+msgstr "남성"
+
+#. [Noun]
+msgid "game.character.man"
+msgstr "남자"
+
+#. [Noun][Plural]
+msgid "game.character.man.plural"
+msgstr "남자"
+
+msgid "game.character.respawn"
+msgstr "부활"
+
+msgid "game.character.respawn.in"
+msgstr "부활 장소:"
+
+msgid "game.character.respawn.question"
+msgstr "부활하시겠습니까?"
+
+msgid "game.character.respawning"
+msgstr "부활하는 중"
+
+msgid "game.character.skill"
+msgstr "기술"
+
+msgid "game.character.spawn.point"
+msgstr "스폰 지점"
+
+#. [Noun]
+msgid "game.character.transgender"
+msgstr "성전환자"
+
+#. [Noun]
+msgid "game.character.woman"
+msgstr "여자"
+
+#. [Noun][Plural]
+msgid "game.character.woman.plural"
+msgstr "여자"
+
+#. generic : damage to vehicle body etc
+msgid "game.damage"
+msgstr "손상"
+
+#. RPG attack
+msgid "game.damage.critical.hit"
+msgstr "일격"
+
+#. RPG attack miss
+msgid "game.damage.critical.miss"
+msgstr "일격 빗나감"
+
+#. RPG attack
+msgid "game.damage.hit.noun"
+msgstr "타격"
+
+#. Health
+msgid "game.damage.hit.points.plural"
+msgstr "체력"
+
+#. RPG attack miss
+msgid "game.damage.miss.noun"
+msgstr "빗나감"
+
+#. 1 damage unit
+msgid "game.damage.unit"
+msgstr "대미지"
+
+#. [Plural] 5 damage units
+msgid "game.damage.unit.plural"
+msgstr "대미지"
+
+#. [Noun]
+msgid "game.enemy"
+msgstr "적"
+
+#. [Noun]
+msgid "game.enemy.female"
+msgstr "적"
+
+#. [Noun]
+msgid "game.enemy.female.plural"
+msgstr "적들"
+
+#. [Noun]
+msgid "game.enemy.plural"
+msgstr "적들"
+
+msgid "game.inventory"
+msgstr "인벤토리"
+
+msgid "game.inventory.ammo"
+msgstr "탄환"
+
+msgid "game.inventory.ammunition"
+msgstr "탄환"
+
+msgid "game.inventory.bullet"
+msgstr "탄"
+
+msgid "game.inventory.bullet.plural"
+msgstr "탄"
+
+msgid "game.inventory.buy"
+msgstr "사기"
+
+msgid "game.inventory.capacity"
+msgstr "인벤토리 용량"
+
+msgid "game.inventory.drop"
+msgstr "버리기"
+
+#. How much is being carried
+msgid "game.inventory.encumbrance"
+msgstr "인벤토리 무게"
+
+msgid "game.inventory.full"
+msgstr "인벤토리 꽉 참"
+
+msgid "game.inventory.item"
+msgstr "아이템"
+
+msgid "game.inventory.key"
+msgstr "열쇠"
+
+msgid "game.inventory.powerup"
+msgstr "파워 업"
+
+msgid "game.inventory.sell"
+msgstr "팔기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.inventory.use"
+msgstr "사용하기"
+
+msgid "game.inventory.weapon"
+msgstr "무기"
+
+msgid "game.inventory.weapons"
+msgstr "무기"
+
+msgid "game.inventory.you.cannot.carry"
+msgstr "더 지닐 수 없습니다."
+
+#. [Imperative verb]
+msgid "game.label.be.careful"
+msgstr "주의하십시오."
+
+#. [Imperative verb]
+msgid "game.label.please.be.careful"
+msgstr "주의하여 주십시오."
+
+msgid "game.label.tactics"
+msgstr "작전"
+
+msgid "game.objective"
+msgstr "목표"
+
+#. [Noun]
+msgid "game.objective.assist"
+msgstr "보조"
+
+msgid "game.objective.assist.plural"
+msgstr "보조"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.attack"
+msgstr "공격"
+
+msgid "game.objective.bonus"
+msgstr "보너스"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.capture"
+msgstr "확보"
+
+#. Has been completed
+msgid "game.objective.complete"
+msgstr "완성"
+
+msgid "game.objective.death"
+msgstr "사망"
+
+msgid "game.objective.death.plural"
+msgstr "사망"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.defend"
+msgstr "방어하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.destroy"
+msgstr "파괴하기"
+
+#. [Infinitive/tutorial verb] Escape a situation
+msgid "game.objective.escape"
+msgstr "탈출하기"
+
+#. Completed the game : end of story
+msgid "game.objective.game.finished"
+msgstr "끝"
+
+#. Died lost destroyed etc
+msgid "game.objective.gameover"
+msgstr "게임 오버!"
+
+msgid "game.objective.gameover.caps"
+msgstr "게임 오버"
+
+#. The highest score
+msgid "game.objective.high.score"
+msgstr "최고 점수"
+
+msgid "game.objective.incomplete"
+msgstr "미완료"
+
+#. [Infinitive/tutorial verb] "to kill the bird"
+msgid "game.objective.kill"
+msgstr "살해하기"
+
+#. [Noun]
+msgid "game.objective.kill.assist"
+msgstr "킬 보조"
+
+#. [Noun] As in "One kill"
+msgid "game.objective.kill.noun"
+msgstr "킬"
+
+#. As in "Two kills"
+msgid "game.objective.kill.plural"
+msgstr "킬"
+
+msgid "game.objective.locked"
+msgstr "잠김"
+
+msgid "game.objective.losses"
+msgstr "패배"
+
+msgid "game.objective.match"
+msgstr "대전"
+
+#. [Noun]
+msgid "game.objective.mission"
+msgstr "임무"
+
+msgid "game.objective.mission.objective.plural"
+msgstr "임무의 목표"
+
+msgid "game.objective.mission.objective"
+msgstr "임무의 목표"
+
+msgid "game.objective.multiplier"
+msgstr "곱수"
+
+msgid "game.objective.plural"
+msgstr "목표"
+
+#. Position in order from winner to loser
+msgid "game.objective.position"
+msgstr "순위"
+
+#. Racing lap
+msgid "game.objective.race.lap"
+msgstr "랩"
+
+#. Racing laps
+msgid "game.objective.race.lap.plural"
+msgstr "랩"
+
+#. [Noun] As in part of match
+msgid "game.objective.round"
+msgstr "횟수"
+
+msgid "game.objective.score"
+msgstr "점수"
+
+#. For countdown timers or elapsed time
+msgid "game.objective.time"
+msgstr "시간"
+
+msgid "game.objective.time.left"
+msgstr "남은 시간"
+
+msgid "game.objective.tournament"
+msgstr "토너먼트"
+
+msgid "game.objective.tournament.plural"
+msgstr "토너먼트"
+
+msgid "game.objective.wins"
+msgstr "승리"
+
+#. [Noun]
+msgid "game.status.defeat"
+msgstr "패배"
+
+msgid "game.status.defeated"
+msgstr "패배하였습니다."
+
+msgid "game.status.loser"
+msgstr "패자"
+
+msgid "game.status.team.lost"
+msgstr "팀 패배"
+
+msgid "game.status.team.won"
+msgstr "팀 승리"
+
+#. [Noun]
+msgid "game.status.victory"
+msgstr "우승"
+
+msgid "game.status.winner"
+msgstr "승자"
+
+#. [Default male]
+msgid "game.status.you.are.dead"
+msgstr "사망하였습니다."
+
+msgid "game.status.you.died"
+msgstr "사망하였습니다."
+
+msgid "game.status.you.lose"
+msgstr "패배하였습니다!"
+
+msgid "game.status.you.lost"
+msgstr "패배하였습니다!"
+
+msgid "game.status.you.win"
+msgstr "승리하였습니다!"
+
+msgid "game.status.you.won"
+msgstr "승리하였습니다!"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.aim"
+msgstr "겨누기"
+
+#. [Noun]
+msgid "game.action.attacking"
+msgstr "공격"
+
+#. [Infinitive/tutorial verb] Running attack
+msgid "game.action.charge"
+msgstr "돌격하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.self"
+msgstr "방어"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.target"
+msgstr "목표물 방어"
+
+#. [Infinitive/tutorial verb] Heal self
+msgid "game.action.heal.self"
+msgstr "자기 치료"
+
+#. [Infinitive/tutorial verb] Heal target
+msgid "game.action.heal.target"
+msgstr "목표물 치료"
+
+#. [Infinitive/tutorial verb] Character spins
+msgid "game.action.spin.around"
+msgstr "돌기"
+
+#. Singular of Hit Points
+msgid "game.damage.hit.point"
+msgstr "체력"
+
+msgid "game.objective.mission.failed"
+msgstr "임무 실패"
+
+msgid "game.objective.mission.succesful"
+msgstr "임무 성공"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.prone"
+msgstr "포복하기"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.take.cover"
+msgstr "숨기"
+
+msgid "game.politics.hostile"
+msgstr "적대"
+
+msgid "game.politics.hostile.plural"
+msgstr "적대"
+
+msgid "game.politics.hostile.female"
+msgstr "적대"
+
+msgid "game.politics.hostile.female.plural"
+msgstr "적대"
+
+#. [Adjective]
+msgid "game.politics.allied"
+msgstr "동맹"
+
+#. [Adjective]
+msgid "game.politics.neutral"
+msgstr "중립"
+
+#. [Adjective]
+msgid "game.politics.opposing"
+msgstr "대립"
+
+#. [Noun] ' The opposition '
+msgid "game.politics.opposition"
+msgstr "대립"
+
+#. [Noun]
+msgid "game.politics.ally"
+msgstr "동맹"
+
+#. [Noun]
+msgid "game.politics.ally.plural"
+msgstr "동맹"
+
+#. [Noun]
+msgid "game.politics.ally.female"
+msgstr "동맹"
+
+#. [Noun]
+msgid "game.politics.ally.female.plural"
+msgstr "동맹"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.alliance"
+msgstr "동맹"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.enmity"
+msgstr "적대"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.neutrality"
+msgstr "중립"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.forward"
+msgstr "전진"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.backwards"
+msgstr "후진"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.left"
+msgstr "좌회전"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.right"
+msgstr "우회전"
+
+#. [Verb/Infinitive] Sliding on the ground after running.
+msgid "game.action.slide"
+msgstr "슬라이드"
+
+#. [Verb/Infinitive] In a racing game.
+msgid "game.action.powerslide"
+msgstr "드리프트"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.right"
+msgstr "우회전"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.left"
+msgstr "좌회전"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.up"
+msgstr "상승"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.down"
+msgstr "하강"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll"
+msgstr "선회"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.right"
+msgstr "우선회"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.left"
+msgstr "좌선회"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch"
+msgstr "상승·하강"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer"
+msgstr "공중 조종"
+
+#. Focus while aiming through iron sights.
+msgid "game.action.focus"
+msgstr "초점"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.up"
+msgstr "상승"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.down"
+msgstr "하강"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.vehicle"
+msgstr "롤"
+
+#. [Infinitive/tutorial verb] A character performs a ground roll.
+msgid "game.action.roll.character"
+msgstr "구르기"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.right"
+msgstr "우선회"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.left"
+msgstr "좌선회"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch"
+msgstr "상승·하강"
+
+#. [Noun] Common in racing games.
+msgid "game.action.rear.view"
+msgstr "후방 시야"
+
+#. [Noun] Global/Common chatting.
+msgid "game.action.chat"
+msgstr "채팅"
+
+#. [Noun]
+msgid "game.action.chat.global"
+msgstr "전체 채팅"
+
+#. [Noun]
+msgid "game.action.chat.server"
+msgstr "서버 채팅"
+
+#. [Noun]
+msgid "game.action.chat.quick"
+msgstr "빠른 채팅"
+
+#. [Noun]
+msgid "game.action.chat.team"
+msgstr "팀 채팅"
+
+#. [Noun]
+msgid "game.action.chat.squad"
+msgstr "부대 채팅"
+
+#. [Noun]
+msgid "game.action.chat.group"
+msgstr "그룹 채팅"
+
+#. [Noun]
+msgid "game.action.chat.crew"
+msgstr "크루 채팅"
+
+#. [Noun]
+msgid "game.action.chat.party"
+msgstr "파티 채팅"
+
+#. [Infinitive/tutorial verb] put away; place an item into container for later use
+msgid "game.action.store"
+msgstr "넣어두기"
+
+#. [Infinitive/tutorial verb] place an item into/on somewhere/something (generic term)
+msgid "game.action.put.item"
+msgstr "놓기"
+
+#. [Verb/Infinitive] wear something (armor, weapon, etc.)/install an equipment
+msgid "game.inventory.equip"
+msgstr "장비하기"
+
+#. [Verb/Infinitive]
+msgid "game.inventory.unequip"
+msgstr "장비 해제"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump.plural"
+msgstr "점프"
+
+#. [Adjective?] without limit
+msgid "game.character.unlimited"
+msgstr "무제한"
+
+#. [Noun] name for a list of items you have registered as favourite
+msgid "game.inventory.favorites"
+msgstr "즐겨찾기"
+
+#. [Infinitive/tutorial verb] to register an item onto a keyboard shortcut, as favourites, etc.
+msgid "game.inventory.register"
+msgstr "등록하기"
+
+#. [Infinitive/tutorial verb] the most basic thing WASD should do
+msgid "game.action.move.verb"
+msgstr "이동하기"
+
+#. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
+msgid "game.action.zoom"
+msgstr "확대·축소"

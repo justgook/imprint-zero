@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Wiki-Title: Dialogue\n"
+"X-Wiki-Eyebrow: Game text\n"
+"X-Wiki-Status: in-progress\n"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: Confirm deployment and establish the immediate objective.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l001"
+msgstr "РУК, развертывание подтверждено. Жилая башня Эшфолл, седьмой сектор."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: State the required mission sequence concisely.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l002"
+msgstr "Восстановите электроэнергию в секторе, освободите попавшую в ловушку команду безопасности и доберитесь до транзитного канала."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Establish that VECTOR is active elsewhere in Ashfall District.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l001"
+msgstr "ГРАЧЬ, ВЕКТОР. Я в двух кварталах к востоку. Тот же пожар, та же потеря связи."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Direct attention toward the drones without stopping the tutorial.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l002"
+msgstr "Что-то направляет дронов к занятым этажам. Я прослежу это отсюда."
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Introduce the first contradiction in ROOK’s remembered history.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l001"
+msgstr "Капитан?"
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Make the recognition specific without explaining it.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l002"
+msgstr "Я видел, как ты умер на мосту Кестрел. Восемь лет назад."
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R06
+#. Intent: Keep ROOK controlled and focused on the rescue.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l003"
+msgstr "У вас не тот солдат. Можете ли вы двигаться?"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Offer a plausible explanation while redirecting the mission.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l001"
+msgstr "Неврологическое воздействие может привести к ложному распознаванию и проецированию идентичности."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Close the interruption and return the player to the objective.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l002"
+msgstr "Обезопасьте выжившего и продолжайте путь."

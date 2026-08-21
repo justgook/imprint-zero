@@ -281,6 +281,38 @@
 }
 
 /* Project-local gettext catalogue renderer. */
+.po-catalogue .po-language-switcher {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 28px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.po-catalogue .po-language-switcher > strong {
+  color: var(--muted);
+  font: 700 .68rem var(--font-mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.po-catalogue .po-language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  color: var(--muted);
+  font-size: .8rem;
+}
+
+.po-catalogue .po-language-links a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .po-catalogue .po-event {
   margin: 0 0 36px;
 }

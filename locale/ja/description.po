@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "アクションゲーム"
+
+msgid "game.genre.adventure"
+msgstr "アドベンチャーゲーム"
+
+msgid "game.genre.card"
+msgstr "カード"
+
+msgid "game.genre.casual"
+msgstr "カジュアルゲーム"
+
+msgid "game.genre.fantasy"
+msgstr "ファンタジーゲーム"
+
+msgid "game.genre.hardcore"
+msgstr "ハードコアゲーム"
+
+msgid "game.genre.indie"
+msgstr "独立系開発会社"
+
+msgid "game.genre.medieval"
+msgstr "中世風ゲーム"
+
+msgid "game.genre.misc"
+msgstr "その他"
+
+msgid "game.genre.multiplayer"
+msgstr "マルチプレイヤー"
+
+msgid "game.genre.name"
+msgstr "ジャンル"
+
+msgid "game.genre.platformer"
+msgstr "プラットフォームゲーム"
+
+msgid "game.genre.puzzle"
+msgstr "パズルゲーム"
+
+msgid "game.genre.quiz"
+msgstr "クイズゲーム"
+
+msgid "game.genre.racing"
+msgstr "レース"
+
+msgid "game.genre.retro"
+msgstr "レトロゲーム"
+
+msgid "game.genre.rpg"
+msgstr "ロールプレイングゲーム"
+
+msgid "game.genre.rts"
+msgstr "リアルタイムシミュレーション"
+
+msgid "game.genre.scifi"
+msgstr "SFゲーム"
+
+msgid "game.genre.shooter"
+msgstr "シューティングゲーム"
+
+msgid "game.genre.simulation"
+msgstr "シミュレーションゲーム"
+
+msgid "game.genre.singleplayer"
+msgstr "シングルプレイヤー"
+
+msgid "game.genre.sports"
+msgstr "スポーツゲーム"
+
+msgid "game.genre.strategy"
+msgstr "ストラテジーゲーム"
+
+msgid "game.genre.tbs"
+msgstr "ターン制シミュレーション"
+
+msgid "game.genre.tower.defense"
+msgstr "タワーディフェンスゲーム"
+
+msgid "game.genre.async"
+msgstr "非同期マルチプレイ"
+
+msgid "game.genre.arcade"
+msgstr "アーケードゲーム"
+
+msgid "game.genre.beatemup"
+msgstr "ベルトスクロールアクションゲーム"
+
+msgid "game.genre.shootemup"
+msgstr "シューティングゲーム"
+
+msgid "game.genre.graphic.adventure"
+msgstr "グラフィックアドベンチャーゲーム"
+
+msgid "game.genre.text.adventure"
+msgstr "インタラクティブフィクション"
+
+msgid "game.genre.stealth.game"
+msgstr "ステルスゲーム"
+
+msgid "game.genre.pointandclick.game"
+msgstr "ポイントクリックゲーム"
+
+msgid "game.genre.roguelike"
+msgstr "ローグライクゲーム"
+
+msgid "game.genre.visual.novel"
+msgstr "ビジュアルノベル"
+
+msgid "game.genre.dating.sim"
+msgstr "恋愛シミュレーションゲーム"
+
+msgid "game.genre.match.three"
+msgstr "マッチ3ゲーム"
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "タイルマッチングゲーム"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "ゲーム"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "アドベンチャー"

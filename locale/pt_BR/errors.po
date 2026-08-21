@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "%s não encontrado."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Deixando área de rastreamento."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "HMD não encontrado."
+
+msgid "error.generic.errcode"
+msgstr "Código do erro:"
+
+msgid "error.generic.text"
+msgstr "Ocorreu um erro."
+
+msgid "error.generic.invalid.name"
+msgstr "Nome inválido."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Código de produto (CD Key) inválido."
+
+msgid "error.generic.cheating"
+msgstr "Trapaças detectadas!"
+
+msgid "error.network.connection.lost"
+msgstr "Conexão perdida."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Seu adversário foi desconectado."
+
+msgid "error.network.disconnected.your.player"
+msgstr "O outro jogador foi desconectado."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Seu colega de equipe foi desconectado."
+
+msgid "error.network.server"
+msgstr "Não foi possível conectar-se ao servidor."
+
+msgid "error.save.corrupted"
+msgstr "Arquivo de jogo salvo corrompido."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Nenhum jogo encontrado."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Nenhum jogo ativo."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Um jogador se desconectou."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Um adversário se desconectou."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Um colega de equipe se desconectou."

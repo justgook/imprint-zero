@@ -128,11 +128,11 @@ export function parseGettext(sourceText, source = "catalogue.po") {
     }
 
     const catalogueEntries = entries.filter((candidate) => candidate !== headerEntry)
-    const contexts = new Set()
+    const stableIDs = new Set()
     for (const candidate of catalogueEntries) {
-        if (!candidate.context) continue
-        if (contexts.has(candidate.context)) throw new Error(`${source}: duplicate msgctxt “${candidate.context}”`)
-        contexts.add(candidate.context)
+        const stableID = candidate.context || candidate.id
+        if (stableIDs.has(stableID)) throw new Error(`${source}: duplicate stable ID “${stableID}”`)
+        stableIDs.add(stableID)
     }
 
     return { headers, entries: catalogueEntries }
@@ -160,10 +160,84 @@ function eventLabel(id) {
     return id
 }
 
+export function parseConfiguredLanguages(source) {
+    const frontmatter = source.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/)?.[1]
+    if (!frontmatter) throw new Error("_config.md requires YAML frontmatter")
+    const lines = frontmatter.replace(/\r\n?/g, "\n").split("\n")
+    const start = lines.findIndex((line) => /^languages:\s*(?:#.*)?$/.test(line))
+    if (start === -1) throw new Error("_config.md requires a languages map")
+
+    const languages = []
+    const codes = new Set()
+    for (const line of lines.slice(start + 1)) {
+        if (!line.trim() || /^\s*#/.test(line)) continue
+        const match = /^\s+([a-z]{2,3}(?:_(?:[A-Z]{2}|[0-9]{3}))?):\s*(.+?)\s*$/.exec(line)
+        if (!match) {
+            if (!/^\s/.test(line)) break
+            throw new Error(`Invalid language configuration: ${line.trim()}`)
+        }
+        const code = match[1]
+        let label = match[2]
+        if ((label.startsWith('"') && label.endsWith('"')) || (label.startsWith("'") && label.endsWith("'"))) {
+            label = label.slice(1, -1)
+        }
+        if (!label || codes.has(code)) throw new Error(`Invalid or duplicate configured language: ${code}`)
+        codes.add(code)
+        languages.push({ code, label })
+    }
+    if (languages.length === 0) throw new Error("_config.md languages map cannot be empty")
+    return languages
+}
+
+export function localizedCatalogueTarget(path, language) {
+    if (!/^[a-z]{2,3}(?:_(?:[A-Z]{2}|[0-9]{3}))?$/.test(language)) throw new Error(`Invalid language code: ${language}`)
+    const match = /^(?:content\/)?locale\/([a-z]{2,3}(?:_(?:[A-Z]{2}|[0-9]{3}))?)\/([^/]+\.po)$/.exec(path)
+    if (!match) throw new Error(`Gettext catalogue is outside locale/<language>: ${path}`)
+    return `locale/${language}/${match[2]}`
+}
+
+function languageSwitcher(path, helpers) {
+    const match = /^(?:content\/)?locale\/([a-z]{2,3}(?:_(?:[A-Z]{2}|[0-9]{3}))?)\/([^/]+\.po)$/.exec(path)
+    if (!match) return ""
+    return `<nav class="po-language-switcher" aria-label="Catalogue language" data-current-language="${helpers.escapeAttribute(match[1])}">
+<strong>Language</strong>
+<span class="po-language-links" data-language-links>Loading languages…</span>
+</nav>`
+}
+
+async function populateLanguageSwitcher(article, path, query, helpers) {
+    const container = article.querySelector("[data-language-links]")
+    if (!container) return
+    try {
+        const response = await fetch("content/_config.md")
+        if (!response.ok) throw new Error(`HTTP ${response.status}`)
+        const languages = parseConfiguredLanguages(await response.text())
+        const current = container.closest("[data-current-language]").dataset.currentLanguage
+        const queryString = query.toString()
+        const links = languages.map(({ code, label }) => {
+            const link = document.createElement("a")
+            const target = localizedCatalogueTarget(path, code)
+            link.href = helpers.pageURL(`${target}${queryString ? `?${queryString}` : ""}`)
+            link.textContent = label
+            link.lang = code.replace("_", "-")
+            if (code === current) link.setAttribute("aria-current", "page")
+            return link
+        })
+        container.replaceChildren(...links)
+    } catch (error) {
+        container.textContent = `Languages unavailable: ${error.message}`
+    }
+}
+
+function stableID(entry) {
+    return entry.context || entry.id
+}
+
 function renderEntry(entry, helpers) {
     const { escapeAttribute, escapeHTML } = helpers
+    const key = stableID(entry)
     const metadata = commentMetadata(entry)
-    const translated = [...entry.translations.entries()].filter(([, value]) => value)
+    const translated = entry.context ? [...entry.translations.entries()].filter(([, value]) => value) : []
     const detailRows = []
     for (const label of ["Speaker", "Delivery", "Room", "Intent"]) {
         if (metadata.has(label)) {
@@ -176,8 +250,9 @@ function renderEntry(entry, helpers) {
     if (entry.flags.length) {
         detailRows.push(`<div><dt>Flags</dt><dd>${entry.flags.map(escapeHTML).join(", ")}</dd></div>`)
     }
+    const canonicalText = entry.context ? entry.id : entry.translations.get(0)
     const sourceText = entry.plural === undefined
-        ? `<blockquote class="po-source">${escapeHTML(entry.id)}</blockquote>`
+        ? `<blockquote class="po-source">${escapeHTML(canonicalText || "[missing translation]")}</blockquote>`
         : `<div class="po-plural-sources">
 <strong>Singular source</strong><blockquote class="po-source">${escapeHTML(entry.id)}</blockquote>
 <strong>Plural source</strong><blockquote class="po-source">${escapeHTML(entry.plural)}</blockquote>
@@ -186,8 +261,8 @@ function renderEntry(entry, helpers) {
         ? `<div class="po-translation"><strong>Translation</strong>${translated.map(([index, value]) => `<div><small>Form ${index}</small><blockquote>${escapeHTML(value)}</blockquote></div>`).join("")}</div>`
         : ""
 
-    return `<article class="po-entry" data-context="${escapeAttribute(entry.context)}">
-<header><code>${escapeHTML(entry.context)}</code></header>
+    return `<article class="po-entry" data-context="${escapeAttribute(key)}">
+<header><code>${escapeHTML(key)}</code></header>
 ${sourceText}
 ${translation}
 ${detailRows.length ? `<dl class="po-metadata">${detailRows.join("")}</dl>` : ""}
@@ -197,7 +272,7 @@ ${detailRows.length ? `<dl class="po-metadata">${detailRows.join("")}</dl>` : ""
 function renderCatalogue(catalogue, query, helpers) {
     const requested = query.get("entry")
     const visibleEntries = requested
-        ? catalogue.entries.filter((entry) => entry.context === requested || entry.context?.startsWith(`${requested}.`))
+        ? catalogue.entries.filter((entry) => stableID(entry) === requested || stableID(entry).startsWith(`${requested}.`))
         : catalogue.entries
     if (visibleEntries.length === 0) {
         const suffix = requested ? ` matching “${helpers.escapeHTML(requested)}”` : ""
@@ -206,8 +281,7 @@ function renderCatalogue(catalogue, query, helpers) {
 
     const groups = new Map()
     for (const entry of visibleEntries) {
-        if (!entry.context) throw new Error(`Every rendered gettext entry requires msgctxt: ${entry.id}`)
-        const group = eventID(entry.context)
+        const group = eventID(stableID(entry))
         if (!groups.has(group)) groups.set(group, [])
         groups.get(group).push(entry)
     }
@@ -230,16 +304,17 @@ const gettextRenderer = {
         return {
             data: {
                 title,
-                summary: `${catalogue.entries.length} source strings in the canonical English catalogue.`,
+                summary: `${catalogue.entries.length} localized strings in this gettext catalogue.`,
                 eyebrow: catalogue.headers.get("X-Wiki-Eyebrow") || "Game text",
                 status: catalogue.headers.get("X-Wiki-Status") || "in-progress",
             },
-            html: renderCatalogue(catalogue, query, helpers),
+            html: `${languageSwitcher(path, helpers)}${renderCatalogue(catalogue, query, helpers)}`,
             className: "prose po-catalogue",
         }
     },
 
-    afterRender({ article, query }) {
+    async afterRender({ article, path, query, helpers }) {
+        await populateLanguageSwitcher(article, path, query, helpers)
         const requested = query.get("entry")
         if (!requested) return
         const target = [...article.querySelectorAll("[data-context], [data-event]")].find(

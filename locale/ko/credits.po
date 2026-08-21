@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: credits\n"
+
+msgid "credits.game"
+msgstr "게임"
+
+msgid "credits.game.development"
+msgstr "게임 개발"
+
+#. [Default male]
+msgid "credits.game.developer"
+msgstr "게임 개발자"
+
+msgid "credits.developed.by"
+msgstr "개발자"
+
+msgid "credits.production"
+msgstr "제작"
+
+#. [Default male]
+msgid "credits.producer"
+msgstr "제작자"
+
+#. [Default male]
+msgid "credits.publisher"
+msgstr "배급"
+
+#. [Default male]
+msgid "credits.director"
+msgstr "감독"
+
+msgid "credits.lead"
+msgstr "총책임자"
+
+msgid "credits.assistant"
+msgstr "보조"
+
+msgid "credits.associate"
+msgstr "협력"
+
+msgid "credits.senior"
+msgstr "시니어"
+
+msgid "credits.junior"
+msgstr "주니어"
+
+msgid "credits.chief.tech.officer"
+msgstr "최고 기술 책임자"
+
+#. [Default male]
+msgid "credits.technical.director"
+msgstr "기술 감독"
+
+#. [Default male]
+msgid "credits.creative.director"
+msgstr "크리에이티브 감독"
+
+#. [Default male]
+msgid "credits.animation.director"
+msgstr "애니메이션 감독"
+
+#. [Default male]
+msgid "credits.art.director"
+msgstr "아트 감독"
+
+#. [Default male]
+msgid "credits.audio.director"
+msgstr "오디오 감독"
+
+#. [Default male]
+msgid "credits.program.manager"
+msgstr "프로그램 관리자"
+
+#. [Default male]
+msgid "credits.project.manager"
+msgstr "프로젝트 관리자"
+
+msgid "credits.game.design"
+msgstr "게임 디자인"
+
+#. [Default male]
+msgid "credits.game.designer"
+msgstr "게임 디자이너"
+
+#. Programming code
+msgid "credits.code"
+msgstr "코드"
+
+msgid "credits.programming"
+msgstr "프로그래밍"
+
+#. [Default male]
+msgid "credits.programmer"
+msgstr "프로그래머"
+
+#. [Default male]
+msgid "credits.programmer.plural"
+msgstr "프로그래머"
+
+#. [Default male]
+msgid "credits.lead.programmer"
+msgstr "리드 프로그래머"
+
+#. [Default male]
+msgid "credits.graphic.designer"
+msgstr "그래픽 디자이너"
+
+#. [Default male]
+msgid "credits.technical.artist"
+msgstr "테크니컬 아티스트"
+
+#. [Default male]
+msgid "credits.concept.artist"
+msgstr "컨셉트 아티스트"
+
+#. [Default male]
+msgid "credits.character.designer"
+msgstr "캐릭터 디자이너"
+
+msgid "credits.art"
+msgstr "아트"
+
+#. [Singular]
+msgid "credits.artist"
+msgstr "아티스트"
+
+#. [Plural]
+msgid "credits.artist.plural"
+msgstr "아티스트"
+
+msgid "credits.level.design"
+msgstr "레벨 디자인"
+
+#. [Singular]
+msgid "credits.level.designer"
+msgstr "레벨 디자이너"
+
+#. [Default male]
+msgid "credits.cinematics.director"
+msgstr "영상 감독"
+
+#. [Default male]
+msgid "credits.cinematic.animator"
+msgstr "영상 애니메이터"
+
+#. [Default male]
+msgid "credits.interface.artist"
+msgstr "인터페이스 아티스트"
+
+#. [Default male]
+msgid "credits.composer"
+msgstr "작곡"
+
+#. [Default male]
+msgid "credits.musician"
+msgstr "연주"
+
+msgid "credits.special.thanks"
+msgstr "특별 감사"
+
+msgid "credits.special.thanks.to"
+msgstr "특별 감사:"
+
+msgid "credits.image"
+msgstr "이미지"
+
+msgid "credits.image.plural"
+msgstr "이미지"
+
+msgid "credits.font"
+msgstr "글꼴"
+
+msgid "credits.font.plural"
+msgstr "글꼴"
+
+msgid "credits.soundtrack"
+msgstr "사운드트랙"
+
+#. [Default male]
+msgid "credits.writer"
+msgstr "대본가"
+
+msgid "credits.manuscript"
+msgstr "대본"
+
+#. [Default male]
+msgid "credits.script.writer"
+msgstr "대본가"
+
+msgid "credits.animation"
+msgstr "애니메이션"
+
+msgid "credits.animator"
+msgstr "애니메이터"
+
+msgid "credits.voice.acting"
+msgstr "성우"
+
+#. [Default male]
+msgid "credits.voice.actor"
+msgstr "성우"
+
+#. [Default male]
+msgid "credits.sound.designer"
+msgstr "음향 디자이너"
+
+#. [Default male]
+msgid "credits.sound.engineer"
+msgstr "음향 엔지니어"
+
+msgid "credits.sfx"
+msgstr "음향 효과"
+
+msgid "credits.vfx"
+msgstr "시각 효과"
+
+#. [Default male] Someone who records sound
+msgid "credits.recordist"
+msgstr "녹음"
+
+#. [Default male] Special sound FX
+msgid "credits.foley.artist"
+msgstr "효과음 아티스트"
+
+#. [Default male]
+msgid "credits.test.manager"
+msgstr "테스트 관리자"
+
+#. [Default male]
+msgid "credits.test.lead"
+msgstr "테스트 관리 총지휘"
+
+#. [Default male]
+msgid "credits.tester"
+msgstr "테스터"
+
+#. [Default male]
+msgid "credits.database.admin"
+msgstr "데이터베이스 관리자"
+
+msgid "credits.3d.modeling"
+msgstr "3D 모델링"
+
+msgid "credits.models"
+msgstr "모델"
+
+msgid "credits.localization"
+msgstr "지역화"
+
+msgid "credits.translation"
+msgstr "번역"

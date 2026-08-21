@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: gameplay\n"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.attack"
+msgstr "攻める"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.boost"
+msgstr "ブーストする"
+
+#. [Infinitive/tutorial verb] Build house
+msgid "game.action.build"
+msgstr "建築"
+
+#. [Infinitive/tutorial verb] Cast fishing lure
+msgid "game.action.cast.fishing"
+msgstr "釣り糸を投げる"
+
+#. [Infinitive/tutorial verb] Cast a spell
+msgid "game.action.cast.spell"
+msgstr "詠唱する"
+
+#. [Infinitive/tutorial verb] To take possession of
+msgid "game.action.claim"
+msgstr "入手する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.climb"
+msgstr "登る"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.close"
+msgstr "閉じる"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.collect"
+msgstr "集める"
+
+#. [Infinitive/tutorial verb] Cook food
+msgid "game.action.cook"
+msgstr "調理"
+
+#. [Infinitive/tutorial verb] Create item
+msgid "game.action.craft"
+msgstr "作成"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.crouch"
+msgstr "しゃがむ"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.dodge"
+msgstr "避ける"
+
+#. [Infinitive/tutorial verb] Accelerate/Brake
+msgid "game.action.drive"
+msgstr "運転する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.fly"
+msgstr "飛ぶ"
+
+msgid "game.action.full.speed"
+msgstr "全速力"
+
+#. [Infinitive/tutorial verb] To go somewhere
+msgid "game.action.go"
+msgstr "移動する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.to.place"
+msgstr "へ移動する"
+
+msgid "game.action.half.speed"
+msgstr "半速力"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.heal"
+msgstr "回復する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump"
+msgstr "ジャンプする"
+
+#. [Infinitive/tutorial verb] Plane stops flying
+msgid "game.action.land"
+msgstr "着陸する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.look"
+msgstr "見る"
+
+#. [Infinitive/tutorial verb] Mix potions
+msgid "game.action.mix"
+msgstr "調合"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.open"
+msgstr "開く"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.pick.up"
+msgstr "拾う"
+
+#. [Infinitive/tutorial verb] Begin a Race in a competition
+msgid "game.action.race"
+msgstr "競争する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.read"
+msgstr "読む"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.replace"
+msgstr "入れ替え"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.run"
+msgstr "走る"
+
+#. [Infinitive/tutorial verb] Escape a situation by foot
+msgid "game.action.run.away"
+msgstr "逃げる"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.shoot"
+msgstr "撃つ"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sneak"
+msgstr "忍ぶ"
+
+#. [Infinitive/tutorial verb] Spin a wheel
+msgid "game.action.spin"
+msgstr "回転させる"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.sprint"
+msgstr "走る"
+
+#. [Infinitive/tutorial verb] Left/Right
+msgid "game.action.steer"
+msgstr "操舵する"
+
+#. [Infinitive/tutorial verb] Plane starts flying
+msgid "game.action.take.off"
+msgstr "離陸する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.talk"
+msgstr "話す"
+
+#. [Infinitive/tutorial verb] Aggressive
+msgid "game.action.throw"
+msgstr "投げる"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.walk"
+msgstr "歩く"
+
+#. Like 'Stamina'
+msgid "game.character.endurance"
+msgstr "生命力"
+
+msgid "game.character.exp"
+msgstr "経験値"
+
+#. [Noun]
+msgid "game.character.female"
+msgstr "女"
+
+msgid "game.character.health"
+msgstr "ヘルス"
+
+#. 1 heart
+msgid "game.character.heart"
+msgstr "ハート"
+
+#. [Plural] 3 hearts
+msgid "game.character.heart.plural"
+msgstr "ハート"
+
+#. Character's level
+msgid "game.character.level"
+msgstr "レベル"
+
+msgid "game.character.level.up"
+msgstr "レベルアップ！"
+
+msgid "game.character.lives"
+msgstr "ライフ"
+
+#. [Noun]
+msgid "game.character.male"
+msgstr "男"
+
+#. [Noun]
+msgid "game.character.man"
+msgstr "男"
+
+#. [Noun][Plural]
+msgid "game.character.man.plural"
+msgstr "男"
+
+msgid "game.character.respawn"
+msgstr "復活"
+
+msgid "game.character.respawn.in"
+msgstr "復活まで："
+
+msgid "game.character.respawn.question"
+msgstr "復活しますか？"
+
+msgid "game.character.respawning"
+msgstr "復活中"
+
+msgid "game.character.skill"
+msgstr "スキル"
+
+msgid "game.character.spawn.point"
+msgstr "復活ポイント"
+
+#. [Noun]
+msgid "game.character.transgender"
+msgstr "トランスジェンダー"
+
+#. [Noun]
+msgid "game.character.woman"
+msgstr "女"
+
+#. [Noun][Plural]
+msgid "game.character.woman.plural"
+msgstr "女"
+
+#. generic : damage to vehicle body etc
+msgid "game.damage"
+msgstr "ダメージ"
+
+#. RPG attack
+msgid "game.damage.critical.hit"
+msgstr "クリティカルヒット"
+
+#. RPG attack miss
+msgid "game.damage.critical.miss"
+msgstr "クリティカルミス"
+
+#. RPG attack
+msgid "game.damage.hit.noun"
+msgstr "ヒット"
+
+#. Health
+msgid "game.damage.hit.points.plural"
+msgstr "ヒットポイント"
+
+#. RPG attack miss
+msgid "game.damage.miss.noun"
+msgstr "ミス"
+
+#. 1 damage unit
+msgid "game.damage.unit"
+msgstr "ダメージ"
+
+#. [Plural] 5 damage units
+msgid "game.damage.unit.plural"
+msgstr "ダメージ"
+
+#. [Noun]
+msgid "game.enemy"
+msgstr "敵"
+
+#. [Noun]
+msgid "game.enemy.female"
+msgstr "敵"
+
+#. [Noun]
+msgid "game.enemy.female.plural"
+msgstr "敵"
+
+#. [Noun]
+msgid "game.enemy.plural"
+msgstr "敵"
+
+msgid "game.inventory"
+msgstr "インベントリ"
+
+msgid "game.inventory.ammo"
+msgstr "弾薬"
+
+msgid "game.inventory.ammunition"
+msgstr "弾薬"
+
+msgid "game.inventory.bullet"
+msgstr "弾"
+
+msgid "game.inventory.bullet.plural"
+msgstr "弾"
+
+msgid "game.inventory.buy"
+msgstr "買う"
+
+msgid "game.inventory.capacity"
+msgstr "インベントリ容量"
+
+msgid "game.inventory.drop"
+msgstr "捨てる"
+
+#. How much is being carried
+msgid "game.inventory.encumbrance"
+msgstr "持ち運べる量"
+
+msgid "game.inventory.full"
+msgstr "インベントリがいっぱいです"
+
+msgid "game.inventory.item"
+msgstr "アイテム"
+
+msgid "game.inventory.key"
+msgstr "鍵"
+
+msgid "game.inventory.powerup"
+msgstr "パワーアップ"
+
+msgid "game.inventory.sell"
+msgstr "売る"
+
+#. [Infinitive/tutorial verb]
+msgid "game.inventory.use"
+msgstr "使用する"
+
+msgid "game.inventory.weapon"
+msgstr "武器"
+
+msgid "game.inventory.weapons"
+msgstr "武器"
+
+msgid "game.inventory.you.cannot.carry"
+msgstr "これ以上持てません。"
+
+#. [Imperative verb]
+msgid "game.label.be.careful"
+msgstr "気をつけて！"
+
+#. [Imperative verb]
+msgid "game.label.please.be.careful"
+msgstr "気をつけてください。"
+
+msgid "game.label.tactics"
+msgstr "作戦"
+
+msgid "game.objective"
+msgstr "目標"
+
+#. [Noun]
+msgid "game.objective.assist"
+msgstr "アシスト"
+
+msgid "game.objective.assist.plural"
+msgstr "アシスト"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.attack"
+msgstr "攻める"
+
+msgid "game.objective.bonus"
+msgstr "ボーナス"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.capture"
+msgstr "確保する"
+
+#. Has been completed
+msgid "game.objective.complete"
+msgstr "完了済"
+
+msgid "game.objective.death"
+msgstr "デス"
+
+msgid "game.objective.death.plural"
+msgstr "デス"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.defend"
+msgstr "守る"
+
+#. [Infinitive/tutorial verb]
+msgid "game.objective.destroy"
+msgstr "破壊する"
+
+#. [Infinitive/tutorial verb] Escape a situation
+msgid "game.objective.escape"
+msgstr "逃走する"
+
+#. Completed the game : end of story
+msgid "game.objective.game.finished"
+msgstr "終わり"
+
+#. Died lost destroyed etc
+msgid "game.objective.gameover"
+msgstr "ゲームオーバー！"
+
+msgid "game.objective.gameover.caps"
+msgstr "ゲームオーバー！"
+
+#. The highest score
+msgid "game.objective.high.score"
+msgstr "ハイスコア"
+
+msgid "game.objective.incomplete"
+msgstr "未完了"
+
+#. [Infinitive/tutorial verb] "to kill the bird"
+msgid "game.objective.kill"
+msgstr "キル"
+
+#. [Noun]
+msgid "game.objective.kill.assist"
+msgstr "キルアシスト"
+
+#. [Noun] As in "One kill"
+msgid "game.objective.kill.noun"
+msgstr "キル"
+
+#. As in "Two kills"
+msgid "game.objective.kill.plural"
+msgstr "キル"
+
+msgid "game.objective.locked"
+msgstr "ロック中"
+
+msgid "game.objective.losses"
+msgstr "敗北"
+
+msgid "game.objective.match"
+msgstr "マッチ"
+
+#. [Noun]
+msgid "game.objective.mission"
+msgstr "ミッション"
+
+msgid "game.objective.mission.objective.plural"
+msgstr "ミッション目標"
+
+msgid "game.objective.mission.objective"
+msgstr "ミッション目標"
+
+msgid "game.objective.multiplier"
+msgstr "倍"
+
+msgid "game.objective.plural"
+msgstr "目標"
+
+#. Position in order from winner to loser
+msgid "game.objective.position"
+msgstr "ポジション"
+
+#. Racing lap
+msgid "game.objective.race.lap"
+msgstr "ラップ"
+
+#. Racing laps
+msgid "game.objective.race.lap.plural"
+msgstr "ラップ"
+
+#. [Noun] As in part of match
+msgid "game.objective.round"
+msgstr "ラウンド"
+
+msgid "game.objective.score"
+msgstr "スコア"
+
+#. For countdown timers or elapsed time
+msgid "game.objective.time"
+msgstr "タイム"
+
+msgid "game.objective.time.left"
+msgstr "残り時間"
+
+msgid "game.objective.tournament"
+msgstr "トーナメント"
+
+msgid "game.objective.tournament.plural"
+msgstr "トーナメント"
+
+msgid "game.objective.wins"
+msgstr "勝利"
+
+#. [Noun]
+msgid "game.status.defeat"
+msgstr "敗北"
+
+msgid "game.status.defeated"
+msgstr "敗北しました。"
+
+msgid "game.status.loser"
+msgstr "敗者"
+
+msgid "game.status.team.lost"
+msgstr "チームの敗北！"
+
+msgid "game.status.team.won"
+msgstr "チームの勝利！"
+
+#. [Noun]
+msgid "game.status.victory"
+msgstr "勝利"
+
+msgid "game.status.winner"
+msgstr "勝者"
+
+#. [Default male]
+msgid "game.status.you.are.dead"
+msgstr "死にました。"
+
+msgid "game.status.you.died"
+msgstr "死にました。"
+
+msgid "game.status.you.lose"
+msgstr "敗北！"
+
+msgid "game.status.you.lost"
+msgstr "敗北！"
+
+msgid "game.status.you.win"
+msgstr "勝利！"
+
+msgid "game.status.you.won"
+msgstr "勝利！"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.aim"
+msgstr "狙う"
+
+#. [Noun]
+msgid "game.action.attacking"
+msgstr "攻撃"
+
+#. [Infinitive/tutorial verb] Running attack
+msgid "game.action.charge"
+msgstr "チャージ"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.self"
+msgstr "自身を防御する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.defend.target"
+msgstr "対象を防御する"
+
+#. [Infinitive/tutorial verb] Heal self
+msgid "game.action.heal.self"
+msgstr "自身を回復する"
+
+#. [Infinitive/tutorial verb] Heal target
+msgid "game.action.heal.target"
+msgstr "対象を回復する"
+
+#. [Infinitive/tutorial verb] Character spins
+msgid "game.action.spin.around"
+msgstr "回転する"
+
+#. Singular of Hit Points
+msgid "game.damage.hit.point"
+msgstr "ヒットポイント"
+
+msgid "game.objective.mission.failed"
+msgstr "ミッション失敗"
+
+msgid "game.objective.mission.succesful"
+msgstr "ミッション成功"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.go.prone"
+msgstr "伏せる"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.take.cover"
+msgstr "隠れる"
+
+msgid "game.politics.hostile"
+msgstr "敵"
+
+msgid "game.politics.hostile.plural"
+msgstr "敵"
+
+msgid "game.politics.hostile.female"
+msgstr "敵"
+
+msgid "game.politics.hostile.female.plural"
+msgstr "敵"
+
+#. [Adjective]
+msgid "game.politics.allied"
+msgstr "味方"
+
+#. [Adjective]
+msgid "game.politics.neutral"
+msgstr "中立"
+
+#. [Adjective]
+msgid "game.politics.opposing"
+msgstr "敵"
+
+#. [Noun] ' The opposition '
+msgid "game.politics.opposition"
+msgstr "敵"
+
+#. [Noun]
+msgid "game.politics.ally"
+msgstr "味方"
+
+#. [Noun]
+msgid "game.politics.ally.plural"
+msgstr "味方"
+
+#. [Noun]
+msgid "game.politics.ally.female"
+msgstr "味方"
+
+#. [Noun]
+msgid "game.politics.ally.female.plural"
+msgstr "味方"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.alliance"
+msgstr "味方"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.enmity"
+msgstr "敵"
+
+#. [Noun] Relationship between x and y
+msgid "game.politics.neutrality"
+msgstr "中立"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.forward"
+msgstr "前進"
+
+#. [Verb/Infinitive]
+msgid "game.action.drive.backwards"
+msgstr "後退"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.left"
+msgstr "左にハンドルをきる"
+
+#. [Verb/Infinitive]
+msgid "game.action.steer.right"
+msgstr "右にハンドルをきる"
+
+#. [Verb/Infinitive] Sliding on the ground after running.
+msgid "game.action.slide"
+msgstr "スライディング"
+
+#. [Verb/Infinitive] In a racing game.
+msgid "game.action.powerslide"
+msgstr "パワースライド"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.right"
+msgstr "右に桿をきる"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer.left"
+msgstr "左に桿をきる"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.up"
+msgstr "ピッチを上げる"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch.down"
+msgstr "ピッチを下げる"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll"
+msgstr "ロールする"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.right"
+msgstr "右にロールする"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.roll.left"
+msgstr "左にロールする"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.pitch"
+msgstr "ピッチ"
+
+#. [Verb/Infinitive] Controlling a airborne ground vehicle
+msgid "game.action.air.steer"
+msgstr "操縦"
+
+#. Focus while aiming through iron sights.
+msgid "game.action.focus"
+msgstr "フォーカス"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.up"
+msgstr "ピッチを上げる"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch.down"
+msgstr "ピッチを下げる"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.vehicle"
+msgstr "ロールする"
+
+#. [Infinitive/tutorial verb] A character performs a ground roll.
+msgid "game.action.roll.character"
+msgstr "転がる"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.right"
+msgstr "右にロールする"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.roll.left"
+msgstr "左に曲がる"
+
+#. [Verb/Infinitive] A flying vehicle.
+msgid "game.action.pitch"
+msgstr "ピッチ"
+
+#. [Noun] Common in racing games.
+msgid "game.action.rear.view"
+msgstr "後方画面"
+
+#. [Noun] Global/Common chatting.
+msgid "game.action.chat"
+msgstr "チャット"
+
+#. [Noun]
+msgid "game.action.chat.global"
+msgstr "グローバルチャット"
+
+#. [Noun]
+msgid "game.action.chat.server"
+msgstr "サーバーチャット"
+
+#. [Noun]
+msgid "game.action.chat.quick"
+msgstr "クイックチャット"
+
+#. [Noun]
+msgid "game.action.chat.team"
+msgstr "チームチャット"
+
+#. [Noun]
+msgid "game.action.chat.squad"
+msgstr "部隊チャット"
+
+#. [Noun]
+msgid "game.action.chat.group"
+msgstr "グループチャット"
+
+#. [Noun]
+msgid "game.action.chat.crew"
+msgstr "クルーチャット"
+
+#. [Noun]
+msgid "game.action.chat.party"
+msgstr "パーティーチャット"
+
+#. [Infinitive/tutorial verb] put away; place an item into container for later use
+msgid "game.action.store"
+msgstr "入れる"
+
+#. [Infinitive/tutorial verb] place an item into/on somewhere/something (generic term)
+msgid "game.action.put.item"
+msgstr "置く"
+
+#. [Verb/Infinitive] wear something (armor, weapon, etc.)/install an equipment
+msgid "game.inventory.equip"
+msgstr "装備する"
+
+#. [Verb/Infinitive]
+msgid "game.inventory.unequip"
+msgstr "装備を解除する"
+
+#. [Infinitive/tutorial verb]
+msgid "game.action.jump.plural"
+msgstr "ジャンプ"
+
+#. [Adjective?] without limit
+msgid "game.character.unlimited"
+msgstr "無制限"
+
+#. [Noun] name for a list of items you have registered as favourite
+msgid "game.inventory.favorites"
+msgstr "お気に入り"
+
+#. [Infinitive/tutorial verb] to register an item onto a keyboard shortcut, as favourites, etc.
+msgid "game.inventory.register"
+msgstr "登録する"
+
+#. [Infinitive/tutorial verb] the most basic thing WASD should do
+msgid "game.action.move.verb"
+msgstr "移動する"
+
+#. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
+msgid "game.action.zoom"
+msgstr "ズーム"

@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: credits\n"
+
+msgid "credits.game"
+msgstr "ゲーム"
+
+msgid "credits.game.development"
+msgstr "ゲーム開発"
+
+#. [Default male]
+msgid "credits.game.developer"
+msgstr "ゲーム開発者"
+
+msgid "credits.developed.by"
+msgstr "開発"
+
+msgid "credits.production"
+msgstr "製作"
+
+#. [Default male]
+msgid "credits.producer"
+msgstr "プロデューサー"
+
+#. [Default male]
+msgid "credits.publisher"
+msgstr "著作"
+
+#. [Default male]
+msgid "credits.director"
+msgstr "監督"
+
+msgid "credits.lead"
+msgstr "リード"
+
+msgid "credits.assistant"
+msgstr "アシスタント"
+
+msgid "credits.associate"
+msgstr "協力"
+
+msgid "credits.senior"
+msgstr "シニア"
+
+msgid "credits.junior"
+msgstr "ジュニア"
+
+msgid "credits.chief.tech.officer"
+msgstr "最高技術責任者"
+
+#. [Default male]
+msgid "credits.technical.director"
+msgstr "技術監督"
+
+#. [Default male]
+msgid "credits.creative.director"
+msgstr "クリエイティブディレクター"
+
+#. [Default male]
+msgid "credits.animation.director"
+msgstr "アニメーション監督"
+
+#. [Default male]
+msgid "credits.art.director"
+msgstr "美術監督"
+
+#. [Default male]
+msgid "credits.audio.director"
+msgstr "音響監督"
+
+#. [Default male]
+msgid "credits.program.manager"
+msgstr "番組担当"
+
+#. [Default male]
+msgid "credits.project.manager"
+msgstr "企画担当"
+
+msgid "credits.game.design"
+msgstr "ゲームデザイン"
+
+#. [Default male]
+msgid "credits.game.designer"
+msgstr "ゲームデザイナー"
+
+#. Programming code
+msgid "credits.code"
+msgstr "コード"
+
+msgid "credits.programming"
+msgstr "プログラミング"
+
+#. [Default male]
+msgid "credits.programmer"
+msgstr "プログラマー"
+
+#. [Default male]
+msgid "credits.programmer.plural"
+msgstr "プログラマー"
+
+#. [Default male]
+msgid "credits.lead.programmer"
+msgstr "リードプログラマー"
+
+#. [Default male]
+msgid "credits.graphic.designer"
+msgstr "グラフィックデザイナー"
+
+#. [Default male]
+msgid "credits.technical.artist"
+msgstr "テクニカルアーティスト"
+
+#. [Default male]
+msgid "credits.concept.artist"
+msgstr "コンセプトアーティスト"
+
+#. [Default male]
+msgid "credits.character.designer"
+msgstr "キャラクターデザイナー"
+
+msgid "credits.art"
+msgstr "アート"
+
+#. [Singular]
+msgid "credits.artist"
+msgstr "アーティスト"
+
+#. [Plural]
+msgid "credits.artist.plural"
+msgstr "アーティスト"
+
+msgid "credits.level.design"
+msgstr "レベルデザイン"
+
+#. [Singular]
+msgid "credits.level.designer"
+msgstr "レベルデザイナー"
+
+#. [Default male]
+msgid "credits.cinematics.director"
+msgstr "シネマティックディレクター"
+
+#. [Default male]
+msgid "credits.cinematic.animator"
+msgstr "シネマティックアニメーター"
+
+#. [Default male]
+msgid "credits.interface.artist"
+msgstr "インターフェイスアーティスト"
+
+#. [Default male]
+msgid "credits.composer"
+msgstr "編曲"
+
+#. [Default male]
+msgid "credits.musician"
+msgstr "演奏"
+
+msgid "credits.special.thanks"
+msgstr "謝辞"
+
+msgid "credits.special.thanks.to"
+msgstr "謝辞"
+
+msgid "credits.image"
+msgstr "画像"
+
+msgid "credits.image.plural"
+msgstr "画像"
+
+msgid "credits.font"
+msgstr "フォント"
+
+msgid "credits.font.plural"
+msgstr "フォント"
+
+msgid "credits.soundtrack"
+msgstr "サウンドトラック"
+
+#. [Default male]
+msgid "credits.writer"
+msgstr "脚本家"
+
+msgid "credits.manuscript"
+msgstr "脚本"
+
+#. [Default male]
+msgid "credits.script.writer"
+msgstr "脚本家"
+
+msgid "credits.animation"
+msgstr "アニメーション"
+
+msgid "credits.animator"
+msgstr "アニメーター"
+
+msgid "credits.voice.acting"
+msgstr "声優"
+
+#. [Default male]
+msgid "credits.voice.actor"
+msgstr "声優"
+
+#. [Default male]
+msgid "credits.sound.designer"
+msgstr "サウンドデザイナー"
+
+#. [Default male]
+msgid "credits.sound.engineer"
+msgstr "サウンドエンジニア"
+
+msgid "credits.sfx"
+msgstr "SE"
+
+msgid "credits.vfx"
+msgstr "特殊効果"
+
+#. [Default male] Someone who records sound
+msgid "credits.recordist"
+msgstr "録音"
+
+#. [Default male] Special sound FX
+msgid "credits.foley.artist"
+msgstr "フォーリーアーティスト"
+
+#. [Default male]
+msgid "credits.test.manager"
+msgstr "テスト管理者"
+
+#. [Default male]
+msgid "credits.test.lead"
+msgstr "テスト管理総指揮"
+
+#. [Default male]
+msgid "credits.tester"
+msgstr "テスター"
+
+#. [Default male]
+msgid "credits.database.admin"
+msgstr "データベースアドミン"
+
+msgid "credits.3d.modeling"
+msgstr "3Dモデリング"
+
+msgid "credits.models"
+msgstr "モデル"
+
+msgid "credits.localization"
+msgstr "ローカリゼーション"
+
+msgid "credits.translation"
+msgstr "翻訳"

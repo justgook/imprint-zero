@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "No %s detected."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Leaving tracking area."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "No HMD detected."
+
+msgid "error.generic.errcode"
+msgstr "Error code:"
+
+msgid "error.generic.text"
+msgstr "An error has occurred."
+
+msgid "error.generic.invalid.name"
+msgstr "Invalid name."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Invalid CD Key."
+
+msgid "error.generic.cheating"
+msgstr "Cheats detected!"
+
+msgid "error.network.connection.lost"
+msgstr "Connection lost."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Your opponent has disconnected."
+
+msgid "error.network.disconnected.your.player"
+msgstr "The other player has disconnected."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Your teammate has disconnected."
+
+msgid "error.network.server"
+msgstr "Cannot connect to server."
+
+msgid "error.save.corrupted"
+msgstr "Save file corrupted."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "No games found."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "No open games."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "A player has disconnected."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "An opponent has disconnected."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "A teammate has disconnected."

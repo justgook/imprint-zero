@@ -1,0 +1,1129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: menus\n"
+
+msgid "menu.camera"
+msgstr "カメラ"
+
+msgid "menu.camera.inverted"
+msgstr "反転"
+
+msgid "menu.camera.normal"
+msgstr "通常"
+
+#. Camera X Axis setting
+msgid "menu.camera.xaxis"
+msgstr "カメラ操作：左右"
+
+msgid "menu.camera.yaxis"
+msgstr "カメラ操作：上下"
+
+msgid "menu.controls.button"
+msgstr "ボタン"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.click"
+msgstr "クリック"
+
+msgid "menu.controls.deadzone"
+msgstr "デッドゾーン"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.double.click"
+msgstr "ダブルクリック"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag"
+msgstr "ドラッグ"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.drag.drop"
+msgstr "ドラッグ・アンド・ドロップ"
+
+#. [Noun] Touch control
+msgid "menu.controls.finger"
+msgstr "フィンガー"
+
+msgid "menu.controls.gamepad"
+msgstr "ゲームパッド"
+
+msgid "menu.controls.gyroscope"
+msgstr "ジャイロ"
+
+#. Keyboard key
+msgid "menu.controls.key"
+msgstr "キー"
+
+msgid "menu.controls.keyboard"
+msgstr "キーボード"
+
+msgid "menu.controls.mouse"
+msgstr "マウス"
+
+msgid "menu.controls.mouse.sensitivity"
+msgstr "マウス感度"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.pinch"
+msgstr "ピンチ"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.rotate"
+msgstr "回転"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.scroll"
+msgstr "スクロール"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.shake"
+msgstr "シェイク"
+
+#. [Infinitive/tutorial verb] Touch control Commonly used in maps
+msgid "menu.controls.spread"
+msgstr "スプレッド"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.swipe"
+msgstr "スワイプ"
+
+#. [Infinitive/tutorial verb] Touch control
+msgid "menu.controls.tap"
+msgstr "タップ"
+
+msgid "menu.controls.the.button"
+msgstr "ボタン"
+
+#. The keyboard key
+msgid "menu.controls.the.key"
+msgstr "キー"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.controls.tilt"
+msgstr "ティルト"
+
+msgid "menu.customize.arm"
+msgstr "腕"
+
+msgid "menu.customize.arm.plural"
+msgstr "腕"
+
+#. Body part not treasure
+msgid "menu.customize.chest"
+msgstr "胸"
+
+msgid "menu.customize.chin"
+msgstr "顎"
+
+msgid "menu.customize.color"
+msgstr "色"
+
+msgid "menu.customize.ear"
+msgstr "耳"
+
+msgid "menu.customize.ear.plural"
+msgstr "耳"
+
+msgid "menu.customize.eye"
+msgstr "目"
+
+msgid "menu.customize.eye.plural"
+msgstr "目"
+
+msgid "menu.customize.feet"
+msgstr "足"
+
+msgid "menu.customize.foot"
+msgstr "足"
+
+#. All-purpose term
+msgid "menu.customize.hair"
+msgstr "毛"
+
+#. Facial hair
+msgid "menu.customize.hair.beard"
+msgstr "髭"
+
+#. Animal fur
+msgid "menu.customize.hair.fur"
+msgstr "毛皮"
+
+msgid "menu.customize.hair.head"
+msgstr "髪"
+
+msgid "menu.customize.hand"
+msgstr "手"
+
+msgid "menu.customize.hand.plural"
+msgstr "手"
+
+msgid "menu.customize.head"
+msgstr "頭"
+
+msgid "menu.customize.hips"
+msgstr "腰"
+
+msgid "menu.customize.leg"
+msgstr "脚"
+
+msgid "menu.customize.leg.plural"
+msgstr "脚"
+
+msgid "menu.customize.mouth"
+msgstr "口"
+
+msgid "menu.customize.neck"
+msgstr "首"
+
+msgid "menu.customize.nose"
+msgstr "鼻"
+
+msgid "menu.customize.skin"
+msgstr "肌"
+
+msgid "menu.customize.thorax"
+msgstr "胸郭"
+
+#. Difficulty
+msgid "menu.difficulty"
+msgstr "難易度"
+
+#. Difficulty
+msgid "menu.difficulty.easy"
+msgstr "易しい"
+
+#. Difficulty
+msgid "menu.difficulty.hard"
+msgstr "難しい"
+
+#. Difficulty
+msgid "menu.difficulty.impossible"
+msgstr "クリア不可能"
+
+#. Difficulty
+msgid "menu.difficulty.insane"
+msgstr "マニアック"
+
+#. Difficulty
+msgid "menu.difficulty.medium"
+msgstr "普通"
+
+#. Difficulty
+msgid "menu.difficulty.very.easy"
+msgstr "とても易しい"
+
+#. Difficulty
+msgid "menu.difficulty.very.hard"
+msgstr "とても難しい"
+
+msgid "menu.dir.down"
+msgstr "下"
+
+msgid "menu.dir.left"
+msgstr "左"
+
+msgid "menu.dir.right"
+msgstr "右"
+
+msgid "menu.dir.up"
+msgstr "上"
+
+msgid "menu.io.load"
+msgstr "ロード"
+
+msgid "menu.io.load.game"
+msgstr "ゲームデータをロード"
+
+msgid "menu.io.loading"
+msgstr "ローディング中…"
+
+msgid "menu.io.please.wait"
+msgstr "お待ちください…"
+
+#. Reset whatever save data is in focus
+msgid "menu.io.reset.save.data"
+msgstr "セーブデータを消去しますか？"
+
+#. [Verb]
+msgid "menu.io.save"
+msgstr "セーブ"
+
+#. [Verb]
+msgid "menu.io.save.data"
+msgstr "セーブデータ"
+
+#. [Verb]
+msgid "menu.io.save.game"
+msgstr "ゲームデータをセーブ"
+
+msgid "menu.io.saving"
+msgstr "セーブ中…"
+
+msgid "menu.label.all"
+msgstr "すべて"
+
+msgid "menu.label.age"
+msgstr "年齢"
+
+msgid "menu.label.are.you.really.sure"
+msgstr "本当によろしいですか？"
+
+#. A generic confirmation
+msgid "menu.label.are.you.sure"
+msgstr "よろしいですか？"
+
+#. Back one level in selections
+msgid "menu.label.back"
+msgstr "戻る"
+
+msgid "menu.label.background.music"
+msgstr "BGM"
+
+msgid "menu.label.cancel"
+msgstr "キャンセル"
+
+#. Close window
+msgid "menu.label.close"
+msgstr "閉じる"
+
+#. Choose selected button
+msgid "menu.label.confirm.button"
+msgstr "決定"
+
+msgid "menu.label.continue"
+msgstr "続ける"
+
+msgid "menu.label.continue.question"
+msgstr "続けますか？"
+
+#. Authors list
+msgid "menu.label.credits"
+msgstr "クレジット"
+
+msgid "menu.label.desktop"
+msgstr "終了してデスクトップへ戻る"
+
+msgid "menu.label.desktop.question"
+msgstr "終了してデスクトップへ戻りますか？"
+
+#. Downloadable content (abbreviation/short)
+msgid "menu.label.dlc"
+msgstr "DLC"
+
+#. [Verb]
+msgid "menu.label.download"
+msgstr "ダウンロード"
+
+#. Downloadable content (long)
+msgid "menu.label.downloadable"
+msgstr "ダウンロードコンテンツ"
+
+#. Leave a state or place
+msgid "menu.label.exit"
+msgstr "終了する"
+
+msgid "menu.label.exit.question"
+msgstr "終了しますか？"
+
+msgid "menu.label.extras"
+msgstr "エキストラ"
+
+#. Frames Per Second
+msgid "menu.label.framespersec"
+msgstr "FPS"
+
+msgid "menu.label.gallery"
+msgstr "アートギャラリー"
+
+msgid "menu.label.goodbye"
+msgstr "さようなら！"
+
+msgid "menu.label.graphics"
+msgstr "グラフィック"
+
+#. [Singular]
+msgid "menu.label.iap"
+msgstr "アプリ内購入"
+
+msgid "menu.label.language"
+msgstr "言語"
+
+#. Game stage (not game world or char level)
+msgid "menu.label.level"
+msgstr "ステージ"
+
+#. In-game mailbox
+msgid "menu.label.mail"
+msgstr "メール"
+
+msgid "menu.label.mainmenu"
+msgstr "メインメニュー"
+
+msgid "menu.label.more"
+msgstr "詳細"
+
+msgid "menu.label.music"
+msgstr "音楽"
+
+msgid "menu.label.music.player"
+msgstr "音楽プレーヤー"
+
+msgid "menu.label.new.game"
+msgstr "新しいゲーム"
+
+msgid "menu.label.next"
+msgstr "次へ"
+
+#. Next music track/song
+msgid "menu.label.next.track"
+msgstr "次の曲"
+
+msgid "menu.label.no"
+msgstr "いいえ"
+
+msgid "menu.label.no.caps"
+msgstr "いいえ"
+
+#. A more casual 'no'
+msgid "menu.label.nope"
+msgstr "だめ"
+
+#. As in Windows dialog
+msgid "menu.label.ok"
+msgstr "OK"
+
+#. [Infinitive/tutorial verb] common term
+msgid "menu.label.pause"
+msgstr "ポーズ"
+
+msgid "menu.label.paused"
+msgstr "ポーズ中"
+
+msgid "menu.label.play"
+msgstr "プレイ"
+
+msgid "menu.label.play.again"
+msgstr "再プレイ"
+
+msgid "menu.label.press.anykey"
+msgstr "いずれかのキーを押す"
+
+msgid "menu.label.press.anykey.continue"
+msgstr "続けるにはいずれかのキーを押す"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start"
+msgstr "STARTボタンを押す"
+
+#. "Start" is a literal button name
+msgid "menu.label.press.start.continue"
+msgstr "続けるにはSTARTボタンを押す"
+
+msgid "menu.label.previous"
+msgstr "前へ"
+
+#. Previous music track/song
+msgid "menu.label.previous.track"
+msgstr "前の曲"
+
+msgid "menu.label.price"
+msgstr "価格"
+
+msgid "menu.label.price.free"
+msgstr "無料"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.purchase"
+msgstr "購入"
+
+#. Leave the game (keep short)
+msgid "menu.label.quit"
+msgstr "終了する"
+
+msgid "menu.label.quit.confirm"
+msgstr "本当に終了しますか？"
+
+msgid "menu.label.quit.question"
+msgstr "終了しますか？"
+
+#. Show the replay of the last game
+msgid "menu.label.replay"
+msgstr "リプレイ"
+
+msgid "menu.label.return"
+msgstr "戻る"
+
+msgid "menu.label.return.main"
+msgstr "メインメニューに戻る"
+
+msgid "menu.label.return.main.question"
+msgstr "メインメニューに戻りますか？"
+
+#. Share via social media
+msgid "menu.label.share"
+msgstr "共有"
+
+#. Skip cutscene skip replay (Generic)
+msgid "menu.label.skip"
+msgstr "スキップ"
+
+msgid "menu.label.sound"
+msgstr "サウンド"
+
+msgid "menu.label.thank.you"
+msgstr "ありがとう！"
+
+#. [Infinitive/tutorial verb]
+msgid "menu.label.unlock"
+msgstr "アンロック"
+
+msgid "menu.label.video"
+msgstr "ビデオクオリティ"
+
+msgid "menu.label.voices"
+msgstr "ボイス"
+
+msgid "menu.label.warning"
+msgstr "警告"
+
+msgid "menu.label.welcome"
+msgstr "ようこそ"
+
+msgid "menu.label.world"
+msgstr "ワールド"
+
+#. A more casual 'yes'
+msgid "menu.label.yeah"
+msgstr "いいよ"
+
+msgid "menu.label.yes"
+msgstr "はい"
+
+msgid "menu.label.yes.caps"
+msgstr "はい"
+
+#. ltr or rtl (text direction used by game code)
+msgid "menu.language.direction"
+msgstr "ltr"
+
+#. "MyLanguage" in native text
+msgid "menu.language.this"
+msgstr "日本語"
+
+#. "MyLanguage" in english text
+msgid "menu.language.this.en"
+msgstr "Japanese"
+
+#. [Verb]
+msgid "menu.login"
+msgstr "ログイン"
+
+#. Email address
+msgid "menu.login.email"
+msgstr "Eメール"
+
+msgid "menu.login.forgot"
+msgstr "パスワードを忘れた"
+
+msgid "menu.login.password"
+msgstr "パスワード"
+
+#. [Verb]
+msgid "menu.login.register"
+msgstr "登録"
+
+#. Remember entered data on this device?
+msgid "menu.login.remember"
+msgstr "保存しますか？"
+
+#. [Noun]
+msgid "menu.mode.challenge"
+msgstr "チャレンジ"
+
+#. For challenges like "Win in 30 secs"
+msgid "menu.mode.challenge.mode"
+msgstr "チャレンジモード"
+
+msgid "menu.mode.coop"
+msgstr "協力"
+
+msgid "menu.mode.cooperative"
+msgstr "協力モード"
+
+msgid "menu.mode.deathmatch"
+msgstr "デスマッチ"
+
+msgid "menu.mode.help"
+msgstr "ヘルプ"
+
+msgid "menu.mode.instructions"
+msgstr "説明"
+
+msgid "menu.mode.multiplayer"
+msgstr "マルチプレイ"
+
+msgid "menu.mode.multiplayer.local"
+msgstr "ローカルマルチプレイ"
+
+msgid "menu.mode.multiplayer.online"
+msgstr "オンラインマルチプレイ"
+
+msgid "menu.mode.play.online"
+msgstr "オンラインでプレイ"
+
+msgid "menu.mode.singleplayer"
+msgstr "シングルプレイ"
+
+msgid "menu.mode.training"
+msgstr "トレーニング"
+
+msgid "menu.mode.tutorial"
+msgstr "チュートリアル"
+
+msgid "menu.mode.versus"
+msgstr "対戦"
+
+#. Generic – for: human dog ship item
+msgid "menu.name"
+msgstr "名前"
+
+#. First name
+msgid "menu.name.first"
+msgstr "名前"
+
+#. Family name
+msgid "menu.name.last"
+msgstr "苗字"
+
+#. Alias or pseudonym or account name
+msgid "menu.name.user"
+msgstr "ユーザーネーム"
+
+msgid "menu.options"
+msgstr "設定"
+
+msgid "menu.options.advancedgraphics"
+msgstr "グラフィック詳細設定"
+
+msgid "menu.options.antialiasing"
+msgstr "アンチエイリアス"
+
+msgid "menu.options.bloom"
+msgstr "ブルーム効果"
+
+msgid "menu.options.controls"
+msgstr "操作方法"
+
+msgid "menu.options.difficulty"
+msgstr "難易度設定"
+
+msgid "menu.options.display"
+msgstr "ディスプレイ"
+
+msgid "menu.options.first.person.view"
+msgstr "一人称視点"
+
+#. Field of View
+msgid "menu.options.fov"
+msgstr "視野角"
+
+msgid "menu.options.fullscreen"
+msgstr "フルスクリーン"
+
+msgid "menu.options.gameplay"
+msgstr "ゲームプレイ設定"
+
+msgid "menu.options.graphics"
+msgstr "グラフィック設定"
+
+#. Heads Up Display
+msgid "menu.options.hud"
+msgstr "HUD"
+
+msgid "menu.options.music.volume"
+msgstr "BGM音量"
+
+msgid "menu.options.network"
+msgstr "ネットワーク設定"
+
+msgid "menu.options.quality"
+msgstr "クオリティ"
+
+msgid "menu.options.resolution"
+msgstr "解像度"
+
+msgid "menu.options.sfx.volume"
+msgstr "SE音量"
+
+msgid "menu.options.shadow"
+msgstr "シャドウ"
+
+msgid "menu.options.shadow.plural"
+msgstr "シャドウ"
+
+msgid "menu.options.size"
+msgstr "サイズ"
+
+msgid "menu.options.sound"
+msgstr "サウンド設定"
+
+msgid "menu.options.sound.volume"
+msgstr "ボリューム"
+
+msgid "menu.options.splitscreen"
+msgstr "画面分割"
+
+msgid "menu.options.third.person.view"
+msgstr "三人称視点"
+
+msgid "menu.options.video"
+msgstr "ビデオ設定"
+
+#. Movie playback quality
+msgid "menu.options.video.quality"
+msgstr "ビデオクオリティ"
+
+msgid "menu.options.voice.volume"
+msgstr "ボイス音量"
+
+msgid "menu.options.vsync"
+msgstr "垂直同期"
+
+msgid "menu.options.windowed"
+msgstr "ウィンドウモード"
+
+msgid "menu.options.shader.detail"
+msgstr "シェーダーの詳細"
+
+msgid "menu.options.texture.detail"
+msgstr "テクスチャの詳細"
+
+msgid "menu.options.multicore.rendering"
+msgstr "マルチコアレンダリング"
+
+msgid "menu.options.model.detail"
+msgstr "モデルの詳細"
+
+#. Aspect ratio (16:9 or 16:10)
+msgid "menu.options.widescreen"
+msgstr "ワイドスクリーン"
+
+msgid "menu.options.effect.detail"
+msgstr "エフェクト詳細設定"
+
+#. Filtering mode
+msgid "menu.options.filtering.anisotropic"
+msgstr "異方性"
+
+#. Filtering mode
+msgid "menu.options.filtering.bilinear"
+msgstr "バイリニア"
+
+#. Filtering mode
+msgid "menu.options.filtering.trilinear"
+msgstr "トライリニア"
+
+msgid "menu.options.filtering.mode"
+msgstr "フィルタリング モード"
+
+#. (Generic) Very High (short)
+msgid "menu.setting.ultra"
+msgstr "ウルトラ"
+
+#. (Generic)
+msgid "menu.setting.very.high"
+msgstr "最高"
+
+#. (Generic)
+msgid "menu.setting.high"
+msgstr "高"
+
+#. (Generic)
+msgid "menu.setting.medium"
+msgstr "中"
+
+#. (Generic)
+msgid "menu.setting.low"
+msgstr "低"
+
+#. Game's version number
+msgid "menu.version"
+msgstr "バージョン"
+
+#. Demo version [short]  '0.3.3 Demo'
+msgid "menu.version.demo"
+msgstr "デモ"
+
+#. Free version [short]
+msgid "menu.version.free"
+msgstr "無料版"
+
+#. Full version [short]
+msgid "menu.version.full"
+msgstr "完全版"
+
+#. Lite version [short]
+msgid "menu.version.lite"
+msgstr "Lite版"
+
+#. Premium version [short]
+msgid "menu.version.premium"
+msgstr "プレミアム"
+
+#. Shareware version [short]
+msgid "menu.version.shareware"
+msgstr "シェアウェア"
+
+#. Trial version [short]
+msgid "menu.version.trial"
+msgstr "体験版"
+
+#. For sensitive people in VR
+msgid "menu.vr.comfort.mode"
+msgstr "VR向けモード"
+
+#. Using abbrev. HMD (Head mounted display)
+msgid "menu.vr.hmd.orient.reset"
+msgstr "HMDの画面位置設定をリセット"
+
+msgid "menu.vr.virtual.reality"
+msgstr "バーチャルリアリティ"
+
+#. Catch-all term for Gamepads Joysticks etc.
+msgid "menu.controls.controller"
+msgstr "コントローラー"
+
+#. The digital D-Pad
+msgid "menu.controls.dpad"
+msgstr "十字キー"
+
+msgid "menu.controls.horizontal.sensitivity"
+msgstr "左右方向の感度"
+
+#. Button layout Stick layout
+msgid "menu.controls.layout"
+msgstr "キー配置"
+
+msgid "menu.controls.left.stick"
+msgstr "左スティック"
+
+msgid "menu.controls.mouse.acceleration"
+msgstr "マウス加速"
+
+msgid "menu.controls.mouse.invert"
+msgstr "マウス反転"
+
+msgid "menu.controls.mouse.invert.yaxis"
+msgstr "マウス反転"
+
+msgid "menu.controls.mouse.wheel"
+msgstr "マウスホイール"
+
+#. When an action is not bound to any key.
+msgid "menu.controls.none"
+msgstr "未指定"
+
+msgid "menu.controls.right.stick"
+msgstr "右スティック"
+
+#. Settings : Gamepad or Joystick stick
+msgid "menu.controls.stick"
+msgstr "スティック"
+
+msgid "menu.controls.vertical.sensitivity"
+msgstr "上下方向の感度"
+
+msgid "menu.controls.vibration"
+msgstr "振動"
+
+msgid "menu.label.allow"
+msgstr "許可"
+
+msgid "menu.label.apply"
+msgstr "適用"
+
+msgid "menu.label.choose.character"
+msgstr "キャラクターを選択する"
+
+msgid "menu.label.choose.hero"
+msgstr "ヒーローを選択する"
+
+msgid "menu.label.choose.hero.female"
+msgstr "ヒーローを選択する"
+
+#. Choose game language
+msgid "menu.label.choose.language"
+msgstr "言語を選択する"
+
+#. Choose game world level
+msgid "menu.label.choose.level"
+msgstr "ステージを選択する"
+
+msgid "menu.label.community"
+msgstr "コミュニティ"
+
+msgid "menu.label.default"
+msgstr "デフォルト"
+
+msgid "menu.label.deny"
+msgstr "拒否"
+
+msgid "menu.label.developer.commentary"
+msgstr "開発者による解説"
+
+msgid "menu.label.developer.console"
+msgstr "開発者コンソール"
+
+msgid "menu.label.disabled"
+msgstr "無効"
+
+msgid "menu.label.done"
+msgstr "決定"
+
+msgid "menu.label.enabled"
+msgstr "有効"
+
+#. Listing of high scores
+msgid "menu.label.high.scores"
+msgstr "ハイスコア"
+
+msgid "menu.label.iap.plural"
+msgstr "ゲーム内購入"
+
+#. Listing of high scores often online
+msgid "menu.label.leaderboard.plural"
+msgstr "リーダーボード"
+
+msgid "menu.label.press.any.btn.continue"
+msgstr "続けるにはいずれかのボタンを押す"
+
+msgid "menu.label.reset"
+msgstr "リセット"
+
+msgid "menu.label.save.plural"
+msgstr "セーブ"
+
+#. For secret code or cheat code
+msgid "menu.label.secret.code"
+msgstr "コード"
+
+msgid "menu.label.start"
+msgstr "スタート"
+
+msgid "menu.label.use.defaults"
+msgstr "デフォルトを使用する"
+
+#. Performance test
+msgid "menu.mode.benchmark"
+msgstr "ベンチマーク"
+
+#. [Adjective]
+msgid "menu.mode.local"
+msgstr "ローカル"
+
+#. [Adjective]
+msgid "menu.mode.offline"
+msgstr "オフライン"
+
+#. [Adjective]
+msgid "menu.mode.online"
+msgstr "オンライン"
+
+msgid "menu.options.aspect.ratio"
+msgstr "アスペクト比"
+
+#. Fullscreen/windowed
+msgid "menu.options.display.mode"
+msgstr "ディスプレイモード"
+
+#. Depth of Field abbreviation
+msgid "menu.options.dof"
+msgstr "被写界深度"
+
+#. Not belonging to a group
+msgid "menu.options.miscellaneous"
+msgstr "その他の設定"
+
+#. [Noun] Rendering technique
+msgid "menu.options.tesselation"
+msgstr "テッセレーション"
+
+#. (Generic)
+msgid "menu.setting.very.low"
+msgstr "最低"
+
+#. Point lights : amount or toggle
+msgid "menu.options.point.lights"
+msgstr "点光源"
+
+msgid "menu.keys.alt"
+msgstr "Alt"
+
+msgid "menu.keys.ctrl"
+msgstr "Ctrl"
+
+msgid "menu.keys.shift"
+msgstr "Shift"
+
+msgid "menu.keys.enter"
+msgstr "Enter"
+
+msgid "menu.keys.escape"
+msgstr "Esc"
+
+msgid "menu.keys.space"
+msgstr "Space"
+
+msgid "menu.io.load.save"
+msgstr "セーブ/ロード"
+
+msgid "menu.keys.tab"
+msgstr "Tab"
+
+msgid "menu.keys.shift.left"
+msgstr "左Shift"
+
+msgid "menu.keys.shift.right"
+msgstr "右Shift"
+
+msgid "menu.keys.alt.gr"
+msgstr "Alt Gr"
+
+msgid "menu.keys.ctrl.left"
+msgstr "左Ctrl"
+
+msgid "menu.keys.ctrl.right"
+msgstr "右Ctrl"
+
+#. https://en.wikipedia.org/wiki/Windows_key
+msgid "menu.keys.super.left"
+msgstr "左Win"
+
+msgid "menu.keys.super.right"
+msgstr "右Win"
+
+#. https://en.wikipedia.org/wiki/Command_key
+msgid "menu.keys.command.left"
+msgstr "左Command"
+
+msgid "menu.keys.command.right"
+msgstr "右Command"
+
+#. E.g. "Camera mode: Top-Down"
+msgid "menu.options.camera.mode"
+msgstr "カメラモード"
+
+#. Height of 3rd person camera from the player.
+msgid "menu.options.camera.height"
+msgstr "カメラ高さ"
+
+#. Camera pitch.
+msgid "menu.options.camera.angle"
+msgstr "カメラアングル"
+
+#. 3rd person camera distance from player.
+msgid "menu.options.camera.distance"
+msgstr "カメラ距離"
+
+#. https://en.wikipedia.org/wiki/Crepuscular_rays
+msgid "menu.options.light.shafts"
+msgstr "ライトシャフト"
+
+msgid "menu.options.lens.flares"
+msgstr "レンズフレア"
+
+msgid "menu.options.motion.blur"
+msgstr "モーションブラー"
+
+#. Ambient sounds like birds chirping.
+msgid "menu.options.ambient.volume"
+msgstr "環境音量"
+
+#. Gameplay sound effects like walking.
+msgid "menu.options.gameplay.volume"
+msgstr "ゲーム音量"
+
+#. Device used for audio output.
+msgid "menu.options.audio.device"
+msgstr "オーディオ出力"
+
+#. Device used for video output.
+msgid "menu.options.video.device"
+msgstr "ビデオ出力"
+
+#. E.g. For chat visibility.
+msgid "menu.label.allow.all"
+msgstr "全て表示"
+
+#. E.g. For chat visibility.
+msgid "menu.label.team.only"
+msgstr "チームのみ"
+
+#. E.g. For chat visibility.
+msgid "menu.label.squad.only"
+msgstr "部隊のみ"
+
+#. E.g. For chat visibility.
+msgid "menu.label.group.only"
+msgstr "グループのみ"
+
+#. E.g. For chat visibility.
+msgid "menu.label.crew.only"
+msgstr "クルーのみ"
+
+#. E.g. For chat visibility.
+msgid "menu.label.party.only"
+msgstr "パーティーのみ"
+
+#. For enabling/disabling cross-platform play.
+msgid "menu.options.cross.platform.play"
+msgstr "クロスプラットフォームプレイ"
+
+msgid "menu.label.cross.platform.multiplayer"
+msgstr "クロスプラットフォームマルチプレイ"
+
+#. multiplayer lobby/list of games
+msgid "menu.label.refresh"
+msgstr "更新"
+
+msgid "menu.io.overwrite.save.data"
+msgstr "現在のセーブデータを上書きしますか?"
+
+#. [Infinitive/tutorial verb] Change name
+msgid "menu.label.rename"
+msgstr "名前変更"
+
+#. We have "Main Menu" but don't have generic "Menu"
+msgid "menu.label.menu"
+msgstr "メニュー"
+
+#. Look up the Achievements in the menu
+msgid "menu.label.achievements"
+msgstr "アチーブメント"
+
+#. [Infinitive/tutorial verb] e.g. a button with label "change", push this and your text is saved
+msgid "menu.label.change.verb"
+msgstr "変更"
+
+msgid "menu.label.audio"
+msgstr "オーディオ"
+
+#. Yes/no question
+msgid "menu.override.save.question"
+msgstr "これにより、以前の保存が上書きされます。よろしいですか?"
+
+msgid "menu.will.save.progress"
+msgstr "進行状況は保存されます"
+
+#. [Infinitive/tutorial verb] Hold control
+msgid "menu.controls.hold"
+msgstr "ホールド"
+
+#. for some option changes that requires restarting the game
+msgid "menu.label.restart.required"
+msgstr "再起動が必要"

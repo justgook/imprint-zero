@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Wiki-Title: Dialogue\n"
+"X-Wiki-Eyebrow: Game text\n"
+"X-Wiki-Status: in-progress\n"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: Confirm deployment and establish the immediate objective.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l001"
+msgstr "ROOK, deployment confirmed. Ashfall residential tower, sector seven."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: State the required mission sequence concisely.
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l002"
+msgstr "Restore sector power, recover the trapped security team, and reach the transit link."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Establish that VECTOR is active elsewhere in Ashfall District.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l001"
+msgstr "ROOK, VECTOR. I’m two blocks east. Same fire, same dead comms."
+
+#. Speaker: VECTOR
+#. Delivery: Radio
+#. Room: R02
+#. Intent: Direct attention toward the drones without stopping the tutorial.
+#: missions/m01.md:R02
+msgid "dialogue.m01.com02.l002"
+msgstr "Something is steering the drones toward occupied floors. I’ll trace it from here."
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Introduce the first contradiction in ROOK’s remembered history.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l001"
+msgstr "Captain?"
+
+#. Speaker: SECURITY_OFFICER
+#. Delivery: In person
+#. Room: R06
+#. Intent: Make the recognition specific without explaining it.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l002"
+msgstr "I watched you die at Kestrel Bridge. Eight years ago."
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R06
+#. Intent: Keep ROOK controlled and focused on the rescue.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com03.l003"
+msgstr "You have the wrong soldier. Can you move?"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Offer a plausible explanation while redirecting the mission.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l001"
+msgstr "Neurological exposure can produce false recognition and identity projection."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R06
+#. Intent: Close the interruption and return the player to the objective.
+#: missions/m01.md:R06
+msgid "dialogue.m01.com04.l002"
+msgstr "Secure the survivor and continue to transit."

@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "动作游戏"
+
+msgid "game.genre.adventure"
+msgstr "冒险游戏"
+
+msgid "game.genre.card"
+msgstr "卡牌游戏"
+
+msgid "game.genre.casual"
+msgstr "休闲游戏"
+
+msgid "game.genre.fantasy"
+msgstr "魔幻游戏"
+
+msgid "game.genre.hardcore"
+msgstr "硬核游戏"
+
+msgid "game.genre.indie"
+msgstr "独立游戏"
+
+msgid "game.genre.medieval"
+msgstr "中世纪式游戏"
+
+msgid "game.genre.misc"
+msgstr "其它"
+
+msgid "game.genre.multiplayer"
+msgstr "多人游戏"
+
+msgid "game.genre.name"
+msgstr "类型"
+
+msgid "game.genre.platformer"
+msgstr "平台游戏"
+
+msgid "game.genre.puzzle"
+msgstr "益智游戏"
+
+msgid "game.genre.quiz"
+msgstr "问答游戏"
+
+msgid "game.genre.racing"
+msgstr "竞速游戏"
+
+msgid "game.genre.retro"
+msgstr "复古游戏"
+
+msgid "game.genre.rpg"
+msgstr "角色扮演游戏"
+
+msgid "game.genre.rts"
+msgstr "即时战略"
+
+msgid "game.genre.scifi"
+msgstr "科幻游戏"
+
+msgid "game.genre.shooter"
+msgstr "射击游戏"
+
+msgid "game.genre.simulation"
+msgstr "模拟游戏"
+
+msgid "game.genre.singleplayer"
+msgstr "单人游戏"
+
+msgid "game.genre.sports"
+msgstr "体育游戏"
+
+msgid "game.genre.strategy"
+msgstr "战略游戏"
+
+msgid "game.genre.tbs"
+msgstr "回合战略"
+
+msgid "game.genre.tower.defense"
+msgstr "塔防游戏"
+
+msgid "game.genre.async"
+msgstr "异步多人游戏"
+
+msgid "game.genre.arcade"
+msgstr "街机游戏"
+
+msgid "game.genre.beatemup"
+msgstr "清版动作游戏"
+
+msgid "game.genre.shootemup"
+msgstr "射击游戏"
+
+msgid "game.genre.graphic.adventure"
+msgstr "图形冒险游戏"
+
+msgid "game.genre.text.adventure"
+msgstr "互动小说"
+
+msgid "game.genre.stealth.game"
+msgstr "潜行游戏"
+
+msgid "game.genre.pointandclick.game"
+msgstr "点击式冒险游戏"
+
+msgid "game.genre.roguelike"
+msgstr "Roguelike游戏"
+
+msgid "game.genre.visual.novel"
+msgstr "视觉小说"
+
+msgid "game.genre.dating.sim"
+msgstr "恋爱模拟游戏"
+
+msgid "game.genre.match.three"
+msgstr "三消游戏"
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "方块消除游戏"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "游戏"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "冒险"

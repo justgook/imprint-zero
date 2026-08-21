@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "Устройство %s не обнаружено."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "За пределами зоны отслеживания."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "VR-шлем не обнаружен."
+
+msgid "error.generic.errcode"
+msgstr "Код ошибки:"
+
+msgid "error.generic.text"
+msgstr "Произошла ошибка."
+
+msgid "error.generic.invalid.name"
+msgstr "Недопустимое название."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Неверный цифровой ключ."
+
+msgid "error.generic.cheating"
+msgstr "Используются читы!"
+
+msgid "error.network.connection.lost"
+msgstr "Соединение потеряно."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Ваш соперник отключился."
+
+msgid "error.network.disconnected.your.player"
+msgstr "Другой игрок отключился."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Ваш союзник отключился."
+
+msgid "error.network.server"
+msgstr "Не удалось подключиться к серверу."
+
+msgid "error.save.corrupted"
+msgstr "Файл сохранения повреждён."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Сохранения не найдены."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Нет свободных игр."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Игрок отключился."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Соперник отключился."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Союзник отключился."

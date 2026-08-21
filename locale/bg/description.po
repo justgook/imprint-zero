@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: description\n"
+
+msgid "game.genre.action"
+msgstr "Екшънова"
+
+msgid "game.genre.adventure"
+msgstr "Приключенска"
+
+msgid "game.genre.card"
+msgstr "С карти"
+
+msgid "game.genre.casual"
+msgstr "Лежерна"
+
+msgid "game.genre.fantasy"
+msgstr "Фантазия"
+
+msgid "game.genre.hardcore"
+msgstr "Безкомпромисна"
+
+msgid "game.genre.indie"
+msgstr "Независима"
+
+msgid "game.genre.medieval"
+msgstr "Средновековна"
+
+msgid "game.genre.misc"
+msgstr "Разни"
+
+msgid "game.genre.multiplayer"
+msgstr "Няколко играчи"
+
+msgid "game.genre.name"
+msgstr "Жанр"
+
+msgid "game.genre.platformer"
+msgstr "Платформена"
+
+msgid "game.genre.puzzle"
+msgstr "Логическа"
+
+msgid "game.genre.quiz"
+msgstr "Викторина"
+
+msgid "game.genre.racing"
+msgstr "Състезателна"
+
+msgid "game.genre.retro"
+msgstr "Ретро"
+
+msgid "game.genre.rpg"
+msgstr "Ролева"
+
+msgid "game.genre.rts"
+msgstr "Стратегия в реално време"
+
+msgid "game.genre.scifi"
+msgstr "Научно-фантастична"
+
+msgid "game.genre.shooter"
+msgstr "Стрелба"
+
+msgid "game.genre.simulation"
+msgstr "Симулатор"
+
+msgid "game.genre.singleplayer"
+msgstr "Самостоятелна игра"
+
+msgid "game.genre.sports"
+msgstr "Спортна"
+
+msgid "game.genre.strategy"
+msgstr "Стратегия"
+
+msgid "game.genre.tbs"
+msgstr "Походова стратегия"
+
+msgid "game.genre.tower.defense"
+msgstr "Защита с кули"
+
+msgid "game.genre.async"
+msgstr "Несинхронна групова игра"
+
+msgid "game.genre.arcade"
+msgstr "Аркадна"
+
+msgid "game.genre.beatemup"
+msgstr "Пребиване на всички"
+
+msgid "game.genre.shootemup"
+msgstr "Застрелване на всички"
+
+msgid "game.genre.graphic.adventure"
+msgstr "Графично приключение"
+
+msgid "game.genre.text.adventure"
+msgstr "Текстова"
+
+msgid "game.genre.stealth.game"
+msgstr "С промъкване"
+
+msgid "game.genre.pointandclick.game"
+msgstr "Приключенска с мишка"
+
+msgid "game.genre.roguelike"
+msgstr "Изследване на подземия"
+
+msgid "game.genre.visual.novel"
+msgstr "Графичен роман"
+
+msgid "game.genre.dating.sim"
+msgstr "Симулатор на срещи"
+
+msgid "game.genre.match.three"
+msgstr "Комбинирай-3"
+
+#. https://en.wikipedia.org/wiki/Tile-matching_video_game
+msgid "game.genre.tile.matching"
+msgstr "С комбиниране на плочки"
+
+#. E.g. "fantasy game".
+msgid "game.game"
+msgstr "Игра"
+
+#. E.g. "fantasy adventure".
+msgid "game.adventure"
+msgstr "Приключение"

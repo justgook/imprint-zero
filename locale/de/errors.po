@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "%s nicht erkannt."
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "Außerhalb des Tracking-Bereichs."
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "Kein HMD erkannt."
+
+msgid "error.generic.errcode"
+msgstr "Fehlercode:"
+
+msgid "error.generic.text"
+msgstr "Ein Fehler ist aufgetreten."
+
+msgid "error.generic.invalid.name"
+msgstr "Ungültiger Name."
+
+msgid "error.generic.invalid.cd.key"
+msgstr "Ungültiger Produktschlüssel."
+
+msgid "error.generic.cheating"
+msgstr "Cheats entdeckt!"
+
+msgid "error.network.connection.lost"
+msgstr "Verbindung verloren."
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "Dein Gegner hat die Verbindung getrennt."
+
+msgid "error.network.disconnected.your.player"
+msgstr "Der andere Spieler hat die Verbindung getrennt."
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "Dein Mitspieler hat die Verbindung getrennt."
+
+msgid "error.network.server"
+msgstr "Es konnte keine Verbindung zum Server hergestellt werden."
+
+msgid "error.save.corrupted"
+msgstr "Speicherstand beschädigt."
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "Keine Speicherstände gefunden."
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "Keine Spiele gefunden."
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "Spieler hat den Server verlassen"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "Gegner hat den Server verlassen"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "Mitspieler hat den Server verlassen"

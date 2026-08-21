@@ -1,6 +1,6 @@
 ---
 title: Game Text
-summary: Canonical English source catalogues for all player-facing and spoken text.
+summary: ID-based gettext catalogues for all player-facing and spoken text.
 eyebrow: Localization
 status: in-progress
 ---
@@ -9,23 +9,51 @@ status: in-progress
 
 | Catalogue | Content | Status |
 | --- | --- | --- |
-| [[game-text/dialogue.po|Dialogue]] | Spoken dialogue, radio communication, and subtitles | Active |
-| `missions.po` | Mission names, briefings, and objectives | Planned |
-| `ui.po` | Menus, prompts, labels, errors, and tutorials | Planned |
-| `enemies.po` | Player-facing enemy names and descriptions | Planned |
-| `items.po` | Equipment, item, and upgrade text | Planned |
+| [[locale/en/dialogue.po|Dialogue]] | Spoken dialogue, radio communication, and subtitles | Active |
+| [[locale/en/context.po|Context]] | Common characters, items, conditions, and other context terms | Active |
+| [[locale/en/credits.po|Credits]] | Credits terminology | Active |
+| [[locale/en/description.po|Description]] | Game and genre descriptions | Active |
+| [[locale/en/errors.po|Errors]] | Common error messages | Active |
+| [[locale/en/gameplay.po|Gameplay]] | Common actions, objectives, and gameplay terms | Active |
+| [[locale/en/menus.po|Menus]] | Common menu and settings text | Active |
 
 ## Source convention
 
-English PO files in this directory are the canonical game-text source. Each entry uses:
+Catalogues use opaque, stable IDs rather than English source text:
 
-- `msgctxt` for a stable namespaced ID;
-- `msgid` for canonical English text;
-- `msgstr` for a localized value, left empty in the English source;
-- extracted comments for speaker, delivery, placement, and translator intent;
-- source references for the design document and room that use the entry.
+- `msgid` is the stable namespaced ID used by game code;
+- `msgstr` is the player-facing value, including in the English catalogue;
+- `msgctxt` is reserved for the rare case where one ID needs distinct contextual translations;
+- extracted comments describe grammar, speaker, delivery, placement, and translator intent;
+- source references identify the design document or room where project-authored text is used.
 
-Game logic and mission diagrams refer to stable IDs. They do not duplicate the player-facing text or encode branching inside the localization catalogue.
+```po
+#. Speaker: OPERATOR
+#: missions/m01.md:R01
+msgid "dialogue.m01.com01.l001"
+msgstr "ROOK, deployment confirmed."
+```
+
+Runtime substitutions use printf-style placeholders: `%s` for text and `%d` for integers. Entries containing placeholders carry the project-specific `game-format` flag, and every translation must preserve the English placeholder types:
+
+```po
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "No %s detected."
+```
+
+The standard gettext `c-format` flag is intentionally not used: it validates placeholders by comparing `msgid` with `msgstr`, but this project keeps opaque IDs—not source text—in `msgid`. Project tests perform the equivalent validation between locale catalogues instead.
+
+Every configured catalogue must provide a non-empty `msgstr` for every ID. Validation rejects incomplete catalogues, mismatched printf placeholders, and missing `game-format` flags. Game logic and mission diagrams refer to stable IDs; changing English copy does not require changing those IDs.
+
+## Locales
+
+Player-facing catalogues live under the top-level `locale/<language>/` directory. The English files are linked from the sidebar; each catalogue page provides links to the same file in every language configured in `_config.md`.
+
+The initial supported set is English, Simplified Chinese, German, French, Brazilian Portuguese, Latin American Spanish, Spanish for Spain, Polish, Russian, Japanese, Korean, and Bulgarian. The two Spanish catalogues intentionally begin with identical text so native review can introduce regional differences without changing IDs or file structure.
+
+Catalogue strings are intended as isolated terms and short UI phrases, not composable sentence fragments.
 
 ## Dialogue IDs
 

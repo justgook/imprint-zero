@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint Zero\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: errors\n"
+
+#. %s is the localized device name.
+#, game-format
+msgid "error.device.not.found"
+msgstr "未检测到%s。"
+
+msgid "error.device.vr.leaving.trackarea"
+msgstr "无信号。"
+
+#. Using abbrev. "HMD" (Head Mounted Display)
+msgid "error.device.vr.no.hmd"
+msgstr "未检测到HMD。"
+
+msgid "error.generic.errcode"
+msgstr "错误代码："
+
+msgid "error.generic.text"
+msgstr "发生了错误。"
+
+msgid "error.generic.invalid.name"
+msgstr "名称无效。"
+
+msgid "error.generic.invalid.cd.key"
+msgstr "序列号无效。"
+
+msgid "error.generic.cheating"
+msgstr "检测到作弊！"
+
+msgid "error.network.connection.lost"
+msgstr "网络连接失败。"
+
+msgid "error.network.disconnected.your.opponent"
+msgstr "你的对手断开连接。"
+
+msgid "error.network.disconnected.your.player"
+msgstr "另一个玩家断开了连接。"
+
+msgid "error.network.disconnected.your.teammate"
+msgstr "你的队友断开了连接。"
+
+msgid "error.network.server"
+msgstr "不能连接至服务器。"
+
+msgid "error.save.corrupted"
+msgstr "存档文件已被破坏。"
+
+#. In previously saved games
+msgid "error.save.no.games.found"
+msgstr "找不到游戏。"
+
+#. For empty online game lobby
+msgid "error.save.no.open.games"
+msgstr "没有招募中的游戏。"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.player"
+msgstr "有玩家已断开连接。"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.opponent"
+msgstr "有对手已断开连接。"
+
+#. Generic case (num players greater than 2)
+msgid "error.network.disconnected.teammate"
+msgstr "有队友已断开连接。"
