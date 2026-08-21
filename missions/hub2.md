@@ -14,4 +14,4 @@ Provide the final-assault staging point after all four Act II biome guardians ha
 
 HUB2 begins the standard endgame route with [[Missions/M06|M06]].
 
-See [[World/Hub|Hub]] for the shared space and interaction model.
+> **TODO** — Revalidate the shared Hub interaction model during the Missions cleanup.

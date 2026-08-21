@@ -7,7 +7,7 @@ status: in-progress
 
 ## Context
 
-- **Zone:** [[World/Freight Terminal|Freight Terminal]]
+- **Location:** Freight Terminal
 - **Mission:** [[Missions/M01|Cold Deployment]]
 - **Character:** [[Characters/Rook|ROOK]]
 - **Weapon:** [[Equipment/Baseline Rifle|Baseline Rifle]]

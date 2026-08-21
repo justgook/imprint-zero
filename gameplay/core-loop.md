@@ -37,7 +37,7 @@ The selected Character and Specialization must alter how the player reads, choos
 
 > **In progress** — The authored-campaign spine is accepted; exact return and persistence rules remain open.
 
-1. Select one crew member, one unlocked [[Gameplay/Overdrive|Specialization]], a compatible [[Equipment/Overview|loadout]], and a [[Missions/Overview|Mission]] at the [[World/Hub|Hub]].
+1. Select one crew member, one unlocked [[Gameplay/Overdrive|Specialization]], a compatible [[Equipment/Overview|loadout]], and a [[Missions/Overview|Mission]] at the Hub.
 2. Advance through encounters, routes, and set pieces.
 3. Discover persistent knowledge, access, equipment, or shortcuts.
 4. Reach a major objective or die.
@@ -50,4 +50,4 @@ The player cannot ordinarily swap Characters or Specializations during a deploym
 
 Death should reopen meaningful choices rather than randomize the authored world. It may support experimentation with another character, route, weapon, or upgrade investment.
 
-> **Open question** — Define return conditions, retained equipment and upgrades, recovery, transfer rules, and the intended emotional cost of repeated traversal. Shared world discoveries and shortcuts persist for the crew. See [[World/Progression Map|Progression Map]].
+> **Open question** — Define return conditions, retained equipment and upgrades, recovery, transfer rules, and the intended emotional cost of repeated traversal. Shared world discoveries and shortcuts persist for the crew. See [[Missions/Overview|Campaign progression]].

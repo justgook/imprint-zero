@@ -18,4 +18,4 @@ Provide the crew’s directed return point during Act I while characters and dep
 - After [[Missions/M04|M04]], prepare for M05.
 - Completing [[Missions/M05|M05]] advances the campaign to [[Missions/HUB1|HUB1]].
 
-See [[World/Hub|Hub]] for the shared space and interaction model.
+> **TODO** — Revalidate the shared Hub interaction model during the Missions cleanup.

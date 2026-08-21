@@ -1,6 +1,6 @@
-## Ideas to compile
-- [[ideas1|Campaign Shape]]
-- [[ideas2|Story]]
+## Current direction
+- [[Current Direction|Narrative and campaign truth]]
+
 ## Start here
 
 - [[Home|Imprint Zero — One Pager]]
@@ -8,33 +8,8 @@
   - [[Design/Player Experience|Player experience]]
   - [[Design/Design Pillars|Design pillars]]
 
-## World and campaign
+## Campaign
 
-- [[World/Overview|World]]
-  - [[World/Progression Map|Progression map]]
-  - [[World/Freight Terminal|Freight terminal]]
-  - [[World/Hub|Hub]]
-  - [[World/Flood Control Works|Flood-Control Works]]
-  - [[World/Automated Fabrication Plant|Automated Fabrication Plant]]
-- [[Biomes/Overview|Biomes]]
-  - **Act I — Crew Assembly**
-  - [[Biomes/B01|B01 — Ashfall District]]
-  - [[Biomes/B02|B02 — Helix Foundry]]
-  - **Act II — Fractured Identities**
-  - [[Biomes/B03|B03 — Mnemonic Basilica]]
-  - [[Biomes/B04|B04 — The Fallen Halo]]
-  - [[Biomes/B05|B05 — Verdant Null]]
-  - [[Biomes/B06|B06 — Sovereign Stack]]
-  - **Act III — The Manufactured War**
-  - [[Biomes/B07|B07 — The Empty Barracks]]
-  - [[Biomes/B08|B08 — The Cradle]]
-  - **Act IV — No Original**
-  - [[Biomes/B09|B09 — Republic of Dust]]
-  - [[Biomes/B10|B10 — Genesis Vault]]
-  - [[Biomes/B11|B11 — Cathedral of Command]]
-  - [[Biomes/B12|B12 — White Horizon]]
-  - **Secret Ending — Communion**
-  - *[[Biomes/B99|B99 — The Living Archive]]*
 - [[Missions/Overview|Missions]]
   - **[[Missions/A01|Act I — Crew Assembly]]**
   - [[Missions/M01|M01 — Cold Deployment]]
@@ -82,6 +57,25 @@
   - **B12 — Existence**
   - *[[Missions/HS02|HS02 — Outside Context]]*
   - *[[Missions/HS03|HS03 — No Original]]*
+- [[Biomes/Overview|Biomes]]
+  - **Act I — Crew Assembly**
+  - [[Biomes/B01|B01 — Ashfall District]]
+  - [[Biomes/B02|B02 — Helix Foundry]]
+  - **Act II — Fractured Identities**
+  - [[Biomes/B03|B03 — Mnemonic Basilica]]
+  - [[Biomes/B04|B04 — The Fallen Halo]]
+  - [[Biomes/B05|B05 — Verdant Null]]
+  - [[Biomes/B06|B06 — Sovereign Stack]]
+  - **Act III — The Manufactured War**
+  - [[Biomes/B07|B07 — The Empty Barracks]]
+  - [[Biomes/B08|B08 — The Cradle]]
+  - **Act IV — No Original**
+  - [[Biomes/B09|B09 — Republic of Dust]]
+  - [[Biomes/B10|B10 — Genesis Vault]]
+  - [[Biomes/B11|B11 — Cathedral of Command]]
+  - [[Biomes/B12|B12 — White Horizon]]
+  - **Secret Ending — Communion**
+  - *[[Biomes/B99|B99 — The Living Archive]]*
 
 ## Game content
 

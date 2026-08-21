@@ -79,11 +79,11 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Playable roster:** [[Characters/Rook|ROOK]], [[Characters/Vector|VECTOR]], [[Characters/Ram|RAM]], and [[Characters/Relay|RELAY]] provide twelve Specializations across four persistent Characters.
 - **Baseline character:** ROOK, the balanced Rifle Marine, serves as the control case for movement, shooting, evasion, and route discovery. See [[Characters/Rook|ROOK]].
 - **Title and tagline:** **Imprint Zero** — *You know how to fight. Not who you are.* See [[Design/Game Vision|Game vision]].
-- **Campaign premise:** a conditioned recovery crew knows its missions and operational skills but lacks reliable autobiographical identity and knowledge of OPERATOR's true nature or command authority. See [[World/Overview|World]].
+- **Campaign premise:** a conditioned recovery crew knows its missions and operational skills but lacks reliable autobiographical identity and knowledge of OPERATOR's true nature or command authority. See [[Current Direction|Current direction]].
 - **Opening knowledge:** the crew and player know immediately that personal identity is missing or unreliable; whether the crew members are originals, clones, or manufactured people remains a central mystery. See [[Characters/Overview|Playable crew]].
 - **Initial obedience:** soldiering is the crew's only stable identity; refusal is physically possible, but conditioning makes doubt feel improper and unsafe. See [[Design/Player Experience|Player experience]].
 - **Mission morality:** early operations create genuine local benefits while secretly advancing the command authority's larger purpose. See [[Missions/M01|Cold Deployment]].
-- **Concealed project:** the authority behind the Missions is rebuilding an industrial system for extracting, editing, copying, and deploying human identity. See [[World/Overview|World]].
+- **Concealed project:** the authority behind the Missions is rebuilding an industrial system for extracting, editing, copying, and deploying human identity. See [[Current Direction|Current direction]].
 - **Memory Imprints:** recovered memories reveal truth and grant capability; they expand rather than replace character identity. See [[Imprints/Overview|Memory Imprints]].
 - **Intended audience:** players seeking readable but demanding authored 2D action, character-specific replay, consequential discovery, and atmospheric mystery delivered through play. See [[Design/Game Vision|Game vision]].
 - **Design pillars:** familiarity without repetition, character choice transforms play, and discovery changes understanding and action. See [[Design/Design Pillars|Design pillars]].

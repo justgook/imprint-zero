@@ -20,6 +20,18 @@ Use the highest suitable format in this order:
 
 Do not begin with prose by default. First ask whether the information can be communicated accurately by a chart, schema, image, table, or formula. Use text only for what those formats cannot show, and keep supporting prose concise.
 
+## TODO placement
+
+When a section depends on unresolved work, place its TODO block immediately after the section heading and before explanatory prose, tables, diagrams, or other artifacts. This makes incomplete work visible before readers interpret the section as settled.
+
+Use a specific label such as `TODO — Worked example`, `TODO — Decision`, or `TODO — Diagram`, and state what completion requires. A TODO does not replace a required image placeholder: when an image is required, follow the placeholder-image rule below.
+
+## One-page summaries
+
+A page explicitly designated as a **One Pager** must remain printable on approximately one A4 page with standard margins and body text. Target **350–500 visible words**, with **550 words as the hard limit**; frontmatter and Mermaid source syntax are excluded from the count. Use the lower end when diagrams or tables occupy substantial space.
+
+Prefer one compact table or schema over repeated prose, and link to canonical pages for details. Review the One Pager after every accepted design or cleanup iteration that changes its claims. Remove detail rather than shrinking text or allowing the page to grow.
+
 ## Charts before prose
 
 Prefer a chart whenever the reader needs to understand quantitative information visually.
@@ -105,6 +117,8 @@ Text should explain **why** something exists, clarify **how to interpret** an ar
 
 Before publishing or updating a page, check:
 
+- Are section-level TODO blocks placed immediately after their headings and written with a specific completion condition?
+- If this is a One Pager, is it current, within the 550-word limit, and approximately one printable A4 page?
 - Could any quantitative comparison become a chart?
 - Could any relationship, process, state, or hierarchy become a Mermaid schema?
 - Could any visual or spatial description become an image?

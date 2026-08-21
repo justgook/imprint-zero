@@ -51,6 +51,16 @@ status: in-progress
 - **Avoid:** copying its military programme, characters, plot, or explanation for the operatives' condition.
 - **Principle to adapt:** separate reliable operational knowledge from suppressed or manufactured autobiographical identity.
 
+## Process references
+
+### Game style in 2 hours even if you can't draw
+
+- **Source:** [Sobigdrasil_RU video](https://www.youtube.com/watch?v=VkrmvtLNzuY)
+- **Useful:** define style through four axes—form, color, light/material, and line—then express the result as testable rules and prohibitions.
+- **Adapt:** analyze focused reference boards by axis, unify purchased assets through the same contract, and estimate style cost from measured per-asset effort multiplied by required quantity.
+- **Avoid:** treating shaders, particles, palette swaps, or asset packs as substitutes for readability and a coherent direction; choosing detail that the production budget cannot sustain.
+- **Applied in:** [[Design/Art Direction|Art direction]] and [[Production/Content Budget|Content budget]].
+
 ## Production asset sources
 
 ### CraftPix Cyberpunk Platformer collection

@@ -7,7 +7,7 @@ status: in-progress
 
 ## Ownership model
 
-> **Accepted** — Weapons, armour, consumables, currencies, and key items belong to a shared crew stash and transfer freely at the [[World/Hub|Hub]].
+> **Accepted** — Weapons, armour, consumables, currencies, and key items belong to a shared crew stash and transfer freely at the Hub.
 
 - Upgrades applied to a weapon or armour item remain attached to that item.
 - Innate moves, personal skills, and character mastery remain character-owned.

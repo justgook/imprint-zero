@@ -14,4 +14,4 @@ Serve as the Act II campaign hub where the assembled crew chooses among the four
 
 HUB1 unlocks after [[Missions/M05|M05]]. The crew returns here while biome guardians remain. Defeating all four guardians advances the campaign to [[Missions/HUB2|HUB2]].
 
-See [[World/Hub|Hub]] for the shared space and interaction model.
+> **TODO** — Revalidate the shared Hub interaction model during the Missions cleanup.

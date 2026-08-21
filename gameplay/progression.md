@@ -23,7 +23,7 @@ Replay value should come from:
 
 > **Accepted** — Memory Imprints connect discovery to progression. They expose evidence about identity and institutional purpose while granting techniques, knowledge, interactions, or route access.
 
-The canonical Imprint page owns unresolved assignment, transfer, compatibility, and persistence rules.
+The canonical Imprint page owns unresolved capacity, assignment, transfer, compatibility, and in-campaign loss rules.
 
 ## Character, Specialization, and Overdrive progression
 
@@ -33,6 +33,20 @@ The canonical Imprint page owns unresolved assignment, transfer, compatibility, 
 
 The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
 
+## Mission compatibility
+
+> **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. M01 begins with one Character, later Missions expand the available roster, M04 features its required new Character, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
+
+> **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. An inaccessible optional route should remain legible enough to motivate replay with the relevant crew member.
+
+## Act II Mission availability
+
+> **Accepted** — HUB1 initially offers the first Mission in each of B03–B06. Completing a Mission returns the player to HUB1, keeps that Mission replayable, and unlocks the next Mission in the same biome. The player may alternate biomes, continue one biome, or replay any completed Act II Mission in any order allowed by those unlocks.
+
+> **Accepted** — Completing the fourth Act II Guardian returns the player to HUB1 with M06 available; it does not automatically advance the campaign. The player may continue replaying Act II Missions. Launching M06 requires explicit confirmation that entering HUB2 and B07 permanently closes B03–B06 and their undiscovered rewards for the current campaign.
+
+All Specialization Imprints and all four biome Memory Imprints required for the extended route must be recovered before M06 begins. Eligibility is established before M06 even though the hidden access appears later in M07.
+
 ## Introduction exception
 
 > **Accepted** — The new game begins directly in [[Missions/M01|Cold Deployment]] with preselected character and equipment. Failure restarts inside the introduction; the Hub and standard death cycle unlock only after first success. The player is not told that Overdrive exists during the introduction.
@@ -41,7 +55,7 @@ The early Character sequence is accepted: ROOK at new game, VECTOR at the first 
 
 > **In progress** — “Roguelite” is too broad to serve as the canonical term for this design. The intended idea is narrower: death returns the player to a decision context, preserves selected progress, and changes the choices available for the next attempt without procedurally replacing the authored world.
 
-The death cycle returns to decisions made by an active crew at the shared [[World/Hub|Hub]]. World state, discoveries, and shortcuts persist across character selection. One crew member is deployed at a time, and character reselection occurs only at the hub.
+The death cycle returns to decisions made by an active crew at the shared Hub. World state, discoveries, and shortcuts persist across character selection. One crew member is deployed at a time, and character reselection occurs only at the hub.
 
 The death cycle may reopen:
 
@@ -69,6 +83,37 @@ Fast travel is not assumed. It remains an option only if the final world structu
 
 Challenge should grow through new patterns, spatial demands, enemy combinations, route decisions, and character mastery—not only larger health or damage values.
 
-## Completion
+## Completion and discovery report
 
-Finishing means reaching the authored campaign's final resolution. Post-completion replay may expose alternative character experiences, routes, discoveries, or challenge goals, but is not yet specified.
+> **Accepted** — The Standard ending resolves the immediate campaign conflict and must feel like a satisfying standalone completion. Deeper routes add evidence and interpretation rather than repairing an intentionally incomplete ending.
+
+> **Accepted** — One unusually thorough campaign can reach the extended true route by satisfying its in-campaign requirements. Cross-run progression is not required, but a blind first completion is expected to miss evidence and motivate another campaign.
+
+The game does not expose biome Memory Imprints as a four-part route checklist during play. They should initially read as optional lore. Both the Standard and early Communion endings reveal the same results-report structure, placing ordinary performance statistics beside previously hidden completion totals.
+
+| Report field | Purpose |
+|---|---|
+| Completion time | Familiar performance context |
+| Enemies defeated | Familiar performance context |
+| Bullets fired and accuracy | Familiar performance context |
+| Biome Memory Imprints found out of 4 | First explicit evidence that the lore forms an incomplete set |
+| Specializations unlocked out of 12 | Shows that substantial crew development remains |
+
+Performance statistics are informational only. Completion time, enemy count, shots, accuracy, score, difficulty, and similar metrics never affect ending or hidden-route eligibility. Only the twelve in-campaign Specializations and four biome Memory Imprints establish access.
+
+The report does not announce a true ending or explain how the missing discoveries interact. A Communion completion may show much lower campaign completion than the Standard ending; that contrast is intentional. The report's purpose is to let the player infer that the campaign contains a larger pattern and choose to investigate it.
+
+### Persistence across campaigns
+
+| Reset for a new campaign | Preserve globally |
+|---|---|
+| Character availability and campaign sequence | Viewed memory and lore scenes |
+| Specializations and Equipment Imprints | Character-specific variants already witnessed |
+| Acquired equipment and campaign resources | Previous ending reports and performance statistics |
+| Biome Memory Imprints and hidden-route eligibility | Completed-ending record |
+
+The global archive helps the player compare evidence across completions but never satisfies an in-campaign requirement. Each attempt at the extended route must recover its required Specializations and biome Memory Imprints within that campaign. Additional completions expose alternative Character perspectives, routes, discoveries, and interpretations without producing one objectively complete explanation of the crew's origin.
+
+### Repeat-campaign presentation
+
+> **Accepted** — Every new campaign retains the complete M01–M05 crew-introduction sequence and grants no automatic Character or Specialization unlocks. After the player has reached an ending at least once, tutorial prompts may be disabled, viewed scenes and dialogue may be skipped, and loading or transition friction should be minimized.

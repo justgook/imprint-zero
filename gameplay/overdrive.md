@@ -31,7 +31,7 @@ Selecting a Specialization changes the character for the entire Mission. A Speci
 
 A Specialization is not merely a choice of future Overdrive. The twelve Specializations must remain materially different during ordinary play.
 
-Specializations are selected at the [[World/Hub|Hub]]. Their exact acquisition methods remain unresolved; possible rewards include discoveries, challenge achievements, special Missions, optional events, and equipment-related progression.
+Specializations are selected at the Hub. Their exact acquisition methods remain unresolved; possible rewards include discoveries, challenge achievements, special Missions, optional events, and equipment-related progression.
 
 ## Equipment boundary
 

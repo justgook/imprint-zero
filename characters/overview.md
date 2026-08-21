@@ -7,7 +7,7 @@ status: in-progress
 
 ## Crew model
 
-> **Accepted** — All playable characters coexist as one active crew at the [[World/Hub|Hub]] and participate in one persistent campaign.
+> **Accepted** — All playable characters coexist as one active crew at the Hub and participate in one persistent campaign.
 
 A new game preselects [[Characters/Rook|ROOK]], the crew's Rifle Marine, and deploys directly into the introduction Mission. [[Characters/Vector|VECTOR]] speaks over radio before the player physically reaches the Hub, establishing operational familiarity and role rather than biography. After the killed-in-action record appears, VECTOR questions it while [[NPCs/Operator|OPERATOR]] dismisses it as an archive ghost. [[Characters/Ram|RAM]] and [[Characters/Relay|RELAY]] join later in the campaign.
 
@@ -17,8 +17,8 @@ After the introduction, the player ordinarily deploys one crew member at a time.
 
 > **Accepted** — Character, Specialization, and Overdrive are separate concepts.
 
-- A **Character** is the persistent person and owns innate movement identity, narrative identity, and equipment compatibility.
-- A **Specialization** is one of three Hub-selected play styles belonging to that Character. The baseline is the default Specialization, not a separate fourth configuration.
+- A **Character** is the persistent person and owns innate movement identity, narrative identity, equipment compatibility, and the signature verb used to access Character-gated optional routes.
+- A **Specialization** is one of three Hub-selected play styles belonging to that Character. It varies how the Character fights without removing or replacing the Character's optional-route access verb. The baseline is the default Specialization, not a separate fourth configuration.
 - **Overdrive** is the temporary transformation unique to the selected Specialization.
 
 The four Characters therefore provide twelve selectable Specializations. Selecting a Specialization changes the entire normal Mission kit; the character does not remain in a shared baseline state while waiting to activate Overdrive.

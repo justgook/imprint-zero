@@ -43,7 +43,7 @@ Procedural level generation and a complete randomized run reset are outside the 
 
 ## Canonical content
 
-- [[World/Progression Map|Progression Map]] — Zone, Mission, deployment, and return relationships.
+- [[Missions/Overview|Campaign progression]] — Mission unlock, branch, deployment, and return relationships.
 - [[Characters/Overview|Playable Crew]] — roster and character ownership.
 - [[NPCs/Overview|NPC Catalogue]] — recurring non-playable people and perceived operational entities.
 - [[Enemies/Overview|Enemy Catalogue]] — enemy roles and tactical rules.

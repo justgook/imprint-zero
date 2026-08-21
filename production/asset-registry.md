@@ -20,6 +20,20 @@ status: in-progress
 | ENV-01 | Freight modular kit | BIO-01 | LOC-01–03 | 3 | High | Placeholder |
 | ENV-02 | Waterworks modular kit | BIO-02 | LOC-04–07 | 4 | High | Placeholder |
 
+## Visual production
+
+Record only metadata for licensed private assets; never link or embed restricted source files here. `Style check` refers to the form, color, light/material, line, and readability tests in [[Design/Art Direction|Art direction]].
+
+| ID | Asset set | Role | Source/provenance | Adaptation required | Reusable | Style check | Status |
+|---|---|---|---|---|---|---|---|
+| VIS-01 | ROOK baseline set | Player | TBD | Palette, pixel/line, silhouette, motion | Yes | Not run | Planned |
+| VIS-02 | Horizontal Sentry | Enemy | TBD | Palette, pixel/line, telegraph, effects | Yes | Not run | Planned |
+| VIS-03 | Shield Enforcer | Enemy | TBD | Palette, pixel/line, silhouette, telegraph | Yes | Not run | Planned |
+| VIS-04 | Freight modular kit | Environment | Private licensed source candidate | Palette, material, contrast, recomposition | Yes | Not run | Placeholder |
+| VIS-05 | Cargo crane | Hazard | TBD | Palette, material, state telegraph, motion | Partial | Not run | Planned |
+| VIS-06 | Baseline combat effects | Effects | TBD | Semantic color, timing, visual density | Yes | Not run | Planned |
+| VIS-07 | Integrity and interaction signals | Interface | TBD | Semantic color, scale, contrast | Yes | Not run | Planned |
+
 ## Narrative production
 
 | Type | Count | Estimated effort each | Total |
