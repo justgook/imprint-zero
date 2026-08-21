@@ -168,7 +168,7 @@ Equipment belongs to the shared crew stash. Compatible replacements may alter RO
 
 ## First identity evidence
 
-> **Accepted** — The Freight Terminal rail-control system recognizes ROOK under another unknown designation officially recorded as killed in action. This does not resolve whether ROOK is the original person, a clone, a reconstruction, a copy, or the subject of falsified records.
+> **Accepted** — The introduction terminal briefly displays ROOK under another unknown designation officially recorded as killed in action. The background clue receives no spoken reaction and may be overlooked. It does not resolve whether ROOK is the original person, a clone, a reconstruction, a copy, or the subject of falsified records.
 
 This is the campaign's first contradiction between an institutional role and possible personal history.
 

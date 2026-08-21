@@ -35,19 +35,19 @@ The selected Character and Specialization must alter how the player reads, choos
 
 ## Standard macro loop
 
-> **In progress** — The authored-campaign spine is accepted; exact return and persistence rules remain open.
+> **Accepted** — The authored campaign returns the player to a prepared decision space after success or failure.
 
 1. Select one crew member, one unlocked [[Gameplay/Overdrive|Specialization]], a compatible [[Equipment/Overview|loadout]], and a [[Missions/Overview|Mission]] at the Hub.
 2. Advance through encounters, routes, and set pieces.
 3. Discover persistent knowledge, access, equipment, or shortcuts.
 4. Reach a major objective or die.
-5. Return to the hub with the world changed by selected persistent discoveries.
+5. Return to the Hub after success, or awaken in the deployed Character's Recovery Capsule (“Coffin”) after death; a failed Mission resets to its beginning without resource loss.
 6. Freely reconsider character, loadout, route, or investment before the next deployment.
 
 The player cannot ordinarily swap Characters or Specializations during a deployment. The scripted character trials in [[Missions/M05|The Four Trials]] are an explicit exception, not a general switching mechanic. The exact spatial and fictional relationship between the hub and campaign locations remains unresolved.
 
 ## Failure and recovery
 
-Death should reopen meaningful choices rather than randomize the authored world. It may support experimentation with another character, route, weapon, or upgrade investment.
+> **Accepted** — After HUB0 unlocks, death returns the deployed Character to their personal Recovery Capsule (“Coffin”) in the current Hub. The failed Mission resets to its beginning, but no currency, equipment, Imprint, upgrade, or other campaign resource is lost. M01 restarts directly as the sole pre-Hub exception.
 
-> **Open question** — Define return conditions, retained equipment and upgrades, recovery, transfer rules, and the intended emotional cost of repeated traversal. Shared world discoveries and shortcuts persist for the crew. See [[Missions/Overview|Campaign progression]].
+Recovery should reopen meaningful authored choices: retry, change Character or configuration, test another approach, or choose another available Mission. See [[Gameplay/Progression|Progression]].

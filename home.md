@@ -20,6 +20,7 @@ A modern 16-bit side-scrolling action platformer about a crew of soldiers with r
 | Player experience | Readable but demanding run-and-gun combat, platforming, route discovery, and atmospheric mystery delivered through play |
 | Crew | Four persistent characters, each with three full-Mission Specializations and a unique combat identity |
 | Progression | Authored Missions, equipment, Specializations, and Memory Imprints; new campaigns reset gameplay while preserving viewed evidence globally |
+| Hub and retry | Safely test configurations; death returns the selected Specialization's rail-delivered “Coffin” without resource loss |
 | Format | PC-first, single-player, one deployed character; gamepad-led controls with fully remappable keyboard support |
 | Scope | Compact 3–5 hour first completion; replay reveals character variation, hidden evidence, and alternative endings |
 | Presentation | A modern memory of 16-bit action games filtered through worn, late-20th-century industrial cyberpunk |
@@ -42,13 +43,13 @@ The extended route requires all crew Specializations and one hidden biome Memory
 
 | Pillar | Production test |
 |---|---|
-| Familiarity without repetition | Players understand the action language without recognizing copied characters, worlds, or stages. |
+| Action mastery comes first | Baseline movement and combat remain readable, responsive, and satisfying without progression or narrative rewards. |
 | Character choice transforms play | After the introduction, every critical path supports every Character and Specialization; Character signature verbs gate only optional routes and rewards. |
-| Discovery changes understanding and action | A meaningful Memory Imprint provides identity evidence and a capability, interaction, or route. |
+| Discovery changes understanding and progression | Every Imprint pairs lore or a memory scene with a Specialization, equipment access, Overdrive, or hidden campaign evidence. |
 
 ## Narrative direction
 
-OPERATOR deploys the crew into a collapsing industrial world, but its identity, embodiment, authority, and relationship to the command system remain uncertain. Missions produce credible immediate benefits while exposing evidence that the crew's bodies, memories, and identities may have been copied, reconstructed, manufactured, or otherwise altered.
+OPERATOR deploys the crew into a collapsing industrial world, but its identity, embodiment, authority, and relationship to the command system remain uncertain. Early Missions produce genuine immediate benefits; later Missions reveal their unexpected consequences or institutional reuse. Evidence suggests the crew's bodies, memories, and identities may have been copied, reconstructed, manufactured, or otherwise altered.
 
 No ending completely proves the crew's origin. The Standard ending must satisfy on its own; additional completions provide partial and potentially conflicting perspectives. An artificial, copied, composite, or reconstructed origin does not invalidate personhood.
 

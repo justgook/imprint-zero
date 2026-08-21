@@ -9,7 +9,7 @@ status: in-progress
 
 > **Accepted** — All playable characters coexist as one active crew at the Hub and participate in one persistent campaign.
 
-A new game preselects [[Characters/Rook|ROOK]], the crew's Rifle Marine, and deploys directly into the introduction Mission. [[Characters/Vector|VECTOR]] speaks over radio before the player physically reaches the Hub, establishing operational familiarity and role rather than biography. After the killed-in-action record appears, VECTOR questions it while [[NPCs/Operator|OPERATOR]] dismisses it as an archive ghost. [[Characters/Ram|RAM]] and [[Characters/Relay|RELAY]] join later in the campaign.
+A new game preselects [[Characters/Rook|ROOK]], the crew's Rifle Marine, and deploys directly into the introduction Mission. [[Characters/Vector|VECTOR]] speaks over radio before the player physically reaches the Hub, establishing operational familiarity and role rather than biography. A terminal briefly displays ROOK under another designation marked killed in action, but neither the crew nor [[NPCs/Operator|OPERATOR]] reacts aloud. [[Characters/Ram|RAM]] and [[Characters/Relay|RELAY]] join later in the campaign.
 
 After the introduction, the player ordinarily deploys one crew member at a time. The active character remains fixed until death or voluntary return. At the Hub, any unlocked character can be selected freely; death does not remove or randomize characters. Scripted character handoffs inside [[Missions/M05|The Four Trials]] are the sole accepted exception.
 
@@ -36,7 +36,7 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 - [[Characters/Ram|RAM]] — Breach Trooper; close-range commitment and environmental force; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
 - [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/M04|Production Halt]] Special Mission.
 
-> **Accepted** — The first Hub arrival offers VECTOR as a contrasting playable character alongside ROOK. Hearing VECTOR question the archive record during the introduction creates recognition and a reason to inspect the alternative Character at the Hub.
+> **Accepted** — The first Hub arrival offers VECTOR as a contrasting playable character alongside ROOK. Hearing VECTOR during the introduction creates recognition and a reason to inspect the alternative Character at the Hub.
 
 > **In progress** — Mission names and early Zone order are accepted. Boss identities, exact introduction staging, and failure rules surrounding RAM and RELAY still require design.
 
@@ -45,6 +45,8 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 Every accepted playable character receives one page beginning with a Character card and three dedicated Specialization cards. Graphic slots remain explicit placeholders until presentation assets exist.
 
 The Character card contains institutional codename, operational role, personal-identity status, availability, default Specialization, broad stats, innate skill, and equipment identity. Each Specialization card contains its own portrait and sprite slots, normal kit, stats, skills, compatible weapon and armour classes, Overdrive, and unlock status.
+
+The Hub selection interface exposes the selected Character's stats, equipment, skills, and Specialization. A safe Hub test space lets the player verify the configuration before deployment.
 
 The page also documents:
 

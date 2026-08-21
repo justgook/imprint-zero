@@ -341,6 +341,8 @@ graph TD
     class SECRET_ENDING secretEnding;
 ```
 
+> **Reading Act II:** Arrows between Missions inside B03–B06 show unlock order, not immediate deployment. Every completed Mission returns the player to HUB1, remains replayable, and adds the next Mission from that biome to the available pool. After the fourth Guardian, the player returns to HUB1 with M06 available.
+
 ### Act II Mission availability
 
 ```mermaid
@@ -365,28 +367,47 @@ The initial pool contains MA01, MB01, MC01, and MD01. Completing, for example, M
 
 Launching M06 requires explicit confirmation that B03–B06 and their undiscovered rewards will become unavailable for the campaign. All Specialization Imprints and the four biome Memory Imprints needed for the extended route must be recovered before confirming. Eligibility is locked before M06; the resulting hidden access appears during M07.
 
-## Gameplay-style distribution
-| Gameplay family | Suggested levels |
-| -------------------------------------- | ---------------------------- |
-| Classical horizontal run-and-gun| [[Missions/m01|M01]], [[Missions/m04|M04]], [[Missions/mc01|MC01]], [[Missions/ha01|HA01]],  [[Missions/ms01|MS01]],  [[Missions/ms03|MS03]], [[Missions/ms02|MS02]], [[Missions/m07|M07]] |
-| Mixed horizontal exploration| [[Missions/mb01|MB01]], [[Missions/mc02|MC02]], [[Missions/ma02|MA02]], [[Missions/hs02|HS02]], [[Missions/hb03|HB03]] |
-| Underwater / water mechanics| [[Missions/m02|M02]], [[Missions/m03|M03]], [[Missions/mb02|MB02]] |
-| Vehicle chase | [[Missions/ma01|MA01]], [[Missions/md01|MD01]], [[Missions/ha02|HA02]], [[Missions/hs01|HS01]] |
-| Train / moving convoy |[[Missions/m06|M06]]|
-| Vertical ascent or descent| [[Missions/m05|M05]], [[Missions/md02|MD02]], [[Missions/m08|M08]]|
-| Single-screen or arena combat | |
-| Boss / unlock stages| [[Missions/ma03|MA03]], [[Missions/mb03|MB03]], [[Missions/mc03|MC03]], [[Missions/md03|MD03]], [[Missions/m09|M09]], [[Missions/hs03|HS03]]|
-| Experimental or altered-rules gameplay | [[Missions/se01|SE01]], [[Missions/hb01|HB01]], [[Missions/hb02|HB02]], [[Missions/hb04|HB04]], [[Missions/ha03|HA03]]|
+## Mission index
 
-## Narrative evidence pattern
+Mission pages own gameplay style, encounter content, timing, enemies, and implementation detail. This index records only campaign placement and current documentation status.
 
-> **TODO — Worked example:** After the relevant Mission is revalidated, add one complete example connecting its framing, environmental evidence, actionable Memory Imprint, and crew interpretations.
-
-Missions reveal the story through evidence encountered during play. The layers are tools, not a mandatory four-step formula; use only those that create a meaningful contradiction, decision, or capability.
-
-| Layer | Question answered | Use |
-|---|---|---|
-| Institutional framing | What does OPERATOR or another authority claim is happening? | Establish the objective and its credible immediate benefit. |
-| Environmental evidence | What do the location, occupants, and consequences suggest happened? | Support, complicate, or contradict the framing without reducing every Mission to a simple lie. |
-| Memory Imprint | What identity evidence can the player recover and act upon? | Include only when the Imprint also grants a capability, interaction, or route; never use it as passive lore alone. |
-| Crew interpretation | How do crew members understand the same evidence differently? | Include when disagreement changes understanding, trust, or a later action—not as a required debrief. |
+| Mission | Biome | Campaign role | Status |
+|---|---|---|---|
+| [[Missions/M01|M01 — Cold Deployment]] | B01 | Controlled introduction: ROOK | TODO |
+| [[Missions/HUB0|HUB0 — Crew Assembly Hub]] | — | Act I return and roster assembly | In progress |
+| [[Missions/M02|M02 — Containment Doctrine]] | B01 | Controlled introduction: ROOK or VECTOR | TODO |
+| [[Missions/M03|M03 — No Survivors Logged]] | B01 | Controlled introduction: RAM arrival | TODO |
+| [[Missions/M04|M04 — Production Halt]] | B02 | Special introduction: RAM and RELAY | TODO |
+| [[Missions/M05|M05 — The Four Trials]] | B02 | Full-crew exception; Overdrive reveal | TODO |
+| [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | In progress |
+| [[Missions/MA01|MA01 — Ghost Archive]] | B03 | Act II opening Mission | TODO |
+| [[Missions/MA02|MA02 — Familiar Strangers]] | B03 | Act II continuation | TODO |
+| [[Missions/MA03|MA03 — The Choir of Selves]] | B03 | B03 Guardian | TODO |
+| [[Missions/MB01|MB01 — Vertical Front]] | B04 | Act II opening Mission | TODO |
+| [[Missions/MB02|MB02 — Dead Reinforcements]] | B04 | Act II continuation | TODO |
+| [[Missions/MS01|MS01 — Black-Box Recovery]] | B04 | Optional Special Mission | TODO |
+| [[Missions/MB03|MB03 — Halo Protocol]] | B04 | B04 Guardian | TODO |
+| [[Missions/MC01|MC01 — Burn the Garden]] | B05 | Act II opening Mission | TODO |
+| [[Missions/MC02|MC02 — Voices Under Glass]] | B05 | Act II continuation | TODO |
+| [[Missions/MS02|MS02 — Beneath the Skin]] | B05 | Optional Special Mission; Communion access | TODO |
+| [[Missions/MC03|MC03 — Heartroot]] | B05 | B05 Guardian | TODO |
+| [[Missions/MD01|MD01 — Hostile Acquisition]] | B06 | Act II opening Mission | TODO |
+| [[Missions/MD02|MD02 — Executive Immunity]] | B06 | Act II continuation | TODO |
+| [[Missions/MS03|MS03 — Golden Parachute]] | B06 | Optional Special Mission | TODO |
+| [[Missions/MD03|MD03 — Patent of Life]] | B06 | B06 Guardian | TODO |
+| [[Missions/SE01|SE01 — Become Many]] | B99 | Early Communion ending | TODO |
+| [[Missions/HUB2|HUB2 — Guardian Nexus]] | — | Irreversible Act III staging | In progress |
+| [[Missions/M06|M06 — Welcome Home]] | B07 | Standard endgame opening | TODO |
+| [[Missions/M07|M07 — Recall Exercise]] | B07 | Standard path; hidden-route access | TODO |
+| [[Missions/M08|M08 — Umbilical]] | B08 | Standard finale approach | TODO |
+| [[Missions/M09|M09 — Imprint Zero]] | B08 | Standard ending | TODO |
+| [[Missions/HS01|HS01 — The Last Civilian]] | B09 | Extended-route entry | TODO |
+| [[Missions/HA01|HA01 — Donor Class]] | B10 | Memory-origin investigation | TODO |
+| [[Missions/HA02|HA02 — Composite Trials]] | B10 | Memory-origin investigation | TODO |
+| [[Missions/HA03|HA03 — The First Zero]] | B10 | Memory-origin investigation conclusion | TODO |
+| [[Missions/HB01|HB01 — Martial Law]] | B09 | Command-system investigation entry | TODO |
+| [[Missions/HB02|HB02 — Chain of Command]] | B11 | Command-system investigation | TODO |
+| [[Missions/HB03|HB03 — Perfect Soldier]] | B11 | Command-system investigation | TODO |
+| [[Missions/HB04|HB04 — Final Directive]] | B11 | Command-system investigation conclusion | TODO |
+| [[Missions/HS02|HS02 — Outside Context]] | B12 | Extended-route convergence | TODO |
+| [[Missions/HS03|HS03 — No Original]] | B12 | True final sequence | TODO |

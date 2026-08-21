@@ -21,7 +21,7 @@ status: reference
   </div>
 </section>
 
-VECTOR is an institution-assigned operational codename, not a known personal name. VECTOR is the crew voice that questions the killed-in-action match during ROOK's introduction Mission and becomes selectable when the player first reaches the Hub.
+VECTOR is an institution-assigned operational codename, not a known personal name. VECTOR is heard over radio during ROOK's introduction Mission and becomes selectable when the player first reaches the Hub.
 
 ## Gameplay role
 

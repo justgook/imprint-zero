@@ -22,7 +22,7 @@ Use this page as the baseline while reviewing and cleaning the wiki. When anothe
 
 During Missions, the crew recovers Imprints: fragments of memory, personality, operational history, and human identity. Every Imprint pairs lore or a memory scene with progression by unlocking a Specialization, equipment access, Overdrive, or hidden campaign evidence.
 
-Act I assembles the crew and establishes operational trust in OPERATOR. Act II opens four campaign branches, each exposing another part of the Imprint program. A hidden route through the Continuum offers an early Communion ending. Act III leads to the crew organization's abandoned infrastructure and the Cradle, where replacement soldiers are manufactured, and produces a Standard ending that resolves the immediate campaign conflict as a satisfying standalone completion.
+Act I assembles the crew and establishes operational trust in OPERATOR through legitimate Missions with genuine immediate benefits. Later Missions reveal that infrastructure, material, access, or authority recovered through those unavoidable successes produced unexpected consequences or was repurposed toward the identity-control project. Optional discoveries may change context or interpretation without removing the main consequence. Act II opens four campaign branches, each exposing another part of the Imprint program. A hidden route through the Continuum offers an early Communion ending. Act III leads to the crew organization's abandoned infrastructure and the Cradle, where replacement soldiers are manufactured, and produces a Standard ending that resolves the immediate campaign conflict as a satisfying standalone completion.
 
 Before leaving HUB1, a thorough player can recover all Specialization Imprints and the four hidden Act II biome Memory Imprints. Entering HUB2 closes B03–B06 for that campaign; satisfying those requirements beforehand allows M07 to expose a secret route through two investigations. One examines the crew's biological and mnemonic origins; the other examines OPERATOR's command system and purpose. They converge in a final confrontation over whether identity is property, programming, memory, or something a person defines through experience and choice.
 
@@ -35,7 +35,7 @@ The crew's exact origin is intentionally never resolved beyond doubt. One unusua
 | Crew organization | **Zero Division** is a working name and should be replaced. |
 | OPERATOR | Its exact identity and relationship to the command system remain uncertain. |
 | Crew origin | Permanently ambiguous; multiple completions reveal partial and potentially conflicting evidence. |
-| Imprints | Connect identity evidence with new capability. Exact contents and reliability may vary. |
+| Imprints | Pair lore or a memory scene with a Specialization, equipment access, Overdrive, or hidden campaign evidence. |
 | Standard campaign | Ends after the Act III confrontation at the Cradle. |
 | Communion route | Hidden early ending reached through the Continuum. |
 | Extended secret route | Two investigations converge on the true final sequence without completely resolving the crew's origin. |

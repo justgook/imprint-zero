@@ -51,24 +51,24 @@ The late-20th-century mission-control tone should create familiarity without dir
 
 ## Introduction role
 
-During [[Missions/M01|Cold Deployment]], OPERATOR provides the objective while [[Characters/Rook|ROOK]] is already moving. When the rail-control archive identifies ROOK under a designation marked killed in action, [[Characters/Vector|VECTOR]] questions the match.
+During [[Missions/M01|Cold Deployment]], OPERATOR provides the objective while [[Characters/Rook|ROOK]] is already moving. The operation and radio coordination feel routine to the crew.
 
-> **Accepted** — OPERATOR dismisses the record as legacy corruption—an “archive ghost”—and redirects the crew toward successful extraction.
+> **Accepted** — An ordinary terminal interface briefly displays ROOK under another designation marked killed in action. The clue receives no camera emphasis, pause, or spoken reaction from OPERATOR or the crew. The interface continues its normal completion flow, leaving it uncertain whether OPERATOR noticed or influenced the transition.
 
-The exact final script remains subject to dialogue writing, but its function is fixed:
+The presentation must:
 
-1. acknowledge the anomalous record;
-2. provide a plausible institutional explanation;
-3. close access before meaningful inspection;
-4. normalize continued obedience;
-5. avoid revealing overt hostility.
+1. remain easily overlooked on a first playthrough;
+2. avoid telling the player that the record is important;
+3. preserve uncertainty about OPERATOR's knowledge and control;
+4. become recognizable in retrospect or on another campaign;
+5. avoid interrupting the action with explanation.
 
 ## Relationship with the crew
 
 The crew begins by treating OPERATOR as familiar operational support. Conditioning makes compliance feel safer and more natural than questioning the source or authority of an order.
 
 - **ROOK:** initially treats OPERATOR's framing as routine.
-- **VECTOR:** is the first crew member to leave doubt audible.
+- **VECTOR:** sounds operationally familiar during the introduction; the first explicit expression of doubt remains to be placed later.
 - **RAM:** relationship requires clarification after RAM joins independently during a boss Encounter.
 - **RELAY:** may recognize infrastructure or terminology that OPERATOR presents as unfamiliar legacy systems.
 
@@ -76,7 +76,7 @@ The player's rebellion begins with recognizing that OPERATOR's explanation can b
 
 ## Demonstrated knowledge
 
-At the end of the introduction, OPERATOR demonstrably knows enough to identify or label the archive result as legacy corruption and to terminate the crew's investigation. That does not prove prior knowledge of the exact casualty match.
+The introduction does not prove that OPERATOR notices, understands, or suppresses the killed-in-action record. Later evidence must establish knowledge or control through observable behavior rather than inference from the terminal transition.
 
 Later Mission pages must distinguish:
 
@@ -87,7 +87,7 @@ Later Mission pages must distinguish:
 
 ## Relationship to the concealed project
 
-> **In progress** — Early Missions genuinely help settlements while reconnecting industrial infrastructure useful to an identity-control project. OPERATOR coordinates those Missions, but the crew does not know whether OPERATOR designed the project, knowingly serves it, partially understands it, or merely relays its recovery orders.
+> **Accepted** — Early Missions genuinely address local needs while restoring infrastructure, recovering material, or granting access later reused by an identity-control project. Later Missions expose consequences the crew did not expect without retroactively making the original benefit false. OPERATOR coordinates those Missions, but the crew does not know whether OPERATOR designed the project, knowingly serves it, partially understands it, or merely relays its recovery orders.
 
 The institution or authority behind the project must not be collapsed into OPERATOR until evidence establishes that relationship.
 

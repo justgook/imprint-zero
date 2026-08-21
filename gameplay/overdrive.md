@@ -31,7 +31,15 @@ Selecting a Specialization changes the character for the entire Mission. A Speci
 
 A Specialization is not merely a choice of future Overdrive. The twelve Specializations must remain materially different during ordinary play.
 
-Specializations are selected at the Hub. Their exact acquisition methods remain unresolved; possible rewards include discoveries, challenge achievements, special Missions, optional events, and equipment-related progression.
+The eight non-default Specializations unlock through Specialization Imprints hidden in Act II optional routes. Their exact Mission and route assignments remain unresolved.
+
+## Coffin selection
+
+> **TODO — Selection flow:** Diagram station activation, unlocked Coffin choices, rail swap, Hub testing, and deployment.
+
+> **Accepted** — Each Specialization has a Recovery Capsule variant, called a “Coffin” by the crew. All variants share one standardized coffin-like shell and pneumatic opening; Character and Specialization are communicated through the central emblem, decoration, and controlled color treatment. One of the Character's three variants occupies their assigned Hub docking station at a time. Changing Specialization physically swaps the docked Coffin by rail.
+
+The interface initially exposes only the baseline Specialization and no named locked slots or `1/3` counter. The illuminated Character emblem identifies all three Coffin variants; adjacent decorative elements gain color as additional Specializations unlock. Unlocking the first additional Specialization makes the physical pattern legible and expands station activation to offer the available variants.
 
 ## Equipment boundary
 

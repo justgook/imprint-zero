@@ -50,7 +50,7 @@ flowchart LR
 4. **Shield Enforcer:** provide room to jump over its charge, reverse, and attack the exposed rear.
 5. **Brief reset:** reveal the rail-control objective from safety.
 6. **Crane and sentry:** combine a fixed low–high pattern with the cycling cargo container.
-7. **Rail-control terminal:** complete the Mission; briefly recognize ROOK under an unknown designation marked killed in action; let [[NPCs/Operator|OPERATOR]] suppress it as legacy corruption and an archive ghost while VECTOR leaves doubt audible.
+7. **Rail-control terminal:** complete the Mission while the ordinary interface briefly displays ROOK under an unknown designation marked killed in action. Give the record no camera emphasis, pause, or spoken reaction; continue the completion flow so the clue is easily overlooked.
 
 Each beat teaches or combines one demand. No optional enemy, collectible, dialogue sequence, or route complexity belongs in the flat pass.
 

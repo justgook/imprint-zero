@@ -25,9 +25,6 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 These remain important but should not interrupt the flat-baseline validation pass:
 
-- What immediate consequence follows individual mission failure?
-- Where exactly does the player return after death?
-- Which shared resources can be lost or recovered?
 - How do shortcuts reduce repetition without erasing spatial meaning?
 - Which ROOK and VECTOR Specializations best prove gameplay variation in the representative Encounter?
 - What platform and input assumptions constrain the action?
@@ -37,14 +34,15 @@ These remain important but should not interrupt the flat-baseline validation pas
 
 > **Needs example** — One representative encounter solved by two different characters.
 
-> **Needs diagram** — The death cycle after ownership and persistence rules are resolved.
+> **TODO — Recovery diagram:** Show post-HUB death returning the deployed Character to their personal Recovery Capsule (“Coffin”), reopening Hub choices, and restarting the failed Mission from its beginning.
 
 > **Needs image** — A character silhouette comparison and cyberpunk visual-direction board after gameplay roles are defined.
 
 ## Recently resolved
 
+- **Death and retry:** M01 restarts directly; after HUB0, death returns the deployed Character to their Recovery Capsule (“Coffin”) in the current Hub, resets the failed Mission, and removes no resources or progression.
 - **Operational voice:** [[NPCs/Operator|OPERATOR]] is the crew's consistent Mission-coordination entity; whether OPERATOR authors orders or relays another authority remains unresolved.
-- **Opening dismissal:** OPERATOR labels ROOK's killed-in-action match legacy corruption and an archive ghost while VECTOR leaves doubt audible.
+- **Opening background clue:** the introduction terminal briefly displays ROOK under another designation marked killed in action; no Character or OPERATOR reacts aloud.
 - **RELAY default Specialization:** **Wire** replaces Operator, keeping OPERATOR unambiguous as the NPC designation.
 - **Configuration vocabulary:** a Character is the persistent person, a Specialization is one of three Hub-selected normal play styles, and Overdrive is the temporary transformation unique to the selected Specialization. See [[Gameplay/Overdrive|Specializations and Overdrive]].
 - **Specialization count:** four Characters each have three Specializations; the baseline is the default Specialization, producing twelve selectable play styles.
@@ -55,8 +53,8 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Equipment compatibility:** the crew shares equipment, while Specializations define compatible weapon and armour classes; equipment alters but does not replace specialization identity.
 - **Initial Hub roster:** ROOK and VECTOR are immediately selectable; VECTOR is the crew member who questions the archive record.
 - **First Hub arrival:** remains player-controlled; physically reveals the radio crew; immediately exposes selection interfaces and direct shortcuts without a forced tour.
-- **Immediate response:** [[NPCs/Operator|OPERATOR]] calmly calls the record legacy corruption and an archive ghost while VECTOR leaves doubt audible.
-- **First contradiction:** the rail-control system recognizes ROOK under an unknown designation officially recorded as killed in action; OPERATOR suppresses the connection.
+- **Immediate response:** no one responds aloud to the easily overlooked killed-in-action record.
+- **First contradiction:** an ordinary terminal interface briefly displays ROOK under an unknown designation officially recorded as killed in action, without emphasis or interruption.
 - **Opening delivery:** control begins immediately; objective and crew familiarity arrive through operational radio dialogue during the safe-arrival beat.
 - **Opening progression:** new game deploys directly into Cold Deployment with preselected ROOK and the Baseline Rifle; first success unlocks the Hub.
 - **Hub presentation:** compact navigable side-view Zone with direct shortcuts to character, equipment, Mission, and Memory interfaces.

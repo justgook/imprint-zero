@@ -8,14 +8,14 @@ act: 1
 
 ## Purpose
 
-Provide the crew’s directed return point during Act I while characters and deployment options unlock.
+> **TODO — Hub staging image:** Show the four rail-connected Coffin docking stations as the Act I roster grows from two occupied stations to four.
+
+Provide the crew's directed return point during Act I while Characters and deployment options unlock. Recovery Capsules—called “Coffins” by the crew—carry Characters into and out of the Hub by rail.
 
 ## Progression
 
-- After [[Missions/M01|M01]], meet VECTOR and prepare for M02.
+- After [[Missions/M01|M01]], ROOK's Coffin returns beside VECTOR's already docked Coffin; two docking stations remain empty.
 - After [[Missions/M02|M02]], prepare for M03.
-- After [[Missions/M03|M03]], meet RAM and prepare for M04.
-- After [[Missions/M04|M04]], prepare for M05.
+- After [[Missions/M03|M03]], RAM's Coffin fills the third station and the crew prepares for M04.
+- After [[Missions/M04|M04]], RELAY's Coffin fills the fourth station and the crew prepares for M05.
 - Completing [[Missions/M05|M05]] advances the campaign to [[Missions/HUB1|HUB1]].
-
-> **TODO** — Revalidate the shared Hub interaction model during the Missions cleanup.

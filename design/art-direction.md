@@ -48,6 +48,18 @@ These rules are deliberately testable. They become accepted only after a human-m
 
 Exact palette values, target resolution, pixel grid, outline treatment, and semantic indicator-color mapping remain unresolved; do not invent them per asset.
 
+## Recovery Capsule language
+
+> **TODO — Coffin design sheet:** Create a front, side, open, closed, docked, and rail-motion view of the standardized Recovery Capsule, plus one Character's three decoration-and-color variants.
+
+Recovery Capsules should read immediately as compact industrial coffins with pneumatic lids, not futuristic luxury pods. Recovery shows only a closed arrival, docking, pneumatic opening, and waking or exit; avoid fabrication, scanning, medical reconstruction, or replacement-body effects that would resolve the fiction. Every Capsule shares the same shell, dimensions, rail interface, docking points, and opening motion. A central illuminated emblem identifies the Character; restrained decoration and color distinguish the selected Specialization without changing the silhouette.
+
+### Delivery animation vocabulary
+
+> **TODO — Delivery animation sheet:** Design mechanically equivalent hard-drop, track-unloader, ground-hatch, spider-droid, and installed-rail arrival and extraction animations using the standardized Coffin.
+
+Delivery machinery and motion may vary by Mission or randomly among authored compatible variants. These changes provide visual rhythm only; they preserve spawn position, safe-state duration, control timing, and gameplay outcome.
+
 ## Character readability
 
 Each selectable character needs a recognizable silhouette and archetypal fantasy. Before reading text, the player should form a useful expectation that the characters play differently.

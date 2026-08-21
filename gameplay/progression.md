@@ -33,11 +33,17 @@ The canonical Imprint page owns unresolved capacity, assignment, transfer, compa
 
 The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
 
+## Hub preparation
+
+> **Accepted** — Before deployment, Character selection exposes stats, equipment, skills, and the selected Specialization. The Hub provides a safe, repeatable space to test movement, attacks, skills, equipment changes, and the Character-owned optional-route verb without consuming campaign resources or beginning a Mission.
+
+Visual design, silhouette, carried equipment, and animation should imply the broad play style before the player reads exact values.
+
 ## Mission compatibility
 
 > **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. M01 begins with one Character, later Missions expand the available roster, M04 features its required new Character, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
 
-> **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. An inaccessible optional route should remain legible enough to motivate replay with the relevant crew member.
+> **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. An inaccessible optional route should use a consistent Character-specific affordance: mysterious before that Character's introduction, recognizable afterward, and confirmable through brief wrong-Character feedback without revealing its contents.
 
 ## Act II Mission availability
 
@@ -51,21 +57,23 @@ All Specialization Imprints and all four biome Memory Imprints required for the 
 
 > **Accepted** — The new game begins directly in [[Missions/M01|Cold Deployment]] with preselected character and equipment. Failure restarts inside the introduction; the Hub and standard death cycle unlock only after first success. The player is not told that Overdrive exists during the introduction.
 
-## Death cycle
+## Recovery Capsule lifecycle
 
-> **In progress** — “Roguelite” is too broad to serve as the canonical term for this design. The intended idea is narrower: death returns the player to a decision context, preserves selected progress, and changes the choices available for the next attempt without procedurally replacing the authored world.
+> **Accepted** — Each Character has three Specialization-specific Recovery Capsule variants, called “Coffins” by the crew. Four rail-connected Hub docking stations represent the full roster, one station per Character, with only the selected Specialization's Coffin docked. The deployed Character enters that Capsule; it leaves the Hub and returns by rail after success or death. A death return shows the Character awakening inside before Hub control resumes.
 
-The death cycle returns to decisions made by an active crew at the shared Hub. World state, discoveries, and shortcuts persist across character selection. One crew member is deployed at a time, and character reselection occurs only at the hub.
+HUB0 initially shows ROOK and VECTOR's default Coffins in two stations with two stations empty. RAM's arrival fills the third; RELAY's fills the fourth. When not deployed, a Character may be active in the Hub while their selected Capsule remains docked, or sleep inside its closed Capsule.
 
-The death cycle may reopen:
+Recovery remains causally unexplained: the Coffin returns closed, docks, opens pneumatically, and the Character wakes or exits without fabrication effects, medical explanation, or replacement-body evidence.
 
-- Character and Specialization selection;
-- loadout or weapon selection;
-- upgrade investment;
-- route choice;
-- newly discovered information or access.
+Locked Specialization choices are absent from the selection UI. Each Coffin carries an illuminated central Character emblem and adjacent decorative elements that gain color as additional Specializations unlock. Once a second Specialization is available, activating the station offers the unlocked Coffin variants; changing Specialization physically swaps Capsules by rail. No `1/3` counter appears before the ending report reveals the twelve-Specialization total.
 
-The exact rules remain unresolved.
+## Death and Mission retry
+
+> **Accepted** — M01 death restarts M01 directly because the Hub has not yet been introduced. After HUB0 unlocks, death returns the deployed Character to their personal Recovery Capsule, called a “Coffin” by the crew in the current Hub. The failed Mission resets to its beginning.
+
+Death removes no currency, equipment, Imprint, Character progression, or other campaign resource. Campaign rewards already registered remain acquired. From the Hub, the player may retry, change Character or Specialization, alter equipment, test the new configuration, or choose another available Mission.
+
+“Roguelite” is not a canonical term for this structure. Death reopens authored decisions without randomizing or replacing the campaign.
 
 ## Checkpoints and shortcuts
 
@@ -77,7 +85,7 @@ Fast travel is not assumed. It remains an option only if the final world structu
 
 > **Accepted** — The [[Equipment/Overview|crew stash]] shares weapons, armour, consumables, currencies, and key items. Item upgrades remain attached to the item; innate abilities and personal mastery remain character-owned. Specializations constrain compatible weapon and armour classes rather than creating separate inventories.
 
-> **Open question** — Which shared resources can be lost or recovered through the death cycle?
+Death does not remove shared resources or acquired upgrades.
 
 ## Difficulty and mastery
 
