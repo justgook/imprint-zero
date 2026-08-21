@@ -162,6 +162,11 @@
 - [[Equipment/Overview|Equipment]]
   - [[Equipment/Baseline Rifle|Baseline rifle]]
 
+## Game text
+
+- [[game-text/README|Game text]]
+  - [[game-text/dialogue.po|Dialogue]]
+
 ## Gameplay
 
 - [[Gameplay/Overview|Gameplay]]

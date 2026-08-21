@@ -280,6 +280,95 @@
   stroke-width: 4px !important;
 }
 
+/* Project-local gettext catalogue renderer. */
+.po-catalogue .po-event {
+  margin: 0 0 36px;
+}
+
+.po-catalogue .po-entry {
+  margin: 14px 0;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.po-catalogue .po-entry > header {
+  margin-bottom: 12px;
+}
+
+.po-catalogue .po-entry > header code {
+  color: var(--accent);
+  font-size: .72rem;
+}
+
+.po-catalogue .po-source,
+.po-catalogue .po-translation blockquote {
+  margin: 0;
+  padding: 14px 16px;
+  border-left: 3px solid var(--border-strong);
+  background: var(--surface-raised);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.po-catalogue .po-translation,
+.po-catalogue .po-plural-sources {
+  margin-top: 14px;
+}
+
+.po-catalogue .po-plural-sources > strong,
+.po-catalogue .po-translation > strong,
+.po-catalogue .po-translation small {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font: 700 .65rem var(--font-mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.po-catalogue .po-plural-sources blockquote,
+.po-catalogue .po-translation blockquote {
+  margin-bottom: 10px;
+}
+
+.po-catalogue .po-metadata {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin: 14px 0 0;
+}
+
+.po-catalogue .po-metadata div {
+  min-width: 0;
+}
+
+.po-catalogue .po-metadata dt {
+  color: var(--faint);
+  font: .62rem var(--font-mono);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.po-catalogue .po-metadata dd {
+  overflow-wrap: anywhere;
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.po-catalogue .po-target,
+.po-catalogue .po-entry:target {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.po-catalogue .po-empty {
+  color: var(--muted);
+}
+
 @media (max-width: 760px) {
   .character-card {
     grid-template-columns: 1fr;
