@@ -263,6 +263,23 @@
   background: color-mix(in srgb, var(--accent) 5%, var(--surface-raised));
 }
 
+/* Make linked Mermaid nodes feel interactive in-page and in the fullscreen viewer. */
+.prose .mermaid a,
+.diagram-canvas a {
+  cursor: pointer;
+}
+
+.prose .mermaid a:is(:hover, :focus-visible) .node,
+.diagram-canvas a:is(:hover, :focus-visible) .node {
+  filter: brightness(1.14) drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent));
+}
+
+.prose .mermaid a:is(:hover, :focus-visible) .node .label-container,
+.diagram-canvas a:is(:hover, :focus-visible) .node .label-container {
+  stroke: var(--accent) !important;
+  stroke-width: 4px !important;
+}
+
 @media (max-width: 760px) {
   .character-card {
     grid-template-columns: 1fr;

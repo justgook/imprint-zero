@@ -236,6 +236,55 @@ graph TD
     SECRET_BOSS -->|Reject OPERATOR's definition of personhood| TRUE_ENDING
 
 
+    %% =====================================================
+    %% MISSION PAGE LINKS
+    %% =====================================================
+
+    click M01 href "#/missions/m01"
+    click M02 href "#/missions/m02"
+    click M03 href "#/missions/m03"
+    click M04 href "#/missions/m04"
+    click M05 href "#/missions/m05"
+    click M06 href "#/missions/m06"
+    click M07 href "#/missions/m07"
+    click M08 href "#/missions/m08"
+    click M09 href "#/missions/m09"
+
+    click MA01 href "#/missions/ma01"
+    click MA02 href "#/missions/ma02"
+    click MA03 href "#/missions/ma03"
+    click MB01 href "#/missions/mb01"
+    click MB02 href "#/missions/mb02"
+    click MB03 href "#/missions/mb03"
+    click MC01 href "#/missions/mc01"
+    click MC02 href "#/missions/mc02"
+    click MC03 href "#/missions/mc03"
+    click MD01 href "#/missions/md01"
+    click MD02 href "#/missions/md02"
+    click MD03 href "#/missions/md03"
+
+    click MS01 href "#/missions/ms01"
+    click MS02 href "#/missions/ms02"
+    click MS03 href "#/missions/ms03"
+    click SE01 href "#/missions/se01"
+    click HS01 href "#/missions/hs01"
+    click SECRET_JOIN href "#/missions/hs02"
+    click SECRET_BOSS href "#/missions/hs03"
+    click HA01 href "#/missions/ha01"
+    click HA02 href "#/missions/ha02"
+    click HA03 href "#/missions/ha03"
+    click HB01 href "#/missions/hb01"
+    click HB02 href "#/missions/hb02"
+    click HB03 href "#/missions/hb03"
+    click HB04 href "#/missions/hb04"
+
+    click HUB0.1 href "#/missions/hub0"
+    click HUB0.2 href "#/missions/hub0"
+    click HUB0.3 href "#/missions/hub0"
+    click HUB0.4 href "#/missions/hub0"
+    click HUB1 href "#/missions/hub1"
+    click HUB2 href "#/missions/hub2"
+
 
     %% =====================================================
     %% VISUAL STYLES

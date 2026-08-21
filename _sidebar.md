@@ -38,11 +38,13 @@
 - [[Missions/Overview|Missions]]
   - **[[Missions/A01|Act I — Crew Assembly]]**
   - [[Missions/M01|M01 — Cold Deployment]]
+  - [[Missions/HUB0|HUB0 — Crew Assembly Hub]]
   - [[Missions/M02|M02 — Containment Doctrine]]
   - [[Missions/M03|M03 — No Survivors Logged]]
   - [[Missions/M04|M04 — Production Halt]]
   - [[Missions/M05|M05 — The Four Trials]]
   - **[[Missions/A02|Act II — Fractured Identities]]**
+  - [[Missions/HUB1|HUB1 — Campaign Hub]]
   - [[Missions/MA01|MA01 — Ghost Archive]]
   - [[Missions/MA02|MA02 — Familiar Strangers]]
   - [[Missions/MA03|MA03 — The Choir of Selves]]
@@ -61,6 +63,7 @@
   - **[[Missions/Secret Ending|Secret Ending — Communion]]**
   - *[[Missions/SE01|SE01 — Become Many]]*
   - **[[Missions/A03|Act III — The Manufactured War]]**
+  - [[Missions/HUB2|HUB2 — Guardian Nexus]]
   - [[Missions/M06|M06 — Welcome Home]]
   - [[Missions/M07|M07 — Recall Exercise]]
   - [[Missions/M08|M08 — Umbilical]]
