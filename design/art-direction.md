@@ -28,6 +28,26 @@ Locations such as wastelands, forests, factories, trains, and industrial lifts s
 
 The broader aesthetic draws from late-20th-century cyberpunk: layered infrastructure, grime, machinery, institutional power, and uneasy human–technology boundaries. Avoid reducing cyberpunk to bright neon, consumer fashion, and generic futuristic city dressing.
 
+### Cyberpunk aesthetic
+
+Reference the atmosphere and material language of *Blade Runner*, *Universal Soldier*, and 1990s *Ghost in the Shell* without reproducing recognizable designs.
+
+Prioritize:
+
+- Late-20th-century techno-noir and old-school cyberpunk.
+- Worn analog machinery and institutional military hardware.
+- Restrained charcoal, faded olive, aged ivory, dull rust, and sparse indicator colors.
+- Weak fluorescent light, rain, haze, concrete, and deep shadow.
+- A modern interpretation of 16-bit action-game pixel art.
+
+Avoid:
+
+- Glossy, pristine, or luxurious futuristic surfaces.
+- Saturated cyan-and-magenta lighting and rainbow neon.
+- Fashion-led “neonpunk” standing in for cyberpunk.
+- Decorative LED strips, holographic clutter, and excessively clean interfaces.
+- Direct copies of recognizable characters, machines, or environments from reference works.
+
 ## Readability
 
 > **Needs example** — Create one representative gameplay mockup proving visual hierarchy for the player, threats, projectiles, affordances, effects, and environment.
