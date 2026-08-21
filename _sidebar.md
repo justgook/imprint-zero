@@ -187,10 +187,10 @@
 - [[Production/Asset Registry|Asset registry]]
 
 
-## Wiki guide
+## Authoring
 
 - [[Content Style Guide|Content style guide]]
-- [[Wiki/Overview|Using this wiki]]
+- [[Wiki/Overview|Using the wiki engine]]
   - [[Wiki/Markdown Authoring|Markdown and navigation]]
   - [[Wiki/Markdown Cheat Sheet|Markdown cheat sheet]]
   - [[Wiki/Formulas|Formula examples]]

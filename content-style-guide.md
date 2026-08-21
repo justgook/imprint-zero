@@ -115,4 +115,4 @@ Before publishing or updating a page, check:
 - Does the remaining text add rationale or nuance instead of duplicating the artifacts?
 - Are charts, schemas, images, tables, and formulas clearly titled, labeled, and introduced?
 
-See [[Wiki/Diagrams|Diagram examples]] for Mermaid authoring examples, [[Wiki/Formulas|Formula examples]] for mathematical notation, and [[Wiki/Markdown Cheat Sheet|Markdown cheat sheet]] for tables and images.
+See [[Wiki/Diagrams|Diagram examples]] for Mermaid authoring, [[Wiki/Formulas|Formula examples]] for mathematical notation, and the [[Wiki/Markdown Cheat Sheet|Markdown cheat sheet]] for tables and images.
