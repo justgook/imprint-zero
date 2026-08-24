@@ -23,11 +23,11 @@ Authored encounters may shift emphasis between traversal, combat, discovery, and
 
 ## Character transformation
 
+> **TODO — Comparative example:** Resolve the same representative encounter with materially different Character and Specialization configurations.
+
 See [[Characters/Overview|Playable Crew]] for roster rules, [[Characters/Rook|ROOK]] for the current baseline, and [[Gameplay/Overdrive|Specializations and Overdrive]] for deployment configurations.
 
 The selected Character and Specialization must alter how the player reads, chooses, or executes within this loop. Cosmetic differences and small statistical changes are insufficient. After its campaign reveal, Overdrive temporarily exaggerates or inverts the selected Specialization rather than merely increasing damage.
-
-> **Needs example** — Resolve the same representative encounter with materially different Character and Specialization configurations.
 
 ## Opening exception
 
@@ -35,14 +35,20 @@ The selected Character and Specialization must alter how the player reads, choos
 
 ## Standard macro loop
 
-> **Accepted** — The authored campaign returns the player to a prepared decision space after success or failure.
+> **Accepted** — The authored campaign returns the player to a prepared decision after success or failure.
 
-1. Select one crew member, one unlocked [[Gameplay/Overdrive|Specialization]], a compatible [[Equipment/Overview|loadout]], and a [[Missions/Overview|Mission]] at the Hub.
-2. Advance through encounters, routes, and set pieces.
-3. Discover persistent knowledge, access, equipment, or shortcuts.
-4. Reach a major objective or die.
-5. Return to the Hub after success, or awaken in the deployed Character's Recovery Capsule (“Coffin”) after death; a failed Mission resets to its beginning without resource loss.
-6. Freely reconsider character, loadout, route, or investment before the next deployment.
+```mermaid
+flowchart TD
+    HUB[HUB<br/>Select and test configuration] --> Mission[Deploy into Mission]
+    Mission --> Play[Traverse, fight, discover, complete objectives]
+    Play -->|Death| HUB
+    Play -->|Success| Coffin[Enter extraction Coffin]
+    Coffin --> Choice{Destination}
+    Choice -->|Authored direct route<br/>preserve configuration| Mission
+    Choice -->|Return and reconfigure| HUB
+```
+
+Successful extraction offers only authored outgoing destinations from the completed Mission plus the Hub. Hidden source actions may add a Special Mission to that choice. Once discovered, the Special Mission remains unlocked in the current campaign and appears in the Hub pool on return. Failure always returns to the Hub and resets the failed Mission without resource loss.
 
 The player cannot ordinarily swap Characters or Specializations during a deployment. The scripted character trials in [[Missions/M05|The Four Trials]] are an explicit exception, not a general switching mechanic. The exact spatial and fictional relationship between the hub and campaign locations remains unresolved.
 

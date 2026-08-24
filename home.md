@@ -32,7 +32,7 @@ flowchart LR
     A1[Act I<br/>Assemble crew] --> A2[Act II<br/>Four open biomes]
     A2 --> A3[Act III<br/>Cradle confrontation]
     A3 --> Standard[Standard ending]
-    A2 -. Hidden B05 path .-> Communion[Communion ending]
+    A2 -. Hidden MS01→MS03 path .-> Communion[Communion ending]
     A3 -. M07 hidden access .-> Investigations[Two secret investigations]
     Investigations --> True[True final sequence]
 ```

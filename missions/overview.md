@@ -116,39 +116,49 @@ graph TD
     %% OPTIONAL SPECIAL-MISSION PATHS
     %% =====================================================
 
-    MB02 -.->|Trace an earlier deployment signal| MS01
+    MA01 -.->|Hidden source condition| MS01
+    subgraph B03
+      MS01["MS01<br/>Unscheduled Service"]
+    end
+    MS01 -.->|Cross-biome shortcut| MC02
+
+    MB02 -.->|Hidden source condition| MS02
     subgraph B04
-      MS01["MS01<br/>Black-Box Recovery"]
+      MS02["MS02<br/>Black-Box Recovery"]
     end
-    MS01 -.->|Cradle security codes recovered| MB03
+    MS02 -.->|Cross-biome shortcut| MA02
 
-    MC02 -.->|Follow the source-memory voices| MS02
+    MC02 -.->|Hidden source condition| MS03
     subgraph B05
-      MS02["MS02<br/>Beneath the Skin"]
+      MS03["MS03<br/>Beneath the Skin"]
     end
-    MS02 -.->|Return with forbidden knowledge| MC03
+    MS03 -.->|Cross-biome shortcut| MD02
 
-    MD02 -.->|Intercept the escaping architect| MS03
+    MD01 -.->|Hidden source condition| MS04
     subgraph B06
-      MS03["MS03<br/>Golden Parachute"]
+      MS04["MS04<br/>Golden Parachute"]
     end
-    MS03 -.->|OPERATOR's altered directive exposed| MD03
+    MS04 -.->|Cross-biome shortcut| MB02
 
 
     %% =====================================================
     %% OPTIONAL EARLY SECRET ENDING
     %% =====================================================
 
-    CHECK_SE01{"Enter the Living Archive?"}
-    MS02 -.->|Living passage revealed| CHECK_SE01
-    CHECK_SE01 -.->|Enter| SE01
-    CHECK_SE01 -.->|Turn back| MC03
+    CHECK_SE01{"MS01 survivor flag<br/>present during MS03?"}
+    MS01 -.->|At least one foreground captive is freed and evacuated| CHECK_SE01
+    MS03 -.->|Saved civilian reaches sealed passage| CHECK_SE01
+    CHECK_SE01 -.->|Enter; complete MS03 + unlock MD02| SE01
+    CHECK_SE01 -.->|Ignore; finish MS03 normally| MD02
     SECRET_ENDING([Secret Ending<br/>Communion])
 
     subgraph B99["B99 — The Living Archive"]
       SE01["SE01<br/>Become Many"]
+      COMMUNION_CHOICE{"Accept Communion?"}
     end
-      SE01 -->|Join the Continuum| SECRET_ENDING
+    SE01 --> COMMUNION_CHOICE
+    COMMUNION_CHOICE -->|Accept| SECRET_ENDING
+    COMMUNION_CHOICE -->|Refuse or leave| HUB1
 
 
 
@@ -274,6 +284,7 @@ graph TD
     click MS01 href "#/missions/ms01"
     click MS02 href "#/missions/ms02"
     click MS03 href "#/missions/ms03"
+    click MS04 href "#/missions/ms04"
     click SE01 href "#/missions/se01"
     click HS01 href "#/missions/hs01"
     click SECRET_JOIN href "#/missions/hs02"
@@ -330,40 +341,44 @@ graph TD
 
     class MA03,MB03,MC03,MD03,M09,SECRET_BOSS boss;
 
-    class MS01,MS02,MS03,SE01,HS01,HA01,HA02,HA03,HB01,HB02,HB03,HB04,SECRET_JOIN secret;
+    class MS01,MS02,MS03,MS04,SE01,HS01,HA01,HA02,HA03,HB01,HB02,HB03,HB04,SECRET_JOIN secret;
 
     class M06,M07,M08 final;
 
-    class SECRET_SPLIT choice;
+    class SECRET_SPLIT,COMMUNION_CHOICE choice;
 
     class START,STANDARD_ENDING,TRUE_ENDING ending;
 
     class SECRET_ENDING secretEnding;
 ```
 
-> **Reading Act II:** Arrows between Missions inside B03–B06 show unlock order, not immediate deployment. Every completed Mission returns the player to HUB1, remains replayable, and adds the next Mission from that biome to the available pool. After the fourth Guardian, the player returns to HUB1 with M06 available.
+> **Reading Act II:** Arrows show authored outgoing routes. After success, extraction offers only those direct destinations plus HUB1. Continuing directly preserves the current configuration; returning enables reconfiguration and registers discovered Missions in the Hub pool. Completed Missions remain replayable. After the fourth Guardian, HUB1 makes M06 available.
 
 ### Act II Mission availability
 
 ```mermaid
-flowchart LR
-    HUB1[HUB1] --> Pool[Available B03–B06 Missions]
-    Pool --> Mission[Choose and deploy]
-    Mission --> Complete[Complete Mission]
-    Complete --> Replay[Keep Mission replayable]
-    Complete --> Unlock[Unlock next Mission in that biome]
-    Replay --> HUB1
-    Unlock --> HUB1
-    Complete --> Gate{All four biome Guardians complete?}
+flowchart TD
+    HUB1[HUB1 Mission pool] --> Mission[Choose and deploy]
+    Mission -->|Failure| HUB1
+    Mission -->|Success| Register[Register authored successors]
+    Register --> Hidden{Hidden source condition met?}
+    Hidden -->|Yes| Special[Persistently unlock Special Mission]
+    Hidden -->|No| Extract[Enter extraction Coffin]
+    Special --> Extract
+    Extract --> Choice{Destination}
+    Choice -->|Direct outgoing route<br/>preserve configuration| Mission
+    Choice -->|Return and reconfigure| Gate{Fourth Guardian complete?}
     Gate -- No --> HUB1
     Gate -- Yes --> Ready[HUB1<br/>M06 available]
-    Ready --> Choice{Launch M06?}
-    Choice -- Continue Act II --> HUB1
-    Choice -- Confirm point of no return --> HUB2[Enter HUB2<br/>Close B03–B06]
+    Ready --> Launch{Launch M06?}
+    Launch -- Continue Act II --> HUB1
+    Launch -- Confirm point of no return --> HUB2[Enter HUB2<br/>Close B03–B06]
     HUB2 --> M06[M06]
 ```
 
-The initial pool contains MA01, MB01, MC01, and MD01. Completing, for example, MB01 returns the player to HUB1 with MB01 still replayable and MB02 newly available. This continues independently in each biome until all four Guardian Missions are complete. After the fourth Guardian, the player returns to HUB1 with M06 available and may continue replaying Act II Missions.
+Player-facing interfaces use indentation and a special color to mark discovered MS Missions only as shortcuts or optional paths to a named destination biome, without revealing the exact downstream Mission or reward; they do not expose the internal IDs as a set or connect them to an ending.
+
+The initial pool contains MA01, MB01, MC01, and MD01. MA01, MB02, MC02, and MD01 each contain a distinct hidden condition that adds its Special Mission to the local extraction choice and persistently unlocks it for the campaign. Main Missions unlock the next Mission in their biome; MS01–MS04 create optional cross-biome shortcuts that may unlock another biome's M02 before its M01 is complete. Bypassed M01 Missions remain available and replayable. This continues until all four Guardian Missions are complete. After the fourth Guardian, the player returns to HUB1 with M06 available and may continue replaying Act II Missions.
 
 Launching M06 requires explicit confirmation that B03–B06 and their undiscovered rewards will become unavailable for the campaign. All Specialization Imprints and the four biome Memory Imprints needed for the extended route must be recovered before confirming. Eligibility is locked before M06; the resulting hidden access appears during M07.
 
@@ -385,15 +400,16 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/MA03|MA03 — The Choir of Selves]] | B03 | B03 Guardian | TODO |
 | [[Missions/MB01|MB01 — Vertical Front]] | B04 | Act II opening Mission | TODO |
 | [[Missions/MB02|MB02 — Dead Reinforcements]] | B04 | Act II continuation | TODO |
-| [[Missions/MS01|MS01 — Black-Box Recovery]] | B04 | Optional Special Mission | TODO |
+| [[Missions/MS01|MS01 — Unscheduled Service]] | B03 → B05 | Optional shortcut to MC02; hidden survivor flag | TODO |
+| [[Missions/MS02|MS02 — Black-Box Recovery]] | B04 → B03 | Optional shortcut to MA02 | TODO |
 | [[Missions/MB03|MB03 — Halo Protocol]] | B04 | B04 Guardian | TODO |
 | [[Missions/MC01|MC01 — Burn the Garden]] | B05 | Act II opening Mission | TODO |
 | [[Missions/MC02|MC02 — Voices Under Glass]] | B05 | Act II continuation | TODO |
-| [[Missions/MS02|MS02 — Beneath the Skin]] | B05 | Optional Special Mission; Communion access | TODO |
+| [[Missions/MS03|MS03 — Beneath the Skin]] | B05 → B06 | Optional shortcut to MD02; conditional Communion access | TODO |
 | [[Missions/MC03|MC03 — Heartroot]] | B05 | B05 Guardian | TODO |
 | [[Missions/MD01|MD01 — Hostile Acquisition]] | B06 | Act II opening Mission | TODO |
 | [[Missions/MD02|MD02 — Executive Immunity]] | B06 | Act II continuation | TODO |
-| [[Missions/MS03|MS03 — Golden Parachute]] | B06 | Optional Special Mission | TODO |
+| [[Missions/MS04|MS04 — Golden Parachute]] | B06 → B04 | Optional shortcut to MB02 | TODO |
 | [[Missions/MD03|MD03 — Patent of Life]] | B06 | B06 Guardian | TODO |
 | [[Missions/SE01|SE01 — Become Many]] | B99 | Early Communion ending | TODO |
 | [[Missions/HUB2|HUB2 — Guardian Nexus]] | — | Irreversible Act III staging | In progress |

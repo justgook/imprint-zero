@@ -21,20 +21,21 @@
   - **[[Missions/A02|Act II — Fractured Identities]]**
   - [[Missions/HUB1|HUB1 — Campaign Hub]]
   - [[Missions/MA01|MA01 — Ghost Archive]]
+  - *[[Missions/MS01|MS01 — Unscheduled Service]]*
   - [[Missions/MA02|MA02 — Familiar Strangers]]
   - [[Missions/MA03|MA03 — The Choir of Selves]]
   - [[Missions/MB01|MB01 — Vertical Front]]
   - [[Missions/MB02|MB02 — Dead Reinforcements]]
+  - *[[Missions/MS02|MS02 — Black-Box Recovery]]*
   - [[Missions/MB03|MB03 — Halo Protocol]]
-  - *[[Missions/MS01|MS01 — Black-Box Recovery]]*
   - [[Missions/MC01|MC01 — Burn the Garden]]
   - [[Missions/MC02|MC02 — Voices Under Glass]]
+  - *[[Missions/MS03|MS03 — Beneath the Skin]]*
   - [[Missions/MC03|MC03 — Heartroot]]
-  - *[[Missions/MS02|MS02 — Beneath the Skin]]*
   - [[Missions/MD01|MD01 — Hostile Acquisition]]
+  - *[[Missions/MS04|MS04 — Golden Parachute]]*
   - [[Missions/MD02|MD02 — Executive Immunity]]
   - [[Missions/MD03|MD03 — Patent of Life]]
-  - *[[Missions/MS03|MS03 — Golden Parachute]]*
   - **[[Missions/Secret Ending|Secret Ending — Communion]]**
   - *[[Missions/SE01|SE01 — Become Many]]*
   - **[[Missions/A03|Act III — The Manufactured War]]**

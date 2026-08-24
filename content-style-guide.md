@@ -7,6 +7,12 @@ status: reference
 
 This guide defines how content makers should present information in the wiki. Its purpose is to make pages quick to scan, easy to compare, and less dependent on long prose.
 
+## Governance
+
+> **Accepted** — This style guide is approval-locked. Do not modify its rules without the user's explicit approval.
+
+Every newly authored or updated page must be checked against this guide before it is accepted. Existing pages are brought into alignment as they are reviewed in sidebar order. If a page needs an exception, record the proposed exception and obtain explicit approval rather than silently departing from the guide.
+
 ## Format priority
 
 Use the highest suitable format in this order:

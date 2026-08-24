@@ -112,7 +112,7 @@ flowchart LR
     Recover --> Docked
 ```
 
-> **Accepted** — Four docking stations represent the complete crew, one station per Character. The selected Specialization's Coffin remains docked; other unlocked variants are stored off-screen and arrive by rail when selected. HUB0 first shows ROOK and VECTOR's default Coffins docked with two empty stations; RAM adds the third and RELAY the fourth. A Character may be active elsewhere in the Hub while their selected Capsule remains docked, or sleep inside its closed Capsule.
+> **Accepted** — Four docking stations represent the complete crew, one station per Character. The selected Specialization's Coffin remains docked; other unlocked variants are stored off-screen and arrive by rail when selected. HUB0 and HUB1 are states of the same physical space. HUB0 first shows ROOK and VECTOR's default Coffins docked with two empty stations; RAM adds the third and RELAY the fourth, and M05 transitions the space into its full Act II function without relocating the crew. A Character may be active elsewhere in the Hub while their selected Capsule remains docked, or sleep inside its closed Capsule.
 
 M01 begins directly without a Coffin departure; ROOK's returning Capsule introduces the system at HUB0. After that exception, deployment and return use the same physical lifecycle. The selected Character enters the Coffin belonging to their selected Specialization, it leaves the Hub, and its station remains empty during the Mission. After success or death, the same Capsule arrives from off-screen and docks; death specifically reveals the Character awakening inside.
 
@@ -133,6 +133,10 @@ Recovery is visually concrete but causally unexplained. The Coffin returns close
 | Installed rail | Mission infrastructure carries the Coffin directly into position. |
 
 Mission completion reverses the experience: an authored or randomly selected compatible carrier delivers the Coffin, the Character enters, and the Capsule departs. Variation is presentation only and must not change rewards, timing requirements, or ending eligibility.
+
+Extraction routing is a campaign-wide Coffin system, but each Mission authors its available destinations and may offer only its current Hub. Direct routes are uncommon during the controlled Act I introduction, central to Act II, and available selectively during Act III. M01 remains the direct-start exception and extracts to HUB0.
+
+In Act II, successful extraction offers the completed Mission's authored direct successors and HUB1. Hidden Mission-specific actions may add a Special Mission to this local choice. Direct continuation preserves the current Character, Specialization, and equipment; returning to HUB1 enables reconfiguration and adds every discovered Special Mission to the Hub pool. A discovered Special Mission remains unlocked for the current campaign even if another exit is chosen or the player later dies. Extraction and Hub lists distinguish these Missions with indentation and a consistent special color, describing them only as a **shortcut** or **optional path** to the destination biome. The exact downstream Mission and reward remain concealed. They never say “secret,” present the four Missions as a set, or hint at Communion access.
 
 ## Coffin Specialization selection
 

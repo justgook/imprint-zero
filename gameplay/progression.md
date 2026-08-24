@@ -37,7 +37,7 @@ The early Character sequence is accepted: ROOK at new game, VECTOR at the first 
 
 > **Accepted** — Before deployment, Character selection exposes stats, equipment, skills, and the selected Specialization. The Hub provides a safe, repeatable space to test movement, attacks, skills, equipment changes, and the Character-owned optional-route verb without consuming campaign resources or beginning a Mission.
 
-Visual design, silhouette, carried equipment, and animation should imply the broad play style before the player reads exact values.
+Visual design, silhouette, carried equipment, and animation should imply the broad play style before the player reads exact values. Coffin stations own Character and Specialization selection; a separate equipment area owns loadout changes; HUB1's central route terminal owns Mission selection.
 
 ## Mission compatibility
 
@@ -45,9 +45,44 @@ Visual design, silhouette, carried equipment, and animation should imply the bro
 
 > **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. An inaccessible optional route should use a consistent Character-specific affordance: mysterious before that Character's introduction, recognizable afterward, and confirmable through brief wrong-Character feedback without revealing its contents.
 
+## Successful extraction routing
+
+> **Accepted** — Extraction routing is one campaign-wide Coffin system with authored destinations per Mission.
+
+| Campaign phase | Typical extraction destinations |
+|---|---|
+| Act I | HUB0, preserving controlled roster and system introductions |
+| Act II | Authored direct successors, discovered optional paths, or HUB1 |
+| Act III | Authored direct successors or HUB2 where appropriate |
+| M01 | Controlled exception: begins directly, extracts to HUB0 |
+
+A Mission may offer only its Hub and is not required to branch. Direct continuation always preserves Character, Specialization, and equipment; returning to a Hub enables reconfiguration.
+
 ## Act II Mission availability
 
-> **Accepted** — HUB1 initially offers the first Mission in each of B03–B06. Completing a Mission returns the player to HUB1, keeps that Mission replayable, and unlocks the next Mission in the same biome. The player may alternate biomes, continue one biome, or replay any completed Act II Mission in any order allowed by those unlocks.
+> **TODO — Special-route conditions:** Define distinct hidden requirements inside MB02, MC02, and MD01 that unlock their outgoing Special Missions without using objective markers or a shared checklist. MA01 uses its accepted unstable memory-replay traversal and transit-rerouting action.
+
+```mermaid
+flowchart TD
+    HUB1[Choose any unlocked Mission in HUB1] --> Mission[Deploy]
+    Mission -->|Failure| HUB1
+    Mission -->|Success| Unlock[Register authored successors]
+    Unlock --> Check{Hidden source condition met?}
+    Check -->|Yes| Special[Persistently unlock Special Mission]
+    Check -->|No| Extract[Enter extraction Coffin]
+    Special --> Extract
+    Extract --> Choice{Destination}
+    Choice -->|Direct outgoing route| Mission
+    Choice -->|Return| HUB1
+```
+
+> **Accepted** — HUB1 initially offers MA01, MB01, MC01, and MD01. At successful extraction, the Coffin offers only the completed Mission's authored outgoing destinations plus HUB1. Direct continuation preserves Character, Specialization, and equipment; reconfiguration requires returning to HUB1.
+
+MA01, MB02, MC02, and MD01 each contain a different hidden action that unlocks MS01, MS02, MS03, and MS04 respectively. Once its condition is satisfied on a successful run, the Special Mission remains unlocked for that campaign even if the player chooses another exit, later dies, or postpones returning to HUB1. Returning registers it in the Hub Mission pool. A new campaign resets these unlocks.
+
+Special Missions unlock cross-biome M02 shortcuts: MS01 → MC02, MS02 → MA02, MS03 → MD02, and MS04 → MB02. The destination M01 may be bypassed for progression but remains available and replayable.
+
+Player-facing extraction and Hub lists distinguish discovered Special Missions through indentation and a consistent special color, labeled only as a **shortcut** or **optional path** followed by the destination biome. They do not reveal the exact downstream Mission or reward. Do not call them secret, connect them visually as a set, or hint that any contributes to an ending. `MS01`–`MS04` are documentation IDs, not player-facing route classifications.
 
 > **Accepted** — Completing the fourth Act II Guardian returns the player to HUB1 with M06 available; it does not automatically advance the campaign. The player may continue replaying Act II Missions. Launching M06 requires explicit confirmation that entering HUB2 and B07 permanently closes B03–B06 and their undiscovered rewards for the current campaign.
 
@@ -120,7 +155,7 @@ The report does not announce a true ending or explain how the missing discoverie
 | Acquired equipment and campaign resources | Previous ending reports and performance statistics |
 | Biome Memory Imprints and hidden-route eligibility | Completed-ending record |
 
-The global archive helps the player compare evidence across completions but never satisfies an in-campaign requirement. Each attempt at the extended route must recover its required Specializations and biome Memory Imprints within that campaign. Additional completions expose alternative Character perspectives, routes, discoveries, and interpretations without producing one objectively complete explanation of the crew's origin.
+HUB1's evidence archive separates **Current operation** evidence from visibly archival **Prior records**. Both allow individual review, but neither exposes route counters or eligibility before a non-true ending report. The global archive helps the player compare evidence across completions but never satisfies an in-campaign requirement. Each attempt at the extended route must recover its required Specializations and biome Memory Imprints within that campaign. Additional completions expose alternative Character perspectives, routes, discoveries, and interpretations without producing one objectively complete explanation of the crew's origin.
 
 ### Repeat-campaign presentation
 

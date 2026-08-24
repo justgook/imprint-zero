@@ -46,6 +46,7 @@ _Avoid in institutional UI_: Coffin
 - A **Specialization** owns one **Overdrive**.
 - Every **Memory Imprint** pairs narrative evidence with progression.
 - A **Character** has three Specialization-specific **Recovery Capsule** variants, of which only unlocked variants can be selected.
+- **HUB0** and **HUB1** are campaign states of the same physical **Hub**; **HUB2** is a distinct final-assault location.
 - A **Hub** contains four Character-assigned docking stations with one selected **Recovery Capsule** variant docked per available **Character**.
 - After HUB0, Mission death returns the deployed **Character** in the **Coffin** belonging to their selected **Specialization**, without resource loss.
 
