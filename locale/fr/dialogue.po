@@ -79,3 +79,24 @@ msgstr "L’exposition neurologique peut produire une fausse reconnaissance et u
 #: missions/m01.md:R06
 msgid "dialogue.m01.com04.l002"
 msgstr "Sécurisez le survivant et continuez votre transit."
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M06 arrival; OPERATOR's final direct address before becoming unreachable.
+#: missions/m06.md
+msgid "dialogue.m06.com01.l001"
+msgstr "dialogue.m06.com01.l001"
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M09 Imprint Zero activation; machine-directed command, not an address to the crew.
+#: missions/m09.md
+msgid "dialogue.m09.com01.l001"
+msgstr "dialogue.m09.com01.l001"
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M09 premature Imprint One activation; machine-directed command, not an address to the crew.
+#: missions/m09.md
+msgid "dialogue.m09.com02.l001"
+msgstr "dialogue.m09.com02.l001"

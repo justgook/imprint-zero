@@ -79,3 +79,24 @@ msgstr "Neurological exposure can produce false recognition and identity project
 #: missions/m01.md:R06
 msgid "dialogue.m01.com04.l002"
 msgstr "Secure the survivor and continue to transit."
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M06 arrival; OPERATOR's final direct address before becoming unreachable.
+#: missions/m06.md
+msgid "dialogue.m06.com01.l001"
+msgstr "Welcome home."
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M09 Imprint Zero activation; machine-directed command, not an address to the crew.
+#: missions/m09.md
+msgid "dialogue.m09.com01.l001"
+msgstr "Authorization: BASTION–AZIMUTH–BREACH–ECHO. Imprint Zero, activate. Target: malfunctioning assets. Eliminate."
+
+#. Speaker: OPERATOR
+#. Delivery: Facility channel
+#. Intent: M09 premature Imprint One activation; machine-directed command, not an address to the crew.
+#: missions/m09.md
+msgid "dialogue.m09.com02.l001"
+msgstr "Emergency authorization: BASTION–AZIMUTH–BREACH–ECHO. Suspend integration safeguards. Imprint One, activate. Target: malfunctioning assets. Eliminate."
