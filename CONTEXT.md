@@ -42,6 +42,9 @@ The institutional designation for the familiar voice that coordinates the crew's
 **Cradle Security System**:
 The facility controller encountered while OPERATOR is absent during the Empty Barracks and Cradle operation.
 
+**Mnemonic Voiceprint**:
+A spoken authentication signature completed by the three Specialization profiles belonging to one Character.
+
 **Biome Memory Imprint**:
 A hidden Act II Memory Imprint that provides Character-specific perspective and contributes to extended-route eligibility without direct combat power.
 
@@ -64,6 +67,10 @@ _Avoid in institutional UI_: Coffin
 - A **Character** owns exactly three **Specializations** and one optional-route verb.
 - A **Specialization** owns one **Overdrive**.
 - Every **Memory Imprint** pairs narrative evidence with progression.
+- The four Act II **Biome Memory Imprints** collectively identify the crew voice mappings and order for **BASTION–AZIMUTH–BREACH–ECHO**.
+- All twelve **Specializations** complete the four **Mnemonic Voiceprints** required to enable the Empty Barracks authentication interface.
+- ROOK, VECTOR, RAM, and RELAY respectively speak **Bastion**, **Azimuth**, **Breach**, and **Echo** in the accepted voiceprint sequence.
+- The four complete **Mnemonic Voiceprints** can impersonate **Imprint Zero** to authenticate its legacy Empty Barracks emergency egress without proving identity continuity.
 - The **Empty Barracks** routes returned crews into utilization by the **Cradle**.
 - The **Cradle** uses **Imprint Zero** as reference templates without establishing that those templates are the original people.
 - The **Cradle** updates **Imprint One** from returned crews' operational records as a proposed replacement for the four-Character structure.
