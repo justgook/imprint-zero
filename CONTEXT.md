@@ -42,11 +42,44 @@ The institutional designation for the familiar voice that coordinates the crew's
 **Cradle Security System**:
 The facility controller encountered while OPERATOR is absent during the Empty Barracks and Cradle operation.
 
+**Experiment Network**:
+The wider infrastructure and authority connecting successive urban experiments without establishing that OPERATOR owns or controls it.
+
+**CIVITAS designation**:
+The experiment network's civic-experiment serial: CIVITAS-00 designates Republic of Dust, CIVITAS-01 the current successor city, and CIVITAS-02 the next named experiment.
+
+**Republic of Dust**:
+The resident-given name for the manually rebuilt predecessor experiment city designated CIVITAS-00 by the experiment network.
+
+**Velvet Exchange**:
+The B10 pleasure city whose genuine bodily services conceal body-replacement research and institutional ownership.
+
+**Cathedral of Deliverance**:
+The B11 religious city promising relief and transcendence while concealing memory and personality harvesting.
+
+**Old Man**:
+The experiment network's last registered predecessor-city civilian, sustained through repaired biology, replacement parts, and partial memory restoration without provable continuity.
+
+**Ashfall Spire**:
+The B12 landmark above B01's Ashfall District whose hidden control levels host the shared Act IV final sequence.
+
+**Quiet Terminus**:
+The offline Republic of Dust rail terminus used as HUB3, the crew's Act IV staging Hub.
+
+**Controller**:
+The proven local orchestration authority for the current urban experiment whose physical defence or avatar does not establish its complete embodiment or identity.
+
 **Mnemonic Voiceprint**:
 A spoken authentication signature completed by the three Specialization profiles belonging to one Character.
 
 **Biome Memory Imprint**:
 A hidden Act II Memory Imprint that provides Character-specific perspective and contributes to extended-route eligibility without direct combat power.
+
+**HA Investigation**:
+The mutually exclusive Act IV Mind route through the **Cathedral of Deliverance** and its concealed memory-and-personality harvesting system.
+
+**HB Investigation**:
+The mutually exclusive Act IV Body and Control route from B09 into **Velvet Exchange** and its concealed body-replacement research system.
 
 **Mission**:
 An objective-driven deployment selected from a Hub.
@@ -75,9 +108,18 @@ _Avoid in institutional UI_: Coffin
 - The **Cradle** uses **Imprint Zero** as reference templates without establishing that those templates are the original people.
 - The **Cradle** updates **Imprint One** from returned crews' operational records as a proposed replacement for the four-Character structure.
 - The **Cradle Security System** operates B07 and most of B08 while **OPERATOR** is unreachable.
+- The current city is a revised successor to the adjacent predecessor experiment city now called the **Republic of Dust**.
+- The **Old Man** is a fallible witness who provides the HA and HB leads without authoritatively explaining the **Experiment Network** or **OPERATOR**.
+- **Republic of Dust** residents conceal activity from the **Experiment Network**, without establishing that **OPERATOR** controls that network.
 - **OPERATOR**-associated credentials can authorize Imprint Zero and Imprint One without proving who authored or relayed the commands.
+- One campaign completes either the three-Mission **HA Investigation** or the three-Mission **HB Investigation**, never both, before either route enters the shared B12 sequence.
+- B10 and B11 present themselves as independent attraction cities while sharing hidden infrastructure, authorization, data formats, and supply routes within the **Experiment Network**.
+- Both Act IV investigations return through B01 and enter **Ashfall Spire** for the shared final sequence.
+- **Controller** coordinates the current successor-city experiment, B10, and B11 through infrastructure carrying **OPERATOR**-authenticated traffic without resolving whether OPERATOR and Controller are the same entity.
+- Defeating **Controller** disconnects the current city from the **Experiment Network** without proving whether the network ended elsewhere or the experienced ending was the final experiment iteration.
 - A **Character** has three Specialization-specific **Recovery Capsule** variants, of which only unlocked variants can be selected.
-- **HUB0** and **HUB1** are campaign states of the same physical **Hub**; **HUB2** is a captured transfer nexus used as the distinct Act III staging **Hub**.
+- **HUB0** and **HUB1** are campaign states of the same physical **Hub**; **HUB2** is a captured transfer nexus used as the distinct Act III staging **Hub**; **HUB3** is **Quiet Terminus**, an offline Republic of Dust rail terminus adapted by residents.
+- Entering the Empty Barracks exterior route activates a legacy rail that relocates all four **Recovery Capsules** from HUB2 to **Quiet Terminus**.
 - A **Hub** contains four Character-assigned docking stations with one selected **Recovery Capsule** variant docked per available **Character**.
 - After HUB0, Mission death returns the deployed **Character** in the **Coffin** belonging to their selected **Specialization**, without resource loss.
 

@@ -185,73 +185,67 @@ graph TD
 
 
     %% =====================================================
-    %% SECRET ENDGAME ROUTE
-    %% Branches from M07 and leads to a separate ending
+    %% EXTENDED ROUTE
+    %% M07 exterior exit leads to one mutually exclusive investigation
     %% =====================================================
+    HUB3["HUB3<br/>Quiet Terminus"]
     HS01["HS01<br/>The Last Civilian"]
-    SECRET_SPLIT{"Choose an investigation"}
+    SECRET_SPLIT{"Choose shielded transport"}
 
-    M07 -.->|All Specializations + B03–B06 biome Memory Imprints| HS01
+    M07 -.->|All Specializations + B03–B06 biome Memory Imprints<br/>correct voiceprint sequence| HUB3
+    HUB3 --> HS01
 
     subgraph B09["B09 — Republic of Dust"]
-      HS01 -->|Two evidence trails uncovered| SECRET_SPLIT
+      HS01 -->|Two physical leads| SECRET_SPLIT
     end
 
 
-
-
     %% =====================================================
-    %% SECRET BRANCH A
+    %% HA — MIND
     %% =====================================================
 
-    SECRET_SPLIT -->|Trace the source memories| HA01
+    SECRET_SPLIT -->|Pilgrimage credential| HA01
 
-    subgraph B10["B10 — Genesis Vault"]
-      HA01["HA01<br/>Donor Class"]
-      HA02["HA02<br/>Composite Trials"]
-      HA03["HA03<br/>The First Zero"]
+    subgraph B11["B11 — Cathedral of Deliverance"]
+      HA01["HA01<br/>An Offering of Self"]
+      HA02["HA02<br/>The Lives We Share"]
+      HA03["HA03<br/>Refinery of Souls"]
     end
 
     HA01 --> HA02
     HA02 --> HA03
-    HA03 -->|Take control of the crew's Imprints| SECRET_JOIN
+    HA03 -->|Mnemonic tower authorization| SECRET_JOIN
 
 
     %% =====================================================
-    %% SECRET BRANCH B
+    %% HB — BODY AND CONTROL
     %% =====================================================
 
-    SECRET_SPLIT -->|Pursue OPERATOR's command network| HB01
+    SECRET_SPLIT -->|Service contract| HB01
 
-    subgraph B09
-      HB01["HB01<br/>Martial Law"]
-    end
-    subgraph B11["B11 — Cathedral of Command"]
-      HB02["HB02<br/>Chain of Command"]
-      HB03["HB03<br/>Perfect Soldier"]
-      HB04["HB04<br/>Final Directive"]
+    subgraph B10["B10 — Velvet Exchange"]
+      HB01["HB01<br/>Terms of Service"]
+      HB02["HB02<br/>Perfect Fit"]
+      HB03["HB03<br/>All Sales Final"]
     end
 
-    HB01 -->|Follow the military network| HB02
+    HB01 --> HB02
     HB02 --> HB03
-    HB03 --> HB04
-    HB04 -->|Seize OPERATOR's infrastructure| SECRET_JOIN
+    HB03 -->|Service-root tower authorization| SECRET_JOIN
 
 
     %% =====================================================
-    %% SECRET BRANCHES REJOIN
+    %% SHARED ASHFALL TOWER SEQUENCE
     %% =====================================================
 
-    subgraph B12["B12 — White Horizon"]
-      SECRET_JOIN["HS02<br/>Outside Context"]
+    subgraph B12["B12 — Ashfall Spire"]
+      SECRET_JOIN["HS02<br/>Deployment Confirmed"]
       SECRET_BOSS["HS03<br/>No Original"]
     end
-    TRUE_ENDING([True Ending<br/>Imprint Zero])
+    TRUE_ENDING([Extended Ending<br/>Local network severed])
 
-    SECRET_JOIN -->|Reach the planetary archive| SECRET_BOSS
-
-
-    SECRET_BOSS -->|Reject OPERATOR's definition of personhood| TRUE_ENDING
+    SECRET_JOIN -->|Ascend hidden control levels| SECRET_BOSS
+    SECRET_BOSS -->|Disconnect current city| TRUE_ENDING
 
 
     %% =====================================================
@@ -295,7 +289,6 @@ graph TD
     click HB01 href "#/missions/hb01"
     click HB02 href "#/missions/hb02"
     click HB03 href "#/missions/hb03"
-    click HB04 href "#/missions/hb04"
 
     click HUB0.1 href "#/missions/hub0"
     click HUB0.2 href "#/missions/hub0"
@@ -304,6 +297,7 @@ graph TD
     click HUB1 href "#/missions/hub1"
     click READY href "#/missions/hub1"
     click HUB2 href "#/missions/hub2"
+    click HUB3 href "#/missions/hub3"
 
 
     %% =====================================================
@@ -335,13 +329,13 @@ graph TD
 
     class M01,M02,M03,M04,M05 intro;
 
-    class HUB1,READY,HUB0.1,HUB0.2,HUB0.3,HUB0.4,HUB2,CHECK,CHECK_SE01 hub;
+    class HUB1,READY,HUB0.1,HUB0.2,HUB0.3,HUB0.4,HUB2,HUB3,CHECK,CHECK_SE01 hub;
 
     class MA01,MA02,MB01,MB02,MC01,MC02,MD01,MD02 biome;
 
     class MA03,MB03,MC03,MD03,M09,SECRET_BOSS boss;
 
-    class MS01,MS02,MS03,MS04,SE01,HS01,HA01,HA02,HA03,HB01,HB02,HB03,HB04,SECRET_JOIN secret;
+    class MS01,MS02,MS03,MS04,SE01,HS01,HA01,HA02,HA03,HB01,HB02,HB03,SECRET_JOIN secret;
 
     class M06,M07,M08 final;
 
@@ -413,17 +407,17 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/MD03|MD03 — Patent of Life]] | B06 | B06 Guardian | TODO |
 | [[Missions/SE01|SE01 — Become Many]] | B99 | Early Communion ending | TODO |
 | [[Missions/HUB2|HUB2 — Guardian Nexus]] | — | Irreversible Act III staging | In progress |
+| [[Missions/HUB3|HUB3 — Quiet Terminus]] | B09 | Offline Act IV staging | In progress |
 | [[Missions/M06|M06 — Welcome Home]] | B07 | Standard endgame opening | TODO |
 | [[Missions/M07|M07 — Recall Exercise]] | B07 | Standard path; hidden-route access | TODO |
 | [[Missions/M08|M08 — Umbilical]] | B08 | Standard finale approach | TODO |
 | [[Missions/M09|M09 — Imprint Zero]] | B08 | Standard ending | TODO |
-| [[Missions/HS01|HS01 — The Last Civilian]] | B09 | Extended-route entry | TODO |
-| [[Missions/HA01|HA01 — Donor Class]] | B10 | Memory-origin investigation | TODO |
-| [[Missions/HA02|HA02 — Composite Trials]] | B10 | Memory-origin investigation | TODO |
-| [[Missions/HA03|HA03 — The First Zero]] | B10 | Memory-origin investigation conclusion | TODO |
-| [[Missions/HB01|HB01 — Martial Law]] | B09 | Command-system investigation entry | TODO |
-| [[Missions/HB02|HB02 — Chain of Command]] | B11 | Command-system investigation | TODO |
-| [[Missions/HB03|HB03 — Perfect Soldier]] | B11 | Command-system investigation | TODO |
-| [[Missions/HB04|HB04 — Final Directive]] | B11 | Command-system investigation conclusion | TODO |
-| [[Missions/HS02|HS02 — Outside Context]] | B12 | Extended-route convergence | TODO |
-| [[Missions/HS03|HS03 — No Original]] | B12 | True final sequence | TODO |
+| [[Missions/HS01|HS01 — The Last Civilian]] | B09 | Extended-route entry and mutually exclusive transport choice | TODO |
+| [[Missions/HA01|HA01 — An Offering of Self]] | B11 | Mind investigation entry | TODO |
+| [[Missions/HA02|HA02 — The Lives We Share]] | B11 | Mind investigation continuation | TODO |
+| [[Missions/HA03|HA03 — Refinery of Souls]] | B11 | Identity refinery and mnemonic tower authorization | TODO |
+| [[Missions/HB01|HB01 — Terms of Service]] | B10 | Body and Control investigation entry | TODO |
+| [[Missions/HB02|HB02 — Perfect Fit]] | B10 | Modular-body research investigation | TODO |
+| [[Missions/HB03|HB03 — All Sales Final]] | B10 | Ownership registry and service-root tower authorization | TODO |
+| [[Missions/HS02|HS02 — Deployment Confirmed]] | B12/B01 | Return to Ashfall and enter hidden control levels | TODO |
+| [[Missions/HS03|HS03 — No Original]] | B12/B01 | Controller confrontation and extended ending | TODO |

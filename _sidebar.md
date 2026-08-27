@@ -45,18 +45,18 @@
   - [[Missions/M08|M08 — Umbilical]]
   - [[Missions/M09|M09 — Imprint Zero]]
   - **[[Missions/A04|Act IV — No Original]]**
+  - [[Missions/HUB3|HUB3 — Quiet Terminus]]
   - *[[Missions/HS01|HS01 — The Last Civilian]]*
   - **HA Route — Mind**
-  - *[[Missions/HA01|HA01 — Donor Class]]*
-  - *[[Missions/HA02|HA02 — Composite Trials]]*
-  - *[[Missions/HA03|HA03 — The First Zero]]*
+  - *[[Missions/HA01|HA01 — An Offering of Self]]*
+  - *[[Missions/HA02|HA02 — The Lives We Share]]*
+  - *[[Missions/HA03|HA03 — Refinery of Souls]]*
   - **HB Route — Body and Control**
-  - *[[Missions/HB01|HB01 — Martial Law]]*
-  - *[[Missions/HB02|HB02 — Chain of Command]]*
-  - *[[Missions/HB03|HB03 — Perfect Soldier]]*
-  - *[[Missions/HB04|HB04 — Final Directive]]*
-  - **B12 — Existence**
-  - *[[Missions/HS02|HS02 — Outside Context]]*
+  - *[[Missions/HB01|HB01 — Terms of Service]]*
+  - *[[Missions/HB02|HB02 — Perfect Fit]]*
+  - *[[Missions/HB03|HB03 — All Sales Final]]*
+  - **B12 — Ashfall Spire**
+  - *[[Missions/HS02|HS02 — Deployment Confirmed]]*
   - *[[Missions/HS03|HS03 — No Original]]*
 - [[Biomes/Overview|Biomes]]
   - **Act I — Crew Assembly**
@@ -72,9 +72,9 @@
   - [[Biomes/B08|B08 — The Cradle]]
   - **Act IV — No Original**
   - [[Biomes/B09|B09 — Republic of Dust]]
-  - [[Biomes/B10|B10 — Genesis Vault]]
-  - [[Biomes/B11|B11 — Cathedral of Command]]
-  - [[Biomes/B12|B12 — White Horizon]]
+  - [[Biomes/B10|B10 — Velvet Exchange]]
+  - [[Biomes/B11|B11 — Cathedral of Deliverance]]
+  - [[Biomes/B12|B12 — Ashfall Spire]]
   - **Secret Ending — Communion**
   - *[[Biomes/B99|B99 — The Living Archive]]*
 

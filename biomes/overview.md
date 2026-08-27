@@ -17,9 +17,9 @@ Each biome advances a dominant mystery question. Its Missions may provide confli
 | [[Biomes/B06|B06]] | [[Missions/MD01|MD01]], [[Missions/MS04|MS04]], [[Missions/MD02|MD02]], [[Missions/MD03|MD03]] | Who claimed ownership of the project and its people? |
 | [[Biomes/B07|B07]] | [[Missions/M06|M06]], [[Missions/M07|M07]] | Was the crew's supposed organization ever real? |
 | [[Biomes/B08|B08]] | [[Missions/M08|M08]], [[Missions/M09|M09]] | What is Imprint Zero? |
-| [[Biomes/B09|B09]] | [[Missions/HS01|HS01]], [[Missions/HB01|HB01]] | Whom—or what—does OPERATOR serve? |
-| [[Biomes/B10|B10]] | [[Missions/HA01|HA01]], [[Missions/HA02|HA02]], [[Missions/HA03|HA03]] | Is there an original version of any crew member? |
-| [[Biomes/B11|B11]] | [[Missions/HB02|HB02]], [[Missions/HB03|HB03]], [[Missions/HB04|HB04]] | Who keeps creating the crew, and why? |
-| [[Biomes/B12|B12]] | [[Missions/HS02|HS02]], [[Missions/HS03|HS03]] | Does an uncertain or artificial origin diminish personhood? |
+| [[Biomes/B09|B09]] | [[Missions/HS01|HS01]] | Is the current city progress, or only the next version of an abandoned experiment? |
+| [[Biomes/B10|B10]] | [[Missions/HB01|HB01]], [[Missions/HB02|HB02]], [[Missions/HB03|HB03]] | When does chosen bodily transformation become institutional ownership? |
+| [[Biomes/B11|B11]] | [[Missions/HA01|HA01]], [[Missions/HA02|HA02]], [[Missions/HA03|HA03]] | When does chosen transformation become authority over which self is acceptable? |
+| [[Biomes/B12|B12]] | [[Missions/HS02|HS02]], [[Missions/HS03|HS03]] | Who controls the experiment, and does ending local control end the wider system? |
 | [[Biomes/B99|B99]] | [[Missions/SE01|SE01]] | Can several lives continue as one without being erased? |
 

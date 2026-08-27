@@ -34,6 +34,8 @@ msgid "dialogue.m01.com01.l001"
 msgstr "ROOK, deployment confirmed."
 ```
 
+When one Mission intentionally repeats dialogue from another, create new Mission-specific IDs and initially duplicate the player-facing text. Translator comments must identify the source line and state whether the repetition must remain exact. Do not reuse another Mission's ID: delivery, timing, responses, and later revisions may diverge independently.
+
 Runtime substitutions use printf-style placeholders: `%s` for text and `%d` for integers. Entries containing placeholders carry the project-specific `game-format` flag, and every translation must preserve the English placeholder types:
 
 ```po
