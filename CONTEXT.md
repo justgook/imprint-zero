@@ -8,6 +8,12 @@ Canonical language for the game's crew, progression, and campaign structure.
 A persistent crew member with an innate combat identity and Character-owned optional-route verb.
 _Avoid_: Hero, class
 
+**NPC**:
+A non-playable campaign actor whose authored identity or agency extends beyond a tactical boss Encounter.
+
+**Boss**:
+An entity whose primary authored role is a boss Encounter; speaking or making narrative claims does not also make it an NPC.
+
 **Specialization**:
 One of three full-Mission play styles belonging to a Character.
 _Avoid_: Subclass, loadout
@@ -75,6 +81,12 @@ A spoken authentication signature completed by the three Specialization profiles
 **Biome Memory Imprint**:
 A hidden Act II Memory Imprint that provides Character-specific perspective and contributes to extended-route eligibility without direct combat power.
 
+**Continuum**:
+A collective mind created by Heartroot that preserves distinguishable joined identities without one permanent controlling voice.
+
+**Heartroot**:
+The founding organism that created the Continuum, merged into it, and persists as one voice and local interface rather than its ruler.
+
 **HA Investigation**:
 The mutually exclusive Act IV Mind route through the **Cathedral of Deliverance** and its concealed memory-and-personality harvesting system.
 
@@ -98,6 +110,7 @@ _Avoid in institutional UI_: Coffin
 ## Relationships
 
 - A **Character** owns exactly three **Specializations** and one optional-route verb.
+- Speaking **Bosses** remain Bosses when their authored role is primarily the Encounter; dual **NPC** and Boss classification is reserved for entities with substantial independent campaign agency beyond the fight.
 - A **Specialization** owns one **Overdrive**.
 - Every **Memory Imprint** pairs narrative evidence with progression.
 - The four Act II **Biome Memory Imprints** collectively identify the crew voice mappings and order for **BASTION–AZIMUTH–BREACH–ECHO**.
@@ -111,6 +124,7 @@ _Avoid in institutional UI_: Coffin
 - The current city is a revised successor to the adjacent predecessor experiment city now called the **Republic of Dust**.
 - The **Old Man** is a fallible witness who provides the HA and HB leads without authoritatively explaining the **Experiment Network** or **OPERATOR**.
 - **Republic of Dust** residents conceal activity from the **Experiment Network**, without establishing that **OPERATOR** controls that network.
+- **Heartroot** created the **Continuum** and became one founding voice within it; Heartroot is neither an independent actor nor the collective's ruler.
 - **OPERATOR**-associated credentials can authorize Imprint Zero and Imprint One without proving who authored or relayed the commands.
 - One campaign completes either the three-Mission **HA Investigation** or the three-Mission **HB Investigation**, never both, before either route enters the shared B12 sequence.
 - B10 and B11 present themselves as independent attraction cities while sharing hidden infrastructure, authorization, data formats, and supply routes within the **Experiment Network**.

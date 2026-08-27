@@ -37,4 +37,4 @@ Every accepted enemy receives one page containing:
 
 ## NPC boundary
 
-Narrative entities that communicate or act without serving as tactical opponents belong in the [[NPCs/Overview|NPC Catalogue]]. OPERATOR is the first accepted NPC; enemy pages remain focused on Encounter decisions.
+Speaking or making narrative claims does not make a tactical opponent an NPC. [[Bosses/Overview|Boss pages]] own entities whose primary authored role is a boss Encounter; [[NPCs/Overview|NPC pages]] own actors with substantial campaign identity or agency beyond a fight. Dual classification is exceptional and requires both responsibilities.
