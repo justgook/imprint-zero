@@ -161,8 +161,6 @@ The concealed door is a legacy emergency egress reserved for the four Imprint Ze
 
 Before eligibility, the terminal is inert background machinery without an interaction prompt. After the Instructor falls, an eligible crew causes four dormant waveform channels to illuminate; each Character hears a faint version of their own voice speaking the mapped word, and the Biome Memory Imprints briefly resonate in the evidence interface without displaying a counter or unlock message. Approaching the active terminal reveals the interaction prompt. Ineligible players see only the normal underground route and receive no indication that content was missed.
 
-> **TODO — Exterior route:** Define the destination and immediate consequence of entering the revealed Empty Barracks exterior door. The accepted authentication, retry, and physical commitment rules remain stable while the downstream split is unresolved.
-
 Biome Memory Imprints appear to be optional lore and are not tracked as a set during play. A non-true completion report first reveals the four-Imprint and twelve-Specialization totals without announcing the extended route. One unusually thorough campaign can reach it; cross-run progression is not required.
 
 New campaigns reset gameplay progression and route eligibility while preserving viewed evidence and completion reports in a global archive. Archived evidence never satisfies in-campaign eligibility. Additional completions expose different Character perspectives, but no route provides a complete objective account of the crew's origin.

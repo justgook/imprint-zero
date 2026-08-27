@@ -388,7 +388,7 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/M03|M03 — No Survivors Logged]] | B01 | Controlled introduction: RAM arrival | TODO |
 | [[Missions/M04|M04 — Production Halt]] | B02 | Special introduction: RAM and RELAY | TODO |
 | [[Missions/M05|M05 — The Four Trials]] | B02 | Full-crew exception; Overdrive reveal | TODO |
-| [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | In progress |
+| [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | Accepted |
 | [[Missions/MA01|MA01 — Ghost Archive]] | B03 | Act II opening Mission | TODO |
 | [[Missions/MA02|MA02 — Familiar Strangers]] | B03 | Act II continuation | TODO |
 | [[Missions/MA03|MA03 — The Choir of Selves]] | B03 | B03 Guardian | TODO |
@@ -407,11 +407,11 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/MD03|MD03 — Patent of Life]] | B06 | B06 Guardian | TODO |
 | [[Missions/SE01|SE01 — Become Many]] | B99 | Early Communion ending | TODO |
 | [[Missions/HUB2|HUB2 — Guardian Nexus]] | — | Irreversible Act III staging | In progress |
-| [[Missions/HUB3|HUB3 — Quiet Terminus]] | B09 | Offline Act IV staging | In progress |
 | [[Missions/M06|M06 — Welcome Home]] | B07 | Standard endgame opening | TODO |
 | [[Missions/M07|M07 — Recall Exercise]] | B07 | Standard path; hidden-route access | TODO |
 | [[Missions/M08|M08 — Umbilical]] | B08 | Standard finale approach | TODO |
 | [[Missions/M09|M09 — Imprint Zero]] | B08 | Standard ending | TODO |
+| [[Missions/HUB3|HUB3 — Quiet Terminus]] | B09 | Offline Act IV staging | In progress |
 | [[Missions/HS01|HS01 — The Last Civilian]] | B09 | Extended-route entry and mutually exclusive transport choice | TODO |
 | [[Missions/HA01|HA01 — An Offering of Self]] | B11 | Mind investigation entry | TODO |
 | [[Missions/HA02|HA02 — The Lives We Share]] | B11 | Mind investigation continuation | TODO |
