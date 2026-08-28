@@ -81,23 +81,6 @@
 ## Game content
 
 - [[Characters/Overview|Playable crew]]
-  - **ROOK**
-  - [[Characters/C11|TACTICAL ROOK]]
-  - [[Characters/C12|HEAVY ROOK]]
-  - [[Characters/C13|ASSAULT ROOK]]
-  - **VECTOR**
-  - [[Characters/C21|SCOUT VECTOR]]
-  - [[Characters/C22|PHASE VECTOR]]
-  - [[Characters/C23|HUNTER VECTOR]]
-  - **RAM**
-  - [[Characters/C31|BREACHER RAM]]
-  - [[Characters/C32|SIEGE RAM]]
-  - [[Characters/C33|IMPACT RAM]]
-  - **RELAY**
-  - [[Characters/C41|WIRE RELAY]]
-  - [[Characters/C42|NETWORK RELAY]]
-  - [[Characters/C43|NULL RELAY]]
-  - **REFERENCES**
   - [[Characters/Rook|ROOK]]
   - [[Characters/Vector|VECTOR]]
   - [[Characters/Ram|RAM]]
@@ -180,6 +163,7 @@
   - [[Gameplay/Core Loop|Core loop]]
   - [[Gameplay/Representative Encounter|Representative encounter]]
   - [[Gameplay/Mechanics|Mechanics]]
+  - [[Gameplay/Gameplay Math|Gameplay math]]
   - [[Gameplay/Progression|Progression]]
   - [[Gameplay/Overdrive|Specializations and Overdrive]]
 

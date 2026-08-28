@@ -1,4 +1,6 @@
 ---
+id: EQ001
+type: weapon
 title: Baseline Rifle
 summary: Unlimited-ammunition control weapon for validating movement, aiming, firing, and enemy readability.
 eyebrow: Weapon
@@ -7,9 +9,9 @@ status: accepted
 
 ## Role
 
-> **Accepted** — The Baseline Rifle is ROOK's starting control weapon. It tests aiming, positioning, and movement without introducing ammunition or reload management.
+> **Accepted** — The Baseline Rifle is an unlimited-ammunition control weapon for testing aiming, positioning, and movement without introducing ammunition or reload management.
 
-It is not necessarily the character's permanent or exclusive weapon.
+[[Characters/Rook#c11|Tactical ROOK]] owns initial-loadout and compatibility references; this page owns the rifle's intrinsic behavior and acquisition.
 
 ## Input
 

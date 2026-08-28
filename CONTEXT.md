@@ -1,6 +1,6 @@
 # Imprint Zero Domain Language
 
-Canonical language for the game's crew, progression, and campaign structure.
+Canonical language for the game's crew, progression, and campaign structure. Wiki ownership and presentation rules belong to the [[Content Style Guide|content style guide]] and are linked rather than duplicated here.
 
 ## Language
 
@@ -18,6 +18,24 @@ An entity whose primary authored role is a boss Encounter; speaking or making na
 One of three full-Mission play styles belonging to a Character.
 _Avoid_: Subclass, loadout
 
+**Specialization ID**:
+A stable production identifier from `C11` through `C43`. The first digit identifies the owning Character and the second identifies that Character's Specialization slot; display names may change without changing the ID.
+
+**Stat Tier**:
+A canonical `1–5` Specialization input mapped into runtime values by shared gameplay equations; `0` means a capability is genuinely absent, while unresolved tiers remain unknown rather than receiving an estimated number.
+
+**Integrity**:
+The Stat Tier mapped into a Specialization's runtime damage capacity before failure.
+
+**Defense**:
+The Stat Tier mapped into deterministic passive damage mitigation and stagger resistance after a hit lands; active avoidance and blocking remain moves or skills.
+
+**Mobility**:
+The Stat Tier mapped into a Specialization's runtime movement values, including movement speed; individual move availability remains separate.
+
+**Combat Slide**:
+ROOK's ground-only, low-profile signature verb. Every ROOK Specialization preserves its traversal function while varying speed, distance, recovery, protection, and weapon access.
+
 **Overdrive**:
 The temporary transformation unique to the selected Specialization.
 _Avoid_: Ultimate, generic power-up
@@ -28,6 +46,12 @@ _Avoid_: Passive lore collectible
 
 **Equipment Imprint**:
 A Memory Imprint that reveals access to an equipment source, blueprint, shop item, or crafting path without directly granting the equipment.
+
+**Equipment**:
+A crew-stash-owned weapon, armour piece, or other equippable item with a stable ID and one canonical item page.
+
+**Weapon Family**:
+A Specialization compatibility boundary containing multiple individual weapons that preserve its primary combat identity.
 
 **Imprint Zero**:
 The Cradle's designation for four altered biological and mnemonic reference templates whose ultimate provenance remains unknown.
@@ -110,6 +134,8 @@ _Avoid in institutional UI_: Coffin
 ## Relationships
 
 - A **Character** owns exactly three **Specializations** and one optional-route verb.
+- A **Specialization** owns its **Integrity**, **Defense**, and **Mobility** Stat Tiers and references default and compatible **Equipment** by stable ID.
+- Characters, Specializations, Equipment, enemies, and Bosses supply combat inputs and explicit exceptions; [[Gameplay/Gameplay Math|Gameplay Math]] owns their shared equations.
 - Speaking **Bosses** remain Bosses when their authored role is primarily the Encounter; dual **NPC** and Boss classification is reserved for entities with substantial independent campaign agency beyond the fight.
 - A **Specialization** owns one **Overdrive**.
 - Every **Memory Imprint** pairs narrative evidence with progression.

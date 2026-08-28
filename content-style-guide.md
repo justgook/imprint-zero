@@ -13,6 +13,24 @@ This guide defines how content makers should present information in the wiki. It
 
 Every newly authored or updated page must be checked against this guide before it is accepted. Existing pages are brought into alignment as they are reviewed in sidebar order. If a page needs an exception, record the proposed exception and obtain explicit approval rather than silently departing from the guide.
 
+## Canonical ownership before presentation
+
+> **Accepted** — Every fact, rule, value, formula, asset requirement, or narrative claim has one canonical owner. Other pages link to that owner instead of copying its content.
+
+This is the first principle of wiki development. Before presenting information, identify the page responsible for maintaining it.
+
+A consuming page may record only what it uniquely owns: its local application, consequence, compatibility, exception, or status. It must not reproduce the canonical explanation, values, table, formula, dialogue, or evidence merely for convenience.
+
+Use stable IDs and direct heading links where possible. In particular:
+
+- overview pages own cross-catalogue comparison rather than copies of every article;
+- Character, Equipment, Enemy, Boss, Mission, and narrative pages link across ownership boundaries;
+- shared equations remain on their math page while actor and item pages supply inputs;
+- narrative events remain on their owning Mission or story page while other pages link to them;
+- refactoring a fact begins by moving or confirming its canonical owner, then updating inbound links.
+
+A short link label may provide enough context to navigate, but it must not become a second version of the source material. If a page cannot remain understandable without duplicating content, reconsider the ownership boundary before making an exception.
+
 ## Format priority
 
 Use the highest suitable format in this order:

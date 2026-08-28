@@ -1,189 +1,137 @@
 ---
+id: C1
+type: character
 title: ROOK
-summary: Institution-assigned Rifle Marine and balanced starting character used to prove Imprint Zero's shared action fundamentals.
-eyebrow: Playable character
-status: reference
+status: in-progress
 ---
-
-<section class="character-card" aria-label="ROOK character profile">
-  <figure class="character-card-visuals">
-    <img class="character-card-image character-card-portrait" src="content/images/characters/rook/portrait.svg" alt="ROOK institutional portrait">
-    <img class="character-card-image character-card-sprite" src="content/images/characters/rook/sprite.svg" alt="ROOK in-game presentation">
-  </figure>
-  <div class="character-card-profile">
-    <header>
-      <p class="character-card-kicker">Institutional codename</p>
-      <strong class="character-card-name">ROOK</strong>
-      <p class="character-card-role">Rifle Marine · Reliable all-rounder</p>
-    </header>
-    <dl class="character-card-facts">
-      <div><dt>Personal identity</dt><dd>Unavailable</dd></div>
-      <div><dt>Crew availability</dt><dd>New game</dd></div>
-      <div><dt>Default Specialization</dt><dd>Tactical</dd></div>
-      <div><dt>Difficulty</dt><dd>Adaptation</dd></div>
-    </dl>
-    <div class="character-card-columns">
-      <section>
-        <strong class="character-card-section-title">Profile</strong>
-        <dl class="character-card-stats">
-          <div><dt>Integrity</dt><dd>Moderate</dd></div>
-          <div><dt>Mobility</dt><dd>Moderate</dd></div>
-          <div><dt>Range</dt><dd>Medium</dd></div>
-          <div><dt>Risk</dt><dd>Balanced</dd></div>
-        </dl>
-      </section>
-      <section>
-        <strong class="character-card-section-title">Innate skill</strong>
-        <p><strong>Combat Slide</strong><br>Low, committed ground movement beneath high threats and obstacles.</p>
-      </section>
-      <section>
-        <strong class="character-card-section-title">Equipment</strong>
-        <p><strong>Weapons:</strong> Specialization-defined firearms<br><strong>Armour:</strong> Specialization-defined<br><strong>Starting item:</strong> Baseline Rifle</p>
-      </section>
-    </div>
-  </div>
-</section>
-
-ROOK is an institution-assigned operational codename. It describes what the institution expects this crew member to do; it is not established as a chosen or personal name. The underlying person's name, appearance, biography, and origin remain unknown.
-
-## Gameplay role
-
-> **Accepted** — ROOK is an immediately understandable generalist with balanced movement, range, and survivability. ROOK is the control case against which every contrasting Character and Specialization is evaluated.
-
-The character must make the shared fundamentals satisfying without an exotic mechanic compensating for weak movement or combat. The player fantasy is a trained professional who can solve mixed combat problems without requiring specialized terrain.
-
-## Character identity
-
-ROOK owns the persistent character identity beneath all three [[Gameplay/Overdrive|Specializations]]:
-
-- responsive ground movement;
-- moderate survivability;
-- dependable medium-range engagement;
-- the Combat Slide as the innate route and evasion verb;
-- direct firearm compatibility shaped by the selected Specialization;
-- general-purpose reading of switches, weak points, and mixed Encounters.
-
-A Specialization may alter stats, skills, compatible equipment, and movement behavior, but must preserve enough of this foundation for the player to recognize ROOK.
-
-## Ground movement
-
-- One digital run speed
-- Very quick acceleration
-- Immediate or near-immediate reversal
-- No analogue walk, sprint, or stamina state
-
-## Jump
-
-- One variable-height jump
-- Moderate horizontal air control
-- Faster fall than rise
-- Short coyote-time and jump-input buffer
-- No double jump, wall jump, ledge grab, or air dash in the default Specialization
-
-Exact values require playtesting.
-
-## Innate capability: Combat Slide
-
-> **Accepted** — A fast, low, ground-only horizontal commitment that passes beneath high projectiles and low obstacles.
-
-- No invulnerability frames
-- No contact damage
-- Cannot reverse during commitment
-- Uses the common character-ability input
-
-## Aiming and firing
-
-- Eight gameplay directions
-- Primary gamepad binding uses quantized right-stick direction
-- Directional input immediately fires the equipped weapon
-- Optional grounded aim-lock plants the character and redirects fire
-- Continuous-angle aiming is rejected
-
-See [[Gameplay/Mechanics|Mechanics]] for cross-cutting input rules.
 
 ## Specializations
 
-> **In progress** — These cards define the intended identity of ROOK's three Mission-long configurations. Exact values, equipment lists, animation requirements, and Overdrive balance require playtesting.
+| ID | Display name | Primary weapon identity |
+|---|---|---|
+| `C11` | Tactical ROOK | Automatic and semi-automatic rifles |
+| `C12` | Heavy ROOK | Shotguns |
+| `C13` | Assault ROOK | Dual pistols, including automatic variants |
 
-<section class="specialization-deck" aria-label="ROOK Specializations">
-  <article class="specialization-card">
-    <div class="specialization-card-visuals">
-      <img class="character-card-image" src="content/images/characters/rook/tactical-portrait.svg" alt="ROOK Tactical Specialization portrait">
-      <img class="character-card-image character-card-sprite" src="content/images/characters/rook/tactical-sprite.svg" alt="ROOK Tactical Specialization in-game presentation">
-    </div>
-    <div class="specialization-card-body">
-      <header><p class="specialization-card-kicker">Default · available at new game</p><strong class="specialization-card-name">Tactical</strong><p class="specialization-card-fantasy">Solve mixed threats through dependable movement, controlled fire, and rapid adaptation.</p></header>
-      <dl class="specialization-card-stats"><div><dt>Integrity</dt><dd>Moderate</dd></div><div><dt>Mobility</dt><dd>Moderate</dd></div><div><dt>Range</dt><dd>Medium</dd></div><div><dt>Risk</dt><dd>Flexible</dd></div></dl>
-      <div class="specialization-card-sections">
-        <section><strong class="specialization-card-section-title">Normal kit</strong><ul><li>Controlled automatic fire with stable movement</li><li>Combat Slide with balanced commitment and recovery</li><li>Explosive secondary or under-barrel utility</li><li>Reliable switch and weak-point control</li></ul></section>
-        <section><strong class="specialization-card-section-title">Compatible equipment</strong><p><strong>Weapons:</strong> standard and advanced rifles · <strong>Armour:</strong> medium class · <strong>Utility:</strong> explosives and general-purpose modules</p></section>
-        <section class="specialization-card-overdrive"><strong class="specialization-card-section-title">Overdrive · Adaptive Protocol</strong><p>Weapon and movement recovery become immediately cancellable, tactical modes can be changed without downtime, and exposed threats are classified in real time. The transformation exaggerates versatility rather than committing ROOK to one extreme.</p></section>
-      </div>
-    </div>
-  </article>
-  <article class="specialization-card">
-    <div class="specialization-card-visuals">
-      <img class="character-card-image" src="content/images/characters/rook/heavy-portrait.svg" alt="ROOK Heavy Specialization portrait">
-      <img class="character-card-image character-card-sprite" src="content/images/characters/rook/heavy-sprite.svg" alt="ROOK Heavy Specialization in-game presentation">
-    </div>
-    <div class="specialization-card-body">
-      <header><p class="specialization-card-kicker">Unlock method unresolved</p><strong class="specialization-card-name">Heavy</strong><p class="specialization-card-fantasy">Commit to overwhelming force, then survive the position that commitment creates.</p></header>
-      <dl class="specialization-card-stats"><div><dt>Integrity</dt><dd>High</dd></div><div><dt>Mobility</dt><dd>Low</dd></div><div><dt>Range</dt><dd>Mid–long</dd></div><div><dt>Risk</dt><dd>Commitment</dd></div></dl>
-      <div class="specialization-card-sections">
-        <section><strong class="specialization-card-section-title">Normal kit</strong><ul><li>Heavy sustained or explosive weapon classes</li><li>Short armored shoulder charge replaces the normal slide behavior</li><li>Recoil affects movement and positioning</li><li>Improved stagger resistance with slower recovery</li></ul></section>
-        <section><strong class="specialization-card-section-title">Compatible equipment</strong><p><strong>Weapons:</strong> rotary guns, laser heavy weapons, cannons, and launchers · <strong>Armour:</strong> heavy class · <strong>Utility:</strong> stabilization and ammunition modules</p></section>
-        <section class="specialization-card-overdrive"><strong class="specialization-card-section-title">Overdrive · Siege Engine</strong><p>ROOK can anchor behind temporary frontal armour, sustain maximum weapon output, and use recoil as a positioning force. Reinforced optional structures become breakable, but aerial control and reactive movement collapse.</p></section>
-      </div>
-    </div>
-  </article>
-  <article class="specialization-card">
-    <div class="specialization-card-visuals">
-      <img class="character-card-image" src="content/images/characters/rook/assault-portrait.svg" alt="ROOK Assault Specialization portrait">
-      <img class="character-card-image character-card-sprite" src="content/images/characters/rook/assault-sprite.svg" alt="ROOK Assault Specialization in-game presentation">
-    </div>
-    <div class="specialization-card-body">
-      <header><p class="specialization-card-kicker">Unlock method unresolved</p><strong class="specialization-card-name">Assault</strong><p class="specialization-card-fantasy">Turn the dependable soldier into a fragile momentum-driven attacker.</p></header>
-      <dl class="specialization-card-stats"><div><dt>Integrity</dt><dd>Low</dd></div><div><dt>Mobility</dt><dd>Very high</dd></div><div><dt>Range</dt><dd>Short–medium</dd></div><div><dt>Risk</dt><dd>Aggressive</dd></div></dl>
-      <div class="specialization-card-sections">
-        <section><strong class="specialization-card-section-title">Normal kit</strong><ul><li>Compact automatic and burst weapon classes</li><li>Firing remains available during slides and aerial movement</li><li>Faster jump, slide, and landing recovery</li><li>Wall kick or low-height air dash; exact verb requires testing</li></ul></section>
-        <section><strong class="specialization-card-section-title">Compatible equipment</strong><p><strong>Weapons:</strong> machine pistols, compact rifles, and burst carbines · <strong>Armour:</strong> light class · <strong>Utility:</strong> mobility and kill-chain modules</p></section>
-        <section class="specialization-card-overdrive"><strong class="specialization-card-section-title">Overdrive · Redline</strong><p>Consecutive kills increase speed and refresh movement recovery, allowing ROOK to chain slides, aerial attacks, and wall movement. Losing momentum ends the advantage and the form cannot safely absorb sustained pressure.</p></section>
-      </div>
-    </div>
-  </article>
-</section>
+## Stat Tiers
 
-## Baseline survivability
+See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat matrix]] for the accepted C11–C13 comparison. The internal budget formula and ability costs remain owned by [[Gameplay/Gameplay Math#internal-specialization-budget|Gameplay Math]].
 
-> **Accepted** — Provisional five-segment integrity bar. Standard attacks remove one segment; heavy hazards may remove two. Damage produces clear feedback and short post-hit invulnerability.
+## Moves and animations
 
-## Baseline equipment
+> **TODO — ROOK animations:** Assign exact animation IDs and transitions for the accepted move families.
 
-- [[Equipment/Baseline Rifle|Baseline Rifle]]
-- Rifle-class weapon compatibility
-- Tactical uses medium armour; Heavy and Assault use their own compatible classes
-- No accepted secondary item yet
+`●` means required, `—` intentionally unavailable, and `?` unresolved.
 
-Equipment belongs to the shared crew stash. Compatible replacements may alter ROOK's kit without erasing the selected Specialization's identity.
+| Move / animation family | C11 | C12 | C13 |
+|---|:---:|:---:|:---:|
+| Idle | ● | ● | ● |
+| Run | ● | ● | ● |
+| Jump | ● | ● | ● |
+| Fall | ● | ● | ● |
+| Land | ● | ● | ● |
+| Aim / fire | ● | ● | ● |
+| Interact | ● | ● | ● |
+| Hurt | ● | ● | ● |
+| Defeat | ● | ● | ● |
+| Overdrive | ● | ● | ● |
+| Combat Slide | ● | ● | ● |
 
-## First identity evidence
+## Common tools
 
-> **Accepted** — The introduction terminal briefly displays ROOK under another unknown designation officially recorded as killed in action. The background clue receives no spoken reaction and may be overlooked. It does not resolve whether ROOK is the original person, a clone, a reconstruction, a copy, or the subject of falsified records.
+| Shared knife rule | Behavior |
+|---|---|
+| Contextual melee attack | When the player attacks while a valid enemy is within ROOK's melee range, the combat knife replaces the equipped gun attack. It never triggers without attack input. |
 
-This is the campaign's first contradiction between an institutional role and possible personal history.
+| Tool | C11 — Tactical | C12 — Heavy | C13 — Assault |
+|---|---|---|---|
+| Grenades | Aimed hand throw with trajectory preview; hold to cook the fuse | Under-barrel grenade launcher | Quick fixed-arc toss while running; preserves horizontal momentum; cannot preview, cook, or throw during Assault Slide |
+| Combat knife | Quick forward stab with minimal displacement; returns directly to rifle-ready stance | Same mechanical attack; optional Heavy-specific animation later | Same mechanical attack; optional Assault-specific animation later |
 
-## Representative Encounter
+## C11
 
-In the [[Gameplay/Representative Encounter|Freight Terminal Encounter]], the default Specialization takes the central general-purpose approach: slide under high fire, jump low fire, reposition around the Shield Enforcer, and use the crane as temporary cover.
+### Appearance
 
-> **Needs evidence** — Complete [[Missions/M01|Cold Deployment]] and prove running, jumping, eight-direction firing, aim-lock, combat sliding, enemy reading, and camera behavior.
+![C11 concept placeholder showing a balanced rifle-user silhouette](content/images/characters/rook/c11.png)
 
-## Presentation requirements
+This image is a concept target, not final character art or the current sprite implementation.
 
-- Readable trained-soldier silhouette without copying an existing character
-- Rifle and sliding posture legible at 16-bit-inspired gameplay scale
-- Moderate proportions that visually anchor the roster's mobility and mass extremes
-- Institutional markings that support the ROOK designation without implying it is a personal name
-- Specializations recognizable while preserving the underlying character silhouette
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept for C11, the default ROOK Specialization and a practical general-purpose rifle user. Show a balanced military silhouette with medium armour, a stable firing stance, readable joints, compact field equipment, and an institution-issued rifle that does not overwhelm the body shape. The same underlying person must remain recognizable later across C12 and C13. Draw from worn industrial military science fiction, utilitarian analog cybernetics, and the severe 1990s action-game character language established by Imprint Zero. Use near-black, dirty gunmetal, faded olive, aged off-white armour, and one restrained yellow-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid heroic ornament, exposed personal identity, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
 
-> **Needs image** — Replace the card placeholders after ROOK's silhouette, portrait direction, sprite scale, and private starting assets are understood.
+### Skills
+
+> **TODO — C11 skills:** Define inputs, duration, and exact [[Gameplay/Gameplay Math|Gameplay Math]] modifiers.
+
+| Skill ID | Skill | Input | Effect |
+|---|---|---|---|
+| C11-M1 | Tactical Slide | ? | Medium speed and distance; low profile; committed movement cannot fire; recovery transitions directly into grounded aim or fire; no inherent invulnerability or contact damage |
+| C11-OD | Fire Control | ? | Temporarily removes rifle recoil and spread accumulation, shortens aim and ready transitions, and permits Tactical Slide to transition into aim or fire after its midpoint; does not change intrinsic damage, penetration, or cadence |
+
+### Equipment
+
+> **TODO — C11 equipment:** Assign stable Equipment IDs to the two unresolved rifle alternatives.
+
+| Relationship | Equipment |
+|---|---|
+| Primary family | Automatic and semi-automatic rifles |
+| Initial item | `EQ001` — [[Equipment/Baseline Rifle|Baseline Rifle]] |
+| Compatible items | Multiple rifle Equipment IDs; unresolved |
+
+## C12
+
+### Appearance
+
+![C12 concept placeholder showing a broad reinforced shotgun-user silhouette](content/images/characters/rook/c12.png)
+
+This image is an exploratory concept target, not final character art or the current sprite implementation.
+
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C12 as a visibly reinforced variation of ROOK. Preserve the same underlying body, institutional markings, and rifle-marine identity as C11, but test a broader silhouette, heavier stamped armour, reinforced joints, a practical shotgun with an under-barrel grenade launcher, and a lower, more committed stance. Equipment should look field-repairable and repeatedly serviced rather than advanced or ceremonial. Do not decide C12's exact shotgun variant or movement mechanics through the image; leave attachment points and carried equipment modular. Use near-black steel, charcoal, faded olive, aged off-white plating, dull brass, and one restrained ochre identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C12 a separate person, oversized fantasy armour, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
+
+### Skills
+
+> **TODO — C12 skills:** Define inputs, duration, and exact [[Gameplay/Gameplay Math|Gameplay Math]] modifiers.
+
+| Skill ID | Skill | Input | Effect |
+|---|---|---|---|
+| C12-M1 | Breach Slide | ? | Short distance and slow acceleration; low profile; increased stagger resistance during committed movement; cannot fire while moving; recovery transitions directly into a shotgun-ready stance; no invulnerability or contact damage |
+| C12-OD | Siege Posture | ? | Temporarily applies an explicit Defense modifier, prevents stagger from interrupting shotgun or grenade-launcher actions, and prevents shotgun recoil from displacing Heavy ROOK; does not change Breach Slide limits or intrinsic weapon damage, penetration, or cadence |
+
+### Equipment
+
+> **TODO — C12 equipment:** Assign the initial and compatible Equipment IDs.
+
+| Relationship | Equipment |
+|---|---|
+| Primary family | Shotguns |
+| Grenade delivery | Under-barrel grenade launcher |
+| Initial item | ? |
+| Compatible items | Multiple shotgun Equipment IDs; unresolved |
+
+## C13
+
+### Appearance
+
+![C13 concept placeholder showing a light forward-leaning dual-pistol silhouette](content/images/characters/rook/c13.png)
+
+This image is an exploratory concept target, not final character art or the current sprite implementation.
+
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C13 as a lighter, forward-moving variation of ROOK. Preserve the same underlying person, institutional markings, and rifle-marine identity as C11, but test reduced armour mass, compact equipment, clear joint freedom, a forward-weighted stance, and two readable pistols suitable for movement without turning ROOK into VECTOR. The design should imply controlled aggression while remaining a trained firearm user rather than an acrobat. Use near-black, dirty gunmetal, faded olive, worn off-white armour, and one restrained muted-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C13 a separate person, wall-running or phase-tech motifs, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
+
+### Skills
+
+> **TODO — C13 skills:** Define inputs, duration, targeting rules, and exact [[Gameplay/Gameplay Math|Gameplay Math]] modifiers.
+
+| Skill ID | Skill | Input | Effect |
+|---|---|---|---|
+| C13-M1 | Assault Slide | ? | Highest speed and longest distance; low profile; direction commits on start; paired pistols may fire during movement; short recovery; no invulnerability or contact damage |
+| C13-OD | Crossfire | ? | Each pistol may temporarily track a separate valid target in the forward firing region or focus the same target; firing does not interrupt running, jumping, or Assault Slide; slide direction remains committed; intrinsic weapon damage, penetration, and cadence remain unchanged |
+
+### Equipment
+
+> **TODO — C13 equipment:** Assign the initial and compatible Equipment IDs.
+
+| Relationship | Equipment |
+|---|---|
+| Primary family | Dual pistols, including automatic variants |
+| Initial item | ? |
+| Compatible items | Multiple paired-pistol Equipment IDs; unresolved |
