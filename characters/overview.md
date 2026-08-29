@@ -31,7 +31,7 @@ The four Characters therefore provide twelve selectable Specializations. Selecti
 |---|---|
 | Signature-verb skill | Preserves the Character's route function while changing combat expression; may satisfy the unique-skill requirement itself |
 | Stat Tier profile | Distinct Integrity, Defense, and Mobility relationship |
-| Common-tool expression | Varies shared tools such as grenades and melee implements |
+| Tool expression | Varies Character-owned common tools when present; otherwise tactical Equipment provides an equivalent non-primary-weapon distinction |
 | Additional move or skill | Optional unless the signature-verb skill does not sufficiently distinguish the Specialization |
 | Weapon Family | Supports multiple compatible Equipment items within one combat identity |
 | Overdrive | One unique temporary transformation |
@@ -55,11 +55,11 @@ The four Characters therefore provide twelve selectable Specializations. Selecti
 | Defeat | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Overdrive | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Slide | ● | ● | ● | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Wall move | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Dash | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| Wall move | ? | ? | ? | ● | ● | ● | ? | ? | ? | ? | ? | ? |
+| Dash | ? | ? | ? | — | ● | — | ? | ? | ? | ? | ? | ? |
 | Charge | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
 | Anchor | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Recoil move | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| Recoil move | ? | ? | ? | — | — | ● | ? | ? | ? | ? | ? | ? |
 | Interface | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
 | Deployable | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
 
@@ -71,9 +71,9 @@ The overview records each Specialization's canonical [[CONTEXT#stat-tier|1–5 S
 
 | Stat | [[Characters/Rook|C11]] | [[Characters/Rook|C12]] | [[Characters/Rook|C13]] | [[Characters/Vector|C21]] | [[Characters/Vector|C22]] | [[Characters/Vector|C23]] | [[Characters/Ram|C31]] | [[Characters/Ram|C32]] | [[Characters/Ram|C33]] | [[Characters/Relay|C41]] | [[Characters/Relay|C42]] | [[Characters/Relay|C43]] |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Integrity | 3 | 4 | 3 | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Defense | 3 | 3 | 2 | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Mobility | 3 | 2 | 4 | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| Integrity | 3 | 4 | 3 | 1 | 2 | 2 | ? | ? | ? | ? | ? | ? |
+| Defense | 3 | 3 | 2 | 2 | 1 | 2 | ? | ? | ? | ? | ? | ? |
+| Mobility | 3 | 2 | 4 | 5 | 5 | 4 | ? | ? | ? | ? | ? | ? |
 
 ## Identity
 
@@ -84,7 +84,7 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 ## Accepted roster
 
 - [[Characters/Rook|ROOK]] — Rifle Marine; balanced baseline and mechanical control case; available at new game.
-- [[Characters/Vector|VECTOR]] — Recon Operative; precision, mobility, and alternate routes; available at the first Hub arrival.
+- [[Characters/Vector|VECTOR]] — stealth and mobility specialist; fastest and most manoeuvrable crew member; available at the first Hub arrival.
 - [[Characters/Ram|RAM]] — Breach Trooper; close-range commitment and environmental force; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
 - [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/M04|Production Halt]] Special Mission.
 

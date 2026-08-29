@@ -33,18 +33,32 @@ stateDiagram-v2
 - A compatible field weapon may be used immediately but becomes permanently Hub-selectable only after successful extraction.
 - Mission failure or abandonment loses the unextracted discovery, not previously owned Equipment.
 - An [[CONTEXT#equipment-imprint|Equipment Imprint]] reveals an acquisition source or path; it does not directly place the item in the stash.
+- A Specialization's initial three-item set is the exception: it enters the crew stash with that Specialization so the newly unlocked configuration is immediately playable. Later alternatives use ordinary Equipment acquisition.
 
 ## Accepted categories
 
 ### Weapons
 
-> **TODO — ROOK weapon catalogue:** Assign stable IDs and canonical item pages to the unresolved initial and alternative weapons. Compatibility and default-loadout relationships remain owned by [[Characters/Rook|ROOK]].
+> **Deferred — ROOK weapon catalogue:** `EQ001` is the only currently required ROOK Equipment item. Additional rifles and the canonical shotgun and paired-pistol items may be added after the wider equipment and campaign structure is clear. Compatibility and default-loadout relationships remain owned by [[Characters/Rook|ROOK]].
 
-> **Accepted** — Each ROOK Weapon Family begins with three weapons: one always-available initial item and two alternatives acquired through research or successful field recovery. More may be added later without changing the family structure.
+> **Accepted** — A Weapon Family has no fixed item count. New Equipment may expand a family without changing its Specialization identity or existing item IDs.
 
 | ID | Item | Status |
 |---|---|---|
-| `EQ001` | [[Equipment/Baseline Rifle|Baseline Rifle]] | Accepted |
+| `EQ001` | [[Equipment/EQ001|Baseline Rifle]] | Accepted |
+| `EQ002` | [[Equipment/EQ002|Kunai]] | In progress |
+| `EQ003` | [[Equipment/EQ003|Active Camouflage Module]] | In progress |
+| `EQ004` | [[Equipment/EQ004|Climbing Claws]] | In progress |
+| `EQ005` | [[Equipment/EQ005|Katana]] | In progress |
+| `EQ006` | [[Equipment/EQ006|Phase Shifter]] | In progress |
+| `EQ007` | [[Equipment/EQ007|Flash Charges]] | In progress |
+| `EQ008` | [[Equipment/EQ008|Sniper Rifle]] | In progress |
+| `EQ009` | [[Equipment/EQ009|Resonance Beacon Rounds]] | In progress |
+| `EQ010` | [[Equipment/EQ010|Targeting Optics]] | In progress |
+
+## Character-owned tools
+
+> **Accepted** — Fixed Character tools are part of their owning Character's setup rather than crew-stash Equipment. They receive neither Equipment IDs nor Equipment pages. [[Characters/Rook#common-tools|ROOK's grenades and combat knife]] follow this rule.
 
 ## Unknown categories
 
@@ -53,6 +67,8 @@ stateDiagram-v2
 ## Equipment-page rule
 
 > **Accepted** — Equipment uses one category-neutral `EQ###` sequence. Category remains separate metadata so later reclassification does not change identity.
+
+Canonical Equipment filenames use the lowercase stable ID: `equipment/eq001.md`, `equipment/eq002.md`, and so on. Wiki links target that ID rather than the item's display name.
 
 Every accepted equipment item receives one stable ID and one canonical page containing:
 

@@ -41,7 +41,7 @@ Double jump, wall jump, ledge grab, and air dash are absent from the baseline. S
 
 > **Accepted** — Player and enemy fire use the same eight-direction gameplay lattice. Continuous-angle aiming is rejected.
 
-The primary gamepad binding quantizes right-stick direction and begins firing beyond its threshold. Returning to neutral stops firing input. Weapon cadence remains equipment-specific; see [[Equipment/Baseline Rifle|Baseline Rifle]].
+The primary gamepad binding quantizes right-stick direction and begins firing beyond its threshold. Returning to neutral stops firing input. Weapon cadence remains equipment-specific; see [[Equipment/EQ001|Baseline Rifle]].
 
 Grounded aim-lock is an optional alternative that plants the character and redirects fire. Keyboard may support directional-fire keys, quantized mouse-directed fire, and aim-lock, but every scheme must produce the same eight gameplay directions.
 
@@ -53,11 +53,33 @@ Grounded aim-lock is an optional alternative that plants the character and redir
 
 High and low shots are separate lanes within horizontal fire, not separate aim directions.
 
+## Enemy awareness
+
+> **Accepted** — Enemy awareness of a Character uses three states. Stun and disorientation are separate control effects and do not replace awareness state.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Unaware
+    Unaware --> Searching: Hear noise or find evidence
+    Unaware --> Tracking: Directly detect Character
+    Searching --> Tracking: Detect Character
+    Tracking --> Searching: Lose detection
+    Searching --> Unaware: Search resolves
+```
+
+| State | Enemy behaviour | Ghost Ambush eligible |
+|---|---|:---:|
+| Unaware | Has no evidence of the Character | Yes |
+| Searching | Investigates noise or a last known position without current target lock | Yes |
+| Tracking | Currently detects and targets the Character | No |
+
+[[Equipment/EQ003|Active Camouflage]] breaks Tracking into Searching rather than erasing awareness. An Ambush creates noise, moves nearby enemies into Searching, and normally causes a surviving struck target to Track Ghost. Breaking detection moves Tracking into Searching; unresolved search eventually returns to Unaware.
+
 ## Camera
 
 > **Accepted** — Smooth side-follow with horizontal and vertical dead zones, gradual movement-based look-ahead, slight upward framing bias, authored level bounds, backward repositioning support, and no forced scrolling in the baseline.
 
-Aiming alone does not move the camera. Exact values require [[Gameplay/Representative Encounter|blockout evidence]].
+Aiming alone does not move the baseline camera. Explicit Equipment such as [[Equipment/EQ010|Targeting Optics]] may apply an authored aiming-camera override. Exact values require [[Gameplay/Representative Encounter|blockout evidence]].
 
 ## Damage and integrity
 

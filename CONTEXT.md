@@ -36,6 +36,18 @@ The Stat Tier mapped into a Specialization's runtime movement values, including 
 **Combat Slide**:
 ROOK's ground-only, low-profile signature verb. Every ROOK Specialization preserves its traversal function while varying speed, distance, recovery, protection, and weapon access.
 
+**Wall Run**:
+VECTOR's fast, limited-duration movement upward or forward along a valid wall. Every VECTOR Specialization preserves its optional-route function; ordinary Wall Run cannot stop, reverse, cling, or grant invulnerability.
+
+**Awareness State**:
+An enemy's current detection relationship to a Character: **Unaware** has no evidence, **Searching** investigates noise or a last known position without target lock, and **Tracking** currently detects and targets the Character. Stun and disorientation remain separate control effects.
+
+**Phase Shift**:
+A charge-consuming, committed dash produced by a Phase Shifter. During its authored invulnerability window, VECTOR travels through an adjacent phase layer where ordinary attacks cannot interact with her. Phase Shift may cross attacks, hazards, and enemy bodies but not solid world geometry or route barriers; it is a combat and evasion action rather than a separate optional-route key.
+
+**Recoverable Integrity**:
+Integrity lost within Phase VECTOR's short recovery window. Direct weapon hits may restore it before expiration, but cannot restore older damage or exceed the recent loss.
+
 **Overdrive**:
 The temporary transformation unique to the selected Specialization.
 _Avoid_: Ultimate, generic power-up

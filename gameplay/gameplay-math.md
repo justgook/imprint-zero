@@ -63,7 +63,16 @@ Active avoidance, blocking, invulnerability, and directional armour remain expli
 | Overdrive | 2 |
 | Remaining Stat Tiers and any additional priced abilities | 9 |
 
-ROOK cannot exceed Tier `4` in any stat, leaving Tier `5` durability profiles available to more specialized Characters such as RAM. Any additional priced skill reduces the points available to Stat Tiers. Exact skill costs and Character-specific signature-verb costs remain unresolved until their effects are accepted.
+ROOK cannot exceed Tier `4` in any stat, leaving Tier `5` durability profiles available to more specialized Characters such as RAM.
+
+| Current VECTOR allocation | Internal cost |
+|---|---:|
+| Wall Run skill | 1 |
+| Identity passive | 1 |
+| Overdrive | 2 |
+| Integrity, Defense, and Mobility Stat Tiers | 8 |
+
+Ghost allocates `1/2/5`, Phase `2/1/5`, and Hunter `2/2/4` across Integrity, Defense, and Mobility. Each totals `12` after ability costs. Any additional priced skill would reduce the points available to Stat Tiers.
 
 ## Damage pipeline
 

@@ -11,7 +11,7 @@ status: accepted
 
 ## Defence
 
-Frontal armour completely blocks the [[Equipment/Baseline Rifle|Baseline Rifle]]. Blocked rounds:
+Frontal armour completely blocks the [[Equipment/EQ001|Baseline Rifle]]. Blocked rounds:
 
 - ricochet visibly and audibly;
 - deal no damage;

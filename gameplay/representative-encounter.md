@@ -10,7 +10,7 @@ status: in-progress
 - **Location:** Freight Terminal
 - **Mission:** [[Missions/M01|Cold Deployment]]
 - **Character:** [[Characters/Rook|ROOK]]
-- **Weapon:** [[Equipment/Baseline Rifle|Baseline Rifle]]
+- **Weapon:** [[Equipment/EQ001|Baseline Rifle]]
 - **Enemies:** [[Enemies/Horizontal Sentry|Horizontal Sentry]] and [[Enemies/Shield Enforcer|Shield Enforcer]]
 
 Those pages own content specifications. This page owns encounter order, combinations, exclusions, and evidence.

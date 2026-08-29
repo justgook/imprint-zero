@@ -1,6 +1,6 @@
 ---
 title: Overdrive Imprints
-summary: Four character-compatible Imprints that collectively awaken Overdrive for the crew’s default subclasses.
+summary: Four Character-compatible Imprints that collectively awaken Overdrive for the crew’s default Specializations.
 eyebrow: Overdrive Imprints
 status: in-progress
 ---
@@ -15,9 +15,9 @@ M05 — The Four Trials recovers four Imprints, one matched to each crew member�
 
 Awakens Overdrive for ROOK’s control, positioning, and planned-combat subclass.
 
-### VECTOR — Scout
+### VECTOR — Ghost
 
-Awakens Overdrive for VECTOR’s speed, information, and traversal subclass.
+Awakens [[Characters/Vector#c21|Blind Spot]] for VECTOR's stealth, Ambush, and surface-traversal Specialization.
 
 ### RAM — Breacher
 

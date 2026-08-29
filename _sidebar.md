@@ -144,7 +144,16 @@
   - [[Bosses/MB11|MB11 - miniboss]]
   - [[Bosses/MB12|MB12 - miniboss]]
 - [[Equipment/Overview|Equipment]]
-  - [[Equipment/Baseline Rifle|Baseline rifle]]
+  - [[Equipment/EQ001|Baseline rifle]]
+  - [[Equipment/EQ002|Kunai]]
+  - [[Equipment/EQ003|Active Camouflage Module]]
+  - [[Equipment/EQ004|Climbing Claws]]
+  - [[Equipment/EQ005|Katana]]
+  - [[Equipment/EQ006|Phase Shifter]]
+  - [[Equipment/EQ007|Flash Charges]]
+  - [[Equipment/EQ008|Sniper Rifle]]
+  - [[Equipment/EQ009|Resonance Beacon Rounds]]
+  - [[Equipment/EQ010|Targeting Optics]]
 
 ## Game Text
 

@@ -31,7 +31,7 @@ The selected Character and Specialization must alter how the player reads, choos
 
 ## Opening exception
 
-> **Accepted** — A new game skips the Hub and menus. [[Characters/Rook|ROOK]], the [[Equipment/Baseline Rifle|Baseline Rifle]], and the [[Missions/M01|introduction Mission]] are preselected so the player begins in action. First success unlocks a player-controlled Hub arrival. Character, equipment, and destination interfaces become immediately available through physical stations and direct shortcuts; no forced tour interrupts control. The initial Hub roster contains ROOK and one contrasting playable character.
+> **Accepted** — A new game skips the Hub and menus. [[Characters/Rook|ROOK]], the [[Equipment/EQ001|Baseline Rifle]], and the [[Missions/M01|introduction Mission]] are preselected so the player begins in action. First success unlocks a player-controlled Hub arrival. Character, equipment, and destination interfaces become immediately available through physical stations and direct shortcuts; no forced tour interrupts control. The initial Hub roster contains ROOK and one contrasting playable character.
 
 ## Standard macro loop
 

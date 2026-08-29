@@ -39,6 +39,8 @@ See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat
 
 ## Common tools
 
+> **Accepted** — Grenades and the combat knife are fixed parts of ROOK's setup, not crew-stash Equipment. They receive neither Equipment IDs nor separate Equipment pages.
+
 | Shared knife rule | Behavior |
 |---|---|
 | Contextual melee attack | When the player attacks while a valid enemy is within ROOK's melee range, the combat knife replaces the equipped gun attack. It never triggers without attack input. |
@@ -69,13 +71,13 @@ This image is a concept target, not final character art or the current sprite im
 
 ### Equipment
 
-> **TODO — C11 equipment:** Assign stable Equipment IDs to the two unresolved rifle alternatives.
+> **Deferred — C11 equipment expansion:** The Baseline Rifle is the only currently required C11 item. Add alternatives after the wider equipment and campaign structure is clear.
 
 | Relationship | Equipment |
 |---|---|
 | Primary family | Automatic and semi-automatic rifles |
-| Initial item | `EQ001` — [[Equipment/Baseline Rifle|Baseline Rifle]] |
-| Compatible items | Multiple rifle Equipment IDs; unresolved |
+| Initial item | `EQ001` — [[Equipment/EQ001|Baseline Rifle]] |
+| Compatible items | Future rifle items may be added later |
 
 ## C12
 
@@ -98,14 +100,14 @@ This image is an exploratory concept target, not final character art or the curr
 
 ### Equipment
 
-> **TODO — C12 equipment:** Assign the initial and compatible Equipment IDs.
+> **Deferred — C12 equipment:** Define canonical shotgun items when Heavy ROOK enters equipment implementation.
 
 | Relationship | Equipment |
 |---|---|
 | Primary family | Shotguns |
 | Grenade delivery | Under-barrel grenade launcher |
-| Initial item | ? |
-| Compatible items | Multiple shotgun Equipment IDs; unresolved |
+| Initial item | Not yet defined |
+| Compatible items | Future shotgun items may be added later |
 
 ## C13
 
@@ -128,10 +130,10 @@ This image is an exploratory concept target, not final character art or the curr
 
 ### Equipment
 
-> **TODO — C13 equipment:** Assign the initial and compatible Equipment IDs.
+> **Deferred — C13 equipment:** Define canonical paired-pistol items when Assault ROOK enters equipment implementation.
 
 | Relationship | Equipment |
 |---|---|
 | Primary family | Dual pistols, including automatic variants |
-| Initial item | ? |
-| Compatible items | Multiple paired-pistol Equipment IDs; unresolved |
+| Initial item | Not yet defined |
+| Compatible items | Future paired-pistol items may be added later |
