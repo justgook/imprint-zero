@@ -54,14 +54,15 @@ The four Characters therefore provide twelve selectable Specializations. Selecti
 | Hurt | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Defeat | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Overdrive | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
-| Slide | ● | ● | ● | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Wall move | ? | ? | ? | ● | ● | ● | ? | ? | ? | ? | ? | ? |
-| Dash | ? | ? | ? | — | ● | — | ? | ? | ? | ? | ? | ? |
-| Charge | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Anchor | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Recoil move | ? | ? | ? | — | — | ● | ? | ? | ? | ? | ? | ? |
-| Interface | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| Deployable | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
+| Breach | — | — | — | — | — | — | ● | ● | ● | ? | ? | ? |
+| Slide | ● | ● | ● | ? | ? | ? | — | — | — | ? | ? | ? |
+| Wall move | ? | ? | ? | ● | ● | ● | — | — | — | ? | ? | ? |
+| Dash | ? | ? | ? | — | ● | — | — | — | — | ? | ? | ? |
+| Charge | ? | ? | ? | ? | ? | ? | ● | — | — | ? | ? | ? |
+| Anchor | ? | ? | ? | ? | ? | ? | ● | ● | — | ? | ? | ? |
+| Recoil move | ? | ? | ? | — | — | ● | — | — | — | ? | ? | ? |
+| Interface | ? | ? | ? | ? | ? | ? | — | — | — | ? | ? | ? |
+| Deployable | ? | ? | ? | ? | ? | ? | — | ● | — | ? | ? | ? |
 
 ## Specialization stat matrix
 
@@ -71,9 +72,9 @@ The overview records each Specialization's canonical [[CONTEXT#stat-tier|1–5 S
 
 | Stat | [[Characters/Rook|C11]] | [[Characters/Rook|C12]] | [[Characters/Rook|C13]] | [[Characters/Vector|C21]] | [[Characters/Vector|C22]] | [[Characters/Vector|C23]] | [[Characters/Ram|C31]] | [[Characters/Ram|C32]] | [[Characters/Ram|C33]] | [[Characters/Relay|C41]] | [[Characters/Relay|C42]] | [[Characters/Relay|C43]] |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Integrity | 3 | 4 | 3 | 1 | 2 | 2 | ? | ? | ? | ? | ? | ? |
-| Defense | 3 | 3 | 2 | 2 | 1 | 2 | ? | ? | ? | ? | ? | ? |
-| Mobility | 3 | 2 | 4 | 5 | 5 | 4 | ? | ? | ? | ? | ? | ? |
+| Integrity | 3 | 4 | 3 | 1 | 2 | 2 | 3 | 5 | 4 | ? | ? | ? |
+| Defense | 3 | 3 | 2 | 2 | 1 | 2 | 4 | 2 | 2 | ? | ? | ? |
+| Mobility | 3 | 2 | 4 | 5 | 5 | 4 | 1 | 1 | 2 | ? | ? | ? |
 
 ## Identity
 
@@ -85,7 +86,7 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 
 - [[Characters/Rook|ROOK]] — Rifle Marine; balanced baseline and mechanical control case; available at new game.
 - [[Characters/Vector|VECTOR]] — stealth and mobility specialist; fastest and most manoeuvrable crew member; available at the first Hub arrival.
-- [[Characters/Ram|RAM]] — Breach Trooper; close-range commitment and environmental force; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
+- [[Characters/Ram|RAM]] — full-body powered-armour specialist; defence, heavy fire, melee commitment, and destructive entry; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
 - [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/M04|Production Halt]] Special Mission.
 
 > **Accepted** — The first Hub arrival offers VECTOR as a contrasting playable character alongside ROOK. Hearing VECTOR during the introduction creates recognition and a reason to inspect the alternative Character at the Hub.

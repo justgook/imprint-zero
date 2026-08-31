@@ -72,7 +72,16 @@ ROOK cannot exceed Tier `4` in any stat, leaving Tier `5` durability profiles av
 | Overdrive | 2 |
 | Integrity, Defense, and Mobility Stat Tiers | 8 |
 
-Ghost allocates `1/2/5`, Phase `2/1/5`, and Hunter `2/2/4` across Integrity, Defense, and Mobility. Each totals `12` after ability costs. Any additional priced skill would reduce the points available to Stat Tiers.
+Ghost allocates `1/2/5`, Phase `2/1/5`, and Hunter `2/2/4` across Integrity, Defense, and Mobility. Each totals `12` after ability costs.
+
+| Current RAM allocation | Internal cost |
+|---|---:|
+| Breach-expression skill | 1 |
+| Identity passive | 1 |
+| Overdrive | 2 |
+| Integrity, Defense, and Mobility Stat Tiers | 8 |
+
+Impact allocates `3/4/1`, Siege `5/2/1`, and Onslaught `4/2/2` across Integrity, Defense, and Mobility. Each totals `12` after ability costs. Any additional priced skill would reduce the points available to Stat Tiers.
 
 ## Damage pipeline
 

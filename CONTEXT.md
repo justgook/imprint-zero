@@ -39,6 +39,12 @@ ROOK's ground-only, low-profile signature verb. Every ROOK Specialization preser
 **Wall Run**:
 VECTOR's fast, limited-duration movement upward or forward along a valid wall. Every VECTOR Specialization preserves its optional-route function; ordinary Wall Run cannot stop, reverse, cling, or grant invulnerability.
 
+**Breach**:
+RAM's Character-owned optional-route capability for destroying RAM-reactive barriers. Impact expresses it through Shield Charge, Siege through anchored Heavy Firing, and Onslaught through a committed two-handed weapon strike.
+
+**Planted Guard**:
+Impact RAM's automatic grounded idle state while the Tower Shield is equipped. Stopping movement plants the shield and crouches RAM behind directional cover; no separate guard input is required.
+
 **Awareness State**:
 An enemy's current detection relationship to a Character: **Unaware** has no evidence, **Searching** investigates noise or a last known position without target lock, and **Tracking** currently detects and targets the Character. Stun and disorientation remain separate control effects.
 

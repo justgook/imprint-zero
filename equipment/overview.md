@@ -55,6 +55,15 @@ stateDiagram-v2
 | `EQ008` | [[Equipment/EQ008|Sniper Rifle]] | In progress |
 | `EQ009` | [[Equipment/EQ009|Resonance Beacon Rounds]] | In progress |
 | `EQ010` | [[Equipment/EQ010|Targeting Optics]] | In progress |
+| `EQ011` | [[Equipment/EQ011|Tower Shield]] | In progress |
+| `EQ012` | [[Equipment/EQ012|Armored Gauntlet]] | In progress |
+| `EQ013` | [[Equipment/EQ013|Kinetic Stabilizer]] | In progress |
+| `EQ014` | [[Equipment/EQ014|Minigun]] | In progress |
+| `EQ015` | [[Equipment/EQ015|Proximity Mines]] | In progress |
+| `EQ016` | [[Equipment/EQ016|Grounding Anchors]] | In progress |
+| `EQ017` | [[Equipment/EQ017|Two-Handed War Hammer]] | In progress |
+| `EQ018` | [[Equipment/EQ018|Kinetic Tether]] | In progress |
+| `EQ019` | [[Equipment/EQ019|Commitment Servos]] | In progress |
 
 ## Character-owned tools
 

@@ -19,9 +19,9 @@ Awakens Overdrive for ROOK’s control, positioning, and planned-combat subclass
 
 Awakens [[Characters/Vector#c21|Blind Spot]] for VECTOR's stealth, Ambush, and surface-traversal Specialization.
 
-### RAM — Breacher
+### RAM — Impact
 
-Awakens Overdrive for RAM’s defense-breaking and route-opening subclass.
+Awakens [[Characters/Ram#c31|Counteroffensive]] for RAM's shield defence, Counterforce, and advancing Breach Specialization.
 
 ### RELAY — Wire
 

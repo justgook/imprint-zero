@@ -100,7 +100,7 @@
   - [[Imprints/Vector Phase|VECTOR — Phase]]
   - [[Imprints/Vector Hunter|VECTOR — Hunter]]
   - [[Imprints/Ram Siege|RAM — Siege]]
-  - [[Imprints/Ram Impact|RAM — Impact]]
+  - [[Imprints/Ram Onslaught|RAM — Onslaught]]
   - [[Imprints/Relay Network|RELAY — Network]]
   - [[Imprints/Relay Null|RELAY — Null]]
 - [[Enemies/Overview|Enemies]]
@@ -154,6 +154,15 @@
   - [[Equipment/EQ008|Sniper Rifle]]
   - [[Equipment/EQ009|Resonance Beacon Rounds]]
   - [[Equipment/EQ010|Targeting Optics]]
+  - [[Equipment/EQ011|Tower Shield]]
+  - [[Equipment/EQ012|Armored Gauntlet]]
+  - [[Equipment/EQ013|Kinetic Stabilizer]]
+  - [[Equipment/EQ014|Minigun]]
+  - [[Equipment/EQ015|Proximity Mines]]
+  - [[Equipment/EQ016|Grounding Anchors]]
+  - [[Equipment/EQ017|Two-Handed War Hammer]]
+  - [[Equipment/EQ018|Kinetic Tether]]
+  - [[Equipment/EQ019|Commitment Servos]]
 
 ## Game Text
 

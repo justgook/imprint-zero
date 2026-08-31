@@ -1,6 +1,6 @@
 ---
-title: Siege
-summary: Unlocks RAM's anchored heavy-weapons, Suppression, and sustained area-control Specialization.
+title: Onslaught
+summary: Unlocks RAM's committed two-handed melee, Follow-Through, and escalating Avalanche Specialization.
 eyebrow: RAM · Specialization Imprint
 status: todo
 ---
