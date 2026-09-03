@@ -87,6 +87,43 @@ Aiming alone does not move the baseline camera. Explicit Equipment such as [[Equ
 
 Damage produces immediate visual/audio feedback, a brief hit reaction, and short post-hit invulnerability. Exact values remain tunable.
 
+## RELAY-compatible encounters
+
+> **TODO — Access tuning:** Prototype minimum and maximum Access, delayed-decay timing, Access-per-effect values, move conversion, and hack-window presentation.
+
+> **Accepted** — RELAY compatibility is guaranteed at the Encounter level rather than by making every enemy hackable.
+
+A System Target may be a robot body, cybernetic implant or prosthesis, equipped weapon or shield, authored neural connection, or environmental machine. Truly unconnected organisms remain unhackable. Encounters containing them must provide recurring compatible systems or environmental targets that sustain Null's intended combat loop; RELAY's weak Interface Projector cannot be treated as the primary solution to an otherwise incompatible Mission.
+
+> **Accepted** — Every open-campaign Mission contains at least one authored Network restoration station, ordinarily near its midpoint or before its final Encounter. Optional routes may add earlier or additional stations. A station may rebuild destroyed units from the deployed roster while Mission-local Salvage remains; it does not restore temporary local units that were never deployed. Restoration Stations are Network-exclusive: they cannot repair Wire Integrations or Chassis and cannot affect Null Hack Program cooldowns.
+
+Every RELAY Specialization sees a coarse Access meter and its minimum activation threshold on compatible resistant targets. Wire's Sensor Array may expose exact Access, available minigame moves, decay timing, compatibility and resistance tags, authored weak points, and predicted Blackout chains.
+
+Compatible resistant targets display an Access meter. Interface Projector hits and explicit unit, integration, control, or environmental effects build Access; stunning or disabling a compatible standard target may grant maximum Access immediately. After reaching minimum Access, the player may begin hacking or continue building toward the maximum for a larger move budget. Access waits through a short interruption and then decays gradually. Starting the minigame consumes the accumulated value, Access freezes while that paused interface is active, and failure leaves the target with none. Known Null programs against standard targets remain immediate target-and-activate actions.
+
+For accumulated Access $A \ge A_{min}$, the move budget uses the provisional relationship:
+
+$$
+M(A) = \operatorname{clamp}\left(M_{min} + \left\lfloor\frac{A-A_{min}}{A_{step}}\right\rfloor,\ M_{min},\ M_{max}\right)
+$$
+
+| Variable | Meaning |
+|---|---|
+| $A_{min}$ | Minimum Access required to begin hacking |
+| $A_{step}$ | Additional Access required for one extra move |
+| $M_{min}$ | Move budget when hacking begins at minimum Access |
+| $M_{max}$ | Maximum move budget granted at full Access |
+
+> **Accepted** — At minimum Access, every required hacking board has at least one solution within $M_{min}$. Additional Access provides error tolerance, alternate board routes, or moves for optional discovery nodes; the interface never permits a mathematically impossible required attempt.
+
+Access applies only to combat System Targets. Safe route locks and authored machinery open directly into fixed-budget boards that always permit at least one valid solution. Their failure resets after a short delay without permanently removing the route; every RELAY Specialization receives the same board and budget.
+
+## Environmental exposure
+
+> **Accepted** — Ambient exposure and active damaging hazards are separate concepts.
+
+RAM's sealed powered armour ignores atmospheric radiation, acid rain, smoke, contaminated air, and environmental heat. This protection does not prevent damage from authored active hazards such as flame jets, acid pools, crushing machinery, explosions, or attacks; it grants no additional route verb beyond [[Characters/Ram#shared-route-capability|Breach]]. Other Characters may require authored shelter or protective procedures where the campaign foregrounds ambient exposure.
+
 ## Equipment ownership
 
 > **Accepted** — Weapons, armour, consumables, currencies, and key items belong to the shared [[Equipment/Overview|crew stash]]. Item upgrades stay with the item; innate abilities and mastery stay with the character; discoveries and shortcuts stay with the campaign.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">MP001 Fabricator concept placeholder</title>
+  <desc id="desc">Production direction for a small hovering Helix assembly drone with a short-range arc cutter.</desc>
+  <rect width="960" height="540" fill="#11131a"/>
+  <rect x="40" y="40" width="880" height="460" rx="20" fill="#1d2130" stroke="#8e20ff" stroke-width="4"/>
+  <g fill="none" stroke="#c4a8ff" stroke-width="10">
+    <ellipse cx="300" cy="250" rx="120" ry="75"/>
+    <path d="M210 250h-75m330 0h-75M260 325l-35 90m115-90 35 90"/>
+    <path d="M390 250h100l75-55"/>
+    <path d="M565 195l65-35m-65 35 70 15"/>
+  </g>
+  <circle cx="300" cy="245" r="22" fill="#8e20ff"/>
+  <text x="520" y="120" fill="#ffffff" font-family="monospace" font-size="34" font-weight="bold">MP001 FABRICATOR</text>
+  <text x="520" y="170" fill="#c4a8ff" font-family="monospace" font-size="22">REPLACE WITH FINAL CONCEPT</text>
+  <text x="520" y="225" fill="#e9eaec" font-family="monospace" font-size="20">• small hovering assembly drone</text>
+  <text x="520" y="260" fill="#e9eaec" font-family="monospace" font-size="20">• readable manipulator and arc cutter</text>
+  <text x="520" y="295" fill="#e9eaec" font-family="monospace" font-size="20">• worn Helix industrial construction</text>
+  <text x="520" y="330" fill="#e9eaec" font-family="monospace" font-size="20">• gameplay-readable side silhouette</text>
+  <text x="520" y="385" fill="#9aa0ad" font-family="monospace" font-size="18">Keep 16:9 composition and MP001 path.</text>
+</svg>

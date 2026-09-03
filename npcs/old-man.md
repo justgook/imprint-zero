@@ -35,6 +35,12 @@ The Old Man lives among descendants who manually rebuilt CIVITAS-00 while hiding
 
 Residents may preserve, challenge, reinterpret, or know more recent local history than he does. Later population work must not reduce the city to one elder's exposition.
 
+## RELAY interaction boundary
+
+> **Accepted** — The Old Man deliberately destroyed his communication interface, leaving no connection for RELAY to hack.
+
+His repaired cybernetics do not provide a substitute path into his thoughts or memories. Information must come through ordinary dialogue, surviving records, and physical evidence; RELAY's inability to connect does not make his testimony objectively reliable. [[Missions/HS01#relay-deployment-variation|HS01]] owns RELAY's refusal and the resulting crew conversation.
+
 ## Knowledge boundary
 
 The Old Man may know:

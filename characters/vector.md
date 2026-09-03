@@ -15,6 +15,12 @@ status: in-progress
 | `C22` | Phase VECTOR | Aggressive katana pressure and invulnerable phase shifting |
 | `C23` | Hunter VECTOR | Long-range sniper fire, recoil management, and resonance-based enemy control |
 
+## Crew role and voice
+
+> **Accepted** — VECTOR's Character-wide invisibility is behavioural and spatial; literal Active Camouflage remains Ghost-specific Equipment.
+
+She is serious, quiet, observant, and comfortable occupying shadows, high surfaces, room edges, or a position beside another person without announcing herself. She listens to more than she comments on and sometimes withholds enough context to make coordination difficult. Unexpected appearances come from stealth-trained movement and staging rather than universal supernatural concealment; Phase and Hunter remain mechanically visible.
+
 ## Stat Tiers
 
 > **Accepted** — Ghost and Phase are VECTOR's fastest configurations; Hunter trades one Mobility Tier for greater stability at range.

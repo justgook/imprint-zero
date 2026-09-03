@@ -85,6 +85,19 @@
   - [[Characters/Vector|VECTOR]]
   - [[Characters/Ram|RAM]]
   - [[Characters/Relay|RELAY]]
+- [[Machine Profiles/Overview|Machine Profiles]]
+  - **Controlled Units**
+  - [[Machine Profiles/MP001|MP001 — Fabricator]]
+  - [[Machine Profiles/MP002|MP002 — Line Runner]]
+  - [[Machine Profiles/MP003|MP003 — Process Warden]]
+  - **Wire Integrations**
+  - [[Machine Profiles/WI001|WI001 — Arc Cutter]]
+  - [[Machine Profiles/WI002|WI002 — Runner Legs]]
+  - [[Machine Profiles/WI003|WI003 — Sensor Array]]
+  - **Null Hack Programs**
+  - [[Machine Profiles/NH001|NH001 — Overload]]
+  - [[Machine Profiles/NH002|NH002 — Runaway Directive]]
+  - [[Machine Profiles/NH003|NH003 — Cascade Virus]]
 - [[NPCs/Overview|NPCs]]
   - [[NPCs/Operator|OPERATOR]]
   - [[NPCs/Cradle Security System|Cradle Security System]]
@@ -94,7 +107,7 @@
 - [[Imprints/Overview|Imprints]]
   - **Overdrive Imprints**
   - [[Imprints/Overdrive|The Four Trials]]
-  - **Subclass Imprints**
+  - **Specialization Imprints**
   - [[Imprints/Rook Heavy|ROOK — Heavy]]
   - [[Imprints/Rook Assault|ROOK — Assault]]
   - [[Imprints/Vector Phase|VECTOR — Phase]]

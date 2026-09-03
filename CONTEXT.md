@@ -33,6 +33,29 @@ The Stat Tier mapped into deterministic passive damage mitigation and stagger re
 **Mobility**:
 The Stat Tier mapped into a Specialization's runtime movement values, including movement speed; individual move availability remains separate.
 
+**Hack**:
+RELAY's Character-owned signature verb for entering a paused hacking interface at an authored route, machine, or exposed enemy target.
+_Avoid_: Interface Link
+
+**Interface Projector**:
+RELAY's fixed low-output ranged tool for basic defence and preparing machine targets for Hack.
+
+**System Target**:
+An explicitly authored machine, cybernetic component, equipped system, neural connection, or environmental device compatible with one or more RELAY interactions.
+
+**Access**:
+A System Target's visible preparation value that determines when RELAY may begin combat hacking and how many moves its minigame permits.
+
+**Neural Interface Hack**:
+RELAY's invasive access to machine-readable implant data without access to unrecorded thoughts, complete consciousness, or inherently truthful memory.
+
+**Mesh**:
+RELAY's term for any locally reachable machine-readable space formed by connected systems, robots, terminals, implants, or virtual environments.
+_Avoid_: Web, Grid
+
+**Mesh Dive**:
+RELAY's extension of her full-body sensorium into an external machine, Controlled Unit, neural interface, or virtual environment.
+
 **Combat Slide**:
 ROOK's ground-only, low-profile signature verb. Every ROOK Specialization preserves its traversal function while varying speed, distance, recovery, protection, and weapon access.
 
@@ -44,6 +67,46 @@ RAM's Character-owned optional-route capability for destroying RAM-reactive barr
 
 **Planted Guard**:
 Impact RAM's automatic grounded idle state while the Tower Shield is equipped. Stopping movement plants the shield and crouches RAM behind directional cover; no separate guard input is required.
+
+**Controlled Unit**:
+A machine preserved and commanded by Network RELAY.
+_Avoid_: Summon, pet
+
+**Direct Control**:
+Network RELAY's control state in which the player operates one Controlled Unit while RELAY remains stationary and vulnerable.
+
+**Command Capacity**:
+Network RELAY's provisional five-point budget for active Controlled Units.
+
+**Command Cost**:
+The portion of Command Capacity occupied by one Controlled Unit.
+
+**Command Range**:
+The finite area around Network RELAY within which Controlled Units can receive orders or remain under Direct Control.
+
+**Salvage**:
+A Mission-local Network resource recovered from authored piles or dismantled machines and spent to restore destroyed Controlled Units.
+
+**Restoration Station**:
+An authored Network-only Mission facility that spends Salvage to rebuild destroyed units from the deployed roster.
+
+**Integrated Module**:
+Machine hardware incorporated into Wire RELAY's biomechanical body through a Weapon, Mobility, or Systems slot.
+
+**Chassis Integration**:
+A full-machine Wire configuration that occupies all three integration slots and encloses RELAY in one cohesive body.
+
+**Destructive Hack**:
+A temporary command or corruption through which Null RELAY consumes a machine's function without gaining persistent control.
+
+**Hack Program**:
+A permanently learned Null skill that applies one reusable Destructive Hack to compatible targets.
+
+**Discovery Hack**:
+A hacking minigame whose successful completion immediately and permanently teaches an unknown Hack Program.
+
+**Machine Profile**:
+A persistent `MP###` RELAY arsenal entry for one recovered machine archetype that defines one Network Controlled Unit and references one `WI###` Wire Integration and one `NH###` Null Hack Program.
 
 **Awareness State**:
 An enemy's current detection relationship to a Character: **Unaware** has no evidence, **Searching** investigates noise or a last known position without target lock, and **Tracking** currently detects and targets the Character. Stun and disorientation remain separate control effects.
@@ -152,10 +215,33 @@ _Avoid in institutional UI_: Coffin
 ## Relationships
 
 - A **Character** owns exactly three **Specializations** and one optional-route verb.
+- Every RELAY Specialization uses **Hack** to open the same authored optional routes; Specialization differences change combat-hacking results rather than route eligibility or outcomes.
+- RELAY compatibility is guaranteed through **System Targets** at the Encounter level rather than by making every enemy hackable.
+- Interface Projector hits and explicit unit, integration, control, or environmental effects build **Access**; disabling a compatible standard target may grant maximum Access immediately.
+- Minimum **Access** permits combat hacking, while additional Access grants more minigame moves; beginning the minigame consumes the accumulated value, and failure leaves the target with none.
+- Access waits through a short interruption and then decays while no valid effect continues building it.
+- A **Neural Interface Hack** may recover credentials, communications, device logs, or cached sensory records, but retrieved data may remain incomplete, altered, or misinterpreted.
+- The **Mesh** describes a reachable connected space without implying one global system, the **Experiment Network**, or ownership by OPERATOR or Controller.
+- Direct Control, deep research, Discovery Hacks, and resistant-target hacking require a **Mesh Dive**; prepared Null Hack Programs do not.
 - A **Specialization** owns its **Integrity**, **Defense**, and **Mobility** Stat Tiers and references default and compatible **Equipment** by stable ID.
 - Characters, Specializations, Equipment, enemies, and Bosses supply combat inputs and explicit exceptions; [[Gameplay/Gameplay Math|Gameplay Math]] owns their shared equations.
 - Speaking **Bosses** remain Bosses when their authored role is primarily the Encounter; dual **NPC** and Boss classification is reserved for entities with substantial independent campaign agency beyond the fight.
 - A **Specialization** owns one **Overdrive**.
+- Network RELAY preserves machines as **Controlled Units**, Wire RELAY incorporates machines as **Integrated Modules**, and Null RELAY consumes machines through **Destructive Hacks**.
+- Wire equips one Weapon, one Mobility, and one Systems **Integrated Module**; a **Chassis Integration** occupies all three slots.
+- **Machine Profiles** and their Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs belong to RELAY rather than the crew Equipment stash.
+- Successfully extracting one machine archetype unlocks its **Machine Profile** for Network and Wire and permanently teaches any associated Null **Hack Program**.
+- Successfully completing a **Discovery Hack** executes its **Hack Program** once against the discovery target and guarantees it immediately and permanently without successful extraction or a random unlock roll; Null may then replace one equipped program or keep the current loadout, while any replaced program remains owned but cannot be re-equipped until the Hub; a newly equipped discovery begins ready.
+- Every **Machine Profile** defines a distinct Controlled Unit, while multiple profiles may reference the same **Integrated Module** and still more may share the same **Hack Program**; the catalogue therefore contains more units than modules and more modules than hacks.
+- Null's three equipped **Hack Programs** have independent cooldowns; one System Target may carry only one active Destructive Hack, and a consumed target cannot be hacked again.
+- A Network loadout may combine any Controlled Units whose total **Command Cost** does not exceed RELAY's **Command Capacity**.
+- Controlled Units cannot execute orders or remain under **Direct Control** beyond RELAY's **Command Range**.
+- Controlled Units may operate ordinary physical or profile-compatible Encounter machinery but cannot perform **Hack**, open Character-gated routes, or collect otherwise inaccessible permanent rewards.
+- Network may preserve an eligible local machine as a **Controlled Unit** or dismantle it for **Salvage**; dismantling a newly controlled discovery forfeits its Machine Profile unlock.
+- Deployed or restored roster units never produce Salvage, and temporary or respawning machines may be explicitly non-salvageable.
+- **Salvage** does not persist beyond the current Mission or come from endlessly respawning enemies.
+- A **Restoration Station** cannot repair Wire Integrations or Chassis, affect Null cooldowns, or rebuild temporary local units.
+- During **Direct Control**, RELAY does not move autonomously; damage to RELAY ends Direct Control, and RELAY's defeat still fails the Mission.
 - Every **Memory Imprint** pairs narrative evidence with progression.
 - The four Act II **Biome Memory Imprints** collectively identify the crew voice mappings and order for **BASTION–AZIMUTH–BREACH–ECHO**.
 - All twelve **Specializations** complete the four **Mnemonic Voiceprints** required to enable the Empty Barracks authentication interface.

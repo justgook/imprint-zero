@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">MP003 Process Warden concept placeholder</title>
+  <desc id="desc">Production direction for a Helix inspection and security machine with a readable sensor array and projected inspection field.</desc>
+  <rect width="960" height="540" fill="#11131a"/>
+  <rect x="40" y="40" width="880" height="460" rx="20" fill="#1d2130" stroke="#8e20ff" stroke-width="4"/>
+  <g fill="none" stroke="#c4a8ff" stroke-width="10">
+    <path d="M170 375h260l-55-180H225z"/>
+    <path d="M245 195v-65m55 65V105m55 90v-65"/>
+    <path d="M430 245l120-65v195l-120-55" stroke-dasharray="14 12"/>
+  </g>
+  <circle cx="300" cy="250" r="38" fill="#8e20ff"/>
+  <text x="520" y="105" fill="#ffffff" font-family="monospace" font-size="32" font-weight="bold">MP003 PROCESS WARDEN</text>
+  <text x="520" y="150" fill="#c4a8ff" font-family="monospace" font-size="22">REPLACE WITH FINAL CONCEPT</text>
+  <text x="520" y="205" fill="#e9eaec" font-family="monospace" font-size="20">• inspection and security body</text>
+  <text x="520" y="240" fill="#e9eaec" font-family="monospace" font-size="20">• dominant readable sensor array</text>
+  <text x="520" y="275" fill="#e9eaec" font-family="monospace" font-size="20">• visible projected inspection field</text>
+  <text x="520" y="330" fill="#9aa0ad" font-family="monospace" font-size="18">Keep 16:9 composition and MP003 path.</text>
+</svg>

@@ -13,6 +13,12 @@ status: in-progress
 | `C12` | Heavy ROOK | Shotguns |
 | `C13` | Assault ROOK | Dual pistols, including automatic variants |
 
+## Crew role and voice
+
+> **Accepted** — ROOK is the crew's emergent coordinator rather than a formally appointed commander.
+
+OPERATOR never identifies ROOK as captain or grants explicit authority. ROOK tends to summarize situations, propose immediate plans, and speak first when the crew hesitates; the others may challenge or improve those plans without framing disagreement as insubordination. Leadership remains inferable from repeated behaviour, and any deployed Character can make Mission decisions.
+
 ## Stat Tiers
 
 See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat matrix]] for the accepted C11–C13 comparison. The internal budget formula and ability costs remain owned by [[Gameplay/Gameplay Math#internal-specialization-budget|Gameplay Math]].

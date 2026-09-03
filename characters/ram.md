@@ -21,6 +21,12 @@ status: in-progress
 
 This image is a body-design reference, not a canonical character sheet or final implementation. Retain the massive full-body powered armour, enclosed helmet, broad reinforced silhouette, dark gunmetal body, and restrained orange accents. Ignore its text, logos, measurements, exact weapons, and other loadout details unless accepted separately in this page.
 
+## Crew role and voice
+
+> **Accepted** — RAM is a competent heavy operator whose humour comes from confidence, appetite, and situational obliviousness rather than low intelligence.
+
+He thinks concretely, acts quickly, enjoys food and immediate practical solutions, and rarely dwells on abstract implications. His armour makes ordinary physical limits easy to forget: he may assume another Character can lift, cross, or withstand what feels effortless to him. Blunt questions may expose assumptions the more analytical crew overlooked.
+
 ## Stat Tiers
 
 > **Accepted** — Impact prioritizes Defense, Siege establishes RAM's Tier-5 Integrity profile, and Onslaught trades part of that durability for greater Mobility.
@@ -64,6 +70,8 @@ See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat
 | Landing | Heavy visual and audio response without mandatory ordinary-traversal recovery lock |
 
 Impact and Siege use Mobility Tier `1`; Onslaught uses Tier `2`. Heavy armour grants no contact damage or global invulnerability.
+
+RAM's sealed suit does ignore [[Gameplay/Mechanics#environmental-exposure|ambient environmental exposure]] such as atmospheric radiation, acid rain, smoke, contaminated air, and environmental heat. Active flame jets, acid pools, crushing machinery, explosions, and attacks still deal authored damage. This distinction supports his habit of forgetting that other crew members need shelter or protective procedures without creating another route gate.
 
 ## Shared route capability
 

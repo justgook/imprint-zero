@@ -54,15 +54,18 @@ The four Characters therefore provide twelve selectable Specializations. Selecti
 | Hurt | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Defeat | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | Overdrive | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● | ● |
-| Breach | — | — | — | — | — | — | ● | ● | ● | ? | ? | ? |
-| Slide | ● | ● | ● | ? | ? | ? | — | — | — | ? | ? | ? |
-| Wall move | ? | ? | ? | ● | ● | ● | — | — | — | ? | ? | ? |
-| Dash | ? | ? | ? | — | ● | — | — | — | — | ? | ? | ? |
-| Charge | ? | ? | ? | ? | ? | ? | ● | — | — | ? | ? | ? |
-| Anchor | ? | ? | ? | ? | ? | ? | ● | ● | — | ? | ? | ? |
-| Recoil move | ? | ? | ? | — | — | ● | — | — | — | ? | ? | ? |
-| Interface | ? | ? | ? | ? | ? | ? | — | — | — | ? | ? | ? |
-| Deployable | ? | ? | ? | ? | ? | ? | — | ● | — | ? | ? | ? |
+| Breach | — | — | — | — | — | — | ● | ● | ● | — | — | — |
+| Slide | ● | ● | ● | ? | ? | ? | — | — | — | — | — | — |
+| Wall move | ? | ? | ? | ● | ● | ● | — | — | — | — | — | — |
+| Dash | ? | ? | ? | — | ● | — | — | — | — | — | — | — |
+| Charge | ? | ? | ? | ? | ? | ? | ● | — | — | — | — | — |
+| Anchor | ? | ? | ? | ? | ? | ? | ● | ● | — | — | — | — |
+| Recoil move | ? | ? | ? | — | — | ● | — | — | — | — | — | — |
+| Hack / interface | ? | ? | ? | ? | ? | ? | — | — | — | ● | ● | ● |
+| Deployable / Controlled Unit | ? | ? | ? | ? | ? | ? | — | ● | — | — | ● | — |
+| Field Integration / Chassis | — | — | — | — | — | — | — | — | — | ● | — | — |
+| Direct Control transition | — | — | — | — | — | — | — | — | — | — | ● | — |
+| Hack Program activation | — | — | — | — | — | — | — | — | — | — | — | ● |
 
 ## Specialization stat matrix
 
@@ -72,15 +75,26 @@ The overview records each Specialization's canonical [[CONTEXT#stat-tier|1–5 S
 
 | Stat | [[Characters/Rook|C11]] | [[Characters/Rook|C12]] | [[Characters/Rook|C13]] | [[Characters/Vector|C21]] | [[Characters/Vector|C22]] | [[Characters/Vector|C23]] | [[Characters/Ram|C31]] | [[Characters/Ram|C32]] | [[Characters/Ram|C33]] | [[Characters/Relay|C41]] | [[Characters/Relay|C42]] | [[Characters/Relay|C43]] |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Integrity | 3 | 4 | 3 | 1 | 2 | 2 | 3 | 5 | 4 | ? | ? | ? |
-| Defense | 3 | 3 | 2 | 2 | 1 | 2 | 4 | 2 | 2 | ? | ? | ? |
-| Mobility | 3 | 2 | 4 | 5 | 5 | 4 | 1 | 1 | 2 | ? | ? | ? |
+| Integrity | 3 | 4 | 3 | 1 | 2 | 2 | 3 | 5 | 4 | 1 | 1 | 1 |
+| Defense | 3 | 3 | 2 | 2 | 1 | 2 | 4 | 2 | 2 | 1 | 1 | 1 |
+| Mobility | 3 | 2 | 4 | 5 | 5 | 4 | 1 | 1 | 2 | 3 | 2 | 4 |
 
 ## Identity
 
 Crew members know themselves as soldiers or marines and retain operational skill, but know that their autobiographical identity is missing or unreliable. They may be brainwashed originals, clones, manufactured people, or something else.
 
 Soldiering is initially their only stable identity. They can refuse orders physically, but conditioning makes doubt feel improper and unsafe.
+
+## Crew dynamics
+
+> **Accepted** — Crew roles emerge through repeated behaviour rather than formal labels or explicit archetype naming.
+
+| Character | Recurring contribution |
+|---|---|
+| [[Characters/Rook|ROOK]] | Coordinates immediate action and informally holds the team together without appointed command authority. |
+| [[Characters/Vector|VECTOR]] | Observes from overlooked positions, speaks rarely, and surfaces details others miss. |
+| [[Characters/Ram|RAM]] | Maintains momentum and morale through appetite, confidence, practical force, and blunt questions. |
+| [[Characters/Relay|RELAY]] | Researches the Mesh, decodes machine-held evidence, and connects technical relationships without becoming an infallible narrator. |
 
 ## Accepted roster
 

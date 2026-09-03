@@ -69,6 +69,8 @@ stateDiagram-v2
 
 > **Accepted** — Fixed Character tools are part of their owning Character's setup rather than crew-stash Equipment. They receive neither Equipment IDs nor Equipment pages. [[Characters/Rook#common-tools|ROOK's grenades and combat knife]] follow this rule.
 
+> **Accepted** — [[Characters/Relay|RELAY's Machine Profiles]] are Character-owned progression rather than Equipment. Their Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs receive no `EQ###` IDs and cannot transfer through the crew stash.
+
 ## Unknown categories
 
 > **TODO** — Armour, consumables, currencies, key items, secondary weapons, and special weapons do not yet have enough accepted rules for dedicated pages.
