@@ -32,7 +32,7 @@ Random drops, optional pickups, and Hub research therefore cannot block campaign
 | **Machine Blueprint** | Advances the machine track inside one `MP###` record | Unlocks the machine result and its Hub Mesh Dive research boards; Network may deploy it only when control-compatible |
 | **Output Blueprint** | Advances one specific reward | Immediately unlocks its Equipment item, Wire Integration, Hack Program, module, or other authored output |
 
-A **Blueprint Fragment** is always tied to one specific Machine Blueprint or Output Blueprint. It is not fungible currency. Requirements may be `1/1`, `1/3`, or another authored count.
+A **Blueprint Fragment** is always tied to one specific Machine Blueprint or Output Blueprint. It is not fungible currency. Requirements may be `1/1`, `1/3`, or another authored count. A `1/1` Equipment Blueprint represents a complete discovery while retaining the same immediate banking and unlock rules; it is never carried as an unextracted item.
 
 ## Discovery flow
 
@@ -79,9 +79,13 @@ Before M05 completion, Blueprint Fragments do not spawn, drop, accumulate invisi
 - A board's required endpoint produces its immediate field result; optional nodes award their listed fragments.
 - Reaching a Discovery Node banks its fragment immediately, even if no moves remain for the normal endpoint.
 - Banked nodes cannot award duplicates on retry; the target then follows its ordinary incomplete- or failed-Hack recovery, and remaining objectives may be attempted later.
+- Every displayed field Discovery Node is individually reachable at maximum Access with any RELAY Specialization and no Hack Module. Collecting several nodes plus the required endpoint in one Dive is not guaranteed; Null modules improve efficiency rather than owning exclusive fragments.
 - Limited moves may therefore force a choice between the endpoint and optional discoveries.
 - Each eligible source archetype has an authored Blueprint loot table available to every Character.
+- Machine Profiles own machine-archetype tables; non-machine Enemy pages own their tables; Boss pages own Boss rewards; Mission pages own chests and unique placements.
+- Non-hackable enemies may provide random fragments but never gain artificial Hack boards or Hub machine research.
 - One ordinary enemy defeat awards at most one random fragment from its incomplete eligible Blueprint tracks; completed tracks no longer consume drop rolls.
+- Every enemy-drop-eligible track also appears as a Field Discovery Node. A source may additionally offer Hack-only tracks that never enter its random drop roll.
 - Bosses, chests, authored rewards, Network extraction, and Discovery Nodes may grant multiple fragments under their own rules.
 - Every eligible defeat advances a source-specific bad-luck streak that raises drop probability until a fragment is guaranteed.
 - The streak persists globally through death, abandonment, Mission changes, and campaigns. An ordinary random or guaranteed enemy drop resets it; Discovery Nodes, chests, Boss rewards, and unique pickups do not.
@@ -109,9 +113,11 @@ Hub transitions never remove collected progress or unlocked research boards; eac
 
 Completing a Machine Blueprint immediately unlocks its machine result and persistent access to that Profile's authored Hub boards. RELAY performs those dives to recover every output intrinsic to that machine archetype without searching for another field instance. Machine completion does not grant linked outputs automatically, and Hub research does not substitute for unique authored world pickups. Research Terminal boards use fixed authored constraints and ignore field Hack Module modifiers, so players may instead seek the source in a Mission with an optimized Null configuration.
 
-Each Machine Profile's Hub research set contains enough finite, one-time Discovery Nodes to complete every machine-intrinsic linked Output Blueprint. Multi-fragment tracks use distinct nodes distributed across one or more authored boards; boards may unlock sequentially.
+Each Machine Profile's Hub research set guarantees enough finite, one-time Discovery Nodes to complete every machine-intrinsic linked Output Blueprint, including Hack-only tracks that never drop randomly. Multi-fragment tracks use distinct nodes distributed across one or more authored boards; boards may unlock sequentially.
 
-Boards may be retried after failure. Discovery Nodes bank fragments immediately; collected nodes remain removed and never produce duplicates. Completed boards may remain replayable for practice but provide no further loot. A machine reconstruction may appear during the interface, but it is presentation rather than a separate specimen, cost, timer, or progression state.
+Hub boards require no combat Access and use fixed authored move budgets. The normal exit always has a valid solution, and every available Discovery Node is individually reachable within the budget, although collecting every node in one attempt is not guaranteed. Hack Modules and Program Execution never modify these constraints.
+
+Boards may be retried after a short failure reset. Discovery Nodes bank fragments immediately; collected nodes remain removed and never produce duplicates. Completed boards may remain replayable for practice but provide no further loot. A machine reconstruction may appear during the interface, but it is presentation rather than a separate specimen, cost, timer, or progression state.
 
 ## Production cost
 
@@ -121,14 +127,17 @@ Non-consumable outputs do not require duplicate production.
 
 | Blueprint completed during a Mission | Availability |
 |---|---|
-| Hack Program | Null receives the immediate replace-or-ignore prompt; an equipped program begins ready |
+| Hack Program completed from a Discovery Node during Null's paused Mesh Dive | Offer the immediate replace-or-ignore prompt before resuming; an equipped program begins ready |
+| Hack Program completed from a physical pickup, chest, Boss reward, or another configuration | Bank without interrupting play; selectable when Null next visits a Hub |
 | Currently installed Wire Integration | Becomes permanently owned and remains installed |
 | Other Wire Integration | Unlocks immediately; selectable at the next Hub visit |
 | Equipment | Unlocks immediately; selectable at the next Hub visit |
 | Control-compatible Machine Blueprint | Unlocks the unit pattern; selectable in Network's next Hub roster |
 | Any Machine Blueprint | Unlocks its Research Terminal boards for the next Hub visit |
 
-Mission-local Salvage remains dedicated to rebuilding destroyed Network units during deployment. Mission-local Salvage remains dedicated to rebuilding destroyed Network units during deployment. A separate production economy may be added only if playtesting demonstrates a need.
+No completion causes a Character or Specialization handoff. Collection feedback names the compatible recipient only when already revealed; concealed Specializations use neutral wording.
+
+Mission-local Salvage remains dedicated to rebuilding destroyed Network units during deployment. A separate production economy may be added only if playtesting demonstrates a need.
 
 ## Network compatibility
 
@@ -144,9 +153,18 @@ A new campaign still exposes no Blueprint drops or interfaces before M05. Resear
 
 > **Accepted** — Authored world pickups are unique collectible placements distinct from repeatable enemy drops and machine-intrinsic Hub research.
 
-Some Output Blueprint fragments may be field-only and require a Character-specific optional route. Completing the same Blueprint through another source does not mark that placement collected. Picking it up still advances `100%` world-collectible completion without creating a duplicate item.
+Unique Output Blueprint pickup placements may be field-only and require a Character-specific optional route. If the same output is intrinsically linked to a Machine Profile, its Hub research nodes can still complete the Blueprint without marking that world placement collected. Picking it up still advances `100%` world-collectible completion without creating a duplicate item.
 
-A collected authored placement is globally complete and does not reappear in later campaigns. Its fragment and completion credit persist even though Mission routes and Character access reset. Random enemy drops and repeatable Hub challenges are not unique world placements and do not count individually.
+A collected authored placement is globally complete and does not reappear in later campaigns. Its completion credit persists even though Mission routes and Character access reset. If its target Blueprint is incomplete, collection advances both Blueprint Research and World Collectibles; if that Blueprint is already complete, only World Collectibles advances. Random enemy drops and repeatable Hub challenges are not unique world placements and do not count individually.
+
+## Completion categories
+
+| Category | Counts |
+|---|---|
+| **Blueprint Research** | Filled fragment requirements across Machine and Output Blueprint tracks |
+| **World Collectibles** | Unique authored pickup placements physically collected |
+
+Random drops and Hub nodes advance Blueprint Research only. A unique pickup may advance both categories but is never marked collected through an alternate Blueprint source.
 
 ## Completion visibility
 
@@ -157,3 +175,7 @@ The Research Terminal lists only discovered Blueprint tracks and may show progre
 ## Presentation
 
 > **TODO — Research interface:** Define fragment feedback, partial counts, concealed outputs, machine selection, board replay, completion state, and cross-Character reward messaging without revealing locked Specializations prematurely.
+
+![Research Terminal interface layout](content/images/gameplay/research-terminal.svg)
+
+This placeholder establishes the lasting three-part interface purpose: known Machine Profiles, the active Hub Mesh Dive board, and discovered Blueprint progress without hidden-output totals.

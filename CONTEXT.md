@@ -257,7 +257,7 @@ _Avoid in institutional UI_: Coffin
 - A **Machine Profile** contains one Machine Blueprint, zero or one control-compatible Network expression, and zero or more linked Output Blueprints for any Character.
 - HUB1, HUB2, and HUB3 each provide a **Research Terminal** to the persistent Research Core; Hub transitions never remove Blueprint progress or boards.
 - Completing a **Machine Blueprint** immediately unlocks its machine result and authored **Research Terminal** boards; it grants no linked Output Blueprint automatically.
-- Research Terminal boards expose optional **Discovery Nodes** that can eventually supply remaining linked Blueprint Fragments without another field encounter.
+- Research Terminal boards guarantee enough finite **Discovery Nodes** to complete every machine-linked Output Blueprint without another field encounter; unique world-pickup placements remain separate `100%` collectibles.
 - Wire extraction with an unknown Integration still installed completes that `WI###` Output Blueprint but no Machine Blueprint or unrelated output; an unknown Chassis must remain intact.
 - Intact Network extraction completes the source's **Machine Blueprint**; damaged surviving extraction grants a condition-based subset of at least one fragment, destruction prevents extraction, and no condition grants linked Output Blueprints.
 - Multiple Machine Profiles may reference the same **Integrated Module**, **Hack Program**, Equipment item, or other output, while ineligible source machines may have no Network expression.

@@ -20,22 +20,20 @@ status: in-progress
 
 ```mermaid
 stateDiagram-v2
-    [*] --> HubLoadout: Select one owned compatible primary
+    [*] --> Progress: Bank first Blueprint Fragment
+    Progress --> Progress: Bank another fragment
+    Progress --> CrewStash: Complete Output Blueprint
+    CrewStash --> HubLoadout: Select compatible Equipment
     HubLoadout --> MissionLoadout: Deploy
-    MissionLoadout --> CarriedDiscovery: Equip compatible field weapon
-    CarriedDiscovery --> CarriedDiscovery: Replace with another compatible field weapon
-    CarriedDiscovery --> CrewStash: Successful extraction
-    CarriedDiscovery --> NotUnlocked: Mission failed or abandoned
-    MissionLoadout --> CrewStash: Successful extraction
+    MissionLoadout --> CrewStash: Return
 ```
 
-- Replacing a carried weapon never removes a previously owned item from the crew stash.
-- A compatible field weapon may be used immediately but becomes permanently Hub-selectable only after successful extraction.
-- Completing a weapon's [[Gameplay/Blueprints|Output Blueprint]] adds it to the shared stash, but it cannot be equipped until a Hub visit.
+- [[Gameplay/Blueprints|Blueprint Fragments]] bank immediately and persist globally through death, abandonment, Mission changes, and campaigns.
+- A complete `1/1` Equipment Blueprint follows the same fragment rule; it is not a carried field item and requires no extraction.
+- Completing an Output Blueprint adds its Equipment to the shared stash, but it cannot be equipped until a Hub visit.
 - If its only compatible Specialization is still concealed, the completed unlock persists but remains hidden from ordinary Equipment selection until that Specialization unlocks.
-- Mission failure or abandonment loses the unextracted discovery, not previously owned Equipment.
 - An [[CONTEXT#equipment-imprint|Equipment Imprint]] reveals an acquisition source or path; it does not directly place the item in the stash.
-- A Specialization's initial three-item set is the exception: it enters the crew stash with that Specialization so the newly unlocked configuration is immediately playable. Later alternatives use ordinary Equipment acquisition.
+- A Specialization's initial three-item set is the exception: it enters the crew stash with that Specialization so the newly unlocked configuration is immediately playable. Later alternatives use Blueprint acquisition.
 
 ## Accepted categories
 

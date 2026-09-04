@@ -106,7 +106,7 @@ $$
 | $M_{min}$ | Move budget when hacking begins at minimum Access |
 | $M_{max}$ | Maximum move budget granted at full Access |
 
-> **Accepted** — At minimum Access, every required hacking board has at least one solution within $M_{min}$. Additional Access provides error tolerance, alternate board routes, or moves for optional discovery nodes; the interface never permits a mathematically impossible required attempt.
+> **Accepted** — At minimum Access, every required hacking board has at least one solution within $M_{min}$. Every displayed field Discovery Node is individually reachable at maximum Access by any RELAY Specialization without a Hack Module. Additional Access and Null modules provide error tolerance, alternate routes, or multi-node efficiency; the interface never permits a mathematically impossible required attempt.
 
 Access applies only to combat System Targets. Safe route locks and authored machinery open directly into fixed-budget boards that always permit at least one valid solution. Their failure resets after a short delay without permanently removing the route; every RELAY Specialization receives the same board and budget.
 

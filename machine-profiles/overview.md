@@ -37,8 +37,10 @@ Multiple profiles may reference the same Integration, Hack Program, Equipment it
 | Required fragments | Defines that track's completion requirement. |
 | Enemy-drop eligible | Determines whether ordinary defeats may roll the fragment. |
 | Field Discovery Node | Determines whether source-machine Hack boards expose it. |
-| Hub research node | Determines whether Research Terminal boards expose it after Machine Blueprint completion. |
+| Hub research node | Identifies the finite Research Terminal nodes that guarantee completion after Machine Blueprint completion. |
 | Notes | Records exceptional conditions or concealed compatibility. |
+
+`Enemy-drop eligible = yes` always requires `Field Discovery Node = yes`, ensuring RELAY can deliberately pursue anything that another Character may receive randomly from that machine. Profiles may also define Hack-only outputs with enemy drop `no` and field node `yes`. Every machine-linked output must provide enough finite Hub research nodes for completion once its Machine Blueprint is complete.
 
 Mission pages own unique authored pickup placements and Boss or chest bundles. [[Gameplay/Blueprints|Blueprints and Research]] owns shared drop, persistence, completion, and board rules.
 

@@ -141,7 +141,8 @@ The game does not expose biome Memory Imprints as a four-part route checklist du
 | Bullets fired and accuracy | Familiar performance context |
 | Biome Memory Imprints found out of 4 | First explicit evidence that the lore forms an incomplete set |
 | Specializations unlocked out of 12 | Shows that substantial crew development remains |
-| Blueprint Fragments collected out of total | Reveals the full loot-discovery scope only after an ending |
+| Blueprint Research completed out of total | Reveals completed fragment requirements across Machine and Output Blueprints |
+| Unique World Collectibles found out of total | Reveals authored pickup placements separately from Blueprint completion |
 | Total game completion | Summarizes all accepted completion categories; exact weighting remains unresolved |
 
 Performance statistics are informational only. Completion time, enemy count, shots, accuracy, score, difficulty, and similar metrics never affect ending or hidden-route eligibility. Only the twelve in-campaign Specializations and four biome Memory Imprints establish access.

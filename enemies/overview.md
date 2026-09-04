@@ -20,6 +20,12 @@ High and low shots are separate lanes within one horizontal direction.
 - [[Enemies/Horizontal Sentry|Horizontal Sentry]] — controls a lane and teaches jump/slide projectile reading.
 - [[Enemies/Shield Enforcer|Shield Enforcer]] — advances behind impenetrable frontal armour and forces repositioning.
 
+## Blueprint loot ownership
+
+> **Accepted** — A non-machine enemy may own a Blueprint loot table without receiving a Machine Profile, Hack board, or Hub research entry.
+
+[[Gameplay/Blueprints|Blueprints and Research]] owns shared drop, banking, and completion rules. [[Machine Profiles/Overview|Machine Profiles]] owns machine-archetype loot tables; individual non-machine Enemy pages own only their source-specific eligible Blueprint tracks. Boss and Mission pages own their authored rewards.
+
 ## Enemy-page rule
 
 Every accepted enemy receives one page containing:
@@ -30,6 +36,7 @@ Every accepted enemy receives one page containing:
 - vulnerable and protected states;
 - damage and failure interaction;
 - combinations and placement constraints;
+- source-specific Blueprint loot table when eligible;
 - representative Encounter use;
 - required visual or audio evidence.
 
