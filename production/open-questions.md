@@ -7,6 +7,20 @@ status: in-progress
 
 This page contains questions, not design truth. When a question is resolved, update its canonical page immediately and remove it from the active queue.
 
+## Current continuation
+
+> **TODO — Next session:** Resume from this ordered queue and keep accepted rules on their linked canonical pages rather than copying them here.
+
+| Priority | Next artifact | Completion evidence |
+|---:|---|---|
+| 1 | [[Gameplay/Blueprints|Blueprint vertical slice]] | Add one non-starter source archetype with a Machine Blueprint, cross-crew Output Blueprints, an Enemy or Machine Profile loot table, field Discovery Nodes, ordinary non-RELAY drops, and finite Hub research boards. |
+| 2 | [[Missions/M05|M05 Mesh Dive introduction]] | Define four order-independent Overdrive-module boards that teach the shared grammar without Blueprint rewards. |
+| 3 | [[Gameplay/Controls|Action and control prototype]] | Validate the abstract Action catalogue, directional resolution, ability slots, and equivalent controller/keyboard mappings before accepting bindings. |
+| 4 | [[Gameplay/Blueprints#presentation|Research Terminal presentation]] | Replace the interface placeholder after the vertical slice proves Profile selection, hidden outputs, fragment feedback, and board replay. |
+| 5 | [[Imprints/Overview|Sidebar cleanup]] | Resume the top-down wiki review at Imprints after the Blueprint vertical slice establishes its interaction with Equipment rewards. |
+
+Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Network extraction condition bands, Access values, and Hack Module limits provisional until the vertical slice is playable.
+
 ## One Pager status
 
 > **Accepted** — The first internal One Pager is complete enough to guide deeper design. Remaining uncertainties are explicitly marked and should be resolved through focused design work rather than adding more high-level concepts.
