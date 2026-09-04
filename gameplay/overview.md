@@ -1,6 +1,6 @@
 ---
-title: Gameplay
-summary: The side-scrolling action foundation and the unresolved structure that connects encounters into a complete game.
+title: Gameplay Foundations
+summary: The side-scrolling action foundation and representative validation structure.
 eyebrow: Game design
 status: in-progress
 ---
@@ -33,13 +33,12 @@ Selected supporting elements may include:
 
 Procedural level generation and a complete randomized run reset are outside the current direction. “Roguelite” is therefore too ambiguous to name the structure; this wiki uses **authored campaign** and **death cycle** until the latter is precisely defined.
 
-## System pages
+## Gameplay groups
 
 - [[Gameplay/Core Loop|Core loop]] defines repeated actions, feedback, and consequences.
 - [[Gameplay/Representative Encounter|Representative encounter]] validates the foundation in one freight-terminal slice.
-- [[Gameplay/Mechanics|Mechanics]] owns cross-cutting action, input, camera, damage, and ownership rules.
-- [[Gameplay/Progression|Progression]] defines what changes within a deployment, after death, and across the campaign.
-- [[Gameplay/Overdrive|Specializations and Overdrive]] defines the twelve selectable play styles and their temporary transformations.
+- [[Gameplay/Interaction|Interaction]] maps controls through Actions into contextual gameplay verbs.
+- [[Gameplay/Systems|Shared Systems]] indexes cross-cutting rules, equations, blueprint research, progression, and configuration.
 
 ## Canonical content
 

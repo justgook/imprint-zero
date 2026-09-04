@@ -37,9 +37,6 @@ The Stat Tier mapped into a Specialization's runtime movement values, including 
 RELAY's Character-owned signature verb for entering a paused hacking interface at an authored route, machine, or exposed enemy target.
 _Avoid_: Interface Link
 
-**Interface Projector**:
-RELAY's fixed low-output ranged tool for basic defence and preparing machine targets for Hack.
-
 **System Target**:
 An explicitly authored machine, cybernetic component, equipped system, neural connection, or environmental device compatible with one or more RELAY interactions.
 
@@ -102,11 +99,35 @@ A temporary command or corruption through which Null RELAY consumes a machine's 
 **Hack Program**:
 A permanently learned Null skill that applies one reusable Destructive Hack to compatible targets.
 
-**Discovery Hack**:
-A hacking minigame whose successful completion immediately and permanently teaches an unknown Hack Program.
+**Program Execution**:
+Null's immediate application of a Hack Program when the required effect endpoint falls below its Execution Threshold; Access requirements remain unchanged.
+
+**Execution Threshold**:
+The provisional board-complexity boundary below which Null may skip Mesh Dive for the required effect. Optional Discovery Nodes do not increase this complexity.
+
+**Hack Module**:
+Null-compatible Equipment that modifies field combat Mesh Dives or Program Execution without affecting safe route hacks or Research Terminal boards.
+
+**Discovery Node**:
+An optional target or route inside a hacking minigame that awards one or more output-specific Blueprint Fragments when reached.
+
+**Blueprint Fragment**:
+Persistent, non-fungible progress tied to one specific Machine Blueprint or Output Blueprint.
+
+**Machine Blueprint**:
+The Blueprint Fragment track inside one Machine Profile. Completion immediately unlocks its machine result and authored Hub Mesh Dive research boards.
+
+**Output Blueprint**:
+A Blueprint Fragment track whose completion unlocks one specific producible reward, including Equipment, a Wire Integration, a Hack Program, or another authored module.
 
 **Machine Profile**:
-A persistent `MP###` RELAY arsenal entry for one recovered machine archetype that defines one Network Controlled Unit and references one `WI###` Wire Integration and one `NH###` Null Hack Program.
+A persistent `MP###` source-archetype record containing its Machine Blueprint progress, control compatibility, and linked Output Blueprints. Discovering any associated fragment reveals the Profile without granting its other outputs.
+
+**Research Core**:
+The persistent Blueprint archive and Hub Mesh Dive research system activated by M05 and carried across later Hub transitions.
+
+**Research Terminal**:
+A HUB1, HUB2, or HUB3 interface to the Research Core where any controlled Character may inspect Blueprint progress and completed unlocks or select authored Machine Profile research boards; RELAY performs the resulting Mesh Dive.
 
 **Awareness State**:
 An enemy's current detection relationship to a Character: **Unaware** has no evidence, **Searching** investigates noise or a last known position without target lock, and **Tracking** currently detects and targets the Character. Stun and disorientation remain separate control effects.
@@ -217,27 +238,36 @@ _Avoid in institutional UI_: Coffin
 - A **Character** owns exactly three **Specializations** and one optional-route verb.
 - Every RELAY Specialization uses **Hack** to open the same authored optional routes; Specialization differences change combat-hacking results rather than route eligibility or outcomes.
 - RELAY compatibility is guaranteed through **System Targets** at the Encounter level rather than by making every enemy hackable.
-- Interface Projector hits and explicit unit, integration, control, or environmental effects build **Access**; disabling a compatible standard target may grant maximum Access immediately.
+- RELAY's compatible primary-weapon hits and explicit unit, integration, control, or environmental effects build **Access**; disabling a compatible standard target may grant maximum Access immediately.
 - Minimum **Access** permits combat hacking, while additional Access grants more minigame moves; beginning the minigame consumes the accumulated value, and failure leaves the target with none.
 - Access waits through a short interruption and then decays while no valid effect continues building it.
 - A **Neural Interface Hack** may recover credentials, communications, device logs, or cached sensory records, but retrieved data may remain incomplete, altered, or misinterpreted.
 - The **Mesh** describes a reachable connected space without implying one global system, the **Experiment Network**, or ownership by OPERATOR or Controller.
-- Direct Control, deep research, Discovery Hacks, and resistant-target hacking require a **Mesh Dive**; prepared Null Hack Programs do not.
+- Direct Control, Hub Mesh Dive research, field hacking, and resistant-target hacking require a **Mesh Dive**; prepared Null Hack Programs do not.
 - A **Specialization** owns its **Integrity**, **Defense**, and **Mobility** Stat Tiers and references default and compatible **Equipment** by stable ID.
 - Characters, Specializations, Equipment, enemies, and Bosses supply combat inputs and explicit exceptions; [[Gameplay/Gameplay Math|Gameplay Math]] owns their shared equations.
 - Speaking **Bosses** remain Bosses when their authored role is primarily the Encounter; dual **NPC** and Boss classification is reserved for entities with substantial independent campaign agency beyond the fight.
 - A **Specialization** owns one **Overdrive**.
 - Network RELAY preserves machines as **Controlled Units**, Wire RELAY incorporates machines as **Integrated Modules**, and Null RELAY consumes machines through **Destructive Hacks**.
 - Wire equips one Weapon, one Mobility, and one Systems **Integrated Module**; a **Chassis Integration** occupies all three slots.
-- **Machine Profiles** and their Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs belong to RELAY rather than the crew Equipment stash.
-- Successfully extracting one machine archetype unlocks its **Machine Profile** for Network and Wire and permanently teaches any associated Null **Hack Program**.
-- Successfully completing a **Discovery Hack** executes its **Hack Program** once against the discovery target and guarantees it immediately and permanently without successful extraction or a random unlock roll; Null may then replace one equipped program or keep the current loadout, while any replaced program remains owned but cannot be re-equipped until the Hub; a newly equipped discovery begins ready.
-- Every **Machine Profile** defines a distinct Controlled Unit, while multiple profiles may reference the same **Integrated Module** and still more may share the same **Hack Program**; the catalogue therefore contains more units than modules and more modules than hacks.
+- M05 introduces Mesh Dive boards through Overdrive-module access and activates the persistent **Research Core** and first **Research Terminal** when HUB0 becomes HUB1; Blueprint Fragments neither appear nor accumulate before that transition.
+- After activation, **Blueprint Fragments** are the main shared loot-discovery path, and any Character may contribute fragments toward rewards for any Character or Specialization.
+- Blueprint Fragments, completed Blueprints, discovered Machine Profiles, and Blueprint-produced unlocks persist globally, but remain unavailable in a new campaign until M05 reconnects the Research Terminal archive.
+- Blueprints may unlock producible gameplay rewards but never Characters, Specializations, Overdrive, Memory Imprints, Mission access, required keys, ending evidence, or route prerequisites.
+- A **Machine Profile** contains one Machine Blueprint, zero or one control-compatible Network expression, and zero or more linked Output Blueprints for any Character.
+- HUB1, HUB2, and HUB3 each provide a **Research Terminal** to the persistent Research Core; Hub transitions never remove Blueprint progress or boards.
+- Completing a **Machine Blueprint** immediately unlocks its machine result and authored **Research Terminal** boards; it grants no linked Output Blueprint automatically.
+- Research Terminal boards expose optional **Discovery Nodes** that can eventually supply remaining linked Blueprint Fragments without another field encounter.
+- Wire extraction with an unknown Integration still installed completes that `WI###` Output Blueprint but no Machine Blueprint or unrelated output; an unknown Chassis must remain intact.
+- Intact Network extraction completes the source's **Machine Blueprint**; damaged surviving extraction grants a condition-based subset of at least one fragment, destruction prevents extraction, and no condition grants linked Output Blueprints.
+- Multiple Machine Profiles may reference the same **Integrated Module**, **Hack Program**, Equipment item, or other output, while ineligible source machines may have no Network expression.
+- Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs remain RELAY-owned outputs; `EQ###` Equipment unlocked through the same Blueprint system belongs to the shared crew stash.
+- Null may use **Program Execution** when a board has one required endpoint below the provisional **Execution Threshold**; Hack Modules may modify field thresholds and board constraints but never safe route or Research Terminal boards; incomplete Discovery Nodes preserve an optional Mesh Dive, while completed nodes cause the redundant Dive to disappear.
 - Null's three equipped **Hack Programs** have independent cooldowns; one System Target may carry only one active Destructive Hack, and a consumed target cannot be hacked again.
-- A Network loadout may combine any Controlled Units whose total **Command Cost** does not exceed RELAY's **Command Capacity**.
+- A Network loadout may combine any Controlled Units whose total **Command Cost** does not exceed RELAY's **Command Capacity**; completed control-compatible Machine Blueprints permit repeated instances unless a unique profile explicitly imposes a one-copy limit.
 - Controlled Units cannot execute orders or remain under **Direct Control** beyond RELAY's **Command Range**.
 - Controlled Units may operate ordinary physical or profile-compatible Encounter machinery but cannot perform **Hack**, open Character-gated routes, or collect otherwise inaccessible permanent rewards.
-- Network may preserve an eligible local machine as a **Controlled Unit** or dismantle it for **Salvage**; dismantling a newly controlled discovery forfeits its Machine Profile unlock.
+- Network may preserve an eligible local machine as a **Controlled Unit** or dismantle it for **Salvage**; dismantling forfeits that unit's extraction-based Machine Blueprint Fragment award.
 - Deployed or restored roster units never produce Salvage, and temporary or respawning machines may be explicitly non-salvageable.
 - **Salvage** does not persist beyond the current Mission or come from endlessly respawning enemies.
 - A **Restoration Station** cannot repair Wire Integrations or Chassis, affect Null cooldowns, or rebuild temporary local units.

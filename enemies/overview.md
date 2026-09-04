@@ -9,7 +9,7 @@ Enemy pages define gameplay roles before appearance, statistics, or lore.
 
 ## Directional vocabulary
 
-> **Accepted** — Enemy fire uses the same eight-direction lattice as player fire, but each enemy receives an authored firing envelope.
+> **Accepted** — Enemy fire uses the same directional-resolution model as player attacks, but each enemy receives an authored firing envelope.
 
 Examples include horizontal sentries, downward-firing aerial enemies, diagonal attackers, and advanced enemies using several directions. Directional limits create readable safe spaces and meaningful combinations.
 
@@ -33,7 +33,7 @@ Every accepted enemy receives one page containing:
 - representative Encounter use;
 - required visual or audio evidence.
 
-> **TODO** — Do not add flying, diagonal, or full eight-direction enemies to the flat baseline. Create their pages only when an accepted Encounter requires them.
+> **TODO** — Do not add flying, diagonal, or broad-directional-coverage enemies to the flat baseline. Create their pages only when an accepted Encounter requires them.
 
 ## NPC boundary
 

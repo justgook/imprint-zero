@@ -86,7 +86,7 @@
   - [[Characters/Ram|RAM]]
   - [[Characters/Relay|RELAY]]
 - [[Machine Profiles/Overview|Machine Profiles]]
-  - **Controlled Units**
+  - **Profiles**
   - [[Machine Profiles/MP001|MP001 — Fabricator]]
   - [[Machine Profiles/MP002|MP002 — Line Runner]]
   - [[Machine Profiles/MP003|MP003 — Process Warden]]
@@ -176,6 +176,9 @@
   - [[Equipment/EQ017|Two-Handed War Hammer]]
   - [[Equipment/EQ018|Kinetic Tether]]
   - [[Equipment/EQ019|Commitment Servos]]
+  - [[Equipment/EQ020|Adaptive Chain Sickles]]
+  - [[Equipment/EQ021|Conductor Whip]]
+  - [[Equipment/EQ022|Dorsal Tendrils]]
 
 ## Game Text
 
@@ -190,11 +193,16 @@
 
 ## Gameplay
 
-- [[Gameplay/Overview|Gameplay]]
+- [[Gameplay/Overview|Foundations]]
   - [[Gameplay/Core Loop|Core loop]]
   - [[Gameplay/Representative Encounter|Representative encounter]]
+- [[Gameplay/Interaction|Interaction]]
+  - [[Gameplay/Actions|Actions]]
+  - [[Gameplay/Controls|Controls]]
+- [[Gameplay/Systems|Shared Systems]]
   - [[Gameplay/Mechanics|Mechanics]]
   - [[Gameplay/Gameplay Math|Gameplay math]]
+  - [[Gameplay/Blueprints|Blueprints and research]]
   - [[Gameplay/Progression|Progression]]
   - [[Gameplay/Overdrive|Specializations and Overdrive]]
 

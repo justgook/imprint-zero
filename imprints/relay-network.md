@@ -7,7 +7,7 @@ status: in-progress
 
 One of the eight Specialization Imprints recovered across B03–B06.
 
-> **Accepted** — Unlocking Network makes every owned Machine Profile available as a Controlled Unit under RELAY's five-point Command Capacity.
+> **Accepted** — Unlocking Network makes every completed, control-compatible Machine Blueprint available for unit production and roster selection under RELAY's five-point Command Capacity.
 
 [[Characters/Relay#c42--network|RELAY]] owns commands, Direct Control, unit loss, Salvage, and Distributed Mind. [[Machine Profiles/Overview|Machine Profiles]] owns the unit catalogue and profile acquisition.
 

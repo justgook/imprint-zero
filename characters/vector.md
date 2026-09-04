@@ -133,7 +133,7 @@ Blind Spot grants no invulnerability or intrinsic weapon-damage increase. Attack
 |---|---|---|
 | Primary weapon | `EQ005` — [[Equipment/EQ005|Katana]] | Close-range combinations that may cancel into Phase Shift |
 | Tactical tool | `EQ007` — [[Equipment/EQ007|Flash Charges]] | Briefly disorients enemies to create an aggressive opening |
-| Gear module | `EQ006` — [[Equipment/EQ006|Phase Shifter]] | Spends Phase Charges on an eight-directional invulnerable dash through an adjacent phase layer |
+| Gear module | `EQ006` — [[Equipment/EQ006|Phase Shifter]] | Spends Phase Charges on a directional invulnerable dash through an adjacent phase layer |
 
 ### Skills
 

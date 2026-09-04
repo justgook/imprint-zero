@@ -11,7 +11,7 @@ status: in-progress
 
 1. **Read:** identify terrain, enemies, projectiles, openings, and possible routes.
 2. **Choose:** decide how to advance, evade, position, and attack with the selected character.
-3. **Execute:** combine movement, platforming, eight-direction firing, optional aim-locking, and weapons under pressure.
+3. **Execute:** combine movement, platforming, [[Gameplay/Actions#directional-attack|Directional Attack]], optional [[Gameplay/Actions#aim-lock|Aim Lock]], and weapons under pressure.
 4. **Resolve:** defeat or bypass the threat, absorb feedback, and gain space or access.
 5. **Reframe:** encounter a changed pattern, traversal problem, route, or set-piece phase.
 

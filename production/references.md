@@ -16,7 +16,7 @@ status: in-progress
 ### Neon Abyss
 
 - **Useful:** independent movement and firing through a second-stick shooting control that fires directly from directional input.
-- **Adapt:** quantize gamepad and any mouse-directed input to the same eight gameplay directions.
+- **Explore:** prototype quantized and continuous directional interpretations across controller and mouse input before fixing the shared resolution model.
 - **Avoid:** allowing mouse precision or continuous analogue angles to create a mechanically different aiming model.
 
 ### Mega Man series

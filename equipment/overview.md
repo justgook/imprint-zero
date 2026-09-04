@@ -31,6 +31,8 @@ stateDiagram-v2
 
 - Replacing a carried weapon never removes a previously owned item from the crew stash.
 - A compatible field weapon may be used immediately but becomes permanently Hub-selectable only after successful extraction.
+- Completing a weapon's [[Gameplay/Blueprints|Output Blueprint]] adds it to the shared stash, but it cannot be equipped until a Hub visit.
+- If its only compatible Specialization is still concealed, the completed unlock persists but remains hidden from ordinary Equipment selection until that Specialization unlocks.
 - Mission failure or abandonment loses the unextracted discovery, not previously owned Equipment.
 - An [[CONTEXT#equipment-imprint|Equipment Imprint]] reveals an acquisition source or path; it does not directly place the item in the stash.
 - A Specialization's initial three-item set is the exception: it enters the crew stash with that Specialization so the newly unlocked configuration is immediately playable. Later alternatives use ordinary Equipment acquisition.
@@ -64,16 +66,27 @@ stateDiagram-v2
 | `EQ017` | [[Equipment/EQ017|Two-Handed War Hammer]] | In progress |
 | `EQ018` | [[Equipment/EQ018|Kinetic Tether]] | In progress |
 | `EQ019` | [[Equipment/EQ019|Commitment Servos]] | In progress |
+| `EQ020` | [[Equipment/EQ020|Adaptive Chain Sickles]] | In progress |
+| `EQ021` | [[Equipment/EQ021|Conductor Whip]] | In progress |
+| `EQ022` | [[Equipment/EQ022|Dorsal Tendrils]] | In progress |
 
 ## Character-owned tools
 
 > **Accepted** — Fixed Character tools are part of their owning Character's setup rather than crew-stash Equipment. They receive neither Equipment IDs nor Equipment pages. [[Characters/Rook#common-tools|ROOK's grenades and combat knife]] follow this rule.
 
-> **Accepted** — [[Characters/Relay|RELAY's Machine Profiles]] are Character-owned progression rather than Equipment. Their Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs receive no `EQ###` IDs and cannot transfer through the crew stash.
+> **Accepted** — [[Machine Profiles/Overview|Machine Profiles]] are shared research records rather than Equipment. RELAY's Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs receive no `EQ###` IDs. Physical Equipment unlocked from any Machine Profile receives an `EQ###` ID and follows shared stash rules.
+
+## Hack Modules
+
+> **Accepted** — Hack Modules are Null-compatible Equipment that modify field combat Mesh Dives and Program Execution without changing safe route boards or Research Terminal boards.
+
+Individual items may add board moves, raise the Execution Threshold, extend connection range, delay Access decay, identify Discovery Node rewards or expose additional board information, or reduce authored corrupted-node penalties. Each item owns its explicit modifiers. Capacity, slot count, and cell layout remain deferred.
 
 ## Unknown categories
 
 > **TODO** — Armour, consumables, currencies, key items, secondary weapons, and special weapons do not yet have enough accepted rules for dedicated pages.
+
+> **Deferred — Equipment Capacity:** Test unrestricted slot- or cell-based loadouts before introducing a campaign-wide point budget.
 
 ## Equipment-page rule
 

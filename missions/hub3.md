@@ -27,6 +27,6 @@ flowchart LR
 
 Republic of Dust residents manually adapted the disconnected evacuation and maintenance terminus. Wired communication, shielded electronics, disconnected machinery, and hand servicing keep it outside the experiment network.
 
-The four Character-assigned docking stations preserve the existing Recovery Capsule and Specialization-selection lifecycle. Act IV deaths return the deployed Character to Quiet Terminus without resource loss. Successful Missions may use authored direct routes or return here where campaign structure permits.
+The four Character-assigned docking stations preserve the existing Recovery Capsule and Specialization-selection lifecycle. Residents adapt a shielded local Research Terminal to the crew's persistent Research Core, retaining Blueprint progress, completed unlocks, and Hub Mesh Dive boards without reconnecting Quiet Terminus to the Experiment Network. Act IV deaths return the deployed Character to Quiet Terminus without resource loss. Successful Missions may use authored direct routes or return here where campaign structure permits.
 
 Both B10 and B11 staging areas may be inspected after HS01. Boarding either shielded transport commits the campaign and removes the other investigation; Quiet Terminus does not offer a menu that bypasses that physical choice.

@@ -1,21 +1,15 @@
 ---
 title: Mechanics
-summary: Cross-cutting action, input, camera, damage, and ownership rules shared by canonical game content.
+summary: Cross-cutting movement, combat, camera, damage, and ownership rules shared by canonical game content.
 eyebrow: Gameplay
 status: in-progress
 ---
 
 Canonical content pages own character, enemy, weapon, and item specifications. This page owns only rules that cross those boundaries.
 
-## Shared action verbs
+## Action resolution
 
-- **Move:** control spacing, approach threats, and navigate terrain.
-- **Jump:** cross geometry, evade, and reach routes.
-- **Aim and fire:** apply pressure while managing position and exposure.
-- **Character ability:** invoke the selected character's innate action.
-- **Explore:** notice routes, sealed interactions, and later opportunities.
-
-See [[Characters/Rook|ROOK]] for the accepted baseline implementation.
+[[Gameplay/Actions|Actions]] owns the canonical player-intent glossary, while [[Gameplay/Controls|Controls]] owns physical input mappings. This page owns shared mechanical responses. Character and Equipment pages own only their local interpretation of an Action.
 
 ## Deployment
 
@@ -29,7 +23,7 @@ Each Character and Specialization combination must transform shared verbs throug
 
 > **Accepted** — Baseline movement uses one digital run speed with very quick acceleration and immediate or near-immediate reversal. There is no analogue walk, sprint, or stamina state.
 
-Keyboard and gamepad must produce equivalent movement timing. Exact speed and acceleration require playtesting.
+All supported control schemes must produce equivalent movement timing. Exact speed and acceleration require playtesting.
 
 ## Jump and air control
 
@@ -37,21 +31,19 @@ Keyboard and gamepad must produce equivalent movement timing. Exact speed and ac
 
 Double jump, wall jump, ledge grab, and air dash are absent from the baseline. See [[Characters/Rook|ROOK]] for character-specific limits.
 
-## Aiming and firing
+## Directional Attack
 
-> **Accepted** — Player and enemy fire use the same eight-direction gameplay lattice. Continuous-angle aiming is rejected.
+> **Accepted** — [[Gameplay/Actions#directional-attack|Directional Attack]] carries control-independent attack intent and direction to the equipped primary weapon.
 
-The primary gamepad binding quantizes right-stick direction and begins firing beyond its threshold. Returning to neutral stops firing input. Weapon cadence remains equipment-specific; see [[Equipment/EQ001|Baseline Rifle]].
+The Equipment item owns cadence, continuation, legal redirection, recovery, attack geometry, and resource use. Exact directional resolution and physical mappings remain open pending [[Gameplay/Controls|control prototypes]].
 
-Grounded aim-lock is an optional alternative that plants the character and redirects fire. Keyboard may support directional-fire keys, quantized mouse-directed fire, and aim-lock, but every scheme must produce the same eight gameplay directions.
-
-> **Open question** — Airborne aim-lock and default keyboard bindings.
+[[Gameplay/Actions#aim-lock|Aim Lock]] may provide a constrained alternative where the active Character and Equipment allow it. Its movement restrictions and valid states remain unresolved.
 
 ## Enemy directional envelopes
 
-> **Accepted** — Each [[Enemies/Overview|enemy]] receives an authored subset of the eight-direction lattice. Directional limitations create readable safe spaces and meaningful combinations.
+> **Accepted** — Each [[Enemies/Overview|enemy]] receives an authored directional firing envelope. Directional limitations create readable safe spaces and meaningful combinations.
 
-High and low shots are separate lanes within horizontal fire, not separate aim directions.
+Exact directional resolution remains coupled to the shared Directional Attack prototype. High and low horizontal shots may remain separate authored lanes.
 
 ## Enemy awareness
 
@@ -93,13 +85,13 @@ Damage produces immediate visual/audio feedback, a brief hit reaction, and short
 
 > **Accepted** — RELAY compatibility is guaranteed at the Encounter level rather than by making every enemy hackable.
 
-A System Target may be a robot body, cybernetic implant or prosthesis, equipped weapon or shield, authored neural connection, or environmental machine. Truly unconnected organisms remain unhackable. Encounters containing them must provide recurring compatible systems or environmental targets that sustain Null's intended combat loop; RELAY's weak Interface Projector cannot be treated as the primary solution to an otherwise incompatible Mission.
+A System Target may be a robot body, cybernetic implant or prosthesis, equipped weapon or shield, authored neural connection, or environmental machine. Truly unconnected organisms remain unhackable. Encounters containing them must provide recurring compatible systems or environmental targets that sustain Null's intended combat loop; RELAY's primary-weapon damage cannot be treated as the sole solution to an otherwise incompatible Mission.
 
 > **Accepted** — Every open-campaign Mission contains at least one authored Network restoration station, ordinarily near its midpoint or before its final Encounter. Optional routes may add earlier or additional stations. A station may rebuild destroyed units from the deployed roster while Mission-local Salvage remains; it does not restore temporary local units that were never deployed. Restoration Stations are Network-exclusive: they cannot repair Wire Integrations or Chassis and cannot affect Null Hack Program cooldowns.
 
 Every RELAY Specialization sees a coarse Access meter and its minimum activation threshold on compatible resistant targets. Wire's Sensor Array may expose exact Access, available minigame moves, decay timing, compatibility and resistance tags, authored weak points, and predicted Blackout chains.
 
-Compatible resistant targets display an Access meter. Interface Projector hits and explicit unit, integration, control, or environmental effects build Access; stunning or disabling a compatible standard target may grant maximum Access immediately. After reaching minimum Access, the player may begin hacking or continue building toward the maximum for a larger move budget. Access waits through a short interruption and then decays gradually. Starting the minigame consumes the accumulated value, Access freezes while that paused interface is active, and failure leaves the target with none. Known Null programs against standard targets remain immediate target-and-activate actions.
+Compatible resistant targets display an Access meter. Compatible primary-weapon hits and explicit unit, integration, control, or environmental effects build Access; stunning or disabling a compatible standard target may grant maximum Access immediately. After reaching minimum Access, the player may begin hacking or continue building toward the maximum for a larger move budget. Access waits through a short interruption and then decays gradually. Starting the minigame consumes the accumulated value, Access freezes while that paused interface is active, and failure leaves the target with none.
 
 For accumulated Access $A \ge A_{min}$, the move budget uses the provisional relationship:
 
@@ -117,6 +109,21 @@ $$
 > **Accepted** — At minimum Access, every required hacking board has at least one solution within $M_{min}$. Additional Access provides error tolerance, alternate board routes, or moves for optional discovery nodes; the interface never permits a mathematically impossible required attempt.
 
 Access applies only to combat System Targets. Safe route locks and authored machinery open directly into fixed-budget boards that always permit at least one valid solution. Their failure resets after a short delay without permanently removing the route; every RELAY Specialization receives the same board and budget.
+
+## Null Program Execution
+
+> **Accepted** — Null converts sufficiently simple Hack endpoints into immediate **Program Execution** without changing their Access requirement.
+
+A provisional base Execution Threshold treats a board as simple when its required effect has one endpoint and an optimal solution under `10` moves. Null-compatible Hack Modules may raise the field threshold, add combat-board moves, extend connection range, delay Access decay, expose board information, or reduce authored corrupted-node penalties. Exact base and modifier values require prototypes.
+
+| Board state | Null result |
+|---|---|
+| Incomplete Discovery Nodes remain and endpoint is below threshold | Choose immediate Program Execution or optional Mesh Dive for fragments |
+| No Discovery Nodes remain and endpoint is below threshold | Program Execution only; redundant Mesh Dive is hidden |
+| Endpoint exceeds threshold, has multiple required targets, or uses exceptional constraints | Mesh Dive required |
+| Boss or protected subsystem | Uses the same test plus any authored minimum-complexity exception |
+
+The threshold ignores optional Discovery Nodes. Standard-target execution remains immediate; resistant targets still require minimum Access before either result. Wire and Network receive no Program Execution shortcut. Program Execution never skips safe route boards or Research Terminal boards. Hack Module modifiers apply only to field combat Mesh Dives; Hub research remains fixed and identical across RELAY Specializations.
 
 ## Environmental exposure
 

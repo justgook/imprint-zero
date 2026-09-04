@@ -8,7 +8,7 @@ act: 2
 
 ## Purpose
 
-> **Accepted** — HUB1 is the fully assembled Act II state of the same physical space used by HUB0. M05 activates existing infrastructure without relocating the crew or changing the architecture and floor plan. The central route terminal, Imprint and Overdrive analysis interfaces, and evidence archive become functional; lighting and visible data flow connect systems that appeared dormant during HUB0.
+> **Accepted** — HUB1 is the fully assembled Act II state of the same physical space used by HUB0. M05 activates existing infrastructure without relocating the crew or changing the architecture and floor plan. The central route terminal, Research Terminal, Imprint and Overdrive analysis interfaces, and evidence archive become functional; lighting and visible data flow connect systems that appeared dormant during HUB0.
 
 Serve as the Act II campaign Hub where the assembled crew prepares and chooses among the four open biome routes.
 
@@ -22,13 +22,15 @@ flowchart LR
         Coffins[Four Coffin stations<br/>Character + Specialization]
         Equipment[Equipment preparation]
         Route[Central route terminal]
+        Research[Research Terminal<br/>Blueprints + specimens]
         Analysis[Imprint + Overdrive analysis]
         Archive[Evidence archive]
     end
     Coffins <--> Equipment
     Equipment <--> Test[Attached safe test lane]
     Equipment <--> Route
-    Route <--> Analysis
+    Route <--> Research
+    Research <--> Analysis
     Analysis <--> Archive
     Route -->|Confirmed M06 point of no return| HUB2[HUB2]
 ```

@@ -62,13 +62,13 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Baseline camera:** smooth side-follow with dead zones, gradual movement-based look-ahead, vertical bias, authored bounds, backward support, and no forced scrolling.
 - **Baseline encounter sequence:** safe arrival, low-fire sentry, high-fire sentry, Shield Enforcer, brief reset, crane-plus-sentry, then rail-control terminal.
 - **Baseline advancing enemy:** the Shield Enforcer's frontal armour completely blocks rifle fire; a committed charge exposes its rear and forces repositioning.
-- **Enemy aiming vocabulary:** enemies use the same eight-direction lattice but receive authored firing envelopes; the baseline horizontal sentry teaches deterministic low and high lanes.
+- **Enemy aiming vocabulary:** enemies use the shared directional-resolution model but receive authored firing envelopes; the baseline horizontal sentry teaches deterministic low and high lanes.
 - **Baseline movement:** one digital run speed, quick acceleration, immediate or near-immediate reversal, no walk, sprint, or stamina state.
 - **Baseline jump:** one variable-height jump, moderate air control, faster fall, short coyote time and input buffering; no double jump, wall jump, ledge grab, or air dash.
 - **Baseline health:** provisional five-segment integrity; standard attacks remove one, heavy hazards may remove two, and ordinary threats do not one-hit kill.
 - **Baseline rifle ammunition:** unlimited, with no reload or heat mechanic; special weapons may introduce resource constraints later.
-- **Baseline rifle cadence:** continuous medium-cadence fire while directional input is active; releasing input stops fire immediately.
-- **Aiming model:** eight gameplay directions; the primary gamepad binding quantizes right-stick direction and fires while active. Optional grounded aim-lock supports directional fire without movement; continuous-angle aiming is rejected.
+- **Baseline rifle cadence:** continuous medium-cadence fire while [[Gameplay/Actions#directional-attack|Directional Attack]] remains active; withdrawing attack intent stops fire immediately.
+- **Attack direction and controls:** exact directional resolution and physical mappings remain unresolved; [[Gameplay/Actions|Actions]] owns intent and [[Gameplay/Controls|Controls]] owns device mappings.
 - **ROOK capability:** a committed combat slide passes beneath high threats without invulnerability or contact damage.
 - **Freight hazard:** a telegraphed overhead crane cycles a cargo container that alternately blocks the lane and the sentry's line of sight.
 - **Baseline threat sequence:** teach a ranged sentry, then an advancing enemy, then combine the sentry with one timed freight hazard.
@@ -87,7 +87,7 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Design pillars:** familiarity without repetition, character choice transforms play, and discovery changes understanding and action. See [[Design/Design Pillars|Design pillars]].
 - **Release mode:** strictly single-player, with one locally controlled character per deployment and no multiplayer requirement. See [[Production/Scope|Scope and non-goals]].
 - **Campaign size:** target a compact 3–5 hour first successful completion, with replay extending engagement through character and discovery variation. See [[Production/Scope|Scope and non-goals]].
-- **Platform and input:** PC first; gamepad defines action design; fully remappable keyboard controls are required. See [[Production/Scope|Scope and non-goals]].
+- **Platform and input:** PC first; controller and keyboard/mouse must expose equivalent remappable Actions. See [[Gameplay/Controls|Controls]] and [[Production/Scope|Scope and non-goals]].
 - **Macro structure:** authored campaign with selective exploration and death-cycle elements. See [[Gameplay/Progression|Progression]].
 - **Procedural generation:** not part of the current direction. See [[Production/Scope|Scope and non-goals]].
 - **Character death:** unlocked authored characters remain available for free reselection. See [[Characters/Overview|Playable crew]].

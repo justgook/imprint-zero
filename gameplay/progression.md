@@ -41,7 +41,7 @@ Visual design, silhouette, carried equipment, and animation should imply the bro
 
 ## Mission compatibility
 
-> **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. M01 begins with one Character, later Missions expand the available roster, M04 features its required new Character, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
+> **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. Completed M01–M04 Missions are one-way campaign steps and cannot be revisited during that playthrough. M01 begins with one Character, later Missions expand the available roster, M04 features its required new Character, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
 
 > **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. An inaccessible optional route should use a consistent Character-specific affordance: mysterious before that Character's introduction, recognizable afterward, and confirmable through brief wrong-Character feedback without revealing its contents.
 
@@ -130,7 +130,7 @@ Challenge should grow through new patterns, spatial demands, enemy combinations,
 
 > **Accepted** — The Standard ending resolves the immediate campaign conflict and must feel like a satisfying standalone completion. Deeper routes add evidence and interpretation rather than repairing an intentionally incomplete ending.
 
-> **Accepted** — One unusually thorough campaign can reach the extended true route by satisfying its in-campaign requirements. Cross-run progression is not required, but a blind first completion is expected to miss evidence and motivate another campaign.
+> **Accepted** — One unusually thorough campaign can reach the extended true route by satisfying its in-campaign requirements. Cross-run story progression is not required, but a blind first completion is expected to miss evidence and motivate another campaign.
 
 The game does not expose biome Memory Imprints as a four-part route checklist during play. They should initially read as optional lore. Both the Standard and early Communion endings reveal the same results-report structure, placing ordinary performance statistics beside previously hidden completion totals.
 
@@ -141,8 +141,12 @@ The game does not expose biome Memory Imprints as a four-part route checklist du
 | Bullets fired and accuracy | Familiar performance context |
 | Biome Memory Imprints found out of 4 | First explicit evidence that the lore forms an incomplete set |
 | Specializations unlocked out of 12 | Shows that substantial crew development remains |
+| Blueprint Fragments collected out of total | Reveals the full loot-discovery scope only after an ending |
+| Total game completion | Summarizes all accepted completion categories; exact weighting remains unresolved |
 
 Performance statistics are informational only. Completion time, enemy count, shots, accuracy, score, difficulty, and similar metrics never affect ending or hidden-route eligibility. Only the twelve in-campaign Specializations and four biome Memory Imprints establish access.
+
+Mission-level Blueprint totals, unseen pickups, and hidden rooms remain undisclosed during play. The ending report is the first place that reveals the full Blueprint denominator and total game completion. Reaching any ending permanently unlocks a completion ledger that retains those category totals and historical statistics for future campaigns without revealing locations or solutions.
 
 The report does not announce a true ending or explain how the missing discoveries interact. A Communion completion may show much lower campaign completion than the Standard ending; that contrast is intentional. The report's purpose is to let the player infer that the campaign contains a larger pattern and choose to investigate it.
 
@@ -152,8 +156,9 @@ The report does not announce a true ending or explain how the missing discoverie
 |---|---|
 | Character availability and campaign sequence | Viewed memory and lore scenes |
 | Specializations and Equipment Imprints | Character-specific variants already witnessed |
-| Acquired equipment and campaign resources | Previous ending reports and performance statistics |
+| Campaign-only Equipment and resources not backed by a completed global Blueprint | Previous ending reports and performance statistics |
 | Biome Memory Imprints and hidden-route eligibility | Completed-ending record |
+| — | Blueprint Fragments, completed Blueprints, Machine Profiles, and Blueprint-produced unlocks |
 
 HUB1's evidence archive separates **Current operation** evidence from visibly archival **Prior records**. Both allow individual review, but neither exposes route counters or eligibility before a non-true ending report. The global archive helps the player compare evidence across completions but never satisfies an in-campaign requirement. Each attempt at the extended route must recover its required Specializations and biome Memory Imprints within that campaign. Additional completions expose alternative Character perspectives, routes, discoveries, and interpretations without producing one objectively complete explanation of the crew's origin.
 

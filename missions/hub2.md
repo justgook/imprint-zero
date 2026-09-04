@@ -25,4 +25,4 @@ flowchart LR
 
 The crew knows that launching M06 permanently closes B03–B06 but still understands OPERATOR's recall as a routine return for debriefing. “Final assault” describes HUB2's campaign function, not the crew's knowledge.
 
-The four Recovery Capsule docking stations retain the Character and Specialization selection lifecycle established in earlier Hubs. Act III deaths return the deployed Character here without resource loss.
+The four Recovery Capsule docking stations retain the Character and Specialization selection lifecycle established in earlier Hubs. A local Research Terminal connects to the Research Core activated in M05, preserving Blueprint progress, completed unlocks, and Hub Mesh Dive boards. Act III deaths return the deployed Character here without resource loss.
