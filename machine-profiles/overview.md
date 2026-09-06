@@ -49,7 +49,7 @@ Mission pages own unique authored pickup placements and Boss or chest bundles. [
 ```mermaid
 stateDiagram-v2
     [*] --> Unknown
-    Unknown --> Discovered: Any associated Blueprint Fragment found
+    Unknown --> Discovered: Any associated Data Fragment found
     Discovered --> MachineComplete: Machine Blueprint requirement completed
     MachineComplete --> MachineComplete: Research discovered output tracks
 ```
@@ -58,9 +58,9 @@ A discovered Profile displays only known information and fragment progress. Conc
 
 ## Acquisition relationship
 
-- Any Character may contribute [[Gameplay/Blueprints|Blueprint Fragments]] through combat, drops, chests, Boss rewards, or authored exploration.
+- Any Character may contribute [[Gameplay/Blueprints|Data Fragments]] through combat, drops, chests, Boss rewards, or authored exploration.
 - RELAY may collect fragments by routing through optional Discovery Nodes inside field or Hub hacking boards.
-- Network extraction awards Machine Blueprint fragments only. Unit condition changes the award, but successful extraction always grants at least one.
+- Network extraction awards Data Fragments for the Machine Blueprint only. Unit condition changes the award, but successful extraction always grants at least one.
 - Completing a Machine Blueprint immediately unlocks its machine result and persistent authored Hub research boards; it does not unlock linked outputs.
 - RELAY may use those boards to recover remaining linked fragments.
 - Network may produce and deploy the completed machine pattern only when this Profile marks it control-compatible.

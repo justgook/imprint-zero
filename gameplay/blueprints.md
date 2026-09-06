@@ -1,13 +1,13 @@
 ---
 title: Blueprints and Research
-summary: Shared loot progression from output-specific fragments through HUB unlocks and active Mesh Dive research.
+summary: Shared loot progression from output-specific Data Fragments through HUB unlocks and active Mesh Dive research.
 eyebrow: Shared gameplay system
 status: in-progress
 ---
 
 ## Ownership
 
-> **Accepted** — Blueprint Fragments are the main shared discovery path for producible gameplay rewards. Any deployed Character may contribute progress for any Character or Specialization.
+> **Accepted** — Data Fragments are the main shared discovery path for producible gameplay rewards. Any deployed Character may contribute progress for any Character or Specialization.
 
 This page owns fragment progression, direct unlocks, and the HUB Research Terminal. [[Machine Profiles/Overview|Machine Profiles]] owns source-machine compatibility and linked output mappings. Equipment and Character pages own the unlocked item's behaviour and compatibility.
 
@@ -32,23 +32,23 @@ Random drops, optional pickups, and Hub research therefore cannot block campaign
 | **Machine Blueprint** | Advances the machine track inside one `MP###` record | Unlocks the machine result and its Hub Mesh Dive research boards; Network may deploy it only when control-compatible |
 | **Output Blueprint** | Advances one specific reward | Immediately unlocks its Equipment item, Wire Integration, Hack Program, module, or other authored output |
 
-A **Blueprint Fragment** is always tied to one specific Machine Blueprint or Output Blueprint. It is not fungible currency. Requirements may be `1/1`, `1/3`, or another authored count. A `1/1` Equipment Blueprint represents a complete discovery while retaining the same immediate banking and unlock rules; it is never carried as an unextracted item.
+A **Data Fragment** is raw research data tied to one specific Machine Blueprint or Output Blueprint. It is not fungible currency. Requirements may be `1/1`, `1/3`, or another authored count. A `1/1` Equipment Blueprint represents a complete discovery while retaining the same immediate banking and unlock rules; it is never carried as an unextracted item.
 
 ## Discovery flow
 
 ```mermaid
 flowchart TD
-    Combat[Combat drops] --> Fragments[Output-specific Blueprint Fragments]
+    Combat[Combat drops] --> Fragments[Output-specific Data Fragments]
     Exploration[Chests, Bosses, and authored exploration] --> Fragments
     Hack[Optional Hack-board targets] --> Fragments
-    Extraction[Network machine extraction] --> MachineFragments[Machine Blueprint Fragments]
+    Extraction[Network machine extraction] --> MachineFragments[Data Fragments for Machine Blueprint]
     MachineFragments --> Fragments
 
     Fragments --> Complete{Machine Blueprint complete?}
     Complete -->|No| Progress[Persistent partial progress]
     Complete -->|Yes| MachineUnlock[Unlock machine result + HUB research boards]
     MachineUnlock --> HubDive[RELAY performs authored HUB Mesh Dives]
-    HubDive --> OutputFragments[Linked Output Blueprint Fragments]
+    HubDive --> OutputFragments[Data Fragments for linked Output Blueprints]
     OutputFragments --> Unlocks[Equipment, Integrations, Programs, and modules]
 ```
 
@@ -56,11 +56,11 @@ flowchart TD
 
 > **Accepted** — M05 introduces Mesh Dive boards through its Overdrive-module access trials, then activates the Research Terminal and Blueprint system when HUB0 transitions into HUB1.
 
-Before M05 completion, Blueprint Fragments do not spawn, drop, accumulate invisibly, or appear in interfaces. RELAY's M04 starter arsenal exists as authored starting gear rather than pre-terminal Blueprint rewards; activation imports those three Helix source records as completed starter research. M01–M04 cannot be revisited after completion, and M05 has no ordinary Blueprint loot: its four order-flexible Overdrive-module boards use fixed solvable budgets, unlimited short-reset retries, and no Discovery Nodes. Normal field discovery and Hub Mesh Dive research begin in Act II.
+Before M05 completion, Data Fragments do not spawn, drop, accumulate invisibly, or appear in interfaces. RELAY's M04 starter arsenal exists as authored starting gear rather than pre-terminal Blueprint rewards; activation imports those three Helix source records as completed starter research. M01–M04 cannot be revisited after completion, and M05 has no ordinary Blueprint loot: its four order-flexible Overdrive-module boards use fixed solvable budgets, unlimited short-reset retries, and no Discovery Nodes. Normal field discovery and Hub Mesh Dive research begin in Act II.
 
 ## Field sources
 
-- Any Character may recover Blueprint Fragments from eligible enemy drops, chests, Boss rewards, or authored exploration.
+- Any Character may recover Data Fragments from eligible enemy drops, chests, Boss rewards, or authored exploration.
 - Enemy fragments may appear as generic physical pickups whose world appearance does not reveal their contents or create a seen-state record. Collection banks and identifies them immediately, while uncollected drops disappear when the Encounter resets or the Mission ends.
 - Collection feedback names the target Blueprint and updated progress. An output tied exclusively to a concealed Specialization uses neutral wording until that Specialization unlocks; an explicitly authored mystery fragment may remain unidentified until terminal analysis.
 - Discovery Nodes, chests, Boss awards, and authored world pickups bank immediately when completed or collected.
@@ -97,11 +97,11 @@ Before M05 completion, Blueprint Fragments do not spawn, drop, accumulate invisi
 
 > **Accepted** — Extracting with an unknown compatible Wire Integration still installed completes that specific `WI###` Output Blueprint.
 
-An unknown Chassis must remain intact through extraction. Replacing, ejecting, abandoning, or losing the unknown Integration forfeits this extraction reward, while Blueprint Fragments already banked from Discovery Nodes remain safe. Wire extraction does not complete the source Machine Blueprint or unrelated outputs.
+An unknown Chassis must remain intact through extraction. Replacing, ejecting, abandoning, or losing the unknown Integration forfeits this extraction reward, while Data Fragments already banked from Discovery Nodes remain safe. Wire extraction does not complete the source Machine Blueprint or unrelated outputs.
 
 ## Network extraction
 
-> **Accepted** — Bringing an eligible Controlled Unit through successful extraction awards only its Machine Blueprint fragments, never its internal Output Blueprints automatically.
+> **Accepted** — Bringing an eligible Controlled Unit through successful extraction awards only Data Fragments for its Machine Blueprint, never its internal Output Blueprints automatically.
 
 An intact extracted unit grants every missing fragment and completes its Machine Blueprint. A damaged surviving unit grants a condition-based subset, never fewer than one; a destroyed unit cannot be extracted. Temporary local units cannot use Restoration Stations before extraction. Exact damage bands and partial-fragment counts remain unresolved.
 
@@ -145,7 +145,7 @@ Completing a Machine Blueprint does not guarantee a Network unit. A control-comp
 
 ## Persistence across campaigns
 
-> **Accepted** — Blueprint Fragments, completed Blueprints, discovered Machine Profiles, and Blueprint-produced unlocks persist globally across campaigns.
+> **Accepted** — Data Fragments, completed Blueprints, discovered Machine Profiles, and Blueprint-produced unlocks persist globally across campaigns.
 
 A new campaign still exposes no Blueprint drops or interfaces before M05. Research Terminal activation reconnects the global archive; compatible produced Equipment becomes available as its Character and Specialization unlock. Story state, Character and Specialization unlocks, Mission state, and true-route requirements continue to reset. Global Blueprint completion cannot satisfy an in-campaign Memory Imprint, Specialization, or ending prerequisite.
 

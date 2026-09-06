@@ -159,7 +159,7 @@ The report does not announce a true ending or explain how the missing discoverie
 | Specializations and Equipment Imprints | Character-specific variants already witnessed |
 | Campaign-only Equipment and resources not backed by a completed global Blueprint | Previous ending reports and performance statistics |
 | Biome Memory Imprints and hidden-route eligibility | Completed-ending record |
-| — | Blueprint Fragments, completed Blueprints, Machine Profiles, and Blueprint-produced unlocks |
+| — | Data Fragments, completed Blueprints, Machine Profiles, and Blueprint-produced unlocks |
 
 HUB1's evidence archive separates **Current operation** evidence from visibly archival **Prior records**. Both allow individual review, but neither exposes route counters or eligibility before a non-true ending report. The global archive helps the player compare evidence across completions but never satisfies an in-campaign requirement. Each attempt at the extended route must recover its required Specializations and biome Memory Imprints within that campaign. Additional completions expose alternative Character perspectives, routes, discoveries, and interpretations without producing one objectively complete explanation of the crew's origin.
 

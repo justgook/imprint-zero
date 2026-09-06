@@ -109,16 +109,16 @@ The provisional board-complexity boundary below which Null may skip Mesh Dive fo
 Null-compatible Equipment that modifies field combat Mesh Dives or Program Execution without affecting safe route hacks or Research Terminal boards.
 
 **Discovery Node**:
-An optional target or route inside a hacking minigame that awards one or more output-specific Blueprint Fragments when reached.
+An optional target or route inside a hacking minigame that awards one or more output-specific Data Fragments when reached.
 
-**Blueprint Fragment**:
-Persistent, non-fungible progress tied to one specific Machine Blueprint or Output Blueprint.
+**Data Fragment**:
+Raw research data that provides persistent, non-fungible progress toward one specific Machine Blueprint or Output Blueprint.
 
 **Machine Blueprint**:
-The Blueprint Fragment track inside one Machine Profile. Completion immediately unlocks its machine result and authored Hub Mesh Dive research boards.
+A Data Fragment track inside one Machine Profile. Completion immediately unlocks its machine result and authored Hub Mesh Dive research boards.
 
 **Output Blueprint**:
-A Blueprint Fragment track whose completion unlocks one specific producible reward, including Equipment, a Wire Integration, a Hack Program, or another authored module.
+A Data Fragment track whose completion unlocks one specific producible reward, including Equipment, a Wire Integration, a Hack Program, or another authored module.
 
 **Machine Profile**:
 A persistent `MP###` source-archetype record containing its Machine Blueprint progress, control compatibility, and linked Output Blueprints. Discovering any associated fragment reveals the Profile without granting its other outputs.
@@ -250,9 +250,9 @@ _Avoid in institutional UI_: Coffin
 - A **Specialization** owns one **Overdrive**.
 - Network RELAY preserves machines as **Controlled Units**, Wire RELAY incorporates machines as **Integrated Modules**, and Null RELAY consumes machines through **Destructive Hacks**.
 - Wire equips one Weapon, one Mobility, and one Systems **Integrated Module**; a **Chassis Integration** occupies all three slots.
-- M05 introduces Mesh Dive boards through Overdrive-module access and activates the persistent **Research Core** and first **Research Terminal** when HUB0 becomes HUB1; Blueprint Fragments neither appear nor accumulate before that transition.
-- After activation, **Blueprint Fragments** are the main shared loot-discovery path, and any Character may contribute fragments toward rewards for any Character or Specialization.
-- Blueprint Fragments, completed Blueprints, discovered Machine Profiles, and Blueprint-produced unlocks persist globally, but remain unavailable in a new campaign until M05 reconnects the Research Terminal archive.
+- M05 introduces Mesh Dive boards through Overdrive-module access and activates the persistent **Research Core** and first **Research Terminal** when HUB0 becomes HUB1; Data Fragments neither appear nor accumulate before that transition.
+- After activation, **Data Fragments** are the main shared loot-discovery path, and any Character may contribute fragments toward rewards for any Character or Specialization.
+- Data Fragments, completed Blueprints, discovered Machine Profiles, and Blueprint-produced unlocks persist globally, but remain unavailable in a new campaign until M05 reconnects the Research Terminal archive.
 - Blueprints may unlock producible gameplay rewards but never Characters, Specializations, Overdrive, Memory Imprints, Mission access, required keys, ending evidence, or route prerequisites.
 - A **Machine Profile** contains one Machine Blueprint, zero or one control-compatible Network expression, and zero or more linked Output Blueprints for any Character.
 - HUB1, HUB2, and HUB3 each provide a **Research Terminal** to the persistent Research Core; Hub transitions never remove Blueprint progress or boards.
@@ -267,7 +267,7 @@ _Avoid in institutional UI_: Coffin
 - A Network loadout may combine any Controlled Units whose total **Command Cost** does not exceed RELAY's **Command Capacity**; completed control-compatible Machine Blueprints permit repeated instances unless a unique profile explicitly imposes a one-copy limit.
 - Controlled Units cannot execute orders or remain under **Direct Control** beyond RELAY's **Command Range**.
 - Controlled Units may operate ordinary physical or profile-compatible Encounter machinery but cannot perform **Hack**, open Character-gated routes, or collect otherwise inaccessible permanent rewards.
-- Network may preserve an eligible local machine as a **Controlled Unit** or dismantle it for **Salvage**; dismantling forfeits that unit's extraction-based Machine Blueprint Fragment award.
+- Network may preserve an eligible local machine as a **Controlled Unit** or dismantle it for **Salvage**; dismantling forfeits the extraction-based Data Fragments for that unit's Machine Blueprint.
 - Deployed or restored roster units never produce Salvage, and temporary or respawning machines may be explicitly non-salvageable.
 - **Salvage** does not persist beyond the current Mission or come from endlessly respawning enemies.
 - A **Restoration Station** cannot repair Wire Integrations or Chassis, affect Null cooldowns, or rebuild temporary local units.

@@ -20,7 +20,7 @@ status: in-progress
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Progress: Bank first Blueprint Fragment
+    [*] --> Progress: Bank first Data Fragment
     Progress --> Progress: Bank another fragment
     Progress --> CrewStash: Complete Output Blueprint
     CrewStash --> HubLoadout: Select compatible Equipment
@@ -28,7 +28,7 @@ stateDiagram-v2
     MissionLoadout --> CrewStash: Return
 ```
 
-- [[Gameplay/Blueprints|Blueprint Fragments]] bank immediately and persist globally through death, abandonment, Mission changes, and campaigns.
+- [[Gameplay/Blueprints|Data Fragments]] bank immediately and persist globally through death, abandonment, Mission changes, and campaigns.
 - A complete `1/1` Equipment Blueprint follows the same fragment rule; it is not a carried field item and requires no extraction.
 - Completing an Output Blueprint adds its Equipment to the shared stash, but it cannot be equipped until a Hub visit.
 - If its only compatible Specialization is still concealed, the completed unlock persists but remains hidden from ordinary Equipment selection until that Specialization unlocks.
