@@ -28,56 +28,46 @@ The same Imprint may eventually interact differently with different crew members
 
 ## Known Imprints
 
-At least sixteen Imprints are currently defined:
+> **TODO — Equipment catalogue:** Define the number and distribution of Equipment Imprints and link each authored entry to its equipment-access result.
 
-- four [[Imprints/Overdrive|Overdrive Imprints]] recovered during M05 — The Four Trials;
-- eight Specialization Imprints distributed across B03–B06, unlocking two additional Specializations for each crew member;
-- four biome Memory Imprints, one hidden in each of B03–B06.
+| Role | Current count | Catalogue or owning page |
+|---|---:|---|
+| Overdrive | 4 | [[Imprints/Overdrive|The Four Trials]] |
+| ROOK Specializations | 2 | [[Imprints/Rook Heavy|Heavy]], [[Imprints/Rook Assault|Assault]] |
+| VECTOR Specializations | 2 | [[Imprints/Vector Phase|Phase]], [[Imprints/Vector Hunter|Hunter]] |
+| RAM Specializations | 2 | [[Imprints/Ram Siege|Siege]], [[Imprints/Ram Onslaught|Onslaught]] |
+| RELAY Specializations | 2 | [[Imprints/Relay Network|Network]], [[Imprints/Relay Null|Null]] |
+| Biome Memory | 4 | [[Biomes/B03|B03]], [[Biomes/B04|B04]], [[Biomes/B05|B05]], [[Biomes/B06|B06]] |
 
-The number and distribution of Equipment Imprints remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for configuration behavior.
+These sixteen planned Imprints are not all fully authored. [[Gameplay/Overdrive|Specializations and Overdrive]] owns configuration behavior.
 
-## Campaign relationship
+## Equipment and research boundary
 
-Imprints support:
+| Concern | Canonical owner |
+|---|---|
+| Equipment Imprint's narrative payload and revealed acquisition opportunity | The individual Imprint page |
+| Data Fragment progression and Blueprint reward exclusions | [[Gameplay/Blueprints#ownership|Blueprints and research]] |
+| Unlocked item's behavior and compatibility | [[Equipment/Overview|Equipment catalogue]] |
 
-* reinterpretation of known Zones;
-* optional routes and sealed interactions;
-* evidence about the crew’s unreliable identity;
-* progression without procedural world replacement;
-* new choices at the Hub.
+An Equipment Imprint reveals an opportunity; it is not itself a Data Fragment or a completed Equipment unlock.
 
 ## Extended-route prerequisites
 
-> **Open question — Route synthesis:** Does synthesis reveal a location or phrase, create a combined Imprint capability, alter M07 directly, or require both knowledge and a specialized action?
+> **TODO — Biome Imprint authoring:** Define each B03–B06 Imprint's location, discovery challenge, and Character-specific memory payload against the accepted [[Missions/M07#voiceprint-sequence|M07 authentication sequence]].
 
-> **In progress** — Access to the extended true-ending route from M07 requires both complete crew development and hidden memory evidence from every open Act II biome. These requirements must be complete before leaving HUB1 and starting M06; entering HUB2 makes B03–B06 unavailable for the remainder of that campaign.
+Biome Memory Imprints are separate catalogue entries from Specialization Imprints, not alternative rewards for the same discovery.
 
-```mermaid
-flowchart LR
-    Specs[Unlock all crew Specializations] --> Synthesis[Reconstruct hidden route evidence]
-    B03[B03 biome Memory Imprint] --> Synthesis
-    B04[B04 biome Memory Imprint] --> Synthesis
-    B05[B05 biome Memory Imprint] --> Synthesis
-    B06[B06 biome Memory Imprint] --> Synthesis
-    Synthesis --> Lock[Eligibility locked before M06]
-    Lock --> M07[M07 reveals or enables hidden access]
-    M07 --> HS01[HS01 · Extended route]
-```
-
-The four **biome Memory Imprints** are separate from the eight Imprints that unlock additional Specializations. Each biome Imprint must reveal memories relevant to every crew member rather than functioning as a generic key or passive collectible.
-
-During the campaign, biome Memory Imprints are presented as optional lore. The interface must not expose a four-part set, completion counter, or true-route purpose. A non-true ending's results report first reveals how many were found out of four, allowing the player to infer that the memories form a larger pattern.
-
-| Requirement | Current rule | Unresolved detail |
-|---|---|---|
-| Crew development | Unlock all three Specializations for all four crew members | Exact acquisition and validation flow |
-| Hidden evidence | Recover one biome Memory Imprint from each of B03–B06 | Location, challenge, and crew-specific memories |
-| Route synthesis | Combine the four biome memories with the completed crew capabilities | Whether this produces knowledge, a passphrase, a capability, or a hybrid |
-| M07 response | Prior Act II discoveries alter or unlock hidden access during M07 | Exact world change, interaction, and failure feedback |
+| Concern | Canonical owner |
+|---|---|
+| Act II collection deadline | [[Gameplay/Progression#act-ii-mission-availability|Act II Mission availability]] |
+| Eligibility and terminal response | [[Missions/M07#exterior-eligibility|M07 exterior eligibility]] |
+| Memory evidence applied to authentication | [[Missions/M07#voiceprint-sequence|M07 voiceprint authentication]] |
+| Hidden totals and ending-report reveal | [[Gameplay/Progression#completion-and-discovery-report|Completion and discovery report]] |
+| Current-campaign evidence versus archived memories | [[Gameplay/Progression#persistence-across-campaigns|Persistence across campaigns]] |
 
 ## Freight Terminal candidate
 
-> **TODO** — Define the first concrete exploration Imprint only after the flat [[Gameplay/Representative Encounter|Freight Terminal encounter]] works.
+> **TODO — Encounter Imprint:** Define the first concrete exploration Imprint only after the flat [[Gameplay/Representative Encounter|Freight Terminal encounter]] works.
 
 Its later validation must:
 
@@ -88,6 +78,8 @@ Its later validation must:
 
 ## Unknown rules
 
-> **Open question** — Exact acquisition flow, capacity, assignment, transfer, compatibility, and in-campaign loss.
+> **TODO — Acquisition and compatibility:** Resolve exact acquisition flow, capacity, assignment, transfer, and compatibility without assuming Imprints are equippable inventory items.
 
-> **Needs example** — Document one complete Imprint from discovery through narrative revelation and mechanical use.
+> **TODO — Worked example:** Document one complete Imprint from discovery through narrative revelation and mechanical use.
+
+Acquired-reward retention and campaign resets follow [[Gameplay/Progression#death-and-mission-retry|death and Mission retry]] and [[Gameplay/Progression#persistence-across-campaigns|persistence across campaigns]]; death-related Imprint loss is not an open decision.

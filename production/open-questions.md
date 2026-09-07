@@ -9,7 +9,21 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next session:** Resume from this ordered queue and keep accepted rules on their linked canonical pages rather than copying them here.
+> **TODO — Next page:** Continue the cleanup in [[Imprints/Overdrive|The Four Trials]], then review the eight Specialization Imprint pages in `_sidebar.md` order. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+
+The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The current sidebar cursor is **Imprints**. `imprints/overview.md` has received an alignment pass: stale M07 synthesis questions and death-loss uncertainty now link to accepted rules, and the catalogue distinguishes planned entries from fully authored content.
+
+| Cleanup order | Section | Completion evidence |
+|---:|---|---|
+| 1 | [[Imprints/Overview|Imprints]] | Review the remaining child pages in sidebar order; align unlock references, narrative ownership, and unresolved acquisition details. |
+| 2 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
+| 3 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
+| 4 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
+| 5 | Remaining `_sidebar.md` sections | Continue through Game Text, Gameplay, Presentation, Production, and Authoring without changing approval-locked style rules. |
+
+## Parked validation queue
+
+These artifacts remain needed but no longer block the sidebar cleanup. Review unresolved dependencies when their owning page is reached.
 
 | Priority | Next artifact | Completion evidence |
 |---:|---|---|
@@ -17,7 +31,6 @@ This page contains questions, not design truth. When a question is resolved, upd
 | 2 | [[Missions/M05|M05 Mesh Dive introduction]] | Define four order-independent Overdrive-module boards that teach the shared grammar without Blueprint rewards. |
 | 3 | [[Gameplay/Controls|Action and control prototype]] | Validate the abstract Action catalogue, directional resolution, ability slots, and equivalent controller/keyboard mappings before accepting bindings. |
 | 4 | [[Gameplay/Blueprints#presentation|Research Terminal presentation]] | Replace the interface placeholder after the vertical slice proves Profile selection, hidden outputs, fragment feedback, and board replay. |
-| 5 | [[Imprints/Overview|Sidebar cleanup]] | Resume the top-down wiki review at Imprints after the Blueprint vertical slice establishes its interaction with Equipment rewards. |
 
 Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Network extraction condition bands, Access values, and Hack Module limits provisional until the vertical slice is playable.
 

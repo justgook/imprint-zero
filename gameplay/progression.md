@@ -23,7 +23,7 @@ Replay value should come from:
 
 > **Accepted** — Memory Imprints connect discovery to progression. They expose evidence about identity and institutional purpose while granting techniques, knowledge, interactions, or route access.
 
-The canonical Imprint page owns unresolved capacity, assignment, transfer, compatibility, and in-campaign loss rules.
+[[Imprints/Overview#unknown-rules|Imprints]] owns unresolved acquisition, capacity, assignment, transfer, and compatibility questions. Reward retention and campaign resets are defined below.
 
 ## Character, Specialization, and Overdrive progression
 
