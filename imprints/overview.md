@@ -24,7 +24,13 @@ A shared Imprint preserves the same underlying evidence across Characters while 
 
 > **Accepted** — Memory Imprints expand a character without replacing that character’s innate movement and combat identity.
 
-The same Imprint may eventually interact differently with different crew members, but no transfer or compatibility rule is accepted yet.
+### Specialization Imprint acquisition
+
+> **Accepted** — Any Character who reaches a Specialization Imprint may recover it and unlock its authored recipient's Specialization. The Imprint adds no recipient-only collection lock; Character-specific optional routes may still restrict who can reach it.
+
+The memory remains centered on the intended recipient, regardless of who collects it. Unlike shared biome memories, collection by another Character does not change whose memory is shown.
+
+> **Accepted** — Collection plays the memory and immediately registers the Specialization unlock without changing the deployed Character or Specialization. The new configuration becomes selectable at the next Hub visit; collection never forces a control handoff or field transformation.
 
 ## Known Imprints
 
@@ -40,6 +46,21 @@ The same Imprint may eventually interact differently with different crew members
 | Biome Memory | 4 | [[Biomes/B03|B03]], [[Biomes/B04|B04]], [[Biomes/B05|B05]], [[Biomes/B06|B06]] |
 
 These sixteen planned Imprints are not all fully authored. [[Gameplay/Overdrive|Specializations and Overdrive]] owns configuration behavior.
+
+## Specialization Imprint distribution
+
+> **TODO — Mission placement and scene integration:** Assign exact Missions and discovery routes together. Align each memory's storyboard with its discovery biome through local architecture, materials, sound, and an authored evidence connection; review those details before treating them as accepted scene direction.
+
+> **Accepted** — B03–B06 each contain two Specialization Imprints belonging to different Characters. Each Character's two additional Specializations are found in different biomes.
+
+| Discovery biome | Specialization Imprints | Narrative connection |
+|---|---|---|
+| [[Biomes/B03|B03 — Mnemonic Basilica]] | [[Imprints/Rook Heavy|ROOK Heavy]], [[Imprints/Relay Null|RELAY Null]] | Institutional clearance and destruction of evidence |
+| [[Biomes/B04|B04 — The Fallen Halo]] | [[Imprints/Rook Assault|ROOK Assault]], [[Imprints/Ram Onslaught|RAM Onslaught]] | Orders resisted during deployment |
+| [[Biomes/B05|B05 — Verdant Null]] | [[Imprints/Vector Phase|VECTOR Phase]], [[Imprints/Relay Network|RELAY Network]] | Protection versus coercion |
+| [[Biomes/B06|B06 — Sovereign Stack]] | [[Imprints/Vector Hunter|VECTOR Hunter]], [[Imprints/Ram Siege|RAM Siege]] | Targeted enforcement and controlled departures |
+
+> **Accepted** — Placement must connect each cutscene to its discovery biome's fiction, not merely distribute unlocks evenly. Scene staging and the discovery context should reinforce the owning biome's themes. These connections do not by themselves confirm where or when the remembered event occurred.
 
 ## Equipment and research boundary
 
@@ -78,7 +99,7 @@ Its later validation must:
 
 ## Unknown rules
 
-> **TODO — Acquisition and compatibility:** Resolve exact acquisition flow, capacity, assignment, transfer, and compatibility without assuming Imprints are equippable inventory items.
+> **TODO — Acquisition and compatibility:** Define the collection interaction and unlock presentation for Specialization Imprints. Resolve any remaining compatibility or assignment questions for other Imprint roles without assuming Imprints are equippable inventory items or reopening the accepted cross-Character Specialization collection rule.
 
 > **TODO — Worked example:** Document one complete Imprint from discovery through narrative revelation and mechanical use.
 
