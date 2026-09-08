@@ -13,7 +13,7 @@ status: in-progress
 | Unlock consequence | Previously completed, control-compatible Machine Blueprints become available for unit production and roster selection under [[Gameplay/Blueprints#network-compatibility|Network compatibility rules]] |
 | Commands, Direct Control, and roster constraints | [[Characters/Relay#c42--network|Network mechanics]] |
 | Unit catalogue and source compatibility | [[Machine Profiles/Overview|Machine Profiles]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B05 — Verdant Null]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MC01#specialization-imprint|MC01 — Burn the Garden]] in B05 |
 
 ## Cutscenes
 
@@ -37,4 +37,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MC01's optional route and collection interaction on the [[Missions/MC01#specialization-imprint|owning Mission page]].

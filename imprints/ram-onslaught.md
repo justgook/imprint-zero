@@ -11,7 +11,7 @@ status: in-progress
 |---|---|
 | Unlock | [[Characters/Ram#c33|C33 — Onslaught RAM]] |
 | Specialization and Overdrive behavior | [[Gameplay/Overdrive|Specializations and Overdrive]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B04 — The Fallen Halo]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MB02#specialization-imprint|MB02 — Dead Reinforcements]] in B04 |
 
 ## Cutscenes
 
@@ -35,4 +35,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MB02's optional route and collection interaction on the [[Missions/MB02#specialization-imprint|owning Mission page]].

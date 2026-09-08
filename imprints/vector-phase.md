@@ -11,7 +11,7 @@ status: in-progress
 |---|---|
 | Unlock | [[Characters/Vector#c22|C22 — Phase VECTOR]] |
 | Specialization and Overdrive behavior | [[Gameplay/Overdrive|Specializations and Overdrive]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B05 — Verdant Null]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MC02#specialization-imprint|MC02 — Voices Under Glass]] in B05 |
 
 ## Cutscenes
 
@@ -35,4 +35,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MC02's optional route and collection interaction on the [[Missions/MC02#specialization-imprint|owning Mission page]].

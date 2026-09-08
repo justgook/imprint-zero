@@ -11,7 +11,7 @@ status: in-progress
 |---|---|
 | Unlock | [[Characters/Vector#c23|C23 — Hunter VECTOR]] |
 | Specialization and Overdrive behavior | [[Gameplay/Overdrive|Specializations and Overdrive]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B06 — Sovereign Stack]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MD02#specialization-imprint|MD02 — Executive Immunity]] in B06 |
 
 ## Cutscenes
 
@@ -35,4 +35,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MD02's optional route and collection interaction on the [[Missions/MD02#specialization-imprint|owning Mission page]].

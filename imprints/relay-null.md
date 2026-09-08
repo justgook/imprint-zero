@@ -13,7 +13,7 @@ status: in-progress
 | Additional reward | Permanently teaches [[Machine Profiles/NH003|NH003 — Cascade Virus]] so Null can fill three Hack Program slots with only the Helix starter set |
 | Loadout and Overdrive behavior | [[Characters/Relay#machine-arsenal|Null's machine arsenal]] |
 | Program effect and transmission constraints | [[Machine Profiles/NH003#effect|Cascade Virus]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B03 — Mnemonic Basilica]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MA01#specialization-imprint|MA01 — Ghost Archive]] in B03 |
 
 ## Cutscenes
 
@@ -37,4 +37,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MA01's optional route and collection interaction on the [[Missions/MA01#specialization-imprint|owning Mission page]].

@@ -9,13 +9,13 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Assign exact Missions and acquisition routes for the eight Specialization Imprints within their accepted biome pairing. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+> **TODO — Next page:** Define optional acquisition routes and collection interactions for the eight Specialization Imprints, starting at MA01. All eight Mission placements and the four biome Memory Imprint placements in MS01–MS04 are accepted. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
 
 The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The current sidebar cursor is **Imprints**. `imprints/overview.md` has received an alignment pass: stale M07 synthesis questions and death-loss uncertainty now link to accepted rules, and the catalogue distinguishes planned entries from fully authored content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Imprints/Overview|Imprints]] | Finish joint Mission/route placement; child-page memory premises and cross-Character collection are accepted. |
+| 1 | [[Imprints/Overview|Imprints]] | Resolve optional acquisition routes and collection interactions; author biome Memory payloads against M07. Mission placements, Specialization memory premises, and cross-Character collection are accepted. |
 | 2 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
 | 3 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
 | 4 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
@@ -25,19 +25,15 @@ The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew def
 
 > **TODO — Page-local cutscenes:** During sidebar cleanup, add a **Cutscenes** section wherever a page owns a memory scene or cinematic event. Include a storyboard-generation prompt, a dedicated embedded placeholder image, and outstanding timing/audio decisions. Consuming pages link to the owning scene instead of duplicating its storyboard. Use comic-page or anime-style boards as previsualization, without committing to a final rendering style.
 
-All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. All eight drafts need a biome-alignment regeneration pass against revised prompts. Page-local review notes track specific issues. Biome assignments are settled; exact Mission placement remains open.
+All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. All eight drafts need a biome-alignment regeneration pass against revised prompts. Page-local review notes track specific issues. Biome and Mission assignments are settled; route challenges and collection interactions remain open.
 
 | Scene owner | Remaining work |
 |---|---|
 | [[Imprints/Overdrive#cutscenes|Overdrive memories]] | All four memory premises are accepted and have generation prompts and embedded placeholders. Generate and review boards, then define timing and audio treatments. |
-| [[Imprints/Rook Heavy#cutscenes|ROOK — Heavy]] | Generate and review the storyboard; define scene timing and audio. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Rook Assault#cutscenes|ROOK — Assault]] | Generate and review the storyboard; define scene timing and radio delivery. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Vector Phase#cutscenes|VECTOR — Phase]] | Generate and review the storyboard; define scene timing and audio. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Vector Hunter#cutscenes|VECTOR — Hunter]] | Generate and review the storyboard; define waiting, shot, recoil, and audio timing. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Ram Siege#cutscenes|RAM — Siege]] | Generate and review the storyboard; define firing, transport, and audio timing. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Ram Onslaught#cutscenes|RAM — Onslaught]] | Generate and review the storyboard; define windup, impact, and radio delivery. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Relay Network#cutscenes|RELAY — Network]] | Generate and review the storyboard; select compatible units and define Direct Control presentation, timing, and audio. Acquisition placement awaits the joint eight-Imprint distribution review. |
-| [[Imprints/Relay Null#cutscenes|RELAY — Null]] | Generate and review the storyboard; select compatible machines and define transmission, deterioration, and audio timing. Acquisition placement awaits the joint eight-Imprint distribution review. |
+| [[Imprints/Rook Heavy#cutscenes|ROOK — Heavy]], [[Imprints/Rook Assault#cutscenes|ROOK — Assault]] | Regenerate and review boards; define scene timing and radio delivery. |
+| [[Imprints/Vector Phase#cutscenes|VECTOR — Phase]], [[Imprints/Vector Hunter#cutscenes|VECTOR — Hunter]] | Regenerate and review boards; define action, recoil, and audio timing. |
+| [[Imprints/Ram Siege#cutscenes|RAM — Siege]], [[Imprints/Ram Onslaught#cutscenes|RAM — Onslaught]] | Regenerate and review boards; define firing, transport, windup, impact, and radio timing. |
+| [[Imprints/Relay Network#cutscenes|RELAY — Network]], [[Imprints/Relay Null#cutscenes|RELAY — Null]] | Regenerate and review boards; select compatible machines and define Direct Control, transmission, deterioration, and audio timing. |
 | Remaining Imprint and Mission pages | Identify required scenes as each page is reviewed; add page-local prompts and placeholders once scene premises are accepted. |
 
 ## Parked validation queue

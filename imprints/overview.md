@@ -49,7 +49,7 @@ These sixteen planned Imprints are not all fully authored. [[Gameplay/Overdrive|
 
 ## Specialization Imprint distribution
 
-> **TODO — Mission placement and scene integration:** Assign exact Missions and discovery routes together. Align each memory's storyboard with its discovery biome through local architecture, materials, sound, and an authored evidence connection; review those details before treating them as accepted scene direction.
+> **TODO — Discovery routes:** Define the optional route, challenge, and collection interaction on each owning Mission page. Mission placements and discovery-context premises are accepted; storyboard execution remains subject to review.
 
 > **Accepted** — B03–B06 each contain two Specialization Imprints belonging to different Characters. Each Character's two additional Specializations are found in different biomes.
 
@@ -59,6 +59,8 @@ These sixteen planned Imprints are not all fully authored. [[Gameplay/Overdrive|
 | [[Biomes/B04|B04 — The Fallen Halo]] | [[Imprints/Rook Assault|ROOK Assault]], [[Imprints/Ram Onslaught|RAM Onslaught]] | Orders resisted during deployment |
 | [[Biomes/B05|B05 — Verdant Null]] | [[Imprints/Vector Phase|VECTOR Phase]], [[Imprints/Relay Network|RELAY Network]] | Protection versus coercion |
 | [[Biomes/B06|B06 — Sovereign Stack]] | [[Imprints/Vector Hunter|VECTOR Hunter]], [[Imprints/Ram Siege|RAM Siege]] | Targeted enforcement and controlled departures |
+
+> **Accepted** — Each biome offers one Specialization Imprint in its first main Mission and the other in its second, both on optional discovery routes. Neither is placed behind a hidden Special Mission or the biome Guardian, allowing new configurations to be used before the Guardian encounter.
 
 > **Accepted** — Placement must connect each cutscene to its discovery biome's fiction, not merely distribute unlocks evenly. Scene staging and the discovery context should reinforce the owning biome's themes. These connections do not by themselves confirm where or when the remembered event occurred.
 
@@ -74,7 +76,18 @@ An Equipment Imprint reveals an opportunity; it is not itself a Data Fragment or
 
 ## Extended-route prerequisites
 
-> **TODO — Biome Imprint authoring:** Define each B03–B06 Imprint's location, discovery challenge, and Character-specific memory payload against the accepted [[Missions/M07#voiceprint-sequence|M07 authentication sequence]].
+> **TODO — Biome Imprint authoring:** Define each assigned Imprint's hidden location, discovery challenge, and Character-specific memory payload against the accepted [[Missions/M07#voiceprint-sequence|M07 authentication sequence]].
+
+> **Accepted** — Each of the four biome Memory Imprints is hidden within a Special Mission, with one per Special Mission. Completing that Mission does not automatically collect its Imprint. This complements the two Specialization Imprints in each biome's first and second main Missions; the Guardian Mission has no Imprint assigned by this distribution.
+
+| Origin biome | Memory Imprint placement |
+|---|---|
+| [[Biomes/B03|B03]] | [[Missions/MS01#biome-memory-imprint|MS01 — Unscheduled Service]] |
+| [[Biomes/B04|B04]] | [[Missions/MS02#biome-memory-imprint|MS02]] |
+| [[Biomes/B05|B05]] | [[Missions/MS03#biome-memory-imprint|MS03]] |
+| [[Biomes/B06|B06]] | [[Missions/MS04#biome-memory-imprint|MS04]] |
+
+> **Accepted** — Each cross-biome Special Mission contains its origin biome's Memory Imprint. Collection is independent of shortcut completion and other hidden ending conditions: neither grants the Imprint automatically, and collecting it does not satisfy those separate conditions.
 
 Biome Memory Imprints are separate catalogue entries from Specialization Imprints, not alternative rewards for the same discovery.
 

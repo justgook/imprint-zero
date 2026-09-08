@@ -11,7 +11,7 @@ status: in-progress
 |---|---|
 | Unlock | [[Characters/Rook#c12|C12 — Heavy ROOK]] |
 | Specialization and Overdrive behavior | [[Gameplay/Overdrive|Specializations and Overdrive]] |
-| Acquisition placement | [[Imprints/Overview#specialization-imprint-distribution|B03 — Mnemonic Basilica]]; exact Mission and route unresolved |
+| Acquisition placement | [[Missions/MA02#specialization-imprint|MA02 — Familiar Strangers]] in B03 |
 
 ## Cutscenes
 
@@ -33,4 +33,4 @@ Generated previsualization draft; not approved final scene direction.
 
 ## Acquisition
 
-> **TODO — Joint distribution review:** Assign the Mission, discovery challenge, and acquisition interaction alongside the other seven Specialization Imprints. Keep the accepted biome assignment; resolve the Mission and route alongside the other entries.
+> **TODO — Discovery route:** Define MA02's optional route and collection interaction on the [[Missions/MA02#specialization-imprint|owning Mission page]].
