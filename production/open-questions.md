@@ -9,13 +9,13 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Finish B06 cutscene/biome alignment, then assign exact Missions and acquisition routes for the eight Specialization Imprints within their accepted biome pairing. B03–B05 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+> **TODO — Next page:** Assign exact Missions and acquisition routes for the eight Specialization Imprints within their accepted biome pairing. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
 
 The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The current sidebar cursor is **Imprints**. `imprints/overview.md` has received an alignment pass: stale M07 synthesis questions and death-loss uncertainty now link to accepted rules, and the catalogue distinguishes planned entries from fully authored content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Imprints/Overview|Imprints]] | Finish B06 scene integration and joint Mission/route placement; child-page memory premises and cross-Character collection are accepted. |
+| 1 | [[Imprints/Overview|Imprints]] | Finish joint Mission/route placement; child-page memory premises and cross-Character collection are accepted. |
 | 2 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
 | 3 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
 | 4 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
@@ -25,7 +25,7 @@ The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew def
 
 > **TODO — Page-local cutscenes:** During sidebar cleanup, add a **Cutscenes** section wherever a page owns a memory scene or cinematic event. Include a storyboard-generation prompt, a dedicated embedded placeholder image, and outstanding timing/audio decisions. Consuming pages link to the owning scene instead of duplicating its storyboard. Use comic-page or anime-style boards as previsualization, without committing to a final rendering style.
 
-All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. B03–B05 drafts need regeneration against revised prompts; B06 drafts await scene alignment. Page-local review notes track specific issues. Biome assignments are settled; exact Mission placement remains open.
+All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. All eight drafts need a biome-alignment regeneration pass against revised prompts. Page-local review notes track specific issues. Biome assignments are settled; exact Mission placement remains open.
 
 | Scene owner | Remaining work |
 |---|---|

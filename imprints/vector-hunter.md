@@ -15,19 +15,19 @@ status: in-progress
 
 ## Cutscenes
 
-> **TODO — Biome integration:** Connect the firing line and moving silhouettes to B06's vertical corporate enclave and institutional enforcement. Revise the generic staging in the prompt below after approving concrete visual, audio, and discovery-context connections; keep target identity and the reason for the shot unresolved.
+> **TODO — Storyboard generation prompt:** Generate a four-panel, 2×2 anime-style production storyboard sheet with widescreen panels. Use VECTOR's Hunter Character reference consistently. Panel 1: VECTOR watches a distant armed figure among moving silhouettes through rifle optics across an elevated corporate personnel concourse; repeated access gates and numbered lanes organize the moving silhouettes. Establish a nearby wall within recoil displacement. Lane numbers are wayfinding only, not identity clues. Panel 2: the figure separates from the surrounding silhouettes while VECTOR holds her shot; keep identities and affiliations unreadable. Panel 3: she fires the heavy rifle, its kickback visibly displacing her toward the established wall; do not reveal the target's fate. Panel 4: recoil displacement reaches the wall and transitions into Wall Run, leaving the firing position behind. Use austere charcoal linework, restrained olive and aged-ivory washes, weak fluorescent lighting, concrete, and matte military hardware. No heroic framing, readable orders or insignia, confirmed civilian identities, graphic impact, neon wash, holograms, captions, or speech bubbles. Preserve uncertainty between protecting bystanders and securing a clean assassination. Panel layout is a proposal for review, not accepted camera direction.
 
-> **TODO — Storyboard generation prompt:** Generate a four-panel, 2×2 anime-style production storyboard sheet with widescreen panels. Use VECTOR's Hunter Character reference consistently. Panel 1: VECTOR watches a distant armed figure among moving silhouettes through rifle optics in a worn industrial setting; establish a nearby wall within recoil displacement. Panel 2: the figure separates from the surrounding silhouettes while VECTOR holds her shot; keep identities and affiliations unreadable. Panel 3: she fires the heavy rifle, its kickback visibly displacing her toward the established wall; do not reveal the target's fate. Panel 4: recoil displacement reaches the wall and transitions into Wall Run, leaving the firing position behind. Use austere charcoal linework, restrained olive and aged-ivory washes, weak fluorescent lighting, concrete, and matte military hardware. No heroic framing, readable orders or insignia, confirmed civilian identities, graphic impact, neon wash, holograms, captions, or speech bubbles. Preserve uncertainty between protecting bystanders and securing a clean assassination. Panel layout is a proposal for review, not accepted camera direction.
-
-> **TODO — Scene timing and audio:** Define the waiting beat, shot and recoil timing, sound, and the transition from discovery into the memory after storyboard review.
+> **TODO — Scene timing and audio:** Define the waiting beat, shot and recoil timing, distant authorization chimes, and the transition from discovery into the memory after storyboard review.
 
 ![VECTOR Hunter Imprint storyboard](content/images/imprints/vector-hunter-storyboard.svg)
 
-> **Accepted** — VECTOR tracks an armed figure among moving silhouettes, waits for separation, fires, then uses the rifle's recoil to transition into Wall Run through [[Characters/Vector#c23|Recoil Routing]]. The memory withholds whether her patience protected bystanders or simply secured a clean assassination.
+> **Accepted** — VECTOR watches an elevated personnel concourse and tracks an armed figure among moving silhouettes, waits for separation, fires, then uses the rifle's recoil to transition into Wall Run through [[Characters/Vector#c23|Recoil Routing]]. The memory withholds whether her patience protected bystanders or simply secured a clean assassination.
+
+Scene staging follows [[Biomes/B06#memory-scene-visual-and-audio-language|B06's corporate transfer language]].
 
 ### Generated storyboard review
 
-> **TODO — Review after B06 alignment:** Preserve the readable waiting and separation beats. Clarify the displacement from recoil into wall contact and validate the corporate-enclave setting after its scene language is accepted. Check Character-reference fidelity before approval.
+> **TODO — Regeneration:** Preserve the readable waiting and separation beats. Establish the elevated corporate personnel concourse, repeated access gates, and numbered lanes; clarify the displacement from recoil into wall contact. Check Character-reference fidelity before approval.
 
 ![VECTOR Hunter generated storyboard draft](content/images/imprints/storyboard/VECTOR%20Hunter.png)
 
