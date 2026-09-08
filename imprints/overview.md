@@ -62,6 +62,8 @@ These sixteen planned Imprints are not all fully authored. [[Gameplay/Overdrive|
 
 > **Accepted** — Each biome offers one Specialization Imprint in its first main Mission and the other in its second, both on optional discovery routes. Neither is placed behind a hidden Special Mission or the biome Guardian, allowing new configurations to be used before the Guardian encounter.
 
+> **Accepted** — The first main Mission's Specialization discovery is reachable by every Character and Specialization. The second main Mission's discovery uses a Character-specific optional route, accessible with any Specialization of that Character. The required route Character need not be the Imprint's recipient. Across the four second-Mission discoveries, each Character supplies the required route verb once; Mission pages own the assignments.
+
 > **Accepted** — Placement must connect each cutscene to its discovery biome's fiction, not merely distribute unlocks evenly. Scene staging and the discovery context should reinforce the owning biome's themes. These connections do not by themselves confirm where or when the remembered event occurred.
 
 ## Equipment and research boundary
