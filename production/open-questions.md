@@ -9,13 +9,13 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Define the four second-Mission Specialization discovery routes, starting at MA02: RELAY Hack, then MB02 VECTOR Wall Run, MC02 RAM Breach, and MD02 ROOK Combat Slide. First-Mission observation-led discoveries and universal recorder interactions are accepted; their staging still needs validation. All eight Mission placements and the four biome Memory Imprint placements in MS01–MS04 are accepted. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+> **TODO — Next page:** Author the four biome Memory Imprints in MS01–MS04 against M07's accepted authentication sequence, starting with B03's memory in MS01. All eight Specialization discovery routes are accepted; their spatial staging, collection feedback, and storyboards still need validation. All eight Mission placements and the four biome Memory Imprint placements in MS01–MS04 are accepted. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
 
 The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The current sidebar cursor is **Imprints**. `imprints/overview.md` has received an alignment pass: stale M07 synthesis questions and death-loss uncertainty now link to accepted rules, and the catalogue distinguishes planned entries from fully authored content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Imprints/Overview|Imprints]] | Resolve optional acquisition routes and collection interactions; author biome Memory payloads against M07. Mission placements, Specialization memory premises, and cross-Character collection are accepted. |
+| 1 | [[Imprints/Overview|Imprints]] | Author biome Memory payloads and hidden discoveries against M07. Specialization Mission placements, route premises, memory premises, and cross-Character collection are accepted. |
 | 2 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
 | 3 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
 | 4 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
@@ -25,7 +25,7 @@ The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew def
 
 > **TODO — Page-local cutscenes:** During sidebar cleanup, add a **Cutscenes** section wherever a page owns a memory scene or cinematic event. Include a storyboard-generation prompt, a dedicated embedded placeholder image, and outstanding timing/audio decisions. Consuming pages link to the owning scene instead of duplicating its storyboard. Use comic-page or anime-style boards as previsualization, without committing to a final rendering style.
 
-All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. All eight drafts need a biome-alignment regeneration pass against revised prompts. Page-local review notes track specific issues. Biome and Mission assignments are settled; route challenges and collection interactions remain open.
+All eight Specialization storyboard drafts are embedded on their owning pages from `images/imprints/storyboard/`. Preserve these originals. All eight drafts need a biome-alignment regeneration pass against revised prompts. Page-local review notes track specific issues. Biome and Mission assignments and Specialization route premises are settled; detailed spatial staging and collection feedback remain open.
 
 | Scene owner | Remaining work |
 |---|---|
