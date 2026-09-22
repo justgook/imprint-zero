@@ -12,6 +12,14 @@ act: 1
 
 Provide the crew's directed return point during Act I while Characters and deployment options unlock. HUB0 and HUB1 are campaign states of the same physical Hub rather than separate locations. Recovery Capsules—called “Coffins” by the crew—carry Characters into and out of the Hub by rail.
 
+## First arrival scene
+
+> **TODO — Scene timing and dialogue:** Define the reveal, pause, and opening exchange after the storyboard framing is reviewed.
+
+![HUB0 storyboard concept of ROOK meeting Ghost VECTOR](content/images/missions/storyboard/HUB0%20Rook%20Meets%20VECTOR.png)
+
+Generated previsualization proposal: after ROOK's Coffin docks, he enters the occupied Hub and finds VECTOR waiting in her default Ghost configuration. The scene turns their earlier radio contact into an in-person introduction and presents VECTOR as the contrasting playable Character before M02 selection. Camera direction and exact blocking remain pending review.
+
 ## Progression
 
 - After [[Missions/M01|M01]], ROOK's Coffin returns beside VECTOR's already docked Coffin; two docking stations remain empty.

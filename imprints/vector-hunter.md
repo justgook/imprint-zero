@@ -27,7 +27,7 @@ Scene staging follows [[Biomes/B06#memory-scene-visual-and-audio-language|B06's 
 
 ### Generated storyboard review
 
-> **TODO — Regeneration:** Preserve the readable waiting and separation beats. Establish the elevated corporate personnel concourse, repeated access gates, and numbered lanes; clarify the displacement from recoil into wall contact. Check Character-reference fidelity before approval.
+> **TODO — Storyboard review:** Confirm Character-reference fidelity and verify that the shot-to-wall contact reads clearly enough for Recoil Routing before approval.
 
 ![VECTOR Hunter generated storyboard draft](content/images/imprints/storyboard/VECTOR%20Hunter.png)
 

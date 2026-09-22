@@ -27,7 +27,7 @@ Scene staging follows [[Biomes/B05#memory-scene-visual-and-audio-language|B05's 
 
 ### Generated storyboard review
 
-> **TODO — Regeneration:** Add B05's root-framed exit, contaminated passage, and damp organic-industrial surfaces. Preserve the strike-then-shift progression; reduce the visible wound detail to match the non-graphic brief. Check Character-reference fidelity before approval.
+> **TODO — Storyboard review:** Confirm Character-reference fidelity and verify that the strike-then-shift progression remains legible at scene timing before approval.
 
 ![VECTOR Phase generated storyboard draft](content/images/imprints/storyboard/VECTOR%20Phase.png)
 
