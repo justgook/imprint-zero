@@ -9,16 +9,16 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Resume sidebar cleanup at [[Enemies/Overview|Enemies]]. All four biome Memory Imprints in MS01–MS04 now have accepted discovery premises, Character perspectives, and complementary voiceprint clues; spatial staging, collection feedback, storyboard execution, and audio timing remain for validation. The eight Specialization Imprint Mission placements and discovery routes are accepted; their staging, feedback, and storyboards still need validation. Overdrive and Specialization memories have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+> **TODO — Next page:** Refine [[Missions/M01|M01 — Cold Deployment]] from its residential-tower structure before populating Enemy and Boss catalogues. E001/E002 are provisional M01 enemy candidates, not accepted behaviour; Machine Profiles and Equipment retain their independent accepted baselines. A later Mission must test the full page structure for bosses, Imprints, optional paths, dialogue, and production assets. Imprint scene production and staging remain in the cutscene backlog. Keep accepted rules on canonical pages; do not restore the retired freight-terminal wiki test.
 
-The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The Imprints alignment pass is complete for accepted premises and ownership, not for scene production or unresolved equipment and exploration Imprints. The next sidebar cursor is **Enemies**. `imprints/overview.md` links to M07's accepted rules and distinguishes planned entries from fully produced content.
+The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The Imprints alignment pass is complete for accepted premises and ownership, not for scene production or unresolved equipment Imprints. The cleanup now follows **Missions** as the source of encounter needs rather than populating Enemy and Boss indexes ahead of Missions. `imprints/overview.md` links to M07's accepted rules and distinguishes planned entries from fully produced content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
-| 2 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
-| 3 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
-| 4 | Remaining `_sidebar.md` sections | Continue through Game Text, Gameplay, Presentation, Production, and Authoring without changing approval-locked style rules. |
+| 1 | [[Missions/M01|M01]] | Define room-by-room purpose, E001/E002 needs, production references, dialogue handoffs, and testable encounters. |
+| 2 | Later Mission (to select) | Validate the Mission page pattern with a boss or miniboss, Imprint, optional path, drops, and production links. |
+| 3 | [[Enemies/Overview|Enemies]] and [[Bosses/Overview|Bosses]] | Populate only from accepted Mission needs; preserve approved narrative boundaries. |
+| 4 | [[Equipment/Overview|Equipment]] and [[Machine Profiles/Overview|Machine Profiles]] | Align cross-links with Mission placements without discarding their accepted baselines. |
 
 ## Cutscene storyboard backlog
 
@@ -58,7 +58,7 @@ Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Netw
 
 ## Current validation step
 
-> **Needs evidence** — Playtest the geometric freight-terminal prototype and tune movement, jump, camera, projectile timing, enemy spacing, integrity values, and encounter duration. Then test VECTOR against the same space before implementing broader roster content.
+> **TODO — Mission validation:** Refine [[Missions/M01|M01's residential-tower structure]], including its two enemy roles and production handoffs; then playtest movement, combat readability, camera, timing, and duration. Use a later Mission for optional-path, Imprint, and broader roster validation.
 
 ## Current production constraint
 
@@ -68,16 +68,16 @@ Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Netw
 
 ## Parked detail decisions
 
-These remain important but should not interrupt the flat-baseline validation pass:
+These remain important but should not interrupt the Mission-led content pass:
 
 - How do shortcuts reduce repetition without erasing spatial meaning?
-- Which ROOK and VECTOR Specializations best prove gameplay variation in the representative Encounter?
+- Which later Mission best proves meaningful play-style variation across Characters and Specializations?
 - What platform and input assumptions constrain the action?
 - What detailed upgrade economy supports the campaign?
 
 ## Required artifacts
 
-> **Needs example** — One representative encounter solved by two different characters.
+> **Needs example** — One later Mission encounter solved by two different Characters.
 
 > **TODO — Recovery diagram:** Show post-HUB death returning the deployed Character to their personal Recovery Capsule (“Coffin”), reopening Hub choices, and restarting the failed Mission from its beginning.
 
@@ -105,9 +105,6 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Hub presentation:** compact navigable side-view Zone with direct shortcuts to character, equipment, Mission, and Memory interfaces.
 - **Private asset workflow:** licensed CraftPix source and derivatives stay under the git-ignored `examples/demo/game/assets.private/craftpix/` directory. See [[Design/Art Direction|Art direction]].
 - **Baseline camera:** smooth side-follow with dead zones, gradual movement-based look-ahead, vertical bias, authored bounds, backward support, and no forced scrolling.
-- **Baseline encounter sequence:** safe arrival, low-fire sentry, high-fire sentry, Shield Enforcer, brief reset, crane-plus-sentry, then rail-control terminal.
-- **Baseline advancing enemy:** the Shield Enforcer's frontal armour completely blocks rifle fire; a committed charge exposes its rear and forces repositioning.
-- **Enemy aiming vocabulary:** enemies use the shared directional-resolution model but receive authored firing envelopes; the baseline horizontal sentry teaches deterministic low and high lanes.
 - **Baseline movement:** one digital run speed, quick acceleration, immediate or near-immediate reversal, no walk, sprint, or stamina state.
 - **Baseline jump:** one variable-height jump, moderate air control, faster fall, short coyote time and input buffering; no double jump, wall jump, ledge grab, or air dash.
 - **Baseline health:** provisional five-segment integrity; standard attacks remove one, heavy hazards may remove two, and ordinary threats do not one-hit kill.
@@ -115,10 +112,6 @@ These remain important but should not interrupt the flat-baseline validation pas
 - **Baseline rifle cadence:** continuous medium-cadence fire while [[Gameplay/Actions#directional-attack|Directional Attack]] remains active; withdrawing attack intent stops fire immediately.
 - **Attack direction and controls:** exact directional resolution and physical mappings remain unresolved; [[Gameplay/Actions|Actions]] owns intent and [[Gameplay/Controls|Controls]] owns device mappings.
 - **ROOK capability:** a committed combat slide passes beneath high threats without invulnerability or contact damage.
-- **Freight hazard:** a telegraphed overhead crane cycles a cargo container that alternately blocks the lane and the sentry's line of sight.
-- **Baseline threat sequence:** teach a ranged sentry, then an advancing enemy, then combine the sentry with one timed freight hazard.
-- **Encounter build order:** begin with a flat single path; add one fork only after the action baseline works, then add a Memory-gated route as a third pass. See [[Gameplay/Representative Encounter|Representative encounter]].
-- **Representative setting:** the first validation slice is an industrial freight terminal built from a constrained threat and route vocabulary. See [[Gameplay/Representative Encounter|Representative encounter]].
 - **Playable roster:** [[Characters/Rook|ROOK]], [[Characters/Vector|VECTOR]], [[Characters/Ram|RAM]], and [[Characters/Relay|RELAY]] provide twelve Specializations across four persistent Characters.
 - **Baseline character:** ROOK, the balanced Rifle Marine, serves as the control case for movement, shooting, evasion, and route discovery. See [[Characters/Rook|ROOK]].
 - **Title and tagline:** **Imprint Zero** — *You know how to fight. Not who you are.* See [[Design/Game Vision|Game vision]].

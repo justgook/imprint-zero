@@ -138,8 +138,6 @@
   - [[Enemies/E018|E018 Untitled]]
   - [[Enemies/E019|E019 Untitled]]
   - [[Enemies/E020|E020 Untitled]]
-  - [[Enemies/Horizontal Sentry|Horizontal sentry]]
-  - [[Enemies/Shield Enforcer|Shield Enforcer]]
 - [[Bosses/Overview|Bosses and minibosses]]
   - [[Bosses/Heartroot|Heartroot]]
   - [[Bosses/Controller|Controller — Local Avatar]]
@@ -195,7 +193,6 @@
 
 - [[Gameplay/Overview|Foundations]]
   - [[Gameplay/Core Loop|Core loop]]
-  - [[Gameplay/Representative Encounter|Representative encounter]]
 - [[Gameplay/Interaction|Interaction]]
   - [[Gameplay/Actions|Actions]]
   - [[Gameplay/Controls|Controls]]

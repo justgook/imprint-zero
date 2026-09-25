@@ -5,20 +5,16 @@ eyebrow: Enemies
 status: in-progress
 ---
 
-Enemy pages define gameplay roles before appearance, statistics, or lore.
+Enemy pages define reusable hostile behaviour required by authored Missions, not a roster invented ahead of their encounters. [[Missions/Overview|Missions]] owns campaign placement; each Mission owns the threat's local purpose, placement, and combinations.
 
-## Directional vocabulary
+## Current candidates
 
-> **Accepted** — Enemy fire uses the same directional-resolution model as player attacks, but each enemy receives an authored firing envelope.
+> **TODO — Mission-led catalogue:** Refine [[Missions/M01|M01's]] two planned threat roles before accepting [[Enemies/E001|E001]] and [[Enemies/E002|E002]] as Enemy specifications. Their existing concept targets are not approved behaviour or final art. Add other enemies only when a Mission requires them.
 
-Examples include horizontal sentries, downward-firing aerial enemies, diagonal attackers, and advanced enemies using several directions. Directional limits create readable safe spaces and meaningful combinations.
-
-High and low shots are separate lanes within one horizontal direction.
-
-## Accepted enemies
-
-- [[Enemies/Horizontal Sentry|Horizontal Sentry]] — controls a lane and teaches jump/slide projectile reading.
-- [[Enemies/Shield Enforcer|Shield Enforcer]] — advances behind impenetrable frontal armour and forces repositioning.
+| Candidate | Current Mission use | Status |
+|---|---|---|
+| [[Enemies/E001|E001]] | M01 residential-tower basic combat | Requires update |
+| [[Enemies/E002|E002]] | M01 quarantine checkpoint and later combinations | Requires update |
 
 ## Blueprint loot ownership
 
@@ -37,7 +33,7 @@ Every accepted enemy receives one page containing:
 - damage and failure interaction;
 - combinations and placement constraints;
 - source-specific Blueprint loot table when eligible;
-- representative Encounter use;
+- owning Mission placements and combinations;
 - required visual or audio evidence.
 
 > **TODO** — Do not add flying, diagonal, or broad-directional-coverage enemies to the flat baseline. Create their pages only when an accepted Encounter requires them.

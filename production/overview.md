@@ -7,9 +7,9 @@ status: in-progress
 
 ## Current phase
 
-> **In progress** — The first internal One Pager is established, and the flat freight-terminal baseline is documented well enough to block out. The immediate goal is to validate ROOK, the threats, camera, and encounter sequence through play before implementing VECTOR's contrasting pass or the Memory Imprint pass.
+> **In progress** — The first internal One Pager is established. Refine [[Missions/M01|M01's residential-tower route]] as the initial Mission production model, then validate ROOK, its required threats, camera, and encounter sequence through play. A later Mission should exercise optional paths, Imprints, and broader roster compatibility.
 
-Production schedules and content budgets are premature until that slice defines the actual work.
+Production schedules and content budgets remain provisional until authored Mission work defines the actual scope.
 
 ## Accepted boundaries
 
@@ -20,13 +20,13 @@ Production schedules and content budgets are premature until that slice defines 
 
 ## Decision queue
 
-See [[Production/Open Questions|Open questions]] for the ordered queue. The current blocker is playable evidence from the flat freight-terminal blockout; detailed death-cycle work remains parked.
+See [[Production/Open Questions|Open questions]] for the ordered queue. The next design pass is M01's room and content structure; detailed death-cycle work remains parked.
 
 ## Production knowledge
 
 - [[Production/Scope|Scope and non-goals]] records boundaries and the provisional release shape.
 - [[Production/References|References]] records principles adapted from external works.
 
-> **TODO** — Define milestones only after the representative encounter establishes a credible vertical-slice target.
+> **TODO — Milestones:** Define milestones after M01 and a later, more complex Mission establish a credible vertical-slice target.
 
 Detailed tasks and transient work status belong in the issue tracker, not this living design document.

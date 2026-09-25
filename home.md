@@ -55,8 +55,8 @@ No ending completely proves the crew's origin. The Standard ending must satisfy 
 
 ## Current validation target
 
-> **TODO — Representative proof:** Demonstrate one freight-terminal encounter with ROOK, then show how VECTOR and one Memory Imprint materially transform its decisions and route.
+> **TODO — Mission proof:** Refine and playtest [[Missions/M01|M01's residential-tower route]] with ROOK; then use a later Mission to demonstrate character contrast, an optional Imprint, and a branch without implying that these appear in M01.
 
-Validate action, readability, character contrast, and the visual style contract before expanding production. The next design question is whether the representative encounter expresses a game worth completing—not how much speculative content can be documented.
+Validate action, readability, character contrast, and the visual style contract through authored Missions before expanding production.
 
-See [[Current Direction|Current direction]], [[Missions/Overview|Campaign progression]], [[Gameplay/Representative Encounter|Representative encounter]], and [[Design/Art Direction|Art direction]].
+See [[Current Direction|Current direction]], [[Missions/Overview|Campaign progression]], [[Missions/M01|M01 — Cold Deployment]], and [[Design/Art Direction|Art direction]].

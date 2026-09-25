@@ -1,6 +1,6 @@
 ---
 title: Gameplay Foundations
-summary: The side-scrolling action foundation and representative validation structure.
+summary: The side-scrolling action foundation and mission-led validation structure.
 eyebrow: Game design
 status: in-progress
 ---
@@ -36,7 +36,7 @@ Procedural level generation and a complete randomized run reset are outside the 
 ## Gameplay groups
 
 - [[Gameplay/Core Loop|Core loop]] defines repeated actions, feedback, and consequences.
-- [[Gameplay/Representative Encounter|Representative encounter]] validates the foundation in one freight-terminal slice.
+- [[Missions/M01|M01 — Cold Deployment]] owns the first authored Mission used to validate the action foundation.
 - [[Gameplay/Interaction|Interaction]] maps controls through Actions into contextual gameplay verbs.
 - [[Gameplay/Systems|Shared Systems]] indexes cross-cutting rules, equations, blueprint research, progression, and configuration.
 

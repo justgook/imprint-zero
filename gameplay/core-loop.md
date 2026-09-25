@@ -23,7 +23,7 @@ Authored encounters may shift emphasis between traversal, combat, discovery, and
 
 ## Character transformation
 
-> **TODO — Comparative example:** Resolve the same representative encounter with materially different Character and Specialization configurations.
+> **TODO — Comparative example:** Resolve an encounter from a later, multi-Character Mission with materially different Character and Specialization configurations.
 
 See [[Characters/Overview|Playable Crew]] for roster rules, [[Characters/Rook|ROOK]] for the current baseline, and [[Gameplay/Overdrive|Specializations and Overdrive]] for deployment configurations.
 

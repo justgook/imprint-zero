@@ -18,9 +18,9 @@ A screenshot should immediately communicate:
 
 ## Four-axis style contract
 
-Visual style is treated as a production contract: a small set of decisions and restrictions that any asset can be checked against. The representative encounter must resolve the open cells before this contract becomes final.
+Visual style is treated as a production contract: a small set of decisions and restrictions that any asset can be checked against. M01 and a later feature-rich Mission must resolve the open cells before this contract becomes final.
 
-| Axis | Current direction | Test in the freight-terminal slice | Status |
+| Axis | Current direction | Test in M01's residential-tower route | Status |
 |---|---|---|---|
 | Form | Clear character and threat silhouettes against rectilinear, layered industrial spaces | Identify the player, each threat type, and the crane from silhouettes at gameplay scale | In progress |
 | Color | Restrained charcoal, faded olive, aged ivory, and dull rust; sparse indicator colors carry gameplay meaning | Produce a palette sheet and verify player, threats, projectiles, hazards, and affordances remain distinct | Needs evidence |
@@ -107,11 +107,11 @@ Review the mock-up in four passes:
 
 ## Starting asset library
 
-> **Accepted** — The [CraftPix Cyberpunk Platformer collection](https://craftpix.net/sets/cyberpunk-platformer-asset-pixel-art/) is the starting visual and production scaffold for the representative encounter and early game development.
+> **Accepted** — The [CraftPix Cyberpunk Platformer collection](https://craftpix.net/sets/cyberpunk-platformer-asset-pixel-art/) is a starting visual and production scaffold for early game development; it does not prescribe M01's content.
 
 Assets may be selected, recoloured, recomposed, modified, replaced, or supplemented as the game establishes its own identity. The collection must not define the fiction, mechanics, full location catalogue, or final quality bar.
 
-> **In progress** — The industrial freight terminal is the first location used to test how the collection supports the intended atmosphere and gameplay readability.
+> **In progress** — M01's residential tower is the first Mission location for testing atmosphere and gameplay readability.
 
 > **Needs image** — Create a focused mood board and a blockout screenshot after the assets are legally acquired through a private source workflow.
 
@@ -147,6 +147,6 @@ Purchased assets accelerate execution but do not determine the style. Recolourin
 
 ## Production constraints
 
-> **TODO** — Derive asset scale, palette constraints, target resolution, animation budget, and reuse strategy from the representative encounter rather than adopting every source-pack convention.
+> **TODO** — Derive asset scale, palette constraints, target resolution, animation budget, and reuse strategy from scoped Mission needs rather than adopting every source-pack convention.
 
 Measure the time required to adapt representative character, enemy, environment, effect, and interface assets before approving the final style. Record those samples in [[Production/Content Budget|Content budget]] and asset provenance in [[Production/Asset Registry|Asset registry]].

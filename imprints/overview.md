@@ -101,17 +101,6 @@ Biome Memory Imprints are separate catalogue entries from Specialization Imprint
 | Hidden totals and ending-report reveal | [[Gameplay/Progression#completion-and-discovery-report|Completion and discovery report]] |
 | Current-campaign evidence versus archived memories | [[Gameplay/Progression#persistence-across-campaigns|Persistence across campaigns]] |
 
-## Freight Terminal candidate
-
-> **TODO — Encounter Imprint:** Define the first concrete exploration Imprint only after the flat [[Gameplay/Representative Encounter|Freight Terminal encounter]] works.
-
-Its later validation must:
-
-* reveal why the sealed identity archive matters;
-* open a maintenance route or meaningful interaction;
-* change how the player understands the introduction Mission;
-* preserve [[Characters/Rook|ROOK’s]] innate identity.
-
 ## Unknown rules
 
 > **TODO — Acquisition and compatibility:** Define the collection interaction and unlock presentation for Specialization Imprints. Resolve any remaining compatibility or assignment questions for other Imprint roles without assuming Imprints are equippable inventory items or reopening the accepted cross-Character Specialization collection rule.

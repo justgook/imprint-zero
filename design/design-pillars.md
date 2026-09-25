@@ -5,7 +5,7 @@ eyebrow: Design
 status: accepted
 ---
 
-> **Accepted** — These ordered pillars protect the game while implementation details change. A representative encounter must still prove that the current design fulfills them.
+> **Accepted** — These ordered pillars protect the game while implementation details change. Authored Mission encounters must still prove that the current design fulfills them.
 
 | Priority | Pillar | Requires | Rejects |
 |---:|---|---|---|
@@ -15,13 +15,13 @@ status: accepted
 
 ## Action mastery comes first
 
-> **TODO — Playtest evidence:** Prove that the representative encounter is readable and satisfying with baseline action before adding progression rewards, narrative reveals, or production spectacle.
+> **TODO — Playtest evidence:** Prove that M01's encounters are readable and satisfying with baseline action before adding progression rewards, narrative reveals, or production spectacle.
 
 The player should improve by reading threats, executing movement and combat, understanding a Character's strengths, and applying route knowledge. Difficulty grows through patterns, spatial demands, enemy combinations, and decisions—not only larger health and damage values.
 
 ## Character choice transforms play
 
-> **TODO — Comparative example:** Resolve the same representative encounter with ROOK and VECTOR, showing different decisions, execution, optional access, strengths, and liabilities.
+> **TODO — Comparative example:** Resolve an encounter in a later Mission with ROOK and VECTOR, showing different decisions, execution, optional access, strengths, and liabilities.
 
 After the controlled introduction, every Mission critical path supports every available Character and Specialization. Character-owned verbs gate only optional routes, shortcuts, Imprints, equipment opportunities, and other rewards. Equipment may tune a Specialization but cannot grant another Character's signature verb.
 

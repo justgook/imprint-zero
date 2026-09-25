@@ -33,7 +33,7 @@ status: in-progress
 - Cooperative or competitive multiplayer requirements for the first release.
 - Console certification, mobile, touch controls, or mouse-dependent play as first-release requirements.
 - A large cast designed before two characters prove meaningful gameplay contrast.
-- Lore, content volume, or progression breadth used to compensate for a weak representative encounter.
+- Lore, content volume, or progression breadth used to compensate for weak authored Mission encounters.
 
 ## Third-party asset boundary
 
@@ -43,6 +43,6 @@ status: in-progress
 
 ## Missing production limits
 
-> **TODO** — Set provisional budgets for characters, locations, bosses, enemies, abilities, weapons, narrative, animation, music, and effects after the representative encounter is validated.
+> **TODO — Content budgets:** Set provisional budgets for characters, locations, bosses, enemies, abilities, weapons, narrative, animation, music, and effects after M01 and a later feature-rich Mission are scoped and validated.
 
 > **Needs example** — Define one “release-complete” route through a single location to establish the expected density of combat, traversal, discovery, and presentation.

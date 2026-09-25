@@ -16,7 +16,7 @@ status: in-progress
 
 ## Visual-production feasibility
 
-Do not approve a visual style from a single hero image. Measure its cost on the most frequently produced asset classes in the representative encounter.
+Do not approve a visual style from a single hero image. Measure its cost on the asset classes required by the first fully scoped Missions.
 
 The first-order estimate for one asset class is:
 
@@ -41,14 +41,14 @@ Use measured median times, not optimistic guesses. Re-estimate whenever palette,
 | Asset class | Sample | Quantity | Create/source h | Adapt h | Animate h | Integrate h | Revision % | Estimated total h | Evidence |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|
 | Player | ROOK baseline set | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
-| Core enemy | Horizontal Sentry | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
-| Core enemy | Shield Enforcer | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
-| Environment | Freight modular kit | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
-| Hazard | Cargo crane | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
+| Core enemy | M01 E001 candidate | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
+| Core enemy | M01 E002 candidate | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
+| Environment | M01 residential-tower kit | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
+| Hazard | M01 authored hazard (if required) | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Unscoped |
 | Effects | Baseline combat effects | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
 | Interface | Integrity and interaction signals | TBD | TBD | TBD | TBD | TBD | TBD | TBD | Needed |
 
-> **Needs evidence** — Time one complete sample per row while building the freight-terminal slice. If the resulting total does not fit available production hours, reduce quantity, animation scope, detail, or uniqueness before expanding content.
+> **Needs evidence** — Time one complete sample per required row during M01 production. If the resulting total does not fit available production hours, reduce quantity, animation scope, detail, or uniqueness before expanding content.
 
 See [[Design/Art Direction|Art direction]] for the four-axis contract and acceptance tests.
 

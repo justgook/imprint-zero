@@ -68,7 +68,7 @@ Replay rewards curiosity, but the Standard ending must satisfy players who stop 
 - Performance statistics may suggest completeness but must never gate an ending or hidden route.
 - The Standard ending must stand as a satisfying completion; deeper routes add interpretation rather than repairing an intentionally incomplete first ending.
 - Create an original cast, world, challenges, and assets; evoke remembered conventions without reproducing a particular game.
-- Do not use nostalgia or speculative content volume as a substitute for a strong representative encounter.
+- Do not use nostalgia or speculative content volume as a substitute for strong authored Mission encounters.
 
 ## Related pages
 

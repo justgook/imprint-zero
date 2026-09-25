@@ -288,18 +288,6 @@ RELAY sealed herself inside Helix Foundry while following a clue toward Overdriv
 
 RELAY then leads [[Missions/M05|The Four Trials]]. The player deploys primarily as RELAY, chooses the crew activation rooms in any order, and temporarily controls each Character through an unlimited-Overdrive trial.
 
-## Representative Encounter
-
-| Specialization | Freight Terminal prototype scenario |
-|---|---|
-| Wire | Use Arc Cutter to expose a machine, Runner Legs to cross firing lanes, and Sensor Array to read hack compatibility. |
-| Network | Split Fabricator, Line Runner, and Process Warden through Follow, Focus, and Hold while deciding when Direct Control justifies leaving RELAY stationary. |
-| Null | Use Overload, Runaway Directive, and Cascade Virus to turn sentries, security equipment, and crane machinery into disposable attacks. |
-
-This is a non-campaign validation setup, not an in-campaign replay of M01.
-
-The critical route remains completable through shared movement and fallback combat. Hack opens only authored RELAY optional routes.
-
 ## Presentation requirements
 
 > **TODO — RELAY presentation:** Replace Specialization portrait and sprite placeholders after profile scale, modular attachment, unit ownership language, Mesh Dive posture, and Chassis silhouette are validated.
