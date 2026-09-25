@@ -15,3 +15,7 @@ The Markdown files are the source of truth. Use QMD as a *discovery tool*, then 
 5. After modifying Markdown, run `make qmd-update` again. Use `make qmd-embed` if you need semantic results refreshed. Do not trigger model downloads or embeddings just to perform a keyword lookup.
 
 Search result scores are relevance estimates, **not** evidence that a rule is accepted or current. Check each page's status and accepted decisions, and cross-check conflicting results. If QMD is unavailable, use normal file search (`rg`) and direct reads rather than blocking work.
+
+# Commits during wiki cleanup
+
+Commit each coherent, validated write pass when it is ready to stand on its own. Use `emoji(context): what was done` (for example, `📝(imprints): define Act II biome memories`). Stage only files belonging to that pass; leave unrelated working-tree changes untouched. Keep `CONTEXT.md` for domain language and relationships, not repository workflow instructions.
