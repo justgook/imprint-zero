@@ -78,7 +78,7 @@ An Equipment Imprint reveals an opportunity; it is not itself a Data Fragment or
 
 ## Extended-route prerequisites
 
-> **TODO — Biome Imprint authoring:** Define each assigned Imprint's hidden location, discovery challenge, and Character-specific memory payload against the accepted [[Missions/M07#voiceprint-sequence|M07 authentication sequence]].
+> **TODO — Biome Imprint validation:** Validate the hidden discovery staging, collection feedback, Character-perspective storyboard execution, and audio timing on each owning Mission page against the accepted [[Missions/M07#voiceprint-sequence|M07 authentication sequence]]. The four discovery premises and memory payloads are accepted.
 
 > **Accepted** — Each of the four biome Memory Imprints is hidden within a Special Mission, with one per Special Mission. Completing that Mission does not automatically collect its Imprint. This complements the two Specialization Imprints in each biome's first and second main Missions; the Guardian Mission has no Imprint assigned by this distribution.
 

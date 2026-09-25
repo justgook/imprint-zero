@@ -9,17 +9,16 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Author the four biome Memory Imprints in MS01–MS04 against M07's accepted authentication sequence, continuing with B04's memory in MS02. B03's MS01 premise, Character perspectives, and hidden relay-booth discovery are accepted. All eight Specialization discovery routes are accepted; their spatial staging, collection feedback, and storyboards still need validation. All eight Mission placements and the four biome Memory Imprint placements in MS01–MS04 are accepted. B03–B06 scene language is accepted. Resume sidebar cleanup at [[Enemies/Overview|Enemies]] afterward. The Overdrive and Specialization Imprint memory premises now have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
+> **TODO — Next page:** Resume sidebar cleanup at [[Enemies/Overview|Enemies]]. All four biome Memory Imprints in MS01–MS04 now have accepted discovery premises, Character perspectives, and complementary voiceprint clues; spatial staging, collection feedback, storyboard execution, and audio timing remain for validation. The eight Specialization Imprint Mission placements and discovery routes are accepted; their staging, feedback, and storyboards still need validation. Overdrive and Specialization memories have page-local storyboard prompts and placeholders; production details remain TODOs. Keep accepted rules on their canonical pages; flag unresolved design rather than inventing it during cleanup.
 
-The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The current sidebar cursor is **Imprints**. `imprints/overview.md` has received an alignment pass: stale M07 synthesis questions and death-loss uncertainty now link to accepted rules, and the catalogue distinguishes planned entries from fully authored content.
+The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The Imprints alignment pass is complete for accepted premises and ownership, not for scene production or unresolved equipment and exploration Imprints. The next sidebar cursor is **Enemies**. `imprints/overview.md` links to M07's accepted rules and distinguishes planned entries from fully produced content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Imprints/Overview|Imprints]] | Author biome Memory payloads and hidden discoveries against M07. Specialization Mission placements, route premises, memory premises, and cross-Character collection are accepted. |
-| 2 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
-| 3 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
-| 4 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
-| 5 | Remaining `_sidebar.md` sections | Continue through Game Text, Gameplay, Presentation, Production, and Authoring without changing approval-locked style rules. |
+| 1 | [[Enemies/Overview|Enemies]] | Review overview, template, and entries in sidebar order. |
+| 2 | [[Bosses/Overview|Bosses and minibosses]] | Review overview and entries in sidebar order. |
+| 3 | [[Equipment/Overview|Equipment]] | Review overview and entries against the current crew and research rules. |
+| 4 | Remaining `_sidebar.md` sections | Continue through Game Text, Gameplay, Presentation, Production, and Authoring without changing approval-locked style rules. |
 
 ## Cutscene storyboard backlog
 
@@ -35,6 +34,9 @@ All eight Specialization storyboard drafts are embedded on their owning pages fr
 | [[Imprints/Ram Siege#cutscenes|RAM — Siege]], [[Imprints/Ram Onslaught#cutscenes|RAM — Onslaught]] | Regenerate and review boards; define firing, transport, windup, impact, and radio timing. |
 | [[Imprints/Relay Network#cutscenes|RELAY — Network]], [[Imprints/Relay Null#cutscenes|RELAY — Null]] | Regenerate and review boards; select compatible machines and define Direct Control, transmission, deterioration, and audio timing. |
 | [[Missions/MS01#cutscenes|B03 biome Memory]] | Opening-response premise, four Character emphases, and relay-booth discovery accepted. Validate discovery staging, perspective-specific storyboard execution, and audio timing against M07. |
+| [[Missions/MS02#cutscenes|B04 biome Memory]] | VECTOR's second response, four Character perspectives, and auxiliary-buffer discovery are accepted. Validate discovery staging, storyboard, and audio timing against M07. |
+| [[Missions/MS03#cutscenes|B05 biome Memory]] | RAM's third response, four Character perspectives, and service-alcove discovery are accepted. Validate discovery staging, storyboard, and audio timing against M07. |
+| [[Missions/MS04#cutscenes|B06 biome Memory]] | RELAY's closing response, four Character perspectives, and disused-gate terminal discovery are accepted. Validate discovery staging, storyboard, and audio timing against M07. |
 | Remaining Imprint and Mission pages | Identify required scenes as each page is reviewed; add page-local prompts and placeholders once scene premises are accepted. |
 
 ## Parked validation queue
