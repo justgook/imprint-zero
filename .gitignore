@@ -3,3 +3,5 @@
 
 .wiki-engine/
 .wiki-dist/
+.qmd/
+.direnv/
