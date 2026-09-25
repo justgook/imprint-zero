@@ -13,6 +13,14 @@ status: in-progress
 | `C12` | Heavy ROOK | Shotguns |
 | `C13` | Assault ROOK | Dual pistols, including automatic variants |
 
+## Appearance
+
+![Exploratory ROOK crew sheet with full-body armour, helmet close-up, rear view, and three loadout studies](content/images/characters/ROOK.png)
+
+![Exploratory ROOK modelling sheet with front, side, rear and rifle-ready views](content/images/characters/references/rook-turnaround.png)
+
+These are the player's refined visual references for the same Character, not accepted stats, labels, abilities, weapon models, colours, production-poly targets, or final gameplay sprites. For [[Missions/M01|M01]], test the C11 rifle-user silhouette: enclosed helmet, dark segmented armour, a compact rifle, and restrained warm identifiers. Keep ROOK distinct from RAM's substantially heavier armour. Gameplay-scale readability and rendering style still require review against the Mission scene and [[Design/Art Direction|Art Direction]].
+
 ## Crew role and voice
 
 > **Accepted** — ROOK is the crew's emergent coordinator rather than a formally appointed commander.

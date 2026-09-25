@@ -19,7 +19,9 @@ status: in-progress
 
 ![RELAY biomechanical body reference](content/images/characters/RELAY.png)
 
-This image is a body-design target rather than a canonical character sheet or final implementation. Both arms and both legs are fully biomechanical prostheses; the head and torso retain visible biological tissue, while cranial and spinal/back interfaces support hacking and machine integration. The campaign does not establish whether RELAY lost natural limbs, surrendered them, or was created without them. Ignore the image's text, logos, exact clothing, markings, cables, weapons, and proportions unless accepted separately on this page.
+![Exploratory RELAY modelling sheet with front, side, rear and interface-gesture views](content/images/characters/references/relay-turnaround.png)
+
+These images are body-design references rather than canonical character sheets or final implementation. Both arms and both legs are fully biomechanical prostheses; the head and torso retain visible biological tissue, while cranial and spinal/back interfaces support hacking and machine integration. The campaign does not establish whether RELAY lost natural limbs, surrendered them, or was created without them. Ignore the images' text, logos, exact clothing, markings, cables, weapons, and proportions unless accepted separately on this page.
 
 ## Crew role and voice
 

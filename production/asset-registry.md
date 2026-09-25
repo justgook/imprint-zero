@@ -24,13 +24,16 @@ Record only metadata for licensed private assets; never link or embed restricted
 
 | ID | Asset set | Role | Source/provenance | Adaptation required | Reusable | Style check | Status |
 |---|---|---|---|---|---|---|---|
-| VIS-01 | ROOK baseline set | Player | TBD | Gameplay silhouette and motion | Yes | Pending direction | Planned |
+| VIS-01 | [[Characters/Rook#appearance|ROOK visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `/Users/gook/Projects/InprintZero/modeling/model ROOK.png` | Gameplay silhouette, motion, and C11 Mission-scale match | Yes | Pending direction | Reference candidate |
 | VIS-02 | M01 E001 concept | Enemy candidate | TBD | Silhouette, action readability, style | TBD | Not run | Requires update |
 | VIS-03 | M01 E002 concept | Enemy candidate | TBD | Silhouette, threat readability, style | TBD | Not run | Requires update |
 | VIS-04 | M01 residential-tower kit | Environment | TBD | Layout, readability, reusable kit | TBD | Pending direction | Requires scope |
 | VIS-05 | [[Missions/M01#mission-visual-reference|M01 security-hold concept]] | Exploratory Mission sample | Generated with image tool from M01 / ROOK / E001 / E002 briefs | Validate level layout, silhouettes, readability, and production feasibility; not a kit or approved style | No | Not run | Review candidate |
 | VIS-06 | Baseline combat effects | Effects | TBD | Semantic color, timing, visual density | Yes | Not run | Planned |
 | VIS-07 | Integrity and interaction signals | Interface | TBD | Semantic color, scale, contrast | Yes | Not run | Planned |
+| VIS-08 | [[Characters/Vector#appearance|VECTOR visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model VECTOR.png` | Resolve Specialization looks and gameplay silhouette | Yes | Pending direction | Reference candidate |
+| VIS-09 | [[Characters/Ram#appearance|RAM visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model RAM.png` | Gameplay silhouette and armour movement | Yes | Pending direction | Reference candidate |
+| VIS-10 | [[Characters/Relay#appearance|RELAY visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/RELAY/BEST RELAY.png` | Preserve accepted prosthesis boundary at gameplay scale | Yes | Pending direction | Reference candidate |
 
 ## Narrative production
 

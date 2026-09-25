@@ -19,7 +19,9 @@ status: in-progress
 
 ![RAM full-body armour reference](content/images/characters/RAM.png)
 
-This image is a body-design reference, not a canonical character sheet or final implementation. Retain the massive full-body powered armour, enclosed helmet, broad reinforced silhouette, dark gunmetal body, and restrained orange accents. Ignore its text, logos, measurements, exact weapons, and other loadout details unless accepted separately in this page.
+![Exploratory RAM modelling sheet with front, side, rear and shield-bearing views](content/images/characters/references/ram-turnaround.png)
+
+These images are body-design references, not canonical character sheets or final implementation. Retain the massive full-body powered armour, enclosed helmet, broad reinforced silhouette, dark gunmetal body, and restrained orange accents. Ignore their text, logos, measurements, exact weapons, poly targets, and other loadout details unless accepted separately in this page.
 
 ## Crew role and voice
 

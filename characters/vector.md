@@ -15,6 +15,14 @@ status: in-progress
 | `C22` | Phase VECTOR | Aggressive katana pressure and invulnerable phase shifting |
 | `C23` | Hunter VECTOR | Long-range sniper fire, recoil management, and resonance-based enemy control |
 
+## Appearance
+
+![Exploratory VECTOR crew sheet with face study and Ghost, Phase, and Hunter loadout studies](content/images/characters/VECTOR.png)
+
+![Exploratory VECTOR modelling sheet showing several views of a light-armoured body and a hooded variation](content/images/characters/references/vector-turnaround.png)
+
+These are visual references, not accepted ability lists, measurements, outfits for every Specialization, or production specifications. Compare their lighter silhouette and face/hood options with the Character's accepted movement and Equipment before selecting game-scale art. The sheets do not make camouflage, a cape, or phase effects Character-wide abilities.
+
 ## Crew role and voice
 
 > **Accepted** — VECTOR's Character-wide invisibility is behavioural and spatial; literal Active Camouflage remains Ghost-specific Equipment.
