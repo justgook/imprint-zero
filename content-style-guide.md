@@ -83,6 +83,33 @@ Use schemas to show, for example:
 
 A schema should replace a prose walkthrough, not duplicate it. Add only the text needed to define constraints, exceptions, or decisions that the schema cannot express.
 
+### Mission room graphs
+
+> **Accepted** — A Mission owns its room order and authored room contents. Its Mermaid graph is the place to scan the critical route, room purpose, communication triggers, and placements; do not repeat those counts in a room table. The diagram is not a spatial minimap.
+
+Use room-purpose colours for the main route and reserve the legend for those colours and communication, **not** for each content type. Attach one **room-content block** per room when there are authored placements. It is a grey rectangular node with a thin dashed border and connector, whether it contains enemies, fixed pickups, or both. Write enemy quantities as `(3)E001`; use stable IDs and quantities for other authored pickups when assigned. Put each ID inside its own `<a href='...'>` link so multiple IDs in one block remain independently navigable. The wiki's Mermaid renderer allows HTML labels; a `click` directive would link the *whole* block to only one destination. Link to the owning Enemy, Equipment, Blueprint, or other page rather than copying the item's rules into the Mission. An item appears here only when it is an **authored placement**; random enemy-drop tables stay with their source, and an objective/interactable is described as part of the room rather than mislabelled a pickup. Do not invent a placement just to fill a room-content block.
+
+Give communication nodes rounded shapes and **heavy dotted** connectors, distinct from the thin dashes for room content. They may link to canonical dialogue entries. `linkStyle` uses edge order: when adding or reordering edges, recalculate the indices so communication never accidentally receives content styling. The Mission must still carry the Mermaid `classDef` and `linkStyle` declarations needed to render it; this section owns the authoring convention, not a shared stylesheet.
+
+Syntax example only — the pickup shown here is **not** an authored Mission placement:
+
+```mermaid
+flowchart LR
+    A["R01 · Arrival"] --> B["R02 · Encounter"]
+    A -.- COM(["💬 COM01 · Operator"])
+    B -.- CONTENT["(3)<a href='#/enemies/e001'>E001</a> · (2)<a href='#/enemies/e002'>E002</a> · (1)<a href='#/equipment/eq001'>EQ001</a>"]
+
+    click COM href "#/locale/en/dialogue.po?entry=dialogue.m01.com01"
+    classDef communication fill:#f8fafc,stroke:#64748b,color:#334155,stroke-width:1px,stroke-dasharray:4 3;
+    classDef roomContent fill:#f8fafc,stroke:#64748b,color:#334155,stroke-width:1px,stroke-dasharray:7 5;
+    class COM communication;
+    class CONTENT roomContent;
+    linkStyle 1 stroke:#64748b,stroke-width:12px,stroke-dasharray:1 22,stroke-linecap:round;
+    linkStyle 2 stroke:#64748b,stroke-width:2px,stroke-dasharray:7 5;
+```
+
+In real Mission graphs, choose the room-purpose classes and legend needed for that Mission; link a pickup to its actual owning page and observe its acquisition rules. See [[Missions/M01|M01]] for a live example with no authored pickups yet.
+
 ## Images before prose
 
 Prefer an image when the subject is primarily visual or spatial.
