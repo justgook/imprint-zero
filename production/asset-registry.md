@@ -28,7 +28,7 @@ Record only metadata for licensed private assets; never link or embed restricted
 | VIS-02 | M01 E001 concept | Enemy candidate | TBD | Silhouette, action readability, style | TBD | Not run | Requires update |
 | VIS-03 | M01 E002 concept | Enemy candidate | TBD | Silhouette, threat readability, style | TBD | Not run | Requires update |
 | VIS-04 | M01 residential-tower kit | Environment | TBD | Layout, readability, reusable kit | TBD | Pending direction | Requires scope |
-| VIS-05 | [[Missions/M01#mission-visual-reference|M01 security-hold concept]] | Exploratory Mission sample | Generated with image tool from M01 / ROOK / E001 / E002 briefs | Validate level layout, silhouettes, readability, and production feasibility; not a kit or approved style | No | Not run | Review candidate |
+| VIS-05 | [[Missions/M01#mission-visual-reference|M01 security-hold concept]] | Exploratory Mission sample | Generated with image tool from M01 / E001 / E002 briefs and a text description of [[Characters/Rook#appearance|ROOK's refined reference]]; no source-image conditioning | Validate ROOK likeness, level layout, silhouettes, readability, and production feasibility; not a kit or approved style | No | Not run | Review candidate |
 | VIS-06 | Baseline combat effects | Effects | TBD | Semantic color, timing, visual density | Yes | Not run | Planned |
 | VIS-07 | Integrity and interaction signals | Interface | TBD | Semantic color, scale, contrast | Yes | Not run | Planned |
 | VIS-08 | [[Characters/Vector#appearance|VECTOR visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model VECTOR.png` | Resolve Specialization looks and gameplay silhouette | Yes | Pending direction | Reference candidate |
