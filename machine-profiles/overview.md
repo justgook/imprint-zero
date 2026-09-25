@@ -23,7 +23,7 @@ Controlled Units, Wire Integrations, and Hack Programs remain RELAY-owned capabi
 | Null Hack Programs | `0–many` | Source exposes writable functions with authored destructive results. |
 | Equipment and other outputs | `0–many` | Source supports a distinct producible reward for any crew member. |
 
-> **Accepted** — No optional output category is mandatory. A source receives an `MP###` page only when its machine unlock or linked outputs create persistent gameplay value.
+> **Accepted** — No optional output category is mandatory. A source receives an `MP###` page only when its machine unlock or linked outputs create persistent gameplay value. Being a hostile machine does not by itself create a Machine Profile: M01's E001/E002 remain Enemy-only candidates unless a later Mission establishes a persistent research or RELAY use.
 
 Multiple profiles may reference the same Integration, Hack Program, Equipment item, or other Output Blueprint. Duplicate associations remain valid but do not create duplicate items.
 

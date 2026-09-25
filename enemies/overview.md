@@ -5,7 +5,7 @@ eyebrow: Enemies
 status: in-progress
 ---
 
-Enemy pages define reusable hostile behaviour required by authored Missions, not a roster invented ahead of their encounters. [[Missions/Overview|Missions]] owns campaign placement; each Mission owns the threat's local purpose, placement, and combinations.
+Enemy pages define reusable hostile behaviour required by authored Missions, not a roster invented ahead of their encounters. [[Missions/Overview|Missions]] owns campaign placement; each Mission owns the threat's local purpose, placement, and combinations. Hostile machinery does not automatically need a [[Machine Profiles/Overview|Machine Profile]]; add one only when later Mission use creates persistent research or RELAY value.
 
 ## Current candidates
 
