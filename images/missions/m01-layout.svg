@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#1b2026"/>
+<g fill="#eee8dc" font-family="sans-serif"><text x="50" y="65" font-size="38">M01 · EXPANDED SPATIAL LAYOUT PLACEHOLDER</text><text x="50" y="112" font-size="25">Replace with reviewed level-design render at 1600:900; keep room IDs aligned with minimap and Mission graph.</text><text x="50" y="151" font-size="24">Show real room footprints, elevation, doorways, playable traversal, objectives, safe approaches, and extraction.</text><text x="50" y="190" font-size="24">Do not treat the boxes below as accepted Mission geometry or final art direction.</text></g>
+<g fill="none" stroke="#888f92" stroke-width="4"><rect x="55" y="260" width="1490" height="510"/><path d="M300 260v510m560-510v510m430-510v510m-1235-250h1490"/></g>
+<g fill="#eee8dc" font-family="sans-serif" font-size="28"><text x="93" y="322">R01 / R02</text><text x="345" y="322">R03 / R05</text><text x="900" y="322">R06</text><text x="1330" y="322">R07</text></g>
+</svg>

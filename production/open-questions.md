@@ -15,7 +15,7 @@ The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew def
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Missions/M01|M01]] | Define room-by-room purpose, E001/E002 needs, production references, dialogue handoffs, and testable encounters. |
+| 1 | [[Missions/M01|M01]] | The graph now owns room order, E001/E002 provisional placements, and dialogue links; refine enemy roles/counts, room timing, and spatial map, expanded layout, and gameplay concept with level and visual designers. |
 | 2 | Later Mission (to select) | Validate the Mission page pattern with a boss or miniboss, Imprint, optional path, drops, and production links. |
 | 3 | [[Enemies/Overview|Enemies]] and [[Bosses/Overview|Bosses]] | Populate only from accepted Mission needs; preserve approved narrative boundaries. |
 | 4 | [[Equipment/Overview|Equipment]] and [[Machine Profiles/Overview|Machine Profiles]] | Align cross-links with Mission placements without discarding their accepted baselines. |
