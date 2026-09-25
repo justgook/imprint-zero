@@ -50,7 +50,7 @@ Use measured median times, not optimistic guesses. Re-estimate whenever palette,
 
 > **Needs evidence** — Time one complete sample per required row during M01 production. If the resulting total does not fit available production hours, reduce quantity, animation scope, detail, or uniqueness before expanding content.
 
-See [[Design/Art Direction|Art direction]] for the four-axis contract and acceptance tests.
+See [[Design/Art Direction|Art direction]] for the pending sample-based visual review; do not assume the retired four-axis contract is accepted.
 
 ## Planned content
 

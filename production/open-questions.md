@@ -9,7 +9,7 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Refine [[Missions/M01|M01 — Cold Deployment]] from its residential-tower structure before populating Enemy and Boss catalogues. E001/E002 are provisional M01 enemy candidates, not accepted behaviour; Machine Profiles and Equipment retain their independent accepted baselines. A later Mission must test the full page structure for bosses, Imprints, optional paths, dialogue, and production assets. Imprint scene production and staging remain in the cutscene backlog. Keep accepted rules on canonical pages; do not restore the retired freight-terminal wiki test.
+> **TODO — Next page:** Refine [[Missions/M01|M01 — Cold Deployment]] from its residential-tower structure before populating Enemy and Boss catalogues. E001/E002 are provisional M01 enemy candidates, not accepted behaviour; Machine Profiles and Equipment retain their independent accepted baselines. The former art prescription is retired; visual direction will be derived from Mission, Character, and Enemy samples. A later Mission must test the full page structure for bosses, Imprints, optional paths, dialogue, and production assets. Imprint scene production and staging remain in the cutscene backlog. Keep accepted rules on canonical pages; do not restore the retired freight-terminal wiki test.
 
 The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The Imprints alignment pass is complete for accepted premises and ownership, not for scene production or unresolved equipment Imprints. The cleanup now follows **Missions** as the source of encounter needs rather than populating Enemy and Boss indexes ahead of Missions. `imprints/overview.md` links to M07's accepted rules and distinguishes planned entries from fully produced content.
 
@@ -62,9 +62,7 @@ Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Netw
 
 ## Current production constraint
 
-> **Accepted** — CraftPix originals and modified derivatives stay under `examples/demo/game/assets.private/craftpix/`, which is ignored by Git. They must not be copied elsewhere in the public repository or provided to AI tools.
-
-> **TODO** — Confirm that the intended packaged browser distribution complies with the license before publishing extractable art files.
+> **TODO — New visual direction:** Collect Mission, Character, and Enemy samples before approving a shared rendering style or asset source. Record license and distribution terms before publishing third-party assets.
 
 ## Parked detail decisions
 
@@ -81,7 +79,7 @@ These remain important but should not interrupt the Mission-led content pass:
 
 > **TODO — Recovery diagram:** Show post-HUB death returning the deployed Character to their personal Recovery Capsule (“Coffin”), reopening Hub choices, and restarting the failed Mission from its beginning.
 
-> **Needs image** — A character silhouette comparison and cyberpunk visual-direction board after gameplay roles are defined.
+> **Needs image** — Add Character, Enemy, and Mission samples for review before defining the shared visual direction.
 
 ## Recently resolved
 
@@ -103,7 +101,6 @@ These remain important but should not interrupt the Mission-led content pass:
 - **Opening delivery:** control begins immediately; objective and crew familiarity arrive through operational radio dialogue during the safe-arrival beat.
 - **Opening progression:** new game deploys directly into Cold Deployment with preselected ROOK and the Baseline Rifle; first success unlocks the Hub.
 - **Hub presentation:** compact navigable side-view Zone with direct shortcuts to character, equipment, Mission, and Memory interfaces.
-- **Private asset workflow:** licensed CraftPix source and derivatives stay under the git-ignored `examples/demo/game/assets.private/craftpix/` directory. See [[Design/Art Direction|Art direction]].
 - **Baseline camera:** smooth side-follow with dead zones, gradual movement-based look-ahead, vertical bias, authored bounds, backward support, and no forced scrolling.
 - **Baseline movement:** one digital run speed, quick acceleration, immediate or near-immediate reversal, no walk, sprint, or stamina state.
 - **Baseline jump:** one variable-height jump, moderate air control, faster fall, short coyote time and input buffering; no double jump, wall jump, ledge grab, or air dash.

@@ -37,7 +37,7 @@ Character selection changes combat decisions, traversal opportunities, optional 
 
 Every Memory Imprint adds lore through a memory or cutscene while unlocking progression: a Specialization, access to acquiring equipment, the concealed Overdrive system, or hidden campaign evidence. Shared Imprints preserve common evidence while foregrounding a memory fragment, interpretation, or reaction specific to the deployed Character. Equipment may tune reach, timing, resource use, damage profile, or tactical emphasis within an established Character and Specialization play style. It must not grant another character's signature verb, erase the selected identity, or turn one crew member into another.
 
-Retro presentation is not sufficient differentiation. The game must be recognizable through its original crew, materially different approaches to the same handcrafted challenges, actionable identity discoveries, and industrial cyberpunk journey.
+Visual presentation remains open while new Mission and Character art is reviewed. The game must be recognizable through its original crew, materially different approaches to the same handcrafted challenges, and actionable identity discoveries.
 
 ## Mission compatibility
 
@@ -53,7 +53,7 @@ After the controlled introduction, Character gating changes exploration and tact
 
 > **Accepted** — The game is for players who enjoy precise, readable 2D action; mastering fundamentally different Characters; revisiting handcrafted Missions after noticing inaccessible routes; and piecing together an ambiguous science-fiction mystery without an explicit completion checklist.
 
-Replay rewards curiosity, but the Standard ending must satisfy players who stop after one completion. Nostalgia may attract attention, but the game must remain worthwhile without attachment to a specific reference. It does not primarily serve expectations of procedural runs, constant randomized rewards, continuous bullet hell, or hardware-authentic inconvenience.
+Replay rewards curiosity, but the Standard ending must satisfy players who stop after one completion. The game must remain worthwhile without attachment to a specific visual reference. It does not primarily serve expectations of procedural runs, constant randomized rewards, continuous bullet hell, or hardware-authentic inconvenience.
 
 ## Creative boundaries
 
@@ -67,8 +67,8 @@ Replay rewards curiosity, but the Standard ending must satisfy players who stop 
 - Hidden-route discovery must feel inferred by the player: do not expose biome Memory Imprints as a route checklist or announce the true ending in advance.
 - Performance statistics may suggest completeness but must never gate an ending or hidden route.
 - The Standard ending must stand as a satisfying completion; deeper routes add interpretation rather than repairing an intentionally incomplete first ending.
-- Create an original cast, world, challenges, and assets; evoke remembered conventions without reproducing a particular game.
-- Do not use nostalgia or speculative content volume as a substitute for strong authored Mission encounters.
+- Create an original cast, world, challenges, and assets without reproducing a particular game.
+- Do not use speculative content volume as a substitute for strong authored Mission encounters.
 
 ## Related pages
 

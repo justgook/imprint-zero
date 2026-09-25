@@ -11,7 +11,7 @@ Review this page after every accepted design or cleanup iteration. It records on
 
 > **Imprint Zero** — *You know how to fight. Not who you are.*
 
-A modern 16-bit side-scrolling action platformer about a crew of soldiers with reliable combat conditioning and unreliable identities. Run, jump, shoot, and discover routes through an authored industrial campaign. Character choice changes how each challenge is played; recovered Memory Imprints change both capability and understanding.
+A side-scrolling action platformer about a crew of soldiers with reliable combat conditioning and unreliable identities. Run, jump, shoot, and discover routes through an authored industrial campaign. Character choice changes how each challenge is played; recovered Memory Imprints change both capability and understanding.
 
 ## Product at a glance
 
@@ -23,7 +23,7 @@ A modern 16-bit side-scrolling action platformer about a crew of soldiers with r
 | Hub and retry | Safely test configurations; death returns the selected Specialization's rail-delivered “Coffin” without resource loss |
 | Format | PC-first, single-player, one deployed character; gamepad-led controls with fully remappable keyboard support |
 | Scope | Compact 3–5 hour first completion; replay reveals character variation, hidden evidence, and alternative endings |
-| Presentation | A modern memory of 16-bit action games filtered through worn, late-20th-century industrial cyberpunk |
+| Presentation | Visual language to be defined from Mission, Character, and Enemy production samples |
 
 ## Campaign shape
 
@@ -57,6 +57,6 @@ No ending completely proves the crew's origin. The Standard ending must satisfy 
 
 > **TODO — Mission proof:** Refine and playtest [[Missions/M01|M01's residential-tower route]] with ROOK; then use a later Mission to demonstrate character contrast, an optional Imprint, and a branch without implying that these appear in M01.
 
-Validate action, readability, character contrast, and the visual style contract through authored Missions before expanding production.
+Validate action, readability, and character contrast through authored Missions; derive visual direction from reviewed Mission, Character, and Enemy samples.
 
 See [[Current Direction|Current direction]], [[Missions/Overview|Campaign progression]], [[Missions/M01|M01 — Cold Deployment]], and [[Design/Art Direction|Art direction]].

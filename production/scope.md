@@ -37,9 +37,7 @@ status: in-progress
 
 ## Third-party asset boundary
 
-> **Accepted** — The CraftPix Cyberpunk Platformer collection may provide starting and potentially shippable game art, but it does not constrain the game to its complete catalogue or prevent later modification and replacement.
-
-> **Accepted** — Licensed source and modified art files must not be committed to the public repository. They remain under the git-ignored `examples/demo/game/assets.private/craftpix/` directory. Only distribution forms allowed by the applicable license may be published.
+> **TODO — Asset sourcing:** Select visual sources only after the new [[Design/Art Direction|art direction]] has production evidence. Record provenance and license terms of any third-party source before using it.
 
 ## Missing production limits
 

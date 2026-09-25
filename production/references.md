@@ -61,17 +61,6 @@ status: in-progress
 - **Avoid:** treating shaders, particles, palette swaps, or asset packs as substitutes for readability and a coherent direction; choosing detail that the production budget cannot sustain.
 - **Applied in:** [[Design/Art Direction|Art direction]] and [[Production/Content Budget|Content budget]].
 
-## Production asset sources
-
-### CraftPix Cyberpunk Platformer collection
-
-- **Source:** [Cyberpunk Platformer Asset Pixel Art](https://craftpix.net/sets/cyberpunk-platformer-asset-pixel-art/)
-- **Useful:** coherent platformer tiles, characters, enemies, bosses, objects, backgrounds, and parallax layers for prototyping authored Mission environments and threats.
-- **Adapt:** select and modify assets according to gameplay readability and the late-20th-century industrial cyberpunk direction.
-- **Avoid:** allowing catalogue availability or bright-neon presentation to define the game; including every pack because it exists.
-- **License constraint:** CraftPix permits licensed game use and modification but forbids redistribution of source or modified art. Raw licensed files must not enter the public repository. Its terms also forbid using licensed assets or derivatives for AI training, testing, validation, or improvement; do not provide the art to AI tools. See the [CraftPix file license](https://craftpix.net/file-licenses/).
-- **Open verification:** confirm that the intended packaged browser distribution complies when art files remain technically extractable.
-
 ## GDD format
 
 - [The Blood Is Mana — Design Document](https://docs.google.com/document/u/0/d/1iwKQG9L3DTygbnkHUxWCBC3rIT8J9WiEyWOFFnSRfAE/mobilebasic?pli=1) — a lightweight, concrete GDD combining pitch, player experience, mechanics, audiovisual direction, UI, and MVP scope.
