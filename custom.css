@@ -1,3 +1,9 @@
+/* Content-defined page-status badges. */
+.status-outdated { border-color: #d56a72; color: #f2a0a6; }
+.status-stage-1 { border-color: #9ca9b7; color: #bdc8d4; }
+.status-stage-2 { border-color: #79aee0; color: #91c5f2; }
+.status-stage-3 { border-color: #a9c780; color: #c3e49c; }
+
 /*
  * Content-specific presentation for playable-character profile cards.
  * Wiki shell, navigation, and general Markdown styles remain in style.css.

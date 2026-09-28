@@ -1,17 +1,34 @@
 ---
-title: Wiki Content Style Guide
-summary: Rules for choosing clear, visual, mathematical, and structured formats when authoring wiki pages.
+title: Wiki Rules
+summary: Binding ownership, page-status, and presentation rules for the wiki.
 eyebrow: Wiki guide
 status: reference
 ---
 
-This guide defines how content makers should present information in the wiki. Its purpose is to make pages quick to scan, easy to compare, and less dependent on long prose.
+These rules govern both the reliability of wiki pages and how their information is presented. They make pages quick to scan, easy to compare, and less dependent on long prose.
 
 ## Governance
 
-> **Accepted** — This style guide is approval-locked. Do not modify its rules without the user's explicit approval.
+> **Accepted** — These rules are approval-locked. Do not modify them without the user's explicit approval.
 
-Every newly authored or updated page must be checked against this guide before it is accepted. Existing pages are brought into alignment as they are reviewed in sidebar order. If a page needs an exception, record the proposed exception and obtain explicit approval rather than silently departing from the guide.
+Every newly authored or updated page must be checked against these rules before it is accepted. Existing pages are brought into alignment as they are reviewed in sidebar order. If a page needs an exception, record the proposed exception and obtain explicit approval rather than silently departing from the rules.
+
+## Page statuses and review passes
+
+> **Accepted** — Page status describes the reliability and review maturity of the **whole page**, not every statement inside it. Section markers distinguish already accepted decisions from provisional details. A page does not advance because it gained an illustration or a TODO list; it advances when the work required by that pass has been reviewed.
+
+| Status | Meaning | Use / next gate |
+|---|---|---|
+| `outdated` | Known to contradict current direction; not safe to build from as a whole. | Reconcile against owning pages, preserving valid decisions, then assign the appropriate current status. Do not infer that every statement is false. |
+| `todo` | Needed, but no usable page structure has been reviewed yet. | Establish the page's purpose, ownership, and overall structure. |
+| `stage-1` | First pass: overall structure reconciled with current direction. Details and samples may be provisional. | For Missions, outline route, required beats, optional access, and timing/layout/visual handoffs; flag unknown placements and assumptions. |
+| `stage-2` | Second pass: page refined against its dependencies, with concrete content and decisions reviewed. | For Missions, validate room sequence, encounters, dialogue, rewards, route constraints, and timings as design targets. Remaining unknowns stay explicit. |
+| `stage-3` | Third pass: page reconciled with production evidence after work has begun. | For Missions, review playable layout, measured times, art/room renders, and implementation differences. Production evidence is necessary; concept art alone is not enough. |
+| `accepted` | Current page-wide decisions are approved within its stated scope, with no known contradictions. | Does not mean immutable or production-complete. Reclassify if the page becomes known to conflict with current direction. |
+| `reference` | Current, stable authoring or supporting material rather than a Mission review pass. | Update when the rules or supporting material change. |
+| `in-progress` | Useful current direction with unresolved parts, for pages not yet migrated to a staged workflow. | Keep for non-Mission pages until reviewed; do not use it as an ambiguous substitute for a Mission's known pass. |
+
+The three stages record **passes, not tiers of quality or approval**. Accepted section-level decisions can appear on a `stage-1` page. A `stage-3` Mission may still have explicit TODOs and is not automatically `accepted`. Mark known contradictory pages `outdated` instead of treating incompleteness as staleness. Change status only after checking the page against its current owners; do not mass-promote or mass-mark pages without review.
 
 ## Canonical ownership before presentation
 

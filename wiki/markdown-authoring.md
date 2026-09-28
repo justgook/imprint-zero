@@ -33,7 +33,7 @@ By default, every page must use one of four statuses:
 - `todo` — required but not designed yet;
 - `reference` — stable authoring or supporting material.
 
-A content repository may add statuses with `registerStatus("under-review")` or replace the defaults with `setStatuses(["draft", "published"])` from an optional root `custom.js` default export. New status colors can be set in `custom.css` using `.status-under-review`. See the [engine README](https://github.com/justgook/wiki#optional-site-javascript-and-statuses) for the full site JavaScript example.
+A content repository may add statuses with `registerStatus("under-review")` or replace the defaults with `setStatuses(["draft", "published"])` from an optional root `custom.js` default export. New status colors can be set in `custom.css` using `.status-under-review`. See the [engine README](https://github.com/justgook/wiki#optional-site-javascript-and-statuses) for the full site JavaScript example. This project's additional statuses and promotion rules are defined in [[Wiki Rules#page-statuses-and-review-passes|Wiki Rules]].
 
 ## Document markers
 

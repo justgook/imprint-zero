@@ -224,7 +224,7 @@
 
 ## Authoring
 
-- [[Content Style Guide|Content style guide]]
+- [[Wiki Rules|Wiki rules]]
 - [[Wiki/Overview|Using the wiki engine]]
   - [[Wiki/Markdown Authoring|Markdown and navigation]]
   - [[Wiki/Markdown Cheat Sheet|Markdown cheat sheet]]

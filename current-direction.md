@@ -13,7 +13,7 @@ Use this page as the baseline while reviewing and cleaning the wiki. When anothe
 
 > **Accepted** — This page is the approval-locked source of current narrative truth and intentional ambiguity. Unresolved claims must remain explicit TODOs rather than being treated as truth. Update this page only after the user explicitly confirms a narrative decision.
 
-The [[Content Style Guide|content style guide]] governs how that truth is presented. This page remains revisable as decisions are confirmed; `accepted` means authoritative, not immutable.
+[[Wiki Rules]] governs how that truth is presented and how page maturity is labelled. This page remains revisable as decisions are confirmed; `accepted` means authoritative, not immutable.
 
 ## Source priority
 

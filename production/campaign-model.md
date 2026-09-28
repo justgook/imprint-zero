@@ -2,10 +2,12 @@
 title: Campaign model
 summary: Campaign model
 eyebrow: Production
-status: in-progress
+status: outdated
 ---
 
 # Campaign model
+
+> **Outdated** — This legacy grid places M02 in Waterworks with flood mechanics and contains a retired M00/freight campaign shape. Use [[Missions/Overview|campaign progression]] and the owning Mission pages instead; this table is retained only for reconciliation, not implementation.
 
 ## Content distribution
 

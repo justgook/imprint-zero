@@ -2,10 +2,12 @@
 title: Content budget
 summary: The ordered decision queue; unresolved matters stay here until moved into their canonical design page.
 eyebrow: Production
-status: in-progress
+status: outdated
 ---
 
 ## Runtime target
+
+> **Outdated — Reconciliation needed:** The aggregate runtime and planned-content counts below predate the current campaign and Mission-led scoping. Do not treat them as current production budgets. Preserve the sample-cost method for later review, then re-estimate from authored Missions and actual production evidence.
 
 | Metric | Minimum | Target | Maximum |
 |---|---:|---:|---:|

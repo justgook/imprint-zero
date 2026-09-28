@@ -1,6 +1,6 @@
 # Imprint Zero Domain Language
 
-Canonical language for the game's crew, progression, and campaign structure. Wiki ownership and presentation rules belong to the [[Content Style Guide|content style guide]] and are linked rather than duplicated here.
+Canonical language for the game's crew, progression, and campaign structure. Wiki ownership and presentation rules belong to the [[Wiki Rules|wiki rules]] and are linked rather than duplicated here.
 
 ## Language
 
