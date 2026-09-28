@@ -11,6 +11,22 @@ status: in-progress
 
 Game genre, narrative setting, and visual execution are separate decisions. [[Design/Game Vision|Game vision]] and [[Current Direction|current narrative direction]] remain authoritative for their own concerns; neither approves a pixel grid, palette, rendering style, or asset source.
 
+## Aspirational gameplay references
+
+> **Accepted — Visual aspiration:** These three user-supplied AI-generated **mock screenshots**, not captures of a playable build, show the desired *final-game experience*: dense side-on environments, legible action in a layered scene, moody lighting, and interface integrated into the gameplay view. Treat them as a target for comparison across Missions, not as an approved asset pipeline, fixed rendering technique, pixel density, palette, UI specification, encounter, or exact level layout. Their generated text, numbers, objectives, enemy designs, and labels do not override owning pages.
+
+### M01 — Ashfall District
+
+![Aspirational M01 mock screenshot with ROOK fighting drones across a residential-tower cross-section above a neon-lit district](content/images/design/gameplay-target-m01-ashfall-a.png)
+
+![Alternate aspirational M01 mock screenshot with ROOK, drones, a trapped person, a residential-tower cross-section, and game interface](content/images/design/gameplay-target-m01-ashfall-b.png)
+
+### M04 — Helix Foundry
+
+![Aspirational M04 mock screenshot with RAM breaching a foundry barrier amid machines, industrial platforms, and game interface](content/images/design/gameplay-target-m04-foundry.png)
+
+Compare both M01 variations with [[Missions/M01#mission-visual-reference|M01's exploratory scene]] and the M04 example with [[Missions/M04|M04's accepted Mission role]] once gameplay-scale layouts, threats, and production costs are known. The two M01 images are alternative compositions, not two mandatory rooms.
+
 ## Evidence and ownership
 
 | Owner | Visual evidence to add during Mission development |
