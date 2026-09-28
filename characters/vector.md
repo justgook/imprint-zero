@@ -17,11 +17,13 @@ status: in-progress
 
 ## Appearance
 
-![Exploratory VECTOR crew sheet with face study and Ghost, Phase, and Hunter loadout studies](content/images/characters/VECTOR.png)
+![Older exploratory VECTOR crew sheet with face study and Ghost, Phase, and Hunter loadout studies](content/images/characters/VECTOR.png)
 
-![Exploratory VECTOR modelling sheet showing several views of a light-armoured body and a hooded variation](content/images/characters/references/vector-turnaround.png)
+![Current preferred VECTOR modelling reference showing several views of a light-armoured body and a hooded variation](content/images/characters/references/vector-turnaround.png)
 
-These are visual references, not accepted ability lists, measurements, outfits for every Specialization, or production specifications. Compare their lighter silhouette and face/hood options with the Character's accepted movement and Equipment before selecting game-scale art. The sheets do not make camouflage, a cape, or phase effects Character-wide abilities.
+> **Accepted — Reference priority:** The modelling turnaround is the preferred appearance reference for VECTOR. The earlier crew sheet remains for provenance and exploratory comparison but is outdated for likeness; do not use it to override the turnaround or treat its depicted gear and abilities as current.
+
+The modelling sheet is a visual reference, not an accepted ability list, measurements, outfits for every Specialization, or a production specification. Compare its lighter silhouette and face/hood options with the Character's accepted movement and Equipment before selecting game-scale art. Neither sheet makes camouflage, a cape, or phase effects Character-wide abilities.
 
 ## Crew role and voice
 
