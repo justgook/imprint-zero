@@ -18,7 +18,7 @@ Game genre, narrative setting, and visual execution are separate decisions. [[De
 | [[Missions/Overview|Mission pages]] | Level-layout or minimap drafts, spatial screenshots, tileset/environment references, encounter staging, and asset handoffs specific to that Mission |
 | [[Characters/Overview|Character pages]] | Character and Specialization silhouettes, animation or equipment concepts, and gameplay-scale captures |
 | [[Enemies/Overview|Enemy pages]] and [[Bosses/Overview|Boss pages]] | Threat readability, telegraphs, states, and encounter-specific concepts |
-| [[Production/Asset Registry|Asset registry]] | Source, ownership, reuse, status, and approval of actual assets |
+| [[Production/Asset Registry|Asset registry]] | Provenance and review status of existing visual references and Mission concepts; not a speculative production inventory |
 | This page | The shared visual contract **after** cross-page samples have been compared and approved |
 
 Images on older pages, including generated storyboard drafts and E001/E002 concepts, are provisional evidence rather than an approved art target. Narrative beats accepted on those pages do not approve their rendering style.

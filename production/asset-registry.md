@@ -1,47 +1,25 @@
 ---
 title: Asset registry
-summary: Assets registry
+summary: Provenance and review status of existing visual references and exploratory Mission concepts.
 eyebrow: Production
 status: in-progress
 ---
 
-## Gameplay systems
+## Scope
 
-| ID | System | Used by | Reusable | Complexity | Owner | Status |
-|---|---|---|---|---|---|---|
-| SYS-01 | Baseline movement | All missions | Yes | High | — | Planned |
-| SYS-03 | Floodgate machinery | M02 | Partial | High | — | Placeholder |
+This registry tracks **existing visual files**, not proposed gameplay systems, future environment kits, enemy rosters, dialogue counts, or a production budget. Character moves, skills, and Equipment are defined on their owning [[Characters/Overview|Character]] and [[Equipment/Overview|Equipment]] pages; Mission pages own local needs. Do not add an asset row until there is an actual reference, sample, or scoped deliverable to track.
 
-## Environment production
+The crew sheets and Mission concepts below are review material, **not** approved gameplay sprites, environment kits, or a shared rendering style. Compare them at gameplay scale before accepting art direction. [[Design/Art Direction|Art Direction]] owns shared decisions after cross-Mission review. Record provenance and license terms before using third-party material; do not embed restricted source files. Existing `VIS` IDs remain stable, including gaps left by removed speculative entries.
 
-| ID | Asset set | Biome | Locations | Reuse count | Complexity | Status |
-|---|---|---|---:|---:|---|---|
-| ENV-01 | M01 residential-tower environment kit | B01 | [[Missions/M01|M01]] | TBD | High | Requires scope |
+## Visual references and concepts
 
-## Visual production
-
-Record only metadata for licensed private assets; never link or embed restricted source files here. `Style check` remains pending until cross-Mission visual samples establish the new [[Design/Art Direction|art direction]].
-
-| ID | Asset set | Role | Source/provenance | Adaptation required | Reusable | Style check | Status |
-|---|---|---|---|---|---|---|---|
-| VIS-01 | [[Characters/Rook#appearance|ROOK visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `/Users/gook/Projects/InprintZero/modeling/model ROOK.png` | Gameplay silhouette, motion, and C11 Mission-scale match | Yes | Pending direction | Reference candidate |
-| VIS-02 | M01 E001 concept | Enemy candidate | TBD | Silhouette, action readability, style | TBD | Not run | Requires update |
-| VIS-03 | M01 E002 concept | Enemy candidate | TBD | Silhouette, threat readability, style | TBD | Not run | Requires update |
-| VIS-04 | M01 residential-tower kit | Environment | TBD | Layout, readability, reusable kit | TBD | Pending direction | Requires scope |
-| VIS-05 | [[Missions/M01#mission-visual-reference|M01 security-hold concept]] | Exploratory Mission sample | Generated with image tool from M01 / E001 / E002 briefs and a text description of [[Characters/Rook#appearance|ROOK's refined reference]]; no source-image conditioning | Validate ROOK likeness, level layout, silhouettes, readability, and production feasibility; not a kit or approved style | No | Not run | Review candidate |
-| VIS-06 | Baseline combat effects | Effects | TBD | Semantic color, timing, visual density | Yes | Not run | Planned |
-| VIS-07 | Integrity and interaction signals | Interface | TBD | Semantic color, scale, contrast | Yes | Not run | Planned |
-| VIS-08 | [[Characters/Vector#appearance|VECTOR visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model VECTOR.png` | Resolve Specialization looks and gameplay silhouette | Yes | Pending direction | Reference candidate |
-| VIS-09 | [[Characters/Ram#appearance|RAM visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model RAM.png` | Gameplay silhouette and armour movement | Yes | Pending direction | Reference candidate |
-| VIS-10 | [[Characters/Relay#appearance|RELAY visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/RELAY/BEST RELAY.png` | Preserve accepted prosthesis boundary at gameplay scale | Yes | Pending direction | Reference candidate |
-| VIS-11 | [[Missions/M02#mission-visual-reference|M02 hospital concept]] | Exploratory Mission sample | Generated with image tool from M02 proposal and a text description of [[Characters/Vector#appearance|VECTOR's reference]]; no source-image conditioning | Validate single-Character deployment, hospital readability, optional-route cue, and style; not approved layout or Character art | No | Not run | Review candidate |
-
-## Narrative production
-
-| Type | Count | Estimated effort each | Total |
-|---|---:|---:|---:|
-| Mission briefings | 10 | TBD | TBD |
-| Mission debriefings | 10 | TBD | TBD |
-| Memory fragments | 20 | TBD | TBD |
-| Character-specific reactions | 40 | TBD | TBD |
-| Endings | 3 | TBD | TBD |
+| ID | Existing visual | Provenance | Review needed | Status |
+|---|---|---|---|---|
+| VIS-01 | [[Characters/Rook#appearance|ROOK crew sheet and turnaround]] | User-refined crew sheet already in wiki; modelling reference imported from `InprintZero/modeling/model ROOK.png` | C11 gameplay silhouette and motion; M01 likeness | Reference candidate |
+| VIS-02 | [[Enemies/E001|E001 concept image]] | Existing `images/enemies/e001.png`; creation source not recorded here | Reassess silhouette, scale, and style once M01's Enemy behaviour is defined | Provisional image |
+| VIS-03 | [[Enemies/E002|E002 concept image]] | Existing `images/enemies/e002.png`; creation source not recorded here | Reassess silhouette, scale, and style once M01's Enemy behaviour is defined | Provisional image |
+| VIS-05 | [[Missions/M01#mission-visual-reference|M01 security-hold concept]] | Generated from M01 and ROOK/E001/E002 text briefs; ROOK source image was not supplied to generation | ROOK likeness, encounter readability, spatial layout, production feasibility | Review candidate |
+| VIS-08 | [[Characters/Vector#appearance|VECTOR crew sheet and turnaround]] | User-refined crew sheet already in wiki; modelling reference imported from `InprintZero/modeling/model VECTOR.png` | Character silhouette and Specialization variations | Reference candidate |
+| VIS-09 | [[Characters/Ram#appearance|RAM crew sheet and turnaround]] | User-refined crew sheet already in wiki; modelling reference imported from `InprintZero/modeling/model RAM.png` | Armoured silhouette and gameplay motion | Reference candidate |
+| VIS-10 | [[Characters/Relay#appearance|RELAY crew sheet and turnaround]] | User-refined crew sheet already in wiki; modelling reference imported from `InprintZero/modeling/RELAY/BEST RELAY.png` | Accepted prosthesis boundary at gameplay scale | Reference candidate |
+| VIS-11 | [[Missions/M02#mission-visual-reference|M02 hospital concept]] | Generated from M02 proposal and VECTOR text description; VECTOR source image was not supplied to generation | Single-Character deployment, hospital readability, route cue, production feasibility | Review candidate |
