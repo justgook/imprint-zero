@@ -1,12 +1,12 @@
 WIKI_REPOSITORY ?= https://github.com/justgook/wiki
-WIKI_VERSION ?= release
+WIKI_VERSION ?= v1.2.0
 WIKI_ENGINE ?= .wiki-engine
 WIKI_OUTPUT ?= .wiki-dist
 WIKI_SOURCE ?= $(if $(wildcard _config.md),.,content)
 PORT ?= 8080
 QMD ?= qmd
 
-.PHONY: build serve clean reinstall-engine qmd-setup qmd-update qmd-embed
+.PHONY: build serve clean check-engine install-engine reinstall-engine qmd-setup qmd-update qmd-embed
 
 # QMD is supplied by the direnv/Nix dev shell. Entering the shell never builds an index.
 # Keep both the config and SQLite DB local; neither is part of the published wiki.
@@ -45,18 +45,34 @@ qmd-embed: qmd-update
 		printf '%s\n' "$$digest" > .qmd/.embedded.sha256; \
 	fi
 
-build: $(WIKI_ENGINE)/scripts/serve.mjs
+# The downloaded runtime is ignored, so make must check its version rather than
+# assuming an existing serve.mjs matches the pinned release. Explicit WIKI_ENGINE
+# overrides are local engine checkouts and are never replaced by the installer.
+check-engine:
+	@set -eu; \
+	if [ "$(WIKI_ENGINE)" != ".wiki-engine" ]; then \
+		test -f "$(WIKI_ENGINE)/scripts/serve.mjs" || { echo "Wiki engine not found: $(WIKI_ENGINE)" >&2; exit 1; }; \
+	else \
+		expected='$(WIKI_REPOSITORY)@$(WIKI_VERSION)'; \
+		installed=$$(head -n 1 "$(WIKI_ENGINE)/.source-ref" 2>/dev/null || :); \
+		if [ "$$installed" != "$$expected" ] || [ ! -f "$(WIKI_ENGINE)/scripts/serve.mjs" ]; then \
+			$(MAKE) install-engine; \
+		fi; \
+	fi
+
+build: check-engine
 	@$(WIKI_ENGINE)/scripts/build.sh "$(WIKI_SOURCE)" "$(WIKI_OUTPUT)"
 
-serve: $(WIKI_ENGINE)/scripts/serve.mjs
+serve: check-engine
 	@command -v bun >/dev/null 2>&1 && exec bun "$(WIKI_ENGINE)/scripts/serve.mjs" "$(WIKI_SOURCE)" "$(PORT)"; \
 	command -v node >/dev/null 2>&1 && exec node "$(WIKI_ENGINE)/scripts/serve.mjs" "$(WIKI_SOURCE)" "$(PORT)"; \
 	command -v python3 >/dev/null 2>&1 && exec python3 "$(WIKI_ENGINE)/scripts/serve.py" "$(WIKI_SOURCE)" "$(PORT)"; \
 	command -v python >/dev/null 2>&1 && exec python "$(WIKI_ENGINE)/scripts/serve.py" "$(WIKI_SOURCE)" "$(PORT)"; \
 	echo "make serve requires Bun, Node.js, or Python" >&2; exit 1
 
-$(WIKI_ENGINE)/scripts/serve.mjs:
+install-engine:
 	@set -eu; \
+	[ "$(WIKI_ENGINE)" = ".wiki-engine" ] || { echo "Refusing to overwrite custom WIKI_ENGINE: $(WIKI_ENGINE)" >&2; exit 1; }; \
 	tmp=$$(mktemp -d "$${TMPDIR:-/tmp}/wiki-engine.XXXXXX"); \
 	trap 'rm -rf "$$tmp"' EXIT INT TERM; \
 	archive="$(WIKI_REPOSITORY)/archive/$(WIKI_VERSION).tar.gz"; \
@@ -66,13 +82,12 @@ $(WIKI_ENGINE)/scripts/serve.mjs:
 	else echo "Installing the wiki engine requires curl or wget" >&2; exit 1; fi; \
 	mkdir -p "$$tmp/engine"; \
 	tar -xzf "$$tmp/wiki.tar.gz" --strip-components=1 -C "$$tmp/engine"; \
+	printf '%s\n' '$(WIKI_REPOSITORY)@$(WIKI_VERSION)' > "$$tmp/engine/.source-ref"; \
 	rm -rf "$(WIKI_ENGINE)"; \
 	mv "$$tmp/engine" "$(WIKI_ENGINE)"; \
 	trap - EXIT INT TERM
 
-reinstall-engine:
-	@rm -rf "$(WIKI_ENGINE)"
-	@$(MAKE) "$(WIKI_ENGINE)/scripts/serve.mjs"
+reinstall-engine: install-engine
 
 clean:
 	@rm -rf "$(WIKI_OUTPUT)"

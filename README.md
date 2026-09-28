@@ -16,7 +16,7 @@ To assemble the publishable static site locally:
 make build
 ```
 
-The result is written to `.wiki-dist/`.
+The result is written to `.wiki-dist/`. Local builds and Pages deployment both use the pinned `justgook/wiki` `v1.2.0` release. A stale local `.wiki-engine/` is refreshed automatically when the pin changes; use `make reinstall-engine` to force a fresh download.
 
 ## Private search (people and AI agents)
 
@@ -57,4 +57,4 @@ The repository root is the wiki content root:
 
 ## Publishing
 
-Pushing the `release` branch runs `.github/workflows/pages.yml`. The workflow uses `justgook/wiki` to assemble the content and deploy it to GitHub Pages. The engine runtime is downloaded during local development or CI and is not stored in this repository.
+Pushing the `release` branch runs `.github/workflows/pages.yml`. The workflow uses `justgook/wiki@v1.2.0` to assemble the content and deploy it to GitHub Pages. The engine runtime is downloaded during local development or CI and is not stored in this repository.

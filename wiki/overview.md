@@ -25,7 +25,7 @@ Add the project's `Makefile` to a content repository and run:
 make build
 ```
 
-The command downloads the engine when necessary and assembles a complete site under `.wiki-dist/`. That directory can be published with any static host, copied to another machine, or archived as an offline-capable snapshot.
+The command installs the engine pinned to `v1.2.0` by this repository's `Makefile`, replacing a stale cached runtime when the pin changes, and assembles a complete site under `.wiki-dist/`. That directory can be published with any static host, copied to another machine, or archived as an offline-capable snapshot. `make reinstall-engine` forces a fresh download.
 
 ### Bootstrap a standalone wiki
 
@@ -46,7 +46,7 @@ favicon.svg
 images/
 ```
 
-`_config.md` defines the wiki title, description, and home page. `_sidebar.md` is the navigation source of truth. All other Markdown pages and assets are project content. `custom.css` and `favicon.svg` are optional branding overrides.
+`_config.md` defines the wiki title, description, and home page. `_sidebar.md` is the navigation source of truth. All other Markdown pages and assets are project content. `custom.css`, `custom.js`, and `favicon.svg` are optional site overrides.
 
 This Imprint Zero repository follows that shape directly: configuration, navigation, customization, project pages, and assets all live at the root. The `wiki/` directory contains only this local copy of the engine reference pages.
 
@@ -67,8 +67,8 @@ Use `make build` only when you want to inspect or publish the assembled static d
 - Markdown pages loaded directly in the browser.
 - Hash-based navigation with shareable page and section links.
 - Nested, collapsible sidebar categories with filtering and adjacent-page navigation.
-- `[[Wiki links]]` with optional paths and visible labels.
-- YAML frontmatter with `accepted`, `in-progress`, `todo`, and `reference` statuses.
+- `[[Wiki links]]` with optional paths, section fragments, and visible labels.
+- YAML frontmatter with `accepted`, `in-progress`, `todo`, and `reference` statuses by default; optional `custom.js` can add or replace statuses.
 - Visual document markers for decisions, open work, questions, evidence, and missing artifacts.
 - Syntax-highlighted code, source-file includes, KaTeX formulas, and expandable Mermaid diagrams.
 - Vendored browser libraries with no package install or CDN dependency.

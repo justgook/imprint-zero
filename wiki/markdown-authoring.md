@@ -26,12 +26,14 @@ Quote YAML values containing a colon followed by a space:
 summary: "Loop structure: observe, decide, act, and respond."
 ```
 
-Every page must use one of four statuses:
+By default, every page must use one of four statuses:
 
 - `accepted` — canonical enough to build against;
 - `in-progress` — contains useful direction and unresolved parts;
 - `todo` — required but not designed yet;
 - `reference` — stable authoring or supporting material.
+
+A content repository may add statuses with `registerStatus("under-review")` or replace the defaults with `setStatuses(["draft", "published"])` from an optional root `custom.js` default export. New status colors can be set in `custom.css` using `.status-under-review`. See the [engine README](https://github.com/justgook/wiki#optional-site-javascript-and-statuses) for the full site JavaScript example.
 
 ## Document markers
 
@@ -74,6 +76,23 @@ Ordinary Markdown links continue to work for external URLs:
 [Mermaid documentation](https://mermaid.js.org/)
 ```
 
+### Extended content links
+
+Projects may register trusted browser-side renderers for additional text formats in `_config.md`:
+
+```yaml
+extensions:
+  - wiki-extensions/gettext.js
+```
+
+Keep the registered extension in links to those files:
+
+```md
+[[Game Text/Dialogue.po|Dialogue]]
+```
+
+Unlike Markdown page targets, extended file paths are preserved rather than converted to kebab case. Extension modules run as trusted project code and must remain inside the content directory. See the [engine README](https://github.com/justgook/wiki#custom-content-renderers) for the renderer API.
+
 ## Direct section links
 
 Every level-two and level-three heading appears under **On this page**. Selecting one updates the URL and scrolls to the heading, so the URL can be copied to link directly to that section:
@@ -82,7 +101,14 @@ Every level-two and level-three heading appears under **On this page**. Selectin
 #/wiki/markdown-authoring?section=sidebar-structure
 ```
 
-Heading links remain stable while the heading text stays the same. Duplicate heading names receive `-2`, `-3`, and later suffixes.
+Link to a heading on another page with `#` after the page target. The wiki turns that fragment into the same `?section=` route used by **On this page**:
+
+```md
+[[Wiki/Markdown Authoring#Sidebar structure|Sidebar structure]]
+[[Wiki/Markdown Authoring?section=sidebar-structure|Sidebar structure]]
+```
+
+Both links open `#/wiki/markdown-authoring?section=sidebar-structure`. If the target also has renderer query parameters, put them before the fragment (for example, `[[Game Text/Dialogue.po?entry=example#Notes|Notes]]`). A fragment takes precedence over an existing `section` query parameter. Heading links remain stable while the heading text stays the same. Duplicate heading names receive `-2`, `-3`, and later suffixes.
 
 ## Sidebar structure
 
