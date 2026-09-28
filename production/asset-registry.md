@@ -34,6 +34,7 @@ Record only metadata for licensed private assets; never link or embed restricted
 | VIS-08 | [[Characters/Vector#appearance|VECTOR visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model VECTOR.png` | Resolve Specialization looks and gameplay silhouette | Yes | Pending direction | Reference candidate |
 | VIS-09 | [[Characters/Ram#appearance|RAM visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/model RAM.png` | Gameplay silhouette and armour movement | Yes | Pending direction | Reference candidate |
 | VIS-10 | [[Characters/Relay#appearance|RELAY visual references]] | Player | User-refined crew sheet already in wiki; modelling turnaround imported from `modeling/RELAY/BEST RELAY.png` | Preserve accepted prosthesis boundary at gameplay scale | Yes | Pending direction | Reference candidate |
+| VIS-11 | [[Missions/M02#mission-visual-reference|M02 hospital concept]] | Exploratory Mission sample | Generated with image tool from M02 proposal and a text description of [[Characters/Vector#appearance|VECTOR's reference]]; no source-image conditioning | Validate single-Character deployment, hospital readability, optional-route cue, and style; not approved layout or Character art | No | Not run | Review candidate |
 
 ## Narrative production
 

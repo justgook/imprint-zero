@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#1b2026"/>
+<g fill="#eee8dc" font-family="sans-serif"><text x="50" y="66" font-size="37">M02 · EXPANDED HOSPITAL LAYOUT PLACEHOLDER</text><text x="50" y="108" font-size="23">Replace with a reviewed spatial plan at 1600:900. Preserve room IDs and the mandatory R05 evidence.</text><text x="50" y="145" font-size="22">Resolve real elevations, collision, gated entrances, rejoin doors, lines of sight, and room lengths.</text><text x="50" y="180" font-size="22">Boxes and connections below show route logic only; do not build directly from this geometry.</text></g>
+<g fill="#384552" stroke="#b0ad96" stroke-width="3"><rect x="65" y="460" width="206" height="245"/><rect x="301" y="460" width="206" height="245"/><rect x="537" y="460" width="206" height="245"/><rect x="773" y="460" width="206" height="245"/><rect x="1009" y="460" width="206" height="245"/><rect x="1245" y="460" width="206" height="245"/></g>
+<g fill="none" stroke="#eee8dc" stroke-width="6"><path d="M271 585h30m206 0h30m206 0h30m206 0h30m206 0h30"/></g>
+<g fill="#eee8dc" font-family="sans-serif" text-anchor="middle" font-size="26"><text x="168" y="524">R01</text><text x="404" y="524">R02</text><text x="640" y="524">R03</text><text x="876" y="524">R04</text><text x="1112" y="524">R05</text><text x="1348" y="524">R06</text></g>
+<g fill="#c8c1ab" font-family="sans-serif" text-anchor="middle" font-size="18"><text x="168" y="559">Entry</text><text x="404" y="559">Triage</text><text x="640" y="559">Isolation</text><text x="876" y="559">Diagnostics</text><text x="1112" y="559">Records</text><text x="1348" y="559">Extraction</text></g>
+<g fill="#4c365c" stroke="#bc9bdf" stroke-width="3"><rect x="560" y="245" width="165" height="90"/><rect x="788" y="245" width="165" height="90"/></g>
+<g fill="#eee8dc" font-family="sans-serif" text-anchor="middle" font-size="23"><text x="642" y="277">R03A</text><text x="870" y="277">R03B</text></g>
+<g fill="#c8c1ab" font-family="sans-serif" text-anchor="middle" font-size="16"><text x="642" y="308">ROOK-only</text><text x="870" y="308">VECTOR-only</text></g>
+<g fill="none" stroke="#bc9bdf" stroke-width="4" stroke-dasharray="10 7"><path d="M595 460v-100h45v-25m65 0v27h115v98M685 460V390h190v-55m40 0v56h31v69"/></g>
+<text x="65" y="806" fill="#eee8dc" font-family="sans-serif" font-size="22">REVIEW QUESTIONS · Does either detour bypass the required record? Are both gates readable without revealing contents?</text>
+<text x="65" y="844" fill="#c8c1ab" font-family="sans-serif" font-size="18">SCHEMATIC ONLY · No encounters, pickups, dimensions, doors, or actual floor elevations assigned.</text>
+</svg>
