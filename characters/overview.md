@@ -126,4 +126,8 @@ The exact section template remains unresolved until information ownership is con
 - Character pages supply stats and explicit modifiers to [[Gameplay/Gameplay Math|Gameplay Math]] but do not duplicate global equations.
 - World discoveries and shortcuts belong to the campaign.
 
-> **Needs image** — Replace card placeholders and produce a four-Character silhouette lineup after gameplay prototypes validate proportions, equipment scale, and movement poses.
+## Crew visual comparison
+
+![Side-by-side silhouettes of ROOK, VECTOR, RAM and RELAY for comparing Character recognition, equipment scale and movement poses](content/images/characters/crew-lineup.svg)
+
+Visual target, not a current gameplay capture.
