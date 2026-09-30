@@ -68,11 +68,11 @@ See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat
 
 ### Appearance
 
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept for C11, the default ROOK Specialization and a practical general-purpose rifle user. Show a balanced military silhouette with medium armour, a stable firing stance, readable joints, compact field equipment, and an institution-issued rifle that does not overwhelm the body shape. The same underlying person must remain recognizable later across C12 and C13. Draw from worn industrial military science fiction, utilitarian analog cybernetics, and the severe 1990s action-game character language established by Imprint Zero. Use near-black, dirty gunmetal, faded olive, aged off-white armour, and one restrained yellow-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid heroic ornament, exposed personal identity, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
+
 ![C11 concept placeholder showing a balanced rifle-user silhouette](content/images/characters/rook/c11.png)
 
 This image is a concept target, not final character art or the current sprite implementation.
-
-> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept for C11, the default ROOK Specialization and a practical general-purpose rifle user. Show a balanced military silhouette with medium armour, a stable firing stance, readable joints, compact field equipment, and an institution-issued rifle that does not overwhelm the body shape. The same underlying person must remain recognizable later across C12 and C13. Draw from worn industrial military science fiction, utilitarian analog cybernetics, and the severe 1990s action-game character language established by Imprint Zero. Use near-black, dirty gunmetal, faded olive, aged off-white armour, and one restrained yellow-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid heroic ornament, exposed personal identity, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
 
 ### Skills
 
@@ -97,11 +97,11 @@ This image is a concept target, not final character art or the current sprite im
 
 ### Appearance
 
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C12 as a visibly reinforced variation of ROOK. Preserve the same underlying body, institutional markings, and rifle-marine identity as C11, but test a broader silhouette, heavier stamped armour, reinforced joints, a practical shotgun with an under-barrel grenade launcher, and a lower, more committed stance. Equipment should look field-repairable and repeatedly serviced rather than advanced or ceremonial. Do not decide C12's exact shotgun variant or movement mechanics through the image; leave attachment points and carried equipment modular. Use near-black steel, charcoal, faded olive, aged off-white plating, dull brass, and one restrained ochre identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C12 a separate person, oversized fantasy armour, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
+
 ![C12 concept placeholder showing a broad reinforced shotgun-user silhouette](content/images/characters/rook/c12.png)
 
 This image is an exploratory concept target, not final character art or the current sprite implementation.
-
-> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C12 as a visibly reinforced variation of ROOK. Preserve the same underlying body, institutional markings, and rifle-marine identity as C11, but test a broader silhouette, heavier stamped armour, reinforced joints, a practical shotgun with an under-barrel grenade launcher, and a lower, more committed stance. Equipment should look field-repairable and repeatedly serviced rather than advanced or ceremonial. Do not decide C12's exact shotgun variant or movement mechanics through the image; leave attachment points and carried equipment modular. Use near-black steel, charcoal, faded olive, aged off-white plating, dull brass, and one restrained ochre identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C12 a separate person, oversized fantasy armour, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
 
 ### Skills
 
@@ -127,11 +127,11 @@ This image is an exploratory concept target, not final character art or the curr
 
 ### Appearance
 
+> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C13 as a lighter, forward-moving variation of ROOK. Preserve the same underlying person, institutional markings, and rifle-marine identity as C11, but test reduced armour mass, compact equipment, clear joint freedom, a forward-weighted stance, and two readable pistols suitable for movement without turning ROOK into VECTOR. The design should imply controlled aggression while remaining a trained firearm user rather than an acrobat. Use near-black, dirty gunmetal, faded olive, worn off-white armour, and one restrained muted-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C13 a separate person, wall-running or phase-tech motifs, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
+
 ![C13 concept placeholder showing a light forward-leaning dual-pistol silhouette](content/images/characters/rook/c13.png)
 
 This image is an exploratory concept target, not final character art or the current sprite implementation.
-
-> **TODO — Image-generation prompt:** Create a full-body side-view pixel-art concept exploring C13 as a lighter, forward-moving variation of ROOK. Preserve the same underlying person, institutional markings, and rifle-marine identity as C11, but test reduced armour mass, compact equipment, clear joint freedom, a forward-weighted stance, and two readable pistols suitable for movement without turning ROOK into VECTOR. The design should imply controlled aggression while remaining a trained firearm user rather than an acrobat. Use near-black, dirty gunmetal, faded olive, worn off-white armour, and one restrained muted-green identification accent. Present one neutral gameplay-readable pose on a transparent background in a modern interpretation of 16-bit action-game pixel art. Avoid making C13 a separate person, wall-running or phase-tech motifs, heroic ornament, text, logos, glossy surfaces, rainbow neon, saturated cyan-and-magenta lighting, LED strips, holographic clutter, gradients, photorealism, and direct imitation of an existing character.
 
 ### Skills
 

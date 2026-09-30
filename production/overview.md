@@ -24,9 +24,9 @@ See [[Production/Open Questions|Open questions]] for the ordered queue. The next
 
 ## Production knowledge
 
+> **TODO — Milestones:** Define milestones after M01 and a later, more complex Mission establish a credible vertical-slice target.
+
 - [[Production/Scope|Scope and non-goals]] records boundaries and the provisional release shape.
 - [[Production/References|References]] records principles adapted from external works.
-
-> **TODO — Milestones:** Define milestones after M01 and a later, more complex Mission establish a credible vertical-slice target.
 
 Detailed tasks and transient work status belong in the issue tracker, not this living design document.
