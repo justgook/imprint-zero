@@ -180,3 +180,35 @@ msgstr "The symptoms vary. The pattern repeats."
 #: missions/m02.md:R05
 msgid "dialogue.m02.com02.l001"
 msgstr "Cause remains undetermined. Bring the records back for review. Proceed to extraction."
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Environmental record
+#. Room: R03A
+#. Intent: Optional maintenance record heading.
+#: missions/m02.md:R03A
+msgid "dialogue.m02.log.r03a.title"
+msgstr "Maintenance log"
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Environmental record
+#. Room: R03A
+#. Intent: Containment stays active after staff access revocation; no radio response.
+#: missions/m02.md:R03A
+msgid "dialogue.m02.log.r03a.p001"
+msgstr "Staff access revoked. Automated containment remains active. Local maintenance requests cannot suspend enforcement."
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Environmental record
+#. Room: R03B
+#. Intent: Optional ward observation record heading.
+#: missions/m02.md:R03B
+msgid "dialogue.m02.log.r03b.title"
+msgstr "Ward observation log"
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Environmental record
+#. Room: R03B
+#. Intent: Neurological abnormalities across unrelated admissions; cause unknown; no radio response.
+#: missions/m02.md:R03B
+msgid "dialogue.m02.log.r03b.p001"
+msgstr "Patients admitted for unrelated conditions now exhibit similar neurological abnormalities. No common cause has been established. Further observation required."
