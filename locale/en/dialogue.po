@@ -100,3 +100,59 @@ msgstr "Authorization: BASTION–AZIMUTH–BREACH–ECHO. Imprint Zero, activate
 #: missions/m09.md
 msgid "dialogue.m09.com02.l001"
 msgstr "Emergency authorization: BASTION–AZIMUTH–BREACH–ECHO. Suspend integration safeguards. Imprint One, activate. Target: malfunctioning assets. Eliminate."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: Shared deployment briefing.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.l001"
+msgstr "Hospital lockdown remains active. Reach the records room. We need to establish what happened to the patients."
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R01
+#. Intent: Selected ROOK response only.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.rook.l001"
+msgstr "Records first. I’ll find a way through."
+
+#. Speaker: VECTOR
+#. Delivery: In person
+#. Room: R01
+#. Intent: Selected VECTOR response only.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.vector.l001"
+msgstr "Understood. Going in."
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Required report heading, not spoken.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.title"
+msgstr "Clinical review — restricted"
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Recurring neurological pattern without a cause.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p001"
+msgstr "Multiple patients exhibit recurring neurological abnormalities. Presenting symptoms vary; recorded neural activity follows a similar pattern across cases."
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Do not establish infection or a transmission route.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p002"
+msgstr "Cause undetermined. The available records do not establish a transmission route."
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Report incomplete; containment still active.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p003"
+msgstr "Clinical review remains incomplete. Containment restrictions remain in force."

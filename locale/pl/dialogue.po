@@ -100,3 +100,59 @@ msgstr "dialogue.m09.com01.l001"
 #: missions/m09.md
 msgid "dialogue.m09.com02.l001"
 msgstr "dialogue.m09.com02.l001"
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R01
+#. Intent: Shared deployment briefing.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.l001"
+msgstr ""
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R01
+#. Intent: Selected ROOK response only.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.rook.l001"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Delivery: In person
+#. Room: R01
+#. Intent: Selected VECTOR response only.
+#: missions/m02.md:R01
+msgid "dialogue.m02.com01.vector.l001"
+msgstr ""
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Required report heading, not spoken.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.title"
+msgstr ""
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Recurring neurological pattern without a cause.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p001"
+msgstr ""
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Do not establish infection or a transmission route.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p002"
+msgstr ""
+
+#. Speaker: HOSPITAL_RECORDS
+#. Delivery: Terminal
+#. Room: R05
+#. Intent: Report incomplete; containment still active.
+#: missions/m02.md:R05
+msgid "dialogue.m02.records.p003"
+msgstr ""
