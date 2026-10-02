@@ -156,3 +156,27 @@ msgstr "Cause undetermined. The available records do not establish a transmissio
 #: missions/m02.md:R05
 msgid "dialogue.m02.records.p003"
 msgstr "Clinical review remains incomplete. Containment restrictions remain in force."
+
+#. Speaker: ROOK
+#. Delivery: In person
+#. Room: R05
+#. Intent: Selected ROOK evidence response only.
+#: missions/m02.md:R05
+msgid "dialogue.m02.com02.rook.l001"
+msgstr "Different symptoms. Same pattern in the readings."
+
+#. Speaker: VECTOR
+#. Delivery: In person
+#. Room: R05
+#. Intent: Selected VECTOR evidence response only; observation without explicit suspicion.
+#: missions/m02.md:R05
+msgid "dialogue.m02.com02.vector.l001"
+msgstr "The symptoms vary. The pattern repeats."
+
+#. Speaker: OPERATOR
+#. Delivery: Radio
+#. Room: R05
+#. Intent: Shared reply after selected Character; proceed to extraction without identifying a cause.
+#: missions/m02.md:R05
+msgid "dialogue.m02.com02.l001"
+msgstr "Cause remains undetermined. Bring the records back for review. Proceed to extraction."
