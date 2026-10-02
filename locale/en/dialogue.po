@@ -212,3 +212,19 @@ msgstr "Ward observation log"
 #: missions/m02.md:R03B
 msgid "dialogue.m02.log.r03b.p001"
 msgstr "Patients admitted for unrelated conditions now exhibit similar neurological abnormalities. No common cause has been established. Further observation required."
+
+#. Speaker: TUTORIAL
+#. Delivery: On-screen prompt
+#. Room: R03A
+#. Intent: Tutorial navigation prompt, ROOK only, first approach once per deployment when enabled. Never display for the other Character or reveal route contents.
+#: missions/m02.md:R03A
+msgid "dialogue.m02.tutorial.slide"
+msgstr "Use Combat Slide."
+
+#. Speaker: TUTORIAL
+#. Delivery: On-screen prompt
+#. Room: R03B
+#. Intent: Tutorial navigation prompt, VECTOR only, first approach once per deployment when enabled. Never display for the other Character or reveal route contents.
+#: missions/m02.md:R03B
+msgid "dialogue.m02.tutorial.wallrun"
+msgstr "Use Wall Run."
