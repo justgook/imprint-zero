@@ -12,7 +12,8 @@ test("M03 draft has correctly indexed communication and content edges", () => {
     for (const match of graph.matchAll(/linkStyle ([\d,]+) .*stroke-width:(\d+)px/g)) {
         for (const index of match[1].split(",").map(Number)) {
             assert.ok(edges[index], `edge ${index} exists`)
-            assert.match(edges[index], match[2] === "12" ? /-\.- COM\d+/ : /-\.- C\d+/)
+            const expected = match[2] === "12" ? /-\.- COM\d+/ : match[2] === "1" ? / -->.*CS\d+/ : /-\.- C\d+/
+            assert.match(edges[index], expected)
         }
     }
     assert.equal(edges.filter((line) => /-\.- COM\d+/.test(line)).length, 4)
@@ -24,8 +25,8 @@ test("M03 draft has correctly indexed communication and content edges", () => {
 
 test("M03 has one shared route without optional branches", () => {
     assert.match(mission, /Accepted — No optional routes/)
-    assert.equal(graph.split("\n").filter((line) => / --> /.test(line)).length, 6)
-    assert.doesNotMatch(mission, /R03A|R03B|Combat Slide|Wall Run|\+0:45/)
+    assert.equal(graph.split("\n").filter((line) => / --> R0\d(?:\[|$)/.test(line)).length, 6)
+    assert.doesNotMatch(mission, /R03A|R03B|Combat Slide|Wall Run|Selected Character's optional detour/)
     assert.doesNotMatch(graph, /optional|Character-only/)
     for (const asset of ["m03-minimap.svg", "m03-layout.svg"]) {
         assert.doesNotMatch(read(`images/missions/${asset}`), /R03A|R03B|detour|optional|Wall Run|Combat Slide/i)

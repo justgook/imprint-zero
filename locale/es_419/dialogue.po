@@ -228,3 +228,11 @@ msgstr ""
 #: missions/m02.md:R03B
 msgid "dialogue.m02.tutorial.wallrun"
 msgstr ""
+
+#. Speaker: RAM
+#. Delivery: Cutscene speech bubble; optional voice-over
+#. Scene: CS001, composition 2
+#. Intent: Confident impatience after breaching the wall; not low intelligence. Approved English source: Door was taking too long.
+#: cutscenes/cs001.md
+msgid "dialogue.cs001.ram.door"
+msgstr ""

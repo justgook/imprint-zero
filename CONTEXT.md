@@ -20,6 +20,9 @@ A non-playable campaign actor whose authored identity or agency extends beyond a
 **Boss**:
 An entity whose primary authored role is a boss Encounter; speaking or making narrative claims does not also make it an NPC.
 
+**Cutscene**:
+An authored presentation scene with its own stable identity, distinct from a playable room or live radio exchange. Its placement may move between a Mission sequence and a Hub transition without changing the scene itself. [[Cutscenes/Overview|Cutscenes]] owns the catalogue boundary.
+
 **Specialization**:
 One of three full-Mission play styles belonging to a Character.
 _Avoid_: Subclass, loadout

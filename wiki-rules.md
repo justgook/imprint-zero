@@ -102,13 +102,17 @@ A schema should replace a prose walkthrough, not duplicate it. Add only the text
 
 ### Mission room graphs
 
-> **Accepted** — A Mission owns its room order and authored room contents. Its Mermaid graph is the place to scan the critical route, room purpose, communication triggers, and placements; do not repeat those counts in a room table. The diagram is not a spatial minimap.
+> **Accepted** — A Mission owns its room order and authored room contents. Its Mermaid graph is the place to scan the critical route, room purpose, communication and cutscene triggers, and placements; do not repeat those counts in a room table. The diagram is not a spatial minimap.
 
-Use room-purpose colours for the main route and reserve the legend for those colours and communication, **not** for each content type. Attach one **room-content block** per room when there are authored placements. It is a grey rectangular node with a thin dashed border and connector, whether it contains enemies, fixed pickups, or both. Write enemy quantities as `(3)E001`; use stable IDs and quantities for other authored pickups when assigned. Put each ID inside its own `<a href='...'>` link so multiple IDs in one block remain independently navigable. The wiki's Mermaid renderer allows HTML labels; a `click` directive would link the *whole* block to only one destination. Link to the owning Enemy, Equipment, Blueprint, or other page rather than copying the item's rules into the Mission. An item appears here only when it is an **authored placement**; random enemy-drop tables stay with their source, and an objective/interactable is described as part of the room rather than mislabelled a pickup. Do not invent a placement just to fill a room-content block.
+Use room-purpose colours for the main route and reserve the legend for those colours, communication, and cutscenes, **not** for each content type. Attach one **room-content block** per room when there are authored placements. It is a grey rectangular node with a thin dashed border and connector, whether it contains enemies, fixed pickups, or both. Write enemy quantities as `(3)E001`; use stable IDs and quantities for other authored pickups when assigned. Put each ID inside its own `<a href='...'>` link so multiple IDs in one block remain independently navigable. The wiki's Mermaid renderer allows HTML labels; a `click` directive would link the *whole* block to only one destination. Link to the owning Enemy, Equipment, Blueprint, or other page rather than copying the item's rules into the Mission. An item appears here only when it is an **authored placement**; random enemy-drop tables stay with their source, and an objective/interactable is described as part of the room rather than mislabelled a pickup. Do not invent a placement just to fill a room-content block.
 
 Give communication nodes rounded shapes and **heavy dotted** connectors, distinct from the thin dashes for room content. They may link to canonical dialogue entries. `linkStyle` uses edge order: when adding or reordering edges, recalculate the indices so communication never accidentally receives content styling. The Mission must still carry the Mermaid `classDef` and `linkStyle` declarations needed to render it; this section owns the authoring convention, not a shared stylesheet.
 
-Syntax example only — the pickup shown here is **not** an authored Mission placement:
+**Cutscene blocks:** Use a double-bordered Mermaid node (`CS001[["🎬 CS001 · Scene name<br/>+0:30 target · pauses play"]]`) and a thin **solid** connector, distinct from dialogue dots and room-content dashes. Link the whole block to its canonical `cutscenes/cs001.md` page. Cutscenes use stable `CS###` IDs and their own sidebar section; they are not rooms, pickups, or duplicate COM exchanges for speech within the scene. Put an in-room scene beside its triggering room; put a post-Mission scene after the last room with an explicit **After extraction** edge label. Neither creates a traversable branch.
+
+Scene pages own duration targets, presentation, variants, and text links. Missions own placement and local timing consequences; Boss pages own combat conditions. Graph labels show the current provisional unskipped scene target and pause behaviour. Keep active-room time separate from paused cutscene time, add each scene once, and distinguish extraction totals from post-Mission sequence totals. Sound lead-ins and background animation that overlap live gameplay add no separate time. State whether durations are targets or measured; record reading/loading/transition overhead separately. Watched and skipped playback must commit the same handoff state.
+
+Syntax example only — neither the pickup nor scene below is an authored placement in the example rooms:
 
 ```mermaid
 flowchart LR
@@ -116,11 +120,16 @@ flowchart LR
     A -.- COM(["💬 COM01 · Operator"])
     B -.- CONTENT["(3)<a href='#/enemies/e001'>E001</a> · (2)<a href='#/enemies/e002'>E002</a> · (1)<a href='#/equipment/eq001'>EQ001</a>"]
 
+    B --> CS001[["🎬 CS001 · Scene name<br/>+0:30 target · pauses play"]]
+    click CS001 href "#/cutscenes/cs001"
     click COM href "#/locale/en/dialogue.po?entry=dialogue.m01.com01"
     classDef communication fill:#f8fafc,stroke:#64748b,color:#334155,stroke-width:1px,stroke-dasharray:4 3;
     classDef roomContent fill:#f8fafc,stroke:#64748b,color:#334155,stroke-width:1px,stroke-dasharray:7 5;
+    classDef cutscene fill:#e0f2fe,stroke:#0891b2,color:#164e63,stroke-width:2px;
     class COM communication;
     class CONTENT roomContent;
+    class CS001 cutscene;
+    linkStyle 3 stroke:#0891b2,stroke-width:1px;
     linkStyle 1 stroke:#64748b,stroke-width:12px,stroke-dasharray:1 22,stroke-linecap:round;
     linkStyle 2 stroke:#64748b,stroke-width:2px,stroke-dasharray:7 5;
 ```

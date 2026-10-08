@@ -152,6 +152,12 @@
   - [[Equipment/EQ021|Conductor Whip]]
   - [[Equipment/EQ022|Dorsal Tendrils]]
 
+## Cutscenes
+
+- [[Cutscenes/Overview|Cutscene catalogue]]
+  - [[Cutscenes/CS001|CS001 — Door Was Taking Too Long]]
+  - [[Cutscenes/CS002|CS002 — RAM Has Another Door to Open]]
+
 ## Game Text
 
 - [[game-text/README|Game Text]]
