@@ -18,7 +18,7 @@ Speaking, expressing a philosophy, or making narrative claims does not also make
 
 ## Stage-1 encounters
 
-- [[Bosses/Tollkeeper|M03 gang leader · working name Tollkeeper]] — gang-leader role, low-HP healing-cover pattern, and RAM entrance confirmed; personal/faction name, attacks, exact healing cycle, and early-kill handling remain under review.
+- [[Bosses/Tollkeeper|Tollkeepers gang leader]] — gang-leader role, healing-cover pattern, mandatory RAM entrance, and lethal-damage safeguard confirmed; personal name, attacks, exact healing cycle, and retreat tuning remain under review.
 
 Additional accepted Mission bosses receive pages during the later boss population pass.
 

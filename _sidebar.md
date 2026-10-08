@@ -125,7 +125,7 @@
   - [[Enemies/E006|E006 Freight Hookhand · proposal]]
   - [[Enemies/E007|E007 Gate Enforcer · proposal]]
 - [[Bosses/Overview|Bosses and minibosses]]
-  - [[Bosses/Tollkeeper|M03 gang leader · working name Tollkeeper]]
+  - [[Bosses/Tollkeeper|Tollkeepers gang leader]]
   - [[Bosses/Heartroot|Heartroot]]
   - [[Bosses/Controller|Controller — Local Avatar]]
 - [[Equipment/Overview|Equipment]]

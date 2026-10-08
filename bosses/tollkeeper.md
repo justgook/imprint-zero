@@ -1,6 +1,6 @@
 ---
 type: boss
-title: Gang Leader — Working Name Tollkeeper
+title: Tollkeepers — Gang Leader
 status: stage-1
 ---
 
@@ -8,11 +8,11 @@ status: stage-1
 
 > **Accepted — M03 direction:** The resident gang leader is the final Boss of [[Missions/M03|M03's occupied command center]]. The fight establishes repeated retreat-and-heal behaviour before RAM intervenes. This is not the earlier obsolete Zero Division unit.
 
-“Tollkeeper” is a provisional label, not an approved personal or faction name. The leader has no authored campaign agency beyond this encounter; no separate NPC page is needed.
+**Tollkeepers** is the accepted faction name; the leader's personal name remains unresolved. The leader has no authored campaign agency beyond this encounter; no separate NPC page is needed.
 
 ## Healing and RAM intervention
 
-> **TODO — Exact cycle:** Confirm heal amount/rate/cap, retreat protection, interruptibility, attempt counting, and early defeat handling. The user-established threshold and third-attempt entrance below are accepted; the detailed interpretation remains a proposal until reviewed.
+> **TODO — Exact cycle:** Confirm heal amount/rate/cap, retreat speed, cover protection, interruptibility, and attempt counting. Early defeat prevention is settled below; remaining cycle details are proposals until reviewed.
 
 > **Accepted — Core beat:** When Boss HP drops **below 25%**, the leader retreats under cover and recovers HP. The healing spot is in the **bottom-right corner** of the room. RAM enters from the other side, **off-screen right**, on the leader's **third healing attempt**.
 
@@ -30,7 +30,8 @@ flowchart TD
     Return --> Fight
     Count -->|Third| RAM[RAM breaches from off-screen right]
     RAM --> EndHeal[Healing access disabled]
-    EndHeal --> Finish[Player finishes the leader]
+    EndHeal --> Release[Release lethal-damage safeguard after intervention]
+    Release --> Finish[Player finishes the leader]
 ```
 
 The schema shows the **recommended normal sequence**, not a complete implementation state machine. Counter semantics and exceptional paths are unresolved; an interrupted first/second heal must not silently count as a completed heal.
@@ -40,21 +41,30 @@ The schema shows the **recommended normal sequence**, not a complete implementat
 | First two retreats | Each produces a visible HP increase and returns the leader to combat. Recover above the retreat threshold so the next drop can trigger a distinct attempt; do not silently refill to full HP. |
 | Counter increment | On entry into the healing action at the corner, not per frame below threshold or while approaching cover. |
 | RAM timing | Third healing action begins, then RAM's breach interrupts it. Do not wait for a third completed refill or a fourth retreat. |
-| Corner protection | Physical cover blocks ordinary frontal attacks while healing; no global scripted invulnerability. Exact flank access and interruption rules need review. |
+| Corner protection | Physical cover blocks ordinary frontal attacks while healing. Retreat remains damageable; the accepted lethal-damage safeguard below is not general damage immunity. Exact flank access and interruption rules need review. |
 | Breach result | Destroy cover/healing access; stop further recovery for this deployment. RAM does not automatically kill the leader. |
 | Final phase | Selected Character keeps control and defeats the leader with their own baseline kit. No RAM-specific player input, Overdrive, or free switching. |
 | Retry | Reset HP, attempt count, corner cover, and RAM event together. RAM entrance triggers once per deployment. |
 
-### Early defeat and interrupted healing
+### Lethal-damage safeguard
 
-> **TODO — Mandatory introduction guarantee:** The crew progression requires RAM to appear, but a vulnerable leader could be killed before a third attempt, and healing could be repeatedly interrupted. Choose a complete rule before implementation; do not add an invisible HP floor, resurrection, or unannounced invulnerability.
+> **Accepted — Mandatory introduction guarantee:** A skilled player cannot kill the leader before the authored healing sequence and RAM intervention. The leader continues taking damage, including during retreat, but lethal damage is clamped at **1 HP** until RAM's intervention completes. This hidden last-HP safeguard preserves the illusion that the fleeing leader can be finished; it is not an invulnerable retreat phase.
 
-| Option | Consequence |
+| State / edge case | Required result |
 |---|---|
-| **A · Readable protected retreat transitions** | Author telegraphed retreat protection and reachable damage windows that reliably preserve the first two observed recoveries. Must resolve burst damage crossing the threshold and lethal damage in one hit; physical cover alone does not guarantee this. |
-| **B · Early-kill fallback entrance** | Preserve normal RAM timing on ordinary runs; if the leader dies early, RAM breaches during the aftermath. Avoids damage immunity, but changes the requested “RAM enters during the fight” beat and requires approval. |
+| Before RAM's completed intervention | Hits still reduce HP down to the floor and produce normal hit feedback. No death, defeat reward, or Mission-completion event may fire. |
+| Burst hit crosses the retreat threshold and would kill | Apply the floor before defeat evaluation, then start the low-HP retreat. A single lethal hit cannot bypass the healing sequence. |
+| Leader reaches healing cover | Perform the authored recovery/attempt sequence; merely reaching cover does not remove the safeguard or permit skipping later attempts. |
+| RAM completes the third-attempt intervention | Remove the floor when the healing-access break is committed. The player may now kill the leader normally; no automatic kill or unapproved HP refill. |
+| Retry | Restore the floor with the rest of the Boss state; never carry the released safeguard into a new deployment. |
 
-No option is selected by this draft. The first/second recovery visibility and the third-attempt event must be tested with both ROOK and VECTOR, including burst damage and stun.
+The floor is a safety net, **not an intended visible plateau**. Normal encounter tuning—including skilled play—should get the leader behind cover before it is reached. Do not signal an immunity phase, display a scripted protection icon, or fake further HP loss after reaching the actual floor. If the player can repeatedly attack an apparently dying leader stuck at 1 HP, the retreat staging has failed the intended illusion.
+
+#### Retreat and interruption validation
+
+> **TODO — Guarantee the route, not just survival:** Validate retreat speed/distance, damage exposure, stun/knockback, collision, corner blocking, and interrupted healing. The floor prevents death but does not itself guarantee reaching cover or completing two visible recoveries. Resolve those transitions without inventing global stun immunity or letting repeated interruption stall RAM's entrance indefinitely.
+
+Test both ROOK and VECTOR with burst damage, repeated hits, and interruption near the threshold and during retreat. Stress tests must prove the safeguard catches lethal overshoot; ordinary and skilled-player tests should show that the floor is not exposed. Preserve the first two observed recoveries and the third-attempt RAM entrance; there is no early-kill aftermath fallback.
 
 ## Baseline combat
 
