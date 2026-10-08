@@ -54,7 +54,7 @@ qmd query 'when do Machine Blueprints unlock Equipment?' \
   -c imprint-zero -n 5
 ```
 
-For agents, use `--json -n 5` on searches, inspect returned paths and lines, and retrieve **only** relevant sections with `qmd get 'qmd://imprint-zero/path/to/page.md:LINE:COUNT'`; verify claims against the source. `qmd search` is fast keyword search; `qmd vsearch` uses embeddings; `qmd query` expands the question and reranks results (slower, but better for ambiguous questions). `--intent` disambiguates the question; it does not search on its own. See [AGENTS.md](content/AGENTS.md) for the agent workflow.
+For agents, use `--json -n 5` on searches, inspect returned paths and lines, and retrieve **only** relevant sections with `qmd get 'qmd://imprint-zero/path/to/page.md:LINE:COUNT'`; verify claims against the source. `qmd search` is fast keyword search; `qmd vsearch` uses embeddings; `qmd query` expands the question and reranks results (slower, but better for ambiguous questions). `--intent` disambiguates the question; it does not search on its own. See [AGENTS.md](https://github.com/justgook/imprint-zero/blob/release/AGENTS.md) for the agent workflow.
 
 The index, config, and update stamps live in ignored `.qmd/`; model downloads live in your user cache. `make build` and `make serve` do not need QMD. If search fails, run `qmd status` and refresh with `make qmd-update` (or `make qmd-embed` for semantic results).
 
