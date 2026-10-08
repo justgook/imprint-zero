@@ -1,8 +1,8 @@
 import assert from "node:assert/strict"
-import { readFileSync, readdirSync } from "node:fs"
+import { readFileSync } from "node:fs"
 import test from "node:test"
 
-import { parseGettext } from "../wiki-extensions/gettext.js"
+import { parseConfiguredLanguages, parseGettext } from "../wiki-extensions/gettext.js"
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8")
 const mission = read("missions/m02.md")
@@ -16,7 +16,7 @@ test("M02 game text has matching unique IDs in all configured catalogues", () =>
     assert.equal(new Set(expected).size, expected.length)
     for (const entry of english) assert.ok(entry.translations.get(0), entry.id)
 
-    for (const language of readdirSync(new URL("../locale/", import.meta.url))) {
+    for (const { code: language } of parseConfiguredLanguages(read("_config.md"))) {
         const entries = m02Entries(language)
         assert.deepEqual(entries.map((entry) => entry.id).sort(), expected, language)
         if (language !== "en") {

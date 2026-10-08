@@ -47,11 +47,11 @@ msgstr "No %s detected."
 
 The standard gettext `c-format` flag is intentionally not used: it validates placeholders by comparing `msgid` with `msgstr`, but this project keeps opaque IDs—not source text—in `msgid`. Project tests perform the equivalent validation between locale catalogues instead.
 
-Every configured catalogue must provide a non-empty `msgstr` for every ID. Validation rejects incomplete catalogues, mismatched printf placeholders, and missing `game-format` flags. Game logic and mission diagrams refer to stable IDs; changing English copy does not require changing those IDs.
+Every configured catalogue must contain every stable ID, and English must provide a non-empty `msgstr` for each. Non-English `msgstr` values may remain empty while awaiting translation. Validation rejects missing IDs, empty English text, mismatched printf placeholders in non-empty translations, and missing `game-format` flags even on pending entries. Game logic and mission diagrams refer to stable IDs; changing English copy does not require changing those IDs.
 
 ### Development fallback
 
-When new English text is not ready for translation, add its stable ID to every configured locale and use that ID itself as the non-English `msgstr`. An untranslated entry such as `msgstr "dialogue.m09.com01.l001"` is deliberately conspicuous in builds and cannot be mistaken for completed localization. Replace ID fallbacks with translated text only after the English copy is approved; do not copy provisional English into non-English catalogues.
+Add new stable IDs to every configured locale, leaving non-English `msgstr ""` until translated. The wiki displays `[missing translation]` for empty values; blanks must not be mistaken for completed localization. M02 uses this convention. Older ID-valued fallbacks remain development placeholders, not completed translations; do not add new ones or copy provisional English into non-English catalogues.
 
 ## Locales
 

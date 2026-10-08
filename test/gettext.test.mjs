@@ -115,12 +115,35 @@ languages:
     assert.throws(() => localizedCatalogueTarget("content/game-text/context.po", "ru"), /outside locale/)
 })
 
-test("configured locale catalogues are complete and structurally aligned with English", () => {
+const placeholders = (value) => [...value.matchAll(/%(?:\d+\$)?[diouxXeEfFgGaAcsp]/g)].map(([placeholder]) => placeholder).sort()
+
+function assertTranslation(entry, code, expectedPlaceholders, label = entry.id) {
+    const translated = entry.translations.get(0)
+    if (code === "en") assert.ok(translated, `${label} is untranslated`)
+    if (translated) assert.deepEqual(placeholders(translated), expectedPlaceholders, `${label} placeholders`)
+    if (expectedPlaceholders.length) assert.ok(entry.flags.includes("game-format"), `${label} requires game-format`)
+}
+
+test("pending non-English translations are allowed but English text is required", () => {
+    const entry = parseGettext('msgid "dialogue.pending"\nmsgstr ""\n').entries[0]
+    assert.doesNotThrow(() => assertTranslation(entry, "de", []))
+    assert.throws(() => assertTranslation(entry, "en", []), /is untranslated/)
+})
+
+test("translated text preserves placeholders and pending entries retain format flags", () => {
+    const entry = (text, flag = "#, game-format\n") => parseGettext(`${flag}msgid "error.device"\nmsgstr "${text}"\n`).entries[0]
+    assert.doesNotThrow(() => assertTranslation(entry("Gerät %s"), "de", ["%s"]))
+    assert.throws(() => assertTranslation(entry("Gerät %d"), "de", ["%s"]), /placeholders/)
+    assert.throws(() => assertTranslation(entry("Gerät"), "de", ["%s"]), /placeholders/)
+    assert.doesNotThrow(() => assertTranslation(entry(""), "de", ["%s"]))
+    assert.throws(() => assertTranslation(entry("", ""), "de", ["%s"]), /requires game-format/)
+})
+
+test("configured locale catalogues have complete IDs and align translations with English", () => {
     const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
     const configured = parseConfiguredLanguages(fs.readFileSync(path.join(root, "_config.md"), "utf8"))
     const domains = fs.readdirSync(path.join(root, "locale", "en")).filter((name) => name.endsWith(".po")).sort()
     const englishIDs = new Map()
-    const placeholders = (value) => [...value.matchAll(/%(?:\d+\$)?[diouxXeEfFgGaAcsp]/g)].map(([placeholder]) => placeholder).sort()
 
     for (const domain of domains) {
         const catalogue = parseGettext(fs.readFileSync(path.join(root, "locale", "en", domain), "utf8"))
@@ -135,11 +158,7 @@ test("configured locale catalogues are complete and structurally aligned with En
             assert.equal(catalogue.headers.get("Language"), code, `${code}/${domain} language header`)
             assert.deepEqual(catalogue.entries.map((entry) => entry.id), [...englishIDs.get(domain).keys()], `${code}/${domain} IDs`)
             for (const entry of catalogue.entries) {
-                const translated = entry.translations.get(0)
-                assert.ok(translated, `${code}/${domain}: ${entry.id} is untranslated`)
-                const expectedPlaceholders = englishIDs.get(domain).get(entry.id)
-                assert.deepEqual(placeholders(translated), expectedPlaceholders, `${code}/${domain}: ${entry.id} placeholders`)
-                if (expectedPlaceholders.length) assert.ok(entry.flags.includes("game-format"), `${code}/${domain}: ${entry.id} requires game-format`)
+                assertTranslation(entry, code, englishIDs.get(domain).get(entry.id), `${code}/${domain}: ${entry.id}`)
             }
         }
     }
