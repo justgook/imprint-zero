@@ -385,7 +385,7 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/M01|M01 — Cold Deployment]] | B01 | Controlled introduction: ROOK | Stage 1 |
 | [[Missions/HUB0|HUB0 — Crew Assembly Hub]] | — | Act I return and roster assembly | In progress |
 | [[Missions/M02|M02 — Containment Doctrine]] | B01 | Controlled introduction: ROOK or VECTOR | Stage 1 |
-| [[Missions/M03|M03 — No Survivors Logged]] | B01 | Controlled introduction: RAM arrival | TODO |
+| [[Missions/M03|M03 — No Survivors Logged]] | B01 | Controlled introduction: RAM arrival | Stage 1 |
 | [[Missions/M04|M04 — Production Halt]] | B02 | Special introduction: RAM and RELAY | TODO |
 | [[Missions/M05|M05 — The Four Trials]] | B02 | Full-crew exception; Overdrive reveal | TODO |
 | [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | Accepted |

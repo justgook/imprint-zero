@@ -6,7 +6,7 @@ import { contentRequest, pageURL, routePath } from "../.wiki-engine/app.js"
 
 const extensions = new Set([".md"])
 
-for (const mission of ["m01", "m02"]) {
+for (const mission of ["m01", "m02", "m03"]) {
     test(`${mission} room-graph link opens the wiki-rules section`, () => {
         const source = readFileSync(new URL(`../missions/${mission}.md`, import.meta.url), "utf8")
         const target = /\[\[(Wiki Rules[^|]+)\|Mission room graphs\]\]/.exec(source)?.[1]
