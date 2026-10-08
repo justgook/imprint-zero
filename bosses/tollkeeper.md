@@ -1,6 +1,6 @@
 ---
 type: boss
-title: Tollkeepers — Gang Leader
+title: Marek “Switch” Voss
 status: stage-1
 ---
 
@@ -8,7 +8,9 @@ status: stage-1
 
 > **Accepted — M03 direction:** The resident gang leader is the final Boss of [[Missions/M03|M03's occupied command center]]. The fight establishes repeated retreat-and-heal behaviour before RAM intervenes. This is not the earlier obsolete Zero Division unit.
 
-**Tollkeepers** is the accepted faction name; the leader's personal name remains unresolved. The leader has no authored campaign agency beyond this encounter; no separate NPC page is needed.
+> **Accepted — Boss name:** **Marek “Switch” Voss**, leader of [[Missions/M03#occupation-and-faction|the Tollkeepers]]. Use **Switch** as his short name in combat dialogue. This name does not establish additional biography or approved dialogue lines.
+
+The leader has no authored campaign agency beyond this encounter; no separate NPC page is needed.
 
 ## Healing and RAM intervention
 

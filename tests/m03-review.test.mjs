@@ -74,6 +74,8 @@ test("M03 gang roster links to provisional actor pages and visual handoffs", () 
 
 test("Boss owner preserves low-HP healing and the third-attempt right-side entrance", () => {
     const boss = read("bosses/tollkeeper.md")
+    assert.match(boss, /^title: Marek “Switch” Voss$/m)
+    assert.match(boss, /Accepted — Boss name/)
     assert.match(boss, /below 25%/)
     assert.match(boss, /third healing attempt/)
     assert.match(boss, /bottom-right corner/)

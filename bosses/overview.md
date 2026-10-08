@@ -18,7 +18,7 @@ Speaking, expressing a philosophy, or making narrative claims does not also make
 
 ## Stage-1 encounters
 
-- [[Bosses/Tollkeeper|Tollkeepers gang leader]] — gang-leader role, healing-cover pattern, mandatory RAM entrance, and lethal-damage safeguard confirmed; personal name, attacks, exact healing cycle, and retreat tuning remain under review.
+- [[Bosses/Tollkeeper|Marek “Switch” Voss]] — Tollkeepers leader; name, encounter role, healing-cover pattern, mandatory RAM entrance, and lethal-damage safeguard confirmed. Attacks, exact healing cycle, and retreat tuning remain under review.
 
 Additional accepted Mission bosses receive pages during the later boss population pass.
 
