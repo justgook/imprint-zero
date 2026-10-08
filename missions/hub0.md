@@ -18,11 +18,9 @@ Provide the crew's directed return point during Act I while Characters and deplo
 
 ## First arrival scene
 
-> **TODO — Scene timing and dialogue:** Define the reveal, pause, and opening exchange after the storyboard framing is reviewed.
+> **TODO — Hub transition handoff:** Validate docking, scene entry, and the control handoff into ordinary Hub preparation. [[Cutscenes/CS003|CS003]] owns VECTOR's introduction, its storyboard, dialogue handoff, and duration target.
 
-![HUB0 storyboard concept of ROOK meeting Ghost VECTOR](content/images/missions/storyboard/HUB0%20Rook%20Meets%20VECTOR.png)
-
-Generated previsualization proposal: after ROOK's Coffin docks, he enters the occupied Hub and finds VECTOR waiting in her default Ghost configuration. The scene turns their earlier radio contact into an in-person introduction and presents VECTOR as the contrasting playable Character before M02 selection. Camera direction and exact blocking remain pending review.
+> **Accepted — Scene reference:** Play [[Cutscenes/CS003|CS003 — VECTOR Introduces Herself]] on the first return after M01, before M02 selection. For now M01's graph displays this after its final room/extraction; later Hub-scene organization can move that reference without duplicating the scene or its time.
 
 ## Progression
 

@@ -234,5 +234,6 @@ msgstr ""
 #. Scene: CS001, composition 2
 #. Intent: Confident impatience after breaching the wall; not low intelligence. Approved English source: Door was taking too long.
 #: cutscenes/cs001.md
+#. Translation status: Draft; native-language review pending.
 msgid "dialogue.cs001.ram.door"
-msgstr ""
+msgstr "La puerta estaba tardando demasiado."

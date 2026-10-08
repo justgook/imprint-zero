@@ -8,12 +8,13 @@ status: in-progress
 
 | ID | Scene | Current placement |
 |---|---|---|
+| [[Cutscenes/CS003|CS003]] | VECTOR introduces herself to ROOK | After M01 extraction / first HUB0 arrival; before CS001/CS002 in story order |
 | [[Cutscenes/CS001|CS001]] | RAM breaches the healing station | M03 R05, during the Boss encounter |
 | [[Cutscenes/CS002|CS002]] | RAM introduces himself and the RELAY recovery lead | After M03 R07 / extraction; Hub-scene placement may be reorganized later |
 
 ## Ownership and identity
 
-> **Accepted** — Cutscenes have their own sidebar section, stable `CS###` IDs, `type: cutscene`, and lowercase ID filenames. Scene IDs do not change when their placement moves.
+> **Accepted** — Cutscenes have their own sidebar section, stable `CS###` IDs, `type: cutscene`, and lowercase ID filenames. Scene IDs do not change when their placement moves. Catalogue/sidebar ordering may follow story order; numeric IDs record stable allocation, not playback order. Thus CS003 precedes CS001/CS002 in the campaign without renumbering them.
 
 | Owner | Responsibility |
 |---|---|

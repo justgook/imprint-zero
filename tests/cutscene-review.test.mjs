@@ -55,7 +55,15 @@ test("RAM's approved CS001 joke exists once in every configured dialogue catalog
         const entries = parseGettext(read(`locale/${code}/dialogue.po`)).entries
             .filter((entry) => entry.id === "dialogue.cs001.ram.door")
         assert.equal(entries.length, 1, code)
-        assert.equal(entries[0].translations.get(0), code === "en" ? "Door was taking too long." : "", code)
+        const translation = entries[0].translations.get(0)
+        assert.ok(translation?.trim(), `${code}: translation must be filled`)
+        if (code === "en") assert.equal(translation, "Door was taking too long.")
+        else {
+            assert.notEqual(translation, "Door was taking too long.", code)
+            assert.notEqual(translation, entries[0].id, code)
+            assert.ok(entries[0].extractedComments.includes("Translation status: Draft; native-language review pending."), code)
+        }
+        assert.ok(read("cutscenes/cs001.md").includes(`locale/${code}/dialogue.po?entry=dialogue.cs001.ram.door`), `${code}: scene text link`)
     }
     assert.match(read("cutscenes/cs001.md"), /entry=dialogue.cs001.ram.door/)
 })
