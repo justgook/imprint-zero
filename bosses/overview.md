@@ -13,14 +13,20 @@ Speaking, expressing a philosophy, or making narrative claims does not also make
 
 ## Accepted Bosses
 
-- [[Bosses/Heartroot|Heartroot]] — the Continuum's founding organism, merged founding voice, local interface, and MC03 Guardian.
-- [[Bosses/Controller|Controller — Local Avatar]] — the distributed Ashfall Spire defence and final Act IV Encounter; Controller also has an NPC page because its campaign agency extends beyond the fight.
+- [[Bosses/BS002|BS002 — Heartroot]] — the Continuum's founding organism, merged founding voice, local interface, and MC03 Guardian.
+- [[Bosses/BS003|BS003 — Controller — Local Avatar]] — the distributed Ashfall Spire defence and final Act IV Encounter; Controller also has an NPC page because its campaign agency extends beyond the fight.
 
 ## Stage-1 encounters
 
-- [[Bosses/Tollkeeper|Marek “Switch” Voss]] — Tollkeepers leader; name, encounter role, healing-cover pattern, mandatory RAM entrance, and lethal-damage safeguard confirmed. Attacks, exact healing cycle, and retreat tuning remain under review.
+- [[Bosses/BS001|BS001 — Marek “Switch” Voss]] — Tollkeepers leader; name, encounter role, healing-cover pattern, mandatory RAM entrance, and lethal-damage safeguard confirmed. Attacks, exact healing cycle, and retreat tuning remain under review.
 
 Additional accepted Mission bosses receive pages during the later boss population pass.
+
+## Stable Boss IDs
+
+> **Accepted — Catalogue identity:** Every Boss uses a unique `BS###` ID in frontmatter with `type: boss`. `BS` is distinct from the `B##` Biome sequence. Canonical filenames are lowercase IDs (`bosses/bs001.md`); links and room-content blocks use the stable ID, not the display name.
+
+`BS001` belongs to M03's first campaign Boss. Later IDs are permanent catalogue allocations, not chronological encounter numbers: `BS002` and `BS003` identify the existing Heartroot and Controller pages without implying they are the second and third fights. Allocate new IDs as Boss pages are populated; never renumber existing IDs after adding earlier encounters or changing a name.
 
 ## Boss-page rule
 

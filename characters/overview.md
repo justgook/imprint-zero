@@ -100,7 +100,7 @@ Soldiering is initially their only stable identity. They can refuse orders physi
 
 - [[Characters/Rook|ROOK]] — Rifle Marine; balanced baseline and mechanical control case; available at new game.
 - [[Characters/Vector|VECTOR]] — stealth and mobility specialist; fastest and most manoeuvrable crew member; available at the first Hub arrival.
-- [[Characters/Ram|RAM]] — full-body powered-armour specialist; defence, heavy fire, melee commitment, and destructive entry; introduced during the second boss Encounter in [[Missions/M03|No Survivors Logged]].
+- [[Characters/Ram|RAM]] — full-body powered-armour specialist; defence, heavy fire, melee commitment, and destructive entry; introduced during the first Boss encounter in [[Missions/M03|No Survivors Logged]].
 - [[Characters/Relay|RELAY]] — Systems Specialist; infrastructure and area control; recovered through the RAM-required [[Missions/M04|Production Halt]] Special Mission.
 
 > **Accepted** — The first Hub arrival offers VECTOR as a contrasting playable character alongside ROOK. Hearing VECTOR during the introduction creates recognition and a reason to inspect the alternative Character at the Hub.

@@ -31,7 +31,7 @@ Controller is presented as a tower-wide system rather than one definitive humano
 - public-address and communication channels;
 - false objectives and behavioural predictions.
 
-The physical boss is a local defence or avatar. The NPC page owns Controller's narrative identity and evidence boundaries; [[Bosses/Controller|the Controller Boss page]] owns route-specific mechanics, shells, phases, and the final tactical severance.
+The physical boss is a local defence or avatar. The NPC page owns Controller's narrative identity and evidence boundaries; [[Bosses/BS003|the Controller Boss page]] owns route-specific mechanics, shells, phases, and the final tactical severance.
 
 ## Relationship to OPERATOR
 

@@ -69,7 +69,7 @@ flowchart LR
     Choice -->|No| HUB1[Return to HUB1]
 ```
 
-The **[[NPCs/Continuum|Continuum]]** is a collective mind created by **[[Bosses/Heartroot|Heartroot]]**. Heartroot merged into the resulting collective and persists as one founding voice and local interface rather than its ruler or an independent actor. Distinct joined identities remain perceptible without one permanent controlling voice. MC03's local Heartroot outcome neither unlocks nor blocks Communion.
+The **[[NPCs/Continuum|Continuum]]** is a collective mind created by **[[Bosses/BS002|Heartroot]]**. Heartroot merged into the resulting collective and persists as one founding voice and local interface rather than its ruler or an independent actor. Distinct joined identities remain perceptible without one permanent controlling voice. MC03's local Heartroot outcome neither unlocks nor blocks Communion.
 
 Background survivors establish the MS01 evacuation but do not satisfy the condition. No objective, checklist, or unlock message exposes the foreground captive requirement. The flag can be earned on replay, persists for the campaign if the MS03 passage is ignored, and resets in a new campaign. Entering SE01 does not end the campaign automatically; refusing Communion returns the player to HUB1 with the flag preserved.
 

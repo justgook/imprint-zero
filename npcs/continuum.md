@@ -7,7 +7,7 @@ status: in-progress
 
 ## Narrative role
 
-> **Accepted** — The **Continuum** is a collective mind created by [[Bosses/Heartroot|Heartroot]]. As identities joined it, Heartroot also merged into the collective and became one founding voice rather than its ruler.
+> **Accepted** — The **Continuum** is a collective mind created by [[Bosses/BS002|Heartroot]]. As identities joined it, Heartroot also merged into the collective and became one founding voice rather than its ruler.
 
 The Continuum presents coexistence as an alternative to institutional replacement and erasure. Distinct voices remain perceptible within it, but their testimony provides perspectives rather than one objective history of the crew.
 
@@ -22,7 +22,7 @@ Heartroot provides a founding organism and local interface, but it can no longer
 | Moment | Established observation | Boundary |
 |---|---|---|
 | [[Missions/MC02|MC02 — Voices Under Glass]] | Distinct source-memory voices persist through the Continuum and describe identity as plural. | Their testimony does not provide a complete or objective crew history. |
-| [[Missions/MC03|MC03 — Heartroot]] | [[Bosses/Heartroot|Heartroot]] presents local responses to collective identity as the Continuum's founding interface. | Destroying, extracting, or accepting Heartroot's mark does not establish one philosophically correct response or control Communion access. |
+| [[Missions/MC03|MC03 — Heartroot]] | [[Bosses/BS002|Heartroot]] presents local responses to collective identity as the Continuum's founding interface. | Destroying, extracting, or accepting Heartroot's mark does not establish one philosophically correct response or control Communion access. |
 | [[Missions/MS03|MS03 — Beneath the Skin]] | A saved civilian can reveal a passage toward the Living Archive. | The passage depends only on the hidden survivor flag, not Heartroot's local outcome. |
 | [[Missions/SE01|SE01 — Become Many]] | The crew may voluntarily join the Continuum or refuse and return to HUB1. | Entering the Living Archive does not commit the crew automatically. |
 

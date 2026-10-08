@@ -67,13 +67,13 @@ test("M03 gang roster links to provisional actor pages and visual handoffs", () 
         assert.ok(existsSync(new URL(`../images/enemies/${id}.svg`, import.meta.url)))
         assert.ok(read("enemies/overview.md").includes(`Enemies/${id.toUpperCase()}`))
     }
-    assert.match(graph, /href='#\/bosses\/tollkeeper'/)
+    assert.match(graph, /\(1\)<a href='#\/bosses\/bs001'>BS001<\/a>/)
     assert.match(mission, /Proposed extermination scope/)
     assert.doesNotMatch(graph, /obsolete unit|enemies\/e003|enemies\/e004/)
 })
 
 test("Boss owner preserves low-HP healing and the third-attempt right-side entrance", () => {
-    const boss = read("bosses/tollkeeper.md")
+    const boss = read("bosses/bs001.md")
     assert.match(boss, /^title: Marek “Switch” Voss$/m)
     assert.match(boss, /Accepted — Boss name/)
     assert.match(boss, /below 25%/)
@@ -86,6 +86,6 @@ test("Boss owner preserves low-HP healing and the third-attempt right-side entra
     assert.match(boss, /there is no early-kill aftermath fallback/)
     assert.match(mission, /Accepted — Faction name/)
     assert.doesNotMatch(mission, /Switchmen|Lineholders|Cutwire Crew/)
-    assert.match(mission, /Bosses\/Tollkeeper#healing-and-ram-intervention/)
+    assert.match(mission, /Bosses\/BS001#healing-and-ram-intervention/)
     assert.match(read("gameplay/rail-network.md"), /Coffins, mail, and goods/)
 })
