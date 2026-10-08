@@ -16,7 +16,7 @@ test("M03 draft has correctly indexed communication and content edges", () => {
         }
     }
     assert.equal(edges.filter((line) => /-\.- COM\d+/.test(line)).length, 4)
-    assert.equal(edges.filter((line) => /-\.- C\d+/.test(line)).length, 3)
+    assert.equal(edges.filter((line) => /-\.- C\d+/.test(line)).length, 4)
     for (const match of graph.matchAll(/href='#\/([^']+)'/g)) {
         assert.ok(existsSync(new URL(`../${match[1]}.md`, import.meta.url)), match[1])
     }
@@ -30,7 +30,7 @@ test("M03 embeds dedicated spatial and visual handoffs", () => {
         const svg = read(asset)
         assert.match(svg, /<svg\b/)
         assert.match(svg, /PLACEHOLDER/)
-        assert.match(svg, /Replace with/)
+        assert.match(svg, /replace with/i)
     }
     assert.match(mission, /^status: stage-1$/m)
     assert.match(read("missions/overview.md"), /M03 — No Survivors Logged.*Stage 1/)
@@ -47,4 +47,29 @@ test("M03 critical-path planning total matches graph targets", () => {
     const total = /\*\*Critical-path total\*\* \| \*\*(\d+:\d+)\*\*/.exec(mission)?.[1]
     assert.ok(total)
     assert.equal(targets.reduce((sum, target) => sum + target, 0), seconds(total))
+})
+
+test("M03 gang roster links to provisional actor pages and visual handoffs", () => {
+    for (const id of ["e005", "e006", "e007"]) {
+        assert.ok(graph.includes(`href='#/enemies/${id}'`), id)
+        const actor = read(`enemies/${id}.md`)
+        assert.match(actor, /^status: stage-1$/m)
+        assert.ok(existsSync(new URL(`../images/enemies/${id}.svg`, import.meta.url)))
+        assert.ok(read("enemies/overview.md").includes(`Enemies/${id.toUpperCase()}`))
+    }
+    assert.match(graph, /href='#\/bosses\/tollkeeper'/)
+    assert.match(mission, /Proposed extermination scope/)
+    assert.doesNotMatch(graph, /obsolete unit|enemies\/e003|enemies\/e004/)
+})
+
+test("Boss owner preserves low-HP healing and the third-attempt right-side entrance", () => {
+    const boss = read("bosses/tollkeeper.md")
+    assert.match(boss, /below 25%/)
+    assert.match(boss, /third healing attempt/)
+    assert.match(boss, /bottom-right corner/)
+    assert.match(boss, /off-screen right/)
+    assert.match(boss, /TODO — Mandatory introduction guarantee/)
+    assert.match(boss, /No option is selected/)
+    assert.match(mission, /Bosses\/Tollkeeper#healing-and-ram-intervention/)
+    assert.match(read("gameplay/rail-network.md"), /Coffins, mail, and goods/)
 })

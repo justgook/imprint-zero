@@ -16,6 +16,10 @@ Speaking, expressing a philosophy, or making narrative claims does not also make
 - [[Bosses/Heartroot|Heartroot]] — the Continuum's founding organism, merged founding voice, local interface, and MC03 Guardian.
 - [[Bosses/Controller|Controller — Local Avatar]] — the distributed Ashfall Spire defence and final Act IV Encounter; Controller also has an NPC page because its campaign agency extends beyond the fight.
 
+## Stage-1 encounters
+
+- [[Bosses/Tollkeeper|M03 gang leader · working name Tollkeeper]] — gang-leader role, low-HP healing-cover pattern, and RAM entrance confirmed; personal/faction name, attacks, exact healing cycle, and early-kill handling remain under review.
+
 Additional accepted Mission bosses receive pages during the later boss population pass.
 
 ## Boss-page rule

@@ -121,7 +121,11 @@
   - [[Enemies/E002|E002 Untitled Quarantine Guard]]
   - [[Enemies/E003|E003 Containment Sentry]]
   - [[Enemies/E004|E004 Containment Patrol]]
+  - [[Enemies/E005|E005 Toll Collector · proposal]]
+  - [[Enemies/E006|E006 Freight Hookhand · proposal]]
+  - [[Enemies/E007|E007 Gate Enforcer · proposal]]
 - [[Bosses/Overview|Bosses and minibosses]]
+  - [[Bosses/Tollkeeper|M03 gang leader · working name Tollkeeper]]
   - [[Bosses/Heartroot|Heartroot]]
   - [[Bosses/Controller|Controller — Local Avatar]]
 - [[Equipment/Overview|Equipment]]
@@ -171,6 +175,7 @@
   - [[Gameplay/Gameplay Math|Gameplay math]]
   - [[Gameplay/Blueprints|Blueprints and research]]
   - [[Gameplay/Progression|Progression]]
+  - [[Gameplay/Rail Network|Rail network]]
   - [[Gameplay/Overdrive|Specializations and Overdrive]]
 
 ## Presentation
