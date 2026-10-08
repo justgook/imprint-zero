@@ -1,12 +1,13 @@
 WIKI_REPOSITORY ?= https://github.com/justgook/wiki
-WIKI_VERSION ?= v1.2.0
+WIKI_VERSION ?= v1.4.0
 WIKI_ENGINE ?= .wiki-engine
 WIKI_OUTPUT ?= .wiki-dist
 WIKI_SOURCE ?= $(if $(wildcard _config.md),.,content)
 PORT ?= 8080
+VALIDATE_FLAGS ?=
 QMD ?= qmd
 
-.PHONY: build serve clean check-engine install-engine reinstall-engine qmd-setup qmd-update qmd-embed
+.PHONY: build serve validate clean check-engine install-engine reinstall-engine qmd-setup qmd-update qmd-embed
 
 # QMD is supplied by the direnv/Nix dev shell. Entering the shell never builds an index.
 # Keep both the config and SQLite DB local; neither is part of the published wiki.
@@ -59,6 +60,9 @@ check-engine:
 			$(MAKE) install-engine; \
 		fi; \
 	fi
+
+validate: check-engine
+	@node "$(WIKI_ENGINE)/scripts/validate.mjs" "$(WIKI_SOURCE)" $(VALIDATE_FLAGS)
 
 build: check-engine
 	@$(WIKI_ENGINE)/scripts/build.sh "$(WIKI_SOURCE)" "$(WIKI_OUTPUT)"

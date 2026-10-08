@@ -27,7 +27,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build wiki
         id: wiki
-        uses: justgook/wiki@v1.2.0
+        uses: justgook/wiki@v1.4.0
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
