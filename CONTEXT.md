@@ -1,3 +1,9 @@
+---
+title: Imprint Zero Domain Language
+summary: Canonical terminology and relationships for crew, progression, and campaign design.
+status: reference
+---
+
 # Imprint Zero Domain Language
 
 Canonical language for the game's crew, progression, and campaign structure. Wiki ownership and presentation rules belong to the [[Wiki Rules|wiki rules]] and are linked rather than duplicated here.

@@ -33,7 +33,7 @@ He thinks concretely, acts quickly, enjoys food and immediate practical solution
 
 > **Accepted** — Impact prioritizes Defense, Siege establishes RAM's Tier-5 Integrity profile, and Onslaught trades part of that durability for greater Mobility.
 
-See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat matrix]]. [[Gameplay/Gameplay Math|Gameplay Math]] owns tier conversion and the internal Specialization budget.
+See the canonical [[Characters/Overview#specialization-stat-matrix|Specialization Stat matrix]]. [[Gameplay/Gameplay Math|Gameplay Math]] owns tier conversion and the internal Specialization budget.
 
 ## Moves and animations
 

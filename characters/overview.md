@@ -71,7 +71,7 @@ The four Characters therefore provide twelve selectable Specializations. Selecti
 
 > **TODO — Stat tiers:** Assign every unresolved `?` through movement and combat prototypes. Existing unapproved reference-page values are not accepted inputs.
 
-The overview records each Specialization's canonical [[CONTEXT#stat-tier|1–5 Stat Tiers]]. [[Gameplay/Gameplay Math|Shared gameplay equations]] map Integrity, Defense, and Mobility tiers into runtime values. Weapons own offensive values; moves, skills, equipment, and rule tags express control and utility. `0` means genuinely absent, while `?` remains unresolved.
+The overview records each Specialization's canonical [[Gameplay/Gameplay Math#input-schema|1–5 Stat Tiers]]. [[Gameplay/Gameplay Math|Shared gameplay equations]] map Integrity, Defense, and Mobility tiers into runtime values. Weapons own offensive values; moves, skills, equipment, and rule tags express control and utility. `0` means genuinely absent, while `?` remains unresolved.
 
 | Stat | [[Characters/Rook|C11]] | [[Characters/Rook|C12]] | [[Characters/Rook|C13]] | [[Characters/Vector|C21]] | [[Characters/Vector|C22]] | [[Characters/Vector|C23]] | [[Characters/Ram|C31]] | [[Characters/Ram|C32]] | [[Characters/Ram|C33]] | [[Characters/Relay|C41]] | [[Characters/Relay|C42]] | [[Characters/Relay|C43]] |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|

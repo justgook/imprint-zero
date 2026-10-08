@@ -11,7 +11,7 @@ status: in-progress
 |---|---|
 | Unlock | [[Characters/Relay#c43--null|C43 — Null RELAY]] |
 | Additional reward | Permanently teaches [[Machine Profiles/NH003|NH003 — Cascade Virus]] so Null can fill three Hack Program slots with only the Helix starter set |
-| Loadout and Overdrive behavior | [[Characters/Relay#machine-arsenal|Null's machine arsenal]] |
+| Loadout and Overdrive behavior | [[Characters/Relay#machine-arsenal-ownership|Null's machine arsenal]] |
 | Program effect and transmission constraints | [[Machine Profiles/NH003#effect|Cascade Virus]] |
 | Acquisition placement | [[Missions/MA01#specialization-imprint|MA01 — Ghost Archive]] in B03 |
 

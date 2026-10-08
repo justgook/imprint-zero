@@ -1,3 +1,9 @@
+---
+title: Character Card Image Assets
+summary: Filename, dimensions, and replacement contract for Character card artwork.
+status: reference
+---
+
 # Character card image assets
 
 Character pages reference these files directly. Replace an image **in place with the same filename** to update the wiki without editing Markdown or HTML.

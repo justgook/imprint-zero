@@ -29,7 +29,7 @@ OPERATOR never identifies ROOK as captain or grants explicit authority. ROOK ten
 
 ## Stat Tiers
 
-See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat matrix]] for the accepted C11–C13 comparison. The internal budget formula and ability costs remain owned by [[Gameplay/Gameplay Math#internal-specialization-budget|Gameplay Math]].
+See the canonical [[Characters/Overview#specialization-stat-matrix|Specialization Stat matrix]] for the accepted C11–C13 comparison. The internal budget formula and ability costs remain owned by [[Gameplay/Gameplay Math#internal-specialization-budget|Gameplay Math]].
 
 ## Moves and animations
 

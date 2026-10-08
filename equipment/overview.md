@@ -32,7 +32,7 @@ stateDiagram-v2
 - A complete `1/1` Equipment Blueprint follows the same fragment rule; it is not a carried field item and requires no extraction.
 - Completing an Output Blueprint adds its Equipment to the shared stash, but it cannot be equipped until a Hub visit.
 - If its only compatible Specialization is still concealed, the completed unlock persists but remains hidden from ordinary Equipment selection until that Specialization unlocks.
-- An [[CONTEXT#equipment-imprint|Equipment Imprint]] reveals an acquisition source or path; it does not directly place the item in the stash.
+- An [[Imprints/Overview#equipment-and-research-boundary|Equipment Imprint]] reveals an acquisition source or path; it does not directly place the item in the stash.
 - A Specialization's initial three-item set is the exception: it enters the crew stash with that Specialization so the newly unlocked configuration is immediately playable. Later alternatives use Blueprint acquisition.
 
 ## Accepted categories

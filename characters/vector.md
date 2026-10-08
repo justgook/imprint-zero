@@ -35,7 +35,7 @@ She is serious, quiet, observant, and comfortable occupying shadows, high surfac
 
 > **Accepted** — Ghost and Phase are VECTOR's fastest configurations; Hunter trades one Mobility Tier for greater stability at range.
 
-See the canonical [[Playable Crew#specialization-stat-matrix|Specialization Stat matrix]]. [[Gameplay/Gameplay Math|Gameplay Math]] owns tier conversion and the internal Specialization budget.
+See the canonical [[Characters/Overview#specialization-stat-matrix|Specialization Stat matrix]]. [[Gameplay/Gameplay Math|Gameplay Math]] owns tier conversion and the internal Specialization budget.
 
 ## Moves and animations
 
