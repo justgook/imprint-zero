@@ -70,7 +70,7 @@ Test both ROOK and VECTOR with burst damage, repeated hits, and interruption nea
 
 > **TODO — Attack specification:** Choose attacks, ranges, facing, telegraphs, recovery, contact/collision rules, stagger response, and damage under [[Gameplay/Gameplay Math|shared math]]. Do not infer accepted attacks from the provisional gang Enemy roster.
 
-Proposed role: a tough, self-preserving gang leader who uses the room and private supplies to outlast the attacker. Fight pressure must remain legible during each retreat; no adds are currently proposed. Both Characters need ordinary evasion and reachable damage opportunities without their optional-route moves.
+Proposed role: a tough, self-preserving gang leader who uses the room and private supplies to outlast the attacker. Fight pressure must remain legible during each retreat; no adds are currently proposed. Both Characters need ordinary evasion and reachable damage opportunities without Character-specific traversal requirements.
 
 ## Narrative and outcome
 

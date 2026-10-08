@@ -22,6 +22,16 @@ test("M03 draft has correctly indexed communication and content edges", () => {
     }
 })
 
+test("M03 has one shared route without optional branches", () => {
+    assert.match(mission, /Accepted — No optional routes/)
+    assert.equal(graph.split("\n").filter((line) => / --> /.test(line)).length, 6)
+    assert.doesNotMatch(mission, /R03A|R03B|Combat Slide|Wall Run|\+0:45/)
+    assert.doesNotMatch(graph, /optional|Character-only/)
+    for (const asset of ["m03-minimap.svg", "m03-layout.svg"]) {
+        assert.doesNotMatch(read(`images/missions/${asset}`), /R03A|R03B|detour|optional|Wall Run|Combat Slide/i)
+    }
+})
+
 test("M03 embeds dedicated spatial and visual handoffs", () => {
     const assets = [...mission.matchAll(/content\/(images\/missions\/m03-[\w-]+\.svg)/g)]
         .map((match) => match[1])
