@@ -13,7 +13,7 @@ The crew sheets and Mission concepts below are review material, **not** approved
 
 ## Visual references and concepts
 
-Generated candidates added during the M03/M04/M05 passes retain encoded PNG pixels and colour data; embedded text/EXIF chunks are excluded and their absence is checked. Cutscene lettering is illustrative only; gettext remains the text owner.
+Generated candidates added during the M03/M04/M05 and HUB1 passes retain encoded PNG pixels and colour data; embedded text/EXIF chunks are excluded and their absence is checked. Cutscene lettering is illustrative only; gettext remains the text owner.
 
 | ID | Existing visual | Provenance | Review needed | Status |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@ Generated candidates added during the M03/M04/M05 passes retain encoded PNG pixe
 | VIS-48 | [[Cutscenes/CS008#generated-memory-comic-study|CS008 VECTOR memory comic]] | Generated with VECTOR's turnaround, VIS-46 and VIS-42; source `image-KxEXWG`, revised with prior sheet, VECTOR and VIS-42 to replace particle dissolution with relocation/concealment recovery, final source `image-FKuGuv`; `images/cutscenes/cs008-concept.png` | Kunai/claws, visible strike then relocation and camouflage recovery; unidentified armed figure and rescuer versus pursuer ambiguity | Review candidate |
 | VIS-49 | [[Cutscenes/CS009#generated-memory-comic-study|CS009 RAM memory comic]] | Generated with RAM's turnaround, VIS-46 and VIS-43; source `image-liH8ow`; `images/cutscenes/cs009-concept.png` | Physical shield, frontal pressure and grounded breach; last-panel crowd must establish neither welcome nor recoil | Review candidate |
 | VIS-50 | [[Cutscenes/CS010#generated-memory-comic-study|CS010 RELAY memory comic]] | Generated with RELAY's turnaround, VIS-46 and VIS-44; source `image-QJDn7M`; `images/cutscenes/cs010-concept.png` | Existing modules unfold into a temporary frame; mechanism function/outcome hidden, no separate Chassis or ownership proof | Review candidate |
+| VIS-51 | [[Missions/HUB1#visual-reference|HUB1 living interactive-Hub concept]] | Generated with `images/missions/hub0-staging.png` and all four crew turnarounds; source `image-ECjOLj`; `images/missions/hub1-staging-concept.png` | Same physical Hub, four docked Coffins, functional stations, ordinary conversation table and awake-rest seating/no beds; circulation, ambient crew and shared physical/menu access require playable validation | Review candidate |
 
 ## Editable M05 handoff schematics
 
