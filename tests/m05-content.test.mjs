@@ -50,6 +50,44 @@ test("M05 owns finite phase-separated Helix encounters in trial rooms only", () 
     assert.match(source, /No Boss, endless wave, fragile escort or timed defence/)
 })
 
+test("M05 reserves four shared biome archetypes through unlinked Specialization-Mission placeholders", () => {
+    const branches = {
+        C04: ["rook-heavy", "rook-assault"],
+        C06: ["vector-phase", "vector-hunter"],
+        C08: ["ram-siege", "ram-onslaught"],
+        C10: ["relay-network", "relay-null"],
+    }
+    const biomeUses = new Map()
+    for (const [id, imprints] of Object.entries(branches)) {
+        const label = new RegExp(`\\b${id}\\["([^"\\n]+)"\\]`).exec(graph)?.[1]
+        assert.ok(label, `${id} content block exists`)
+        const placeholders = [...label.matchAll(/Exx\[(M[ABCD]\d{2})\]/g)].map((match) => match[1])
+        const expected = imprints.map((name) => {
+            const imprint = readFileSync(new URL(`../imprints/${name}.md`, import.meta.url), "utf8")
+            return /Acquisition placement \| \[\[Missions\/(M[ABCD]\d{2})#/.exec(imprint)[1]
+        })
+        assert.deepEqual(placeholders, expected, "Sources follow the recipient's owning Imprint pages")
+        assert.match(label, /Additional finish enemies: Exx/)
+        assert.doesNotMatch(label, /<a[^>]*>[^<]*Exx|\(\d+\)Exx/)
+        const branchBiomes = placeholders.map((mission) => {
+            const page = readFileSync(new URL(`../missions/${mission.toLowerCase()}.md`, import.meta.url), "utf8")
+            assert.match(page, /^act: 2$/m)
+            const biome = /^biomes: \[(B\d{2})\]$/m.exec(page)[1]
+            biomeUses.set(biome, (biomeUses.get(biome) ?? 0) + 1)
+            return biome
+        })
+        assert.equal(new Set(branchBiomes).size, 2, "No repeated biome within a trial")
+    }
+    assert.deepEqual([...biomeUses].sort(), [["B03", 2], ["B04", 2], ["B05", 2], ["B06", 2]])
+    assert.equal([...graph.matchAll(/Exx\[/g)].length, 8, "Eight placements reference four shared archetypes")
+    assert.match(source, /four additional archetypes total, one per Act II biome/)
+    assert.match(source, /Exx` is not an allocated Enemy ID/)
+    assert.match(source, /no links, quantities, stats or authored attacks yet/)
+    assert.match(source, /same reusable archetype, not separate bots/)
+    assert.match(source, /only the defined Helix placements, not the unquantified Exx additions/)
+    assert.match(source, /without granting the associated Specializations/)
+})
+
 test("M05 styles scene, COM and room-content connectors by their actual edge order", () => {
     const styles = [...graph.matchAll(/linkStyle ([\d,]+) ([^\n]+)/g)]
     assert.equal(edges.length, 36)
