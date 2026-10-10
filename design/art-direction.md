@@ -34,6 +34,7 @@ Compare both M01 variations with [[Missions/M01#mission-visual-reference|M01's e
 | [[Missions/Overview|Mission pages]] | Level-layout or minimap drafts, spatial screenshots, tileset/environment references, encounter staging, and asset handoffs specific to that Mission |
 | [[Characters/Overview|Character pages]] | Character and Specialization silhouettes, animation or equipment concepts, and gameplay-scale captures |
 | [[Enemies/Overview|Enemy pages]] and [[Bosses/Overview|Boss pages]] | Threat readability, telegraphs, states, and encounter-specific concepts |
+| [[Cutscenes/Overview|Cutscene pages]] | Panel studies, Character-variant framing, transition/limited-animation references and scene-specific visual handoffs |
 | [[Production/Asset Registry|Asset registry]] | Provenance and review status of existing visual references and Mission concepts; not a speculative production inventory |
 | This page | The shared visual contract **after** cross-page samples have been compared and approved |
 
