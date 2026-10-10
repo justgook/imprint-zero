@@ -17,9 +17,9 @@ test("working design is usable without blanket approval while outdated material 
 
 test("authored opening Missions, gang and Helix enemies, and crew scenes retain review passes rather than proposal labels", () => {
     const paths = [
-        ...["m01", "m02", "m03", "m04"].map((id) => `missions/${id}.md`),
+        ...["m01", "m02", "m03", "m04", "m05"].map((id) => `missions/${id}.md`),
         ...["e005", "e006", "e007", "e008", "e009", "e010"].map((id) => `enemies/${id}.md`),
-        ...["cs001", "cs002", "cs003", "cs004", "cs005"].map((id) => `cutscenes/${id}.md`),
+        ...["cs001", "cs002", "cs003", "cs004", "cs005", "cs006", "cs007", "cs008", "cs009", "cs010"].map((id) => `cutscenes/${id}.md`),
     ]
     for (const path of paths) {
         const page = read(path)

@@ -46,7 +46,7 @@ These artifacts remain needed but no longer block the sidebar cleanup. Review un
 | Priority | Next artifact | Completion evidence |
 |---:|---|---|
 | 1 | [[Gameplay/Blueprints|Blueprint vertical slice]] | Add one non-starter source archetype with a Machine Blueprint, cross-crew Output Blueprints, an Enemy or Machine Profile loot table, field Discovery Nodes, ordinary non-RELAY drops, and finite Hub research boards. |
-| 2 | [[Missions/M05|M05 Mesh Dive introduction]] | Define four order-independent Overdrive-module boards that teach the shared grammar without Blueprint rewards. |
+| 2 | [[Missions/M05|M05 Mesh Dive introduction]] | Prototype four order-independent boards, physical trial halves and their convergence; validate all 24 orders, memory/activation handoffs and the profile interlock without Blueprint rewards. |
 | 3 | [[Gameplay/Controls|Action and control prototype]] | Validate the abstract Action catalogue, directional resolution, ability slots, and equivalent controller/keyboard mappings before accepting bindings. |
 | 4 | [[Gameplay/Blueprints#presentation|Research Terminal presentation]] | Replace the interface placeholder after the vertical slice proves Profile selection, hidden outputs, fragment feedback, and board replay. |
 

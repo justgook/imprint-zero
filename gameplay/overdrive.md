@@ -51,21 +51,13 @@ Equipment can meaningfully alter a compatible kit without replacing its play sty
 
 > **Accepted** — A new player is not told that Overdrive exists. Characters initially use their available Specializations without access to Overdrive.
 
-Overdrive is first revealed and unlocked for the entire crew by completing [[Missions/M05|The Four Trials]]. It is one global campaign unlock, not a separate progression track for every character.
+Overdrive is first revealed during [[Missions/M05|The Four Trials]]. Its final core validation commits one global campaign unlock for the entire crew, not a separate progression track for every Character. Earlier trial activation is local to the current challenge and does not enable Overdrive in HUB0 after a failed run.
 
-During that Mission:
+[[Missions/M05#parallel-events-and-control-handoff|M05]] owns the physical whole-crew deployment, four order-flexible branches, scripted control transfers and memory-at-convergence delivery. RELAY remains the primary controlled Character; her own branch has no parallel Character handoff. The recovered capability is used only after the ordinary-kit opening and memory, not throughout the whole trial.
 
-- [[Characters/Relay|RELAY]] is the primary deployed Character;
-- the facility branches into character-specific activation rooms that the player may approach in any order;
-- the Systems Specialist becomes immobile while operating each room;
-- control transfers temporarily to the relevant crew member;
-- that crew member completes a focused scenario with unlimited Overdrive;
-- the scenario teaches how that character's default Specialization transforms;
-- control then returns to the Systems Specialist.
+Completing the Mission permanently unlocks Overdrive for the crew. Every Specialization acquired after this reveal includes its own Overdrive by default. A Specialization acquired before the reveal gains its Overdrive when the global system is unlocked.
 
-Completing the Mission unlocks Overdrive for the crew. Every Specialization acquired after this reveal includes its own Overdrive by default. A Specialization acquired before the reveal gains its Overdrive when the global system is unlocked.
-
-The Four Trials is a scripted exception to the ordinary one-character-per-deployment rule. It does not establish free character switching or companion AI as general mechanics.
+The Four Trials is the sole physical whole-crew deployment and scripted-control exception to the ordinary one-character-per-deployment rule. It does not establish free character switching or companion AI as general mechanics.
 
 ## Overdrive behavior
 

@@ -29,7 +29,7 @@ Replay value should come from:
 
 > **Accepted** — Each of four Characters has three Hub-selected Specializations. A Character becomes available with a default Specialization; two additional Specializations unlock through later campaign play. Selecting a Specialization changes normal stats, skills, weapon and armour compatibility, and play style for the entire Mission.
 
-> **Accepted** — Overdrive remains concealed at the start of the campaign. [[Missions/M05|The Four Trials]] later reveals and unlocks it once for the entire crew through four character-specific trials. After that global reveal, every unlocked Specialization has its unique Overdrive, and newly acquired Specializations include theirs without another Overdrive-specific unlock.
+> **Accepted** — Overdrive remains concealed at the start of the campaign. [[Missions/M05|The Four Trials]] later reveals it through four Character-specific trials and commits its one collective unlock at final core validation. After that global reveal, every unlocked Specialization has its unique Overdrive, and newly acquired Specializations include theirs without another Overdrive-specific unlock.
 
 The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
 
@@ -41,7 +41,7 @@ Visual design, silhouette, carried equipment, and animation should imply the bro
 
 ## Mission compatibility
 
-> **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. Completed M01–M04 Missions are one-way campaign steps and cannot be revisited during that playthrough. M01 begins with one Character, later Missions expand the available roster, M04 features its required new Character, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
+> **Accepted** — M01–M05 form a controlled crew introduction and may restrict or switch the playable Character. Completed M01–M04 Missions are one-way campaign steps and cannot be revisited during that playthrough. M01 begins with one Character, later Missions expand the available roster, M04 deploys RAM to recover RELAY, and M05 deliberately breaks the normal deployment rule by switching across the full crew.
 
 > **Accepted** — From HUB1 onward, every Mission's critical path is completable by every Character and unlocked Specialization. Character-owned signature verbs may gate only optional routes, shortcuts, Imprints, Specializations, equipment access, and other rewards. Every Specialization of that Character retains the route-access verb. Blocked optional routes communicate through consistent physical geometry and environmental visual cues, not text or indicators naming a different required Character. The player discovers which Character-owned move fits the obstacle. During the B01–B02 tutorial only, navigation prompts may teach the deployed Character's own applicable move; they never present requirements unrelated to that Character or reveal route contents. After the tutorial biomes, route access relies on learned moves and environmental readability, without move-instruction text or required-Character indicators.
 

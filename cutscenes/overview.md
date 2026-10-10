@@ -13,6 +13,11 @@ status: in-progress
 | [[Cutscenes/CS002|CS002]] | RAM introduces himself and the RELAY recovery lead | After M03 R07 / extraction; Hub-scene placement may be reorganized later |
 | [[Cutscenes/CS004|CS004]] | RAM meets RELAY in her secured workspace | M04 R06, after physical access opens |
 | [[Cutscenes/CS005|CS005]] | RELAY returns to the assembled crew | After M04 R08 / extraction, during HUB0 arrival; Hub-scene placement may be reorganized later |
+| [[Cutscenes/CS006|CS006]] | RELAY shares a new Helix access path | HUB0 after CS005, before M05 preparation; current duration allocation is post-M04 |
+| [[Cutscenes/CS007|CS007]] | ROOK Overdrive memory | M05 R04 convergence, before the Overdrive finish; branch order is free |
+| [[Cutscenes/CS008|CS008]] | VECTOR Overdrive memory | M05 R06 convergence, before the Overdrive finish; branch order is free |
+| [[Cutscenes/CS009|CS009]] | RAM Overdrive memory | M05 R08 convergence, before the Overdrive finish; branch order is free |
+| [[Cutscenes/CS010|CS010]] | RELAY Overdrive memory | M05 R09 endpoint, before R10; no other Character handoff |
 
 ## Ownership and identity
 
@@ -25,8 +30,8 @@ status: in-progress
 | Boss page | Combat trigger, HP/phase rules, and post-scene encounter state |
 | Gettext catalogue | Approved wording and translations |
 
-A cutscene is not a room, item placement, or radio exchange. [[Wiki Rules?section=mission-room-graphs|Mission room graphs]] owns its distinct graph notation and time accounting. Existing Imprint storyboards are not silently migrated or assigned final rendering treatment by this addition.
+A cutscene is not a room, item placement, or radio exchange. [[Wiki Rules?section=mission-room-graphs|Mission room graphs]] owns its distinct graph notation and time accounting. CS007–CS010 explicitly own the existing Overdrive memory storyboards; [[Imprints/Overdrive|the Imprint catalogue]] retains the narrative payloads. Other Imprint storyboards are not silently migrated.
 
 ## Current presentation direction
 
-CS001, CS002, CS004 and CS005 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.
+CS001–CS010 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.

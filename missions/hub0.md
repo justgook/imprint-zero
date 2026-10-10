@@ -28,6 +28,12 @@ Provide the crew's directed return point during Act I while Characters and deplo
 
 > **Accepted — Scene reference:** [[Cutscenes/CS005|CS005 — RELAY Returns to the Hub]] presents the successful post-M04 arrival. All four stations are occupied; completing or skipping the scene preserves RELAY's registration and leads to preparation, not automatic M05 launch.
 
+## Helix return briefing
+
+> **TODO — Joint-departure staging:** Validate [[Cutscenes/CS006|CS006's briefing]] after CS005 and four separate Capsule departures for M05. Keep preparation playable and concealed-system consoles dormant.
+
+[[Cutscenes/CS006|CS006 — RELAY Finds a Way In]] gives the recovered crew a reason to investigate Helix together: a new Mesh access path responds to patterns compatible with them. Complete/skip preserves the lead without naming or unlocking its contents. M04 currently accounts for this post-extraction scene; do not add its duration again here or in M05. M05 departure is explicit, not automatic; all four Characters depart physically, with RELAY as the primary controlled Character.
+
 ## Progression
 
 - After [[Missions/M01|M01]], ROOK's Coffin returns beside VECTOR's already docked Coffin; two docking stations remain empty.

@@ -11,7 +11,7 @@ const seconds = (value) => {
 }
 
 test("M04 scene identities own presentation with explicit meeting and post-extraction slots", () => {
-    for (const id of ["CS004", "CS005"]) {
+    for (const id of ["CS004", "CS005", "CS006"]) {
         const scene = read(`cutscenes/${id.toLowerCase()}.md`)
         assert.match(scene, new RegExp(`^id: ${id}$`, "m"))
         assert.match(scene, /^type: cutscene$/m)
@@ -27,13 +27,13 @@ test("M04 scene identities own presentation with explicit meeting and post-extra
     }
     assert.match(graph, /R06 --> CS004/)
     assert.match(graph, /R08 -->\|After extraction\| CS005/)
-    assert.match(graph, /linkStyle 7,8 .*stroke-width:1px;/)
+    assert.match(graph, /linkStyle 7,8,9 .*stroke-width:1px;/)
     assert.doesNotMatch(graph, /COM04/)
     assert.match(read("missions/hub0.md"), /Cutscenes\/CS005/)
 })
 
 test("M04 scene targets agree with graph and separate extraction and Hub-sequence totals", () => {
-    const targets = ["CS004", "CS005"].map((id) => {
+    const targets = ["CS004", "CS005", "CS006"].map((id) => {
         const target = Number(/^duration_target_seconds: (\d+)$/m.exec(read(`cutscenes/${id.toLowerCase()}.md`))[1])
         const graphTarget = new RegExp(`${id}\\[\\[[^\\n]*?\\+(\\d+:\\d+) target`).exec(graph)[1]
         assert.equal(seconds(graphTarget), target)
@@ -44,9 +44,9 @@ test("M04 scene targets agree with graph and separate extraction and Hub-sequenc
     })
     const active = seconds(/\*\*Critical-path total\*\* \| \*\*(\d+:\d+)/.exec(mission)[1])
     const extraction = seconds(/\*\*Gameplay \+ cutscene through extraction\*\* \| \*\*(\d+:\d+)/.exec(mission)[1])
-    const sequence = seconds(/\*\*M04 sequence including post-Mission scene\*\* \| \*\*(\d+:\d+)/.exec(mission)[1])
+    const sequence = seconds(/\*\*M04 sequence including post-Mission scenes\*\* \| \*\*(\d+:\d+)/.exec(mission)[1])
     assert.equal(extraction, active + targets[0])
-    assert.equal(sequence, extraction + targets[1])
+    assert.equal(sequence, extraction + targets[1] + targets[2])
 })
 
 test("M04 scene handoffs preserve RAM control, rescue prerequisites and M05 reveals", () => {

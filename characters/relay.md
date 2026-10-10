@@ -286,9 +286,9 @@ The [[NPCs/Old Man|Old Man]] destroyed his communication interface. [[Missions/H
 
 ## Recruitment and Overdrive reveal
 
-RELAY sealed herself inside Helix Foundry while following a clue toward Overdrive and trusted the crew to recover her. RAM reaches her during [[Missions/M04|Production Halt]], after which her Coffin fills the fourth Hub station and Wire becomes selectable.
+RELAY sealed herself inside Helix Foundry while investigating stored patterns connected to the crew and trusted them to recover her. The access lead is presented without naming its concealed contents in [[Cutscenes/CS006|CS006]]. RAM reaches her during [[Missions/M04|Production Halt]], after which her Coffin fills the fourth Hub station and Wire becomes selectable.
 
-RELAY then leads [[Missions/M05|The Four Trials]]. The player deploys primarily as RELAY, chooses the crew activation rooms in any order, and temporarily controls each Character through an unlimited-Overdrive trial.
+RELAY then leads [[Missions/M05|The Four Trials]] as the primary controlled Character of its physical whole-crew deployment. M05 owns the order-flexible Dive/trial handoffs, memory convergence and trial-only Overdrive finish; RELAY's own branch has no parallel Character segment.
 
 ## Presentation requirements
 

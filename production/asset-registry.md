@@ -52,3 +52,17 @@ Generated candidates added during the M03/M04 passes retain encoded PNG pixels a
 | VIS-36 | [[Missions/M04#separate-extraction-style-study|M04 separate-extraction mock]] | Generated with RAM/RELAY turnarounds, existing HUB0 Capsule props and VIS-32; `images/missions/m04-extraction-concept.png` | Exactly two separate Coffins, safe boarding order and RELAY prosthetic silhouette | Review candidate |
 | VIS-37 | [[Cutscenes/CS004#panel-sequence|CS004 workspace comic study]] | Generated with RELAY/RAM turnarounds, VIS-32 and VIS-27 comic treatment; `images/cutscenes/cs004-concept.png` | Active researcher, safe access, biomechanical limbs and no concealed-system UI or baked dialogue | Review candidate |
 | VIS-38 | [[Cutscenes/CS005#panel-sequence|CS005 full-crew Hub comic study]] | Generated with all four Character turnarounds and VIS-27 Hub/format reference, changing to four occupied stations; `images/cutscenes/cs005-concept.png` | Four distinct crew silhouettes, four Capsules/no empty dock, dormant consoles and future localized dialogue | Review candidate |
+
+## Editable M05 handoff schematics
+
+These are authored SVG placeholders, not generated raster concepts, gameplay captures or measured layouts. Scene allocation does not regenerate the four existing memory images.
+
+| Owner | Artifact / production follow-up |
+|---|---|
+| [[Cutscenes/CS006#panel-sequence|CS006]] | New `images/cutscenes/cs006-storyboard.svg`; produce the Hub access briefing, dialogue and timing without revealing the concealed contents. |
+| [[Cutscenes/CS007#panel-sequence|CS007]] | Existing `images/imprints/overdrive-rook-storyboard.svg`; presentation ownership moved from the Imprint catalogue. |
+| [[Cutscenes/CS008#panel-sequence|CS008]] | Existing `images/imprints/overdrive-vector-storyboard.svg`; presentation ownership moved from the Imprint catalogue. |
+| [[Cutscenes/CS009#panel-sequence|CS009]] | Existing `images/imprints/overdrive-ram-storyboard.svg`; presentation ownership moved from the Imprint catalogue. |
+| [[Cutscenes/CS010#panel-sequence|CS010]] | Existing `images/imprints/overdrive-relay-storyboard.svg`; presentation ownership moved from the Imprint catalogue. |
+| [[Missions/M05#mission-layout|M05 spatial handoff]] | New `images/missions/m05-minimap.svg` and `m05-layout.svg`; replace conceptual footprints with measured branch, receiver and rail staging. |
+| [[Missions/M05#gameplay-presentation|M05 presentation handoff]] | New `images/missions/m05-concept.svg`; develop matched Dive/trial cues and memory-to-activation framing. |

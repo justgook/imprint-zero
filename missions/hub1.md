@@ -53,6 +53,10 @@ Coffin stations remain dedicated to Character and Specialization selection. Equi
 
 Both views allow individual evidence review but conceal route logic: no biome Memory Imprint `x/4` counter, Specialization `x/12` counter, true-route checklist, or eligibility indicator appears before a non-true ending report reveals the totals.
 
+## M05 activation handoff
+
+[[Missions/M05#profile-interlock-and-final-activation|M05's final core validation]] commits the collective unlock and reconnects the Research Core. The four personal Coffins return separately into the existing stations; this is a state change, not relocation. Ordinary preparation resumes with functional interfaces and no automatic Act II departure. [[Gameplay/Blueprints#activation|Blueprint activation]] owns the starter-record import; Hub presentation does not grant it again.
+
 ## Progression
 
 HUB1 unlocks after [[Missions/M05|M05]]. Completed Missions remain replayable. After success, the player may continue directly through an authored outgoing route with the current configuration or return here to reconfigure. Main Missions unlock authored same-biome successors; hidden actions in MA01, MB02, MC02, and MD01 can persistently unlock MS01–MS04. Returning adds discovered Special Missions to the Hub pool. Those Missions can unlock another biome's M02 before its M01 is complete; a bypassed M01 remains available. After all four Guardians are defeated, M06 becomes available at the route terminal but does not start automatically. The player may continue Act II until confirming a warning that entry into [[Missions/HUB2|HUB2]] closes B03–B06 and any undiscovered rewards for that campaign. The warning does not reveal hidden Mission, biome Memory Imprint, Specialization, or route totals.

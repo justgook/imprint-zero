@@ -163,6 +163,11 @@
   - [[Cutscenes/CS002|CS002 — RAM Has Another Door to Open]]
   - [[Cutscenes/CS004|CS004 — RAM Reaches RELAY]]
   - [[Cutscenes/CS005|CS005 — RELAY Returns to the Hub]]
+  - [[Cutscenes/CS006|CS006 — RELAY Finds a Way In]]
+  - [[Cutscenes/CS007|CS007 — ROOK Overdrive Memory]]
+  - [[Cutscenes/CS008|CS008 — VECTOR Overdrive Memory]]
+  - [[Cutscenes/CS009|CS009 — RAM Overdrive Memory]]
+  - [[Cutscenes/CS010|CS010 — RELAY Overdrive Memory]]
 
 ## Game Text
 

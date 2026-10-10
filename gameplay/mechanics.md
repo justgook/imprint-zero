@@ -15,7 +15,7 @@ Canonical content pages own character, enemy, weapon, and item specifications. T
 
 > **Accepted** — At the Hub, the player selects one [[Characters/Overview|crew member]], one of that character's unlocked [[Gameplay/Overdrive|Specializations]], and compatible equipment for the deployment. Character and Specialization switching ordinarily occurs only at the Hub after death or voluntary return.
 
-The scripted activation trials inside [[Missions/M05|The Four Trials]] are the sole accepted exception: control temporarily passes from the Systems Specialist to another crew member inside each trial room. This does not permit general mid-Mission switching.
+The physical whole-crew deployment and scripted activation trials inside [[Missions/M05|The Four Trials]] are the sole accepted exception. M05 owns the temporary handoffs from RELAY to each recipient, safe inactive-crew staging and whole-crew return. This does not permit general mid-Mission switching or companion AI.
 
 Each Character and Specialization combination must transform shared verbs through movement, attack geometry, range, risk, defence, resources, or route access. Cosmetic and minor statistical variation are insufficient.
 

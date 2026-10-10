@@ -155,6 +155,12 @@ _Avoid_: Ultimate, generic power-up
 An artifact that pairs lore or a memory scene with an explicit progression result.
 _Avoid_: Passive lore collectible
 
+**Overdrive Imprint**:
+A Character-compatible Memory Imprint pairing an uncertain operational memory with recovery of the default Specialization's concealed Overdrive capability.
+
+**Compatibility Trial**:
+A physical crew-specific Helix scenario coupled to RELAY's Mesh Dive that validates a stored Overdrive Imprint against its recipient.
+
 **Equipment Imprint**:
 A Memory Imprint that reveals access to an equipment source, blueprint, shop item, or crafting path without directly granting the equipment.
 
@@ -282,6 +288,8 @@ _Avoid in institutional UI_: Coffin
 - A **Restoration Station** cannot repair Wire Integrations or Chassis, affect Null cooldowns, or rebuild temporary local units.
 - During **Direct Control**, RELAY does not move autonomously; damage to RELAY ends Direct Control, and RELAY's defeat still fails the Mission.
 - Every **Memory Imprint** pairs narrative evidence with progression.
+- M05's **Compatibility Trials** involve all four physically present Characters; the other crew members' actions overlap RELAY's **Mesh Dives** without making the retrieved memories present-day events.
+- An **Overdrive Imprint** matches one crew recipient; compatibility does not prove memory ownership or biological origin.
 - The four Act II **Biome Memory Imprints** collectively identify the crew voice mappings and order for **BASTION–AZIMUTH–BREACH–ECHO**.
 - All twelve **Specializations** complete the four **Mnemonic Voiceprints** required to enable the Empty Barracks authentication interface.
 - ROOK, VECTOR, RAM, and RELAY respectively speak **Bastion**, **Azimuth**, **Breach**, and **Echo** in the accepted voiceprint sequence.
