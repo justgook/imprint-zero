@@ -60,7 +60,7 @@ test("M03 critical-path planning total matches graph targets", () => {
     assert.equal(targets.reduce((sum, target) => sum + target, 0), seconds(total))
 })
 
-test("M03 gang roster links to provisional actor pages and visual handoffs", () => {
+test("M03 gang roster links to working actor pages and visual handoffs", () => {
     for (const id of ["e005", "e006", "e007"]) {
         assert.ok(graph.includes(`href='#/enemies/${id}'`), id)
         const actor = read(`enemies/${id}.md`)
@@ -69,7 +69,7 @@ test("M03 gang roster links to provisional actor pages and visual handoffs", () 
         assert.ok(read("enemies/overview.md").includes(`Enemies/${id.toUpperCase()}`))
     }
     assert.match(graph, /\(1\)<a href='#\/bosses\/bs001'>BS001<\/a>/)
-    assert.match(mission, /Proposed extermination scope/)
+    assert.match(mission, /Working extermination scope/)
     assert.doesNotMatch(graph, /obsolete unit|enemies\/e003|enemies\/e004/)
 })
 

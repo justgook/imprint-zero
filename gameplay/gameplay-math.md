@@ -37,7 +37,7 @@ The real-time model must preserve readable causality. A hit should not secretly 
 
 ## Input schema
 
-> **TODO — Combat inputs:** Confirm the minimum actor, attack, defence, movement, resource, and effect inputs after choosing the damage and defence model. Do not assign provisional constants merely to complete a table.
+> **TODO — Combat inputs:** Confirm the minimum actor, attack, defence, movement, resource, and effect inputs after choosing the damage and defence model. Do not assign placeholder constants merely to complete a table.
 
 > **Accepted** — Each Specialization supplies canonical `1–5` Integrity, Defense, and Mobility Stat Tiers. Shared equations map those tiers into runtime values; Character pages do not duplicate the resulting calculations.
 

@@ -8,11 +8,11 @@ act: 1
 
 ## Purpose
 
-> **TODO — Hub staging review:** Validate the proposed four-station composition against gameplay scale and the Act I roster progression; the image does not settle the final floor plan or Coffin design.
+> **TODO — Hub staging review:** Validate the working four-station composition against gameplay scale and the Act I roster progression; the image does not settle the final floor plan or Coffin design.
 
 ![HUB0 staging concept with two occupied rail-connected Coffin stations, two empty docks, and dormant Hub consoles](content/images/missions/hub0-staging.png)
 
-Generated previsualization proposal for HUB0 after M01. The two empty stations later receive RAM and RELAY; M05 activates infrastructure in this same space without relocating the crew.
+Generated working previsualization for HUB0 after M01. The two empty stations later receive RAM and RELAY; M05 activates infrastructure in this same space without relocating the crew.
 
 Provide the crew's directed return point during Act I while Characters and deployment options unlock. HUB0 and HUB1 are campaign states of the same physical Hub rather than separate locations. Recovery Capsules—called “Coffins” by the crew—carry Characters into and out of the Hub by rail.
 

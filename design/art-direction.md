@@ -38,7 +38,7 @@ Compare both M01 variations with [[Missions/M01#mission-visual-reference|M01's e
 | [[Production/Asset Registry|Asset registry]] | Provenance and review status of existing visual references and Mission concepts; not a speculative production inventory |
 | This page | The shared visual contract **after** cross-page samples have been compared and approved |
 
-Images on older pages, including generated storyboard drafts and E001/E002 concepts, are provisional evidence rather than an approved art target. Narrative beats accepted on those pages do not approve their rendering style.
+Images on older pages, including generated storyboard drafts and E001/E002 concepts, are working visual references rather than final production assets. Narrative beats accepted on those pages do not approve their rendering style.
 
 ## Review gate
 

@@ -82,7 +82,7 @@ _Avoid_: Summon, pet
 Network RELAY's control state in which the player operates one Controlled Unit while RELAY remains stationary and vulnerable.
 
 **Command Capacity**:
-Network RELAY's provisional five-point budget for active Controlled Units.
+Network RELAY's working five-point budget for active Controlled Units.
 
 **Command Cost**:
 The portion of Command Capacity occupied by one Controlled Unit.
@@ -112,7 +112,7 @@ A permanently learned Null skill that applies one reusable Destructive Hack to c
 Null's immediate application of a Hack Program when the required effect endpoint falls below its Execution Threshold; Access requirements remain unchanged.
 
 **Execution Threshold**:
-The provisional board-complexity boundary below which Null may skip Mesh Dive for the required effect. Optional Discovery Nodes do not increase this complexity.
+The working board-complexity boundary below which Null may skip Mesh Dive for the required effect. Optional Discovery Nodes do not increase this complexity.
 
 **Hack Module**:
 Null-compatible Equipment that modifies field combat Mesh Dives or Program Execution without affecting safe route hacks or Research Terminal boards.
@@ -271,7 +271,7 @@ _Avoid in institutional UI_: Coffin
 - Intact Network extraction completes the source's **Machine Blueprint**; damaged surviving extraction grants a condition-based subset of at least one fragment, destruction prevents extraction, and no condition grants linked Output Blueprints.
 - Multiple Machine Profiles may reference the same **Integrated Module**, **Hack Program**, Equipment item, or other output, while ineligible source machines may have no Network expression.
 - Controlled Units, Integrated Modules, Chassis Integrations, and Hack Programs remain RELAY-owned outputs; `EQ###` Equipment unlocked through the same Blueprint system belongs to the shared crew stash.
-- Null may use **Program Execution** when a board has one required endpoint below the provisional **Execution Threshold**; Hack Modules may modify field thresholds and board constraints but never safe route or Research Terminal boards; incomplete Discovery Nodes preserve an optional Mesh Dive, while completed nodes cause the redundant Dive to disappear.
+- Null may use **Program Execution** when a board has one required endpoint below the working **Execution Threshold**; Hack Modules may modify field thresholds and board constraints but never safe route or Research Terminal boards; incomplete Discovery Nodes preserve an optional Mesh Dive, while completed nodes cause the redundant Dive to disappear.
 - Null's three equipped **Hack Programs** have independent cooldowns; one System Target may carry only one active Destructive Hack, and a consumed target cannot be hacked again.
 - A Network loadout may combine any Controlled Units whose total **Command Cost** does not exceed RELAY's **Command Capacity**; completed control-compatible Machine Blueprints permit repeated instances unless a unique profile explicitly imposes a one-copy limit.
 - Controlled Units cannot execute orders or remain under **Direct Control** beyond RELAY's **Command Range**.

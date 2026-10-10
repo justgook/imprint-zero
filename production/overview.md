@@ -9,7 +9,7 @@ status: in-progress
 
 > **In progress** — The first internal One Pager is established. Refine [[Missions/M01|M01's residential-tower route]] as the initial Mission production model, then validate ROOK, its required threats, camera, and encounter sequence through play. A later Mission should exercise optional paths, Imprints, and broader roster compatibility.
 
-Production schedules and content budgets remain provisional until authored Mission work defines the actual scope.
+Production schedules and content budgets are working estimates; refine them as authored Mission work establishes scope.
 
 ## Accepted boundaries
 
@@ -26,7 +26,7 @@ See [[Production/Open Questions|Open questions]] for the ordered queue. The next
 
 > **TODO — Milestones:** Define milestones after M01 and a later, more complex Mission establish a credible vertical-slice target.
 
-- [[Production/Scope|Scope and non-goals]] records boundaries and the provisional release shape.
+- [[Production/Scope|Scope and non-goals]] records boundaries and the working release shape.
 - [[Production/References|References]] records principles adapted from external works.
 
 Detailed tasks and transient work status belong in the issue tracker, not this living design document.

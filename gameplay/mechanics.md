@@ -75,7 +75,7 @@ Aiming alone does not move the baseline camera. Explicit Equipment such as [[Equ
 
 ## Damage and integrity
 
-> **Accepted** — The baseline uses a small segmented integrity bar, provisionally five segments. Standard attacks remove one; heavy hazards may remove two. Ordinary threats do not cause one-hit deaths.
+> **Accepted** — The baseline uses a small segmented integrity bar, with five segments as the starting tuning value. Standard attacks remove one; heavy hazards may remove two. Ordinary threats do not cause one-hit deaths.
 
 Damage produces immediate visual/audio feedback, a brief hit reaction, and short post-hit invulnerability. Exact values remain tunable.
 
@@ -93,7 +93,7 @@ Every RELAY Specialization sees a coarse Access meter and its minimum activation
 
 Compatible resistant targets display an Access meter. Compatible primary-weapon hits and explicit unit, integration, control, or environmental effects build Access; stunning or disabling a compatible standard target may grant maximum Access immediately. After reaching minimum Access, the player may begin hacking or continue building toward the maximum for a larger move budget. Access waits through a short interruption and then decays gradually. Starting the minigame consumes the accumulated value, Access freezes while that paused interface is active, and failure leaves the target with none.
 
-For accumulated Access $A \ge A_{min}$, the move budget uses the provisional relationship:
+For accumulated Access $A \ge A_{min}$, the move budget uses the working relationship:
 
 $$
 M(A) = \operatorname{clamp}\left(M_{min} + \left\lfloor\frac{A-A_{min}}{A_{step}}\right\rfloor,\ M_{min},\ M_{max}\right)
@@ -114,7 +114,7 @@ Access applies only to combat System Targets. Safe route locks and authored mach
 
 > **Accepted** — Null converts sufficiently simple Hack endpoints into immediate **Program Execution** without changing their Access requirement.
 
-A provisional base Execution Threshold treats a board as simple when its required effect has one endpoint and an optimal solution under `10` moves. Null-compatible Hack Modules may raise the field threshold, add combat-board moves, extend connection range, delay Access decay, expose board information, or reduce authored corrupted-node penalties. Exact base and modifier values require prototypes.
+The starting base Execution Threshold treats a board as simple when its required effect has one endpoint and an optimal solution under `10` moves. Null-compatible Hack Modules may raise the field threshold, add combat-board moves, extend connection range, delay Access decay, expose board information, or reduce authored corrupted-node penalties. Exact base and modifier values require prototypes.
 
 | Board state | Null result |
 |---|---|

@@ -9,15 +9,15 @@ This page contains questions, not design truth. When a question is resolved, upd
 
 ## Current continuation
 
-> **TODO — Next page:** Refine [[Missions/M01|M01 — Cold Deployment]] from its residential-tower structure before populating Enemy and Boss catalogues. E001/E002 are provisional M01 enemy candidates, not accepted behaviour or Machine Profiles; add research profiles only if later Mission use justifies persistent outputs. Machine Profiles and Equipment retain their independent accepted baselines. The former art prescription is retired; visual direction will be derived from Mission, Character, and Enemy samples. A later Mission must test the full page structure for bosses, Imprints, optional paths, dialogue, and production assets. Imprint scene production and staging remain in the cutscene backlog. Keep accepted rules on canonical pages; do not restore the retired freight-terminal wiki test.
+> **TODO — Mission follow-up:** M01–M04 have working routes and handoffs; their remaining tasks are refinement, missing content and production validation, not blanket acceptance of their design. Reconcile E001/E002 specifications with [[Missions/M01|M01]], validate authored encounters and spatial layouts, and write missing dialogue on its owners. Continue later Mission documentation without waiting for every earlier blockout or playtest. Machine Profiles and Equipment retain their own baselines; add research profiles only when Mission use justifies persistent outputs. Imprint scene production remains in the cutscene backlog. Do not restore the retired freight-terminal wiki test.
 
 The latest cleanup sequence covered vision, Missions, Biomes, NPCs, and crew definitions, with Machine Profiles and research added during RELAY work. The Imprints alignment pass is complete for accepted premises and ownership, not for scene production or unresolved equipment Imprints. The cleanup now follows **Missions** as the source of encounter needs rather than populating Enemy and Boss indexes ahead of Missions. `imprints/overview.md` links to M07's accepted rules and distinguishes planned entries from fully produced content.
 
 | Cleanup order | Section | Completion evidence |
 |---:|---|---|
-| 1 | [[Missions/M01|M01]] | The graph now owns room order, E001/E002 provisional placements, and dialogue links; refine enemy roles/counts, room timing, and spatial map, expanded layout, and gameplay concept with level and visual designers. |
-| 2 | Later Mission (to select) | Validate the Mission page pattern with a boss or miniboss, Imprint, optional path, drops, and production links. |
-| 3 | [[Enemies/Overview|Enemies]] and [[Bosses/Overview|Bosses]] | Populate only from accepted Mission needs; preserve approved narrative boundaries. |
+| 1 | [[Missions/M01|M01]] | The graph now owns room order, E001/E002 working placements, and dialogue links; refine enemy roles/counts, room timing, and spatial map, expanded layout, and gameplay concept with level and visual designers. |
+| 2 | Later Mission features | Use M02's optional access and M03's Boss as working structural references; extend the pattern for later Imprints, drops and production links. |
+| 3 | [[Enemies/Overview|Enemies]] and [[Bosses/Overview|Bosses]] | Populate from working Mission needs; preserve established narrative boundaries. |
 | 4 | [[Equipment/Overview|Equipment]] and [[Machine Profiles/Overview|Machine Profiles]] | Align cross-links with Mission placements without discarding their accepted baselines. |
 
 ## Cutscene storyboard backlog
@@ -50,7 +50,7 @@ These artifacts remain needed but no longer block the sidebar cleanup. Review un
 | 3 | [[Gameplay/Controls|Action and control prototype]] | Validate the abstract Action catalogue, directional resolution, ability slots, and equivalent controller/keyboard mappings before accepting bindings. |
 | 4 | [[Gameplay/Blueprints#presentation|Research Terminal presentation]] | Replace the interface placeholder after the vertical slice proves Profile selection, hidden outputs, fragment feedback, and board replay. |
 
-Keep Equipment Capacity, exact Blueprint drop rates, fragment requirements, Network extraction condition bands, Access values, and Hack Module limits provisional until the vertical slice is playable.
+Use documented Equipment Capacity, Blueprint drop rates, fragment requirements, Network extraction condition bands, Access values and Hack Module limits as starting tuning values. Author missing values explicitly and revise them through vertical-slice playtesting; do not treat unmeasured values as final balance.
 
 ## One Pager status
 
@@ -104,7 +104,7 @@ These remain important but should not interrupt the Mission-led content pass:
 - **Baseline camera:** smooth side-follow with dead zones, gradual movement-based look-ahead, vertical bias, authored bounds, backward support, and no forced scrolling.
 - **Baseline movement:** one digital run speed, quick acceleration, immediate or near-immediate reversal, no walk, sprint, or stamina state.
 - **Baseline jump:** one variable-height jump, moderate air control, faster fall, short coyote time and input buffering; no double jump, wall jump, ledge grab, or air dash.
-- **Baseline health:** provisional five-segment integrity; standard attacks remove one, heavy hazards may remove two, and ordinary threats do not one-hit kill.
+- **Baseline health:** working five-segment integrity; standard attacks remove one, heavy hazards may remove two, and ordinary threats do not one-hit kill.
 - **Baseline rifle ammunition:** unlimited, with no reload or heat mechanic; special weapons may introduce resource constraints later.
 - **Baseline rifle cadence:** continuous medium-cadence fire while [[Gameplay/Actions#directional-attack|Directional Attack]] remains active; withdrawing attack intent stops fire immediately.
 - **Attack direction and controls:** exact directional resolution and physical mappings remain unresolved; [[Gameplay/Actions|Actions]] owns intent and [[Gameplay/Controls|Controls]] owns device mappings.

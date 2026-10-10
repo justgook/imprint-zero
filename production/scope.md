@@ -41,6 +41,6 @@ status: in-progress
 
 ## Missing production limits
 
-> **TODO — Content budgets:** Set provisional budgets for characters, locations, bosses, enemies, abilities, weapons, narrative, animation, music, and effects after M01 and a later feature-rich Mission are scoped and validated.
+> **TODO — Content budgets:** Set working budgets for characters, locations, bosses, enemies, abilities, weapons, narrative, animation, music, and effects after M01 and a later feature-rich Mission are scoped and validated.
 
 > **Needs example** — Define one “release-complete” route through a single location to establish the expected density of combat, traversal, discovery, and presentation.

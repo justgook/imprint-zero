@@ -52,13 +52,13 @@ test("M04 machine profiles consume the same source-body images without replacing
     }
 })
 
-test("M04 generated scenes remain candidates and retain unapproved dialogue and gameplay boundaries", () => {
+test("M04 generated scenes remain visual references and retain missing-dialogue and gameplay boundaries", () => {
     const mission = read("missions/m04.md")
     assert.match(mission, /generated mock screenshots, not build captures/)
     assert.match(mission, /introductory shield\/gauntlet kit/)
     assert.match(mission, /No Boss, endless wave/)
-    assert.match(read("cutscenes/cs004.md"), /No exact CS004 dialogue is approved yet/)
-    assert.match(read("cutscenes/cs005.md"), /No exact CS005 dialogue is approved yet/)
+    assert.match(read("cutscenes/cs004.md"), /Exact CS004 dialogue is not authored yet/)
+    assert.match(read("cutscenes/cs005.md"), /Exact CS005 dialogue is not authored yet/)
     assert.match(read("cutscenes/cs005.md"), /four Capsules in four stations, with no empty dock/)
     assert.match(mission, /Exactly two Capsules are shown/)
 })

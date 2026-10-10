@@ -51,7 +51,7 @@ Every configured catalogue must contain every stable ID, and English must provid
 
 ### Development fallback
 
-Add new stable IDs to every configured locale, leaving non-English `msgstr ""` until translated. The wiki displays `[missing translation]` for empty values; blanks must not be mistaken for completed localization. M02 uses this convention. Older ID-valued fallbacks remain development placeholders, not completed translations; do not add new ones or copy provisional English into non-English catalogues.
+Add new stable IDs to every configured locale, leaving non-English `msgstr ""` until translated. The wiki displays `[missing translation]` for empty values; blanks must not be mistaken for completed localization. M02 uses this convention. Older ID-valued fallbacks remain development placeholders, not completed translations; do not add new ones or copy draft English into non-English catalogues.
 
 ## Locales
 

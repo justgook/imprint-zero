@@ -15,18 +15,22 @@ Every newly authored or updated page must be checked against these rules before 
 
 ## Page statuses and review passes
 
-> **Accepted** — Page status describes the reliability and review maturity of the **whole page**, not every statement inside it. Section markers distinguish already accepted decisions from provisional details. A page does not advance because it gained an illustration or a TODO list; it advances when the work required by that pass has been reviewed.
+> **Accepted** — Documented design is the **current working version**, usable as the baseline for subsequent documentation, blockouts and implementation. Work in progress is not an approval queue. This does not rehabilitate `outdated` material or decide an open alternative. Revise the baseline when design work or production evidence changes it; do not label every unfinished detail a proposal.
+
+Page status records the reliability and review maturity of the **whole page**, not permission to use every statement. Keep `stage-1`, `stage-2` and `stage-3` as review-pass metadata; they all describe working versions. `accepted` records explicit confirmation, not a prerequisite for continuing work. An illustration or TODO list does not by itself complete a review pass.
+
+Use **Working version** for authored routes, behaviours, staging and current design choices. Use **target** or **starting tuning value** for numbers not yet measured or balanced. Keep specific TODOs for missing content, unresolved choices, contradictions and validation tasks. A TODO should name the work still needed, not require blanket approval of an already documented baseline. Reserve **proposal** for a genuine alternative not incorporated into the working design; identify the baseline it would replace. Concept art remains a visual reference, not evidence of a playable build or measured geometry.
 
 | Status | Meaning | Use / next gate |
 |---|---|---|
 | `outdated` | Known to contradict current direction; not safe to build from as a whole. | Reconcile against owning pages, preserving valid decisions, then assign the appropriate current status. Do not infer that every statement is false. |
-| `todo` | Needed, but no usable page structure has been reviewed yet. | Establish the page's purpose, ownership, and overall structure. |
-| `stage-1` | First pass: overall structure reconciled with current direction. Details and samples may be provisional. | For Missions, outline route, required beats, optional access, and timing/layout/visual handoffs; flag unknown placements and assumptions. |
+| `todo` | Needed, but no usable page structure has been authored yet. | Establish the page's purpose, ownership, and overall structure. |
+| `stage-1` | First working pass: overall structure reconciled with current direction; details and samples are the current baseline, subject to refinement. | For Missions, outline route, required beats, optional access, and timing/layout/visual handoffs; flag unknown placements and assumptions. |
 | `stage-2` | Second pass: page refined against its dependencies, with concrete content and decisions reviewed. | For Missions, validate room sequence, encounters, dialogue, rewards, route constraints, and timings as design targets. Remaining unknowns stay explicit. |
 | `stage-3` | Third pass: page reconciled with production evidence after work has begun. | For Missions, review playable layout, measured times, art/room renders, and implementation differences. Production evidence is necessary; concept art alone is not enough. |
 | `accepted` | Current page-wide decisions are approved within its stated scope, with no known contradictions. | Does not mean immutable or production-complete. Reclassify if the page becomes known to conflict with current direction. |
 | `reference` | Current, stable authoring or supporting material rather than a Mission review pass. | Update when the rules or supporting material change. |
-| `in-progress` | Useful current direction with unresolved parts, for pages not yet migrated to a staged workflow. | Keep for non-Mission pages until reviewed; do not use it as an ambiguous substitute for a Mission's known pass. |
+| `in-progress` | Current working version with unresolved parts, for pages not yet migrated to a staged workflow. | Keep for non-Mission pages until reviewed; do not use it as an ambiguous substitute for a Mission's known pass. |
 
 The three stages record **passes, not tiers of quality or approval**. Accepted section-level decisions can appear on a `stage-1` page. A `stage-3` Mission may still have explicit TODOs and is not automatically `accepted`. Mark known contradictory pages `outdated` instead of treating incompleteness as staleness. Change status only after checking the page against its current owners; do not mass-promote or mass-mark pages without review.
 
@@ -110,7 +114,7 @@ Give communication nodes rounded shapes and **heavy dotted** connectors, distinc
 
 **Cutscene blocks:** Use a double-bordered Mermaid node (`CS001[["🎬 CS001 · Scene name<br/>+0:30 target · pauses play"]]`) and a thin **solid** connector, distinct from dialogue dots and room-content dashes. Link the whole block to its canonical `cutscenes/cs001.md` page. Cutscenes use stable `CS###` IDs and their own sidebar section; they are not rooms, pickups, or duplicate COM exchanges for speech within the scene. Put an in-room scene beside its triggering room; put a post-Mission scene after the last room with an explicit **After extraction** edge label. Neither creates a traversable branch.
 
-Scene pages own duration targets, presentation, variants, and text links. Missions own placement and local timing consequences; Boss pages own combat conditions. Graph labels show the current provisional unskipped scene target and pause behaviour. Keep active-room time separate from paused cutscene time, add each scene once, and distinguish extraction totals from post-Mission sequence totals. Sound lead-ins and background animation that overlap live gameplay add no separate time. State whether durations are targets or measured; record reading/loading/transition overhead separately. Watched and skipped playback must commit the same handoff state.
+Scene pages own duration targets, presentation, variants, and text links. Missions own placement and local timing consequences; Boss pages own combat conditions. Graph labels show the current unskipped scene-duration target and pause behaviour. Keep active-room time separate from paused cutscene time, add each scene once, and distinguish extraction totals from post-Mission sequence totals. Sound lead-ins and background animation that overlap live gameplay add no separate time. State whether durations are targets or measured; record reading/loading/transition overhead separately. Watched and skipped playback must commit the same handoff state.
 
 Syntax example only — neither the pickup nor scene below is an authored placement in the example rooms:
 
