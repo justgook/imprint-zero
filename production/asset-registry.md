@@ -13,6 +13,8 @@ The crew sheets and Mission concepts below are review material, **not** approved
 
 ## Visual references and concepts
 
+Generated candidates added during the M03 pass retain encoded PNG pixels and colour data; embedded text/EXIF metadata is removed. Cutscene lettering is illustrative only; gettext remains the text owner.
+
 | ID | Existing visual | Provenance | Review needed | Status |
 |---|---|---|---|---|
 | VIS-01 | [[Characters/Rook#appearance|ROOK crew sheet and turnaround]] | User-refined crew sheet already in wiki; modelling reference imported from `InprintZero/modeling/model ROOK.png` | C11 gameplay silhouette and motion; M01 likeness | Reference candidate |
@@ -30,3 +32,9 @@ The crew sheets and Mission concepts below are review material, **not** approved
 | VIS-16 | [[Missions/M02#ashfall-hospital-style-study|M02 Ashfall hospital style study]] | Initially generated with VIS-15/VIS-13 style, VIS-11 setting, and `images/characters/references/vector-turnaround.png` for VECTOR; revised using the prior study, VIS-15, and VECTOR's preferred turnaround to improve likeness, replace the broken edge with windows, and stage a Coffin; PNG metadata removed | Compare VECTOR, Coffin staging, windowed hospital and spatial feasibility against reviewed M02 route; depicted arrival and upper floor are not approved placements | Review candidate |
 | VIS-17 | [[Enemies/E003#visual-identity|E003 Containment Sentry concept]] | Generated from E003's reviewed brief with VIS-16 as material/lighting reference; stored at `images/enemies/e003.png`, PNG ancillary metadata removed without changing pixels | Review horizontal barrel, targeting lamp, exposed-head readability and mount adaptations at M02 scale; not a production sprite | Review candidate |
 | VIS-18 | [[Enemies/E004#visual-identity|E004 Containment Patrol concept]] | Generated from E004's reviewed brief with VIS-16 as material/lighting reference; stored at `images/enemies/e004.png`, PNG ancillary metadata removed without changing pixels | Review low wheeled silhouette, proportions and blunt melee-arm readability at M02 scale; not a production sprite | Review candidate |
+| VIS-19 | [[Enemies/E005#visual-identity|M03 Toll Collector]] | Generated from E005's role with VIS-16 for material context; `images/enemies/e005.png` | Gun tell, reload, light human silhouette | Review candidate |
+| VIS-20 | [[Enemies/E006#visual-identity|M03 Freight Hookhand]] | Generated from E006's role with VIS-19/VIS-16; `images/enemies/e006.png` | Hook wind-up/recovery, distinct likeness and lean close-pressure silhouette | Review candidate |
+| VIS-21 | [[Enemies/E007#visual-identity|M03 Gate Enforcer]] | Generated from E007's role with VIS-19 and RAM's turnaround as a nonmatching scale contrast; `images/enemies/e007.png` | Shield opening, human scale and differentiation from RAM | Review candidate |
+| VIS-22 | [[Bosses/BS001#visual-and-audio-handoff|M03 Switch]] | Generated from Switch's role with VIS-19/VIS-16; `images/bosses/bs001.png` | Distinct leader likeness, retreat and fixed recovery station | Review candidate |
+| VIS-23 | [[Missions/M03#freight-floor-style-study|M03 freight-floor study]] | Generated with VIS-12, ROOK's turnaround, VIS-19 and VIS-20; `images/missions/m03-freight-floor-concept.png` | Gameplay-scale threats, freight cover and occupation; pictured count is a sample | Review candidate |
+| VIS-24 | [[Missions/M03#boss-arena-style-study|M03 Boss-arena study]] | Generated with VIS-12, ROOK's turnaround and VIS-22; `images/missions/m03-boss-arena-concept.png` | Intact lower-right station/interlock, retreat distance and pre-RAM staging; not approved geometry | Review candidate |
