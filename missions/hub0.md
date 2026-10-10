@@ -22,6 +22,12 @@ Provide the crew's directed return point during Act I while Characters and deplo
 
 > **Accepted — Scene reference:** Play [[Cutscenes/CS003|CS003 — VECTOR Introduces Herself]] on the first return after M01, before M02 selection. For now M01's graph displays this after its final room/extraction; later Hub-scene organization can move that reference without duplicating the scene or its time.
 
+## RELAY arrival scene
+
+> **TODO — Fourth-station scene handoff:** Review docking, crew framing and the transition to ordinary preparation against [[Cutscenes/CS005|CS005]]. M04's graph currently keeps the reference after its final room/extraction; reorganizing Hub scenes must not duplicate its time or script.
+
+> **Accepted — Scene reference:** [[Cutscenes/CS005|CS005 — RELAY Returns to the Hub]] presents the successful post-M04 arrival. All four stations are occupied; completing or skipping the scene preserves RELAY's registration and leads to preparation, not automatic M05 launch.
+
 ## Progression
 
 - After [[Missions/M01|M01]], ROOK's Coffin returns beside VECTOR's already docked Coffin; two docking stations remain empty.

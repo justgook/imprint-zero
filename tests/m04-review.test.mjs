@@ -25,18 +25,18 @@ test("M04 route and graph connector indices preserve distinct content and commun
     assert.ok(graph)
     assert.equal(graph.split("\n").filter((line) => / --> R0\d(?:\[|$)/.test(line)).length, 7)
     const edges = graph.split("\n").filter((line) => / -->| -\.- /.test(line))
-    assert.equal(edges.filter((line) => /-\.- COM\d+/.test(line)).length, 5)
+    assert.equal(edges.filter((line) => /-\.- COM\d+/.test(line)).length, 4)
     assert.equal(edges.filter((line) => /-\.- C\d+/.test(line)).length, 4)
     for (const match of graph.matchAll(/linkStyle ([\d,]+) .*stroke-width:(\d+)px/g)) {
         for (const index of match[1].split(",").map(Number)) {
             assert.ok(edges[index], `edge ${index}`)
-            assert.match(edges[index], match[2] === "12" ? /-\.- COM\d+/ : /-\.- C\d+/)
+            assert.match(edges[index], match[2] === "12" ? /-\.- COM\d+/ : match[2] === "1" ? / -->.*CS\d+/ : /-\.- C\d+/)
         }
     }
     for (const match of graph.matchAll(/href='#\/([^']+)'/g)) {
         assert.ok(existsSync(new URL(`../${match[1]}.md`, import.meta.url)), match[1])
     }
-    assert.doesNotMatch(graph, /bosses\/|CS\d+|R0\d[A-Z]/)
+    assert.doesNotMatch(graph, /bosses\/|R0\d[A-Z]/)
 })
 
 test("M04 planning targets agree between graph, room schedule and total", () => {
@@ -47,7 +47,7 @@ test("M04 planning targets agree between graph, room schedule and total", () => 
         .map((match) => seconds(match[1]))
     assert.deepEqual(targets, rows)
     assert.equal(targets.reduce((sum, target) => sum + target, 0), seconds(/\*\*Critical-path total\*\* \| \*\*(\d+:\d+)\*\*/.exec(mission)[1]))
-    assert.match(mission, /No paused-scene duration is assigned yet/)
+    assert.match(mission, /Room targets exclude paused scene playback/)
 })
 
 test("M04 hostile machine owners link to existing research without duplicating starter rewards", () => {

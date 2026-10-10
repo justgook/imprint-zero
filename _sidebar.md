@@ -161,6 +161,8 @@
   - [[Cutscenes/CS003|CS003 — VECTOR Introduces Herself]]
   - [[Cutscenes/CS001|CS001 — Door Was Taking Too Long]]
   - [[Cutscenes/CS002|CS002 — RAM Has Another Door to Open]]
+  - [[Cutscenes/CS004|CS004 — RAM Reaches RELAY]]
+  - [[Cutscenes/CS005|CS005 — RELAY Returns to the Hub]]
 
 ## Game Text
 

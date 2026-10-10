@@ -11,6 +11,8 @@ status: in-progress
 | [[Cutscenes/CS003|CS003]] | VECTOR introduces herself to ROOK | After M01 extraction / first HUB0 arrival; before CS001/CS002 in story order |
 | [[Cutscenes/CS001|CS001]] | RAM breaches the healing station | M03 R05, during the Boss encounter |
 | [[Cutscenes/CS002|CS002]] | RAM introduces himself and the RELAY recovery lead | After M03 R07 / extraction; Hub-scene placement may be reorganized later |
+| [[Cutscenes/CS004|CS004]] | RAM meets RELAY in her secured workspace | M04 R06, after physical access opens |
+| [[Cutscenes/CS005|CS005]] | RELAY returns to the assembled crew | After M04 R08 / extraction, during HUB0 arrival; Hub-scene placement may be reorganized later |
 
 ## Ownership and identity
 
@@ -27,4 +29,4 @@ A cutscene is not a room, item placement, or radio exchange. [[Wiki Rules?sectio
 
 ## Current presentation direction
 
-CS001 and CS002 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.
+CS001, CS002, CS004 and CS005 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.
