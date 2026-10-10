@@ -12,9 +12,13 @@ const candidates = [
     ["images/missions/m05-relay-trial-concept.png", "missions/m05.md", "VIS-44"],
     ["images/missions/m05-validation-core-concept.png", "missions/m05.md", "VIS-45"],
     ["images/cutscenes/cs006-concept.png", "cutscenes/cs006.md", "VIS-46"],
+    ["images/cutscenes/cs007-concept.png", "cutscenes/cs007.md", "VIS-47"],
+    ["images/cutscenes/cs008-concept.png", "cutscenes/cs008.md", "VIS-48"],
+    ["images/cutscenes/cs009-concept.png", "cutscenes/cs009.md", "VIS-49"],
+    ["images/cutscenes/cs010-concept.png", "cutscenes/cs010.md", "VIS-50"],
 ]
 
-test("M05's eight generated references are linked real PNGs with provenance and no text/EXIF chunks", () => {
+test("M05 and its memory-scene references are linked real PNGs with provenance and no text/EXIF chunks", () => {
     const registry = read("production/asset-registry.md")
     for (const [asset, owner, id] of candidates) {
         assert.ok(read(owner).includes(`content/${asset}`), `${asset}: owning page`)
@@ -63,6 +67,30 @@ test("M05 art captions preserve incomplete enemy designs, control/reveal boundar
     assert.match(briefing, /concealed-system consoles remain dormant/)
     assert.match(briefing, /Exact CS006 dialogue is not authored yet/)
     assert.match(briefing, /No Overdrive, Imprint, Blueprint or Research Terminal reveal is pictured/)
+})
+
+test("M05 memory comic captions preserve identity uncertainty, text ownership and scene state", () => {
+    const registry = read("production/asset-registry.md")
+    assert.match(registry, /VIS-46[^\n]+\n\| VIS-47/, "Memory rows remain in the existing Markdown table")
+    for (const id of ["cs007", "cs008", "cs009", "cs010"]) {
+        const scene = read(`cutscenes/${id}.md`)
+        assert.match(scene, /^status: stage-1$/m)
+        assert.match(scene, /^duration_target_seconds: 30$/m)
+        assert.match(scene, /### Generated memory comic study/)
+        assert.match(scene, /not final panels, rendered animation or measured timing/)
+        assert.match(scene, /does not establish memory ownership, a shared location or chronology/)
+        assert.match(scene, /not M05's live synchronization signal/)
+        assert.match(scene, /No dialogue or announcement lettering is baked/)
+        assert.match(scene, /gettext owning exact displayed wording/)
+        assert.match(scene, /Complete or skip to the same local activation and resume state/)
+        assert.match(scene, /does not validate the recipient profile/)
+        assert.doesNotMatch(scene, /TODO — Storyboard generation prompt/)
+    }
+    assert.match(read("cutscenes/cs007.md"), /Targets and the retreat destination remain unseen/)
+    assert.match(read("cutscenes/cs008.md"), /rather than body disintegration or teleportation/)
+    assert.match(read("cutscenes/cs009.md"), /neither welcome nor recoil/)
+    assert.match(read("cutscenes/cs010.md"), /not a new Chassis or module award/)
+    assert.doesNotMatch(read("imprints/overdrive.md"), /!\[/, "Presentation remains on scene pages, not the evidence owner")
 })
 
 test("M05 generated art retains editable mission and memory schematics", () => {
