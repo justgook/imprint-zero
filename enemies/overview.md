@@ -20,6 +20,9 @@ Enemy pages define reusable hostile behaviour required by authored Missions, not
 | [[Enemies/E005|E005 · Toll Collector]] | M03 gang-base ranged role | Stage 1 proposal; behaviour, name, tuning/art pending |
 | [[Enemies/E006|E006 · Freight Hookhand]] | M03 gang-base close-pressure role | Stage 1 proposal; behaviour, name, tuning/art pending |
 | [[Enemies/E007|E007 · Gate Enforcer]] | M03 gang-base frontal-defence role | Stage 1 proposal; behaviour, name, tuning/art pending |
+| [[Enemies/E008|E008 · Fabricator]] | M04 low-height cutting pressure | Stage 1 proposal; hostile behaviour/tuning pending |
+| [[Enemies/E009|E009 · Line Runner]] | M04 committed transport pressure | Stage 1 proposal; hostile behaviour/tuning pending |
+| [[Enemies/E010|E010 · Process Warden]] | M04 inspection/security timing | Stage 1 proposal; hostile behaviour/tuning pending |
 
 ## Blueprint loot ownership
 

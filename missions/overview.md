@@ -386,7 +386,7 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/HUB0|HUB0 — Crew Assembly Hub]] | — | Act I return and roster assembly | In progress |
 | [[Missions/M02|M02 — Containment Doctrine]] | B01 | Controlled introduction: ROOK or VECTOR | Stage 1 |
 | [[Missions/M03|M03 — No Survivors Logged]] | B01 | Controlled introduction: RAM arrival | Stage 1 |
-| [[Missions/M04|M04 — Production Halt]] | B02 | Special introduction: RAM and RELAY | TODO |
+| [[Missions/M04|M04 — Production Halt]] | B02 | RAM-only rescue and RELAY recovery | Stage 1 |
 | [[Missions/M05|M05 — The Four Trials]] | B02 | Full-crew exception; Overdrive reveal | TODO |
 | [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | Accepted |
 | [[Missions/MA01|MA01 — Ghost Archive]] | B03 | Act II opening Mission | TODO |
