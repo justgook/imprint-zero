@@ -1,0 +1,68 @@
+import assert from "node:assert/strict"
+import { existsSync, readFileSync } from "node:fs"
+import test from "node:test"
+
+const source = readFileSync(new URL("../missions/m05.md", import.meta.url), "utf8")
+const graph = /```mermaid\n([\s\S]*?)```/.exec(source)[1]
+const edges = graph.split("\n").filter((line) => / -->| -\.-/.test(line))
+
+test("M05 attaches ten authored COM families without inventing gettext entries or duplicating memory dialogue", () => {
+    const ids = [...graph.matchAll(/(COM\d{2})\(\["/g)].map((match) => match[1])
+    assert.deepEqual(ids, Array.from({ length: 10 }, (_, i) => `COM${String(i + 1).padStart(2, "0")}`))
+    for (const id of ids) {
+        assert.match(source, new RegExp(`\\| ${id} \\|`), `${id} has trigger/intent prose`)
+    }
+    for (const room of ["R04", "R06", "R08", "R09"]) {
+        assert.match(graph, new RegExp(`${room} -\\.- COM10`))
+    }
+    assert.match(source, /first convergence in any order introduces Overdrive/)
+    assert.match(source, /Essential instructions remain available after scene skip/)
+    assert.match(source, /not additional paused Cutscenes or duplicate memory dialogue/)
+    assert.match(source, /after the explicit core commit/)
+    assert.doesNotMatch(graph, /locale\/[^\s]+\?entry=/)
+})
+
+test("M05 owns finite phase-separated Helix encounters in trial rooms only", () => {
+    const content = [...graph.matchAll(/\b(C\d{2})\["([\s\S]*?)"\]/g)]
+    assert.deepEqual(content.map((match) => match[1]), ["C04", "C06", "C08", "C10"])
+    const counts = { E008: 0, E009: 0, E010: 0 }
+    for (const [, id, label] of content) {
+        const room = id.replace("C", "R")
+        assert.match(graph, new RegExp(`${room} -\\.- ${id}`))
+        assert.match(label, /Finish:/)
+        if (room === "R10") assert.doesNotMatch(label, /Opening:/)
+        else assert.match(label, /Opening:.*<br\/>Finish:/)
+        for (const [, count, page, enemy] of label.matchAll(/\((\d+)\)<a href='#\/enemies\/(e\d{3})'>(E\d{3})<\/a>/g)) {
+            assert.equal(page.toUpperCase(), enemy)
+            assert.ok(Object.hasOwn(counts, enemy), "Reuse authored Helix archetypes")
+            assert.ok(existsSync(new URL(`../enemies/${page}.md`, import.meta.url)))
+            counts[enemy] += Number(count)
+        }
+    }
+    assert.deepEqual(counts, { E008: 4, E009: 4, E010: 6 })
+    assert.match(source, /authored starting tuning values, not concurrent-threat quotas/)
+    assert.match(source, /Finish placements remain dormant until the watched\/skipped memory handoff/)
+    assert.match(source, /Safe receiver pockets cannot be attacked/)
+    assert.match(source, /cleared actors do not respawn/)
+    assert.match(source, /killing opening enemies alone never validates a profile/)
+    assert.match(source, /already-owned Arc Cutter, Runner Legs and Sensor Array before arrival/)
+    assert.match(source, /not a change to her general starter loadout/)
+    assert.match(source, /No Boss, endless wave, fragile escort or timed defence/)
+})
+
+test("M05 styles scene, COM and room-content connectors by their actual edge order", () => {
+    const styles = [...graph.matchAll(/linkStyle ([\d,]+) ([^\n]+)/g)]
+    assert.equal(edges.length, 36)
+    assert.equal(styles.length, 3)
+    const expected = [
+        { target: / -->.*CS\d+/, style: /stroke-width:1px;/, count: 4 },
+        { target: / -\.- COM\d+/, style: /stroke-width:12px,stroke-dasharray:1 22,stroke-linecap:round/, count: 13 },
+        { target: / -\.- C\d+/, style: /stroke-width:2px,stroke-dasharray:7 5/, count: 4 },
+    ]
+    styles.forEach(([, indices, style], i) => {
+        const selected = indices.split(",").map(Number)
+        assert.equal(selected.length, expected[i].count)
+        assert.match(style, expected[i].style)
+        for (const index of selected) assert.match(edges[index], expected[i].target)
+    })
+})
