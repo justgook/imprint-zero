@@ -19,7 +19,7 @@ test("M04 scene identities own presentation with explicit meeting and post-extra
         assert.ok(read("cutscenes/overview.md").includes(`[[Cutscenes/${id}|`))
         assert.ok(graph.includes(`${id}[[`))
         assert.ok(graph.includes(`click ${id} href "#/cutscenes/${id.toLowerCase()}"`))
-        const asset = /content\/(images\/cutscenes\/[^)]+)/.exec(scene)[1]
+        const asset = /content\/(images\/cutscenes\/[^)]+\.svg)/.exec(scene)[1]
         assert.ok(existsSync(new URL(`../${asset}`, import.meta.url)))
         assert.match(read(asset), /PLACEHOLDER/)
         assert.match(read(asset), /replace with/i)
