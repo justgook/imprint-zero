@@ -1,5 +1,6 @@
 import assert from "node:assert/strict"
 import { readFileSync } from "node:fs"
+import { createHash } from "node:crypto"
 import test from "node:test"
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8")
@@ -41,6 +42,19 @@ for (const [asset, owner, id, source] of [
     })
 }
 
+test("VIS-59 links the unchanged user-provided AVIF with source provenance", () => {
+    const asset = "images/bosses/bs004-user-reference.avif"
+    assert.ok(boss.includes(`content/${asset}`))
+    const row = registry.split("\n").find((line) => line.startsWith("| VIS-59 |"))
+    assert.ok(row.includes(`\`${asset}\``))
+    assert.ok(row.includes("source `curator_2984x2379.avif`"))
+    const data = readFileSync(new URL(`../${asset}`, import.meta.url))
+    assert.equal(data.subarray(4, 8).toString("ascii"), "ftyp")
+    assert.equal(data.subarray(8, 12).toString("ascii"), "avif")
+    assert.equal(createHash("sha256").update(data).digest("hex"), "f15fa839339428e81532fc358bb2a2c973e3ae9cb6157c04a6cc7028b41e7b7a")
+    assert.ok(!boss.includes("content/images/bosses/bs004-user-reference.png"))
+})
+
 test("Curator's revised body and working fight direction preserve all-kit and origin boundaries", () => {
     assert.match(boss, /^id: BS004$/m)
     assert.match(boss, /^status: in-progress$/m)
@@ -64,6 +78,9 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.match(boss, /Hip roots use the closed pelvic cradle/)
     assert.match(boss, /original task body has no clothing requirement/)
     assert.match(boss, /awkwardly copies that practice with old retained scraps/)
+    assert.ok(boss.indexOf("content/images/bosses/bs004-user-reference.avif") < boss.indexOf("content/images/bosses/bs004-human-proportions-concept.png"))
+    assert.match(boss, /Current primary visual reference/)
+    assert.match(boss, /not new movement rules, final joint taxonomy or approved in-game\/localized text/)
     assert.ok(boss.indexOf("content/images/bosses/bs004-human-proportions-concept.png") < boss.indexOf("content/images/bosses/bs004-attachments-concept.png"))
     assert.match(boss, /no dedicated cups, sculpted breast armour or clean tailored costume/)
     assert.match(boss, /grime, frayed edges and rough repairs match the scratched/)
