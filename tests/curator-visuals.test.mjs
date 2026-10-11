@@ -12,6 +12,7 @@ for (const [asset, owner, id, source] of [
     ["images/biomes/b03-wire-web-concept.png", biome, "VIS-54", "image-JKbCGE"],
     ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
     ["images/bosses/bs004-biological-concept.png", boss, "VIS-56", "image-RVnGYO"],
+    ["images/bosses/bs004-attachments-concept.png", boss, "VIS-57", "image-dZJb8A"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -51,6 +52,12 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.ok(boss.indexOf("content/images/bosses/bs004-biological-concept.png") < boss.indexOf("content/images/bosses/bs004-interface-concept.png"))
     assert.match(boss, /head below the body and back toward the direction of travel/)
     assert.match(boss, /Eight principal assemblies are the working topology target/)
+    assert.match(boss, /two shoulder roots, two hip roots and four dorsal roots in two paired rows/)
+    assert.match(boss, /shoulders sit low beside the neck\/head and hips sit high/)
+    assert.match(boss, /not proof that every generated root-to-tip path is anatomically correct/)
+    assert.match(boss, /follows RELAY-like natural breast\/chest contours/)
+    assert.match(boss, /anatomical volume remains covered/)
+    assert.ok(boss.indexOf("content/images/bosses/bs004-attachments-concept.png") < boss.indexOf("content/images/bosses/bs004-biological-concept.png"))
     assert.match(boss, /Folded limbs conceal the torso through most ordinary movement/)
     assert.match(boss, /RELAY's biological head\/torso and fully biomechanical limbs remain unchanged/)
     assert.match(boss, /shared manufacturing period/)
