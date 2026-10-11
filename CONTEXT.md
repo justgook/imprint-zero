@@ -213,6 +213,9 @@ The B12 landmark above B01's Ashfall District whose hidden control levels host t
 **Quiet Terminus**:
 The offline Republic of Dust rail terminus used as HUB3, the crew's Act IV staging Hub.
 
+**Curator**:
+Mnemonic Basilica's local memory/emotion archive authority, whose testimony about edited identities does not establish the crew's origins or ownership of the Experiment Network.
+
 **Controller**:
 The proven local orchestration authority for the current urban experiment whose physical defence or avatar does not establish its complete embodiment or identity.
 

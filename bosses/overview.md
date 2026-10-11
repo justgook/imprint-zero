@@ -22,6 +22,10 @@ Speaking, expressing a philosophy, or making narrative claims does not also make
 
 Additional accepted Mission bosses receive pages during the later boss population pass.
 
+## In-progress visual development
+
+- [[Bosses/BS004|BS004 — Curator]] — MA03's B03 Guardian; low spider-like storage-handler body and physical wire-web visual direction established. All-kit Encounter, phases, attacks, outcomes and rewards remain to be authored; this is not a Boss placement in MA01.
+
 ## Stable Boss IDs
 
 > **Accepted — Catalogue identity:** Every Boss uses a unique `BS###` ID in frontmatter with `type: boss`. `BS` is distinct from the `B##` Biome sequence. Canonical filenames are lowercase IDs (`bosses/bs001.md`); links and room-content blocks use the stable ID, not the display name.

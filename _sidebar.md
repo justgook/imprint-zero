@@ -132,6 +132,7 @@
   - [[Bosses/BS001|BS001 — Marek “Switch” Voss]]
   - [[Bosses/BS002|BS002 — Heartroot]]
   - [[Bosses/BS003|BS003 — Controller — Local Avatar]]
+  - [[Bosses/BS004|BS004 — Curator]]
 - [[Equipment/Overview|Equipment]]
   - [[Equipment/EQ001|Baseline rifle]]
   - [[Equipment/EQ002|Kunai]]
