@@ -86,6 +86,8 @@ Player-facing extraction and Hub lists distinguish discovered Special Missions t
 
 > **Accepted** — Completing the fourth Act II Guardian returns the player to HUB1 with M06 available; it does not automatically advance the campaign. The player may continue replaying Act II Missions. Launching M06 requires explicit confirmation that entering HUB2 and B07 permanently closes B03–B06 and their undiscovered rewards for the current campaign.
 
+**B03 restored-world visits:** [[Biomes/B03#restoration-and-intrusion-revisits|Mnemonic Basilica]] remains operational after its Mission corrections. Later entry resets authored local security/exit conditions, not committed broadcast containment, extraction shutdown or editing-engine isolation. [[Bosses/BS004#succession-and-later-visits|Curator succession]] permits later fights without another Guardian registration, duplicate story results or rollback of first completion. Optional uncollected rewards retain their owning Mission rules; this biome-specific restoration does not rewrite other Missions' retry rules.
+
 All Specialization Imprints and all four biome Memory Imprints required for the extended route must be recovered before M06 begins. Eligibility is established before M06 even though the hidden access appears later in M07.
 
 ## Introduction exception

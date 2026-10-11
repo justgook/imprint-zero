@@ -17,7 +17,7 @@ test("MA01 Stage-1 defines an all-kit Act II route and finite Enemy-owned placem
     const rooms = [...graph.matchAll(/\b(R\d{2})\["\1 ·/g)].map((match) => match[1])
     assert.deepEqual(rooms, Array.from({ length: 8 }, (_, i) => `R0${i + 1}`))
     const placements = [...graph.matchAll(/\((\d+)\)<a href='#\/enemies\/(e\d{3})'>(E\d{3})<\/a>/g)]
-    assert.deepEqual(placements.map((match) => Number(match[1])), [1, 2, 2, 3])
+    assert.deepEqual(placements.map((match) => Number(match[1])), [1, 2, 1, 1, 2, 1])
     assert.equal(placements.reduce((sum, match) => sum + Number(match[1]), 0), 8)
     for (const [, , file, id] of placements) {
         assert.equal(file.toUpperCase(), id)
@@ -26,10 +26,12 @@ test("MA01 Stage-1 defines an all-kit Act II route and finite Enemy-owned placem
     assert.match(source, /starting tuning values, not a simultaneous-threat quota/)
     assert.match(source, /Cleared actors do not respawn/)
     assert.match(source, /No Boss, endless defence, timer, escort bar/)
-    assert.match(source, /E011 has no allocated Blueprint drop table yet/)
-    assert.match(read("enemies/e011.md"), /one shared B03 archetype/)
-    assert.match(read("enemies/e011.md"), /not blanket invulnerability or a rear-only puzzle/)
-    assert.match(read("missions/m05.md"), /E011 — Archive Sentry/)
+    assert.match(source, /spider archetypes have no allocated Blueprint drop tables/)
+    assert.match(read("enemies/e011.md"), /^status: outdated$/m)
+    assert.match(read("enemies/e012.md"), /Skitter/)
+    assert.match(read("missions/m05.md"), /E012 — Skitter/)
+    assert.doesNotMatch(graph, /e011/)
+    assert.deepEqual(placements.map((match) => match[3]), ["E012", "E012", "E012", "E014", "E012", "E016"])
     assert.match(read("missions/m05.md"), /rather than importing MA01's room counts/)
 })
 
@@ -103,13 +105,13 @@ test("MA01 accounts required, optional and paused timing without measuring targe
 })
 
 test("MA01 graph uses actual edge-order styles for scenes, COM and per-room content", () => {
-    assert.equal(edges.length, 24)
+    assert.equal(edges.length, 26)
     const styles = [...graph.matchAll(/linkStyle ([\d,]+) ([^\n]+)/g)]
     assert.equal(styles.length, 3)
     const expected = [
         [/ --> CS\d+/, /stroke-width:1px;/, 2],
         [/ -\.- COM\d+/, /stroke-width:12px,stroke-dasharray:1 22/, 4],
-        [/ -\.- C(?:\d+|O1)/, /stroke-width:2px,stroke-dasharray:7 5/, 5],
+        [/ -\.- C(?:\d+|O1)/, /stroke-width:2px,stroke-dasharray:7 5/, 7],
     ]
     styles.forEach(([, indices, style], i) => {
         const chosen = indices.split(",").map(Number)

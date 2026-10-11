@@ -23,7 +23,14 @@ Enemy pages define reusable hostile behaviour required by authored Missions, not
 | [[Enemies/E008|E008 · Fabricator]] | M04 low-height cutting pressure | Stage 1 working version; combat validation and tuning pending |
 | [[Enemies/E009|E009 · Line Runner]] | M04 committed transport pressure | Stage 1 working version; combat validation and tuning pending |
 | [[Enemies/E010|E010 · Process Warden]] | M04 inspection/security timing | Stage 1 working version; combat validation and tuning pending |
-| [[Enemies/E011|E011 · Archive Sentry]] | MA01 archive recording/shutter timing; shared B03 preview reserved in M05 and later MA02 | Stage 1 working version; all-kit blockout/tuning and persistent research value pending |
+| [[Enemies/E011|E011 · Archive Sentry]] | No current B03 placement; historical definition retained | Outdated; superseded by service spiders, ID not reused |
+| [[Enemies/E012|E012 · Skitter]] | MA01 basic/mixed batches; shared M05 B03 preview | Stage 1; blockout/tuning pending |
+| [[Enemies/E013|E013 · Gripper]] | MA02 heavy-storage approach | In progress; room/count authoring pending |
+| [[Enemies/E014|E014 · Ember]] | MA01 R05 flame/melee mixture | Stage 1; blockout/tuning pending |
+| [[Enemies/E015|E015 · Rime]] | MA02 cooled-storage passage | In progress; room/count authoring pending |
+| [[Enemies/E016|E016 · Arc]] | MA01 R07 charged/melee mixture | Stage 1; blockout/tuning pending |
+| [[Enemies/E017|E017 · Weaver]] | MA02 connection/service encounter | In progress; endpoint/room/count authoring pending |
+| [[Enemies/E018|E018 · Reclaimer]] | MA03 salvage approach; BS004 post-defeat reconstruction | In progress; encounter/outcome production pending |
 
 ## Blueprint loot ownership
 

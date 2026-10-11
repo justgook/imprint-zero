@@ -214,7 +214,10 @@ The B12 landmark above B01's Ashfall District whose hidden control levels host t
 The offline Republic of Dust rail terminus used as HUB3, the crew's Act IV staging Hub.
 
 **Curator**:
-Mnemonic Basilica's local memory/emotion archive authority, whose testimony about edited identities does not establish the crew's origins or ownership of the Experiment Network.
+Mnemonic Basilica's replaceable local memory/emotion keeper role, whose testimony about edited identities does not establish the crew's origins or ownership of the Experiment Network.
+
+**Service Spider**:
+A task-adapted mechanical Mnemonic Basilica worker whose maintenance tools also defend the archive against intrusion.
 
 **Controller**:
 The proven local orchestration authority for the current urban experiment whose physical defence or avatar does not establish its complete embodiment or identity.
@@ -304,6 +307,7 @@ _Avoid in institutional UI_: Coffin
 - The current city is a revised successor to the adjacent predecessor experiment city now called the **Republic of Dust**.
 - The **Old Man** is a fallible witness who provides the HA and HB leads without authoritatively explaining the **Experiment Network** or **OPERATOR**.
 - **Republic of Dust** residents conceal activity from the **Experiment Network**, without establishing that **OPERATOR** controls that network.
+- Any **Service Spider** archetype can supply the next **Curator** controller; Reclaimers rebuild the body without being the exclusive successors.
 - **Heartroot** created the **Continuum** and became one founding voice within it; Heartroot is neither an independent actor nor the collective's ruler.
 - **OPERATOR**-associated credentials can authorize Imprint Zero and Imprint One without proving who authored or relayed the commands.
 - One campaign completes either the three-Mission **HA Investigation** or the three-Mission **HB Investigation**, never both, before either route enters the shared B12 sequence.
