@@ -9,12 +9,7 @@ const biome = read("biomes/b03.md")
 const registry = read("production/asset-registry.md")
 
 for (const [asset, owner, id, source] of [
-    ["images/bosses/bs004-concept.png", boss, "VIS-53", "image-SWE7hW"],
     ["images/biomes/b03-wire-web-concept.png", biome, "VIS-54", "image-JKbCGE"],
-    ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
-    ["images/bosses/bs004-biological-concept.png", boss, "VIS-56", "image-RVnGYO"],
-    ["images/bosses/bs004-attachments-concept.png", boss, "VIS-57", "image-yMf5kI"],
-    ["images/bosses/bs004-human-proportions-concept.png", boss, "VIS-58", "image-JS2o1J"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -63,8 +58,6 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.match(boss, /reusing an established human-production process/i)
     assert.match(boss, /in front of the physical face/)
     assert.match(boss, /the real head remains visible behind it/i)
-    assert.match(boss, /silhouette retained, tissue\/head treatment superseded/)
-    assert.ok(boss.indexOf("content/images/bosses/bs004-biological-concept.png") < boss.indexOf("content/images/bosses/bs004-interface-concept.png"))
     assert.match(boss, /head below the body and back toward the direction of travel/)
     assert.match(boss, /Eight principal assemblies are the working topology target/)
     assert.match(boss, /two shoulder roots, two hip roots and four dorsal roots in two paired rows/)
@@ -78,25 +71,27 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.match(boss, /Hip roots use the closed pelvic cradle/)
     assert.match(boss, /original task body has no clothing requirement/)
     assert.match(boss, /awkwardly copies that practice with old retained scraps/)
-    assert.ok(boss.indexOf("content/images/bosses/bs004-user-reference.avif") < boss.indexOf("content/images/bosses/bs004-human-proportions-concept.png"))
     assert.match(boss, /Current primary visual reference/)
     assert.match(boss, /not new movement rules, final joint taxonomy or approved in-game\/localized text/)
-    assert.ok(boss.indexOf("content/images/bosses/bs004-human-proportions-concept.png") < boss.indexOf("content/images/bosses/bs004-attachments-concept.png"))
     assert.match(boss, /no dedicated cups, sculpted breast armour or clean tailored costume/)
     assert.match(boss, /grime, frayed edges and rough repairs match the scratched/)
-    assert.ok(boss.indexOf("content/images/bosses/bs004-attachments-concept.png") < boss.indexOf("content/images/bosses/bs004-biological-concept.png"))
     assert.match(boss, /Folded limbs conceal the torso through most ordinary movement/)
     assert.match(boss, /RELAY's biological head\/torso and fully biomechanical limbs remain unchanged/)
     assert.match(boss, /shared manufacturing period/)
     assert.match(boss, /No date, serial, matching portrait, explicit dialogue/)
-    assert.match(boss, /Superseded broad-body candidate/)
+    assert.match(boss, /local-only archives, not versioned documentation assets/)
+    assert.doesNotMatch(boss, /content\/images\/bosses\/bs004-[^\s)]+\.png/)
+    for (const id of ["VIS-53", "VIS-55", "VIS-56", "VIS-57", "VIS-58"]) {
+        const row = registry.split("\n").find((line) => line.startsWith(`| ${id} |`))
+        assert.ok(row.includes("local-only archive"))
+        assert.ok(row.includes("(not versioned)"))
+    }
     assert.match(boss, /small unstable projected human visage/)
     assert.match(boss, /one voice and finish in another/)
     assert.match(boss, /descends to repair\/recover its collection/)
     assert.match(boss, /vault infrastructure rather than compulsory erasure of victim memories/)
     assert.match(boss, /not a required player route verb/)
     assert.match(boss, /Prevent softlocks/)
-    assert.ok(boss.indexOf("content/images/bosses/bs004-interface-concept.png") < boss.indexOf("content/images/bosses/bs004-concept.png"))
     assert.match(boss, /not approved guns or attacks/)
     assert.match(boss, /does not prove a biological species/)
     assert.match(boss, /objective drift, not a settled conscious rebellion/)
