@@ -12,7 +12,7 @@ for (const [asset, owner, id, source] of [
     ["images/biomes/b03-wire-web-concept.png", biome, "VIS-54", "image-JKbCGE"],
     ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
     ["images/bosses/bs004-biological-concept.png", boss, "VIS-56", "image-RVnGYO"],
-    ["images/bosses/bs004-attachments-concept.png", boss, "VIS-57", "image-dZJb8A"],
+    ["images/bosses/bs004-attachments-concept.png", boss, "VIS-57", "image-yMf5kI"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -57,6 +57,9 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.match(boss, /not proof that every generated root-to-tip path is anatomically correct/)
     assert.match(boss, /follows RELAY-like natural breast\/chest contours/)
     assert.match(boss, /anatomical volume remains covered/)
+    assert.match(boss, /One continuous chest scrap/)
+    assert.match(boss, /no dedicated cups, sculpted breast armour or clean tailored costume/)
+    assert.match(boss, /grime, frayed edges and rough repairs match the scratched/)
     assert.ok(boss.indexOf("content/images/bosses/bs004-attachments-concept.png") < boss.indexOf("content/images/bosses/bs004-biological-concept.png"))
     assert.match(boss, /Folded limbs conceal the torso through most ordinary movement/)
     assert.match(boss, /RELAY's biological head\/torso and fully biomechanical limbs remain unchanged/)
