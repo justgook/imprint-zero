@@ -127,6 +127,7 @@
   - [[Enemies/E008|E008 Fabricator · working version]]
   - [[Enemies/E009|E009 Line Runner · working version]]
   - [[Enemies/E010|E010 Process Warden · working version]]
+  - [[Enemies/E011|E011 Archive Sentry · working version]]
 - [[Bosses/Overview|Bosses and minibosses]]
   - [[Bosses/BS001|BS001 — Marek “Switch” Voss]]
   - [[Bosses/BS002|BS002 — Heartroot]]
@@ -168,6 +169,8 @@
   - [[Cutscenes/CS008|CS008 — VECTOR Overdrive Memory]]
   - [[Cutscenes/CS009|CS009 — RAM Overdrive Memory]]
   - [[Cutscenes/CS010|CS010 — RELAY Overdrive Memory]]
+  - [[Cutscenes/CS011|CS011 — Shared Childhood]]
+  - [[Cutscenes/CS012|CS012 — RELAY Null Memory]]
 
 ## Game Text
 

@@ -50,7 +50,7 @@ test("M05 and its memory-scene references are linked real PNGs with provenance a
 test("M05 art captions preserve incomplete enemy designs, control/reveal boundaries and existing kits", () => {
     const mission = read("missions/m05.md")
     assert.match(mission, /generated mock screenshots, not build captures/)
-    assert.match(mission, /Exx designs remain undefined/)
+    assert.match(mission, /Exx designs remain concealed in these generated studies/)
     assert.match(mission, /partial samples, not the complete trial roster/)
     assert.match(mission, /played sequentially, not simultaneous split-screen controls/)
     assert.match(mission, /board is not an authored solution/)

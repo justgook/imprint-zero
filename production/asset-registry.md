@@ -79,3 +79,14 @@ These are retained authored SVG placeholders, not generated raster concepts, gam
 | [[Cutscenes/CS010#panel-sequence|CS010]] | Retained `images/imprints/overdrive-relay-storyboard.svg` beside VIS-50; refine module unfolding, mechanical strain and concealed mechanism outcome. |
 | [[Missions/M05#mission-layout|M05 spatial handoff]] | New `images/missions/m05-minimap.svg` and `m05-layout.svg`; replace conceptual footprints with measured branch, receiver and rail staging. |
 | [[Missions/M05#gameplay-presentation|M05 presentation handoff]] | Retained `images/missions/m05-concept.svg` alongside VIS-39–45; review generated samples, then develop matched Dive/trial cues and memory-to-activation framing in motion. |
+
+## Editable MA01 Stage-1 handoffs
+
+Authored SVG schematics, not generated raster art or measured geometry. No new VIS ID is allocated for these placeholders. MA01's all-kit route and optional discovery state are the working baseline; production details remain explicit validation tasks.
+
+| Owner | Artifact / production follow-up |
+|---|---|
+| [[Missions/MA01#layout-and-visual-handoffs|MA01 spatial/composition handoff]] | New `images/missions/ma01-minimap.svg`, `ma01-layout.svg` and `ma01-concept.svg`; validate eight required rooms, two independent return detours, safe containment and one-Coffin extraction at gameplay scale. |
+| [[Enemies/E011#visual-and-audio-handoff|E011 Archive Sentry]] | New `images/enemies/e011.svg`; validate reachable frontal recovery, shutter/shot tells and all-kit approach margins before final silhouette or Profile outputs. |
+| [[Cutscenes/CS011#working-panel-sequence|CS011 Shared Childhood]] | New `images/cutscenes/cs011-storyboard.svg`; produce one shared courtyard motif with four Character viewpoints, no assigned child bodies or original-owner explanation. |
+| [[Cutscenes/CS012#working-panel-sequence|CS012 RELAY Null Memory]] | Retained `images/imprints/relay-null-storyboard.svg` and `images/imprints/storyboard/RELAY Null.png`; presentation explicitly moved to CS012, not regenerated. Revise archive bays and E011 state language, then animate one-hop transmission and measure audio/timing. |

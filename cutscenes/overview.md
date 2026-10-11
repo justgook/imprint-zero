@@ -18,6 +18,8 @@ status: in-progress
 | [[Cutscenes/CS008|CS008]] | VECTOR Overdrive memory | M05 R06 convergence, before the Overdrive finish; branch order is free |
 | [[Cutscenes/CS009|CS009]] | RAM Overdrive memory | M05 R08 convergence, before the Overdrive finish; branch order is free |
 | [[Cutscenes/CS010|CS010]] | RELAY Overdrive memory | M05 R09 endpoint, before R10; no other Character handoff |
+| [[Cutscenes/CS011|CS011]] | Shared childhood, deployed-Character perspective | MA01 R06 containment; one of four viewpoints per run |
+| [[Cutscenes/CS012|CS012]] | RELAY Null memory | Optional MA01 O01 recorder; any collector, same deployed configuration on resume |
 
 ## Ownership and identity
 
@@ -30,8 +32,8 @@ status: in-progress
 | Boss page | Combat trigger, HP/phase rules, and post-scene encounter state |
 | Gettext catalogue | Approved wording and translations |
 
-A cutscene is not a room, item placement, or radio exchange. [[Wiki Rules?section=mission-room-graphs|Mission room graphs]] owns its distinct graph notation and time accounting. CS007–CS010 explicitly own the existing Overdrive memory storyboards; [[Imprints/Overdrive|the Imprint catalogue]] retains the narrative payloads. Other Imprint storyboards are not silently migrated.
+A cutscene is not a room, item placement, or radio exchange. [[Wiki Rules?section=mission-room-graphs|Mission room graphs]] owns its distinct graph notation and time accounting. CS007–CS010 explicitly own the existing Overdrive memory storyboards; [[Imprints/Overdrive|the Imprint catalogue]] retains the narrative payloads. CS012 explicitly owns RELAY Null's existing storyboards; its Imprint page retains the narrative payload and direct grant. Other Imprint storyboards are not silently migrated.
 
 ## Current presentation direction
 
-CS001–CS010 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.
+CS001–CS012 use animated-comic presentation: illustrated compositions, limited motion, transitions, speech bubbles, and optional voice-over. Max Payne / Gravity Rush are format references, not assets or material to copy. This is not approval of a rendering implementation or a campaign-wide mandatory style.

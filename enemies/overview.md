@@ -23,6 +23,7 @@ Enemy pages define reusable hostile behaviour required by authored Missions, not
 | [[Enemies/E008|E008 · Fabricator]] | M04 low-height cutting pressure | Stage 1 working version; combat validation and tuning pending |
 | [[Enemies/E009|E009 · Line Runner]] | M04 committed transport pressure | Stage 1 working version; combat validation and tuning pending |
 | [[Enemies/E010|E010 · Process Warden]] | M04 inspection/security timing | Stage 1 working version; combat validation and tuning pending |
+| [[Enemies/E011|E011 · Archive Sentry]] | MA01 archive recording/shutter timing; shared B03 preview reserved in M05 and later MA02 | Stage 1 working version; all-kit blockout/tuning and persistent research value pending |
 
 ## Blueprint loot ownership
 

@@ -31,7 +31,7 @@ Replay value should come from:
 
 > **Accepted** — Overdrive remains concealed at the start of the campaign. [[Missions/M05|The Four Trials]] later reveals it through four Character-specific trials and commits its one collective unlock at final core validation. After that global reveal, every unlocked Specialization has its unique Overdrive, and newly acquired Specializations include theirs without another Overdrive-specific unlock.
 
-The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. Acquisition methods for the eight non-default Specializations remain unresolved. See [[Gameplay/Overdrive|Specializations and Overdrive]] for accepted boundaries.
+The early Character sequence is accepted: ROOK at new game, VECTOR at the first Hub, RAM after [[Missions/M03|No Survivors Logged]], and RELAY after [[Missions/M04|Production Halt]]. The eight non-default Specialization Imprints have [[Imprints/Overview#specialization-imprint-distribution|assigned acquisition placements]]; each owning Mission authors and validates its optional discovery route. See [[Gameplay/Overdrive|Specializations and Overdrive]] for configuration boundaries.
 
 ## Hub preparation
 
