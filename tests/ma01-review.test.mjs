@@ -17,8 +17,8 @@ test("MA01 Stage-1 defines an all-kit Act II route and finite Enemy-owned placem
     const rooms = [...graph.matchAll(/\b(R\d{2})\["\1 ·/g)].map((match) => match[1])
     assert.deepEqual(rooms, Array.from({ length: 8 }, (_, i) => `R0${i + 1}`))
     const placements = [...graph.matchAll(/\((\d+)\)<a href='#\/enemies\/(e\d{3})'>(E\d{3})<\/a>/g)]
-    assert.deepEqual(placements.map((match) => Number(match[1])), [1, 2, 1, 1, 2, 1])
-    assert.equal(placements.reduce((sum, match) => sum + Number(match[1]), 0), 8)
+    assert.deepEqual(placements.map((match) => Number(match[1])), [6, 18, 8, 4, 12, 6])
+    assert.equal(placements.reduce((sum, match) => sum + Number(match[1]), 0), 54)
     for (const [, , file, id] of placements) {
         assert.equal(file.toUpperCase(), id)
         assert.ok(existsSync(new URL(`../enemies/${file}.md`, import.meta.url)))
@@ -104,13 +104,13 @@ test("MA01 accounts required, optional and paused timing without measuring targe
 })
 
 test("MA01 graph uses actual edge-order styles for scenes, COM and per-room content", () => {
-    assert.equal(edges.length, 26)
+    assert.equal(edges.length, 24)
     const styles = [...graph.matchAll(/linkStyle ([\d,]+) ([^\n]+)/g)]
     assert.equal(styles.length, 3)
     const expected = [
         [/ --> CS\d+/, /stroke-width:1px;/, 2],
         [/ -\.- COM\d+/, /stroke-width:12px,stroke-dasharray:1 22/, 4],
-        [/ -\.- C(?:\d+|O1)/, /stroke-width:2px,stroke-dasharray:7 5/, 7],
+        [/ -\.- C(?:\d+|O1)/, /stroke-width:2px,stroke-dasharray:7 5/, 5],
     ]
     styles.forEach(([, indices, style], i) => {
         const chosen = indices.split(",").map(Number)

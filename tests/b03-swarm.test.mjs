@@ -15,11 +15,11 @@ test("B03 indexes seven task spiders consecutively without the removed guard or 
         assert.match(enemy, /^type: enemy$/m)
         for (const path of ["biomes/b03.md", "enemies/overview.md", "_sidebar.md"]) assert.ok(read(path).includes(`Enemies/${id}|`))
         assert.match(enemy, /First|first|MA01/)
-        assert.match(enemy, /Finite batches/)
-        assert.match(enemy, /standing-height targets/)
+        assert.match(enemy, /Finite swarms/)
+        assert.match(enemy, /ordinary-kit reachable engagement/)
         assert.match(enemy, /Colour is a secondary cue/)
         assert.match(enemy, /No Machine Profile, Blueprint drop table, Controlled Unit, Wire Integration or Program grant is allocated/)
-        assert.match(enemy, /Any helper archetype can supply the replacement Curator controller/)
+        assert.match(enemy, /Any helper archetype can physically integrate its complete small body/)
     }
     assert.deepEqual(readdirSync(new URL("../enemies/", import.meta.url)).filter((name) => /^e\d{3}\.md$/.test(name)).sort(), Array.from({ length: 17 }, (_, i) => `e${String(i + 1).padStart(3, "0")}.md`))
     assert.equal(existsSync(new URL("../images/enemies/e011.svg", import.meta.url)), false)
@@ -40,7 +40,7 @@ test("Curator succession is universal controller eligibility but Reclaimer recon
     assert.match(boss, /without awarding duplicate Guardian credit/)
     assert.match(boss, /watch\/skip-equivalent resume/)
     assert.match(read("missions/ma03.md"), /Local security may reset; engine isolation remains committed/)
-    assert.match(read("CONTEXT.md"), /Any \*\*Service Spider\*\* archetype can supply the next \*\*Curator\*\* controller/)
+    assert.match(read("CONTEXT.md"), /Any \*\*Service Spider\*\* archetype can integrate into the larger \*\*Curator\*\* body/)
 })
 
 test("restored B03 visits retain repairs and story results while allowing local intrusion combat and optional discovery", () => {

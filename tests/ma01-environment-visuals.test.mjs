@@ -88,7 +88,9 @@ for (const { vis, path, source, width, height } of assets) {
 
 test("MA01 environment captions keep first/restored state, detour and extraction boundaries without replacing SVGs", () => {
     assert.match(mission, /^status: stage-1$/m)
-    assert.ok(mission.indexOf("content/images/missions/ma01-overview-concept.png") < mission.indexOf("## Purpose"))
+    assert.ok(mission.indexOf("content/images/missions/ma01-gallery-gameplay-concept.png") < mission.indexOf("## Purpose"))
+    assert.ok(mission.indexOf("content/images/missions/ma01-overview-concept.png") > mission.indexOf("## Purpose"))
+    assert.match(mission, /Earlier architectural mood\/prop studies/)
     for (const suffix of ["minimap", "layout", "concept"]) assert.ok(mission.includes(`content/images/missions/ma01-${suffix}.svg`))
     assert.match(mission, /not gameplay captures, approved collision layouts, attack ranges, hazard timing/)
     assert.match(mission, /Characters and protected civilian presentation are omitted here/)
@@ -99,6 +101,6 @@ test("MA01 environment captions keep first/restored state, detour and extraction
     assert.match(mission, /not another exit or a Verdant Null reveal/)
     assert.match(mission, /does not provide stairs directly to the far control/)
     assert.match(mission, /Right: safe R08 with one Coffin and no hostile/)
-    assert.match(mission, /six E011, one E013 and one E015/)
+    assert.match(mission, /44 E011, four E013 and six E015/)
     assert.match(registry, /initial source `image-eMhQv1` revised/)
 })

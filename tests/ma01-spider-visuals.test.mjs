@@ -19,7 +19,8 @@ test("MA01's three spiders share a registered comparison sheet without changing 
         assert.match(page, /^status: stage-1$/m)
         assert.match(page, /E011 Skitter.*E013 Ember.*E015 Arc/)
     }
-    assert.match(read("missions/ma01.md"), /six E011, one E013 and one E015/)
+    assert.match(read("missions/ma01.md"), /44 E011, four E013 and six E015/)
+    assert.match(row, /Superseded scale candidate/)
     for (const id of ["e011", "e013", "e015"]) {
         const page = read(`enemies/${id}.md`)
         assert.match(page, /not final sprite art, measured scale, an approved joint count, rig or attack envelope/)

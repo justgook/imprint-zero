@@ -11,6 +11,10 @@ status: in-progress
 
 Game genre, narrative setting, and visual execution are separate decisions. [[Design/Game Vision|Game vision]] and [[Current Direction|current narrative direction]] remain authoritative for their own concerns; neither approves a pixel grid, palette, rendering style, or asset source.
 
+## Mission-scale composition evidence
+
+[[Missions/MA01#screen-composition-and-parallax|MA01's corrected gameplay-frame studies]] translate B03's height and machinery into local 2D run-and-gun composition: tiny swarm helpers, human-size reference, a sharp collision/action plane, recessed archive layers and distant vault-depth glimpses. Earlier cinematic panoramas are mood/prop references, not usable gameplay-camera or actor-scale evidence. These mock screenshots and the layer handoff guide composition review without approving a rendering pipeline, fixed pixel grid, HUD, exact collision geometry or numeric parallax factors.
+
 ## Aspirational gameplay references
 
 > **Accepted — Visual aspiration:** These three user-supplied AI-generated **mock screenshots**, not captures of a playable build, show the desired *final-game experience*: dense side-on environments, legible action in a layered scene, moody lighting, and interface integrated into the gameplay view. Treat them as a target for comparison across Missions, not as an approved asset pipeline, fixed rendering technique, pixel density, palette, UI specification, encounter, or exact level layout. Their generated text, numbers, objectives, enemy designs, and labels do not override owning pages.
