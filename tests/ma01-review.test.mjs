@@ -27,11 +27,10 @@ test("MA01 Stage-1 defines an all-kit Act II route and finite Enemy-owned placem
     assert.match(source, /Cleared actors do not respawn/)
     assert.match(source, /No Boss, endless defence, timer, escort bar/)
     assert.match(source, /spider archetypes have no allocated Blueprint drop tables/)
-    assert.match(read("enemies/e011.md"), /^status: outdated$/m)
-    assert.match(read("enemies/e012.md"), /Skitter/)
-    assert.match(read("missions/m05.md"), /E012 — Skitter/)
-    assert.doesNotMatch(graph, /e011/)
-    assert.deepEqual(placements.map((match) => match[3]), ["E012", "E012", "E012", "E014", "E012", "E016"])
+    assert.match(read("enemies/e011.md"), /Skitter/)
+    assert.match(read("missions/m05.md"), /E011 — Skitter/)
+    assert.doesNotMatch(graph, /e018/)
+    assert.deepEqual(placements.map((match) => match[3]), ["E011", "E011", "E011", "E013", "E011", "E015"])
     assert.match(read("missions/m05.md"), /rather than importing MA01's room counts/)
 })
 
@@ -126,7 +125,6 @@ test("MA01 has dedicated spatial, composition, Enemy and scene handoff images", 
         ["missions/ma01.md", "images/missions/ma01-minimap.svg"],
         ["missions/ma01.md", "images/missions/ma01-layout.svg"],
         ["missions/ma01.md", "images/missions/ma01-concept.svg"],
-        ["enemies/e011.md", "images/enemies/e011.svg"],
         ["cutscenes/cs011.md", "images/cutscenes/cs011-storyboard.svg"],
         ["cutscenes/cs012.md", "images/imprints/relay-null-storyboard.svg"],
     ]

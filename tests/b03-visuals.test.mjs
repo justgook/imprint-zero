@@ -46,7 +46,7 @@ test("B03 art captions preserve all-kit, narrative and production boundaries wit
     assert.match(biome, /CS012.*explicitly owns that scene's storyboards/)
     assert.match(biome, /literal spider-web-like arrangements of wires/)
     assert.match(biome, /operating infrastructure, not evidence that the Basilica is abandoned/)
-    assert.match(biome, /E017 — Weaver/)
+    assert.match(biome, /E016 — Weaver/)
     assert.match(biome, /seven-body roster/)
     assert.match(biome, /predates this explicit web direction/)
     assert.match(biome, /ordinary cables are not automatically damaging, cuttable/)

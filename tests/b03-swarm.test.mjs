@@ -1,13 +1,13 @@
 import assert from "node:assert/strict"
-import { readFileSync } from "node:fs"
+import { existsSync, readdirSync, readFileSync } from "node:fs"
 import test from "node:test"
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8")
 const biome = read("biomes/b03.md")
 const boss = read("bosses/bs004.md")
-const roster = [["E012", "Skitter"], ["E013", "Gripper"], ["E014", "Ember"], ["E015", "Rime"], ["E016", "Arc"], ["E017", "Weaver"], ["E018", "Reclaimer"]]
+const roster = [["E011", "Skitter"], ["E012", "Gripper"], ["E013", "Ember"], ["E014", "Rime"], ["E015", "Arc"], ["E016", "Weaver"], ["E017", "Reclaimer"]]
 
-test("B03 allocates seven task spiders without reviving its retired guard or granting research outputs", () => {
+test("B03 indexes seven task spiders consecutively without the removed guard or research outputs", () => {
     for (const [id, name] of roster) {
         const enemy = read(`enemies/${id.toLowerCase()}.md`)
         assert.match(enemy, new RegExp(`^id: ${id}$`, "m"))
@@ -21,11 +21,12 @@ test("B03 allocates seven task spiders without reviving its retired guard or gra
         assert.match(enemy, /No Machine Profile, Blueprint drop table, Controlled Unit, Wire Integration or Program grant is allocated/)
         assert.match(enemy, /Any helper archetype can supply the replacement Curator controller/)
     }
-    assert.match(read("enemies/e011.md"), /^status: outdated$/m)
-    assert.match(read("enemies/e011.md"), /no current MA01, MA02 or M05 placement/)
+    assert.deepEqual(readdirSync(new URL("../enemies/", import.meta.url)).filter((name) => /^e\d{3}\.md$/.test(name)).sort(), Array.from({ length: 17 }, (_, i) => `e${String(i + 1).padStart(3, "0")}.md`))
+    assert.equal(existsSync(new URL("../images/enemies/e011.svg", import.meta.url)), false)
+    assert.doesNotMatch(read("enemies/overview.md"), /Archive Sentry/)
     assert.match(biome, /not an automatic resistance\/status system/)
     assert.match(read("missions/m05.md"), /one shared preview body, not the entire seven-spider roster/)
-    assert.doesNotMatch(read("cutscenes/cs012.md"), /\[\[Enemies\/E011/)
+    assert.doesNotMatch(read("cutscenes/cs012.md"), /\[\[Enemies\/E\d{3}/)
 })
 
 test("Curator succession is universal controller eligibility but Reclaimer reconstruction, never an immediate rematch", () => {
