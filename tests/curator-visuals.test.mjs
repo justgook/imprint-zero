@@ -10,6 +10,7 @@ const registry = read("production/asset-registry.md")
 for (const [asset, owner, id, source] of [
     ["images/bosses/bs004-concept.png", boss, "VIS-53", "image-SWE7hW"],
     ["images/biomes/b03-wire-web-concept.png", biome, "VIS-54", "image-JKbCGE"],
+    ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -37,11 +38,25 @@ for (const [asset, owner, id, source] of [
     })
 }
 
-test("Curator's working body baseline and author-only motivation do not author a fight or resolve origins", () => {
+test("Curator's revised body and working fight direction preserve all-kit and origin boundaries", () => {
     assert.match(boss, /^id: BS004$/m)
     assert.match(boss, /^status: in-progress$/m)
-    assert.match(boss, /four robust support assemblies and four finer reader\/manipulator assemblies/)
-    assert.match(boss, /two views and two hardware details of \*\*one body\*\*/)
+    assert.match(boss, /lightweight engineered anthropomorphic interface/)
+    assert.match(boss, /not a retained woman's body or an armoured tank/)
+    assert.match(boss, /head below the body and back toward the direction of travel/)
+    assert.match(boss, /Eight principal assemblies are the working topology target/)
+    assert.match(boss, /Folded limbs conceal the torso through most ordinary movement/)
+    assert.match(boss, /RELAY's biological head\/torso and fully biomechanical limbs remain unchanged/)
+    assert.match(boss, /shared manufacturing period/)
+    assert.match(boss, /No date, serial, matching portrait, explicit dialogue/)
+    assert.match(boss, /Superseded broad-body candidate/)
+    assert.match(boss, /small unstable projected human visage/)
+    assert.match(boss, /one voice and finish in another/)
+    assert.match(boss, /descends to repair\/recover its collection/)
+    assert.match(boss, /vault infrastructure rather than compulsory erasure of victim memories/)
+    assert.match(boss, /not a required player route verb/)
+    assert.match(boss, /Prevent softlocks/)
+    assert.ok(boss.indexOf("content/images/bosses/bs004-interface-concept.png") < boss.indexOf("content/images/bosses/bs004-concept.png"))
     assert.match(boss, /not approved guns or attacks/)
     assert.match(boss, /does not prove a biological species/)
     assert.match(boss, /objective drift, not a settled conscious rebellion/)
