@@ -24,7 +24,7 @@ Additional accepted Mission bosses receive pages during the later boss populatio
 
 ## In-progress visual development
 
-- [[Bosses/BS004|BS004 — Curator]] — MA03's B03 Guardian; agile inverted engineered interface and physical wire-web direction established, superseding the broad tank-like body. Grounded repair-bait openings and laser/crate attacks are working directions; all-kit geometry, phases, tuning, outcomes and rewards remain to be authored; this is not a Boss placement in MA01.
+- [[Bosses/BS004|BS004 — Curator]] — MA03's B03 Guardian; agile inverted manufactured biological torso/head, specialist articulated limbs and physical wire-web direction established, superseding the broad tank-like body. Grounded repair-bait openings and laser/crate attacks are working directions; all-kit geometry, phases, tuning, outcomes and rewards remain to be authored; this is not a Boss placement in MA01.
 
 ## Stable Boss IDs
 

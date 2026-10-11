@@ -11,6 +11,7 @@ for (const [asset, owner, id, source] of [
     ["images/bosses/bs004-concept.png", boss, "VIS-53", "image-SWE7hW"],
     ["images/biomes/b03-wire-web-concept.png", biome, "VIS-54", "image-JKbCGE"],
     ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
+    ["images/bosses/bs004-biological-concept.png", boss, "VIS-56", "image-RVnGYO"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -41,8 +42,13 @@ for (const [asset, owner, id, source] of [
 test("Curator's revised body and working fight direction preserve all-kit and origin boundaries", () => {
     assert.match(boss, /^id: BS004$/m)
     assert.match(boss, /^status: in-progress$/m)
-    assert.match(boss, /lightweight engineered anthropomorphic interface/)
-    assert.match(boss, /not a retained woman's body or an armoured tank/)
+    assert.match(boss, /manufactured biological woman's torso and actual human head\/brain/)
+    assert.match(boss, /not a retained woman's corpse or RELAY's own body/)
+    assert.match(boss, /reusing an established human-production process/i)
+    assert.match(boss, /in front of the physical face/)
+    assert.match(boss, /the real head remains visible behind it/i)
+    assert.match(boss, /silhouette retained, tissue\/head treatment superseded/)
+    assert.ok(boss.indexOf("content/images/bosses/bs004-biological-concept.png") < boss.indexOf("content/images/bosses/bs004-interface-concept.png"))
     assert.match(boss, /head below the body and back toward the direction of travel/)
     assert.match(boss, /Eight principal assemblies are the working topology target/)
     assert.match(boss, /Folded limbs conceal the torso through most ordinary movement/)
