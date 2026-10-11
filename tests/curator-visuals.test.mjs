@@ -13,6 +13,7 @@ for (const [asset, owner, id, source] of [
     ["images/bosses/bs004-interface-concept.png", boss, "VIS-55", "image-PfTuhs"],
     ["images/bosses/bs004-biological-concept.png", boss, "VIS-56", "image-RVnGYO"],
     ["images/bosses/bs004-attachments-concept.png", boss, "VIS-57", "image-yMf5kI"],
+    ["images/bosses/bs004-human-proportions-concept.png", boss, "VIS-58", "image-JS2o1J"],
 ]) {
     test(`${id} has linked PNG pixels, provenance and no embedded text/EXIF`, () => {
         assert.ok(owner.includes(`content/${asset}`))
@@ -55,9 +56,15 @@ test("Curator's revised body and working fight direction preserve all-kit and or
     assert.match(boss, /two shoulder roots, two hip roots and four dorsal roots in two paired rows/)
     assert.match(boss, /shoulders sit low beside the neck\/head and hips sit high/)
     assert.match(boss, /not proof that every generated root-to-tip path is anatomically correct/)
-    assert.match(boss, /follows RELAY-like natural breast\/chest contours/)
+    assert.match(boss, /follow RELAY-like natural breast\/chest contours/)
     assert.match(boss, /anatomical volume remains covered/)
-    assert.match(boss, /One continuous chest scrap/)
+    assert.match(boss, /Overlapping old cloth scraps\/bandage-like strips/)
+    assert.match(boss, /No circular nipple caps, rivets at breast tips/)
+    assert.match(boss, /extra reach and length come from hardware, not an elongated abdomen/)
+    assert.match(boss, /Hip roots use the closed pelvic cradle/)
+    assert.match(boss, /original task body has no clothing requirement/)
+    assert.match(boss, /awkwardly copies that practice with old retained scraps/)
+    assert.ok(boss.indexOf("content/images/bosses/bs004-human-proportions-concept.png") < boss.indexOf("content/images/bosses/bs004-attachments-concept.png"))
     assert.match(boss, /no dedicated cups, sculpted breast armour or clean tailored costume/)
     assert.match(boss, /grime, frayed edges and rough repairs match the scratched/)
     assert.ok(boss.indexOf("content/images/bosses/bs004-attachments-concept.png") < boss.indexOf("content/images/bosses/bs004-biological-concept.png"))
