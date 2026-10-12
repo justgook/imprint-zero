@@ -389,7 +389,7 @@ Mission pages own gameplay style, encounter content, timing, enemies, and implem
 | [[Missions/M04|M04 — Production Halt]] | B02 | RAM-only rescue and RELAY recovery | Stage 1 |
 | [[Missions/M05|M05 — The Four Trials]] | B02 | Physical full-crew trials; Mesh Dive / memory convergence and collective Overdrive unlock | Stage 1 |
 | [[Missions/HUB1|HUB1 — Campaign Hub]] | — | Open Act II selection and replay | Accepted |
-| [[Missions/MA01|MA01 — Ghost Archive]] | B03 | Act II opening Mission | TODO |
+| [[Missions/MA01|MA01 — Ghost Archive]] | B03 | Act II opening Mission; document-only closeout complete, runtime validation deferred | Stage 1 |
 | [[Missions/MA02|MA02 — Familiar Strangers]] | B03 | Act II continuation | TODO |
 | [[Missions/MA03|MA03 — The Choir of Selves]] | B03 | B03 Guardian | TODO |
 | [[Missions/MB01|MB01 — Vertical Front]] | B04 | Act II opening Mission | TODO |

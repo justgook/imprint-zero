@@ -236,3 +236,241 @@ msgstr "Use Wall Run."
 #: cutscenes/cs001.md
 msgid "dialogue.cs001.ram.door"
 msgstr "Door was taking too long."
+
+#. Speaker: OPERATOR
+#. Intent: Operational instruction; immediate harm is real, command ownership unexplained.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.l001"
+msgstr "Civilian receivers are taking an involuntary feed. Isolate the outbound line, then contain its source."
+
+#. Speaker: ROOK
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.rook.l001"
+msgstr "Understood. Source stays intact."
+
+#. Speaker: VECTOR
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.vector.l001"
+msgstr "Those aren't memories they chose."
+
+#. Speaker: RAM
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.ram.l001"
+msgstr "Cut the feed. Keep the source. Got it."
+
+#. Speaker: RELAY
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.relay.l001"
+msgstr "Outbound only. The storage needs power."
+
+#. Speaker: ROOK
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.rook.l001"
+msgstr "Outbound line isolated."
+
+#. Speaker: VECTOR
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.vector.l001"
+msgstr "The feed stopped. They're still shaken."
+
+#. Speaker: RAM
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.ram.l001"
+msgstr "Feed's cut. Storage is still on."
+
+#. Speaker: RELAY
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.relay.l001"
+msgstr "Outbound transmission is isolated. Local storage remains powered."
+
+#. Speaker: OPERATOR
+#. Intent: No new timer or escort objective.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.l001"
+msgstr "Good. Contain the source package."
+
+#. Speaker: ROOK
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.rook.l001"
+msgstr "Package contained. Other crew profiles match fragments of it."
+
+#. Speaker: VECTOR
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.vector.l001"
+msgstr "Other crew profiles match too. That isn't a history."
+
+#. Speaker: RAM
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.ram.l001"
+msgstr "That memory's in more than one file."
+
+#. Speaker: RELAY
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.relay.l001"
+msgstr "Matching fragments. No original record identified."
+
+#. Speaker: OPERATOR
+#. Intent: Motivate MA02 without naming Curator or proving origin.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.l001"
+msgstr "Its routing points to an active distribution site. Return with the package."
+
+#. Speaker: OPERATOR
+#. Intent: Manual departure; no undiscovered route mention.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM04
+msgid "dialogue.ma01.com04.l001"
+msgstr "Return rail released. Board your Coffin when you're ready."
+
+#. Speaker: OPERATOR
+#. Intent: Later intrusion, no revived crisis.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.revisit.l001"
+msgstr "Archive operations have resumed. Secure local access before returning."
+
+#. Speaker: Deployed Character
+#. Intent: Same neutral source wording for all four recorded voices; later safe control inspection.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.revisit.l001"
+msgstr "The outbound line is still isolated."
+
+#. Speaker: OPERATOR
+#. Intent: Restoration is persistent.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.revisit.l002"
+msgstr "Leave it that way."
+
+#. Speaker: Deployed Character
+#. Intent: Safe record review; no new recovery claim.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.revisit.l001"
+msgstr "The contained record still shows partial crew-profile matches."
+
+#. Speaker: OPERATOR
+#. Intent: Later visit; no duplicate source or story reward.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.revisit.l002"
+msgstr "Review does not change its containment. Secure your return lane."
+
+#. Speaker: Unidentified caller
+#. Intent: Obscured call; no kinship, gender, name or institution. Same utterance across viewpoints, spatial mix differs.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: cutscenes/cs011.md:P03
+msgid "dialogue.cs011.memory.call"
+msgstr "Come inside."
+
+#. Speaker: ROOK
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.rook.response"
+msgstr "I know that doorway."
+
+#. Speaker: VECTOR
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.vector.response"
+msgstr "That boat. I've seen it before."
+
+#. Speaker: RAM
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.ram.response"
+msgstr "Boat got stuck. I remember that."
+
+#. Speaker: RELAY
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.relay.response"
+msgstr "I remember the same sound."
+
+#. Speaker: ROOK
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.rook.view"
+msgstr "I remember the boat from the doorway."
+
+#. Speaker: VECTOR
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.vector.view"
+msgstr "I was by a bench. Or I remember being there."
+
+#. Speaker: RAM
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.ram.view"
+msgstr "I remember the step across from the drain."
+
+#. Speaker: RELAY
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.relay.view"
+msgstr "The sound comes from the threshold in mine."
+
+#. Speaker: ROOK
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.rook.close"
+msgstr "We'll keep the views separate."
+
+#. Speaker: VECTOR
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.vector.close"
+msgstr "Same image. That doesn't tell us who lived it."
+
+#. Speaker: RAM
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.ram.close"
+msgstr "Same boat. Different places."
+
+#. Speaker: RELAY
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.relay.close"
+msgstr "Matching material does not identify who it belongs to."

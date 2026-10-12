@@ -237,3 +237,275 @@ msgstr ""
 #. Translation status: Draft; native-language review pending.
 msgid "dialogue.cs001.ram.door"
 msgstr "A porta estava demorando demais."
+
+#. Speaker: OPERATOR
+#. Intent: Operational instruction; immediate harm is real, command ownership unexplained.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.l001"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.rook.l001"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.vector.l001"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.ram.l001"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Only the deployed Character responds; no companion handoff.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.relay.l001"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.rook.l001"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.vector.l001"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.ram.l001"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Report cessation, not complete civilian recovery.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.relay.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: No new timer or escort objective.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.l001"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.rook.l001"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.vector.l001"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.ram.l001"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Partial association, never a donor map; meaningful after scene skip.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.relay.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: Motivate MA02 without naming Curator or proving origin.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: Manual departure; no undiscovered route mention.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM04
+msgid "dialogue.ma01.com04.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: Later intrusion, no revived crisis.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM01
+msgid "dialogue.ma01.com01.revisit.l001"
+msgstr ""
+
+#. Speaker: Deployed Character
+#. Intent: Same neutral source wording for all four recorded voices; later safe control inspection.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.revisit.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: Restoration is persistent.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM02
+msgid "dialogue.ma01.com02.revisit.l002"
+msgstr ""
+
+#. Speaker: Deployed Character
+#. Intent: Safe record review; no new recovery claim.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.revisit.l001"
+msgstr ""
+
+#. Speaker: OPERATOR
+#. Intent: Later visit; no duplicate source or story reward.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:COM03
+msgid "dialogue.ma01.com03.revisit.l002"
+msgstr ""
+
+#. Speaker: Unidentified caller
+#. Intent: Obscured call; no kinship, gender, name or institution. Same utterance across viewpoints, spatial mix differs.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: cutscenes/cs011.md:P03
+msgid "dialogue.cs011.memory.call"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.rook.response"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.vector.response"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.ram.response"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Present-day recognition is subjective; no historical body assignment.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: cutscenes/cs011.md:P04
+msgid "dialogue.cs011.relay.response"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.rook.view"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.vector.view"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.ram.view"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Optional two-person recognition after successful MA01; perceived viewpoint, not source ownership.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.relay.view"
+msgstr ""
+
+#. Speaker: ROOK
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.rook.close"
+msgstr ""
+
+#. Speaker: VECTOR
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.vector.close"
+msgstr ""
+
+#. Speaker: RAM
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.ram.close"
+msgstr ""
+
+#. Speaker: RELAY
+#. Intent: Only initiating Character's closure plays; no four-person mandatory scene.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "dialogue.ma01.hub.relay.close"
+msgstr ""

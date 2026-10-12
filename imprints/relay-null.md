@@ -27,4 +27,4 @@ The scene's possible motive does not add data-erasure behavior to the [[Machine 
 
 MA01's working O01 cable-service detour is authored on the [[Missions/MA01#specialization-imprint|owning Mission page]]. Any Character may collect this Imprint by ordinary offline-recorder interaction; watch/skip has the same direct Null and Cascade Virus result. The current deployed configuration stays unchanged until Hub reconfiguration. Already registered acquisition survives defeat without duplicate grants; prior-campaign viewed history does not grant this campaign's Specialization.
 
-> **TODO — Acquisition validation:** Validate cable readability, recorder feedback and safe return against MA01's blockout. Presentation refinement belongs to CS012; field source-profile rewards remain a separate decision.
+> **TODO — Acquisition validation:** Validate cable readability, recorder feedback and safe return against MA01's blockout. Presentation refinement belongs to CS012. Null/Cascade Virus are direct recorder grants, not spider Blueprint/research rewards; MA01's ordinary spider source-value disposition is explicitly none.

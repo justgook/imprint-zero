@@ -810,3 +810,171 @@ msgstr "Mover"
 #. [Infinitive/tutorial verb] to magnify/shrink a display/image/etc.
 msgid "game.action.zoom"
 msgstr "Ampliar"
+
+#. Intent: Required objective, source power preserved.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R01
+msgid "game.ma01.objective.isolate"
+msgstr ""
+
+#. Intent: Required objective, safe R06.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R04
+msgid "game.ma01.objective.contain"
+msgstr ""
+
+#. Intent: Shown after CS011 watch or skip; no location marker for optional content.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R06
+msgid "game.ma01.objective.return"
+msgstr ""
+
+#. Intent: Completion requires explicit interaction.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R07
+msgid "game.ma01.objective.extract"
+msgstr ""
+
+#. Intent: Restored-world visit; no repeated broadcast crisis.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R01
+msgid "game.ma01.objective.revisit"
+msgstr ""
+
+#. Intent: Physical Interact label, no Hack.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R04
+msgid "game.ma01.control.isolate"
+msgstr ""
+
+#. Intent: State feedback, no whole-facility shutdown.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R04
+msgid "game.ma01.feedback.isolated"
+msgstr ""
+
+#. Intent: Later safe inspection, does not toggle repair off.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R04
+msgid "game.ma01.feedback.restored"
+msgstr ""
+
+#. Intent: First-operation ordinary interaction.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R06
+msgid "game.ma01.control.contain"
+msgstr ""
+
+#. Intent: Objective information survives scene skip, no donor field.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R06
+msgid "game.ma01.feedback.contained"
+msgstr ""
+
+#. Intent: Optional on later visits, no new source grant.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R06
+msgid "game.ma01.control.review"
+msgstr ""
+
+#. Intent: Prompt appears only when physically near, not an objective marker.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:O01
+msgid "game.ma01.control.recorder"
+msgstr ""
+
+#. Intent: After first collection, no forced Character or Specialization switch.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:O01
+msgid "game.ma01.feedback.null"
+msgstr ""
+
+#. Intent: Owned reward, no duplicate acquisition.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:O01
+msgid "game.ma01.feedback.recorder.review"
+msgstr ""
+
+#. Intent: Only appears at reached control; does not preview secret route or ending.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:O03
+msgid "game.ma01.control.reroute"
+msgstr ""
+
+#. Intent: Local response only; hidden route commits on successful extraction.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:O03
+msgid "game.ma01.feedback.rerouted"
+msgstr ""
+
+#. Intent: Only interact after local clear.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R07
+msgid "game.ma01.control.rail"
+msgstr ""
+
+#. Intent: Safe R08 access, not automatic departure.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R07
+msgid "game.ma01.feedback.rail"
+msgstr ""
+
+#. Intent: Explicit completion interaction.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R08
+msgid "game.ma01.control.extract"
+msgstr ""
+
+#. Intent: Defensive invalid-state response; normally room graph prevents premature access.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R08
+msgid "game.ma01.feedback.blocked"
+msgstr ""
+
+#. Intent: MA02 choice after success.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R08
+msgid "game.ma01.exit.continue"
+msgstr ""
+
+#. Intent: Reconfiguration at Hub.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R08
+msgid "game.ma01.exit.hub"
+msgstr ""
+
+#. Intent: Only discovered route; existing consistent special colour/indentation, no MS01 label.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:R08
+msgid "game.ma01.exit.optional"
+msgstr ""
+
+#. Intent: Optional conversation; no resource spend or completion requirement.
+#. Source status: Working Stage-1 English; no measured voice/animation timing.
+#. Translation status: Pending; native-language review required.
+#: missions/ma01.md:HUB1
+msgid "game.ma01.hub.topic"
+msgstr ""

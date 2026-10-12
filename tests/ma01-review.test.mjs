@@ -70,7 +70,8 @@ test("MA01's scenes separate perspective evidence from an optional Specializatio
         assert.ok(graph.includes(`click ${id} href "#/cutscenes/${id.toLowerCase()}"`))
         assert.ok(catalogue.includes(`Cutscenes/${id}|${id}`))
         assert.ok(sidebar.includes(`Cutscenes/${id}|${id}`))
-        assert.doesNotMatch(scene, /locale\/[^\s]+\?entry=/)
+        if (id === "CS011") assert.match(scene, /entry=dialogue.cs011.memory.call/)
+        else assert.match(scene, /Wordless scene/)
     }
     const childhood = read("cutscenes/cs011.md")
     for (const name of ["ROOK", "VECTOR", "RAM", "RELAY"]) assert.match(childhood, new RegExp(`\\| ${name} \\|`))

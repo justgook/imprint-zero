@@ -53,6 +53,10 @@ Every configured catalogue must contain every stable ID, and English must provid
 
 Add new stable IDs to every configured locale, leaving non-English `msgstr ""` until translated. The wiki displays `[missing translation]` for empty values; blanks must not be mistaken for completed localization. M02 uses this convention. Older ID-valued fallbacks remain development placeholders, not completed translations; do not add new ones or copy draft English into non-English catalogues.
 
+### MA01 working English source
+
+[[Missions/MA01#english-communication-source|MA01]] owns COM01–COM04 first-operation/restored variants, optional two-person HUB1 recognition and objective/device feedback. [[Cutscenes/CS011#forty-second-presentation-schedule|CS011]] owns the obscured call and four present-day responses; CS012 is intentionally wordless. All 58 new IDs exist in each configured locale: English is populated, non-English entries are explicitly pending, not English copies or finished translations. Voice recording, native review and measured delivery remain production tasks rather than Stage-1 document gaps.
+
 ## Locales
 
 Player-facing catalogues live under the top-level `locale/<language>/` directory. The English files are linked from the sidebar; each catalogue page provides links to the same file in every language configured in `_config.md`.

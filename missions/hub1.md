@@ -77,6 +77,8 @@ Shortcuts may change station focus/presentation without adding an in-world telep
 
 Sleep and restoration use the personal Recovery Capsules. Do not add a bedroom or beds to HUB1; the conversation table and benches serve social/awake-rest activity. A Character's Coffin can remain docked while that person is active elsewhere in the Hub.
 
+[[Missions/MA01#optional-hub1-recognition|MA01's courtyard-memory topic]] becomes available after its first successful extraction through both physical and menu conversation access. MA01 owns the two-person English line selection and no-extra-grant boundary; ambient schedules never gate this topic.
+
 Keep available conversations and devices reachable regardless of an ambient routine; a crew member moving or resting cannot make story dialogue missable or force a wait. During a station interaction, Mesh Dive or Cutscene, suspend/reframe conflicting activity rather than allowing bodies, dialogue or camera focus to interfere. Resume ordinary ambience afterward without implying a shared historical-memory event.
 
 > **TODO — Ambient crew blocking:** Author compact activity loops, transition priorities, interaction overrides and collision/camera behaviour. The reference image's activities are examples, not permanent jobs; switching control must release the old actor to ambience and stop the new actor's ambient routine without duplicating either body.
